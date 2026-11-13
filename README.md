@@ -1,4 +1,4 @@
-# horror luar
+# horrorluar
 
 Pipeline produksi short horor legenda (9:16, 50–60 detik, VO Inggris) dengan Remotion + aset SVG. Repo ini berisi brief, arahan visual dan audio, naskah semua episode, script pipeline, dan library aset dari EP01–EP20. File video tidak disertakan.
 
