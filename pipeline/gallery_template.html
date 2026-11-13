@@ -1,0 +1,251 @@
+<title>Legends Asset Library</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: sticky bar with view tabs; each view is a single column of rows (episodes, sfx) or an auto-fill card grid (components). */
+:root {
+  --bg: #0b0c10; --panel: #13151b; --line: #23262f; --fg: #e8e3d8; --muted: #8e8a83; --accent: #e3a94b; --accent-ink: #1a1307;
+  --pill: #1c1f27;
+  --display: 'Cinzel', 'Trajan Pro', Georgia, serif;
+  --body: 'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --mono: 'JetBrains Mono', ui-monospace, 'SFMono-Regular', Menlo, monospace;
+  color-scheme: dark;
+}
+@media (prefers-color-scheme: light) { :root:not([data-theme="dark"]) {
+  --bg: #f3f1ec; --panel: #ffffff; --line: #dedad2; --fg: #1b1a17; --muted: #6c6860; --accent: #9a6514; --accent-ink: #fff8ec; --pill: #ebe7df; color-scheme: light; } }
+:root[data-theme="light"] { --bg: #f3f1ec; --panel: #ffffff; --line: #dedad2; --fg: #1b1a17; --muted: #6c6860; --accent: #9a6514; --accent-ink: #fff8ec; --pill: #ebe7df; color-scheme: light; }
+* { box-sizing: border-box; }
+body { background: var(--bg); color: var(--fg); font: 14px/1.5 var(--body); }
+body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-area-inset-top, 0px); z-index: 10; background: var(--bg); }
+.wrap { padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); max-width: 1240px; margin: 0 auto; }
+header.bar { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5; background: color-mix(in srgb, var(--bg) 92%, transparent); backdrop-filter: blur(8px); border-bottom: 1px solid var(--line); }
+.bar .wrap { display: flex; flex-wrap: wrap; align-items: center; gap: 10px 24px; padding-block: 14px; }
+h1 { font: 700 22px/1.1 var(--display); letter-spacing: .06em; margin: 0; text-wrap: balance; }
+.stats { color: var(--muted); font-size: 12px; font-variant-numeric: tabular-nums; }
+nav { display: flex; gap: 4px; flex-wrap: wrap; margin-left: auto; }
+nav a { color: var(--muted); text-decoration: none; padding: 6px 10px; border-radius: 6px; font-weight: 500; font-size: 13px; }
+nav a:hover { color: var(--fg); }
+nav a[aria-current="page"] { color: var(--accent-ink); background: var(--accent); }
+a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+main .wrap { padding-block: 24px 64px; display: grid; gap: 20px; }
+.intro { color: var(--muted); max-width: 68ch; margin: 0; }
+.intro code, .mono { font-family: var(--mono); font-size: 12px; }
+
+/* episodes */
+.ep { display: grid; grid-template-columns: 200px minmax(0, 1fr); gap: 16px; padding-block: 18px; border-top: 1px solid var(--line); }
+.ep:first-of-type { border-top: 0; }
+.ep-meta { display: grid; gap: 4px; align-content: start; }
+.ep-key { font: 500 11px var(--mono); letter-spacing: .12em; color: var(--muted); text-transform: uppercase; display: flex; align-items: center; gap: 8px; }
+.dot { width: 10px; height: 10px; border-radius: 50%; background: var(--c, var(--accent)); flex: none; }
+.ep-title { font: 700 20px/1.15 var(--display); letter-spacing: .03em; margin: 0; }
+.ep-sub { color: var(--muted); font-size: 12px; font-variant-numeric: tabular-nums; }
+.ep-path { font: 11px var(--mono); color: var(--muted); word-break: break-all; }
+.strip { display: flex; gap: 6px; overflow-x: auto; padding-bottom: 6px; scrollbar-width: thin; }
+.cell { flex: none; width: 90px; aspect-ratio: 9 / 16; max-width: 100%; border-radius: 4px; background-color: #000; background-repeat: no-repeat; position: relative; border: 1px solid var(--line); cursor: pointer; padding: 0; }
+.cell span { position: absolute; left: 4px; top: 3px; font: 500 10px var(--mono); color: #fff; text-shadow: 0 1px 2px #000; }
+.cell[aria-pressed="true"] { outline: 2px solid var(--c, var(--accent)); outline-offset: 1px; }
+.shot-info { grid-column: 2; font-size: 13px; color: var(--muted); max-width: 72ch; min-height: 1.5em; }
+.shot-info b { color: var(--fg); font-weight: 600; }
+.legacy { font-size: 12px; color: var(--muted); font-style: italic; }
+
+/* components */
+.filters { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+.chip { border: 1px solid var(--line); background: var(--panel); color: var(--fg); border-radius: 999px; padding: 5px 12px; font: 500 12px var(--body); cursor: pointer; }
+.chip[aria-pressed="true"] { background: var(--accent); color: var(--accent-ink); border-color: var(--accent); }
+.chip .n { opacity: .7; font-variant-numeric: tabular-nums; margin-left: 4px; }
+input[type="search"], select { background: var(--panel); color: var(--fg); border: 1px solid var(--line); border-radius: 8px; padding: 7px 10px; font: 13px var(--body); }
+input[type="search"] { flex: 1 1 200px; min-width: 0; }
+.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 330px), 1fr)); gap: 12px; }
+.card { display: grid; grid-template-columns: 72px minmax(0, 1fr); gap: 12px; background: var(--panel); border: 1px solid var(--line); border-radius: 10px; padding: 10px; }
+.card .cell { width: 72px; cursor: default; }
+.card .noimg { width: 72px; aspect-ratio: 9/16; border-radius: 4px; border: 1px dashed var(--line); display: grid; place-items: center; color: var(--muted); font: 10px var(--mono); text-align: center; }
+.c-head { display: flex; flex-wrap: wrap; gap: 6px; align-items: baseline; }
+.c-name { font: 600 14px var(--mono); }
+.pill { font: 500 10px var(--body); text-transform: uppercase; letter-spacing: .08em; background: var(--pill); color: var(--muted); border-radius: 4px; padding: 2px 6px; }
+.c-props { font: 11px/1.45 var(--mono); color: var(--muted); margin-top: 4px; overflow-wrap: anywhere; }
+.c-doc { font-size: 12px; margin-top: 4px; }
+.c-file { font: 11px var(--mono); color: var(--accent); margin-top: 6px; overflow-wrap: anywhere; }
+.empty { color: var(--muted); padding: 24px 0; }
+
+/* sfx */
+.sfx { display: grid; grid-template-columns: 36px minmax(0, 140px) 64px minmax(0, 1fr); gap: 12px; align-items: center; padding-block: 8px; border-top: 1px solid var(--line); }
+.play { width: 32px; height: 32px; border-radius: 50%; border: 1px solid var(--line); background: var(--panel); color: var(--fg); cursor: pointer; display: grid; place-items: center; }
+.play[aria-pressed="true"] { background: var(--accent); color: var(--accent-ink); border-color: var(--accent); }
+.play svg { width: 12px; height: 12px; fill: currentColor; }
+.sfx .name { font: 500 13px var(--mono); overflow-wrap: anywhere; }
+.sfx .dur { font: 12px var(--mono); color: var(--muted); font-variant-numeric: tabular-nums; }
+.sfx .prompt { font-size: 13px; color: var(--muted); }
+.sfx .warn { color: var(--accent); }
+
+/* tables + steps */
+.tbl { overflow-x: auto; }
+table { border-collapse: collapse; width: 100%; font-size: 13px; }
+th, td { text-align: left; padding: 8px 10px; border-bottom: 1px solid var(--line); vertical-align: top; }
+th { font: 500 11px var(--body); text-transform: uppercase; letter-spacing: .08em; color: var(--muted); }
+ol.steps { margin: 0; padding-left: 22px; display: grid; gap: 14px; max-width: 80ch; }
+ol.steps li::marker { color: var(--accent); font-weight: 600; }
+ol.steps code { font: 12px var(--mono); background: var(--pill); padding: 1px 5px; border-radius: 4px; overflow-wrap: anywhere; }
+ol.steps p { margin: 2px 0 0; color: var(--muted); }
+
+@media (max-width: 640px) {
+  .ep { grid-template-columns: minmax(0, 1fr); }
+  .shot-info { grid-column: 1; }
+  .sfx { grid-template-columns: 36px minmax(0, 1fr) 52px; }
+  .sfx .prompt { grid-column: 2 / -1; }
+  nav { margin-left: 0; }
+}
+@media (prefers-reduced-motion: reduce) { * { scroll-behavior: auto !important; } }
+</style>
+
+<header class="bar"><div class="wrap">
+  <h1>Legends Asset Library</h1>
+  <div class="stats" id="stats"></div>
+  <nav id="nav" aria-label="Views">
+    <a href="#episodes">Episodes</a><a href="#components">Components</a><a href="#sfx">SFX</a><a href="#voices">Voices</a><a href="#pipeline">Pipeline</a>
+  </nav>
+</div></header>
+
+<main><div class="wrap">
+  <section id="v-episodes"></section>
+  <section id="v-components" hidden></section>
+  <section id="v-sfx" hidden></section>
+  <section id="v-voices" hidden></section>
+  <section id="v-pipeline" hidden></section>
+</div></main>
+
+<script id="catalog" type="application/json">__CATALOG__</script>
+<script>
+const C = JSON.parse(document.getElementById('catalog').textContent);
+const EP = Object.fromEntries(C.episodes.map(e => [e.key, e]));
+const esc = s => String(s ?? '').replace(/[&<>"]/g, ch => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[ch]));
+const fmtDur = s => s ? `${Math.floor(s / 60)}:${String(Math.round(s % 60)).padStart(2, '0')}` : '';
+const CATS = ['character', 'face', 'hand', 'prop', 'fx', 'environment', 'set'];
+
+document.getElementById('stats').textContent =
+  `${C.episodes.length} episodes · ${C.components.length} components · ${C.sfx.length} SFX · ${Object.keys(C.voices).length} voices`;
+
+function cellStyle(ep, i) {
+  const e = EP[ep]; const n = e.shots.filter(s => s.thumb).length;
+  const x = n > 1 ? (i / (n - 1)) * 100 : 0;
+  return `background-image:url('${e.sprite}');background-size:${n * 100}% 100%;background-position:${x}% 0`;
+}
+function shotCell(ep, id, tag = 'button') {
+  const s = EP[ep].shots.find(s => s.id === id);
+  if (!s || s.cell == null) return null;
+  return `<${tag} class="cell" ${tag === 'button' ? 'type="button"' : ''} data-ep="${ep}" data-id="${id}" style="${cellStyle(ep, s.cell)}" aria-label="Shot ${id}"><span>${String(id).padStart(2, '0')}</span></${tag}>`;
+}
+
+/* Episodes */
+(function () {
+  const v = document.getElementById('v-episodes');
+  v.innerHTML = `<p class="intro">Every shot of every episode as rendered. Click a frame to read its framing, hero element and voice-over line. Source for each project lives in <code>episodes/&lt;ep&gt;/</code>.</p>` +
+    C.episodes.map(e => `
+    <article class="ep" style="--c:${esc(e.accent || '')}">
+      <div class="ep-meta">
+        <div class="ep-key"><span class="dot"></span>${esc(e.key)}</div>
+        <h2 class="ep-title">${esc(e.title)}</h2>
+        <div class="ep-sub">${esc(e.country)} · ${e.shots.length} shots${e.duration ? ' · ' + fmtDur(e.duration) : ''}</div>
+        <div class="ep-path">${esc((e.video || '').replace('/home/user/', ''))}</div>
+      </div>
+      <div class="strip">${e.sprite ? e.shots.map(s => shotCell(e.key, s.id)).filter(Boolean).join('') : '<span class="legacy">No stills</span>'}</div>
+      <div class="shot-info" id="info-${e.key}">${e.kit === '3d-legacy' ? '<span class="legacy">Pilot episode built on the retired 3D kit. Shots are for reference only, no SVG source.</span>' : ''}</div>
+    </article>`).join('');
+  v.addEventListener('click', ev => {
+    const b = ev.target.closest('.cell'); if (!b) return;
+    const ep = b.dataset.ep, id = +b.dataset.id, s = EP[ep].shots.find(s => s.id === id);
+    v.querySelectorAll(`.cell[data-ep="${ep}"]`).forEach(x => x.setAttribute('aria-pressed', x === b));
+    document.getElementById('info-' + ep).innerHTML =
+      `<b>Shot ${id}</b>${s.set ? ' · set <b>' + esc(s.set) + '</b>' : ''} · ${esc(s.framing || '')}${s.camera ? ' · ' + esc(s.camera) : ''}` +
+      (s.hero ? `<br>Hero: ${esc(s.hero)}` : '') + (s.vo ? `<br>VO: “${esc(s.vo)}”` : '');
+  });
+})();
+
+/* Components */
+(function () {
+  const v = document.getElementById('v-components');
+  const counts = Object.fromEntries(CATS.map(c => [c, C.components.filter(x => x.cat === c).length]));
+  v.innerHTML = `<p class="intro">Reusable SVG pieces drawn for the series. To reuse one, copy its whole source file into the new project's <code>src/art/</code> and adjust it with props. The frame shows the first shot that uses it.</p>
+    <div class="filters">
+      <button type="button" class="chip" data-cat="" aria-pressed="true">All<span class="n">${C.components.length}</span></button>
+      ${CATS.map(c => `<button type="button" class="chip" data-cat="${c}" aria-pressed="false">${c}<span class="n">${counts[c]}</span></button>`).join('')}
+    </div>
+    <div class="filters">
+      <input type="search" id="q" placeholder="Search name, props, notes (e.g. hand, lamp, girl)" aria-label="Search components">
+      <select id="epf" aria-label="Episode"><option value="">All episodes</option>${C.episodes.filter(e => e.kit === 'svg').map(e => `<option value="${e.key}">${e.key} · ${esc(e.title)}</option>`).join('')}</select>
+    </div>
+    <div class="grid" id="cgrid"></div>`;
+  let cat = '';
+  const grid = v.querySelector('#cgrid'), q = v.querySelector('#q'), epf = v.querySelector('#epf');
+  function render() {
+    const t = q.value.trim().toLowerCase(), ef = epf.value;
+    const list = C.components.filter(x => (!cat || x.cat === cat) && (!ef || x.ep === ef) &&
+      (!t || (x.name + ' ' + x.props + ' ' + x.doc + ' ' + EP[x.ep].title).toLowerCase().includes(t)));
+    grid.innerHTML = list.length ? list.map(x => {
+      const img = x.shots && x.shots.length ? shotCell(x.ep, x.shots[0], 'div') : null;
+      return `<div class="card">${img || '<div class="noimg">not on<br>screen</div>'}
+        <div style="min-width:0">
+          <div class="c-head"><span class="c-name">${esc(x.name)}</span><span class="pill">${x.cat}</span><span class="pill">${x.ep} · ${esc(EP[x.ep].title)}</span></div>
+          ${x.doc ? `<div class="c-doc">${esc(x.doc)}</div>` : ''}
+          ${x.props ? `<div class="c-props">${esc(x.props)}</div>` : ''}
+          <div class="c-file">${esc(x.file)}:${x.line}${x.shots && x.shots.length ? ` · shots ${x.shots.join(', ')}` : ''}</div>
+        </div></div>`;
+    }).join('') : '<div class="empty">No components match. Clear the search or pick another category.</div>';
+  }
+  v.querySelector('.filters').addEventListener('click', ev => {
+    const b = ev.target.closest('.chip'); if (!b) return; cat = b.dataset.cat;
+    v.querySelectorAll('.chip').forEach(x => x.setAttribute('aria-pressed', x === b)); render();
+  });
+  q.addEventListener('input', render); epf.addEventListener('change', render); render();
+})();
+
+/* SFX */
+(function () {
+  const v = document.getElementById('v-sfx');
+  const PLAY = '<svg viewBox="0 0 12 12"><path d="M2 1l9 5-9 5z"/></svg>', STOP = '<svg viewBox="0 0 12 12"><rect x="2" y="2" width="8" height="8"/></svg>';
+  v.innerHTML = `<p class="intro">Shared sound library in <code>sfx/</code>. Loudness is normalised in the mix (beds −30 LUFS, cues −24 LUFS), so any file drops straight into a cue sheet. Loops are marked.</p>` +
+    C.sfx.map((s, i) => `<div class="sfx">
+      <button type="button" class="play" data-i="${i}" aria-pressed="false" aria-label="Play ${esc(s.name)}">${PLAY}</button>
+      <div class="name">${esc(s.name)}${s.loop ? ' <span class="pill">loop</span>' : ''}</div>
+      <div class="dur">${s.dur.toFixed(1)} s</div>
+      <div class="prompt ${s.note ? 'warn' : ''}">${esc(s.note || s.prompt || 'No prompt recorded')}</div></div>`).join('');
+  const audio = new Audio(); let cur = null;
+  const reset = () => { if (cur) { cur.setAttribute('aria-pressed', 'false'); cur.innerHTML = PLAY; } cur = null; };
+  audio.addEventListener('ended', reset);
+  v.addEventListener('click', ev => {
+    const b = ev.target.closest('.play'); if (!b) return;
+    if (cur === b) { audio.pause(); reset(); return; }
+    reset(); audio.src = C.sfx[+b.dataset.i].file; audio.play().catch(() => {});
+    cur = b; b.setAttribute('aria-pressed', 'true'); b.innerHTML = STOP;
+  });
+})();
+
+/* Voices */
+document.getElementById('v-voices').innerHTML = `<p class="intro">Voices used through ai33 (ElevenLabs v3). Keys match <code>VOICES</code> in <code>pipeline/episodes.py</code>.</p>
+  <div class="tbl"><table><thead><tr><th>Key</th><th>Voice ID</th><th>Use</th></tr></thead><tbody>
+  ${Object.entries(C.voices).map(([k, x]) => `<tr><td class="mono">${esc(k)}</td><td class="mono">${esc(x.id)}</td><td>${esc(x.note)}</td></tr>`).join('')}
+  </tbody></table></div>`;
+
+/* Pipeline */
+document.getElementById('v-pipeline').innerHTML = `<p class="intro">The production order for a new episode. Every script is in <code>pipeline/</code>; the Remotion kit to start from is in <code>template/</code>.</p>
+  <ol class="steps">
+    <li><code>episodes.py</code><p>Add the episode: title, accent, palette, characters, three sets with owners, 13 shots (shot 13 is the CTA).</p></li>
+    <li><code>python3 scaffold.py epNN</code><p>Copies the kit, writes episode.json with estimated timing, set and shot stubs, STYLE.md, then typechecks.</p></li>
+    <li><code>python3 -I gen_audio_all.py epNN</code><p>Two VO takes per line plus any new SFX into the shared library. Runs in parallel with the visuals.</p></li>
+    <li>Three set agents per episode<p>Briefed by <code>AGENT_BRIEF.md</code>; each previews its own shots and reuses pieces from this library.</p></li>
+    <li><code>python3 -I build_audio_ep.py epNN</code><p>Picks the best take, retimes shots to the real VO, mixes beds and cues with ducking, masters to −14 LUFS and reports overlaps.</p></li>
+    <li><code>node scripts/bake.mjs</code> then <code>node scripts/contact.mjs 0.6</code><p>Bakes blurred depth bands once and builds a fresh bundle plus the contact sheet for review.</p></li>
+    <li><code>./render_q.sh epNN:EPNN-name</code><p>Renders, adds grain at encode (<code>finish.sh</code>), runs <code>qc.sh</code> (specs, loudness, audio offset) and commits.</p></li>
+  </ol>`;
+
+/* Hash routing */
+const VIEWS = ['episodes', 'components', 'sfx', 'voices', 'pipeline'];
+function route() {
+  const h = location.hash.slice(1), cur = VIEWS.includes(h) ? h : 'episodes';
+  VIEWS.forEach(n => { document.getElementById('v-' + n).hidden = n !== cur; });
+  document.querySelectorAll('#nav a').forEach(a => {
+    if (a.getAttribute('href') === '#' + cur) a.setAttribute('aria-current', 'page'); else a.removeAttribute('aria-current');
+  });
+}
+window.addEventListener('hashchange', route); route();
+</script>

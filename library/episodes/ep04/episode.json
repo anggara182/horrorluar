@@ -1,0 +1,1137 @@
+{
+ "id": "EP04",
+ "title": "Pocong",
+ "fps": 30,
+ "width": 1080,
+ "height": 1920,
+ "durationSec": 55.175,
+ "accent": "#ffcc4d",
+ "timingSource": "ai33 eleven_v3 transcript, tempo x1.05",
+ "shots": [
+  {
+   "id": 1,
+   "start": 0.0,
+   "end": 5.445,
+   "act": 1,
+   "set": "road",
+   "owner": "R",
+   "framing": "Wide, cemetery gate at night under one street light",
+   "camera": "Slow push-in",
+   "vo": "In Indonesia, if someone in white asks you to untie a knot… don't.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "In",
+     "highlight": false,
+     "start": 0.557,
+     "end": 0.652
+    },
+    {
+     "text": "Indonesia,",
+     "highlight": false,
+     "start": 0.71,
+     "end": 1.338
+    },
+    {
+     "text": "if",
+     "highlight": false,
+     "start": 1.852,
+     "end": 1.948
+    },
+    {
+     "text": "someone",
+     "highlight": false,
+     "start": 2.005,
+     "end": 2.252
+    },
+    {
+     "text": "in",
+     "highlight": false,
+     "start": 2.29,
+     "end": 2.405
+    },
+    {
+     "text": "white",
+     "highlight": false,
+     "start": 2.462,
+     "end": 2.748
+    },
+    {
+     "text": "asks",
+     "highlight": false,
+     "start": 2.824,
+     "end": 3.052
+    },
+    {
+     "text": "you",
+     "highlight": false,
+     "start": 3.11,
+     "end": 3.167
+    },
+    {
+     "text": "to",
+     "highlight": false,
+     "start": 3.205,
+     "end": 3.281
+    },
+    {
+     "text": "untie",
+     "highlight": false,
+     "start": 3.338,
+     "end": 3.643
+    },
+    {
+     "text": "a",
+     "highlight": false,
+     "start": 3.681,
+     "end": 3.738
+    },
+    {
+     "text": "knot…",
+     "highlight": true,
+     "start": 3.757,
+     "end": 4.081
+    },
+    {
+     "text": "don't.",
+     "highlight": false,
+     "start": 4.614,
+     "end": 4.957
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "A white figure standing very still under the street light by the cemetery gate",
+   "notes": "Street, gate, frangipani, wall; LOW detail bg."
+  },
+  {
+   "id": 2,
+   "start": 5.445,
+   "end": 7.542,
+   "act": 1,
+   "set": "graphic",
+   "owner": "G",
+   "framing": "Title card",
+   "camera": "Slow push",
+   "vo": "It's called a pocong.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "It's",
+     "highlight": false,
+     "start": 5.802,
+     "end": 5.955
+    },
+    {
+     "text": "called",
+     "highlight": false,
+     "start": 6.012,
+     "end": 6.355
+    },
+    {
+     "text": "a",
+     "highlight": false,
+     "start": 6.412,
+     "end": 6.469
+    },
+    {
+     "text": "pocong.",
+     "highlight": true,
+     "start": 6.526,
+     "end": 7.059
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "Title 'POCONG' + 'An Indonesian legend' over a shrouded silhouette",
+   "notes": "Dark; one cold light from above."
+  },
+  {
+   "id": 3,
+   "start": 7.542,
+   "end": 12.236,
+   "act": 1,
+   "set": "graphic",
+   "owner": "G",
+   "framing": "Lore illustration, top-down",
+   "camera": "Slow tilt along the body",
+   "vo": "The dead are wrapped in white cloth, tied at the head and feet.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "The",
+     "highlight": false,
+     "start": 7.899,
+     "end": 7.994
+    },
+    {
+     "text": "dead",
+     "highlight": false,
+     "start": 8.09,
+     "end": 8.375
+    },
+    {
+     "text": "are",
+     "highlight": false,
+     "start": 8.432,
+     "end": 8.547
+    },
+    {
+     "text": "wrapped",
+     "highlight": false,
+     "start": 8.566,
+     "end": 8.928
+    },
+    {
+     "text": "in",
+     "highlight": false,
+     "start": 8.985,
+     "end": 9.08
+    },
+    {
+     "text": "white",
+     "highlight": false,
+     "start": 9.137,
+     "end": 9.385
+    },
+    {
+     "text": "cloth,",
+     "highlight": false,
+     "start": 9.442,
+     "end": 9.861
+    },
+    {
+     "text": "tied",
+     "highlight": false,
+     "start": 10.337,
+     "end": 10.642
+    },
+    {
+     "text": "at",
+     "highlight": false,
+     "start": 10.68,
+     "end": 10.775
+    },
+    {
+     "text": "the",
+     "highlight": false,
+     "start": 10.813,
+     "end": 10.89
+    },
+    {
+     "text": "head",
+     "highlight": true,
+     "start": 10.947,
+     "end": 11.175
+    },
+    {
+     "text": "and",
+     "highlight": false,
+     "start": 11.213,
+     "end": 11.309
+    },
+    {
+     "text": "feet.",
+     "highlight": true,
+     "start": 11.442,
+     "end": 11.747
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "A shrouded body lying on a mat, three ties (head, waist, feet) clearly drawn",
+   "notes": "Respectful, not gory; candle glow."
+  },
+  {
+   "id": 4,
+   "start": 12.236,
+   "end": 17.503,
+   "act": 1,
+   "set": "graphic",
+   "owner": "G",
+   "framing": "Close on the head knot",
+   "camera": "Slow push-in",
+   "vo": "If the knots are never loosened, the spirit can't rest. So it asks the living.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "If",
+     "highlight": false,
+     "start": 12.593,
+     "end": 12.669
+    },
+    {
+     "text": "the",
+     "highlight": false,
+     "start": 12.707,
+     "end": 12.803
+    },
+    {
+     "text": "knots",
+     "highlight": false,
+     "start": 12.822,
+     "end": 13.107
+    },
+    {
+     "text": "are",
+     "highlight": false,
+     "start": 13.126,
+     "end": 13.222
+    },
+    {
+     "text": "never",
+     "highlight": false,
+     "start": 13.26,
+     "end": 13.469
+    },
+    {
+     "text": "loosened,",
+     "highlight": false,
+     "start": 13.526,
+     "end": 13.965
+    },
+    {
+     "text": "the",
+     "highlight": false,
+     "start": 14.326,
+     "end": 14.422
+    },
+    {
+     "text": "spirit",
+     "highlight": false,
+     "start": 14.536,
+     "end": 14.841
+    },
+    {
+     "text": "can't",
+     "highlight": false,
+     "start": 14.898,
+     "end": 15.126
+    },
+    {
+     "text": "rest.",
+     "highlight": true,
+     "start": 15.184,
+     "end": 15.546
+    },
+    {
+     "text": "So",
+     "highlight": false,
+     "start": 16.022,
+     "end": 16.098
+    },
+    {
+     "text": "it",
+     "highlight": false,
+     "start": 16.154,
+     "end": 16.212
+    },
+    {
+     "text": "asks",
+     "highlight": false,
+     "start": 16.269,
+     "end": 16.555
+    },
+    {
+     "text": "the",
+     "highlight": false,
+     "start": 16.593,
+     "end": 16.669
+    },
+    {
+     "text": "living.",
+     "highlight": true,
+     "start": 16.707,
+     "end": 17.012
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "The knot above the head, cloth folds, a slight tremble",
+   "notes": "Black background, single rim light."
+  },
+  {
+   "id": 5,
+   "start": 17.503,
+   "end": 24.862,
+   "act": 1,
+   "set": "road",
+   "owner": "R",
+   "framing": "Medium, ojek waiting by the gate",
+   "camera": "Lateral track",
+   "vo": "My uncle drives a motorbike taxi. Late one night, a woman in white waved him down by the cemetery.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "My",
+     "highlight": false,
+     "start": 17.86,
+     "end": 17.993
+    },
+    {
+     "text": "uncle",
+     "highlight": false,
+     "start": 18.032,
+     "end": 18.26
+    },
+    {
+     "text": "drives",
+     "highlight": false,
+     "start": 18.336,
+     "end": 18.603
+    },
+    {
+     "text": "a",
+     "highlight": false,
+     "start": 18.641,
+     "end": 18.698
+    },
+    {
+     "text": "motorbike",
+     "highlight": false,
+     "start": 18.736,
+     "end": 19.174
+    },
+    {
+     "text": "taxi.",
+     "highlight": false,
+     "start": 19.251,
+     "end": 19.67
+    },
+    {
+     "text": "Late",
+     "highlight": false,
+     "start": 20.222,
+     "end": 20.413
+    },
+    {
+     "text": "one",
+     "highlight": false,
+     "start": 20.508,
+     "end": 20.66
+    },
+    {
+     "text": "night,",
+     "highlight": false,
+     "start": 20.717,
+     "end": 20.946
+    },
+    {
+     "text": "a",
+     "highlight": false,
+     "start": 21.365,
+     "end": 21.421
+    },
+    {
+     "text": "woman",
+     "highlight": false,
+     "start": 21.459,
+     "end": 21.67
+    },
+    {
+     "text": "in",
+     "highlight": false,
+     "start": 21.708,
+     "end": 21.822
+    },
+    {
+     "text": "white",
+     "highlight": true,
+     "start": 21.879,
+     "end": 22.146
+    },
+    {
+     "text": "waved",
+     "highlight": false,
+     "start": 22.184,
+     "end": 22.451
+    },
+    {
+     "text": "him",
+     "highlight": false,
+     "start": 22.47,
+     "end": 22.622
+    },
+    {
+     "text": "down",
+     "highlight": false,
+     "start": 22.679,
+     "end": 22.965
+    },
+    {
+     "text": "by",
+     "highlight": false,
+     "start": 23.441,
+     "end": 23.593
+    },
+    {
+     "text": "the",
+     "highlight": false,
+     "start": 23.632,
+     "end": 23.727
+    },
+    {
+     "text": "cemetery.",
+     "highlight": false,
+     "start": 23.784,
+     "end": 24.374
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "Uncle on the bike in the street-light pool; a pale figure in white raising one arm-shape at the gate",
+   "notes": "Reuse road set."
+  },
+  {
+   "id": 6,
+   "start": 24.862,
+   "end": 29.502,
+   "act": 1,
+   "set": "road",
+   "owner": "R",
+   "framing": "Tracking side view, riding at night",
+   "camera": "Fast lateral parallax",
+   "vo": "She didn't say a word the whole ride. She just held on. Tight.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "She",
+     "highlight": false,
+     "start": 25.219,
+     "end": 25.333
+    },
+    {
+     "text": "didn't",
+     "highlight": false,
+     "start": 25.352,
+     "end": 25.562
+    },
+    {
+     "text": "say",
+     "highlight": false,
+     "start": 25.6,
+     "end": 25.714
+    },
+    {
+     "text": "a",
+     "highlight": false,
+     "start": 25.791,
+     "end": 25.829
+    },
+    {
+     "text": "word",
+     "highlight": false,
+     "start": 25.886,
+     "end": 26.133
+    },
+    {
+     "text": "the",
+     "highlight": false,
+     "start": 26.172,
+     "end": 26.248
+    },
+    {
+     "text": "whole",
+     "highlight": false,
+     "start": 26.286,
+     "end": 26.495
+    },
+    {
+     "text": "ride.",
+     "highlight": false,
+     "start": 26.552,
+     "end": 26.914
+    },
+    {
+     "text": "She",
+     "highlight": false,
+     "start": 27.295,
+     "end": 27.391
+    },
+    {
+     "text": "just",
+     "highlight": false,
+     "start": 27.448,
+     "end": 27.619
+    },
+    {
+     "text": "held",
+     "highlight": false,
+     "start": 27.657,
+     "end": 27.886
+    },
+    {
+     "text": "on.",
+     "highlight": false,
+     "start": 27.981,
+     "end": 28.152
+    },
+    {
+     "text": "Tight.",
+     "highlight": true,
+     "start": 28.648,
+     "end": 29.01
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "Uncle riding, the white passenger on the back, cloth fluttering",
+   "notes": "Street lights streak past; city silhouettes."
+  },
+  {
+   "id": 7,
+   "start": 29.502,
+   "end": 33.325,
+   "act": 1,
+   "set": "bike",
+   "owner": "K",
+   "framing": "Medium from behind at a red light",
+   "camera": "Locked, slight idle shake",
+   "vo": "At a red light, he looked down at her arms around his waist.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "At",
+     "highlight": false,
+     "start": 29.859,
+     "end": 29.935
+    },
+    {
+     "text": "a",
+     "highlight": false,
+     "start": 29.973,
+     "end": 30.012
+    },
+    {
+     "text": "red",
+     "highlight": false,
+     "start": 30.05,
+     "end": 30.221
+    },
+    {
+     "text": "light,",
+     "highlight": false,
+     "start": 30.259,
+     "end": 30.526
+    },
+    {
+     "text": "he",
+     "highlight": false,
+     "start": 31.002,
+     "end": 31.097
+    },
+    {
+     "text": "looked",
+     "highlight": false,
+     "start": 31.135,
+     "end": 31.288
+    },
+    {
+     "text": "down",
+     "highlight": false,
+     "start": 31.326,
+     "end": 31.478
+    },
+    {
+     "text": "at",
+     "highlight": false,
+     "start": 31.497,
+     "end": 31.573
+    },
+    {
+     "text": "her",
+     "highlight": false,
+     "start": 31.592,
+     "end": 31.707
+    },
+    {
+     "text": "arms",
+     "highlight": false,
+     "start": 31.802,
+     "end": 32.012
+    },
+    {
+     "text": "around",
+     "highlight": false,
+     "start": 32.069,
+     "end": 32.259
+    },
+    {
+     "text": "his",
+     "highlight": false,
+     "start": 32.297,
+     "end": 32.412
+    },
+    {
+     "text": "waist.",
+     "highlight": true,
+     "start": 32.469,
+     "end": 32.831
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "Uncle's back + the white cloth wrapped around his waist, red light glow",
+   "notes": "Red traffic light wash."
+  },
+  {
+   "id": 8,
+   "start": 33.325,
+   "end": 37.983,
+   "act": 1,
+   "set": "bike",
+   "owner": "K",
+   "framing": "Extreme close-up on the waist",
+   "camera": "Slow push-in",
+   "vo": "There were no hands. Just white cloth… tied in a knot.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "There",
+     "highlight": false,
+     "start": 33.682,
+     "end": 33.796
+    },
+    {
+     "text": "were",
+     "highlight": false,
+     "start": 33.815,
+     "end": 33.911
+    },
+    {
+     "text": "no",
+     "highlight": false,
+     "start": 33.949,
+     "end": 34.139
+    },
+    {
+     "text": "hands.",
+     "highlight": false,
+     "start": 34.196,
+     "end": 34.635
+    },
+    {
+     "text": "Just",
+     "highlight": false,
+     "start": 35.282,
+     "end": 35.492
+    },
+    {
+     "text": "white",
+     "highlight": false,
+     "start": 35.549,
+     "end": 35.796
+    },
+    {
+     "text": "cloth…",
+     "highlight": false,
+     "start": 35.854,
+     "end": 36.196
+    },
+    {
+     "text": "tied",
+     "highlight": false,
+     "start": 36.711,
+     "end": 36.939
+    },
+    {
+     "text": "in",
+     "highlight": false,
+     "start": 36.977,
+     "end": 37.035
+    },
+    {
+     "text": "a",
+     "highlight": false,
+     "start": 37.073,
+     "end": 37.111
+    },
+    {
+     "text": "knot.",
+     "highlight": true,
+     "start": 37.149,
+     "end": 37.492
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "White shroud cloth around the jacket, ending in a tied knot instead of hands",
+   "notes": "Red light wash, very tactile cloth folds."
+  },
+  {
+   "id": 9,
+   "start": 37.983,
+   "end": 40.328,
+   "act": 1,
+   "set": "bike",
+   "owner": "K",
+   "framing": "Close on the uncle's helmet and ear",
+   "camera": "Locked, creeping push",
+   "vo": "Then, right behind his ear…",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "Then,",
+     "highlight": false,
+     "start": 38.34,
+     "end": 38.569
+    },
+    {
+     "text": "right",
+     "highlight": false,
+     "start": 38.912,
+     "end": 39.083
+    },
+    {
+     "text": "behind",
+     "highlight": false,
+     "start": 39.121,
+     "end": 39.407
+    },
+    {
+     "text": "his",
+     "highlight": false,
+     "start": 39.426,
+     "end": 39.578
+    },
+    {
+     "text": "ear…",
+     "highlight": true,
+     "start": 39.654,
+     "end": 39.845
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "Helmet edge and ear in profile, a pale cloth edge appearing behind",
+   "notes": "Dark, red glow fading."
+  },
+  {
+   "id": 10,
+   "start": 40.328,
+   "end": 41.941,
+   "act": 1,
+   "set": "bike",
+   "owner": "K",
+   "framing": "Extreme close, the pale cloth face",
+   "camera": "Very slow push",
+   "vo": "Untie me.",
+   "voKind": "narration",
+   "speaker": "ghost",
+   "words": [
+    {
+     "text": "Untie",
+     "highlight": true,
+     "start": 40.685,
+     "end": 41.085
+    },
+    {
+     "text": "me.",
+     "highlight": true,
+     "start": 41.161,
+     "end": 41.333
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "A dark oval opening in the white cloth leaning in from behind; no features",
+   "notes": "Almost black, cold rim only."
+  },
+  {
+   "id": 11,
+   "start": 41.941,
+   "end": 48.389,
+   "act": 1,
+   "set": "road",
+   "owner": "R",
+   "framing": "Wide, empty road at dawn",
+   "camera": "Slow pull-back",
+   "vo": "He rode until sunrise without looking back. The seat behind him was empty. But it was still cold.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "He",
+     "highlight": false,
+     "start": 42.298,
+     "end": 42.412
+    },
+    {
+     "text": "rode",
+     "highlight": false,
+     "start": 42.47,
+     "end": 42.698
+    },
+    {
+     "text": "until",
+     "highlight": false,
+     "start": 42.736,
+     "end": 42.946
+    },
+    {
+     "text": "sunrise",
+     "highlight": false,
+     "start": 43.079,
+     "end": 43.536
+    },
+    {
+     "text": "without",
+     "highlight": false,
+     "start": 43.555,
+     "end": 43.822
+    },
+    {
+     "text": "looking",
+     "highlight": false,
+     "start": 43.86,
+     "end": 44.108
+    },
+    {
+     "text": "back.",
+     "highlight": false,
+     "start": 44.165,
+     "end": 44.451
+    },
+    {
+     "text": "The",
+     "highlight": false,
+     "start": 44.984,
+     "end": 45.06
+    },
+    {
+     "text": "seat",
+     "highlight": false,
+     "start": 45.117,
+     "end": 45.289
+    },
+    {
+     "text": "behind",
+     "highlight": false,
+     "start": 45.327,
+     "end": 45.67
+    },
+    {
+     "text": "him",
+     "highlight": false,
+     "start": 45.708,
+     "end": 45.822
+    },
+    {
+     "text": "was",
+     "highlight": false,
+     "start": 45.859,
+     "end": 45.955
+    },
+    {
+     "text": "empty.",
+     "highlight": false,
+     "start": 46.012,
+     "end": 46.355
+    },
+    {
+     "text": "But",
+     "highlight": false,
+     "start": 46.889,
+     "end": 46.965
+    },
+    {
+     "text": "it",
+     "highlight": false,
+     "start": 47.003,
+     "end": 47.06
+    },
+    {
+     "text": "was",
+     "highlight": false,
+     "start": 47.098,
+     "end": 47.193
+    },
+    {
+     "text": "still",
+     "highlight": false,
+     "start": 47.27,
+     "end": 47.479
+    },
+    {
+     "text": "cold.",
+     "highlight": true,
+     "start": 47.536,
+     "end": 47.898
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "Motorbike parked alone at dawn; a few white threads on the seat",
+   "notes": "Dawn palette: `#2b3350` → `#a77b8a` → `#f1c79a`."
+  },
+  {
+   "id": 12,
+   "start": 48.389,
+   "end": 52.375,
+   "act": 1,
+   "set": "road",
+   "owner": "R",
+   "framing": "Wide, cemetery gate at night again",
+   "camera": "Slow push-in",
+   "vo": "She still waits by that cemetery. For the next ride.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "She",
+     "highlight": false,
+     "start": 48.746,
+     "end": 48.841
+    },
+    {
+     "text": "still",
+     "highlight": false,
+     "start": 48.956,
+     "end": 49.165
+    },
+    {
+     "text": "waits",
+     "highlight": false,
+     "start": 49.203,
+     "end": 49.451
+    },
+    {
+     "text": "by",
+     "highlight": false,
+     "start": 49.489,
+     "end": 49.603
+    },
+    {
+     "text": "that",
+     "highlight": false,
+     "start": 49.641,
+     "end": 49.794
+    },
+    {
+     "text": "cemetery.",
+     "highlight": false,
+     "start": 49.851,
+     "end": 50.384
+    },
+    {
+     "text": "For",
+     "highlight": false,
+     "start": 50.86,
+     "end": 50.937
+    },
+    {
+     "text": "the",
+     "highlight": false,
+     "start": 50.975,
+     "end": 51.032
+    },
+    {
+     "text": "next",
+     "highlight": false,
+     "start": 51.07,
+     "end": 51.318
+    },
+    {
+     "text": "ride.",
+     "highlight": true,
+     "start": 51.375,
+     "end": 51.679
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "The white figure under the street light again, slightly closer to the road",
+   "notes": "Reuse shot 1 composition, darker."
+  },
+  {
+   "id": 13,
+   "start": 52.375,
+   "end": 55.175,
+   "act": 1,
+   "set": "graphic",
+   "owner": "G",
+   "framing": "End card",
+   "camera": "Static",
+   "vo": "Would you untie it? Comment YES or NO.",
+   "voKind": "onscreen",
+   "speaker": null,
+   "words": [
+    {
+     "text": "Would",
+     "highlight": false,
+     "start": 52.625,
+     "end": 52.925
+    },
+    {
+     "text": "you",
+     "highlight": false,
+     "start": 52.845,
+     "end": 53.145
+    },
+    {
+     "text": "untie",
+     "highlight": true,
+     "start": 53.065,
+     "end": 53.365
+    },
+    {
+     "text": "it?",
+     "highlight": false,
+     "start": 53.285,
+     "end": 53.585
+    },
+    {
+     "text": "Comment",
+     "highlight": false,
+     "start": 53.505,
+     "end": 53.805
+    },
+    {
+     "text": "YES",
+     "highlight": true,
+     "start": 53.725,
+     "end": 54.025
+    },
+    {
+     "text": "or",
+     "highlight": false,
+     "start": 53.945,
+     "end": 54.245
+    },
+    {
+     "text": "NO.",
+     "highlight": true,
+     "start": 54.165,
+     "end": 54.465
+    }
+   ],
+   "trans": "cut",
+   "caption": false,
+   "cool": false,
+   "hero": "CTA type with a knotted cloth motif",
+   "notes": "No caption (on-screen text)."
+  }
+ ],
+ "audio": true
+}

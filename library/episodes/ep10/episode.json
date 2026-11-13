@@ -1,0 +1,1137 @@
+{
+ "id": "EP10",
+ "title": "Bloody Mary",
+ "fps": 30,
+ "width": 1080,
+ "height": 1920,
+ "durationSec": 57.439,
+ "accent": "#ff3b4e",
+ "timingSource": "ai33 eleven_v3 transcript, tempo x1.05",
+ "shots": [
+  {
+   "id": 1,
+   "start": 0.0,
+   "end": 6.272,
+   "act": 1,
+   "set": "mirror",
+   "owner": "M",
+   "framing": "Wide, dark bathroom, one candle before the mirror",
+   "camera": "Slow push-in",
+   "vo": "In America, kids dare each other to say her name three times in a dark mirror. Don't.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "In",
+     "highlight": false,
+     "start": 0.557,
+     "end": 0.614
+    },
+    {
+     "text": "America,",
+     "highlight": false,
+     "start": 0.652,
+     "end": 1.224
+    },
+    {
+     "text": "kids",
+     "highlight": false,
+     "start": 1.643,
+     "end": 1.91
+    },
+    {
+     "text": "dare",
+     "highlight": false,
+     "start": 1.967,
+     "end": 2.157
+    },
+    {
+     "text": "each",
+     "highlight": false,
+     "start": 2.195,
+     "end": 2.329
+    },
+    {
+     "text": "other",
+     "highlight": false,
+     "start": 2.386,
+     "end": 2.538
+    },
+    {
+     "text": "to",
+     "highlight": false,
+     "start": 2.576,
+     "end": 2.671
+    },
+    {
+     "text": "say",
+     "highlight": false,
+     "start": 2.729,
+     "end": 2.881
+    },
+    {
+     "text": "her",
+     "highlight": false,
+     "start": 2.919,
+     "end": 3.033
+    },
+    {
+     "text": "name",
+     "highlight": false,
+     "start": 3.09,
+     "end": 3.357
+    },
+    {
+     "text": "three",
+     "highlight": false,
+     "start": 3.414,
+     "end": 3.681
+    },
+    {
+     "text": "times",
+     "highlight": false,
+     "start": 3.738,
+     "end": 4.081
+    },
+    {
+     "text": "in",
+     "highlight": false,
+     "start": 4.119,
+     "end": 4.175
+    },
+    {
+     "text": "a",
+     "highlight": false,
+     "start": 4.233,
+     "end": 4.29
+    },
+    {
+     "text": "dark",
+     "highlight": false,
+     "start": 4.348,
+     "end": 4.595
+    },
+    {
+     "text": "mirror.",
+     "highlight": true,
+     "start": 4.652,
+     "end": 4.938
+    },
+    {
+     "text": "Don't.",
+     "highlight": false,
+     "start": 5.471,
+     "end": 5.776
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "A candle in front of a large bathroom mirror; the reflection is darker than the room",
+   "notes": "Tiles, sink, towel; LOW detail bg."
+  },
+  {
+   "id": 2,
+   "start": 6.272,
+   "end": 8.677,
+   "act": 1,
+   "set": "graphic",
+   "owner": "G",
+   "framing": "Title card",
+   "camera": "Slow push",
+   "vo": "Her name is Bloody Mary.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "Her",
+     "highlight": false,
+     "start": 6.629,
+     "end": 6.782
+    },
+    {
+     "text": "name",
+     "highlight": false,
+     "start": 6.877,
+     "end": 7.182
+    },
+    {
+     "text": "is",
+     "highlight": false,
+     "start": 7.277,
+     "end": 7.391
+    },
+    {
+     "text": "Bloody",
+     "highlight": true,
+     "start": 7.467,
+     "end": 7.734
+    },
+    {
+     "text": "Mary.",
+     "highlight": true,
+     "start": 7.81,
+     "end": 8.191
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "Title 'BLOODY MARY' + 'An American legend' etched like fog on a mirror",
+   "notes": "Dark mirror surface, one candle reflection."
+  },
+  {
+   "id": 3,
+   "start": 8.677,
+   "end": 13.692,
+   "act": 1,
+   "set": "graphic",
+   "owner": "G",
+   "framing": "Lore insert",
+   "camera": "Slow push",
+   "vo": "They say she lives on the other side of the glass. And she answers when you call.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "They",
+     "highlight": false,
+     "start": 9.034,
+     "end": 9.167
+    },
+    {
+     "text": "say",
+     "highlight": false,
+     "start": 9.32,
+     "end": 9.548
+    },
+    {
+     "text": "she",
+     "highlight": false,
+     "start": 9.663,
+     "end": 9.777
+    },
+    {
+     "text": "lives",
+     "highlight": false,
+     "start": 9.815,
+     "end": 10.006
+    },
+    {
+     "text": "on",
+     "highlight": false,
+     "start": 10.044,
+     "end": 10.12
+    },
+    {
+     "text": "the",
+     "highlight": false,
+     "start": 10.139,
+     "end": 10.234
+    },
+    {
+     "text": "other",
+     "highlight": false,
+     "start": 10.291,
+     "end": 10.425
+    },
+    {
+     "text": "side",
+     "highlight": false,
+     "start": 10.52,
+     "end": 10.71
+    },
+    {
+     "text": "of",
+     "highlight": false,
+     "start": 10.748,
+     "end": 10.806
+    },
+    {
+     "text": "the",
+     "highlight": false,
+     "start": 10.844,
+     "end": 10.882
+    },
+    {
+     "text": "glass.",
+     "highlight": false,
+     "start": 10.939,
+     "end": 11.358
+    },
+    {
+     "text": "And",
+     "highlight": false,
+     "start": 11.891,
+     "end": 11.987
+    },
+    {
+     "text": "she",
+     "highlight": false,
+     "start": 12.044,
+     "end": 12.158
+    },
+    {
+     "text": "answers",
+     "highlight": true,
+     "start": 12.253,
+     "end": 12.576
+    },
+    {
+     "text": "when",
+     "highlight": false,
+     "start": 12.614,
+     "end": 12.729
+    },
+    {
+     "text": "you",
+     "highlight": false,
+     "start": 12.767,
+     "end": 12.844
+    },
+    {
+     "text": "call.",
+     "highlight": false,
+     "start": 12.901,
+     "end": 13.206
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "A fingertip trace in mirror fog slowly filling in by itself",
+   "notes": "Cold, eerie."
+  },
+  {
+   "id": 4,
+   "start": 13.692,
+   "end": 19.325,
+   "act": 1,
+   "set": "house",
+   "owner": "H",
+   "framing": "Medium, sleepover bedroom",
+   "camera": "Slow lateral track",
+   "vo": "At my sleepover, my friends dared me. It was midnight. Everyone was giggling.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "At",
+     "highlight": false,
+     "start": 14.049,
+     "end": 14.144
+    },
+    {
+     "text": "my",
+     "highlight": false,
+     "start": 14.182,
+     "end": 14.316
+    },
+    {
+     "text": "sleepover,",
+     "highlight": false,
+     "start": 14.354,
+     "end": 14.849
+    },
+    {
+     "text": "my",
+     "highlight": false,
+     "start": 14.925,
+     "end": 15.078
+    },
+    {
+     "text": "friends",
+     "highlight": false,
+     "start": 15.116,
+     "end": 15.421
+    },
+    {
+     "text": "dared",
+     "highlight": false,
+     "start": 15.459,
+     "end": 15.706
+    },
+    {
+     "text": "me.",
+     "highlight": false,
+     "start": 15.744,
+     "end": 15.878
+    },
+    {
+     "text": "It",
+     "highlight": false,
+     "start": 16.544,
+     "end": 16.602
+    },
+    {
+     "text": "was",
+     "highlight": false,
+     "start": 16.64,
+     "end": 16.754
+    },
+    {
+     "text": "midnight.",
+     "highlight": false,
+     "start": 16.811,
+     "end": 17.249
+    },
+    {
+     "text": "Everyone",
+     "highlight": false,
+     "start": 17.821,
+     "end": 18.163
+    },
+    {
+     "text": "was",
+     "highlight": false,
+     "start": 18.221,
+     "end": 18.335
+    },
+    {
+     "text": "giggling.",
+     "highlight": true,
+     "start": 18.392,
+     "end": 18.83
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "Three girls in pyjamas on sleeping bags, string lights, one flashlight",
+   "notes": "Warm, safe."
+  },
+  {
+   "id": 5,
+   "start": 19.325,
+   "end": 22.028,
+   "act": 1,
+   "set": "house",
+   "owner": "H",
+   "framing": "Tracking down the dark hallway",
+   "camera": "Follow from behind",
+   "vo": "We went into the bathroom with one candle.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "We",
+     "highlight": false,
+     "start": 19.682,
+     "end": 19.796
+    },
+    {
+     "text": "went",
+     "highlight": false,
+     "start": 19.815,
+     "end": 19.987
+    },
+    {
+     "text": "into",
+     "highlight": false,
+     "start": 20.025,
+     "end": 20.177
+    },
+    {
+     "text": "the",
+     "highlight": false,
+     "start": 20.215,
+     "end": 20.273
+    },
+    {
+     "text": "bathroom",
+     "highlight": false,
+     "start": 20.311,
+     "end": 20.692
+    },
+    {
+     "text": "with",
+     "highlight": false,
+     "start": 20.73,
+     "end": 20.882
+    },
+    {
+     "text": "one",
+     "highlight": false,
+     "start": 20.977,
+     "end": 21.092
+    },
+    {
+     "text": "candle.",
+     "highlight": true,
+     "start": 21.206,
+     "end": 21.549
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "Three silhouettes walking down a dark hallway toward a door, the candle glow on them",
+   "notes": "Reuse house set."
+  },
+  {
+   "id": 6,
+   "start": 22.028,
+   "end": 26.894,
+   "act": 1,
+   "set": "mirror",
+   "owner": "M",
+   "framing": "Medium, three girls before the mirror",
+   "camera": "Locked",
+   "vo": "We said it. Bloody Mary. Bloody Mary. Bloody Mary.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "We",
+     "highlight": false,
+     "start": 22.385,
+     "end": 22.48
+    },
+    {
+     "text": "said",
+     "highlight": false,
+     "start": 22.557,
+     "end": 22.766
+    },
+    {
+     "text": "it.",
+     "highlight": false,
+     "start": 22.804,
+     "end": 22.976
+    },
+    {
+     "text": "Bloody",
+     "highlight": false,
+     "start": 23.357,
+     "end": 23.623
+    },
+    {
+     "text": "Mary.",
+     "highlight": false,
+     "start": 23.718,
+     "end": 24.118
+    },
+    {
+     "text": "Bloody",
+     "highlight": false,
+     "start": 24.518,
+     "end": 24.804
+    },
+    {
+     "text": "Mary.",
+     "highlight": false,
+     "start": 24.88,
+     "end": 25.261
+    },
+    {
+     "text": "Bloody",
+     "highlight": false,
+     "start": 25.661,
+     "end": 25.928
+    },
+    {
+     "text": "Mary.",
+     "highlight": true,
+     "start": 26.023,
+     "end": 26.404
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "Three girls from behind facing the mirror, their three reflections lit by the candle",
+   "notes": "Hold the tension."
+  },
+  {
+   "id": 7,
+   "start": 26.894,
+   "end": 31.379,
+   "act": 1,
+   "set": "mirror",
+   "owner": "M",
+   "framing": "Close, the mirror",
+   "camera": "Very slow push",
+   "vo": "Nothing happened. We laughed. My friends ran back to bed.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "Nothing",
+     "highlight": false,
+     "start": 27.251,
+     "end": 27.518
+    },
+    {
+     "text": "happened.",
+     "highlight": false,
+     "start": 27.575,
+     "end": 27.994
+    },
+    {
+     "text": "We",
+     "highlight": false,
+     "start": 28.432,
+     "end": 28.546
+    },
+    {
+     "text": "laughed.",
+     "highlight": false,
+     "start": 28.604,
+     "end": 29.08
+    },
+    {
+     "text": "My",
+     "highlight": false,
+     "start": 29.518,
+     "end": 29.651
+    },
+    {
+     "text": "friends",
+     "highlight": false,
+     "start": 29.708,
+     "end": 30.013
+    },
+    {
+     "text": "ran",
+     "highlight": true,
+     "start": 30.07,
+     "end": 30.261
+    },
+    {
+     "text": "back",
+     "highlight": false,
+     "start": 30.299,
+     "end": 30.47
+    },
+    {
+     "text": "to",
+     "highlight": false,
+     "start": 30.508,
+     "end": 30.584
+    },
+    {
+     "text": "bed.",
+     "highlight": false,
+     "start": 30.642,
+     "end": 30.889
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "The mirror with the reflections, candle flame steady",
+   "notes": "Relief beat."
+  },
+  {
+   "id": 8,
+   "start": 31.379,
+   "end": 35.408,
+   "act": 1,
+   "set": "mirror",
+   "owner": "M",
+   "framing": "Close, my reflection",
+   "camera": "Locked",
+   "vo": "I stayed to blow out the candle. And I looked at my reflection.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "I",
+     "highlight": false,
+     "start": 31.736,
+     "end": 31.812
+    },
+    {
+     "text": "stayed",
+     "highlight": false,
+     "start": 31.889,
+     "end": 32.155
+    },
+    {
+     "text": "to",
+     "highlight": false,
+     "start": 32.212,
+     "end": 32.289
+    },
+    {
+     "text": "blow",
+     "highlight": false,
+     "start": 32.327,
+     "end": 32.479
+    },
+    {
+     "text": "out",
+     "highlight": false,
+     "start": 32.517,
+     "end": 32.631
+    },
+    {
+     "text": "the",
+     "highlight": false,
+     "start": 32.65,
+     "end": 32.727
+    },
+    {
+     "text": "candle.",
+     "highlight": false,
+     "start": 32.784,
+     "end": 33.127
+    },
+    {
+     "text": "And",
+     "highlight": false,
+     "start": 33.717,
+     "end": 33.812
+    },
+    {
+     "text": "I",
+     "highlight": false,
+     "start": 33.889,
+     "end": 33.927
+    },
+    {
+     "text": "looked",
+     "highlight": false,
+     "start": 33.965,
+     "end": 34.117
+    },
+    {
+     "text": "at",
+     "highlight": false,
+     "start": 34.155,
+     "end": 34.212
+    },
+    {
+     "text": "my",
+     "highlight": false,
+     "start": 34.25,
+     "end": 34.365
+    },
+    {
+     "text": "reflection.",
+     "highlight": true,
+     "start": 34.403,
+     "end": 34.917
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "One girl's reflection in the mirror, candle smoke curling",
+   "notes": "Quiet."
+  },
+  {
+   "id": 9,
+   "start": 35.408,
+   "end": 40.2,
+   "act": 1,
+   "set": "mirror",
+   "owner": "M",
+   "framing": "Extreme close, the reflection's eyes",
+   "camera": "Very slow push",
+   "vo": "I blinked. My reflection didn't. It blinked a second later.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "I",
+     "highlight": false,
+     "start": 35.765,
+     "end": 35.822
+    },
+    {
+     "text": "blinked.",
+     "highlight": false,
+     "start": 35.86,
+     "end": 36.26
+    },
+    {
+     "text": "My",
+     "highlight": false,
+     "start": 36.641,
+     "end": 36.737
+    },
+    {
+     "text": "reflection",
+     "highlight": false,
+     "start": 36.775,
+     "end": 37.289
+    },
+    {
+     "text": "didn't.",
+     "highlight": false,
+     "start": 37.346,
+     "end": 37.689
+    },
+    {
+     "text": "It",
+     "highlight": false,
+     "start": 38.108,
+     "end": 38.203
+    },
+    {
+     "text": "blinked",
+     "highlight": false,
+     "start": 38.26,
+     "end": 38.584
+    },
+    {
+     "text": "a",
+     "highlight": false,
+     "start": 38.984,
+     "end": 39.041
+    },
+    {
+     "text": "second",
+     "highlight": false,
+     "start": 39.098,
+     "end": 39.365
+    },
+    {
+     "text": "later.",
+     "highlight": true,
+     "start": 39.422,
+     "end": 39.708
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "The reflection's face in shadow, eyes open a beat too long",
+   "notes": "Almost black, candle rim."
+  },
+  {
+   "id": 10,
+   "start": 40.2,
+   "end": 44.346,
+   "act": 1,
+   "set": "mirror",
+   "owner": "M",
+   "framing": "Close, a pale shape behind the reflection",
+   "camera": "Locked",
+   "vo": "Then, behind it, something pale smiled.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "Then,",
+     "highlight": false,
+     "start": 40.557,
+     "end": 40.9
+    },
+    {
+     "text": "behind",
+     "highlight": false,
+     "start": 41.3,
+     "end": 41.7
+    },
+    {
+     "text": "it,",
+     "highlight": false,
+     "start": 41.757,
+     "end": 41.91
+    },
+    {
+     "text": "something",
+     "highlight": false,
+     "start": 42.443,
+     "end": 42.767
+    },
+    {
+     "text": "pale",
+     "highlight": false,
+     "start": 42.881,
+     "end": 43.186
+    },
+    {
+     "text": "smiled.",
+     "highlight": true,
+     "start": 43.357,
+     "end": 43.852
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "Behind the girl's reflection, a blurred pale shape with long dark hair, very faint",
+   "notes": "Never sharp, never gory."
+  },
+  {
+   "id": 11,
+   "start": 44.346,
+   "end": 49.033,
+   "act": 1,
+   "set": "house",
+   "owner": "H",
+   "framing": "Wide, the bathroom door from the hallway",
+   "camera": "Slow pull-back",
+   "vo": "I ran. I never told my friends. We never played it again.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "I",
+     "highlight": false,
+     "start": 44.703,
+     "end": 44.722
+    },
+    {
+     "text": "ran.",
+     "highlight": false,
+     "start": 44.894,
+     "end": 45.236
+    },
+    {
+     "text": "I",
+     "highlight": false,
+     "start": 45.751,
+     "end": 45.77
+    },
+    {
+     "text": "never",
+     "highlight": false,
+     "start": 45.941,
+     "end": 46.208
+    },
+    {
+     "text": "told",
+     "highlight": false,
+     "start": 46.246,
+     "end": 46.456
+    },
+    {
+     "text": "my",
+     "highlight": false,
+     "start": 46.494,
+     "end": 46.646
+    },
+    {
+     "text": "friends.",
+     "highlight": false,
+     "start": 46.703,
+     "end": 47.122
+    },
+    {
+     "text": "We",
+     "highlight": false,
+     "start": 47.465,
+     "end": 47.56
+    },
+    {
+     "text": "never",
+     "highlight": false,
+     "start": 47.617,
+     "end": 47.808
+    },
+    {
+     "text": "played",
+     "highlight": false,
+     "start": 47.903,
+     "end": 48.075
+    },
+    {
+     "text": "it",
+     "highlight": false,
+     "start": 48.113,
+     "end": 48.17
+    },
+    {
+     "text": "again.",
+     "highlight": true,
+     "start": 48.227,
+     "end": 48.551
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "Bathroom door ajar, a sliver of candle light, the hallway empty",
+   "notes": "Reuse house set."
+  },
+  {
+   "id": 12,
+   "start": 49.033,
+   "end": 54.639,
+   "act": 1,
+   "set": "mirror",
+   "owner": "M",
+   "framing": "Close, the mirror in daylight",
+   "camera": "Slow push-in",
+   "vo": "But every morning, in the mirror… I wait for my reflection to blink first.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "But",
+     "highlight": false,
+     "start": 49.39,
+     "end": 49.562
+    },
+    {
+     "text": "every",
+     "highlight": false,
+     "start": 49.657,
+     "end": 49.847
+    },
+    {
+     "text": "morning,",
+     "highlight": false,
+     "start": 49.943,
+     "end": 50.266
+    },
+    {
+     "text": "in",
+     "highlight": false,
+     "start": 50.743,
+     "end": 50.819
+    },
+    {
+     "text": "the",
+     "highlight": false,
+     "start": 50.857,
+     "end": 50.933
+    },
+    {
+     "text": "mirror…",
+     "highlight": false,
+     "start": 50.99,
+     "end": 51.276
+    },
+    {
+     "text": "I",
+     "highlight": false,
+     "start": 51.943,
+     "end": 52.0
+    },
+    {
+     "text": "wait",
+     "highlight": false,
+     "start": 52.057,
+     "end": 52.266
+    },
+    {
+     "text": "for",
+     "highlight": false,
+     "start": 52.304,
+     "end": 52.381
+    },
+    {
+     "text": "my",
+     "highlight": false,
+     "start": 52.419,
+     "end": 52.533
+    },
+    {
+     "text": "reflection",
+     "highlight": false,
+     "start": 52.571,
+     "end": 53.085
+    },
+    {
+     "text": "to",
+     "highlight": false,
+     "start": 53.123,
+     "end": 53.2
+    },
+    {
+     "text": "blink",
+     "highlight": true,
+     "start": 53.238,
+     "end": 53.485
+    },
+    {
+     "text": "first.",
+     "highlight": false,
+     "start": 53.543,
+     "end": 53.943
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "A clean mirror in morning light; the reflection's eyes still a little too dark",
+   "notes": "Pale morning."
+  },
+  {
+   "id": 13,
+   "start": 54.639,
+   "end": 57.439,
+   "act": 1,
+   "set": "graphic",
+   "owner": "G",
+   "framing": "End card",
+   "camera": "Static",
+   "vo": "Would you say it three times? Comment YES or NO.",
+   "voKind": "onscreen",
+   "speaker": null,
+   "words": [
+    {
+     "text": "Would",
+     "highlight": false,
+     "start": 54.889,
+     "end": 55.189
+    },
+    {
+     "text": "you",
+     "highlight": false,
+     "start": 55.109,
+     "end": 55.409
+    },
+    {
+     "text": "say",
+     "highlight": false,
+     "start": 55.329,
+     "end": 55.629
+    },
+    {
+     "text": "it",
+     "highlight": false,
+     "start": 55.549,
+     "end": 55.849
+    },
+    {
+     "text": "three",
+     "highlight": true,
+     "start": 55.769,
+     "end": 56.069
+    },
+    {
+     "text": "times?",
+     "highlight": false,
+     "start": 55.989,
+     "end": 56.289
+    },
+    {
+     "text": "Comment",
+     "highlight": false,
+     "start": 56.209,
+     "end": 56.509
+    },
+    {
+     "text": "YES",
+     "highlight": true,
+     "start": 56.429,
+     "end": 56.729
+    },
+    {
+     "text": "or",
+     "highlight": false,
+     "start": 56.649,
+     "end": 56.949
+    },
+    {
+     "text": "NO.",
+     "highlight": true,
+     "start": 56.869,
+     "end": 57.169
+    }
+   ],
+   "trans": "cut",
+   "caption": false,
+   "cool": false,
+   "hero": "CTA with a candle and mirror-fog motif",
+   "notes": "No caption (on-screen text)."
+  }
+ ],
+ "audio": true
+}

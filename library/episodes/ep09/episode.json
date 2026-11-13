@@ -1,0 +1,1197 @@
+{
+ "id": "EP09",
+ "title": "The Jangsan Tiger",
+ "fps": 30,
+ "width": 1080,
+ "height": 1920,
+ "durationSec": 56.278,
+ "accent": "#8fd8ff",
+ "timingSource": "ai33 eleven_v3 transcript, tempo x1.05",
+ "shots": [
+  {
+   "id": 1,
+   "start": 0.0,
+   "end": 5.549,
+   "act": 1,
+   "set": "mountain",
+   "owner": "M",
+   "framing": "Wide, dark pine trail at night",
+   "camera": "Slow push-in",
+   "vo": "In South Korea, if you hear your mother calling you from the mountain… don't answer.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "In",
+     "highlight": false,
+     "start": 0.557,
+     "end": 0.633
+    },
+    {
+     "text": "South",
+     "highlight": false,
+     "start": 0.767,
+     "end": 0.957
+    },
+    {
+     "text": "Korea,",
+     "highlight": false,
+     "start": 1.033,
+     "end": 1.414
+    },
+    {
+     "text": "if",
+     "highlight": false,
+     "start": 1.929,
+     "end": 2.005
+    },
+    {
+     "text": "you",
+     "highlight": false,
+     "start": 2.043,
+     "end": 2.138
+    },
+    {
+     "text": "hear",
+     "highlight": false,
+     "start": 2.195,
+     "end": 2.367
+    },
+    {
+     "text": "your",
+     "highlight": false,
+     "start": 2.405,
+     "end": 2.519
+    },
+    {
+     "text": "mother",
+     "highlight": false,
+     "start": 2.557,
+     "end": 2.767
+    },
+    {
+     "text": "calling",
+     "highlight": false,
+     "start": 2.862,
+     "end": 3.148
+    },
+    {
+     "text": "you",
+     "highlight": false,
+     "start": 3.186,
+     "end": 3.281
+    },
+    {
+     "text": "from",
+     "highlight": false,
+     "start": 3.319,
+     "end": 3.433
+    },
+    {
+     "text": "the",
+     "highlight": false,
+     "start": 3.452,
+     "end": 3.51
+    },
+    {
+     "text": "mountain…",
+     "highlight": true,
+     "start": 3.567,
+     "end": 3.967
+    },
+    {
+     "text": "don't",
+     "highlight": false,
+     "start": 4.405,
+     "end": 4.633
+    },
+    {
+     "text": "answer.",
+     "highlight": false,
+     "start": 4.71,
+     "end": 5.052
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "Dark pine trail climbing into blackness, a pale shape far up between the trees",
+   "notes": "Snow, pines, ridge; LOW detail bg."
+  },
+  {
+   "id": 2,
+   "start": 5.549,
+   "end": 8.03,
+   "act": 1,
+   "set": "graphic",
+   "owner": "G",
+   "framing": "Title card",
+   "camera": "Slow push",
+   "vo": "They call it the Jangsan Tiger.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "They",
+     "highlight": false,
+     "start": 5.906,
+     "end": 6.059
+    },
+    {
+     "text": "call",
+     "highlight": false,
+     "start": 6.116,
+     "end": 6.287
+    },
+    {
+     "text": "it",
+     "highlight": false,
+     "start": 6.344,
+     "end": 6.439
+    },
+    {
+     "text": "the",
+     "highlight": false,
+     "start": 6.497,
+     "end": 6.592
+    },
+    {
+     "text": "Jangsan",
+     "highlight": true,
+     "start": 6.649,
+     "end": 7.087
+    },
+    {
+     "text": "Tiger.",
+     "highlight": true,
+     "start": 7.163,
+     "end": 7.544
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "Title 'THE JANGSAN TIGER' + '장산범 · Busan' over a huge pale silhouette between pines",
+   "notes": "Cold blue light."
+  },
+  {
+   "id": 3,
+   "start": 8.03,
+   "end": 15.423,
+   "act": 1,
+   "set": "graphic",
+   "owner": "G",
+   "framing": "Lore insert",
+   "camera": "Slow push",
+   "vo": "A white creature on Mount Jangsan. It copies the voices of the people you love… and calls you into the trees.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "A",
+     "highlight": false,
+     "start": 8.387,
+     "end": 8.482
+    },
+    {
+     "text": "white",
+     "highlight": false,
+     "start": 8.52,
+     "end": 8.749
+    },
+    {
+     "text": "creature",
+     "highlight": false,
+     "start": 8.882,
+     "end": 9.301
+    },
+    {
+     "text": "on",
+     "highlight": false,
+     "start": 9.359,
+     "end": 9.473
+    },
+    {
+     "text": "Mount",
+     "highlight": false,
+     "start": 9.53,
+     "end": 9.74
+    },
+    {
+     "text": "Jangsan.",
+     "highlight": false,
+     "start": 9.892,
+     "end": 10.463
+    },
+    {
+     "text": "It",
+     "highlight": false,
+     "start": 11.054,
+     "end": 11.149
+    },
+    {
+     "text": "copies",
+     "highlight": false,
+     "start": 11.206,
+     "end": 11.549
+    },
+    {
+     "text": "the",
+     "highlight": false,
+     "start": 11.587,
+     "end": 11.663
+    },
+    {
+     "text": "voices",
+     "highlight": false,
+     "start": 11.72,
+     "end": 12.101
+    },
+    {
+     "text": "of",
+     "highlight": false,
+     "start": 12.159,
+     "end": 12.216
+    },
+    {
+     "text": "the",
+     "highlight": false,
+     "start": 12.254,
+     "end": 12.33
+    },
+    {
+     "text": "people",
+     "highlight": false,
+     "start": 12.387,
+     "end": 12.673
+    },
+    {
+     "text": "you",
+     "highlight": false,
+     "start": 12.73,
+     "end": 12.825
+    },
+    {
+     "text": "love…",
+     "highlight": true,
+     "start": 12.882,
+     "end": 13.168
+    },
+    {
+     "text": "and",
+     "highlight": false,
+     "start": 13.568,
+     "end": 13.682
+    },
+    {
+     "text": "calls",
+     "highlight": false,
+     "start": 13.74,
+     "end": 14.006
+    },
+    {
+     "text": "you",
+     "highlight": false,
+     "start": 14.063,
+     "end": 14.14
+    },
+    {
+     "text": "into",
+     "highlight": false,
+     "start": 14.178,
+     "end": 14.349
+    },
+    {
+     "text": "the",
+     "highlight": false,
+     "start": 14.387,
+     "end": 14.463
+    },
+    {
+     "text": "trees.",
+     "highlight": false,
+     "start": 14.52,
+     "end": 14.94
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "A single long tuft of white fur caught on a pine branch, snow falling",
+   "notes": "Respectful, eerie."
+  },
+  {
+   "id": 4,
+   "start": 15.423,
+   "end": 19.158,
+   "act": 1,
+   "set": "mountain",
+   "owner": "M",
+   "framing": "Wide, apartment block at the foot of the mountain",
+   "camera": "Slow tilt down",
+   "vo": "My friend lived in an apartment right at the foot of that mountain.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "My",
+     "highlight": false,
+     "start": 15.78,
+     "end": 15.952
+    },
+    {
+     "text": "friend",
+     "highlight": false,
+     "start": 16.009,
+     "end": 16.275
+    },
+    {
+     "text": "lived",
+     "highlight": false,
+     "start": 16.371,
+     "end": 16.561
+    },
+    {
+     "text": "in",
+     "highlight": false,
+     "start": 16.599,
+     "end": 16.656
+    },
+    {
+     "text": "an",
+     "highlight": false,
+     "start": 16.694,
+     "end": 16.752
+    },
+    {
+     "text": "apartment",
+     "highlight": false,
+     "start": 16.809,
+     "end": 17.304
+    },
+    {
+     "text": "right",
+     "highlight": false,
+     "start": 17.399,
+     "end": 17.552
+    },
+    {
+     "text": "at",
+     "highlight": false,
+     "start": 17.571,
+     "end": 17.647
+    },
+    {
+     "text": "the",
+     "highlight": false,
+     "start": 17.685,
+     "end": 17.761
+    },
+    {
+     "text": "foot",
+     "highlight": false,
+     "start": 17.818,
+     "end": 17.933
+    },
+    {
+     "text": "of",
+     "highlight": false,
+     "start": 17.952,
+     "end": 18.028
+    },
+    {
+     "text": "that",
+     "highlight": false,
+     "start": 18.085,
+     "end": 18.218
+    },
+    {
+     "text": "mountain.",
+     "highlight": true,
+     "start": 18.275,
+     "end": 18.675
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "Apartment block with a few lit windows, dark mountain looming behind",
+   "notes": "Reuse mountain set."
+  },
+  {
+   "id": 5,
+   "start": 19.158,
+   "end": 24.392,
+   "act": 1,
+   "set": "home",
+   "owner": "H",
+   "framing": "Medium, friend at the window looking out",
+   "camera": "Slow push-in",
+   "vo": "One night, she heard her mother's voice calling her name… from the trail outside.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "One",
+     "highlight": false,
+     "start": 19.515,
+     "end": 19.629
+    },
+    {
+     "text": "night,",
+     "highlight": false,
+     "start": 19.687,
+     "end": 19.934
+    },
+    {
+     "text": "she",
+     "highlight": false,
+     "start": 20.372,
+     "end": 20.487
+    },
+    {
+     "text": "heard",
+     "highlight": false,
+     "start": 20.525,
+     "end": 20.696
+    },
+    {
+     "text": "her",
+     "highlight": false,
+     "start": 20.734,
+     "end": 20.829
+    },
+    {
+     "text": "mother's",
+     "highlight": false,
+     "start": 20.868,
+     "end": 21.153
+    },
+    {
+     "text": "voice",
+     "highlight": false,
+     "start": 21.21,
+     "end": 21.496
+    },
+    {
+     "text": "calling",
+     "highlight": false,
+     "start": 21.534,
+     "end": 21.801
+    },
+    {
+     "text": "her",
+     "highlight": false,
+     "start": 21.839,
+     "end": 21.934
+    },
+    {
+     "text": "name…",
+     "highlight": false,
+     "start": 21.991,
+     "end": 22.277
+    },
+    {
+     "text": "from",
+     "highlight": false,
+     "start": 22.715,
+     "end": 22.829
+    },
+    {
+     "text": "the",
+     "highlight": false,
+     "start": 22.868,
+     "end": 22.944
+    },
+    {
+     "text": "trail",
+     "highlight": false,
+     "start": 23.001,
+     "end": 23.248
+    },
+    {
+     "text": "outside.",
+     "highlight": true,
+     "start": 23.306,
+     "end": 23.896
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "Friend's silhouette at a dark window, the pine trail visible outside",
+   "notes": "Cool window light."
+  },
+  {
+   "id": 6,
+   "start": 24.392,
+   "end": 28.121,
+   "act": 1,
+   "set": "home",
+   "owner": "H",
+   "framing": "Medium, the kitchen behind her",
+   "camera": "Rack from window to kitchen",
+   "vo": "But her mother was in the kitchen. Right behind her.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "But",
+     "highlight": false,
+     "start": 24.749,
+     "end": 24.902
+    },
+    {
+     "text": "her",
+     "highlight": false,
+     "start": 24.94,
+     "end": 25.073
+    },
+    {
+     "text": "mother",
+     "highlight": false,
+     "start": 25.13,
+     "end": 25.416
+    },
+    {
+     "text": "was",
+     "highlight": false,
+     "start": 25.454,
+     "end": 25.568
+    },
+    {
+     "text": "in",
+     "highlight": false,
+     "start": 25.606,
+     "end": 25.663
+    },
+    {
+     "text": "the",
+     "highlight": false,
+     "start": 25.682,
+     "end": 25.759
+    },
+    {
+     "text": "kitchen.",
+     "highlight": false,
+     "start": 25.816,
+     "end": 26.216
+    },
+    {
+     "text": "Right",
+     "highlight": false,
+     "start": 26.768,
+     "end": 26.997
+    },
+    {
+     "text": "behind",
+     "highlight": true,
+     "start": 27.035,
+     "end": 27.416
+    },
+    {
+     "text": "her.",
+     "highlight": false,
+     "start": 27.454,
+     "end": 27.625
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "Warm kitchen doorway, mother in an apron standing very still, looking at the window",
+   "notes": "Warm vs cold split."
+  },
+  {
+   "id": 7,
+   "start": 28.121,
+   "end": 31.099,
+   "act": 1,
+   "set": "home",
+   "owner": "H",
+   "framing": "Close, a hand on her shoulder",
+   "camera": "Locked",
+   "vo": "Her mother put a hand on her shoulder and whispered…",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "Her",
+     "highlight": false,
+     "start": 28.478,
+     "end": 28.592
+    },
+    {
+     "text": "mother",
+     "highlight": false,
+     "start": 28.631,
+     "end": 28.821
+    },
+    {
+     "text": "put",
+     "highlight": false,
+     "start": 28.897,
+     "end": 29.011
+    },
+    {
+     "text": "a",
+     "highlight": false,
+     "start": 29.069,
+     "end": 29.107
+    },
+    {
+     "text": "hand",
+     "highlight": false,
+     "start": 29.145,
+     "end": 29.354
+    },
+    {
+     "text": "on",
+     "highlight": false,
+     "start": 29.392,
+     "end": 29.469
+    },
+    {
+     "text": "her",
+     "highlight": false,
+     "start": 29.507,
+     "end": 29.621
+    },
+    {
+     "text": "shoulder",
+     "highlight": false,
+     "start": 29.678,
+     "end": 30.04
+    },
+    {
+     "text": "and",
+     "highlight": false,
+     "start": 30.078,
+     "end": 30.173
+    },
+    {
+     "text": "whispered…",
+     "highlight": true,
+     "start": 30.211,
+     "end": 30.611
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "An adult hand on a sweater shoulder, the window glow beyond",
+   "notes": "Tactile."
+  },
+  {
+   "id": 8,
+   "start": 31.099,
+   "end": 33.465,
+   "act": 1,
+   "set": "home",
+   "owner": "H",
+   "framing": "Close, mother's profile in shadow",
+   "camera": "Very slow push",
+   "vo": "Don't answer. I hear it too.",
+   "voKind": "narration",
+   "speaker": "mom",
+   "words": [
+    {
+     "text": "Don't",
+     "highlight": false,
+     "start": 31.456,
+     "end": 31.666
+    },
+    {
+     "text": "answer.",
+     "highlight": false,
+     "start": 31.723,
+     "end": 32.066
+    },
+    {
+     "text": "I",
+     "highlight": false,
+     "start": 32.351,
+     "end": 32.409
+    },
+    {
+     "text": "hear",
+     "highlight": false,
+     "start": 32.447,
+     "end": 32.561
+    },
+    {
+     "text": "it",
+     "highlight": false,
+     "start": 32.599,
+     "end": 32.694
+    },
+    {
+     "text": "too.",
+     "highlight": true,
+     "start": 32.751,
+     "end": 32.98
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "Mother's profile in half shadow, eyes on the window",
+   "notes": "Warm rim from the kitchen."
+  },
+  {
+   "id": 9,
+   "start": 33.465,
+   "end": 38.833,
+   "act": 1,
+   "set": "home",
+   "owner": "H",
+   "framing": "Close, the dark window",
+   "camera": "Slow push-in",
+   "vo": "Then the voice outside called again. This time… in her own voice.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "Then",
+     "highlight": false,
+     "start": 33.822,
+     "end": 34.355
+    },
+    {
+     "text": "the",
+     "highlight": false,
+     "start": 34.413,
+     "end": 34.489
+    },
+    {
+     "text": "voice",
+     "highlight": false,
+     "start": 34.527,
+     "end": 34.755
+    },
+    {
+     "text": "outside",
+     "highlight": false,
+     "start": 34.813,
+     "end": 35.289
+    },
+    {
+     "text": "called",
+     "highlight": false,
+     "start": 35.346,
+     "end": 35.517
+    },
+    {
+     "text": "again.",
+     "highlight": false,
+     "start": 35.575,
+     "end": 35.898
+    },
+    {
+     "text": "This",
+     "highlight": false,
+     "start": 36.451,
+     "end": 36.622
+    },
+    {
+     "text": "time…",
+     "highlight": false,
+     "start": 36.679,
+     "end": 36.946
+    },
+    {
+     "text": "in",
+     "highlight": false,
+     "start": 37.422,
+     "end": 37.479
+    },
+    {
+     "text": "her",
+     "highlight": true,
+     "start": 37.517,
+     "end": 37.632
+    },
+    {
+     "text": "own",
+     "highlight": false,
+     "start": 37.727,
+     "end": 37.917
+    },
+    {
+     "text": "voice.",
+     "highlight": false,
+     "start": 37.975,
+     "end": 38.336
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "Dark window glass with the friend's faint reflection; outside, two dull eyes between pines",
+   "notes": "Cold."
+  },
+  {
+   "id": 10,
+   "start": 38.833,
+   "end": 42.362,
+   "act": 1,
+   "set": "mountain",
+   "owner": "M",
+   "framing": "Wide, the apartment from outside, lights going off",
+   "camera": "Locked",
+   "vo": "They shut every window and waited for dawn.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "They",
+     "highlight": false,
+     "start": 39.19,
+     "end": 39.343
+    },
+    {
+     "text": "shut",
+     "highlight": false,
+     "start": 39.381,
+     "end": 39.59
+    },
+    {
+     "text": "every",
+     "highlight": false,
+     "start": 39.666,
+     "end": 39.876
+    },
+    {
+     "text": "window",
+     "highlight": false,
+     "start": 39.952,
+     "end": 40.352
+    },
+    {
+     "text": "and",
+     "highlight": false,
+     "start": 40.866,
+     "end": 41.0
+    },
+    {
+     "text": "waited",
+     "highlight": false,
+     "start": 41.057,
+     "end": 41.323
+    },
+    {
+     "text": "for",
+     "highlight": false,
+     "start": 41.362,
+     "end": 41.476
+    },
+    {
+     "text": "dawn.",
+     "highlight": true,
+     "start": 41.533,
+     "end": 41.876
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "Apartment windows going dark one by one, the pale shape at the tree line",
+   "notes": "Night."
+  },
+  {
+   "id": 11,
+   "start": 42.362,
+   "end": 48.753,
+   "act": 1,
+   "set": "mountain",
+   "owner": "M",
+   "framing": "Low angle, giant tracks in the snow",
+   "camera": "Slow push along the tracks",
+   "vo": "In the morning, there were tracks in the snow. Huge. And white fur caught on the fence.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "In",
+     "highlight": false,
+     "start": 42.719,
+     "end": 42.776
+    },
+    {
+     "text": "the",
+     "highlight": false,
+     "start": 42.814,
+     "end": 42.872
+    },
+    {
+     "text": "morning,",
+     "highlight": false,
+     "start": 42.929,
+     "end": 43.291
+    },
+    {
+     "text": "there",
+     "highlight": false,
+     "start": 43.71,
+     "end": 43.805
+    },
+    {
+     "text": "were",
+     "highlight": false,
+     "start": 43.824,
+     "end": 43.938
+    },
+    {
+     "text": "tracks",
+     "highlight": false,
+     "start": 43.995,
+     "end": 44.319
+    },
+    {
+     "text": "in",
+     "highlight": false,
+     "start": 44.376,
+     "end": 44.433
+    },
+    {
+     "text": "the",
+     "highlight": false,
+     "start": 44.472,
+     "end": 44.567
+    },
+    {
+     "text": "snow.",
+     "highlight": false,
+     "start": 44.662,
+     "end": 44.967
+    },
+    {
+     "text": "Huge.",
+     "highlight": false,
+     "start": 45.538,
+     "end": 45.995
+    },
+    {
+     "text": "And",
+     "highlight": false,
+     "start": 46.491,
+     "end": 46.624
+    },
+    {
+     "text": "white",
+     "highlight": false,
+     "start": 46.681,
+     "end": 46.948
+    },
+    {
+     "text": "fur",
+     "highlight": false,
+     "start": 47.024,
+     "end": 47.348
+    },
+    {
+     "text": "caught",
+     "highlight": false,
+     "start": 47.405,
+     "end": 47.576
+    },
+    {
+     "text": "on",
+     "highlight": false,
+     "start": 47.614,
+     "end": 47.691
+    },
+    {
+     "text": "the",
+     "highlight": false,
+     "start": 47.729,
+     "end": 47.805
+    },
+    {
+     "text": "fence.",
+     "highlight": true,
+     "start": 47.862,
+     "end": 48.262
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "Huge paw tracks in fresh snow leading to a wire fence with white fur caught on it",
+   "notes": "Pale dawn: `#9fb3cc` → `#e6eef7`."
+  },
+  {
+   "id": 12,
+   "start": 48.753,
+   "end": 53.478,
+   "act": 1,
+   "set": "mountain",
+   "owner": "M",
+   "framing": "Wide, the trail at dusk",
+   "camera": "Slow push-in",
+   "vo": "So if someone you love calls you from the dark… check where they really are.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "So",
+     "highlight": false,
+     "start": 49.11,
+     "end": 49.243
+    },
+    {
+     "text": "if",
+     "highlight": false,
+     "start": 49.301,
+     "end": 49.415
+    },
+    {
+     "text": "someone",
+     "highlight": false,
+     "start": 49.472,
+     "end": 49.777
+    },
+    {
+     "text": "you",
+     "highlight": false,
+     "start": 49.834,
+     "end": 49.929
+    },
+    {
+     "text": "love",
+     "highlight": false,
+     "start": 49.986,
+     "end": 50.158
+    },
+    {
+     "text": "calls",
+     "highlight": false,
+     "start": 50.272,
+     "end": 50.539
+    },
+    {
+     "text": "you",
+     "highlight": false,
+     "start": 50.577,
+     "end": 50.653
+    },
+    {
+     "text": "from",
+     "highlight": false,
+     "start": 50.691,
+     "end": 50.805
+    },
+    {
+     "text": "the",
+     "highlight": false,
+     "start": 50.843,
+     "end": 50.939
+    },
+    {
+     "text": "dark…",
+     "highlight": false,
+     "start": 50.977,
+     "end": 51.282
+    },
+    {
+     "text": "check",
+     "highlight": false,
+     "start": 51.701,
+     "end": 51.91
+    },
+    {
+     "text": "where",
+     "highlight": false,
+     "start": 51.929,
+     "end": 52.043
+    },
+    {
+     "text": "they",
+     "highlight": false,
+     "start": 52.082,
+     "end": 52.215
+    },
+    {
+     "text": "really",
+     "highlight": false,
+     "start": 52.272,
+     "end": 52.52
+    },
+    {
+     "text": "are.",
+     "highlight": true,
+     "start": 52.614,
+     "end": 52.786
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "Pine trail at dusk, a faint pale shape waiting far up",
+   "notes": "Darker, colder."
+  },
+  {
+   "id": 13,
+   "start": 53.478,
+   "end": 56.278,
+   "act": 1,
+   "set": "graphic",
+   "owner": "G",
+   "framing": "End card",
+   "camera": "Static",
+   "vo": "Would you answer? Comment YES or NO.",
+   "voKind": "onscreen",
+   "speaker": null,
+   "words": [
+    {
+     "text": "Would",
+     "highlight": false,
+     "start": 53.728,
+     "end": 54.028
+    },
+    {
+     "text": "you",
+     "highlight": false,
+     "start": 53.948,
+     "end": 54.248
+    },
+    {
+     "text": "answer?",
+     "highlight": false,
+     "start": 54.168,
+     "end": 54.468
+    },
+    {
+     "text": "Comment",
+     "highlight": false,
+     "start": 54.388,
+     "end": 54.688
+    },
+    {
+     "text": "YES",
+     "highlight": true,
+     "start": 54.608,
+     "end": 54.908
+    },
+    {
+     "text": "or",
+     "highlight": false,
+     "start": 54.828,
+     "end": 55.128
+    },
+    {
+     "text": "NO.",
+     "highlight": true,
+     "start": 55.048,
+     "end": 55.348
+    }
+   ],
+   "trans": "cut",
+   "caption": false,
+   "cool": false,
+   "hero": "CTA with a pine and white-fur motif",
+   "notes": "No caption (on-screen text)."
+  }
+ ],
+ "audio": true
+}

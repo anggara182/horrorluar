@@ -1,0 +1,1143 @@
+{
+ "id": "EP08",
+ "title": "La Llorona",
+ "fps": 30,
+ "width": 1080,
+ "height": 1920,
+ "durationSec": 55.987,
+ "accent": "#ff9f5a",
+ "timingSource": "ai33 eleven_v3 transcript, tempo x1.05",
+ "shots": [
+  {
+   "id": 1,
+   "start": 0.0,
+   "end": 6.652,
+   "act": 1,
+   "set": "river",
+   "owner": "R",
+   "framing": "Wide, riverbank at night",
+   "camera": "Slow push-in",
+   "vo": "In Mexico, if you hear a woman crying by the river at night… walk away. Don't help her.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "In",
+     "highlight": false,
+     "start": 0.557,
+     "end": 0.652
+    },
+    {
+     "text": "Mexico,",
+     "highlight": false,
+     "start": 0.729,
+     "end": 1.262
+    },
+    {
+     "text": "if",
+     "highlight": false,
+     "start": 1.833,
+     "end": 1.91
+    },
+    {
+     "text": "you",
+     "highlight": false,
+     "start": 1.948,
+     "end": 2.043
+    },
+    {
+     "text": "hear",
+     "highlight": false,
+     "start": 2.081,
+     "end": 2.214
+    },
+    {
+     "text": "a",
+     "highlight": false,
+     "start": 2.271,
+     "end": 2.329
+    },
+    {
+     "text": "woman",
+     "highlight": false,
+     "start": 2.367,
+     "end": 2.614
+    },
+    {
+     "text": "crying",
+     "highlight": true,
+     "start": 2.671,
+     "end": 3.014
+    },
+    {
+     "text": "by",
+     "highlight": false,
+     "start": 3.052,
+     "end": 3.148
+    },
+    {
+     "text": "the",
+     "highlight": false,
+     "start": 3.186,
+     "end": 3.262
+    },
+    {
+     "text": "river",
+     "highlight": false,
+     "start": 3.3,
+     "end": 3.51
+    },
+    {
+     "text": "at",
+     "highlight": false,
+     "start": 3.548,
+     "end": 3.643
+    },
+    {
+     "text": "night…",
+     "highlight": false,
+     "start": 3.7,
+     "end": 3.967
+    },
+    {
+     "text": "walk",
+     "highlight": false,
+     "start": 4.405,
+     "end": 4.595
+    },
+    {
+     "text": "away.",
+     "highlight": false,
+     "start": 4.652,
+     "end": 4.976
+    },
+    {
+     "text": "Don't",
+     "highlight": false,
+     "start": 5.49,
+     "end": 5.7
+    },
+    {
+     "text": "help",
+     "highlight": false,
+     "start": 5.757,
+     "end": 5.967
+    },
+    {
+     "text": "her.",
+     "highlight": false,
+     "start": 5.986,
+     "end": 6.157
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "A small white kneeling figure far away at the water's edge, moon reflection",
+   "notes": "Reeds, willow, mist; LOW detail bg."
+  },
+  {
+   "id": 2,
+   "start": 6.652,
+   "end": 10.746,
+   "act": 1,
+   "set": "graphic",
+   "owner": "G",
+   "framing": "Title card",
+   "camera": "Slow push",
+   "vo": "They call her La Llorona. The weeping woman.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "They",
+     "highlight": false,
+     "start": 7.009,
+     "end": 7.162
+    },
+    {
+     "text": "call",
+     "highlight": false,
+     "start": 7.276,
+     "end": 7.542
+    },
+    {
+     "text": "her",
+     "highlight": false,
+     "start": 7.6,
+     "end": 7.866
+    },
+    {
+     "text": "La",
+     "highlight": true,
+     "start": 8.152,
+     "end": 8.285
+    },
+    {
+     "text": "Llorona.",
+     "highlight": true,
+     "start": 8.323,
+     "end": 8.838
+    },
+    {
+     "text": "The",
+     "highlight": false,
+     "start": 9.39,
+     "end": 9.447
+    },
+    {
+     "text": "weeping",
+     "highlight": false,
+     "start": 9.562,
+     "end": 9.885
+    },
+    {
+     "text": "woman.",
+     "highlight": false,
+     "start": 9.962,
+     "end": 10.266
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "Title 'LA LLORONA' + 'The weeping woman · Mexico' over a veiled woman in white",
+   "notes": "Moonlit, marigold accent."
+  },
+  {
+   "id": 3,
+   "start": 10.746,
+   "end": 17.103,
+   "act": 1,
+   "set": "graphic",
+   "owner": "G",
+   "framing": "Lore insert",
+   "camera": "Slow push",
+   "vo": "She lost her children to the river. Now she searches every riverbank… and takes the ones she finds.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "She",
+     "highlight": false,
+     "start": 11.103,
+     "end": 11.236
+    },
+    {
+     "text": "lost",
+     "highlight": false,
+     "start": 11.294,
+     "end": 11.484
+    },
+    {
+     "text": "her",
+     "highlight": false,
+     "start": 11.503,
+     "end": 11.617
+    },
+    {
+     "text": "children",
+     "highlight": false,
+     "start": 11.675,
+     "end": 11.998
+    },
+    {
+     "text": "to",
+     "highlight": false,
+     "start": 12.036,
+     "end": 12.094
+    },
+    {
+     "text": "the",
+     "highlight": false,
+     "start": 12.132,
+     "end": 12.208
+    },
+    {
+     "text": "river.",
+     "highlight": false,
+     "start": 12.246,
+     "end": 12.513
+    },
+    {
+     "text": "Now",
+     "highlight": false,
+     "start": 13.008,
+     "end": 13.236
+    },
+    {
+     "text": "she",
+     "highlight": false,
+     "start": 13.313,
+     "end": 13.446
+    },
+    {
+     "text": "searches",
+     "highlight": false,
+     "start": 13.503,
+     "end": 13.865
+    },
+    {
+     "text": "every",
+     "highlight": false,
+     "start": 13.941,
+     "end": 14.17
+    },
+    {
+     "text": "riverbank…",
+     "highlight": false,
+     "start": 14.208,
+     "end": 14.702
+    },
+    {
+     "text": "and",
+     "highlight": false,
+     "start": 15.179,
+     "end": 15.275
+    },
+    {
+     "text": "takes",
+     "highlight": false,
+     "start": 15.351,
+     "end": 15.579
+    },
+    {
+     "text": "the",
+     "highlight": false,
+     "start": 15.617,
+     "end": 15.675
+    },
+    {
+     "text": "ones",
+     "highlight": false,
+     "start": 15.751,
+     "end": 15.941
+    },
+    {
+     "text": "she",
+     "highlight": false,
+     "start": 15.979,
+     "end": 16.113
+    },
+    {
+     "text": "finds.",
+     "highlight": true,
+     "start": 16.17,
+     "end": 16.608
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "Two small paper boats drifting on dark water, one tipping over",
+   "notes": "Respectful, eerie."
+  },
+  {
+   "id": 4,
+   "start": 17.103,
+   "end": 20.919,
+   "act": 1,
+   "set": "river",
+   "owner": "R",
+   "framing": "Medium, boy sneaking to the river",
+   "camera": "Tracking from behind",
+   "vo": "When my cousin was ten, he snuck out to fish at night.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "When",
+     "highlight": false,
+     "start": 17.46,
+     "end": 17.574
+    },
+    {
+     "text": "my",
+     "highlight": false,
+     "start": 17.613,
+     "end": 17.746
+    },
+    {
+     "text": "cousin",
+     "highlight": false,
+     "start": 17.803,
+     "end": 18.051
+    },
+    {
+     "text": "was",
+     "highlight": false,
+     "start": 18.089,
+     "end": 18.241
+    },
+    {
+     "text": "ten,",
+     "highlight": false,
+     "start": 18.317,
+     "end": 18.622
+    },
+    {
+     "text": "he",
+     "highlight": false,
+     "start": 19.041,
+     "end": 19.155
+    },
+    {
+     "text": "snuck",
+     "highlight": false,
+     "start": 19.232,
+     "end": 19.422
+    },
+    {
+     "text": "out",
+     "highlight": false,
+     "start": 19.479,
+     "end": 19.593
+    },
+    {
+     "text": "to",
+     "highlight": false,
+     "start": 19.632,
+     "end": 19.727
+    },
+    {
+     "text": "fish",
+     "highlight": false,
+     "start": 19.784,
+     "end": 19.936
+    },
+    {
+     "text": "at",
+     "highlight": false,
+     "start": 19.974,
+     "end": 20.089
+    },
+    {
+     "text": "night.",
+     "highlight": true,
+     "start": 20.127,
+     "end": 20.432
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "Boy with fishing rod and flashlight walking through reeds",
+   "notes": "Reuse river set."
+  },
+  {
+   "id": 5,
+   "start": 20.919,
+   "end": 25.618,
+   "act": 1,
+   "set": "river",
+   "owner": "R",
+   "framing": "Wide, the woman kneeling by the water",
+   "camera": "Slow push-in",
+   "vo": "He heard crying. A woman in a white dress, kneeling by the water.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "He",
+     "highlight": false,
+     "start": 21.276,
+     "end": 21.39
+    },
+    {
+     "text": "heard",
+     "highlight": false,
+     "start": 21.429,
+     "end": 21.6
+    },
+    {
+     "text": "crying.",
+     "highlight": false,
+     "start": 21.676,
+     "end": 22.076
+    },
+    {
+     "text": "A",
+     "highlight": false,
+     "start": 22.648,
+     "end": 22.686
+    },
+    {
+     "text": "woman",
+     "highlight": false,
+     "start": 22.724,
+     "end": 22.971
+    },
+    {
+     "text": "in",
+     "highlight": false,
+     "start": 23.009,
+     "end": 23.067
+    },
+    {
+     "text": "a",
+     "highlight": false,
+     "start": 23.124,
+     "end": 23.162
+    },
+    {
+     "text": "white",
+     "highlight": false,
+     "start": 23.2,
+     "end": 23.371
+    },
+    {
+     "text": "dress,",
+     "highlight": false,
+     "start": 23.429,
+     "end": 23.771
+    },
+    {
+     "text": "kneeling",
+     "highlight": false,
+     "start": 24.209,
+     "end": 24.552
+    },
+    {
+     "text": "by",
+     "highlight": false,
+     "start": 24.59,
+     "end": 24.686
+    },
+    {
+     "text": "the",
+     "highlight": false,
+     "start": 24.724,
+     "end": 24.8
+    },
+    {
+     "text": "water.",
+     "highlight": true,
+     "start": 24.838,
+     "end": 25.124
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "Woman in white kneeling at the edge, the boy small in the foreground reeds",
+   "notes": "Moonlight, mist."
+  },
+  {
+   "id": 6,
+   "start": 25.618,
+   "end": 29.532,
+   "act": 1,
+   "set": "close",
+   "owner": "C",
+   "framing": "Close, her hands in the river",
+   "camera": "Locked, ripples",
+   "vo": "Her hands were searching the river. Again and again.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "Her",
+     "highlight": false,
+     "start": 25.975,
+     "end": 26.089
+    },
+    {
+     "text": "hands",
+     "highlight": false,
+     "start": 26.147,
+     "end": 26.489
+    },
+    {
+     "text": "were",
+     "highlight": false,
+     "start": 26.508,
+     "end": 26.623
+    },
+    {
+     "text": "searching",
+     "highlight": false,
+     "start": 26.68,
+     "end": 27.023
+    },
+    {
+     "text": "the",
+     "highlight": false,
+     "start": 27.061,
+     "end": 27.118
+    },
+    {
+     "text": "river.",
+     "highlight": false,
+     "start": 27.156,
+     "end": 27.575
+    },
+    {
+     "text": "Again",
+     "highlight": false,
+     "start": 27.975,
+     "end": 28.451
+    },
+    {
+     "text": "and",
+     "highlight": false,
+     "start": 28.489,
+     "end": 28.604
+    },
+    {
+     "text": "again.",
+     "highlight": true,
+     "start": 28.661,
+     "end": 29.042
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "Pale hands moving under the dark water surface, ripples, moon glints",
+   "notes": "Tactile water."
+  },
+  {
+   "id": 7,
+   "start": 29.532,
+   "end": 31.566,
+   "act": 1,
+   "set": "close",
+   "owner": "C",
+   "framing": "Close, her veiled face, hair dripping",
+   "camera": "Very slow push",
+   "vo": "Where are my children?",
+   "voKind": "narration",
+   "speaker": "ghost",
+   "words": [
+    {
+     "text": "Where",
+     "highlight": false,
+     "start": 29.889,
+     "end": 30.08
+    },
+    {
+     "text": "are",
+     "highlight": false,
+     "start": 30.118,
+     "end": 30.232
+    },
+    {
+     "text": "my",
+     "highlight": false,
+     "start": 30.27,
+     "end": 30.442
+    },
+    {
+     "text": "children?",
+     "highlight": true,
+     "start": 30.499,
+     "end": 30.956
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "Long wet hair hanging over a pale face, water dripping, face not visible",
+   "notes": "Almost black, moon rim."
+  },
+  {
+   "id": 8,
+   "start": 31.566,
+   "end": 35.0,
+   "act": 1,
+   "set": "river",
+   "owner": "R",
+   "framing": "Medium, the boy stepping closer",
+   "camera": "Slow push",
+   "vo": "He stepped closer to help. And she stopped crying.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "He",
+     "highlight": false,
+     "start": 31.923,
+     "end": 32.037
+    },
+    {
+     "text": "stepped",
+     "highlight": false,
+     "start": 32.076,
+     "end": 32.304
+    },
+    {
+     "text": "closer",
+     "highlight": false,
+     "start": 32.342,
+     "end": 32.666
+    },
+    {
+     "text": "to",
+     "highlight": false,
+     "start": 32.704,
+     "end": 32.78
+    },
+    {
+     "text": "help.",
+     "highlight": false,
+     "start": 32.818,
+     "end": 33.085
+    },
+    {
+     "text": "And",
+     "highlight": false,
+     "start": 33.523,
+     "end": 33.58
+    },
+    {
+     "text": "she",
+     "highlight": false,
+     "start": 33.637,
+     "end": 33.752
+    },
+    {
+     "text": "stopped",
+     "highlight": false,
+     "start": 33.809,
+     "end": 34.056
+    },
+    {
+     "text": "crying.",
+     "highlight": true,
+     "start": 34.095,
+     "end": 34.514
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "Boy's flashlight beam on the white figure, her head starting to turn",
+   "notes": "Silence beat."
+  },
+  {
+   "id": 9,
+   "start": 35.0,
+   "end": 38.992,
+   "act": 1,
+   "set": "river",
+   "owner": "R",
+   "framing": "Wide, the boy running away",
+   "camera": "Handheld, quick",
+   "vo": "He dropped his rod and ran home without looking back.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "He",
+     "highlight": false,
+     "start": 35.357,
+     "end": 35.471
+    },
+    {
+     "text": "dropped",
+     "highlight": false,
+     "start": 35.529,
+     "end": 35.757
+    },
+    {
+     "text": "his",
+     "highlight": false,
+     "start": 35.795,
+     "end": 35.948
+    },
+    {
+     "text": "rod",
+     "highlight": false,
+     "start": 36.005,
+     "end": 36.271
+    },
+    {
+     "text": "and",
+     "highlight": false,
+     "start": 36.329,
+     "end": 36.462
+    },
+    {
+     "text": "ran",
+     "highlight": false,
+     "start": 36.538,
+     "end": 36.786
+    },
+    {
+     "text": "home",
+     "highlight": false,
+     "start": 36.843,
+     "end": 37.148
+    },
+    {
+     "text": "without",
+     "highlight": false,
+     "start": 37.567,
+     "end": 37.852
+    },
+    {
+     "text": "looking",
+     "highlight": false,
+     "start": 37.89,
+     "end": 38.157
+    },
+    {
+     "text": "back.",
+     "highlight": true,
+     "start": 38.214,
+     "end": 38.5
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "Boy running up the bank, flashlight beam swinging, the white figure standing up behind",
+   "notes": "Reuse river set."
+  },
+  {
+   "id": 10,
+   "start": 38.992,
+   "end": 43.775,
+   "act": 1,
+   "set": "close",
+   "owner": "C",
+   "framing": "Low angle, wet footprints on the floor",
+   "camera": "Slow tilt up to the window",
+   "vo": "The next morning, there were wet footprints… from the river to his window.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "The",
+     "highlight": false,
+     "start": 39.349,
+     "end": 39.406
+    },
+    {
+     "text": "next",
+     "highlight": false,
+     "start": 39.482,
+     "end": 39.73
+    },
+    {
+     "text": "morning,",
+     "highlight": false,
+     "start": 39.825,
+     "end": 40.187
+    },
+    {
+     "text": "there",
+     "highlight": false,
+     "start": 40.511,
+     "end": 40.625
+    },
+    {
+     "text": "were",
+     "highlight": false,
+     "start": 40.663,
+     "end": 40.778
+    },
+    {
+     "text": "wet",
+     "highlight": false,
+     "start": 40.816,
+     "end": 40.987
+    },
+    {
+     "text": "footprints…",
+     "highlight": false,
+     "start": 41.082,
+     "end": 41.635
+    },
+    {
+     "text": "from",
+     "highlight": false,
+     "start": 41.902,
+     "end": 42.035
+    },
+    {
+     "text": "the",
+     "highlight": false,
+     "start": 42.073,
+     "end": 42.149
+    },
+    {
+     "text": "river",
+     "highlight": false,
+     "start": 42.187,
+     "end": 42.549
+    },
+    {
+     "text": "to",
+     "highlight": false,
+     "start": 42.606,
+     "end": 42.702
+    },
+    {
+     "text": "his",
+     "highlight": false,
+     "start": 42.74,
+     "end": 42.873
+    },
+    {
+     "text": "window.",
+     "highlight": true,
+     "start": 42.91,
+     "end": 43.292
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "Wet bare footprints on a tiled floor leading to an open window with a white curtain",
+   "notes": "Morning light, eerie calm."
+  },
+  {
+   "id": 11,
+   "start": 43.775,
+   "end": 48.661,
+   "act": 1,
+   "set": "close",
+   "owner": "C",
+   "framing": "Close, the windowsill",
+   "camera": "Locked",
+   "vo": "And on the sill, a strand of long black hair. Still wet.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "And",
+     "highlight": false,
+     "start": 44.132,
+     "end": 44.227
+    },
+    {
+     "text": "on",
+     "highlight": false,
+     "start": 44.285,
+     "end": 44.361
+    },
+    {
+     "text": "the",
+     "highlight": false,
+     "start": 44.399,
+     "end": 44.494
+    },
+    {
+     "text": "sill,",
+     "highlight": false,
+     "start": 44.551,
+     "end": 44.837
+    },
+    {
+     "text": "a",
+     "highlight": false,
+     "start": 45.332,
+     "end": 45.408
+    },
+    {
+     "text": "strand",
+     "highlight": false,
+     "start": 45.485,
+     "end": 45.827
+    },
+    {
+     "text": "of",
+     "highlight": false,
+     "start": 45.885,
+     "end": 45.98
+    },
+    {
+     "text": "long",
+     "highlight": false,
+     "start": 46.037,
+     "end": 46.342
+    },
+    {
+     "text": "black",
+     "highlight": false,
+     "start": 46.399,
+     "end": 46.665
+    },
+    {
+     "text": "hair.",
+     "highlight": false,
+     "start": 46.723,
+     "end": 47.027
+    },
+    {
+     "text": "Still",
+     "highlight": false,
+     "start": 47.618,
+     "end": 47.846
+    },
+    {
+     "text": "wet.",
+     "highlight": true,
+     "start": 47.904,
+     "end": 48.17
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "Wooden windowsill with a long wet black hair and a few drops of water",
+   "notes": "Morning."
+  },
+  {
+   "id": 12,
+   "start": 48.661,
+   "end": 53.187,
+   "act": 1,
+   "set": "river",
+   "owner": "R",
+   "framing": "Wide, the river at night again",
+   "camera": "Slow push-in",
+   "vo": "She's still searching. And she doesn't care whose children she finds.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "She's",
+     "highlight": false,
+     "start": 49.018,
+     "end": 49.19
+    },
+    {
+     "text": "still",
+     "highlight": false,
+     "start": 49.247,
+     "end": 49.399
+    },
+    {
+     "text": "searching.",
+     "highlight": false,
+     "start": 49.513,
+     "end": 49.951
+    },
+    {
+     "text": "And",
+     "highlight": false,
+     "start": 50.466,
+     "end": 50.542
+    },
+    {
+     "text": "she",
+     "highlight": false,
+     "start": 50.599,
+     "end": 50.694
+    },
+    {
+     "text": "doesn't",
+     "highlight": false,
+     "start": 50.732,
+     "end": 50.961
+    },
+    {
+     "text": "care",
+     "highlight": false,
+     "start": 51.018,
+     "end": 51.228
+    },
+    {
+     "text": "whose",
+     "highlight": false,
+     "start": 51.266,
+     "end": 51.475
+    },
+    {
+     "text": "children",
+     "highlight": false,
+     "start": 51.513,
+     "end": 51.856
+    },
+    {
+     "text": "she",
+     "highlight": false,
+     "start": 51.913,
+     "end": 52.047
+    },
+    {
+     "text": "finds.",
+     "highlight": true,
+     "start": 52.104,
+     "end": 52.485
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "The kneeling white figure again, closer to camera",
+   "notes": "Darker, colder."
+  },
+  {
+   "id": 13,
+   "start": 53.187,
+   "end": 55.987,
+   "act": 1,
+   "set": "graphic",
+   "owner": "G",
+   "framing": "End card",
+   "camera": "Static",
+   "vo": "Would you help her? Comment YES or NO.",
+   "voKind": "onscreen",
+   "speaker": null,
+   "words": [
+    {
+     "text": "Would",
+     "highlight": false,
+     "start": 53.437,
+     "end": 53.737
+    },
+    {
+     "text": "you",
+     "highlight": false,
+     "start": 53.657,
+     "end": 53.957
+    },
+    {
+     "text": "help",
+     "highlight": false,
+     "start": 53.877,
+     "end": 54.177
+    },
+    {
+     "text": "her?",
+     "highlight": false,
+     "start": 54.097,
+     "end": 54.397
+    },
+    {
+     "text": "Comment",
+     "highlight": false,
+     "start": 54.317,
+     "end": 54.617
+    },
+    {
+     "text": "YES",
+     "highlight": true,
+     "start": 54.537,
+     "end": 54.837
+    },
+    {
+     "text": "or",
+     "highlight": false,
+     "start": 54.757,
+     "end": 55.057
+    },
+    {
+     "text": "NO.",
+     "highlight": true,
+     "start": 54.977,
+     "end": 55.277
+    }
+   ],
+   "trans": "cut",
+   "caption": false,
+   "cool": false,
+   "hero": "CTA with a marigold and river-ripple motif",
+   "notes": "No caption (on-screen text)."
+  }
+ ],
+ "audio": true
+}

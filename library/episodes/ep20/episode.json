@@ -1,0 +1,1239 @@
+{
+ "id": "EP20",
+ "title": "The Kelpie",
+ "fps": 30,
+ "width": 1080,
+ "height": 1920,
+ "durationSec": 56.545,
+ "accent": "#4fd1c5",
+ "timingSource": "ai33 eleven_v3 transcript, tempo x1.05",
+ "shots": [
+  {
+   "id": 1,
+   "start": 0.0,
+   "end": 6.886,
+   "act": 1,
+   "set": "loch",
+   "owner": "L",
+   "framing": "Wide, a misty loch at dusk",
+   "camera": "Slow push-in",
+   "vo": "In Scotland, if a black horse waits by the loch… and lets you touch it… don't. Your hand will stick.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "In",
+     "highlight": false,
+     "start": 0.457,
+     "end": 0.552
+    },
+    {
+     "text": "Scotland,",
+     "highlight": false,
+     "start": 0.686,
+     "end": 1.143
+    },
+    {
+     "text": "if",
+     "highlight": false,
+     "start": 1.371,
+     "end": 1.429
+    },
+    {
+     "text": "a",
+     "highlight": false,
+     "start": 1.486,
+     "end": 1.543
+    },
+    {
+     "text": "black",
+     "highlight": false,
+     "start": 1.581,
+     "end": 1.81
+    },
+    {
+     "text": "horse",
+     "highlight": false,
+     "start": 1.848,
+     "end": 2.114
+    },
+    {
+     "text": "waits",
+     "highlight": false,
+     "start": 2.152,
+     "end": 2.381
+    },
+    {
+     "text": "by",
+     "highlight": false,
+     "start": 2.419,
+     "end": 2.533
+    },
+    {
+     "text": "the",
+     "highlight": false,
+     "start": 2.552,
+     "end": 2.629
+    },
+    {
+     "text": "loch…",
+     "highlight": false,
+     "start": 2.686,
+     "end": 2.971
+    },
+    {
+     "text": "and",
+     "highlight": false,
+     "start": 3.39,
+     "end": 3.467
+    },
+    {
+     "text": "lets",
+     "highlight": false,
+     "start": 3.524,
+     "end": 3.714
+    },
+    {
+     "text": "you",
+     "highlight": false,
+     "start": 3.752,
+     "end": 3.829
+    },
+    {
+     "text": "touch",
+     "highlight": false,
+     "start": 3.886,
+     "end": 4.095
+    },
+    {
+     "text": "it…",
+     "highlight": false,
+     "start": 4.152,
+     "end": 4.286
+    },
+    {
+     "text": "don't.",
+     "highlight": false,
+     "start": 4.714,
+     "end": 5.076
+    },
+    {
+     "text": "Your",
+     "highlight": false,
+     "start": 5.505,
+     "end": 5.619
+    },
+    {
+     "text": "hand",
+     "highlight": false,
+     "start": 5.676,
+     "end": 5.943
+    },
+    {
+     "text": "will",
+     "highlight": false,
+     "start": 5.981,
+     "end": 6.133
+    },
+    {
+     "text": "stick.",
+     "highlight": true,
+     "start": 6.229,
+     "end": 6.495
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "Still loch at dusk, mist, hills; a black horse standing in the shallows",
+   "notes": "Hills, mist; LOW detail bg."
+  },
+  {
+   "id": 2,
+   "start": 6.886,
+   "end": 8.121,
+   "act": 1,
+   "set": "graphic",
+   "owner": "G",
+   "framing": "Title card",
+   "camera": "Slow push",
+   "vo": "It's a kelpie.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "It's",
+     "highlight": false,
+     "start": 7.143,
+     "end": 7.238
+    },
+    {
+     "text": "a",
+     "highlight": false,
+     "start": 7.276,
+     "end": 7.315
+    },
+    {
+     "text": "kelpie.",
+     "highlight": true,
+     "start": 7.372,
+     "end": 7.734
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "Title 'THE KELPIE' + 'A Scottish legend' over a horse head silhouette with a dripping mane",
+   "notes": "Cold dusk."
+  },
+  {
+   "id": 3,
+   "start": 8.121,
+   "end": 13.849,
+   "act": 1,
+   "set": "graphic",
+   "owner": "G",
+   "framing": "Lore insert",
+   "camera": "Slow push",
+   "vo": "A water horse with a dripping mane. It lets children climb on… then runs into the water.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "A",
+     "highlight": false,
+     "start": 8.378,
+     "end": 8.473
+    },
+    {
+     "text": "water",
+     "highlight": false,
+     "start": 8.531,
+     "end": 8.816
+    },
+    {
+     "text": "horse",
+     "highlight": false,
+     "start": 8.873,
+     "end": 9.159
+    },
+    {
+     "text": "with",
+     "highlight": false,
+     "start": 9.197,
+     "end": 9.273
+    },
+    {
+     "text": "a",
+     "highlight": false,
+     "start": 9.331,
+     "end": 9.388
+    },
+    {
+     "text": "dripping",
+     "highlight": false,
+     "start": 9.426,
+     "end": 9.731
+    },
+    {
+     "text": "mane.",
+     "highlight": false,
+     "start": 9.788,
+     "end": 10.092
+    },
+    {
+     "text": "It",
+     "highlight": false,
+     "start": 10.521,
+     "end": 10.616
+    },
+    {
+     "text": "lets",
+     "highlight": false,
+     "start": 10.654,
+     "end": 10.883
+    },
+    {
+     "text": "children",
+     "highlight": false,
+     "start": 10.94,
+     "end": 11.302
+    },
+    {
+     "text": "climb",
+     "highlight": false,
+     "start": 11.359,
+     "end": 11.645
+    },
+    {
+     "text": "on…",
+     "highlight": false,
+     "start": 11.721,
+     "end": 11.873
+    },
+    {
+     "text": "then",
+     "highlight": false,
+     "start": 12.302,
+     "end": 12.473
+    },
+    {
+     "text": "runs",
+     "highlight": false,
+     "start": 12.55,
+     "end": 12.778
+    },
+    {
+     "text": "into",
+     "highlight": false,
+     "start": 12.816,
+     "end": 12.988
+    },
+    {
+     "text": "the",
+     "highlight": false,
+     "start": 13.026,
+     "end": 13.083
+    },
+    {
+     "text": "water.",
+     "highlight": true,
+     "start": 13.14,
+     "end": 13.464
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "A dripping black mane tangled with water weed, drops falling",
+   "notes": "Eerie, not gory."
+  },
+  {
+   "id": 4,
+   "start": 13.849,
+   "end": 17.45,
+   "act": 1,
+   "set": "loch",
+   "owner": "L",
+   "framing": "Medium, two kids on the shore path",
+   "camera": "Tracking from behind",
+   "vo": "My little brother and I were walking home along the loch at dusk.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "My",
+     "highlight": false,
+     "start": 14.106,
+     "end": 14.278
+    },
+    {
+     "text": "little",
+     "highlight": false,
+     "start": 14.316,
+     "end": 14.468
+    },
+    {
+     "text": "brother",
+     "highlight": false,
+     "start": 14.525,
+     "end": 14.773
+    },
+    {
+     "text": "and",
+     "highlight": false,
+     "start": 14.792,
+     "end": 14.887
+    },
+    {
+     "text": "I",
+     "highlight": false,
+     "start": 15.02,
+     "end": 15.059
+    },
+    {
+     "text": "were",
+     "highlight": false,
+     "start": 15.097,
+     "end": 15.211
+    },
+    {
+     "text": "walking",
+     "highlight": false,
+     "start": 15.249,
+     "end": 15.554
+    },
+    {
+     "text": "home",
+     "highlight": false,
+     "start": 15.611,
+     "end": 15.839
+    },
+    {
+     "text": "along",
+     "highlight": false,
+     "start": 15.897,
+     "end": 16.125
+    },
+    {
+     "text": "the",
+     "highlight": false,
+     "start": 16.163,
+     "end": 16.239
+    },
+    {
+     "text": "loch",
+     "highlight": false,
+     "start": 16.278,
+     "end": 16.525
+    },
+    {
+     "text": "at",
+     "highlight": false,
+     "start": 16.563,
+     "end": 16.659
+    },
+    {
+     "text": "dusk.",
+     "highlight": true,
+     "start": 16.716,
+     "end": 17.059
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "A girl and a small boy in wellies on a stone path by the water",
+   "notes": "Reuse loch set."
+  },
+  {
+   "id": 5,
+   "start": 17.45,
+   "end": 22.681,
+   "act": 1,
+   "set": "loch",
+   "owner": "L",
+   "framing": "Wide, the horse in the shallows",
+   "camera": "Very slow push",
+   "vo": "A black horse stood in the shallows. No saddle. No rider. Just waiting.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "A",
+     "highlight": false,
+     "start": 17.707,
+     "end": 17.764
+    },
+    {
+     "text": "black",
+     "highlight": false,
+     "start": 17.802,
+     "end": 18.05
+    },
+    {
+     "text": "horse",
+     "highlight": false,
+     "start": 18.088,
+     "end": 18.355
+    },
+    {
+     "text": "stood",
+     "highlight": false,
+     "start": 18.412,
+     "end": 18.564
+    },
+    {
+     "text": "in",
+     "highlight": false,
+     "start": 18.583,
+     "end": 18.64
+    },
+    {
+     "text": "the",
+     "highlight": false,
+     "start": 18.679,
+     "end": 18.755
+    },
+    {
+     "text": "shallows.",
+     "highlight": false,
+     "start": 18.812,
+     "end": 19.326
+    },
+    {
+     "text": "No",
+     "highlight": false,
+     "start": 19.755,
+     "end": 19.907
+    },
+    {
+     "text": "saddle.",
+     "highlight": false,
+     "start": 19.983,
+     "end": 20.307
+    },
+    {
+     "text": "No",
+     "highlight": false,
+     "start": 20.736,
+     "end": 20.869
+    },
+    {
+     "text": "rider.",
+     "highlight": false,
+     "start": 20.945,
+     "end": 21.269
+    },
+    {
+     "text": "Just",
+     "highlight": false,
+     "start": 21.698,
+     "end": 21.888
+    },
+    {
+     "text": "waiting.",
+     "highlight": true,
+     "start": 21.926,
+     "end": 22.288
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "The black horse standing in still water, its reflection, mist around its legs",
+   "notes": "Hold."
+  },
+  {
+   "id": 6,
+   "start": 22.681,
+   "end": 27.504,
+   "act": 1,
+   "set": "close",
+   "owner": "C",
+   "framing": "Close, the wet mane and a small hand",
+   "camera": "Slow push-in",
+   "vo": "Its mane was wet. Tangled with weeds. My brother reached out to pet it.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "Its",
+     "highlight": false,
+     "start": 22.938,
+     "end": 23.091
+    },
+    {
+     "text": "mane",
+     "highlight": false,
+     "start": 23.148,
+     "end": 23.414
+    },
+    {
+     "text": "was",
+     "highlight": false,
+     "start": 23.452,
+     "end": 23.586
+    },
+    {
+     "text": "wet.",
+     "highlight": false,
+     "start": 23.643,
+     "end": 23.91
+    },
+    {
+     "text": "Tangled",
+     "highlight": false,
+     "start": 24.31,
+     "end": 24.671
+    },
+    {
+     "text": "with",
+     "highlight": false,
+     "start": 24.71,
+     "end": 24.824
+    },
+    {
+     "text": "weeds.",
+     "highlight": false,
+     "start": 24.881,
+     "end": 25.3
+    },
+    {
+     "text": "My",
+     "highlight": false,
+     "start": 25.719,
+     "end": 25.833
+    },
+    {
+     "text": "brother",
+     "highlight": false,
+     "start": 25.871,
+     "end": 26.119
+    },
+    {
+     "text": "reached",
+     "highlight": false,
+     "start": 26.157,
+     "end": 26.405
+    },
+    {
+     "text": "out",
+     "highlight": false,
+     "start": 26.481,
+     "end": 26.576
+    },
+    {
+     "text": "to",
+     "highlight": false,
+     "start": 26.633,
+     "end": 26.71
+    },
+    {
+     "text": "pet",
+     "highlight": true,
+     "start": 26.767,
+     "end": 26.9
+    },
+    {
+     "text": "it.",
+     "highlight": false,
+     "start": 26.938,
+     "end": 27.11
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "Dripping mane with weed, a small hand reaching toward it",
+   "notes": "Tactile."
+  },
+  {
+   "id": 7,
+   "start": 27.504,
+   "end": 30.628,
+   "act": 1,
+   "set": "close",
+   "owner": "C",
+   "framing": "Close, the hand on the hide",
+   "camera": "Locked",
+   "vo": "His hand touched its neck. And it stuck.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "His",
+     "highlight": false,
+     "start": 27.761,
+     "end": 27.914
+    },
+    {
+     "text": "hand",
+     "highlight": false,
+     "start": 27.971,
+     "end": 28.294
+    },
+    {
+     "text": "touched",
+     "highlight": false,
+     "start": 28.371,
+     "end": 28.656
+    },
+    {
+     "text": "its",
+     "highlight": false,
+     "start": 28.694,
+     "end": 28.866
+    },
+    {
+     "text": "neck.",
+     "highlight": false,
+     "start": 28.923,
+     "end": 29.171
+    },
+    {
+     "text": "And",
+     "highlight": false,
+     "start": 29.59,
+     "end": 29.666
+    },
+    {
+     "text": "it",
+     "highlight": false,
+     "start": 29.704,
+     "end": 29.818
+    },
+    {
+     "text": "stuck.",
+     "highlight": true,
+     "start": 29.952,
+     "end": 30.237
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "A small hand pressed flat on glistening black hide, fingers unable to lift",
+   "notes": "Hero; eerie, not gory."
+  },
+  {
+   "id": 8,
+   "start": 30.628,
+   "end": 33.848,
+   "act": 1,
+   "set": "loch",
+   "owner": "L",
+   "framing": "Wide, the horse turning toward the water",
+   "camera": "Locked",
+   "vo": "The horse turned toward the loch. And started walking.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "The",
+     "highlight": false,
+     "start": 30.885,
+     "end": 30.942
+    },
+    {
+     "text": "horse",
+     "highlight": false,
+     "start": 30.98,
+     "end": 31.247
+    },
+    {
+     "text": "turned",
+     "highlight": false,
+     "start": 31.323,
+     "end": 31.609
+    },
+    {
+     "text": "toward",
+     "highlight": false,
+     "start": 31.647,
+     "end": 31.838
+    },
+    {
+     "text": "the",
+     "highlight": false,
+     "start": 31.876,
+     "end": 31.952
+    },
+    {
+     "text": "loch.",
+     "highlight": false,
+     "start": 31.99,
+     "end": 32.276
+    },
+    {
+     "text": "And",
+     "highlight": false,
+     "start": 32.542,
+     "end": 32.618
+    },
+    {
+     "text": "started",
+     "highlight": false,
+     "start": 32.714,
+     "end": 32.98
+    },
+    {
+     "text": "walking.",
+     "highlight": true,
+     "start": 33.057,
+     "end": 33.457
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "Horse stepping deeper into the water, the boy pulled along at its side",
+   "notes": "Tension."
+  },
+  {
+   "id": 9,
+   "start": 33.848,
+   "end": 38.801,
+   "act": 1,
+   "set": "close",
+   "owner": "C",
+   "framing": "Close, the girl's hand in her pocket",
+   "camera": "Handheld",
+   "vo": "I grabbed his other arm. Grandma always said: iron breaks the spell.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "I",
+     "highlight": false,
+     "start": 34.105,
+     "end": 34.143
+    },
+    {
+     "text": "grabbed",
+     "highlight": false,
+     "start": 34.2,
+     "end": 34.467
+    },
+    {
+     "text": "his",
+     "highlight": false,
+     "start": 34.505,
+     "end": 34.619
+    },
+    {
+     "text": "other",
+     "highlight": false,
+     "start": 34.677,
+     "end": 34.867
+    },
+    {
+     "text": "arm.",
+     "highlight": false,
+     "start": 34.962,
+     "end": 35.191
+    },
+    {
+     "text": "Grandma",
+     "highlight": false,
+     "start": 35.619,
+     "end": 35.962
+    },
+    {
+     "text": "always",
+     "highlight": false,
+     "start": 36.038,
+     "end": 36.305
+    },
+    {
+     "text": "said:",
+     "highlight": false,
+     "start": 36.381,
+     "end": 36.61
+    },
+    {
+     "text": "iron",
+     "highlight": false,
+     "start": 36.629,
+     "end": 37.58
+    },
+    {
+     "text": "breaks",
+     "highlight": false,
+     "start": 37.638,
+     "end": 37.886
+    },
+    {
+     "text": "the",
+     "highlight": false,
+     "start": 37.924,
+     "end": 38.019
+    },
+    {
+     "text": "spell.",
+     "highlight": true,
+     "start": 38.096,
+     "end": 38.419
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "The girl's hand pulling an old iron key from her coat pocket",
+   "notes": "Fast."
+  },
+  {
+   "id": 10,
+   "start": 38.801,
+   "end": 41.842,
+   "act": 1,
+   "set": "close",
+   "owner": "C",
+   "framing": "Close, the iron key on the hide",
+   "camera": "Locked",
+   "vo": "I pressed our old iron key against its neck.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "I",
+     "highlight": false,
+     "start": 39.058,
+     "end": 39.134
+    },
+    {
+     "text": "pressed",
+     "highlight": false,
+     "start": 39.191,
+     "end": 39.477
+    },
+    {
+     "text": "our",
+     "highlight": false,
+     "start": 39.515,
+     "end": 39.706
+    },
+    {
+     "text": "old",
+     "highlight": false,
+     "start": 39.782,
+     "end": 39.953
+    },
+    {
+     "text": "iron",
+     "highlight": false,
+     "start": 40.106,
+     "end": 40.372
+    },
+    {
+     "text": "key",
+     "highlight": false,
+     "start": 40.43,
+     "end": 40.601
+    },
+    {
+     "text": "against",
+     "highlight": false,
+     "start": 40.658,
+     "end": 40.944
+    },
+    {
+     "text": "its",
+     "highlight": false,
+     "start": 40.982,
+     "end": 41.134
+    },
+    {
+     "text": "neck.",
+     "highlight": true,
+     "start": 41.191,
+     "end": 41.458
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "An old iron key pressed against wet black hide, steam curling",
+   "notes": "Hero."
+  },
+  {
+   "id": 11,
+   "start": 41.842,
+   "end": 47.543,
+   "act": 1,
+   "set": "loch",
+   "owner": "L",
+   "framing": "Wide, the horse vanishing into the loch",
+   "camera": "Slow pull-back",
+   "vo": "It shrieked. My brother fell free. And the horse sank into the loch without a ripple.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "It",
+     "highlight": false,
+     "start": 42.099,
+     "end": 42.194
+    },
+    {
+     "text": "shrieked.",
+     "highlight": false,
+     "start": 42.347,
+     "end": 42.766
+    },
+    {
+     "text": "My",
+     "highlight": false,
+     "start": 43.194,
+     "end": 43.347
+    },
+    {
+     "text": "brother",
+     "highlight": false,
+     "start": 43.385,
+     "end": 43.632
+    },
+    {
+     "text": "fell",
+     "highlight": false,
+     "start": 43.728,
+     "end": 43.937
+    },
+    {
+     "text": "free.",
+     "highlight": false,
+     "start": 43.994,
+     "end": 44.242
+    },
+    {
+     "text": "And",
+     "highlight": false,
+     "start": 44.671,
+     "end": 44.747
+    },
+    {
+     "text": "the",
+     "highlight": false,
+     "start": 44.785,
+     "end": 44.861
+    },
+    {
+     "text": "horse",
+     "highlight": false,
+     "start": 44.918,
+     "end": 45.166
+    },
+    {
+     "text": "sank",
+     "highlight": false,
+     "start": 45.223,
+     "end": 45.432
+    },
+    {
+     "text": "into",
+     "highlight": false,
+     "start": 45.471,
+     "end": 45.623
+    },
+    {
+     "text": "the",
+     "highlight": false,
+     "start": 45.661,
+     "end": 45.737
+    },
+    {
+     "text": "loch",
+     "highlight": false,
+     "start": 45.794,
+     "end": 46.042
+    },
+    {
+     "text": "without",
+     "highlight": false,
+     "start": 46.471,
+     "end": 46.737
+    },
+    {
+     "text": "a",
+     "highlight": false,
+     "start": 46.794,
+     "end": 46.832
+    },
+    {
+     "text": "ripple.",
+     "highlight": true,
+     "start": 46.871,
+     "end": 47.156
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "Two kids on the shore, the loch perfectly still where the horse was, mist",
+   "notes": "Eerie calm."
+  },
+  {
+   "id": 12,
+   "start": 47.543,
+   "end": 53.745,
+   "act": 1,
+   "set": "loch",
+   "owner": "L",
+   "framing": "Wide, a garden at night by the cottage",
+   "camera": "Slow push-in",
+   "vo": "We never told anyone. But some evenings… a wet black horse stands at the end of our garden.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "We",
+     "highlight": false,
+     "start": 47.8,
+     "end": 47.876
+    },
+    {
+     "text": "never",
+     "highlight": false,
+     "start": 47.953,
+     "end": 48.181
+    },
+    {
+     "text": "told",
+     "highlight": false,
+     "start": 48.219,
+     "end": 48.448
+    },
+    {
+     "text": "anyone.",
+     "highlight": false,
+     "start": 48.505,
+     "end": 48.905
+    },
+    {
+     "text": "But",
+     "highlight": false,
+     "start": 49.333,
+     "end": 49.486
+    },
+    {
+     "text": "some",
+     "highlight": false,
+     "start": 49.562,
+     "end": 49.772
+    },
+    {
+     "text": "evenings…",
+     "highlight": false,
+     "start": 49.829,
+     "end": 50.305
+    },
+    {
+     "text": "a",
+     "highlight": false,
+     "start": 50.733,
+     "end": 50.791
+    },
+    {
+     "text": "wet",
+     "highlight": false,
+     "start": 50.829,
+     "end": 51.0
+    },
+    {
+     "text": "black",
+     "highlight": false,
+     "start": 51.114,
+     "end": 51.362
+    },
+    {
+     "text": "horse",
+     "highlight": false,
+     "start": 51.419,
+     "end": 51.686
+    },
+    {
+     "text": "stands",
+     "highlight": false,
+     "start": 51.781,
+     "end": 52.067
+    },
+    {
+     "text": "at",
+     "highlight": false,
+     "start": 52.105,
+     "end": 52.181
+    },
+    {
+     "text": "the",
+     "highlight": false,
+     "start": 52.219,
+     "end": 52.295
+    },
+    {
+     "text": "end",
+     "highlight": false,
+     "start": 52.333,
+     "end": 52.467
+    },
+    {
+     "text": "of",
+     "highlight": false,
+     "start": 52.524,
+     "end": 52.581
+    },
+    {
+     "text": "our",
+     "highlight": false,
+     "start": 52.619,
+     "end": 52.733
+    },
+    {
+     "text": "garden.",
+     "highlight": true,
+     "start": 52.772,
+     "end": 53.153
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "A cottage garden at night, the lit window, a dark dripping horse by the far gate",
+   "notes": "Cold."
+  },
+  {
+   "id": 13,
+   "start": 53.745,
+   "end": 56.545,
+   "act": 1,
+   "set": "graphic",
+   "owner": "G",
+   "framing": "End card",
+   "camera": "Static",
+   "vo": "Would you have touched it? Comment YES or NO.",
+   "voKind": "onscreen",
+   "speaker": null,
+   "words": [
+    {
+     "text": "Would",
+     "highlight": false,
+     "start": 53.995,
+     "end": 54.295
+    },
+    {
+     "text": "you",
+     "highlight": false,
+     "start": 54.215,
+     "end": 54.515
+    },
+    {
+     "text": "have",
+     "highlight": false,
+     "start": 54.435,
+     "end": 54.735
+    },
+    {
+     "text": "touched",
+     "highlight": false,
+     "start": 54.655,
+     "end": 54.955
+    },
+    {
+     "text": "it?",
+     "highlight": false,
+     "start": 54.875,
+     "end": 55.175
+    },
+    {
+     "text": "Comment",
+     "highlight": false,
+     "start": 55.095,
+     "end": 55.395
+    },
+    {
+     "text": "YES",
+     "highlight": true,
+     "start": 55.315,
+     "end": 55.615
+    },
+    {
+     "text": "or",
+     "highlight": false,
+     "start": 55.535,
+     "end": 55.835
+    },
+    {
+     "text": "NO.",
+     "highlight": true,
+     "start": 55.755,
+     "end": 56.055
+    }
+   ],
+   "trans": "cut",
+   "caption": false,
+   "cool": false,
+   "hero": "CTA with a mane and iron key motif",
+   "notes": "No caption (on-screen text)."
+  }
+ ],
+ "audio": true
+}

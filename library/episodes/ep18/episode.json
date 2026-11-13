@@ -1,0 +1,1293 @@
+{
+ "id": "EP18",
+ "title": "Aswang",
+ "fps": 30,
+ "width": 1080,
+ "height": 1920,
+ "durationSec": 59.0,
+ "accent": "#b98cff",
+ "timingSource": "ai33 eleven_v3 transcript, tempo x1.1",
+ "shots": [
+  {
+   "id": 1,
+   "start": 0.0,
+   "end": 7.387,
+   "act": 1,
+   "set": "barrio",
+   "owner": "B",
+   "framing": "Wide, nipa huts at night",
+   "camera": "Slow push-in",
+   "vo": "In the Philippines, if a stranger moves into your village… look into their eyes. If your reflection is upside down… run.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "In",
+     "highlight": false,
+     "start": 0.455,
+     "end": 0.509
+    },
+    {
+     "text": "the",
+     "highlight": false,
+     "start": 0.545,
+     "end": 0.6
+    },
+    {
+     "text": "Philippines,",
+     "highlight": false,
+     "start": 0.655,
+     "end": 1.236
+    },
+    {
+     "text": "if",
+     "highlight": false,
+     "start": 1.645,
+     "end": 1.7
+    },
+    {
+     "text": "a",
+     "highlight": false,
+     "start": 1.755,
+     "end": 1.809
+    },
+    {
+     "text": "stranger",
+     "highlight": false,
+     "start": 1.864,
+     "end": 2.209
+    },
+    {
+     "text": "moves",
+     "highlight": false,
+     "start": 2.282,
+     "end": 2.464
+    },
+    {
+     "text": "into",
+     "highlight": false,
+     "start": 2.5,
+     "end": 2.664
+    },
+    {
+     "text": "your",
+     "highlight": false,
+     "start": 2.682,
+     "end": 2.791
+    },
+    {
+     "text": "village…",
+     "highlight": false,
+     "start": 2.827,
+     "end": 3.173
+    },
+    {
+     "text": "look",
+     "highlight": false,
+     "start": 3.582,
+     "end": 3.691
+    },
+    {
+     "text": "into",
+     "highlight": false,
+     "start": 3.727,
+     "end": 3.891
+    },
+    {
+     "text": "their",
+     "highlight": false,
+     "start": 3.927,
+     "end": 4.036
+    },
+    {
+     "text": "eyes.",
+     "highlight": false,
+     "start": 4.127,
+     "end": 4.455
+    },
+    {
+     "text": "If",
+     "highlight": false,
+     "start": 4.864,
+     "end": 4.936
+    },
+    {
+     "text": "your",
+     "highlight": false,
+     "start": 4.955,
+     "end": 5.027
+    },
+    {
+     "text": "reflection",
+     "highlight": false,
+     "start": 5.064,
+     "end": 5.482
+    },
+    {
+     "text": "is",
+     "highlight": false,
+     "start": 5.518,
+     "end": 5.609
+    },
+    {
+     "text": "upside",
+     "highlight": false,
+     "start": 5.664,
+     "end": 5.955
+    },
+    {
+     "text": "down…",
+     "highlight": false,
+     "start": 6.009,
+     "end": 6.3
+    },
+    {
+     "text": "run.",
+     "highlight": true,
+     "start": 6.709,
+     "end": 7.0
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "Stilt huts among palms under the moon, one window lit",
+   "notes": "Palms, huts; LOW detail bg."
+  },
+  {
+   "id": 2,
+   "start": 7.387,
+   "end": 9.116,
+   "act": 1,
+   "set": "graphic",
+   "owner": "G",
+   "framing": "Title card",
+   "camera": "Slow push",
+   "vo": "It might be an aswang.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "It",
+     "highlight": false,
+     "start": 7.642,
+     "end": 7.751
+    },
+    {
+     "text": "might",
+     "highlight": false,
+     "start": 7.805,
+     "end": 8.005
+    },
+    {
+     "text": "be",
+     "highlight": false,
+     "start": 8.042,
+     "end": 8.132
+    },
+    {
+     "text": "an",
+     "highlight": false,
+     "start": 8.169,
+     "end": 8.242
+    },
+    {
+     "text": "aswang.",
+     "highlight": true,
+     "start": 8.296,
+     "end": 8.732
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "Title 'ASWANG' + 'A Philippine legend' over a large black bird shape on a thatched roof",
+   "notes": "Moonlight."
+  },
+  {
+   "id": 3,
+   "start": 9.116,
+   "end": 14.737,
+   "act": 1,
+   "set": "graphic",
+   "owner": "G",
+   "framing": "Lore insert",
+   "camera": "Slow push",
+   "vo": "A shapeshifter. Kind by day. Hungry at night. And it loves the smell of a new baby.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "A",
+     "highlight": false,
+     "start": 9.371,
+     "end": 9.443
+    },
+    {
+     "text": "shapeshifter.",
+     "highlight": false,
+     "start": 9.48,
+     "end": 10.043
+    },
+    {
+     "text": "Kind",
+     "highlight": false,
+     "start": 10.452,
+     "end": 10.761
+    },
+    {
+     "text": "by",
+     "highlight": false,
+     "start": 10.798,
+     "end": 10.943
+    },
+    {
+     "text": "day.",
+     "highlight": false,
+     "start": 10.998,
+     "end": 11.198
+    },
+    {
+     "text": "Hungry",
+     "highlight": false,
+     "start": 11.607,
+     "end": 11.898
+    },
+    {
+     "text": "at",
+     "highlight": false,
+     "start": 11.916,
+     "end": 12.007
+    },
+    {
+     "text": "night.",
+     "highlight": false,
+     "start": 12.043,
+     "end": 12.298
+    },
+    {
+     "text": "And",
+     "highlight": false,
+     "start": 12.707,
+     "end": 12.78
+    },
+    {
+     "text": "it",
+     "highlight": false,
+     "start": 12.816,
+     "end": 12.907
+    },
+    {
+     "text": "loves",
+     "highlight": false,
+     "start": 12.998,
+     "end": 13.198
+    },
+    {
+     "text": "the",
+     "highlight": false,
+     "start": 13.234,
+     "end": 13.325
+    },
+    {
+     "text": "smell",
+     "highlight": false,
+     "start": 13.416,
+     "end": 13.58
+    },
+    {
+     "text": "of",
+     "highlight": false,
+     "start": 13.634,
+     "end": 13.671
+    },
+    {
+     "text": "a",
+     "highlight": false,
+     "start": 13.725,
+     "end": 13.761
+    },
+    {
+     "text": "new",
+     "highlight": false,
+     "start": 13.816,
+     "end": 13.98
+    },
+    {
+     "text": "baby.",
+     "highlight": true,
+     "start": 14.016,
+     "end": 14.343
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "A capiz window at night, a huge wing shadow passing over it",
+   "notes": "Eerie, not gory."
+  },
+  {
+   "id": 4,
+   "start": 14.737,
+   "end": 19.336,
+   "act": 1,
+   "set": "house",
+   "owner": "H",
+   "framing": "Medium, the neighbor visiting the baby",
+   "camera": "Slow push",
+   "vo": "When my brother was born, a new neighbor came to visit. She was so kind.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "When",
+     "highlight": false,
+     "start": 14.992,
+     "end": 15.082
+    },
+    {
+     "text": "my",
+     "highlight": false,
+     "start": 15.119,
+     "end": 15.228
+    },
+    {
+     "text": "brother",
+     "highlight": false,
+     "start": 15.301,
+     "end": 15.501
+    },
+    {
+     "text": "was",
+     "highlight": false,
+     "start": 15.537,
+     "end": 15.682
+    },
+    {
+     "text": "born,",
+     "highlight": false,
+     "start": 15.719,
+     "end": 15.973
+    },
+    {
+     "text": "a",
+     "highlight": false,
+     "start": 16.382,
+     "end": 16.455
+    },
+    {
+     "text": "new",
+     "highlight": false,
+     "start": 16.51,
+     "end": 16.655
+    },
+    {
+     "text": "neighbor",
+     "highlight": false,
+     "start": 16.71,
+     "end": 16.964
+    },
+    {
+     "text": "came",
+     "highlight": false,
+     "start": 17.055,
+     "end": 17.201
+    },
+    {
+     "text": "to",
+     "highlight": false,
+     "start": 17.237,
+     "end": 17.292
+    },
+    {
+     "text": "visit.",
+     "highlight": false,
+     "start": 17.328,
+     "end": 17.637
+    },
+    {
+     "text": "She",
+     "highlight": false,
+     "start": 18.046,
+     "end": 18.155
+    },
+    {
+     "text": "was",
+     "highlight": false,
+     "start": 18.173,
+     "end": 18.3
+    },
+    {
+     "text": "so",
+     "highlight": false,
+     "start": 18.355,
+     "end": 18.519
+    },
+    {
+     "text": "kind.",
+     "highlight": true,
+     "start": 18.573,
+     "end": 18.955
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "Mother holding a swaddled baby, a smiling woman neighbor offering a dish, lamp light",
+   "notes": "Warm."
+  },
+  {
+   "id": 5,
+   "start": 19.336,
+   "end": 24.127,
+   "act": 1,
+   "set": "house",
+   "owner": "H",
+   "framing": "Close, garlic and salt by the door",
+   "camera": "Slow push-in",
+   "vo": "Lola didn't trust her. She hung garlic by the window. And salt by the door.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "Lola",
+     "highlight": false,
+     "start": 19.591,
+     "end": 19.918
+    },
+    {
+     "text": "didn't",
+     "highlight": false,
+     "start": 19.954,
+     "end": 20.172
+    },
+    {
+     "text": "trust",
+     "highlight": false,
+     "start": 20.209,
+     "end": 20.463
+    },
+    {
+     "text": "her.",
+     "highlight": false,
+     "start": 20.481,
+     "end": 20.627
+    },
+    {
+     "text": "She",
+     "highlight": false,
+     "start": 21.036,
+     "end": 21.145
+    },
+    {
+     "text": "hung",
+     "highlight": false,
+     "start": 21.181,
+     "end": 21.327
+    },
+    {
+     "text": "garlic",
+     "highlight": false,
+     "start": 21.4,
+     "end": 21.745
+    },
+    {
+     "text": "by",
+     "highlight": false,
+     "start": 21.763,
+     "end": 21.854
+    },
+    {
+     "text": "the",
+     "highlight": false,
+     "start": 21.891,
+     "end": 21.963
+    },
+    {
+     "text": "window.",
+     "highlight": false,
+     "start": 22.0,
+     "end": 22.327
+    },
+    {
+     "text": "And",
+     "highlight": false,
+     "start": 22.736,
+     "end": 22.809
+    },
+    {
+     "text": "salt",
+     "highlight": false,
+     "start": 22.935,
+     "end": 23.191
+    },
+    {
+     "text": "by",
+     "highlight": false,
+     "start": 23.227,
+     "end": 23.336
+    },
+    {
+     "text": "the",
+     "highlight": false,
+     "start": 23.372,
+     "end": 23.445
+    },
+    {
+     "text": "door.",
+     "highlight": true,
+     "start": 23.481,
+     "end": 23.736
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "Garlic bulbs hanging from a window frame, a bowl of salt on the threshold",
+   "notes": "Tactile."
+  },
+  {
+   "id": 6,
+   "start": 24.127,
+   "end": 28.22,
+   "act": 1,
+   "set": "house",
+   "owner": "H",
+   "framing": "Medium, Lola whispering to the girl",
+   "camera": "Locked",
+   "vo": "When the neighbor leaned over the crib, Lola whispered: 'Look at her eyes.'",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "When",
+     "highlight": false,
+     "start": 24.382,
+     "end": 24.491
+    },
+    {
+     "text": "the",
+     "highlight": false,
+     "start": 24.527,
+     "end": 24.582
+    },
+    {
+     "text": "neighbor",
+     "highlight": false,
+     "start": 24.636,
+     "end": 24.891
+    },
+    {
+     "text": "leaned",
+     "highlight": false,
+     "start": 24.982,
+     "end": 25.182
+    },
+    {
+     "text": "over",
+     "highlight": false,
+     "start": 25.254,
+     "end": 25.382
+    },
+    {
+     "text": "the",
+     "highlight": false,
+     "start": 25.418,
+     "end": 25.491
+    },
+    {
+     "text": "crib,",
+     "highlight": false,
+     "start": 25.545,
+     "end": 25.818
+    },
+    {
+     "text": "Lola",
+     "highlight": false,
+     "start": 26.036,
+     "end": 26.272
+    },
+    {
+     "text": "whispered:",
+     "highlight": false,
+     "start": 26.309,
+     "end": 26.691
+    },
+    {
+     "text": "'Look",
+     "highlight": false,
+     "start": 27.054,
+     "end": 27.182
+    },
+    {
+     "text": "at",
+     "highlight": false,
+     "start": 27.218,
+     "end": 27.254
+    },
+    {
+     "text": "her",
+     "highlight": false,
+     "start": 27.291,
+     "end": 27.4
+    },
+    {
+     "text": "eyes.'",
+     "highlight": true,
+     "start": 27.472,
+     "end": 27.836
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "Lola beside the girl, both watching the neighbor lean over the crib",
+   "notes": "Tension."
+  },
+  {
+   "id": 7,
+   "start": 28.22,
+   "end": 31.668,
+   "act": 1,
+   "set": "house",
+   "owner": "H",
+   "framing": "Extreme close, the neighbor's eye",
+   "camera": "Very slow push",
+   "vo": "In her eyes, I saw myself. Upside down.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "In",
+     "highlight": false,
+     "start": 28.475,
+     "end": 28.547
+    },
+    {
+     "text": "her",
+     "highlight": false,
+     "start": 28.584,
+     "end": 28.729
+    },
+    {
+     "text": "eyes,",
+     "highlight": false,
+     "start": 28.802,
+     "end": 29.111
+    },
+    {
+     "text": "I",
+     "highlight": false,
+     "start": 29.438,
+     "end": 29.475
+    },
+    {
+     "text": "saw",
+     "highlight": false,
+     "start": 29.529,
+     "end": 29.656
+    },
+    {
+     "text": "myself.",
+     "highlight": false,
+     "start": 29.711,
+     "end": 30.184
+    },
+    {
+     "text": "Upside",
+     "highlight": false,
+     "start": 30.593,
+     "end": 30.938
+    },
+    {
+     "text": "down.",
+     "highlight": true,
+     "start": 30.993,
+     "end": 31.284
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "A woman's eye in lamp light; in the iris, a tiny reflection of the girl, upside down",
+   "notes": "Hero shot."
+  },
+  {
+   "id": 8,
+   "start": 31.668,
+   "end": 36.489,
+   "act": 1,
+   "set": "barrio",
+   "owner": "B",
+   "framing": "Wide, a huge bird on the roof",
+   "camera": "Slow tilt up",
+   "vo": "That night, something landed on our roof. Heavy. Like a giant bird.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "That",
+     "highlight": false,
+     "start": 31.923,
+     "end": 32.068
+    },
+    {
+     "text": "night,",
+     "highlight": false,
+     "start": 32.104,
+     "end": 32.395
+    },
+    {
+     "text": "something",
+     "highlight": false,
+     "start": 32.804,
+     "end": 33.113
+    },
+    {
+     "text": "landed",
+     "highlight": false,
+     "start": 33.168,
+     "end": 33.441
+    },
+    {
+     "text": "on",
+     "highlight": false,
+     "start": 33.495,
+     "end": 33.568
+    },
+    {
+     "text": "our",
+     "highlight": false,
+     "start": 33.604,
+     "end": 33.713
+    },
+    {
+     "text": "roof.",
+     "highlight": false,
+     "start": 33.768,
+     "end": 34.059
+    },
+    {
+     "text": "Heavy.",
+     "highlight": false,
+     "start": 34.468,
+     "end": 34.759
+    },
+    {
+     "text": "Like",
+     "highlight": false,
+     "start": 35.168,
+     "end": 35.259
+    },
+    {
+     "text": "a",
+     "highlight": false,
+     "start": 35.313,
+     "end": 35.368
+    },
+    {
+     "text": "giant",
+     "highlight": false,
+     "start": 35.423,
+     "end": 35.677
+    },
+    {
+     "text": "bird.",
+     "highlight": true,
+     "start": 35.786,
+     "end": 36.095
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "The hut in moonlight, a huge black bird silhouette perched on the thatch",
+   "notes": "Moonlight."
+  },
+  {
+   "id": 9,
+   "start": 36.489,
+   "end": 41.75,
+   "act": 1,
+   "set": "house",
+   "owner": "H",
+   "framing": "Medium, Lola by the crib",
+   "camera": "Locked",
+   "vo": "Lola sat by the crib with her rosary. All night. Above us, the roof creaked.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "Lola",
+     "highlight": false,
+     "start": 36.744,
+     "end": 36.998
+    },
+    {
+     "text": "sat",
+     "highlight": false,
+     "start": 37.016,
+     "end": 37.234
+    },
+    {
+     "text": "by",
+     "highlight": false,
+     "start": 37.271,
+     "end": 37.362
+    },
+    {
+     "text": "the",
+     "highlight": false,
+     "start": 37.398,
+     "end": 37.471
+    },
+    {
+     "text": "crib",
+     "highlight": false,
+     "start": 37.507,
+     "end": 37.725
+    },
+    {
+     "text": "with",
+     "highlight": false,
+     "start": 37.744,
+     "end": 37.834
+    },
+    {
+     "text": "her",
+     "highlight": false,
+     "start": 37.871,
+     "end": 37.962
+    },
+    {
+     "text": "rosary.",
+     "highlight": false,
+     "start": 37.998,
+     "end": 38.416
+    },
+    {
+     "text": "All",
+     "highlight": false,
+     "start": 38.825,
+     "end": 38.971
+    },
+    {
+     "text": "night.",
+     "highlight": false,
+     "start": 39.025,
+     "end": 39.28
+    },
+    {
+     "text": "Above",
+     "highlight": false,
+     "start": 39.689,
+     "end": 39.907
+    },
+    {
+     "text": "us,",
+     "highlight": false,
+     "start": 39.98,
+     "end": 40.18
+    },
+    {
+     "text": "the",
+     "highlight": false,
+     "start": 40.58,
+     "end": 40.653
+    },
+    {
+     "text": "roof",
+     "highlight": false,
+     "start": 40.725,
+     "end": 40.962
+    },
+    {
+     "text": "creaked.",
+     "highlight": true,
+     "start": 41.016,
+     "end": 41.362
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "Lola praying by the crib, lamp low, thatch above in shadow",
+   "notes": "Hold."
+  },
+  {
+   "id": 10,
+   "start": 41.75,
+   "end": 45.683,
+   "act": 1,
+   "set": "house",
+   "owner": "H",
+   "framing": "Close, a gap in the thatch",
+   "camera": "Very slow push",
+   "vo": "Something sniffed through the gaps in the roof. Slow. Hungry.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "Something",
+     "highlight": false,
+     "start": 42.005,
+     "end": 42.295
+    },
+    {
+     "text": "sniffed",
+     "highlight": false,
+     "start": 42.441,
+     "end": 42.714
+    },
+    {
+     "text": "through",
+     "highlight": false,
+     "start": 42.732,
+     "end": 42.859
+    },
+    {
+     "text": "the",
+     "highlight": false,
+     "start": 42.895,
+     "end": 42.968
+    },
+    {
+     "text": "gaps",
+     "highlight": false,
+     "start": 43.005,
+     "end": 43.241
+    },
+    {
+     "text": "in",
+     "highlight": false,
+     "start": 43.277,
+     "end": 43.332
+    },
+    {
+     "text": "the",
+     "highlight": false,
+     "start": 43.368,
+     "end": 43.441
+    },
+    {
+     "text": "roof.",
+     "highlight": false,
+     "start": 43.495,
+     "end": 43.768
+    },
+    {
+     "text": "Slow.",
+     "highlight": false,
+     "start": 44.177,
+     "end": 44.505
+    },
+    {
+     "text": "Hungry.",
+     "highlight": true,
+     "start": 44.914,
+     "end": 45.295
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "Moonlit gap in the thatch above the crib, a dark shape shifting behind it",
+   "notes": "Never gory."
+  },
+  {
+   "id": 11,
+   "start": 45.683,
+   "end": 50.226,
+   "act": 1,
+   "set": "barrio",
+   "owner": "B",
+   "framing": "Wide, the neighbor's hut at dawn",
+   "camera": "Slow pull-back",
+   "vo": "At dawn, the neighbor's house was empty. Only black feathers on the steps.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "At",
+     "highlight": false,
+     "start": 45.938,
+     "end": 46.065
+    },
+    {
+     "text": "dawn,",
+     "highlight": false,
+     "start": 46.101,
+     "end": 46.41
+    },
+    {
+     "text": "the",
+     "highlight": false,
+     "start": 46.683,
+     "end": 46.756
+    },
+    {
+     "text": "neighbor's",
+     "highlight": false,
+     "start": 46.792,
+     "end": 47.101
+    },
+    {
+     "text": "house",
+     "highlight": false,
+     "start": 47.138,
+     "end": 47.374
+    },
+    {
+     "text": "was",
+     "highlight": false,
+     "start": 47.41,
+     "end": 47.519
+    },
+    {
+     "text": "empty.",
+     "highlight": false,
+     "start": 47.574,
+     "end": 47.883
+    },
+    {
+     "text": "Only",
+     "highlight": false,
+     "start": 48.292,
+     "end": 48.528
+    },
+    {
+     "text": "black",
+     "highlight": false,
+     "start": 48.565,
+     "end": 48.819
+    },
+    {
+     "text": "feathers",
+     "highlight": false,
+     "start": 48.874,
+     "end": 49.165
+    },
+    {
+     "text": "on",
+     "highlight": false,
+     "start": 49.219,
+     "end": 49.291
+    },
+    {
+     "text": "the",
+     "highlight": false,
+     "start": 49.328,
+     "end": 49.401
+    },
+    {
+     "text": "steps.",
+     "highlight": true,
+     "start": 49.456,
+     "end": 49.838
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "Empty hut in grey dawn, black feathers scattered on the bamboo steps",
+   "notes": "Dawn mist."
+  },
+  {
+   "id": 12,
+   "start": 50.226,
+   "end": 56.2,
+   "act": 1,
+   "set": "house",
+   "owner": "H",
+   "framing": "Close, a smiling stranger, lamp light",
+   "camera": "Slow push-in",
+   "vo": "Years later, a new neighbor smiled at me. And in her eyes… I was upside down.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "Years",
+     "highlight": false,
+     "start": 50.481,
+     "end": 50.735
+    },
+    {
+     "text": "later,",
+     "highlight": false,
+     "start": 50.808,
+     "end": 51.135
+    },
+    {
+     "text": "a",
+     "highlight": false,
+     "start": 51.535,
+     "end": 51.59
+    },
+    {
+     "text": "new",
+     "highlight": false,
+     "start": 51.644,
+     "end": 51.808
+    },
+    {
+     "text": "neighbor",
+     "highlight": false,
+     "start": 51.862,
+     "end": 52.099
+    },
+    {
+     "text": "smiled",
+     "highlight": false,
+     "start": 52.244,
+     "end": 52.571
+    },
+    {
+     "text": "at",
+     "highlight": false,
+     "start": 52.608,
+     "end": 52.699
+    },
+    {
+     "text": "me.",
+     "highlight": false,
+     "start": 52.735,
+     "end": 52.862
+    },
+    {
+     "text": "And",
+     "highlight": false,
+     "start": 53.271,
+     "end": 53.381
+    },
+    {
+     "text": "in",
+     "highlight": false,
+     "start": 53.435,
+     "end": 53.508
+    },
+    {
+     "text": "her",
+     "highlight": false,
+     "start": 53.544,
+     "end": 53.708
+    },
+    {
+     "text": "eyes…",
+     "highlight": false,
+     "start": 53.799,
+     "end": 54.162
+    },
+    {
+     "text": "I",
+     "highlight": false,
+     "start": 54.571,
+     "end": 54.608
+    },
+    {
+     "text": "was",
+     "highlight": false,
+     "start": 54.662,
+     "end": 54.79
+    },
+    {
+     "text": "upside",
+     "highlight": false,
+     "start": 54.862,
+     "end": 55.226
+    },
+    {
+     "text": "down.",
+     "highlight": true,
+     "start": 55.299,
+     "end": 55.608
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "A friendly woman's face in soft light, her eye catching a tiny inverted reflection",
+   "notes": "Cold."
+  },
+  {
+   "id": 13,
+   "start": 56.2,
+   "end": 59.0,
+   "act": 1,
+   "set": "graphic",
+   "owner": "G",
+   "framing": "End card",
+   "camera": "Static",
+   "vo": "Would you look into her eyes? Comment YES or NO.",
+   "voKind": "onscreen",
+   "speaker": null,
+   "words": [
+    {
+     "text": "Would",
+     "highlight": false,
+     "start": 56.45,
+     "end": 56.75
+    },
+    {
+     "text": "you",
+     "highlight": false,
+     "start": 56.67,
+     "end": 56.97
+    },
+    {
+     "text": "look",
+     "highlight": false,
+     "start": 56.89,
+     "end": 57.19
+    },
+    {
+     "text": "into",
+     "highlight": false,
+     "start": 57.11,
+     "end": 57.41
+    },
+    {
+     "text": "her",
+     "highlight": false,
+     "start": 57.33,
+     "end": 57.63
+    },
+    {
+     "text": "eyes?",
+     "highlight": false,
+     "start": 57.55,
+     "end": 57.85
+    },
+    {
+     "text": "Comment",
+     "highlight": false,
+     "start": 57.77,
+     "end": 58.07
+    },
+    {
+     "text": "YES",
+     "highlight": true,
+     "start": 57.99,
+     "end": 58.29
+    },
+    {
+     "text": "or",
+     "highlight": false,
+     "start": 58.21,
+     "end": 58.51
+    },
+    {
+     "text": "NO.",
+     "highlight": true,
+     "start": 58.43,
+     "end": 58.73
+    }
+   ],
+   "trans": "cut",
+   "caption": false,
+   "cool": false,
+   "hero": "CTA with garlic and feather motif",
+   "notes": "No caption (on-screen text)."
+  }
+ ],
+ "audio": true
+}

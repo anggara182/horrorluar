@@ -1,0 +1,1179 @@
+{
+ "id": "EP14",
+ "title": "The Elevator Game",
+ "fps": 30,
+ "width": 1080,
+ "height": 1920,
+ "durationSec": 60.325,
+ "accent": "#ffb000",
+ "timingSource": "ai33 eleven_v3 transcript, tempo x1.12",
+ "shots": [
+  {
+   "id": 1,
+   "start": 0.0,
+   "end": 7.42,
+   "act": 1,
+   "set": "lift",
+   "owner": "L",
+   "framing": "Medium, inside a lit elevator alone",
+   "camera": "Slow push-in",
+   "vo": "In Korea, if you play the elevator game… and a woman gets on at the fifth floor… don't look at her. Don't speak.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "In",
+     "highlight": false,
+     "start": 0.554,
+     "end": 0.661
+    },
+    {
+     "text": "Korea,",
+     "highlight": false,
+     "start": 0.696,
+     "end": 1.089
+    },
+    {
+     "text": "if",
+     "highlight": false,
+     "start": 1.536,
+     "end": 1.607
+    },
+    {
+     "text": "you",
+     "highlight": false,
+     "start": 1.661,
+     "end": 1.75
+    },
+    {
+     "text": "play",
+     "highlight": false,
+     "start": 1.786,
+     "end": 1.929
+    },
+    {
+     "text": "the",
+     "highlight": false,
+     "start": 1.964,
+     "end": 2.071
+    },
+    {
+     "text": "elevator",
+     "highlight": false,
+     "start": 2.125,
+     "end": 2.446
+    },
+    {
+     "text": "game…",
+     "highlight": false,
+     "start": 2.536,
+     "end": 2.768
+    },
+    {
+     "text": "and",
+     "highlight": false,
+     "start": 3.25,
+     "end": 3.321
+    },
+    {
+     "text": "a",
+     "highlight": false,
+     "start": 3.375,
+     "end": 3.411
+    },
+    {
+     "text": "woman",
+     "highlight": false,
+     "start": 3.446,
+     "end": 3.679
+    },
+    {
+     "text": "gets",
+     "highlight": false,
+     "start": 3.714,
+     "end": 3.893
+    },
+    {
+     "text": "on",
+     "highlight": false,
+     "start": 3.946,
+     "end": 4.036
+    },
+    {
+     "text": "at",
+     "highlight": false,
+     "start": 4.071,
+     "end": 4.125
+    },
+    {
+     "text": "the",
+     "highlight": false,
+     "start": 4.161,
+     "end": 4.25
+    },
+    {
+     "text": "fifth",
+     "highlight": false,
+     "start": 4.304,
+     "end": 4.482
+    },
+    {
+     "text": "floor…",
+     "highlight": false,
+     "start": 4.536,
+     "end": 4.804
+    },
+    {
+     "text": "don't",
+     "highlight": false,
+     "start": 5.25,
+     "end": 5.411
+    },
+    {
+     "text": "look",
+     "highlight": false,
+     "start": 5.446,
+     "end": 5.554
+    },
+    {
+     "text": "at",
+     "highlight": false,
+     "start": 5.589,
+     "end": 5.661
+    },
+    {
+     "text": "her.",
+     "highlight": false,
+     "start": 5.696,
+     "end": 5.875
+    },
+    {
+     "text": "Don't",
+     "highlight": false,
+     "start": 6.321,
+     "end": 6.536
+    },
+    {
+     "text": "speak.",
+     "highlight": true,
+     "start": 6.643,
+     "end": 6.929
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "Narrator from behind facing closed steel doors, floor panel glowing",
+   "notes": "Brushed steel, LED panel."
+  },
+  {
+   "id": 2,
+   "start": 7.42,
+   "end": 9.616,
+   "act": 1,
+   "set": "graphic",
+   "owner": "G",
+   "framing": "Title card",
+   "camera": "Slow push",
+   "vo": "They call it the elevator game.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "They",
+     "highlight": false,
+     "start": 7.774,
+     "end": 7.881
+    },
+    {
+     "text": "call",
+     "highlight": false,
+     "start": 7.988,
+     "end": 8.149
+    },
+    {
+     "text": "it",
+     "highlight": false,
+     "start": 8.202,
+     "end": 8.291
+    },
+    {
+     "text": "the",
+     "highlight": true,
+     "start": 8.327,
+     "end": 8.434
+    },
+    {
+     "text": "elevator",
+     "highlight": false,
+     "start": 8.488,
+     "end": 8.827
+    },
+    {
+     "text": "game.",
+     "highlight": true,
+     "start": 8.899,
+     "end": 9.131
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "Title 'THE ELEVATOR GAME' + '엘리베이터 게임 · Korea' over a floor-number panel",
+   "notes": "Cold light."
+  },
+  {
+   "id": 3,
+   "start": 9.616,
+   "end": 19.012,
+   "act": 1,
+   "set": "graphic",
+   "owner": "G",
+   "framing": "Rules insert",
+   "camera": "Slow push",
+   "vo": "Ride alone. Press four, two, six, two, ten. Then five. If it works, you reach another world.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "Ride",
+     "highlight": false,
+     "start": 9.97,
+     "end": 10.13
+    },
+    {
+     "text": "alone.",
+     "highlight": false,
+     "start": 10.184,
+     "end": 10.541
+    },
+    {
+     "text": "Press",
+     "highlight": false,
+     "start": 11.023,
+     "end": 11.237
+    },
+    {
+     "text": "four,",
+     "highlight": false,
+     "start": 11.309,
+     "end": 11.612
+    },
+    {
+     "text": "two,",
+     "highlight": false,
+     "start": 12.112,
+     "end": 12.38
+    },
+    {
+     "text": "six,",
+     "highlight": false,
+     "start": 12.934,
+     "end": 13.255
+    },
+    {
+     "text": "two,",
+     "highlight": false,
+     "start": 13.773,
+     "end": 14.005
+    },
+    {
+     "text": "ten.",
+     "highlight": false,
+     "start": 14.559,
+     "end": 14.827
+    },
+    {
+     "text": "Then",
+     "highlight": false,
+     "start": 15.362,
+     "end": 15.559
+    },
+    {
+     "text": "five.",
+     "highlight": false,
+     "start": 15.63,
+     "end": 16.005
+    },
+    {
+     "text": "If",
+     "highlight": false,
+     "start": 16.541,
+     "end": 16.595
+    },
+    {
+     "text": "it",
+     "highlight": false,
+     "start": 16.648,
+     "end": 16.72
+    },
+    {
+     "text": "works,",
+     "highlight": false,
+     "start": 16.773,
+     "end": 17.095
+    },
+    {
+     "text": "you",
+     "highlight": false,
+     "start": 17.577,
+     "end": 17.648
+    },
+    {
+     "text": "reach",
+     "highlight": false,
+     "start": 17.702,
+     "end": 17.862
+    },
+    {
+     "text": "another",
+     "highlight": false,
+     "start": 17.898,
+     "end": 18.166
+    },
+    {
+     "text": "world.",
+     "highlight": true,
+     "start": 18.22,
+     "end": 18.541
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "Floor buttons lighting up one by one in sequence: 4 2 6 2 10 5",
+   "notes": "Amber LEDs."
+  },
+  {
+   "id": 4,
+   "start": 19.012,
+   "end": 23.545,
+   "act": 1,
+   "set": "hall",
+   "owner": "A",
+   "framing": "Wide, empty apartment lobby at night",
+   "camera": "Slow push",
+   "vo": "At one a.m., I tried it. Alone. In my building's elevator.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "At",
+     "highlight": false,
+     "start": 19.366,
+     "end": 19.473
+    },
+    {
+     "text": "one",
+     "highlight": false,
+     "start": 19.598,
+     "end": 19.669
+    },
+    {
+     "text": "a.m.,",
+     "highlight": false,
+     "start": 19.705,
+     "end": 19.955
+    },
+    {
+     "text": "I",
+     "highlight": false,
+     "start": 20.223,
+     "end": 20.312
+    },
+    {
+     "text": "tried",
+     "highlight": false,
+     "start": 20.348,
+     "end": 20.58
+    },
+    {
+     "text": "it.",
+     "highlight": false,
+     "start": 20.616,
+     "end": 20.758
+    },
+    {
+     "text": "Alone.",
+     "highlight": false,
+     "start": 21.169,
+     "end": 21.526
+    },
+    {
+     "text": "In",
+     "highlight": false,
+     "start": 21.991,
+     "end": 22.044
+    },
+    {
+     "text": "my",
+     "highlight": false,
+     "start": 22.08,
+     "end": 22.205
+    },
+    {
+     "text": "building's",
+     "highlight": false,
+     "start": 22.241,
+     "end": 22.616
+    },
+    {
+     "text": "elevator.",
+     "highlight": true,
+     "start": 22.651,
+     "end": 23.062
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "Empty lobby, elevator doors waiting, exit sign",
+   "notes": "Reuse hall set."
+  },
+  {
+   "id": 5,
+   "start": 23.545,
+   "end": 29.314,
+   "act": 1,
+   "set": "lift",
+   "owner": "L",
+   "framing": "Close, a finger pressing buttons",
+   "camera": "Locked",
+   "vo": "Four. Two. Six. Two. Ten. Every floor was empty.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "Four.",
+     "highlight": false,
+     "start": 23.899,
+     "end": 24.149
+    },
+    {
+     "text": "Two.",
+     "highlight": false,
+     "start": 24.72,
+     "end": 24.97
+    },
+    {
+     "text": "Six.",
+     "highlight": false,
+     "start": 25.506,
+     "end": 25.881
+    },
+    {
+     "text": "Two.",
+     "highlight": false,
+     "start": 26.256,
+     "end": 26.506
+    },
+    {
+     "text": "Ten.",
+     "highlight": false,
+     "start": 26.952,
+     "end": 27.256
+    },
+    {
+     "text": "Every",
+     "highlight": false,
+     "start": 27.702,
+     "end": 27.899
+    },
+    {
+     "text": "floor",
+     "highlight": false,
+     "start": 28.024,
+     "end": 28.274
+    },
+    {
+     "text": "was",
+     "highlight": false,
+     "start": 28.309,
+     "end": 28.452
+    },
+    {
+     "text": "empty.",
+     "highlight": true,
+     "start": 28.506,
+     "end": 28.827
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "A finger pressing lit buttons, the floor display changing",
+   "notes": "Tactile."
+  },
+  {
+   "id": 6,
+   "start": 29.314,
+   "end": 32.484,
+   "act": 1,
+   "set": "hall",
+   "owner": "A",
+   "framing": "Wide, the doors open on an empty hallway",
+   "camera": "Locked",
+   "vo": "Then I pressed five. The doors opened.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "Then",
+     "highlight": false,
+     "start": 29.668,
+     "end": 29.935
+    },
+    {
+     "text": "I",
+     "highlight": false,
+     "start": 30.025,
+     "end": 30.078
+    },
+    {
+     "text": "pressed",
+     "highlight": false,
+     "start": 30.114,
+     "end": 30.364
+    },
+    {
+     "text": "five.",
+     "highlight": false,
+     "start": 30.418,
+     "end": 30.81
+    },
+    {
+     "text": "The",
+     "highlight": false,
+     "start": 31.203,
+     "end": 31.275
+    },
+    {
+     "text": "doors",
+     "highlight": false,
+     "start": 31.31,
+     "end": 31.596
+    },
+    {
+     "text": "opened.",
+     "highlight": true,
+     "start": 31.685,
+     "end": 32.007
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "From inside the lift: doors opening on a dim hallway; a woman with long black hair standing with her back turned",
+   "notes": "Hold."
+  },
+  {
+   "id": 7,
+   "start": 32.484,
+   "end": 36.358,
+   "act": 1,
+   "set": "lift",
+   "owner": "L",
+   "framing": "Medium, the woman steps in",
+   "camera": "Very slow push",
+   "vo": "A woman got on. She stood in the corner. Facing the wall.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "A",
+     "highlight": false,
+     "start": 32.838,
+     "end": 32.873
+    },
+    {
+     "text": "woman",
+     "highlight": false,
+     "start": 32.909,
+     "end": 33.105
+    },
+    {
+     "text": "got",
+     "highlight": false,
+     "start": 33.159,
+     "end": 33.284
+    },
+    {
+     "text": "on.",
+     "highlight": false,
+     "start": 33.373,
+     "end": 33.588
+    },
+    {
+     "text": "She",
+     "highlight": false,
+     "start": 33.963,
+     "end": 34.088
+    },
+    {
+     "text": "stood",
+     "highlight": false,
+     "start": 34.141,
+     "end": 34.266
+    },
+    {
+     "text": "in",
+     "highlight": false,
+     "start": 34.302,
+     "end": 34.355
+    },
+    {
+     "text": "the",
+     "highlight": false,
+     "start": 34.373,
+     "end": 34.445
+    },
+    {
+     "text": "corner.",
+     "highlight": false,
+     "start": 34.498,
+     "end": 34.802
+    },
+    {
+     "text": "Facing",
+     "highlight": false,
+     "start": 35.177,
+     "end": 35.445
+    },
+    {
+     "text": "the",
+     "highlight": false,
+     "start": 35.48,
+     "end": 35.534
+    },
+    {
+     "text": "wall.",
+     "highlight": true,
+     "start": 35.588,
+     "end": 35.873
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "Woman in a dark coat in the corner, long hair, back to camera; narrator's reflection in the steel",
+   "notes": "Eerie stillness."
+  },
+  {
+   "id": 8,
+   "start": 36.358,
+   "end": 40.32,
+   "act": 1,
+   "set": "lift",
+   "owner": "L",
+   "framing": "Close, the floor panel",
+   "camera": "Locked",
+   "vo": "I pressed one, to go down. The elevator went up.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "I",
+     "highlight": false,
+     "start": 36.712,
+     "end": 36.783
+    },
+    {
+     "text": "pressed",
+     "highlight": false,
+     "start": 36.819,
+     "end": 37.087
+    },
+    {
+     "text": "one,",
+     "highlight": false,
+     "start": 37.194,
+     "end": 37.372
+    },
+    {
+     "text": "to",
+     "highlight": false,
+     "start": 37.783,
+     "end": 37.854
+    },
+    {
+     "text": "go",
+     "highlight": false,
+     "start": 37.89,
+     "end": 38.033
+    },
+    {
+     "text": "down.",
+     "highlight": false,
+     "start": 38.087,
+     "end": 38.39
+    },
+    {
+     "text": "The",
+     "highlight": false,
+     "start": 38.837,
+     "end": 38.926
+    },
+    {
+     "text": "elevator",
+     "highlight": false,
+     "start": 38.997,
+     "end": 39.372
+    },
+    {
+     "text": "went",
+     "highlight": false,
+     "start": 39.444,
+     "end": 39.604
+    },
+    {
+     "text": "up.",
+     "highlight": true,
+     "start": 39.694,
+     "end": 39.837
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "Panel numbers climbing past 6, 7, 8, 9",
+   "notes": "Amber LEDs."
+  },
+  {
+   "id": 9,
+   "start": 40.32,
+   "end": 44.393,
+   "act": 1,
+   "set": "lift",
+   "owner": "L",
+   "framing": "Close, the reflection in the steel doors",
+   "camera": "Very slow push",
+   "vo": "In the steel, I saw her reflection. She was slowly turning her head.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "In",
+     "highlight": false,
+     "start": 40.674,
+     "end": 40.727
+    },
+    {
+     "text": "the",
+     "highlight": false,
+     "start": 40.763,
+     "end": 40.852
+    },
+    {
+     "text": "steel,",
+     "highlight": false,
+     "start": 40.941,
+     "end": 41.191
+    },
+    {
+     "text": "I",
+     "highlight": false,
+     "start": 41.299,
+     "end": 41.352
+    },
+    {
+     "text": "saw",
+     "highlight": false,
+     "start": 41.406,
+     "end": 41.566
+    },
+    {
+     "text": "her",
+     "highlight": false,
+     "start": 41.584,
+     "end": 41.674
+    },
+    {
+     "text": "reflection.",
+     "highlight": false,
+     "start": 41.709,
+     "end": 42.245
+    },
+    {
+     "text": "She",
+     "highlight": false,
+     "start": 42.62,
+     "end": 42.709
+    },
+    {
+     "text": "was",
+     "highlight": false,
+     "start": 42.727,
+     "end": 42.834
+    },
+    {
+     "text": "slowly",
+     "highlight": false,
+     "start": 42.888,
+     "end": 43.209
+    },
+    {
+     "text": "turning",
+     "highlight": false,
+     "start": 43.263,
+     "end": 43.495
+    },
+    {
+     "text": "her",
+     "highlight": false,
+     "start": 43.513,
+     "end": 43.62
+    },
+    {
+     "text": "head.",
+     "highlight": true,
+     "start": 43.674,
+     "end": 43.906
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "Blurred reflection in brushed steel: the woman's head turning, hair moving, no face",
+   "notes": "Never show a face."
+  },
+  {
+   "id": 10,
+   "start": 44.393,
+   "end": 47.62,
+   "act": 1,
+   "set": "lift",
+   "owner": "L",
+   "framing": "Close, a hand hitting the button",
+   "camera": "Handheld",
+   "vo": "I hit ten. The doors opened. I ran.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "I",
+     "highlight": false,
+     "start": 44.747,
+     "end": 44.782
+    },
+    {
+     "text": "hit",
+     "highlight": false,
+     "start": 44.818,
+     "end": 44.961
+    },
+    {
+     "text": "ten.",
+     "highlight": false,
+     "start": 44.997,
+     "end": 45.282
+    },
+    {
+     "text": "The",
+     "highlight": false,
+     "start": 45.675,
+     "end": 45.711
+    },
+    {
+     "text": "doors",
+     "highlight": false,
+     "start": 45.764,
+     "end": 46.032
+    },
+    {
+     "text": "opened.",
+     "highlight": false,
+     "start": 46.104,
+     "end": 46.407
+    },
+    {
+     "text": "I",
+     "highlight": false,
+     "start": 46.764,
+     "end": 46.818
+    },
+    {
+     "text": "ran.",
+     "highlight": true,
+     "start": 46.889,
+     "end": 47.139
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "Hand slamming the button, doors opening, narrator bursting out",
+   "notes": "Fast."
+  },
+  {
+   "id": 11,
+   "start": 47.62,
+   "end": 51.249,
+   "act": 1,
+   "set": "hall",
+   "owner": "A",
+   "framing": "Wide, stairwell, a figure running down",
+   "camera": "Follow",
+   "vo": "I took the stairs all the way down. I never looked back.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "I",
+     "highlight": false,
+     "start": 47.974,
+     "end": 48.009
+    },
+    {
+     "text": "took",
+     "highlight": false,
+     "start": 48.063,
+     "end": 48.188
+    },
+    {
+     "text": "the",
+     "highlight": false,
+     "start": 48.224,
+     "end": 48.313
+    },
+    {
+     "text": "stairs",
+     "highlight": false,
+     "start": 48.366,
+     "end": 48.706
+    },
+    {
+     "text": "all",
+     "highlight": false,
+     "start": 48.795,
+     "end": 48.92
+    },
+    {
+     "text": "the",
+     "highlight": false,
+     "start": 48.956,
+     "end": 49.009
+    },
+    {
+     "text": "way",
+     "highlight": false,
+     "start": 49.045,
+     "end": 49.17
+    },
+    {
+     "text": "down.",
+     "highlight": false,
+     "start": 49.224,
+     "end": 49.545
+    },
+    {
+     "text": "I",
+     "highlight": false,
+     "start": 49.938,
+     "end": 49.974
+    },
+    {
+     "text": "never",
+     "highlight": false,
+     "start": 50.027,
+     "end": 50.224
+    },
+    {
+     "text": "looked",
+     "highlight": false,
+     "start": 50.241,
+     "end": 50.438
+    },
+    {
+     "text": "back.",
+     "highlight": true,
+     "start": 50.474,
+     "end": 50.759
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "Concrete stairwell, narrator running down, exit sign glow",
+   "notes": "Reuse hall set."
+  },
+  {
+   "id": 12,
+   "start": 51.249,
+   "end": 57.525,
+   "act": 1,
+   "set": "hall",
+   "owner": "A",
+   "framing": "Wide, the lobby, the elevator doors closing",
+   "camera": "Slow push-in",
+   "vo": "When I reached the lobby, the elevator was waiting. Doors open. Lit up. On five.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "When",
+     "highlight": false,
+     "start": 51.603,
+     "end": 51.692
+    },
+    {
+     "text": "I",
+     "highlight": false,
+     "start": 51.781,
+     "end": 51.817
+    },
+    {
+     "text": "reached",
+     "highlight": false,
+     "start": 51.87,
+     "end": 52.103
+    },
+    {
+     "text": "the",
+     "highlight": false,
+     "start": 52.138,
+     "end": 52.21
+    },
+    {
+     "text": "lobby,",
+     "highlight": false,
+     "start": 52.245,
+     "end": 52.531
+    },
+    {
+     "text": "the",
+     "highlight": false,
+     "start": 52.906,
+     "end": 52.995
+    },
+    {
+     "text": "elevator",
+     "highlight": false,
+     "start": 53.067,
+     "end": 53.442
+    },
+    {
+     "text": "was",
+     "highlight": false,
+     "start": 53.478,
+     "end": 53.585
+    },
+    {
+     "text": "waiting.",
+     "highlight": false,
+     "start": 53.638,
+     "end": 53.96
+    },
+    {
+     "text": "Doors",
+     "highlight": false,
+     "start": 54.442,
+     "end": 54.674
+    },
+    {
+     "text": "open.",
+     "highlight": false,
+     "start": 54.745,
+     "end": 54.995
+    },
+    {
+     "text": "Lit",
+     "highlight": false,
+     "start": 55.442,
+     "end": 55.549
+    },
+    {
+     "text": "up.",
+     "highlight": false,
+     "start": 55.638,
+     "end": 55.781
+    },
+    {
+     "text": "On",
+     "highlight": false,
+     "start": 56.228,
+     "end": 56.388
+    },
+    {
+     "text": "five.",
+     "highlight": true,
+     "start": 56.442,
+     "end": 56.835
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "Lobby elevator open and lit, the panel showing 5, nobody inside",
+   "notes": "Cold."
+  },
+  {
+   "id": 13,
+   "start": 57.525,
+   "end": 60.325,
+   "act": 1,
+   "set": "graphic",
+   "owner": "G",
+   "framing": "End card",
+   "camera": "Static",
+   "vo": "Would you play it? Comment YES or NO.",
+   "voKind": "onscreen",
+   "speaker": null,
+   "words": [
+    {
+     "text": "Would",
+     "highlight": false,
+     "start": 57.775,
+     "end": 58.075
+    },
+    {
+     "text": "you",
+     "highlight": false,
+     "start": 57.995,
+     "end": 58.295
+    },
+    {
+     "text": "play",
+     "highlight": false,
+     "start": 58.215,
+     "end": 58.515
+    },
+    {
+     "text": "it?",
+     "highlight": false,
+     "start": 58.435,
+     "end": 58.735
+    },
+    {
+     "text": "Comment",
+     "highlight": false,
+     "start": 58.655,
+     "end": 58.955
+    },
+    {
+     "text": "YES",
+     "highlight": true,
+     "start": 58.875,
+     "end": 59.175
+    },
+    {
+     "text": "or",
+     "highlight": false,
+     "start": 59.095,
+     "end": 59.395
+    },
+    {
+     "text": "NO.",
+     "highlight": true,
+     "start": 59.315,
+     "end": 59.615
+    }
+   ],
+   "trans": "cut",
+   "caption": false,
+   "cool": false,
+   "hero": "CTA with a floor-panel motif",
+   "notes": "No caption (on-screen text)."
+  }
+ ],
+ "audio": true
+}

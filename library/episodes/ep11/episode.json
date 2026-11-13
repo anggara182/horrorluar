@@ -1,0 +1,1263 @@
+{
+ "id": "EP11",
+ "title": "Tuyul",
+ "fps": 30,
+ "width": 1080,
+ "height": 1920,
+ "durationSec": 60.101,
+ "accent": "#7dd8a4",
+ "timingSource": "ai33 eleven_v3 transcript, tempo x1.12",
+ "shots": [
+  {
+   "id": 1,
+   "start": 0.0,
+   "end": 5.951,
+   "act": 1,
+   "set": "warung",
+   "owner": "W",
+   "framing": "Wide, a small kampung shop at night, one bulb",
+   "camera": "Slow push-in",
+   "vo": "In Indonesia, if your money keeps disappearing at night… put a bowl of water with a crab by the door.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "In",
+     "highlight": false,
+     "start": 0.554,
+     "end": 0.643
+    },
+    {
+     "text": "Indonesia,",
+     "highlight": false,
+     "start": 0.696,
+     "end": 1.214
+    },
+    {
+     "text": "if",
+     "highlight": false,
+     "start": 1.518,
+     "end": 1.589
+    },
+    {
+     "text": "your",
+     "highlight": false,
+     "start": 1.607,
+     "end": 1.714
+    },
+    {
+     "text": "money",
+     "highlight": false,
+     "start": 1.768,
+     "end": 1.982
+    },
+    {
+     "text": "keeps",
+     "highlight": false,
+     "start": 2.036,
+     "end": 2.232
+    },
+    {
+     "text": "disappearing",
+     "highlight": false,
+     "start": 2.268,
+     "end": 2.732
+    },
+    {
+     "text": "at",
+     "highlight": false,
+     "start": 2.768,
+     "end": 2.857
+    },
+    {
+     "text": "night…",
+     "highlight": false,
+     "start": 2.911,
+     "end": 3.161
+    },
+    {
+     "text": "put",
+     "highlight": false,
+     "start": 3.589,
+     "end": 3.679
+    },
+    {
+     "text": "a",
+     "highlight": false,
+     "start": 3.732,
+     "end": 3.768
+    },
+    {
+     "text": "bowl",
+     "highlight": false,
+     "start": 3.821,
+     "end": 3.982
+    },
+    {
+     "text": "of",
+     "highlight": false,
+     "start": 4.018,
+     "end": 4.107
+    },
+    {
+     "text": "water",
+     "highlight": false,
+     "start": 4.161,
+     "end": 4.393
+    },
+    {
+     "text": "with",
+     "highlight": false,
+     "start": 4.429,
+     "end": 4.518
+    },
+    {
+     "text": "a",
+     "highlight": false,
+     "start": 4.554,
+     "end": 4.589
+    },
+    {
+     "text": "crab",
+     "highlight": true,
+     "start": 4.643,
+     "end": 4.911
+    },
+    {
+     "text": "by",
+     "highlight": false,
+     "start": 4.946,
+     "end": 5.054
+    },
+    {
+     "text": "the",
+     "highlight": false,
+     "start": 5.089,
+     "end": 5.161
+    },
+    {
+     "text": "door.",
+     "highlight": false,
+     "start": 5.196,
+     "end": 5.464
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "A tiny bald silhouette slipping under the shop's shutters",
+   "notes": "Shutters, sign, bulb; LOW detail bg."
+  },
+  {
+   "id": 2,
+   "start": 5.951,
+   "end": 8.4,
+   "act": 1,
+   "set": "graphic",
+   "owner": "G",
+   "framing": "Title card",
+   "camera": "Slow push",
+   "vo": "Because you might have a tuyul.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "Because",
+     "highlight": false,
+     "start": 6.305,
+     "end": 6.644
+    },
+    {
+     "text": "you",
+     "highlight": false,
+     "start": 6.733,
+     "end": 6.822
+    },
+    {
+     "text": "might",
+     "highlight": false,
+     "start": 6.947,
+     "end": 7.197
+    },
+    {
+     "text": "have",
+     "highlight": false,
+     "start": 7.233,
+     "end": 7.34
+    },
+    {
+     "text": "a",
+     "highlight": false,
+     "start": 7.394,
+     "end": 7.447
+    },
+    {
+     "text": "tuyul.",
+     "highlight": true,
+     "start": 7.501,
+     "end": 7.912
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "Title 'TUYUL' + 'An Indonesian legend' over a tiny bald silhouette holding a coin",
+   "notes": "Warm bulb light."
+  },
+  {
+   "id": 3,
+   "start": 8.4,
+   "end": 13.076,
+   "act": 1,
+   "set": "graphic",
+   "owner": "G",
+   "framing": "Lore insert",
+   "camera": "Slow push",
+   "vo": "A small spirit that steals money for its master. But it can't resist playing.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "A",
+     "highlight": false,
+     "start": 8.754,
+     "end": 8.825
+    },
+    {
+     "text": "small",
+     "highlight": false,
+     "start": 8.896,
+     "end": 9.075
+    },
+    {
+     "text": "spirit",
+     "highlight": false,
+     "start": 9.218,
+     "end": 9.468
+    },
+    {
+     "text": "that",
+     "highlight": false,
+     "start": 9.504,
+     "end": 9.629
+    },
+    {
+     "text": "steals",
+     "highlight": false,
+     "start": 9.7,
+     "end": 9.968
+    },
+    {
+     "text": "money",
+     "highlight": false,
+     "start": 10.004,
+     "end": 10.218
+    },
+    {
+     "text": "for",
+     "highlight": false,
+     "start": 10.254,
+     "end": 10.343
+    },
+    {
+     "text": "its",
+     "highlight": false,
+     "start": 10.379,
+     "end": 10.486
+    },
+    {
+     "text": "master.",
+     "highlight": false,
+     "start": 10.539,
+     "end": 10.914
+    },
+    {
+     "text": "But",
+     "highlight": false,
+     "start": 11.379,
+     "end": 11.45
+    },
+    {
+     "text": "it",
+     "highlight": false,
+     "start": 11.504,
+     "end": 11.575
+    },
+    {
+     "text": "can't",
+     "highlight": false,
+     "start": 11.629,
+     "end": 11.825
+    },
+    {
+     "text": "resist",
+     "highlight": false,
+     "start": 11.861,
+     "end": 12.182
+    },
+    {
+     "text": "playing.",
+     "highlight": true,
+     "start": 12.236,
+     "end": 12.593
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "A few coins and a toy marble rolling on a wooden floor",
+   "notes": "Playful-eerie."
+  },
+  {
+   "id": 4,
+   "start": 13.076,
+   "end": 18.99,
+   "act": 1,
+   "set": "warung",
+   "owner": "W",
+   "framing": "Medium, uncle counting money at the counter",
+   "camera": "Locked, slow push",
+   "vo": "My uncle runs a small shop. Every night, he counted the money. Every morning, some was gone.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "My",
+     "highlight": false,
+     "start": 13.43,
+     "end": 13.537
+    },
+    {
+     "text": "uncle",
+     "highlight": false,
+     "start": 13.59,
+     "end": 13.805
+    },
+    {
+     "text": "runs",
+     "highlight": false,
+     "start": 13.876,
+     "end": 14.037
+    },
+    {
+     "text": "a",
+     "highlight": false,
+     "start": 14.09,
+     "end": 14.126
+    },
+    {
+     "text": "small",
+     "highlight": false,
+     "start": 14.197,
+     "end": 14.376
+    },
+    {
+     "text": "shop.",
+     "highlight": false,
+     "start": 14.465,
+     "end": 14.769
+    },
+    {
+     "text": "Every",
+     "highlight": false,
+     "start": 15.108,
+     "end": 15.305
+    },
+    {
+     "text": "night,",
+     "highlight": false,
+     "start": 15.358,
+     "end": 15.59
+    },
+    {
+     "text": "he",
+     "highlight": false,
+     "start": 15.84,
+     "end": 15.93
+    },
+    {
+     "text": "counted",
+     "highlight": false,
+     "start": 15.983,
+     "end": 16.233
+    },
+    {
+     "text": "the",
+     "highlight": false,
+     "start": 16.251,
+     "end": 16.322
+    },
+    {
+     "text": "money.",
+     "highlight": false,
+     "start": 16.358,
+     "end": 16.608
+    },
+    {
+     "text": "Every",
+     "highlight": false,
+     "start": 17.019,
+     "end": 17.197
+    },
+    {
+     "text": "morning,",
+     "highlight": false,
+     "start": 17.251,
+     "end": 17.59
+    },
+    {
+     "text": "some",
+     "highlight": false,
+     "start": 17.858,
+     "end": 18.019
+    },
+    {
+     "text": "was",
+     "highlight": false,
+     "start": 18.055,
+     "end": 18.162
+    },
+    {
+     "text": "gone.",
+     "highlight": true,
+     "start": 18.215,
+     "end": 18.501
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "Uncle at the wooden counter counting coins into a tin under the bulb",
+   "notes": "Warm."
+  },
+  {
+   "id": 5,
+   "start": 18.99,
+   "end": 23.583,
+   "act": 1,
+   "set": "close",
+   "owner": "C",
+   "framing": "Close, the money tin",
+   "camera": "Locked",
+   "vo": "The tin was locked. The windows were shut. But the coins kept vanishing.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "The",
+     "highlight": false,
+     "start": 19.344,
+     "end": 19.415
+    },
+    {
+     "text": "tin",
+     "highlight": false,
+     "start": 19.469,
+     "end": 19.611
+    },
+    {
+     "text": "was",
+     "highlight": false,
+     "start": 19.683,
+     "end": 19.79
+    },
+    {
+     "text": "locked.",
+     "highlight": false,
+     "start": 19.844,
+     "end": 20.147
+    },
+    {
+     "text": "The",
+     "highlight": false,
+     "start": 20.54,
+     "end": 20.611
+    },
+    {
+     "text": "windows",
+     "highlight": false,
+     "start": 20.647,
+     "end": 20.969
+    },
+    {
+     "text": "were",
+     "highlight": false,
+     "start": 21.004,
+     "end": 21.111
+    },
+    {
+     "text": "shut.",
+     "highlight": false,
+     "start": 21.165,
+     "end": 21.415
+    },
+    {
+     "text": "But",
+     "highlight": false,
+     "start": 21.826,
+     "end": 21.915
+    },
+    {
+     "text": "the",
+     "highlight": false,
+     "start": 21.951,
+     "end": 22.022
+    },
+    {
+     "text": "coins",
+     "highlight": false,
+     "start": 22.076,
+     "end": 22.344
+    },
+    {
+     "text": "kept",
+     "highlight": false,
+     "start": 22.397,
+     "end": 22.576
+    },
+    {
+     "text": "vanishing.",
+     "highlight": true,
+     "start": 22.629,
+     "end": 23.094
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "A closed money tin with a padlock, a few coins beside it",
+   "notes": "Tactile metal."
+  },
+  {
+   "id": 6,
+   "start": 23.583,
+   "end": 28.149,
+   "act": 1,
+   "set": "close",
+   "owner": "C",
+   "framing": "Close, the bowl with a crab by the door",
+   "camera": "Slow push-in",
+   "vo": "So Grandma told him: put a crab in a bowl of water by the door.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "So",
+     "highlight": false,
+     "start": 23.937,
+     "end": 24.062
+    },
+    {
+     "text": "Grandma",
+     "highlight": false,
+     "start": 24.151,
+     "end": 24.544
+    },
+    {
+     "text": "told",
+     "highlight": false,
+     "start": 24.597,
+     "end": 24.829
+    },
+    {
+     "text": "him:",
+     "highlight": false,
+     "start": 24.865,
+     "end": 25.044
+    },
+    {
+     "text": "put",
+     "highlight": false,
+     "start": 25.044,
+     "end": 25.74
+    },
+    {
+     "text": "a",
+     "highlight": false,
+     "start": 25.794,
+     "end": 25.847
+    },
+    {
+     "text": "crab",
+     "highlight": false,
+     "start": 25.901,
+     "end": 26.204
+    },
+    {
+     "text": "in",
+     "highlight": false,
+     "start": 26.24,
+     "end": 26.294
+    },
+    {
+     "text": "a",
+     "highlight": false,
+     "start": 26.329,
+     "end": 26.383
+    },
+    {
+     "text": "bowl",
+     "highlight": false,
+     "start": 26.419,
+     "end": 26.597
+    },
+    {
+     "text": "of",
+     "highlight": false,
+     "start": 26.633,
+     "end": 26.74
+    },
+    {
+     "text": "water",
+     "highlight": false,
+     "start": 26.776,
+     "end": 27.097
+    },
+    {
+     "text": "by",
+     "highlight": false,
+     "start": 27.133,
+     "end": 27.24
+    },
+    {
+     "text": "the",
+     "highlight": false,
+     "start": 27.276,
+     "end": 27.347
+    },
+    {
+     "text": "door.",
+     "highlight": true,
+     "start": 27.401,
+     "end": 27.669
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "Clay bowl of water on the floor by the door, a small red crab inside",
+   "notes": "Moonlight through the gap."
+  },
+  {
+   "id": 7,
+   "start": 28.149,
+   "end": 31.825,
+   "act": 1,
+   "set": "warung",
+   "owner": "W",
+   "framing": "Wide, the dark shop at night",
+   "camera": "Locked",
+   "vo": "That night, he hid behind the counter and waited.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "That",
+     "highlight": false,
+     "start": 28.503,
+     "end": 28.663
+    },
+    {
+     "text": "night,",
+     "highlight": false,
+     "start": 28.717,
+     "end": 28.949
+    },
+    {
+     "text": "he",
+     "highlight": false,
+     "start": 29.253,
+     "end": 29.36
+    },
+    {
+     "text": "hid",
+     "highlight": false,
+     "start": 29.395,
+     "end": 29.556
+    },
+    {
+     "text": "behind",
+     "highlight": false,
+     "start": 29.574,
+     "end": 29.842
+    },
+    {
+     "text": "the",
+     "highlight": false,
+     "start": 29.86,
+     "end": 29.931
+    },
+    {
+     "text": "counter",
+     "highlight": false,
+     "start": 29.985,
+     "end": 30.324
+    },
+    {
+     "text": "and",
+     "highlight": false,
+     "start": 30.788,
+     "end": 30.931
+    },
+    {
+     "text": "waited.",
+     "highlight": true,
+     "start": 30.985,
+     "end": 31.342
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "Dark shop interior, the bowl by the door glinting, uncle's eyes peeking above the counter",
+   "notes": "Moonlight only."
+  },
+  {
+   "id": 8,
+   "start": 31.825,
+   "end": 36.426,
+   "act": 1,
+   "set": "close",
+   "owner": "C",
+   "framing": "Close, ripples in the bowl",
+   "camera": "Locked",
+   "vo": "At three a.m., he heard tiny footsteps. Then… splashing.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "At",
+     "highlight": false,
+     "start": 32.179,
+     "end": 32.286
+    },
+    {
+     "text": "three",
+     "highlight": false,
+     "start": 32.446,
+     "end": 32.464
+    },
+    {
+     "text": "a.m.,",
+     "highlight": false,
+     "start": 32.536,
+     "end": 32.696
+    },
+    {
+     "text": "he",
+     "highlight": false,
+     "start": 33.125,
+     "end": 33.196
+    },
+    {
+     "text": "heard",
+     "highlight": false,
+     "start": 33.232,
+     "end": 33.411
+    },
+    {
+     "text": "tiny",
+     "highlight": false,
+     "start": 33.464,
+     "end": 33.732
+    },
+    {
+     "text": "footsteps.",
+     "highlight": false,
+     "start": 33.768,
+     "end": 34.268
+    },
+    {
+     "text": "Then…",
+     "highlight": false,
+     "start": 34.786,
+     "end": 35.0
+    },
+    {
+     "text": "splashing.",
+     "highlight": true,
+     "start": 35.482,
+     "end": 35.946
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "Water in the bowl rippling, the crab moving, a small grey hand reaching in",
+   "notes": "Tactile water."
+  },
+  {
+   "id": 9,
+   "start": 36.426,
+   "end": 41.514,
+   "act": 1,
+   "set": "close",
+   "owner": "C",
+   "framing": "Close, the small hand and the crab",
+   "camera": "Very slow push",
+   "vo": "Something small was playing with the crab. Giggling. All night long.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "Something",
+     "highlight": false,
+     "start": 36.78,
+     "end": 37.047
+    },
+    {
+     "text": "small",
+     "highlight": false,
+     "start": 37.208,
+     "end": 37.53
+    },
+    {
+     "text": "was",
+     "highlight": false,
+     "start": 37.565,
+     "end": 37.69
+    },
+    {
+     "text": "playing",
+     "highlight": false,
+     "start": 37.744,
+     "end": 37.994
+    },
+    {
+     "text": "with",
+     "highlight": false,
+     "start": 38.03,
+     "end": 38.101
+    },
+    {
+     "text": "the",
+     "highlight": false,
+     "start": 38.137,
+     "end": 38.208
+    },
+    {
+     "text": "crab.",
+     "highlight": false,
+     "start": 38.244,
+     "end": 38.619
+    },
+    {
+     "text": "Giggling.",
+     "highlight": false,
+     "start": 39.155,
+     "end": 39.565
+    },
+    {
+     "text": "All",
+     "highlight": false,
+     "start": 40.118,
+     "end": 40.333
+    },
+    {
+     "text": "night",
+     "highlight": false,
+     "start": 40.387,
+     "end": 40.619
+    },
+    {
+     "text": "long.",
+     "highlight": true,
+     "start": 40.69,
+     "end": 41.03
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "Small grey child-like hand poking the crab, droplets",
+   "notes": "Eerie-playful."
+  },
+  {
+   "id": 10,
+   "start": 41.514,
+   "end": 46.265,
+   "act": 1,
+   "set": "warung",
+   "owner": "W",
+   "framing": "Wide, dawn in the shop",
+   "camera": "Slow pull-back",
+   "vo": "By morning, not a single coin was missing. But the floor was wet.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "By",
+     "highlight": false,
+     "start": 41.868,
+     "end": 42.01
+    },
+    {
+     "text": "morning,",
+     "highlight": false,
+     "start": 42.064,
+     "end": 42.403
+    },
+    {
+     "text": "not",
+     "highlight": false,
+     "start": 42.707,
+     "end": 42.832
+    },
+    {
+     "text": "a",
+     "highlight": false,
+     "start": 42.868,
+     "end": 42.939
+    },
+    {
+     "text": "single",
+     "highlight": false,
+     "start": 43.028,
+     "end": 43.332
+    },
+    {
+     "text": "coin",
+     "highlight": false,
+     "start": 43.403,
+     "end": 43.707
+    },
+    {
+     "text": "was",
+     "highlight": false,
+     "start": 43.743,
+     "end": 43.85
+    },
+    {
+     "text": "missing.",
+     "highlight": false,
+     "start": 43.885,
+     "end": 44.243
+    },
+    {
+     "text": "But",
+     "highlight": false,
+     "start": 44.707,
+     "end": 44.814
+    },
+    {
+     "text": "the",
+     "highlight": false,
+     "start": 44.832,
+     "end": 44.921
+    },
+    {
+     "text": "floor",
+     "highlight": false,
+     "start": 44.993,
+     "end": 45.26
+    },
+    {
+     "text": "was",
+     "highlight": false,
+     "start": 45.314,
+     "end": 45.439
+    },
+    {
+     "text": "wet.",
+     "highlight": true,
+     "start": 45.493,
+     "end": 45.778
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "Morning light through the shutters, the bowl, puddles on the floor",
+   "notes": "Dawn palette."
+  },
+  {
+   "id": 11,
+   "start": 46.265,
+   "end": 52.636,
+   "act": 1,
+   "set": "close",
+   "owner": "C",
+   "framing": "Low angle, tiny wet footprints",
+   "camera": "Slow push along the prints",
+   "vo": "Tiny wet footprints. Going round and round the bowl. And then… out under the door.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "Tiny",
+     "highlight": false,
+     "start": 46.619,
+     "end": 47.172
+    },
+    {
+     "text": "wet",
+     "highlight": false,
+     "start": 47.279,
+     "end": 47.44
+    },
+    {
+     "text": "footprints.",
+     "highlight": false,
+     "start": 47.547,
+     "end": 48.083
+    },
+    {
+     "text": "Going",
+     "highlight": false,
+     "start": 48.458,
+     "end": 48.672
+    },
+    {
+     "text": "round",
+     "highlight": false,
+     "start": 48.797,
+     "end": 49.119
+    },
+    {
+     "text": "and",
+     "highlight": false,
+     "start": 49.154,
+     "end": 49.226
+    },
+    {
+     "text": "round",
+     "highlight": false,
+     "start": 49.315,
+     "end": 49.565
+    },
+    {
+     "text": "the",
+     "highlight": false,
+     "start": 49.601,
+     "end": 49.69
+    },
+    {
+     "text": "bowl.",
+     "highlight": false,
+     "start": 49.726,
+     "end": 50.011
+    },
+    {
+     "text": "And",
+     "highlight": false,
+     "start": 50.44,
+     "end": 50.529
+    },
+    {
+     "text": "then…",
+     "highlight": false,
+     "start": 50.583,
+     "end": 50.815
+    },
+    {
+     "text": "out",
+     "highlight": false,
+     "start": 51.315,
+     "end": 51.494
+    },
+    {
+     "text": "under",
+     "highlight": false,
+     "start": 51.547,
+     "end": 51.726
+    },
+    {
+     "text": "the",
+     "highlight": false,
+     "start": 51.761,
+     "end": 51.851
+    },
+    {
+     "text": "door.",
+     "highlight": true,
+     "start": 51.886,
+     "end": 52.154
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "Small child footprints circling the bowl and leading under the door",
+   "notes": "Morning."
+  },
+  {
+   "id": 12,
+   "start": 52.636,
+   "end": 57.301,
+   "act": 1,
+   "set": "warung",
+   "owner": "W",
+   "framing": "Medium, uncle at the counter at night again",
+   "camera": "Slow push-in",
+   "vo": "He still keeps the bowl there. Because last night… the crab was gone.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "He",
+     "highlight": false,
+     "start": 52.99,
+     "end": 53.115
+    },
+    {
+     "text": "still",
+     "highlight": false,
+     "start": 53.204,
+     "end": 53.365
+    },
+    {
+     "text": "keeps",
+     "highlight": false,
+     "start": 53.454,
+     "end": 53.668
+    },
+    {
+     "text": "the",
+     "highlight": false,
+     "start": 53.686,
+     "end": 53.775
+    },
+    {
+     "text": "bowl",
+     "highlight": false,
+     "start": 53.811,
+     "end": 53.99
+    },
+    {
+     "text": "there.",
+     "highlight": false,
+     "start": 54.043,
+     "end": 54.222
+    },
+    {
+     "text": "Because",
+     "highlight": false,
+     "start": 54.632,
+     "end": 54.847
+    },
+    {
+     "text": "last",
+     "highlight": false,
+     "start": 54.9,
+     "end": 55.15
+    },
+    {
+     "text": "night…",
+     "highlight": false,
+     "start": 55.186,
+     "end": 55.472
+    },
+    {
+     "text": "the",
+     "highlight": false,
+     "start": 55.775,
+     "end": 55.829
+    },
+    {
+     "text": "crab",
+     "highlight": false,
+     "start": 55.882,
+     "end": 56.115
+    },
+    {
+     "text": "was",
+     "highlight": false,
+     "start": 56.15,
+     "end": 56.257
+    },
+    {
+     "text": "gone.",
+     "highlight": true,
+     "start": 56.311,
+     "end": 56.615
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "Uncle looking at the empty bowl by the door under the bulb",
+   "notes": "Night again."
+  },
+  {
+   "id": 13,
+   "start": 57.301,
+   "end": 60.101,
+   "act": 1,
+   "set": "graphic",
+   "owner": "G",
+   "framing": "End card",
+   "camera": "Static",
+   "vo": "Would you try the crab trick? Comment YES or NO.",
+   "voKind": "onscreen",
+   "speaker": null,
+   "words": [
+    {
+     "text": "Would",
+     "highlight": false,
+     "start": 57.551,
+     "end": 57.851
+    },
+    {
+     "text": "you",
+     "highlight": false,
+     "start": 57.771,
+     "end": 58.071
+    },
+    {
+     "text": "try",
+     "highlight": false,
+     "start": 57.991,
+     "end": 58.291
+    },
+    {
+     "text": "the",
+     "highlight": false,
+     "start": 58.211,
+     "end": 58.511
+    },
+    {
+     "text": "crab",
+     "highlight": false,
+     "start": 58.431,
+     "end": 58.731
+    },
+    {
+     "text": "trick?",
+     "highlight": false,
+     "start": 58.651,
+     "end": 58.951
+    },
+    {
+     "text": "Comment",
+     "highlight": false,
+     "start": 58.871,
+     "end": 59.171
+    },
+    {
+     "text": "YES",
+     "highlight": true,
+     "start": 59.091,
+     "end": 59.391
+    },
+    {
+     "text": "or",
+     "highlight": false,
+     "start": 59.311,
+     "end": 59.611
+    },
+    {
+     "text": "NO.",
+     "highlight": true,
+     "start": 59.531,
+     "end": 59.831
+    }
+   ],
+   "trans": "cut",
+   "caption": false,
+   "cool": false,
+   "hero": "CTA with a coin and crab motif",
+   "notes": "No caption (on-screen text)."
+  }
+ ],
+ "audio": true
+}

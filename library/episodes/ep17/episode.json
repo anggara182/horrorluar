@@ -1,0 +1,1203 @@
+{
+ "id": "EP17",
+ "title": "El Silbón",
+ "fps": 30,
+ "width": 1080,
+ "height": 1920,
+ "durationSec": 60.973,
+ "accent": "#f2c14e",
+ "timingSource": "ai33 eleven_v3 transcript, tempo x1.12",
+ "shots": [
+  {
+   "id": 1,
+   "start": 0.0,
+   "end": 5.972,
+   "act": 1,
+   "set": "llanos",
+   "owner": "P",
+   "framing": "Wide, the plains under a huge moon",
+   "camera": "Slow push-in",
+   "vo": "In Venezuela, if you hear a whistle at night… and it sounds far away… he is right beside you.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "In",
+     "highlight": false,
+     "start": 0.454,
+     "end": 0.543
+    },
+    {
+     "text": "Venezuela,",
+     "highlight": false,
+     "start": 0.579,
+     "end": 1.168
+    },
+    {
+     "text": "if",
+     "highlight": false,
+     "start": 1.57,
+     "end": 1.641
+    },
+    {
+     "text": "you",
+     "highlight": false,
+     "start": 1.659,
+     "end": 1.73
+    },
+    {
+     "text": "hear",
+     "highlight": false,
+     "start": 1.766,
+     "end": 1.873
+    },
+    {
+     "text": "a",
+     "highlight": false,
+     "start": 1.945,
+     "end": 1.98
+    },
+    {
+     "text": "whistle",
+     "highlight": false,
+     "start": 2.016,
+     "end": 2.248
+    },
+    {
+     "text": "at",
+     "highlight": false,
+     "start": 2.284,
+     "end": 2.391
+    },
+    {
+     "text": "night…",
+     "highlight": false,
+     "start": 2.445,
+     "end": 2.695
+    },
+    {
+     "text": "and",
+     "highlight": false,
+     "start": 3.096,
+     "end": 3.15
+    },
+    {
+     "text": "it",
+     "highlight": false,
+     "start": 3.186,
+     "end": 3.275
+    },
+    {
+     "text": "sounds",
+     "highlight": false,
+     "start": 3.329,
+     "end": 3.579
+    },
+    {
+     "text": "far",
+     "highlight": false,
+     "start": 3.632,
+     "end": 3.793
+    },
+    {
+     "text": "away…",
+     "highlight": false,
+     "start": 3.846,
+     "end": 4.15
+    },
+    {
+     "text": "he",
+     "highlight": false,
+     "start": 4.552,
+     "end": 4.623
+    },
+    {
+     "text": "is",
+     "highlight": false,
+     "start": 4.659,
+     "end": 4.766
+    },
+    {
+     "text": "right",
+     "highlight": false,
+     "start": 4.82,
+     "end": 4.98
+    },
+    {
+     "text": "beside",
+     "highlight": false,
+     "start": 5.016,
+     "end": 5.391
+    },
+    {
+     "text": "you.",
+     "highlight": true,
+     "start": 5.445,
+     "end": 5.587
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "Endless grass plain under a huge moon, a lone palm, a tiny tall figure on the horizon",
+   "notes": "Grass, palms; LOW detail bg."
+  },
+  {
+   "id": 2,
+   "start": 5.972,
+   "end": 8.191,
+   "act": 1,
+   "set": "graphic",
+   "owner": "G",
+   "framing": "Title card",
+   "camera": "Slow push",
+   "vo": "They call him El Silbón.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "They",
+     "highlight": false,
+     "start": 6.226,
+     "end": 6.404
+    },
+    {
+     "text": "call",
+     "highlight": false,
+     "start": 6.458,
+     "end": 6.672
+    },
+    {
+     "text": "him",
+     "highlight": false,
+     "start": 6.726,
+     "end": 6.904
+    },
+    {
+     "text": "El",
+     "highlight": true,
+     "start": 7.101,
+     "end": 7.208
+    },
+    {
+     "text": "Silbón.",
+     "highlight": true,
+     "start": 7.315,
+     "end": 7.815
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "Title 'EL SILBÓN' + 'The Whistler · Venezuela' over a tall thin silhouette with a hat",
+   "notes": "Moonlight."
+  },
+  {
+   "id": 3,
+   "start": 8.191,
+   "end": 14.635,
+   "act": 1,
+   "set": "graphic",
+   "owner": "G",
+   "framing": "Lore insert",
+   "camera": "Slow push",
+   "vo": "A giant, thin wanderer of the plains. He whistles seven notes. And he carries a sack of bones.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "A",
+     "highlight": false,
+     "start": 8.445,
+     "end": 8.516
+    },
+    {
+     "text": "giant,",
+     "highlight": false,
+     "start": 8.587,
+     "end": 8.945
+    },
+    {
+     "text": "thin",
+     "highlight": false,
+     "start": 9.284,
+     "end": 9.552
+    },
+    {
+     "text": "wanderer",
+     "highlight": false,
+     "start": 9.605,
+     "end": 9.998
+    },
+    {
+     "text": "of",
+     "highlight": false,
+     "start": 10.034,
+     "end": 10.105
+    },
+    {
+     "text": "the",
+     "highlight": false,
+     "start": 10.141,
+     "end": 10.212
+    },
+    {
+     "text": "plains.",
+     "highlight": false,
+     "start": 10.248,
+     "end": 10.73
+    },
+    {
+     "text": "He",
+     "highlight": false,
+     "start": 11.132,
+     "end": 11.239
+    },
+    {
+     "text": "whistles",
+     "highlight": false,
+     "start": 11.275,
+     "end": 11.668
+    },
+    {
+     "text": "seven",
+     "highlight": false,
+     "start": 11.721,
+     "end": 11.971
+    },
+    {
+     "text": "notes.",
+     "highlight": false,
+     "start": 12.025,
+     "end": 12.346
+    },
+    {
+     "text": "And",
+     "highlight": false,
+     "start": 12.748,
+     "end": 12.82
+    },
+    {
+     "text": "he",
+     "highlight": false,
+     "start": 12.855,
+     "end": 12.945
+    },
+    {
+     "text": "carries",
+     "highlight": false,
+     "start": 12.998,
+     "end": 13.284
+    },
+    {
+     "text": "a",
+     "highlight": false,
+     "start": 13.337,
+     "end": 13.391
+    },
+    {
+     "text": "sack",
+     "highlight": false,
+     "start": 13.462,
+     "end": 13.641
+    },
+    {
+     "text": "of",
+     "highlight": false,
+     "start": 13.677,
+     "end": 13.766
+    },
+    {
+     "text": "bones.",
+     "highlight": true,
+     "start": 13.82,
+     "end": 14.248
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "Seven pale music notes rising over the grass; an old tied sack hanging from a long thin hand",
+   "notes": "Eerie, not gory."
+  },
+  {
+   "id": 4,
+   "start": 14.635,
+   "end": 19.455,
+   "act": 1,
+   "set": "ranch",
+   "owner": "R",
+   "framing": "Medium, ranch porch with a lantern",
+   "camera": "Slow push",
+   "vo": "My grandfather kept cattle on the plains. One night, the dogs started whining.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "My",
+     "highlight": false,
+     "start": 14.889,
+     "end": 15.067
+    },
+    {
+     "text": "grandfather",
+     "highlight": false,
+     "start": 15.103,
+     "end": 15.585
+    },
+    {
+     "text": "kept",
+     "highlight": false,
+     "start": 15.656,
+     "end": 15.853
+    },
+    {
+     "text": "cattle",
+     "highlight": false,
+     "start": 15.906,
+     "end": 16.174
+    },
+    {
+     "text": "on",
+     "highlight": false,
+     "start": 16.21,
+     "end": 16.264
+    },
+    {
+     "text": "the",
+     "highlight": false,
+     "start": 16.299,
+     "end": 16.371
+    },
+    {
+     "text": "plains.",
+     "highlight": false,
+     "start": 16.406,
+     "end": 16.799
+    },
+    {
+     "text": "One",
+     "highlight": false,
+     "start": 17.201,
+     "end": 17.308
+    },
+    {
+     "text": "night,",
+     "highlight": false,
+     "start": 17.344,
+     "end": 17.576
+    },
+    {
+     "text": "the",
+     "highlight": false,
+     "start": 17.88,
+     "end": 17.987
+    },
+    {
+     "text": "dogs",
+     "highlight": false,
+     "start": 18.023,
+     "end": 18.29
+    },
+    {
+     "text": "started",
+     "highlight": false,
+     "start": 18.362,
+     "end": 18.648
+    },
+    {
+     "text": "whining.",
+     "highlight": true,
+     "start": 18.701,
+     "end": 19.076
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "Grandfather on the porch with a lantern, two dogs cowering at his feet",
+   "notes": "Lantern warm, night blue."
+  },
+  {
+   "id": 5,
+   "start": 19.455,
+   "end": 25.636,
+   "act": 1,
+   "set": "llanos",
+   "owner": "P",
+   "framing": "Wide, the dark grass moving",
+   "camera": "Very slow push",
+   "vo": "Then we heard it. Whistling. Do, re, mi, fa, sol, la, si.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "Then",
+     "highlight": false,
+     "start": 19.709,
+     "end": 19.869
+    },
+    {
+     "text": "we",
+     "highlight": false,
+     "start": 19.905,
+     "end": 20.012
+    },
+    {
+     "text": "heard",
+     "highlight": false,
+     "start": 20.048,
+     "end": 20.226
+    },
+    {
+     "text": "it.",
+     "highlight": false,
+     "start": 20.28,
+     "end": 20.441
+    },
+    {
+     "text": "Whistling.",
+     "highlight": false,
+     "start": 20.834,
+     "end": 21.298
+    },
+    {
+     "text": "Do,",
+     "highlight": false,
+     "start": 21.7,
+     "end": 21.914
+    },
+    {
+     "text": "re,",
+     "highlight": false,
+     "start": 22.235,
+     "end": 22.467
+    },
+    {
+     "text": "mi,",
+     "highlight": false,
+     "start": 22.807,
+     "end": 22.985
+    },
+    {
+     "text": "fa,",
+     "highlight": false,
+     "start": 23.36,
+     "end": 23.557
+    },
+    {
+     "text": "sol,",
+     "highlight": false,
+     "start": 23.932,
+     "end": 24.182
+    },
+    {
+     "text": "la,",
+     "highlight": false,
+     "start": 24.485,
+     "end": 24.7
+    },
+    {
+     "text": "si.",
+     "highlight": true,
+     "start": 25.057,
+     "end": 25.253
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "Wind moving through tall grass under the moon, nobody in sight",
+   "notes": "Hold."
+  },
+  {
+   "id": 6,
+   "start": 25.636,
+   "end": 28.91,
+   "act": 1,
+   "set": "ranch",
+   "owner": "R",
+   "framing": "Medium, the girl at the window",
+   "camera": "Locked",
+   "vo": "It sounded far away. Somewhere across the river.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "It",
+     "highlight": false,
+     "start": 25.89,
+     "end": 26.015
+    },
+    {
+     "text": "sounded",
+     "highlight": false,
+     "start": 26.104,
+     "end": 26.425
+    },
+    {
+     "text": "far",
+     "highlight": false,
+     "start": 26.568,
+     "end": 26.729
+    },
+    {
+     "text": "away.",
+     "highlight": false,
+     "start": 26.8,
+     "end": 27.086
+    },
+    {
+     "text": "Somewhere",
+     "highlight": false,
+     "start": 27.488,
+     "end": 27.791
+    },
+    {
+     "text": "across",
+     "highlight": false,
+     "start": 27.845,
+     "end": 28.131
+    },
+    {
+     "text": "the",
+     "highlight": false,
+     "start": 28.166,
+     "end": 28.238
+    },
+    {
+     "text": "river.",
+     "highlight": true,
+     "start": 28.273,
+     "end": 28.523
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "Girl at a shuttered window looking out at the moonlit plain",
+   "notes": "Calm before."
+  },
+  {
+   "id": 7,
+   "start": 28.91,
+   "end": 33.974,
+   "act": 1,
+   "set": "ranch",
+   "owner": "R",
+   "framing": "Close, grandfather pulling her down",
+   "camera": "Handheld",
+   "vo": "My grandfather pulled me down. 'If it sounds far,' he whispered, 'he's close.'",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "My",
+     "highlight": false,
+     "start": 29.164,
+     "end": 29.271
+    },
+    {
+     "text": "grandfather",
+     "highlight": false,
+     "start": 29.306,
+     "end": 29.789
+    },
+    {
+     "text": "pulled",
+     "highlight": false,
+     "start": 29.842,
+     "end": 30.003
+    },
+    {
+     "text": "me",
+     "highlight": false,
+     "start": 30.039,
+     "end": 30.128
+    },
+    {
+     "text": "down.",
+     "highlight": false,
+     "start": 30.181,
+     "end": 30.449
+    },
+    {
+     "text": "'If",
+     "highlight": false,
+     "start": 30.449,
+     "end": 30.985
+    },
+    {
+     "text": "it",
+     "highlight": false,
+     "start": 31.021,
+     "end": 31.11
+    },
+    {
+     "text": "sounds",
+     "highlight": false,
+     "start": 31.164,
+     "end": 31.414
+    },
+    {
+     "text": "far,'",
+     "highlight": false,
+     "start": 31.485,
+     "end": 31.735
+    },
+    {
+     "text": "he",
+     "highlight": false,
+     "start": 32.074,
+     "end": 32.164
+    },
+    {
+     "text": "whispered,",
+     "highlight": false,
+     "start": 32.199,
+     "end": 32.539
+    },
+    {
+     "text": "'he's",
+     "highlight": false,
+     "start": 32.556,
+     "end": 33.128
+    },
+    {
+     "text": "close.'",
+     "highlight": true,
+     "start": 33.181,
+     "end": 33.592
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "Grandfather's hand on the girl's shoulder, both crouched below the window, lantern turned low",
+   "notes": "Tension."
+  },
+  {
+   "id": 8,
+   "start": 33.974,
+   "end": 38.144,
+   "act": 1,
+   "set": "ranch",
+   "owner": "R",
+   "framing": "Close, the shutters, a long shadow outside",
+   "camera": "Locked",
+   "vo": "The whistling stopped. And right under the window… something dropped.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "The",
+     "highlight": false,
+     "start": 34.228,
+     "end": 34.299
+    },
+    {
+     "text": "whistling",
+     "highlight": false,
+     "start": 34.335,
+     "end": 34.674
+    },
+    {
+     "text": "stopped.",
+     "highlight": false,
+     "start": 34.817,
+     "end": 35.156
+    },
+    {
+     "text": "And",
+     "highlight": false,
+     "start": 35.531,
+     "end": 35.656
+    },
+    {
+     "text": "right",
+     "highlight": false,
+     "start": 35.71,
+     "end": 35.888
+    },
+    {
+     "text": "under",
+     "highlight": false,
+     "start": 35.942,
+     "end": 36.085
+    },
+    {
+     "text": "the",
+     "highlight": false,
+     "start": 36.12,
+     "end": 36.192
+    },
+    {
+     "text": "window…",
+     "highlight": false,
+     "start": 36.228,
+     "end": 36.567
+    },
+    {
+     "text": "something",
+     "highlight": false,
+     "start": 36.969,
+     "end": 37.272
+    },
+    {
+     "text": "dropped.",
+     "highlight": true,
+     "start": 37.361,
+     "end": 37.754
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "Moonlight through shutter slats; a very tall thin shadow falls across the floor",
+   "notes": "Never show him clearly."
+  },
+  {
+   "id": 9,
+   "start": 38.144,
+   "end": 42.386,
+   "act": 1,
+   "set": "ranch",
+   "owner": "R",
+   "framing": "Close, the shadow on the wall",
+   "camera": "Very slow push",
+   "vo": "We heard bones rattling. Being counted. One by one.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "We",
+     "highlight": false,
+     "start": 38.398,
+     "end": 38.558
+    },
+    {
+     "text": "heard",
+     "highlight": false,
+     "start": 38.594,
+     "end": 38.808
+    },
+    {
+     "text": "bones",
+     "highlight": false,
+     "start": 38.951,
+     "end": 39.344
+    },
+    {
+     "text": "rattling.",
+     "highlight": false,
+     "start": 39.398,
+     "end": 39.79
+    },
+    {
+     "text": "Being",
+     "highlight": false,
+     "start": 40.192,
+     "end": 40.442
+    },
+    {
+     "text": "counted.",
+     "highlight": false,
+     "start": 40.496,
+     "end": 40.907
+    },
+    {
+     "text": "One",
+     "highlight": false,
+     "start": 41.308,
+     "end": 41.469
+    },
+    {
+     "text": "by",
+     "highlight": false,
+     "start": 41.505,
+     "end": 41.683
+    },
+    {
+     "text": "one.",
+     "highlight": true,
+     "start": 41.79,
+     "end": 42.005
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "On the wall, the shadow of long fingers lifting small shapes from a sack",
+   "notes": "Eerie, not gory."
+  },
+  {
+   "id": 10,
+   "start": 42.386,
+   "end": 47.011,
+   "act": 1,
+   "set": "ranch",
+   "owner": "R",
+   "framing": "Medium, grandfather opening the door at dawn",
+   "camera": "Locked",
+   "vo": "My grandfather didn't move until the rooster crowed. Then he opened the door.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "My",
+     "highlight": false,
+     "start": 42.64,
+     "end": 42.836
+    },
+    {
+     "text": "grandfather",
+     "highlight": false,
+     "start": 42.872,
+     "end": 43.443
+    },
+    {
+     "text": "didn't",
+     "highlight": false,
+     "start": 43.461,
+     "end": 43.693
+    },
+    {
+     "text": "move",
+     "highlight": false,
+     "start": 43.747,
+     "end": 43.997
+    },
+    {
+     "text": "until",
+     "highlight": false,
+     "start": 44.05,
+     "end": 44.247
+    },
+    {
+     "text": "the",
+     "highlight": false,
+     "start": 44.282,
+     "end": 44.354
+    },
+    {
+     "text": "rooster",
+     "highlight": false,
+     "start": 44.407,
+     "end": 44.729
+    },
+    {
+     "text": "crowed.",
+     "highlight": false,
+     "start": 44.782,
+     "end": 45.086
+    },
+    {
+     "text": "Then",
+     "highlight": false,
+     "start": 45.488,
+     "end": 45.774
+    },
+    {
+     "text": "he",
+     "highlight": false,
+     "start": 45.845,
+     "end": 45.952
+    },
+    {
+     "text": "opened",
+     "highlight": false,
+     "start": 46.024,
+     "end": 46.238
+    },
+    {
+     "text": "the",
+     "highlight": false,
+     "start": 46.274,
+     "end": 46.327
+    },
+    {
+     "text": "door.",
+     "highlight": true,
+     "start": 46.381,
+     "end": 46.631
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "Grey dawn light spilling through the opening door, grandfather's silhouette",
+   "notes": "Dawn."
+  },
+  {
+   "id": 11,
+   "start": 47.011,
+   "end": 53.081,
+   "act": 1,
+   "set": "llanos",
+   "owner": "P",
+   "framing": "Wide, footprints leading away at dawn",
+   "camera": "Slow pull-back",
+   "vo": "In the dust: footprints. Long. Thin. Barefoot. Walking away across the plains.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "In",
+     "highlight": false,
+     "start": 47.265,
+     "end": 47.336
+    },
+    {
+     "text": "the",
+     "highlight": false,
+     "start": 47.372,
+     "end": 47.443
+    },
+    {
+     "text": "dust:",
+     "highlight": false,
+     "start": 47.479,
+     "end": 47.8
+    },
+    {
+     "text": "footprints.",
+     "highlight": false,
+     "start": 48.122,
+     "end": 48.657
+    },
+    {
+     "text": "Long.",
+     "highlight": false,
+     "start": 49.059,
+     "end": 49.363
+    },
+    {
+     "text": "Thin.",
+     "highlight": false,
+     "start": 49.72,
+     "end": 49.988
+    },
+    {
+     "text": "Barefoot.",
+     "highlight": false,
+     "start": 50.309,
+     "end": 50.809
+    },
+    {
+     "text": "Walking",
+     "highlight": false,
+     "start": 51.211,
+     "end": 51.515
+    },
+    {
+     "text": "away",
+     "highlight": false,
+     "start": 51.568,
+     "end": 51.8
+    },
+    {
+     "text": "across",
+     "highlight": false,
+     "start": 51.854,
+     "end": 52.157
+    },
+    {
+     "text": "the",
+     "highlight": false,
+     "start": 52.193,
+     "end": 52.247
+    },
+    {
+     "text": "plains.",
+     "highlight": true,
+     "start": 52.3,
+     "end": 52.693
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "A line of very long thin footprints leading from the porch into the misty grass",
+   "notes": "Dawn mist."
+  },
+  {
+   "id": 12,
+   "start": 53.081,
+   "end": 58.173,
+   "act": 1,
+   "set": "ranch",
+   "owner": "R",
+   "framing": "Close, the window at night again",
+   "camera": "Slow push-in",
+   "vo": "Last night, in the city, I heard a whistle. Very, very far away.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "Last",
+     "highlight": false,
+     "start": 53.335,
+     "end": 53.567
+    },
+    {
+     "text": "night,",
+     "highlight": false,
+     "start": 53.656,
+     "end": 53.906
+    },
+    {
+     "text": "in",
+     "highlight": false,
+     "start": 54.156,
+     "end": 54.21
+    },
+    {
+     "text": "the",
+     "highlight": false,
+     "start": 54.245,
+     "end": 54.335
+    },
+    {
+     "text": "city,",
+     "highlight": false,
+     "start": 54.388,
+     "end": 54.638
+    },
+    {
+     "text": "I",
+     "highlight": false,
+     "start": 55.04,
+     "end": 55.094
+    },
+    {
+     "text": "heard",
+     "highlight": false,
+     "start": 55.129,
+     "end": 55.272
+    },
+    {
+     "text": "a",
+     "highlight": false,
+     "start": 55.308,
+     "end": 55.361
+    },
+    {
+     "text": "whistle.",
+     "highlight": false,
+     "start": 55.397,
+     "end": 55.719
+    },
+    {
+     "text": "Very,",
+     "highlight": false,
+     "start": 56.12,
+     "end": 56.406
+    },
+    {
+     "text": "very",
+     "highlight": false,
+     "start": 56.692,
+     "end": 56.924
+    },
+    {
+     "text": "far",
+     "highlight": false,
+     "start": 57.049,
+     "end": 57.227
+    },
+    {
+     "text": "away.",
+     "highlight": true,
+     "start": 57.281,
+     "end": 57.585
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "Apartment window at night, city lights, the curtain stirring",
+   "notes": "Cold."
+  },
+  {
+   "id": 13,
+   "start": 58.173,
+   "end": 60.973,
+   "act": 1,
+   "set": "graphic",
+   "owner": "G",
+   "framing": "End card",
+   "camera": "Static",
+   "vo": "Would you look out the window? Comment YES or NO.",
+   "voKind": "onscreen",
+   "speaker": null,
+   "words": [
+    {
+     "text": "Would",
+     "highlight": false,
+     "start": 58.423,
+     "end": 58.723
+    },
+    {
+     "text": "you",
+     "highlight": false,
+     "start": 58.643,
+     "end": 58.943
+    },
+    {
+     "text": "look",
+     "highlight": false,
+     "start": 58.863,
+     "end": 59.163
+    },
+    {
+     "text": "out",
+     "highlight": false,
+     "start": 59.083,
+     "end": 59.383
+    },
+    {
+     "text": "the",
+     "highlight": false,
+     "start": 59.303,
+     "end": 59.603
+    },
+    {
+     "text": "window?",
+     "highlight": false,
+     "start": 59.523,
+     "end": 59.823
+    },
+    {
+     "text": "Comment",
+     "highlight": false,
+     "start": 59.743,
+     "end": 60.043
+    },
+    {
+     "text": "YES",
+     "highlight": true,
+     "start": 59.963,
+     "end": 60.263
+    },
+    {
+     "text": "or",
+     "highlight": false,
+     "start": 60.183,
+     "end": 60.483
+    },
+    {
+     "text": "NO.",
+     "highlight": true,
+     "start": 60.403,
+     "end": 60.703
+    }
+   ],
+   "trans": "cut",
+   "caption": false,
+   "cool": false,
+   "hero": "CTA with a hat silhouette and music-note motif",
+   "notes": "No caption (on-screen text)."
+  }
+ ],
+ "audio": true
+}

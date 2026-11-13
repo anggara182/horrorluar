@@ -1,0 +1,958 @@
+{
+ "id": "EP03",
+ "title": "Wewe Gombel",
+ "fps": 30,
+ "width": 1080,
+ "height": 1920,
+ "durationSec": 50.0,
+ "accent": "#ff8a3d",
+ "timingSource": "estimate",
+ "acts": [
+  {
+   "id": 1,
+   "name": "Hook & Legend"
+  },
+  {
+   "id": 2,
+   "name": "The Rule"
+  },
+  {
+   "id": 3,
+   "name": "The Search"
+  },
+  {
+   "id": 4,
+   "name": "The Answer"
+  },
+  {
+   "id": 5,
+   "name": "Morning"
+  },
+  {
+   "id": 6,
+   "name": "Loop & CTA"
+  }
+ ],
+ "shots": [
+  {
+   "id": 1,
+   "start": 0,
+   "end": 4.2,
+   "act": 1,
+   "set": "village",
+   "owner": "V",
+   "framing": "Wide, village at maghrib",
+   "camera": "Slow push-in, parallax",
+   "vo": "In Java, if a child goes missing at dusk… don't call their name.",
+   "voKind": "narration",
+   "words": [
+    {
+     "text": "In",
+     "highlight": false,
+     "start": 0.25,
+     "end": 0.535
+    },
+    {
+     "text": "Java,",
+     "highlight": false,
+     "start": 0.535,
+     "end": 0.819
+    },
+    {
+     "text": "if",
+     "highlight": false,
+     "start": 0.819,
+     "end": 1.104
+    },
+    {
+     "text": "a",
+     "highlight": false,
+     "start": 1.104,
+     "end": 1.388
+    },
+    {
+     "text": "child",
+     "highlight": false,
+     "start": 1.388,
+     "end": 1.673
+    },
+    {
+     "text": "goes",
+     "highlight": false,
+     "start": 1.673,
+     "end": 1.958
+    },
+    {
+     "text": "missing",
+     "highlight": false,
+     "start": 1.958,
+     "end": 2.242
+    },
+    {
+     "text": "at",
+     "highlight": false,
+     "start": 2.242,
+     "end": 2.527
+    },
+    {
+     "text": "dusk…",
+     "highlight": true,
+     "start": 2.527,
+     "end": 2.812
+    },
+    {
+     "text": "don't",
+     "highlight": false,
+     "start": 2.812,
+     "end": 3.096
+    },
+    {
+     "text": "call",
+     "highlight": false,
+     "start": 3.096,
+     "end": 3.381
+    },
+    {
+     "text": "their",
+     "highlight": false,
+     "start": 3.381,
+     "end": 3.665
+    },
+    {
+     "text": "name.",
+     "highlight": true,
+     "start": 3.665,
+     "end": 3.95
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "leak": 0.45,
+   "cool": false,
+   "hero": "Kids' silhouettes running home (simple)",
+   "notes": "Sky gradient + mosque/rooftop silhouettes + palm/banana silhouettes. LOW detail bg. A few warm windows."
+  },
+  {
+   "id": 2,
+   "start": 4.2,
+   "end": 8.0,
+   "act": 1,
+   "set": "graphic",
+   "owner": "G",
+   "framing": "Title card",
+   "camera": "Push-in on the figure",
+   "vo": "Wewe Gombel takes children who stay out after maghrib.",
+   "voKind": "narration",
+   "words": [
+    {
+     "text": "Wewe",
+     "highlight": true,
+     "start": 4.45,
+     "end": 4.817
+    },
+    {
+     "text": "Gombel",
+     "highlight": true,
+     "start": 4.817,
+     "end": 5.183
+    },
+    {
+     "text": "takes",
+     "highlight": false,
+     "start": 5.183,
+     "end": 5.55
+    },
+    {
+     "text": "children",
+     "highlight": false,
+     "start": 5.55,
+     "end": 5.917
+    },
+    {
+     "text": "who",
+     "highlight": false,
+     "start": 5.917,
+     "end": 6.283
+    },
+    {
+     "text": "stay",
+     "highlight": false,
+     "start": 6.283,
+     "end": 6.65
+    },
+    {
+     "text": "out",
+     "highlight": false,
+     "start": 6.65,
+     "end": 7.017
+    },
+    {
+     "text": "after",
+     "highlight": false,
+     "start": 7.017,
+     "end": 7.383
+    },
+    {
+     "text": "maghrib.",
+     "highlight": true,
+     "start": 7.383,
+     "end": 7.75
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "leak": 0.3,
+   "cool": false,
+   "hero": "HERO: very tall thin female silhouette, long hair, long arms, half hidden",
+   "notes": "Title 'WEWE GOMBEL' + 'A Javanese legend'. Dark bamboo backdrop LOW detail."
+  },
+  {
+   "id": 3,
+   "start": 8.0,
+   "end": 11.6,
+   "act": 1,
+   "set": "bamboo",
+   "owner": "B",
+   "framing": "Medium, inside the bamboo",
+   "camera": "Slow lateral track through stalks (parallax)",
+   "vo": "She hides them where no one can see.",
+   "voKind": "narration",
+   "words": [
+    {
+     "text": "She",
+     "highlight": false,
+     "start": 8.25,
+     "end": 8.637
+    },
+    {
+     "text": "hides",
+     "highlight": false,
+     "start": 8.637,
+     "end": 9.025
+    },
+    {
+     "text": "them",
+     "highlight": false,
+     "start": 9.025,
+     "end": 9.412
+    },
+    {
+     "text": "where",
+     "highlight": false,
+     "start": 9.412,
+     "end": 9.8
+    },
+    {
+     "text": "no",
+     "highlight": false,
+     "start": 9.8,
+     "end": 10.188
+    },
+    {
+     "text": "one",
+     "highlight": false,
+     "start": 10.188,
+     "end": 10.575
+    },
+    {
+     "text": "can",
+     "highlight": false,
+     "start": 10.575,
+     "end": 10.962
+    },
+    {
+     "text": "see.",
+     "highlight": true,
+     "start": 10.962,
+     "end": 11.35
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "leak": 0.2,
+   "cool": false,
+   "hero": "HERO: Wewe Gombel crouched, long arms around a small child, only rim-lit edges",
+   "notes": "Bamboo stalks: simple vertical strips in 3 depth layers, flat colours. Fog band."
+  },
+  {
+   "id": 4,
+   "start": 11.6,
+   "end": 16.6,
+   "act": 2,
+   "set": "home",
+   "owner": "H",
+   "framing": "Insert, grandma's hands",
+   "camera": "Locked, slight push",
+   "vo": "Grandma's rule: bang a pan, walk around the house. Never call the name.",
+   "voKind": "narration",
+   "words": [
+    {
+     "text": "Grandma's",
+     "highlight": false,
+     "start": 11.85,
+     "end": 12.196
+    },
+    {
+     "text": "rule:",
+     "highlight": false,
+     "start": 12.196,
+     "end": 12.542
+    },
+    {
+     "text": "bang",
+     "highlight": false,
+     "start": 12.542,
+     "end": 12.888
+    },
+    {
+     "text": "a",
+     "highlight": false,
+     "start": 12.888,
+     "end": 13.235
+    },
+    {
+     "text": "pan,",
+     "highlight": true,
+     "start": 13.235,
+     "end": 13.581
+    },
+    {
+     "text": "walk",
+     "highlight": false,
+     "start": 13.581,
+     "end": 13.927
+    },
+    {
+     "text": "around",
+     "highlight": false,
+     "start": 13.927,
+     "end": 14.273
+    },
+    {
+     "text": "the",
+     "highlight": false,
+     "start": 14.273,
+     "end": 14.619
+    },
+    {
+     "text": "house.",
+     "highlight": false,
+     "start": 14.619,
+     "end": 14.965
+    },
+    {
+     "text": "Never",
+     "highlight": false,
+     "start": 14.965,
+     "end": 15.312
+    },
+    {
+     "text": "call",
+     "highlight": false,
+     "start": 15.312,
+     "end": 15.658
+    },
+    {
+     "text": "the",
+     "highlight": false,
+     "start": 15.658,
+     "end": 16.004
+    },
+    {
+     "text": "name.",
+     "highlight": true,
+     "start": 16.004,
+     "end": 16.35
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "leak": 0.35,
+   "cool": false,
+   "hero": "HERO: wrinkled hands holding a dented wok (wajan) and a metal ladle, kebaya sleeve",
+   "notes": "Porch floor + oil lamp glow, LOW detail."
+  },
+  {
+   "id": 5,
+   "start": 16.6,
+   "end": 18.6,
+   "act": 2,
+   "set": "graphic",
+   "owner": "G",
+   "framing": "Typographic insert",
+   "camera": "Text echo, slow zoom",
+   "vo": "She answers for them.",
+   "voKind": "onscreen",
+   "words": [
+    {
+     "text": "She",
+     "highlight": false,
+     "start": 16.85,
+     "end": 17.225
+    },
+    {
+     "text": "answers",
+     "highlight": true,
+     "start": 17.225,
+     "end": 17.6
+    },
+    {
+     "text": "for",
+     "highlight": false,
+     "start": 17.6,
+     "end": 17.975
+    },
+    {
+     "text": "them.",
+     "highlight": false,
+     "start": 17.975,
+     "end": 18.35
+    }
+   ],
+   "trans": "cut",
+   "caption": false,
+   "leak": 0.2,
+   "cool": false,
+   "hero": "Type: 'SHE ANSWERS FOR THEM.' with echo copies fading",
+   "notes": "Black/indigo, single bamboo silhouette edge."
+  },
+  {
+   "id": 6,
+   "start": 18.6,
+   "end": 23.0,
+   "act": 3,
+   "set": "village",
+   "owner": "V",
+   "framing": "Wide, blue hour around the house",
+   "camera": "Follow dad laterally",
+   "vo": "When my little brother didn't come home, Dad banged the pan.",
+   "voKind": "narration",
+   "words": [
+    {
+     "text": "When",
+     "highlight": false,
+     "start": 18.85,
+     "end": 19.205
+    },
+    {
+     "text": "my",
+     "highlight": false,
+     "start": 19.205,
+     "end": 19.559
+    },
+    {
+     "text": "little",
+     "highlight": false,
+     "start": 19.559,
+     "end": 19.914
+    },
+    {
+     "text": "brother",
+     "highlight": false,
+     "start": 19.914,
+     "end": 20.268
+    },
+    {
+     "text": "didn't",
+     "highlight": false,
+     "start": 20.268,
+     "end": 20.623
+    },
+    {
+     "text": "come",
+     "highlight": false,
+     "start": 20.623,
+     "end": 20.977
+    },
+    {
+     "text": "home,",
+     "highlight": false,
+     "start": 20.977,
+     "end": 21.332
+    },
+    {
+     "text": "Dad",
+     "highlight": false,
+     "start": 21.332,
+     "end": 21.686
+    },
+    {
+     "text": "banged",
+     "highlight": false,
+     "start": 21.686,
+     "end": 22.041
+    },
+    {
+     "text": "the",
+     "highlight": false,
+     "start": 22.041,
+     "end": 22.395
+    },
+    {
+     "text": "pan.",
+     "highlight": true,
+     "start": 22.395,
+     "end": 22.75
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "leak": 0.35,
+   "cool": false,
+   "hero": "Dad silhouette walking, wok + ladle raised (simple silhouette with rim)",
+   "notes": "Same village set, later light: blue hour, house with porch lamp. LOW detail bg."
+  },
+  {
+   "id": 7,
+   "start": 23.0,
+   "end": 26.0,
+   "act": 3,
+   "set": "village",
+   "owner": "V",
+   "framing": "Medium, mom at the edge of the bamboo",
+   "camera": "Slow push-in from behind",
+   "vo": "Mom… shouted his name.",
+   "voKind": "narration",
+   "words": [
+    {
+     "text": "Mom…",
+     "highlight": false,
+     "start": 23.25,
+     "end": 23.875
+    },
+    {
+     "text": "shouted",
+     "highlight": true,
+     "start": 23.875,
+     "end": 24.5
+    },
+    {
+     "text": "his",
+     "highlight": false,
+     "start": 24.5,
+     "end": 25.125
+    },
+    {
+     "text": "name.",
+     "highlight": false,
+     "start": 25.125,
+     "end": 25.75
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "leak": 0.3,
+   "cool": false,
+   "hero": "HERO: mom from behind, hands cupped to mouth, sarong & kebaya silhouette with rim light",
+   "notes": "Bamboo wall ahead (reuse simple bamboo strips), dark gap in the middle."
+  },
+  {
+   "id": 8,
+   "start": 26.0,
+   "end": 30.4,
+   "act": 4,
+   "set": "bamboo",
+   "owner": "B",
+   "framing": "Close, darkness between bamboo",
+   "camera": "Locked, then tiny push",
+   "vo": "And from the bamboo, a small voice answered: 'Here!'",
+   "voKind": "narration",
+   "words": [
+    {
+     "text": "And",
+     "highlight": false,
+     "start": 26.25,
+     "end": 26.683
+    },
+    {
+     "text": "from",
+     "highlight": false,
+     "start": 26.683,
+     "end": 27.117
+    },
+    {
+     "text": "the",
+     "highlight": false,
+     "start": 27.117,
+     "end": 27.55
+    },
+    {
+     "text": "bamboo,",
+     "highlight": false,
+     "start": 27.55,
+     "end": 27.983
+    },
+    {
+     "text": "a",
+     "highlight": false,
+     "start": 27.983,
+     "end": 28.417
+    },
+    {
+     "text": "small",
+     "highlight": false,
+     "start": 28.417,
+     "end": 28.85
+    },
+    {
+     "text": "voice",
+     "highlight": false,
+     "start": 28.85,
+     "end": 29.283
+    },
+    {
+     "text": "answered:",
+     "highlight": false,
+     "start": 29.283,
+     "end": 29.717
+    },
+    {
+     "text": "'Here!'",
+     "highlight": true,
+     "start": 29.717,
+     "end": 30.15
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "leak": 0.15,
+   "cool": true,
+   "hero": "HERO: a small child's hand waving low from the dark; above it, much higher, two pale eyes",
+   "notes": "Mostly black; 2 bamboo stalk edges catch moonlight."
+  },
+  {
+   "id": 9,
+   "start": 30.4,
+   "end": 33.2,
+   "act": 4,
+   "set": "village",
+   "owner": "V",
+   "framing": "Wide, mom running into the bamboo",
+   "camera": "Handheld, slight whip",
+   "vo": "Mom ran to it. The pan stopped.",
+   "voKind": "narration",
+   "words": [
+    {
+     "text": "Mom",
+     "highlight": false,
+     "start": 30.65,
+     "end": 30.979
+    },
+    {
+     "text": "ran",
+     "highlight": false,
+     "start": 30.979,
+     "end": 31.307
+    },
+    {
+     "text": "to",
+     "highlight": false,
+     "start": 31.307,
+     "end": 31.636
+    },
+    {
+     "text": "it.",
+     "highlight": false,
+     "start": 31.636,
+     "end": 31.964
+    },
+    {
+     "text": "The",
+     "highlight": false,
+     "start": 31.964,
+     "end": 32.293
+    },
+    {
+     "text": "pan",
+     "highlight": true,
+     "start": 32.293,
+     "end": 32.621
+    },
+    {
+     "text": "stopped.",
+     "highlight": false,
+     "start": 32.621,
+     "end": 32.95
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "leak": 0.2,
+   "cool": true,
+   "hero": "Mom silhouette running into the dark gap; dad frozen in fg with wok lowered",
+   "notes": "Reuse village + bamboo edge. LOW detail."
+  },
+  {
+   "id": 10,
+   "start": 33.2,
+   "end": 38.6,
+   "act": 5,
+   "set": "home",
+   "owner": "H",
+   "framing": "Wide, misty morning, banana tree",
+   "camera": "Slow pull-back",
+   "vo": "Dad found my brother the next morning… asleep under the banana tree.",
+   "voKind": "narration",
+   "words": [
+    {
+     "text": "Dad",
+     "highlight": false,
+     "start": 33.45,
+     "end": 33.858
+    },
+    {
+     "text": "found",
+     "highlight": false,
+     "start": 33.858,
+     "end": 34.267
+    },
+    {
+     "text": "my",
+     "highlight": false,
+     "start": 34.267,
+     "end": 34.675
+    },
+    {
+     "text": "brother",
+     "highlight": false,
+     "start": 34.675,
+     "end": 35.083
+    },
+    {
+     "text": "the",
+     "highlight": false,
+     "start": 35.083,
+     "end": 35.492
+    },
+    {
+     "text": "next",
+     "highlight": false,
+     "start": 35.492,
+     "end": 35.9
+    },
+    {
+     "text": "morning…",
+     "highlight": false,
+     "start": 35.9,
+     "end": 36.308
+    },
+    {
+     "text": "asleep",
+     "highlight": false,
+     "start": 36.308,
+     "end": 36.717
+    },
+    {
+     "text": "under",
+     "highlight": false,
+     "start": 36.717,
+     "end": 37.125
+    },
+    {
+     "text": "the",
+     "highlight": false,
+     "start": 37.125,
+     "end": 37.533
+    },
+    {
+     "text": "banana",
+     "highlight": false,
+     "start": 37.533,
+     "end": 37.942
+    },
+    {
+     "text": "tree.",
+     "highlight": false,
+     "start": 37.942,
+     "end": 38.35
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "leak": 0.5,
+   "cool": true,
+   "hero": "HERO: small boy asleep curled at the banana tree roots, peaceful",
+   "notes": "Morning mist, pale sky, banana leaves silhouettes; LOW detail bg."
+  },
+  {
+   "id": 11,
+   "start": 38.6,
+   "end": 42.0,
+   "act": 5,
+   "set": "home",
+   "owner": "H",
+   "framing": "Close, empty sandals at the bamboo edge",
+   "camera": "Locked",
+   "vo": "Mom… we're still looking.",
+   "voKind": "narration",
+   "words": [
+    {
+     "text": "Mom…",
+     "highlight": false,
+     "start": 38.85,
+     "end": 39.575
+    },
+    {
+     "text": "we're",
+     "highlight": false,
+     "start": 39.575,
+     "end": 40.3
+    },
+    {
+     "text": "still",
+     "highlight": false,
+     "start": 40.3,
+     "end": 41.025
+    },
+    {
+     "text": "looking.",
+     "highlight": true,
+     "start": 41.025,
+     "end": 41.75
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "leak": 0.3,
+   "cool": true,
+   "hero": "HERO: a pair of woman's sandals left at the edge of the bamboo, one tipped over",
+   "notes": "Bamboo base, mist, LOW detail."
+  },
+  {
+   "id": 12,
+   "start": 42.0,
+   "end": 46.6,
+   "act": 6,
+   "set": "bamboo",
+   "owner": "B",
+   "framing": "POV into the bamboo at dusk",
+   "camera": "Slow push into darkness",
+   "vo": "If you hear your name at dusk… don't answer.",
+   "voKind": "narration",
+   "words": [
+    {
+     "text": "If",
+     "highlight": false,
+     "start": 42.25,
+     "end": 42.706
+    },
+    {
+     "text": "you",
+     "highlight": false,
+     "start": 42.706,
+     "end": 43.161
+    },
+    {
+     "text": "hear",
+     "highlight": false,
+     "start": 43.161,
+     "end": 43.617
+    },
+    {
+     "text": "your",
+     "highlight": false,
+     "start": 43.617,
+     "end": 44.072
+    },
+    {
+     "text": "name",
+     "highlight": false,
+     "start": 44.072,
+     "end": 44.528
+    },
+    {
+     "text": "at",
+     "highlight": false,
+     "start": 44.528,
+     "end": 44.983
+    },
+    {
+     "text": "dusk…",
+     "highlight": false,
+     "start": 44.983,
+     "end": 45.439
+    },
+    {
+     "text": "don't",
+     "highlight": false,
+     "start": 45.439,
+     "end": 45.894
+    },
+    {
+     "text": "answer.",
+     "highlight": true,
+     "start": 45.894,
+     "end": 46.35
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "leak": 0.1,
+   "cool": true,
+   "hero": "HERO: very faint tall figure deep inside, only eyes catch light at the end",
+   "notes": "Reuse bamboo layers, darker grade."
+  },
+  {
+   "id": 13,
+   "start": 46.6,
+   "end": 50.0,
+   "act": 6,
+   "set": "graphic",
+   "owner": "G",
+   "framing": "End card",
+   "camera": "Static, words pop",
+   "vo": "Would you answer? Comment YES or NO.",
+   "voKind": "onscreen",
+   "words": [
+    {
+     "text": "Would",
+     "highlight": false,
+     "start": 46.85,
+     "end": 47.264
+    },
+    {
+     "text": "you",
+     "highlight": false,
+     "start": 47.264,
+     "end": 47.679
+    },
+    {
+     "text": "answer?",
+     "highlight": true,
+     "start": 47.679,
+     "end": 48.093
+    },
+    {
+     "text": "Comment",
+     "highlight": false,
+     "start": 48.093,
+     "end": 48.507
+    },
+    {
+     "text": "YES",
+     "highlight": true,
+     "start": 48.507,
+     "end": 48.921
+    },
+    {
+     "text": "or",
+     "highlight": false,
+     "start": 48.921,
+     "end": 49.336
+    },
+    {
+     "text": "NO.",
+     "highlight": true,
+     "start": 49.336,
+     "end": 49.75
+    }
+   ],
+   "trans": "cut",
+   "caption": false,
+   "leak": 0.1,
+   "cool": true,
+   "hero": "CTA type",
+   "notes": "Indigo/black with a sliver of dusk at the bottom."
+  }
+ ]
+}

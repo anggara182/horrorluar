@@ -1,0 +1,1179 @@
+{
+ "id": "EP16",
+ "title": "Hanako-san",
+ "fps": 30,
+ "width": 1080,
+ "height": 1920,
+ "durationSec": 60.713,
+ "accent": "#ff4f6d",
+ "timingSource": "ai33 eleven_v3 transcript, tempo x1.1",
+ "shots": [
+  {
+   "id": 1,
+   "start": 0.0,
+   "end": 5.861,
+   "act": 1,
+   "set": "school",
+   "owner": "S",
+   "framing": "Wide, empty school corridor at dusk",
+   "camera": "Slow push-in",
+   "vo": "In Japan, if the school bathroom is empty after class… never knock on the third stall.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "In",
+     "highlight": false,
+     "start": 0.455,
+     "end": 0.527
+    },
+    {
+     "text": "Japan,",
+     "highlight": false,
+     "start": 0.582,
+     "end": 1.073
+    },
+    {
+     "text": "if",
+     "highlight": false,
+     "start": 1.482,
+     "end": 1.555
+    },
+    {
+     "text": "the",
+     "highlight": false,
+     "start": 1.591,
+     "end": 1.682
+    },
+    {
+     "text": "school",
+     "highlight": false,
+     "start": 1.718,
+     "end": 1.936
+    },
+    {
+     "text": "bathroom",
+     "highlight": false,
+     "start": 2.027,
+     "end": 2.355
+    },
+    {
+     "text": "is",
+     "highlight": false,
+     "start": 2.391,
+     "end": 2.518
+    },
+    {
+     "text": "empty",
+     "highlight": false,
+     "start": 2.573,
+     "end": 2.809
+    },
+    {
+     "text": "after",
+     "highlight": false,
+     "start": 2.918,
+     "end": 3.064
+    },
+    {
+     "text": "class…",
+     "highlight": false,
+     "start": 3.155,
+     "end": 3.591
+    },
+    {
+     "text": "never",
+     "highlight": false,
+     "start": 4.0,
+     "end": 4.2
+    },
+    {
+     "text": "knock",
+     "highlight": false,
+     "start": 4.273,
+     "end": 4.509
+    },
+    {
+     "text": "on",
+     "highlight": false,
+     "start": 4.545,
+     "end": 4.618
+    },
+    {
+     "text": "the",
+     "highlight": false,
+     "start": 4.655,
+     "end": 4.745
+    },
+    {
+     "text": "third",
+     "highlight": false,
+     "start": 4.782,
+     "end": 5.0
+    },
+    {
+     "text": "stall.",
+     "highlight": true,
+     "start": 5.127,
+     "end": 5.473
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "Long empty corridor with sliding windows, sunset fading, the girls' bathroom sign at the end",
+   "notes": "Windows, cubbies; LOW detail bg."
+  },
+  {
+   "id": 2,
+   "start": 5.861,
+   "end": 7.352,
+   "act": 1,
+   "set": "graphic",
+   "owner": "G",
+   "framing": "Title card",
+   "camera": "Slow push",
+   "vo": "Someone might answer.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "Someone",
+     "highlight": false,
+     "start": 6.116,
+     "end": 6.406
+    },
+    {
+     "text": "might",
+     "highlight": false,
+     "start": 6.443,
+     "end": 6.588
+    },
+    {
+     "text": "answer.",
+     "highlight": true,
+     "start": 6.661,
+     "end": 6.97
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "Title 'HANAKO-SAN' + 'トイレの花子さん · Japan' over a stall door with the number 3",
+   "notes": "Cold fluorescent."
+  },
+  {
+   "id": 3,
+   "start": 7.352,
+   "end": 12.74,
+   "act": 1,
+   "set": "graphic",
+   "owner": "G",
+   "framing": "Lore insert",
+   "camera": "Slow push",
+   "vo": "They call her Hanako-san. A girl in a red skirt who never left the third stall.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "They",
+     "highlight": false,
+     "start": 7.607,
+     "end": 7.752
+    },
+    {
+     "text": "call",
+     "highlight": false,
+     "start": 7.807,
+     "end": 7.988
+    },
+    {
+     "text": "her",
+     "highlight": false,
+     "start": 8.025,
+     "end": 8.225
+    },
+    {
+     "text": "Hanako-san.",
+     "highlight": false,
+     "start": 8.261,
+     "end": 8.934
+    },
+    {
+     "text": "A",
+     "highlight": false,
+     "start": 9.343,
+     "end": 9.397
+    },
+    {
+     "text": "girl",
+     "highlight": false,
+     "start": 9.434,
+     "end": 9.688
+    },
+    {
+     "text": "in",
+     "highlight": false,
+     "start": 9.725,
+     "end": 9.779
+    },
+    {
+     "text": "a",
+     "highlight": false,
+     "start": 9.834,
+     "end": 9.87
+    },
+    {
+     "text": "red",
+     "highlight": false,
+     "start": 9.925,
+     "end": 10.107
+    },
+    {
+     "text": "skirt",
+     "highlight": false,
+     "start": 10.197,
+     "end": 10.507
+    },
+    {
+     "text": "who",
+     "highlight": false,
+     "start": 10.916,
+     "end": 11.025
+    },
+    {
+     "text": "never",
+     "highlight": false,
+     "start": 11.079,
+     "end": 11.261
+    },
+    {
+     "text": "left",
+     "highlight": false,
+     "start": 11.316,
+     "end": 11.534
+    },
+    {
+     "text": "the",
+     "highlight": false,
+     "start": 11.57,
+     "end": 11.661
+    },
+    {
+     "text": "third",
+     "highlight": false,
+     "start": 11.697,
+     "end": 11.934
+    },
+    {
+     "text": "stall.",
+     "highlight": true,
+     "start": 12.025,
+     "end": 12.352
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "The hem of a red pleated skirt visible under a closed stall door",
+   "notes": "Respectful, eerie."
+  },
+  {
+   "id": 4,
+   "start": 12.74,
+   "end": 16.733,
+   "act": 1,
+   "set": "school",
+   "owner": "S",
+   "framing": "Medium, two schoolgirls in the corridor",
+   "camera": "Tracking from behind",
+   "vo": "After club practice, my friend and I were the last ones in the building.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "After",
+     "highlight": false,
+     "start": 12.995,
+     "end": 13.176
+    },
+    {
+     "text": "club",
+     "highlight": false,
+     "start": 13.249,
+     "end": 13.431
+    },
+    {
+     "text": "practice,",
+     "highlight": false,
+     "start": 13.485,
+     "end": 13.922
+    },
+    {
+     "text": "my",
+     "highlight": false,
+     "start": 14.331,
+     "end": 14.476
+    },
+    {
+     "text": "friend",
+     "highlight": false,
+     "start": 14.513,
+     "end": 14.713
+    },
+    {
+     "text": "and",
+     "highlight": false,
+     "start": 14.731,
+     "end": 14.822
+    },
+    {
+     "text": "I",
+     "highlight": false,
+     "start": 14.949,
+     "end": 14.985
+    },
+    {
+     "text": "were",
+     "highlight": false,
+     "start": 15.022,
+     "end": 15.095
+    },
+    {
+     "text": "the",
+     "highlight": false,
+     "start": 15.131,
+     "end": 15.204
+    },
+    {
+     "text": "last",
+     "highlight": false,
+     "start": 15.24,
+     "end": 15.513
+    },
+    {
+     "text": "ones",
+     "highlight": false,
+     "start": 15.567,
+     "end": 15.749
+    },
+    {
+     "text": "in",
+     "highlight": false,
+     "start": 15.785,
+     "end": 15.84
+    },
+    {
+     "text": "the",
+     "highlight": false,
+     "start": 15.876,
+     "end": 15.931
+    },
+    {
+     "text": "building.",
+     "highlight": true,
+     "start": 15.966,
+     "end": 16.349
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "Two schoolgirls with bags walking down the corridor at dusk, long shadows",
+   "notes": "Warm sunset going blue."
+  },
+  {
+   "id": 5,
+   "start": 16.733,
+   "end": 21.009,
+   "act": 1,
+   "set": "stall",
+   "owner": "B",
+   "framing": "Wide, the row of stalls",
+   "camera": "Slow push-in",
+   "vo": "She dared me. Knock three times. Ask if Hanako is there.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "She",
+     "highlight": false,
+     "start": 16.988,
+     "end": 17.151
+    },
+    {
+     "text": "dared",
+     "highlight": false,
+     "start": 17.206,
+     "end": 17.478
+    },
+    {
+     "text": "me.",
+     "highlight": false,
+     "start": 17.515,
+     "end": 17.66
+    },
+    {
+     "text": "Knock",
+     "highlight": false,
+     "start": 18.069,
+     "end": 18.306
+    },
+    {
+     "text": "three",
+     "highlight": false,
+     "start": 18.342,
+     "end": 18.506
+    },
+    {
+     "text": "times.",
+     "highlight": false,
+     "start": 18.615,
+     "end": 19.051
+    },
+    {
+     "text": "Ask",
+     "highlight": false,
+     "start": 19.46,
+     "end": 19.678
+    },
+    {
+     "text": "if",
+     "highlight": false,
+     "start": 19.733,
+     "end": 19.806
+    },
+    {
+     "text": "Hanako",
+     "highlight": false,
+     "start": 19.842,
+     "end": 20.188
+    },
+    {
+     "text": "is",
+     "highlight": false,
+     "start": 20.242,
+     "end": 20.333
+    },
+    {
+     "text": "there.",
+     "highlight": true,
+     "start": 20.388,
+     "end": 20.624
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "Row of three stall doors, the third one closed, one fluorescent tube flickering",
+   "notes": "Tiles, sinks; LOW detail."
+  },
+  {
+   "id": 6,
+   "start": 21.009,
+   "end": 25.973,
+   "act": 1,
+   "set": "stall",
+   "owner": "B",
+   "framing": "Close, knuckles on the third door",
+   "camera": "Locked",
+   "vo": "I knocked. One. Two. Three. 'Hanako-san… are you there?'",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "I",
+     "highlight": false,
+     "start": 21.264,
+     "end": 21.318
+    },
+    {
+     "text": "knocked.",
+     "highlight": false,
+     "start": 21.336,
+     "end": 21.664
+    },
+    {
+     "text": "One.",
+     "highlight": false,
+     "start": 22.073,
+     "end": 22.236
+    },
+    {
+     "text": "Two.",
+     "highlight": false,
+     "start": 22.645,
+     "end": 22.845
+    },
+    {
+     "text": "Three.",
+     "highlight": false,
+     "start": 23.254,
+     "end": 23.6
+    },
+    {
+     "text": "'Hanako-san…",
+     "highlight": false,
+     "start": 24.009,
+     "end": 24.664
+    },
+    {
+     "text": "are",
+     "highlight": false,
+     "start": 25.073,
+     "end": 25.164
+    },
+    {
+     "text": "you",
+     "highlight": false,
+     "start": 25.2,
+     "end": 25.291
+    },
+    {
+     "text": "there?'",
+     "highlight": true,
+     "start": 25.345,
+     "end": 25.582
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "A girl's knuckles knocking on the stall door marked 3",
+   "notes": "Tactile."
+  },
+  {
+   "id": 7,
+   "start": 25.973,
+   "end": 31.747,
+   "act": 1,
+   "set": "stall",
+   "owner": "B",
+   "framing": "Medium, the two girls before the door",
+   "camera": "Locked",
+   "vo": "Silence. My friend laughed. Then, from inside… a small voice answered.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "Silence.",
+     "highlight": false,
+     "start": 26.228,
+     "end": 26.718
+    },
+    {
+     "text": "My",
+     "highlight": false,
+     "start": 27.128,
+     "end": 27.273
+    },
+    {
+     "text": "friend",
+     "highlight": false,
+     "start": 27.328,
+     "end": 27.582
+    },
+    {
+     "text": "laughed.",
+     "highlight": false,
+     "start": 27.637,
+     "end": 28.018
+    },
+    {
+     "text": "Then,",
+     "highlight": false,
+     "start": 28.428,
+     "end": 28.664
+    },
+    {
+     "text": "from",
+     "highlight": false,
+     "start": 29.028,
+     "end": 29.137
+    },
+    {
+     "text": "inside…",
+     "highlight": false,
+     "start": 29.191,
+     "end": 29.7
+    },
+    {
+     "text": "a",
+     "highlight": false,
+     "start": 30.109,
+     "end": 30.164
+    },
+    {
+     "text": "small",
+     "highlight": false,
+     "start": 30.273,
+     "end": 30.564
+    },
+    {
+     "text": "voice",
+     "highlight": false,
+     "start": 30.637,
+     "end": 30.909
+    },
+    {
+     "text": "answered.",
+     "highlight": true,
+     "start": 31.0,
+     "end": 31.364
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "Two girls from behind facing the closed third door, one with a hand over her mouth",
+   "notes": "Hold."
+  },
+  {
+   "id": 8,
+   "start": 31.747,
+   "end": 33.913,
+   "act": 1,
+   "set": "stall",
+   "owner": "B",
+   "framing": "Close, the gap under the third door",
+   "camera": "Very slow push",
+   "vo": "Yes… I'm here.",
+   "voKind": "narration",
+   "speaker": "ghost",
+   "words": [
+    {
+     "text": "Yes…",
+     "highlight": false,
+     "start": 32.002,
+     "end": 32.42
+    },
+    {
+     "text": "I'm",
+     "highlight": false,
+     "start": 32.829,
+     "end": 33.011
+    },
+    {
+     "text": "here.",
+     "highlight": true,
+     "start": 33.102,
+     "end": 33.411
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "Dark gap under the stall door; something red shifts in the shadow",
+   "notes": "Never show a face."
+  },
+  {
+   "id": 9,
+   "start": 33.913,
+   "end": 38.206,
+   "act": 1,
+   "set": "stall",
+   "owner": "B",
+   "framing": "Low angle, the door creeping open",
+   "camera": "Locked",
+   "vo": "The door began to open. Slowly. And I saw a small red shoe.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "The",
+     "highlight": false,
+     "start": 34.168,
+     "end": 34.24
+    },
+    {
+     "text": "door",
+     "highlight": false,
+     "start": 34.277,
+     "end": 34.477
+    },
+    {
+     "text": "began",
+     "highlight": false,
+     "start": 34.513,
+     "end": 34.731
+    },
+    {
+     "text": "to",
+     "highlight": false,
+     "start": 34.768,
+     "end": 34.84
+    },
+    {
+     "text": "open.",
+     "highlight": false,
+     "start": 34.913,
+     "end": 35.168
+    },
+    {
+     "text": "Slowly.",
+     "highlight": false,
+     "start": 35.577,
+     "end": 35.922
+    },
+    {
+     "text": "And",
+     "highlight": false,
+     "start": 36.331,
+     "end": 36.404
+    },
+    {
+     "text": "I",
+     "highlight": false,
+     "start": 36.477,
+     "end": 36.531
+    },
+    {
+     "text": "saw",
+     "highlight": false,
+     "start": 36.586,
+     "end": 36.749
+    },
+    {
+     "text": "a",
+     "highlight": false,
+     "start": 36.804,
+     "end": 36.858
+    },
+    {
+     "text": "small",
+     "highlight": false,
+     "start": 36.931,
+     "end": 37.24
+    },
+    {
+     "text": "red",
+     "highlight": false,
+     "start": 37.295,
+     "end": 37.495
+    },
+    {
+     "text": "shoe.",
+     "highlight": true,
+     "start": 37.568,
+     "end": 37.822
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "The stall door opening a crack; a small red shoe on the tiles inside",
+   "notes": "Hero; eerie, not gory."
+  },
+  {
+   "id": 10,
+   "start": 38.206,
+   "end": 43.371,
+   "act": 1,
+   "set": "school",
+   "owner": "S",
+   "framing": "Medium, the girls running down the corridor",
+   "camera": "Handheld",
+   "vo": "We ran. Down the hall, down the stairs, all the way outside.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "We",
+     "highlight": false,
+     "start": 38.461,
+     "end": 38.661
+    },
+    {
+     "text": "ran.",
+     "highlight": false,
+     "start": 38.733,
+     "end": 39.097
+    },
+    {
+     "text": "Down",
+     "highlight": false,
+     "start": 39.506,
+     "end": 39.724
+    },
+    {
+     "text": "the",
+     "highlight": false,
+     "start": 39.761,
+     "end": 39.833
+    },
+    {
+     "text": "hall,",
+     "highlight": false,
+     "start": 39.888,
+     "end": 40.233
+    },
+    {
+     "text": "down",
+     "highlight": false,
+     "start": 40.561,
+     "end": 40.779
+    },
+    {
+     "text": "the",
+     "highlight": false,
+     "start": 40.797,
+     "end": 40.888
+    },
+    {
+     "text": "stairs,",
+     "highlight": false,
+     "start": 40.979,
+     "end": 41.488
+    },
+    {
+     "text": "all",
+     "highlight": false,
+     "start": 41.833,
+     "end": 41.997
+    },
+    {
+     "text": "the",
+     "highlight": false,
+     "start": 42.033,
+     "end": 42.106
+    },
+    {
+     "text": "way",
+     "highlight": false,
+     "start": 42.142,
+     "end": 42.288
+    },
+    {
+     "text": "outside.",
+     "highlight": true,
+     "start": 42.361,
+     "end": 42.979
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "Two silhouettes running down the dark corridor toward the stairs",
+   "notes": "Fast."
+  },
+  {
+   "id": 11,
+   "start": 43.371,
+   "end": 49.845,
+   "act": 1,
+   "set": "school",
+   "owner": "S",
+   "framing": "Wide, the school building at night",
+   "camera": "Slow pull-back",
+   "vo": "The next day, I told our teacher. She went pale. 'That bathroom… only has two stalls.'",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "The",
+     "highlight": false,
+     "start": 43.626,
+     "end": 43.698
+    },
+    {
+     "text": "next",
+     "highlight": false,
+     "start": 43.735,
+     "end": 43.971
+    },
+    {
+     "text": "day,",
+     "highlight": false,
+     "start": 44.026,
+     "end": 44.244
+    },
+    {
+     "text": "I",
+     "highlight": false,
+     "start": 44.653,
+     "end": 44.707
+    },
+    {
+     "text": "told",
+     "highlight": false,
+     "start": 44.762,
+     "end": 44.944
+    },
+    {
+     "text": "our",
+     "highlight": false,
+     "start": 44.98,
+     "end": 45.089
+    },
+    {
+     "text": "teacher.",
+     "highlight": false,
+     "start": 45.144,
+     "end": 45.507
+    },
+    {
+     "text": "She",
+     "highlight": false,
+     "start": 45.916,
+     "end": 46.044
+    },
+    {
+     "text": "went",
+     "highlight": false,
+     "start": 46.08,
+     "end": 46.244
+    },
+    {
+     "text": "pale.",
+     "highlight": false,
+     "start": 46.298,
+     "end": 46.626
+    },
+    {
+     "text": "'That",
+     "highlight": false,
+     "start": 47.035,
+     "end": 47.216
+    },
+    {
+     "text": "bathroom…",
+     "highlight": false,
+     "start": 47.271,
+     "end": 47.726
+    },
+    {
+     "text": "only",
+     "highlight": false,
+     "start": 48.135,
+     "end": 48.371
+    },
+    {
+     "text": "has",
+     "highlight": false,
+     "start": 48.426,
+     "end": 48.662
+    },
+    {
+     "text": "two",
+     "highlight": false,
+     "start": 48.735,
+     "end": 48.916
+    },
+    {
+     "text": "stalls.'",
+     "highlight": true,
+     "start": 48.989,
+     "end": 49.462
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "The school building at night, one bathroom window faintly lit",
+   "notes": "Twist."
+  },
+  {
+   "id": 12,
+   "start": 49.845,
+   "end": 57.913,
+   "act": 1,
+   "set": "stall",
+   "owner": "B",
+   "framing": "Wide, the bathroom with two stalls",
+   "camera": "Slow push-in",
+   "vo": "I went back. Two stalls. A blank wall where the third should be. And sometimes… it still knocks. Three times.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "I",
+     "highlight": false,
+     "start": 50.1,
+     "end": 50.136
+    },
+    {
+     "text": "went",
+     "highlight": false,
+     "start": 50.172,
+     "end": 50.354
+    },
+    {
+     "text": "back.",
+     "highlight": false,
+     "start": 50.39,
+     "end": 50.663
+    },
+    {
+     "text": "Two",
+     "highlight": false,
+     "start": 51.072,
+     "end": 51.254
+    },
+    {
+     "text": "stalls.",
+     "highlight": false,
+     "start": 51.345,
+     "end": 51.727
+    },
+    {
+     "text": "A",
+     "highlight": false,
+     "start": 52.136,
+     "end": 52.19
+    },
+    {
+     "text": "blank",
+     "highlight": false,
+     "start": 52.245,
+     "end": 52.536
+    },
+    {
+     "text": "wall",
+     "highlight": false,
+     "start": 52.609,
+     "end": 52.845
+    },
+    {
+     "text": "where",
+     "highlight": false,
+     "start": 52.881,
+     "end": 52.99
+    },
+    {
+     "text": "the",
+     "highlight": false,
+     "start": 53.027,
+     "end": 53.1
+    },
+    {
+     "text": "third",
+     "highlight": false,
+     "start": 53.154,
+     "end": 53.39
+    },
+    {
+     "text": "should",
+     "highlight": false,
+     "start": 53.427,
+     "end": 53.572
+    },
+    {
+     "text": "be.",
+     "highlight": false,
+     "start": 53.627,
+     "end": 53.79
+    },
+    {
+     "text": "And",
+     "highlight": false,
+     "start": 54.2,
+     "end": 54.309
+    },
+    {
+     "text": "sometimes…",
+     "highlight": false,
+     "start": 54.381,
+     "end": 54.945
+    },
+    {
+     "text": "it",
+     "highlight": false,
+     "start": 55.354,
+     "end": 55.463
+    },
+    {
+     "text": "still",
+     "highlight": false,
+     "start": 55.554,
+     "end": 55.772
+    },
+    {
+     "text": "knocks.",
+     "highlight": false,
+     "start": 55.79,
+     "end": 56.227
+    },
+    {
+     "text": "Three",
+     "highlight": false,
+     "start": 56.636,
+     "end": 56.836
+    },
+    {
+     "text": "times.",
+     "highlight": true,
+     "start": 56.909,
+     "end": 57.327
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "Two stall doors and a bare tiled wall where a third should be, faint knuckle marks on the tiles",
+   "notes": "Cold."
+  },
+  {
+   "id": 13,
+   "start": 57.913,
+   "end": 60.713,
+   "act": 1,
+   "set": "graphic",
+   "owner": "G",
+   "framing": "End card",
+   "camera": "Static",
+   "vo": "Would you knock? Comment YES or NO.",
+   "voKind": "onscreen",
+   "speaker": null,
+   "words": [
+    {
+     "text": "Would",
+     "highlight": false,
+     "start": 58.163,
+     "end": 58.463
+    },
+    {
+     "text": "you",
+     "highlight": false,
+     "start": 58.383,
+     "end": 58.683
+    },
+    {
+     "text": "knock?",
+     "highlight": false,
+     "start": 58.603,
+     "end": 58.903
+    },
+    {
+     "text": "Comment",
+     "highlight": false,
+     "start": 58.823,
+     "end": 59.123
+    },
+    {
+     "text": "YES",
+     "highlight": true,
+     "start": 59.043,
+     "end": 59.343
+    },
+    {
+     "text": "or",
+     "highlight": false,
+     "start": 59.263,
+     "end": 59.563
+    },
+    {
+     "text": "NO.",
+     "highlight": true,
+     "start": 59.483,
+     "end": 59.783
+    }
+   ],
+   "trans": "cut",
+   "caption": false,
+   "cool": false,
+   "hero": "CTA with a stall door and red shoe motif",
+   "notes": "No caption (on-screen text)."
+  }
+ ],
+ "audio": true
+}

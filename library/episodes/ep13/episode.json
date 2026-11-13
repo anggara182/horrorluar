@@ -1,0 +1,1125 @@
+{
+ "id": "EP13",
+ "title": "The Banshee",
+ "fps": 30,
+ "width": 1080,
+ "height": 1920,
+ "durationSec": 56.02,
+ "accent": "#9ad1ff",
+ "timingSource": "ai33 eleven_v3 transcript, tempo x1.05",
+ "shots": [
+  {
+   "id": 1,
+   "start": 0.0,
+   "end": 4.838,
+   "act": 1,
+   "set": "country",
+   "owner": "R",
+   "framing": "Wide, wet country lane at night",
+   "camera": "Slow push-in",
+   "vo": "In Ireland, if you find a silver comb on the road… don't pick it up.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "In",
+     "highlight": false,
+     "start": 0.557,
+     "end": 0.633
+    },
+    {
+     "text": "Ireland,",
+     "highlight": false,
+     "start": 0.729,
+     "end": 1.09
+    },
+    {
+     "text": "if",
+     "highlight": false,
+     "start": 1.452,
+     "end": 1.529
+    },
+    {
+     "text": "you",
+     "highlight": false,
+     "start": 1.567,
+     "end": 1.681
+    },
+    {
+     "text": "find",
+     "highlight": false,
+     "start": 1.738,
+     "end": 1.929
+    },
+    {
+     "text": "a",
+     "highlight": false,
+     "start": 1.967,
+     "end": 2.024
+    },
+    {
+     "text": "silver",
+     "highlight": false,
+     "start": 2.081,
+     "end": 2.329
+    },
+    {
+     "text": "comb",
+     "highlight": true,
+     "start": 2.424,
+     "end": 2.614
+    },
+    {
+     "text": "on",
+     "highlight": false,
+     "start": 2.652,
+     "end": 2.729
+    },
+    {
+     "text": "the",
+     "highlight": false,
+     "start": 2.767,
+     "end": 2.843
+    },
+    {
+     "text": "road…",
+     "highlight": false,
+     "start": 2.9,
+     "end": 3.186
+    },
+    {
+     "text": "don't",
+     "highlight": false,
+     "start": 3.567,
+     "end": 3.833
+    },
+    {
+     "text": "pick",
+     "highlight": false,
+     "start": 3.89,
+     "end": 4.005
+    },
+    {
+     "text": "it",
+     "highlight": false,
+     "start": 4.043,
+     "end": 4.1
+    },
+    {
+     "text": "up.",
+     "highlight": false,
+     "start": 4.176,
+     "end": 4.348
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "A silver comb glinting in a puddle on a dark lane between stone walls",
+   "notes": "Rain, walls, hills; LOW detail bg."
+  },
+  {
+   "id": 2,
+   "start": 4.838,
+   "end": 6.939,
+   "act": 1,
+   "set": "graphic",
+   "owner": "G",
+   "framing": "Title card",
+   "camera": "Slow push",
+   "vo": "It belongs to the banshee.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "It",
+     "highlight": false,
+     "start": 5.195,
+     "end": 5.271
+    },
+    {
+     "text": "belongs",
+     "highlight": false,
+     "start": 5.309,
+     "end": 5.767
+    },
+    {
+     "text": "to",
+     "highlight": false,
+     "start": 5.805,
+     "end": 5.862
+    },
+    {
+     "text": "the",
+     "highlight": false,
+     "start": 5.9,
+     "end": 5.957
+    },
+    {
+     "text": "banshee.",
+     "highlight": true,
+     "start": 5.995,
+     "end": 6.452
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "Title 'THE BANSHEE' + 'Bean sí · Ireland' over a pale woman with long white hair in mist",
+   "notes": "Cold moonlight."
+  },
+  {
+   "id": 3,
+   "start": 6.939,
+   "end": 12.652,
+   "act": 1,
+   "set": "graphic",
+   "owner": "G",
+   "framing": "Lore insert",
+   "camera": "Slow push",
+   "vo": "Her wail warns a family that someone is about to die. And she comes back for her comb.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "Her",
+     "highlight": false,
+     "start": 7.296,
+     "end": 7.487
+    },
+    {
+     "text": "wail",
+     "highlight": false,
+     "start": 7.601,
+     "end": 7.906
+    },
+    {
+     "text": "warns",
+     "highlight": false,
+     "start": 8.02,
+     "end": 8.306
+    },
+    {
+     "text": "a",
+     "highlight": false,
+     "start": 8.344,
+     "end": 8.42
+    },
+    {
+     "text": "family",
+     "highlight": false,
+     "start": 8.477,
+     "end": 8.839
+    },
+    {
+     "text": "that",
+     "highlight": false,
+     "start": 8.877,
+     "end": 9.029
+    },
+    {
+     "text": "someone",
+     "highlight": false,
+     "start": 9.087,
+     "end": 9.353
+    },
+    {
+     "text": "is",
+     "highlight": false,
+     "start": 9.391,
+     "end": 9.468
+    },
+    {
+     "text": "about",
+     "highlight": false,
+     "start": 9.525,
+     "end": 9.734
+    },
+    {
+     "text": "to",
+     "highlight": false,
+     "start": 9.791,
+     "end": 9.887
+    },
+    {
+     "text": "die.",
+     "highlight": false,
+     "start": 9.925,
+     "end": 10.268
+    },
+    {
+     "text": "And",
+     "highlight": false,
+     "start": 10.725,
+     "end": 10.801
+    },
+    {
+     "text": "she",
+     "highlight": false,
+     "start": 10.858,
+     "end": 10.972
+    },
+    {
+     "text": "comes",
+     "highlight": false,
+     "start": 11.029,
+     "end": 11.258
+    },
+    {
+     "text": "back",
+     "highlight": false,
+     "start": 11.315,
+     "end": 11.506
+    },
+    {
+     "text": "for",
+     "highlight": false,
+     "start": 11.544,
+     "end": 11.62
+    },
+    {
+     "text": "her",
+     "highlight": false,
+     "start": 11.658,
+     "end": 11.772
+    },
+    {
+     "text": "comb.",
+     "highlight": true,
+     "start": 11.849,
+     "end": 12.172
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "A long white hair strand caught in the teeth of a silver comb",
+   "notes": "Respectful."
+  },
+  {
+   "id": 4,
+   "start": 12.652,
+   "end": 18.222,
+   "act": 1,
+   "set": "country",
+   "owner": "R",
+   "framing": "Medium, a girl walking home in the rain",
+   "camera": "Tracking from behind",
+   "vo": "Walking home from my grandfather's, I found one. Silver. Beautiful.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "Walking",
+     "highlight": false,
+     "start": 13.009,
+     "end": 13.295
+    },
+    {
+     "text": "home",
+     "highlight": false,
+     "start": 13.371,
+     "end": 13.562
+    },
+    {
+     "text": "from",
+     "highlight": false,
+     "start": 13.619,
+     "end": 13.733
+    },
+    {
+     "text": "my",
+     "highlight": false,
+     "start": 13.771,
+     "end": 13.885
+    },
+    {
+     "text": "grandfather's,",
+     "highlight": false,
+     "start": 13.923,
+     "end": 14.628
+    },
+    {
+     "text": "I",
+     "highlight": false,
+     "start": 15.142,
+     "end": 15.2
+    },
+    {
+     "text": "found",
+     "highlight": false,
+     "start": 15.257,
+     "end": 15.504
+    },
+    {
+     "text": "one.",
+     "highlight": false,
+     "start": 15.542,
+     "end": 15.771
+    },
+    {
+     "text": "Silver.",
+     "highlight": false,
+     "start": 16.362,
+     "end": 16.723
+    },
+    {
+     "text": "Beautiful.",
+     "highlight": true,
+     "start": 17.181,
+     "end": 17.733
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "Girl in a raincoat bending toward the comb on the lane",
+   "notes": "Reuse country set."
+  },
+  {
+   "id": 5,
+   "start": 18.222,
+   "end": 21.539,
+   "act": 1,
+   "set": "cottage",
+   "owner": "T",
+   "framing": "Close, the comb on the kitchen table",
+   "camera": "Slow push-in",
+   "vo": "I brought it back to show him. He went white.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "I",
+     "highlight": false,
+     "start": 18.579,
+     "end": 18.617
+    },
+    {
+     "text": "brought",
+     "highlight": false,
+     "start": 18.655,
+     "end": 18.865
+    },
+    {
+     "text": "it",
+     "highlight": false,
+     "start": 18.903,
+     "end": 18.998
+    },
+    {
+     "text": "back",
+     "highlight": false,
+     "start": 19.036,
+     "end": 19.246
+    },
+    {
+     "text": "to",
+     "highlight": false,
+     "start": 19.284,
+     "end": 19.379
+    },
+    {
+     "text": "show",
+     "highlight": false,
+     "start": 19.436,
+     "end": 19.646
+    },
+    {
+     "text": "him.",
+     "highlight": false,
+     "start": 19.684,
+     "end": 19.893
+    },
+    {
+     "text": "He",
+     "highlight": false,
+     "start": 20.312,
+     "end": 20.408
+    },
+    {
+     "text": "went",
+     "highlight": false,
+     "start": 20.446,
+     "end": 20.693
+    },
+    {
+     "text": "white.",
+     "highlight": true,
+     "start": 20.751,
+     "end": 21.055
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "The silver comb on a wooden table by the fire, an old man's hand stopping mid-reach",
+   "notes": "Fire glow."
+  },
+  {
+   "id": 6,
+   "start": 21.539,
+   "end": 24.932,
+   "act": 1,
+   "set": "cottage",
+   "owner": "T",
+   "framing": "Medium, grandfather by the window",
+   "camera": "Locked",
+   "vo": "'Put it on the windowsill,' he said. 'Now.'",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "'Put",
+     "highlight": false,
+     "start": 21.896,
+     "end": 22.029
+    },
+    {
+     "text": "it",
+     "highlight": false,
+     "start": 22.068,
+     "end": 22.125
+    },
+    {
+     "text": "on",
+     "highlight": false,
+     "start": 22.182,
+     "end": 22.239
+    },
+    {
+     "text": "the",
+     "highlight": false,
+     "start": 22.277,
+     "end": 22.334
+    },
+    {
+     "text": "windowsill,'",
+     "highlight": false,
+     "start": 22.372,
+     "end": 22.963
+    },
+    {
+     "text": "he",
+     "highlight": false,
+     "start": 23.344,
+     "end": 23.401
+    },
+    {
+     "text": "said.",
+     "highlight": false,
+     "start": 23.496,
+     "end": 23.725
+    },
+    {
+     "text": "'Now.'",
+     "highlight": false,
+     "start": 23.725,
+     "end": 24.449
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "Old man in a wool cap pointing to the dark window; the girl holding the comb",
+   "notes": "Fire behind, rain outside."
+  },
+  {
+   "id": 7,
+   "start": 24.932,
+   "end": 30.234,
+   "act": 1,
+   "set": "country",
+   "owner": "R",
+   "framing": "Wide, the cottage at night",
+   "camera": "Slow push-in",
+   "vo": "At midnight, we heard it. A woman wailing outside. Coming closer.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "At",
+     "highlight": false,
+     "start": 25.289,
+     "end": 25.384
+    },
+    {
+     "text": "midnight,",
+     "highlight": false,
+     "start": 25.442,
+     "end": 25.861
+    },
+    {
+     "text": "we",
+     "highlight": false,
+     "start": 26.108,
+     "end": 26.203
+    },
+    {
+     "text": "heard",
+     "highlight": false,
+     "start": 26.261,
+     "end": 26.451
+    },
+    {
+     "text": "it.",
+     "highlight": false,
+     "start": 26.489,
+     "end": 26.642
+    },
+    {
+     "text": "A",
+     "highlight": false,
+     "start": 27.118,
+     "end": 27.175
+    },
+    {
+     "text": "woman",
+     "highlight": false,
+     "start": 27.213,
+     "end": 27.48
+    },
+    {
+     "text": "wailing",
+     "highlight": false,
+     "start": 27.556,
+     "end": 27.88
+    },
+    {
+     "text": "outside.",
+     "highlight": false,
+     "start": 27.937,
+     "end": 28.47
+    },
+    {
+     "text": "Coming",
+     "highlight": false,
+     "start": 28.984,
+     "end": 29.232
+    },
+    {
+     "text": "closer.",
+     "highlight": true,
+     "start": 29.289,
+     "end": 29.746
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "Lit cottage in the rain; a pale grey figure far away by the stone wall",
+   "notes": "Mist."
+  },
+  {
+   "id": 8,
+   "start": 30.234,
+   "end": 33.94,
+   "act": 1,
+   "set": "cottage",
+   "owner": "T",
+   "framing": "Close, the window, rain on the glass",
+   "camera": "Very slow push",
+   "vo": "Then a long pale hand reached up to the window.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "Then",
+     "highlight": false,
+     "start": 30.591,
+     "end": 30.991
+    },
+    {
+     "text": "a",
+     "highlight": false,
+     "start": 31.067,
+     "end": 31.105
+    },
+    {
+     "text": "long",
+     "highlight": false,
+     "start": 31.22,
+     "end": 31.486
+    },
+    {
+     "text": "pale",
+     "highlight": false,
+     "start": 31.62,
+     "end": 31.867
+    },
+    {
+     "text": "hand",
+     "highlight": false,
+     "start": 31.982,
+     "end": 32.324
+    },
+    {
+     "text": "reached",
+     "highlight": false,
+     "start": 32.439,
+     "end": 32.705
+    },
+    {
+     "text": "up",
+     "highlight": false,
+     "start": 32.782,
+     "end": 32.858
+    },
+    {
+     "text": "to",
+     "highlight": false,
+     "start": 32.896,
+     "end": 32.972
+    },
+    {
+     "text": "the",
+     "highlight": false,
+     "start": 33.01,
+     "end": 33.067
+    },
+    {
+     "text": "window.",
+     "highlight": true,
+     "start": 33.105,
+     "end": 33.448
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "Rain-streaked window, the comb on the sill inside, a long pale hand rising outside the glass",
+   "notes": "Eerie, not gory."
+  },
+  {
+   "id": 9,
+   "start": 33.94,
+   "end": 38.277,
+   "act": 1,
+   "set": "cottage",
+   "owner": "T",
+   "framing": "Close, the empty windowsill",
+   "camera": "Locked",
+   "vo": "In the morning, the comb was gone. The window was still locked.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "In",
+     "highlight": false,
+     "start": 34.297,
+     "end": 34.354
+    },
+    {
+     "text": "the",
+     "highlight": false,
+     "start": 34.392,
+     "end": 34.45
+    },
+    {
+     "text": "morning,",
+     "highlight": false,
+     "start": 34.507,
+     "end": 34.85
+    },
+    {
+     "text": "the",
+     "highlight": false,
+     "start": 35.135,
+     "end": 35.211
+    },
+    {
+     "text": "comb",
+     "highlight": false,
+     "start": 35.269,
+     "end": 35.516
+    },
+    {
+     "text": "was",
+     "highlight": false,
+     "start": 35.554,
+     "end": 35.688
+    },
+    {
+     "text": "gone.",
+     "highlight": false,
+     "start": 35.745,
+     "end": 36.069
+    },
+    {
+     "text": "The",
+     "highlight": false,
+     "start": 36.564,
+     "end": 36.64
+    },
+    {
+     "text": "window",
+     "highlight": false,
+     "start": 36.678,
+     "end": 36.964
+    },
+    {
+     "text": "was",
+     "highlight": false,
+     "start": 37.002,
+     "end": 37.116
+    },
+    {
+     "text": "still",
+     "highlight": false,
+     "start": 37.192,
+     "end": 37.383
+    },
+    {
+     "text": "locked.",
+     "highlight": true,
+     "start": 37.44,
+     "end": 37.783
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "Empty windowsill, latch closed, a single long white hair on the wood",
+   "notes": "Grey morning."
+  },
+  {
+   "id": 10,
+   "start": 38.277,
+   "end": 42.932,
+   "act": 1,
+   "set": "cottage",
+   "owner": "T",
+   "framing": "Medium, grandfather by the fire",
+   "camera": "Slow pull-back",
+   "vo": "My grandfather smiled. 'She only wanted it back,' he said.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "My",
+     "highlight": false,
+     "start": 38.634,
+     "end": 38.767
+    },
+    {
+     "text": "grandfather",
+     "highlight": false,
+     "start": 38.806,
+     "end": 39.282
+    },
+    {
+     "text": "smiled.",
+     "highlight": false,
+     "start": 39.396,
+     "end": 39.834
+    },
+    {
+     "text": "'She",
+     "highlight": false,
+     "start": 39.834,
+     "end": 40.501
+    },
+    {
+     "text": "only",
+     "highlight": false,
+     "start": 40.577,
+     "end": 40.787
+    },
+    {
+     "text": "wanted",
+     "highlight": false,
+     "start": 40.825,
+     "end": 41.015
+    },
+    {
+     "text": "it",
+     "highlight": false,
+     "start": 41.053,
+     "end": 41.148
+    },
+    {
+     "text": "back,'",
+     "highlight": false,
+     "start": 41.206,
+     "end": 41.529
+    },
+    {
+     "text": "he",
+     "highlight": false,
+     "start": 42.025,
+     "end": 42.139
+    },
+    {
+     "text": "said.",
+     "highlight": true,
+     "start": 42.196,
+     "end": 42.444
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "Old man in his chair by the fire, calm",
+   "notes": "Warm."
+  },
+  {
+   "id": 11,
+   "start": 42.932,
+   "end": 48.934,
+   "act": 1,
+   "set": "country",
+   "owner": "R",
+   "framing": "Wide, the lane at dawn",
+   "camera": "Slow pull-back",
+   "vo": "He passed away that winter. Peacefully. And at his funeral… I heard her wail once.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "He",
+     "highlight": false,
+     "start": 43.289,
+     "end": 43.403
+    },
+    {
+     "text": "passed",
+     "highlight": false,
+     "start": 43.461,
+     "end": 43.708
+    },
+    {
+     "text": "away",
+     "highlight": false,
+     "start": 43.765,
+     "end": 43.994
+    },
+    {
+     "text": "that",
+     "highlight": false,
+     "start": 44.051,
+     "end": 44.184
+    },
+    {
+     "text": "winter.",
+     "highlight": false,
+     "start": 44.222,
+     "end": 44.508
+    },
+    {
+     "text": "Peacefully.",
+     "highlight": false,
+     "start": 44.965,
+     "end": 45.442
+    },
+    {
+     "text": "And",
+     "highlight": false,
+     "start": 45.937,
+     "end": 46.032
+    },
+    {
+     "text": "at",
+     "highlight": false,
+     "start": 46.089,
+     "end": 46.165
+    },
+    {
+     "text": "his",
+     "highlight": false,
+     "start": 46.203,
+     "end": 46.356
+    },
+    {
+     "text": "funeral…",
+     "highlight": false,
+     "start": 46.413,
+     "end": 46.813
+    },
+    {
+     "text": "I",
+     "highlight": false,
+     "start": 47.365,
+     "end": 47.403
+    },
+    {
+     "text": "heard",
+     "highlight": false,
+     "start": 47.442,
+     "end": 47.632
+    },
+    {
+     "text": "her",
+     "highlight": false,
+     "start": 47.67,
+     "end": 47.803
+    },
+    {
+     "text": "wail",
+     "highlight": false,
+     "start": 47.861,
+     "end": 48.127
+    },
+    {
+     "text": "once.",
+     "highlight": true,
+     "start": 48.165,
+     "end": 48.451
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "Small group of mourners at a stone churchyard in grey dawn, a pale figure far on the hill",
+   "notes": "Mournful."
+  },
+  {
+   "id": 12,
+   "start": 48.934,
+   "end": 53.22,
+   "act": 1,
+   "set": "country",
+   "owner": "R",
+   "framing": "Close, a silver comb in a puddle again",
+   "camera": "Slow push-in",
+   "vo": "Last week, I found another comb. On my road.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "Last",
+     "highlight": false,
+     "start": 49.291,
+     "end": 49.577
+    },
+    {
+     "text": "week,",
+     "highlight": false,
+     "start": 49.653,
+     "end": 49.901
+    },
+    {
+     "text": "I",
+     "highlight": false,
+     "start": 50.396,
+     "end": 50.472
+    },
+    {
+     "text": "found",
+     "highlight": false,
+     "start": 50.529,
+     "end": 50.72
+    },
+    {
+     "text": "another",
+     "highlight": false,
+     "start": 50.758,
+     "end": 51.044
+    },
+    {
+     "text": "comb.",
+     "highlight": false,
+     "start": 51.101,
+     "end": 51.405
+    },
+    {
+     "text": "On",
+     "highlight": false,
+     "start": 51.882,
+     "end": 51.977
+    },
+    {
+     "text": "my",
+     "highlight": true,
+     "start": 52.015,
+     "end": 52.148
+    },
+    {
+     "text": "road.",
+     "highlight": false,
+     "start": 52.205,
+     "end": 52.529
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "A silver comb in a puddle on a suburban road at night",
+   "notes": "Cold."
+  },
+  {
+   "id": 13,
+   "start": 53.22,
+   "end": 56.02,
+   "act": 1,
+   "set": "graphic",
+   "owner": "G",
+   "framing": "End card",
+   "camera": "Static",
+   "vo": "Would you pick it up? Comment YES or NO.",
+   "voKind": "onscreen",
+   "speaker": null,
+   "words": [
+    {
+     "text": "Would",
+     "highlight": false,
+     "start": 53.47,
+     "end": 53.77
+    },
+    {
+     "text": "you",
+     "highlight": false,
+     "start": 53.69,
+     "end": 53.99
+    },
+    {
+     "text": "pick",
+     "highlight": false,
+     "start": 53.91,
+     "end": 54.21
+    },
+    {
+     "text": "it",
+     "highlight": false,
+     "start": 54.13,
+     "end": 54.43
+    },
+    {
+     "text": "up?",
+     "highlight": true,
+     "start": 54.35,
+     "end": 54.65
+    },
+    {
+     "text": "Comment",
+     "highlight": false,
+     "start": 54.57,
+     "end": 54.87
+    },
+    {
+     "text": "YES",
+     "highlight": true,
+     "start": 54.79,
+     "end": 55.09
+    },
+    {
+     "text": "or",
+     "highlight": false,
+     "start": 55.01,
+     "end": 55.31
+    },
+    {
+     "text": "NO.",
+     "highlight": true,
+     "start": 55.23,
+     "end": 55.53
+    }
+   ],
+   "trans": "cut",
+   "caption": false,
+   "cool": false,
+   "hero": "CTA with a silver comb and rain motif",
+   "notes": "No caption (on-screen text)."
+  }
+ ],
+ "audio": true
+}

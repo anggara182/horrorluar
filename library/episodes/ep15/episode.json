@@ -1,0 +1,1191 @@
+{
+ "id": "EP15",
+ "title": "Genderuwo",
+ "fps": 30,
+ "width": 1080,
+ "height": 1920,
+ "durationSec": 58.287,
+ "accent": "#ff7a59",
+ "timingSource": "ai33 eleven_v3 transcript, tempo x1.05",
+ "shots": [
+  {
+   "id": 1,
+   "start": 0.0,
+   "end": 7.209,
+   "act": 1,
+   "set": "village",
+   "owner": "V",
+   "framing": "Wide, a village house in the rain at night",
+   "camera": "Slow push-in",
+   "vo": "In Java, if your husband comes home early from the night shift… and won't say a word… check twice.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "In",
+     "highlight": false,
+     "start": 0.557,
+     "end": 0.633
+    },
+    {
+     "text": "Java,",
+     "highlight": false,
+     "start": 0.748,
+     "end": 1.167
+    },
+    {
+     "text": "if",
+     "highlight": false,
+     "start": 1.681,
+     "end": 1.757
+    },
+    {
+     "text": "your",
+     "highlight": false,
+     "start": 1.814,
+     "end": 1.929
+    },
+    {
+     "text": "husband",
+     "highlight": false,
+     "start": 1.986,
+     "end": 2.367
+    },
+    {
+     "text": "comes",
+     "highlight": false,
+     "start": 2.405,
+     "end": 2.614
+    },
+    {
+     "text": "home",
+     "highlight": false,
+     "start": 2.652,
+     "end": 2.843
+    },
+    {
+     "text": "early",
+     "highlight": false,
+     "start": 2.9,
+     "end": 3.167
+    },
+    {
+     "text": "from",
+     "highlight": false,
+     "start": 3.205,
+     "end": 3.338
+    },
+    {
+     "text": "the",
+     "highlight": false,
+     "start": 3.376,
+     "end": 3.433
+    },
+    {
+     "text": "night",
+     "highlight": false,
+     "start": 3.49,
+     "end": 3.681
+    },
+    {
+     "text": "shift…",
+     "highlight": false,
+     "start": 3.738,
+     "end": 4.043
+    },
+    {
+     "text": "and",
+     "highlight": false,
+     "start": 4.462,
+     "end": 4.557
+    },
+    {
+     "text": "won't",
+     "highlight": false,
+     "start": 4.595,
+     "end": 4.786
+    },
+    {
+     "text": "say",
+     "highlight": false,
+     "start": 4.843,
+     "end": 4.957
+    },
+    {
+     "text": "a",
+     "highlight": false,
+     "start": 5.014,
+     "end": 5.071
+    },
+    {
+     "text": "word…",
+     "highlight": true,
+     "start": 5.129,
+     "end": 5.452
+    },
+    {
+     "text": "check",
+     "highlight": false,
+     "start": 5.948,
+     "end": 6.195
+    },
+    {
+     "text": "twice.",
+     "highlight": false,
+     "start": 6.271,
+     "end": 6.71
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "A Javanese house with a lit porch; a tall man's silhouette standing at the gate in the rain",
+   "notes": "Rain, banana trees; LOW detail bg."
+  },
+  {
+   "id": 2,
+   "start": 7.209,
+   "end": 9.285,
+   "act": 1,
+   "set": "graphic",
+   "owner": "G",
+   "framing": "Title card",
+   "camera": "Slow push",
+   "vo": "It might be a genderuwo.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "It",
+     "highlight": false,
+     "start": 7.566,
+     "end": 7.68
+    },
+    {
+     "text": "might",
+     "highlight": false,
+     "start": 7.719,
+     "end": 7.89
+    },
+    {
+     "text": "be",
+     "highlight": false,
+     "start": 7.928,
+     "end": 8.004
+    },
+    {
+     "text": "a",
+     "highlight": false,
+     "start": 8.061,
+     "end": 8.119
+    },
+    {
+     "text": "genderuwo.",
+     "highlight": true,
+     "start": 8.157,
+     "end": 8.804
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "Title 'GENDERUWO' + 'A Javanese legend' over a tall hairy silhouette in a doorway",
+   "notes": "Warm-dark."
+  },
+  {
+   "id": 3,
+   "start": 9.285,
+   "end": 15.789,
+   "act": 1,
+   "set": "graphic",
+   "owner": "G",
+   "framing": "Lore insert",
+   "camera": "Slow push",
+   "vo": "A spirit that can take the shape of someone you trust. It copies their face. But never their voice.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "A",
+     "highlight": false,
+     "start": 9.642,
+     "end": 9.718
+    },
+    {
+     "text": "spirit",
+     "highlight": false,
+     "start": 9.814,
+     "end": 10.08
+    },
+    {
+     "text": "that",
+     "highlight": false,
+     "start": 10.118,
+     "end": 10.214
+    },
+    {
+     "text": "can",
+     "highlight": false,
+     "start": 10.233,
+     "end": 10.366
+    },
+    {
+     "text": "take",
+     "highlight": false,
+     "start": 10.404,
+     "end": 10.556
+    },
+    {
+     "text": "the",
+     "highlight": false,
+     "start": 10.614,
+     "end": 10.69
+    },
+    {
+     "text": "shape",
+     "highlight": false,
+     "start": 10.747,
+     "end": 10.995
+    },
+    {
+     "text": "of",
+     "highlight": false,
+     "start": 11.052,
+     "end": 11.128
+    },
+    {
+     "text": "someone",
+     "highlight": false,
+     "start": 11.185,
+     "end": 11.433
+    },
+    {
+     "text": "you",
+     "highlight": false,
+     "start": 11.471,
+     "end": 11.547
+    },
+    {
+     "text": "trust.",
+     "highlight": false,
+     "start": 11.623,
+     "end": 12.004
+    },
+    {
+     "text": "It",
+     "highlight": false,
+     "start": 12.595,
+     "end": 12.671
+    },
+    {
+     "text": "copies",
+     "highlight": false,
+     "start": 12.728,
+     "end": 13.071
+    },
+    {
+     "text": "their",
+     "highlight": false,
+     "start": 13.109,
+     "end": 13.261
+    },
+    {
+     "text": "face.",
+     "highlight": false,
+     "start": 13.318,
+     "end": 13.68
+    },
+    {
+     "text": "But",
+     "highlight": false,
+     "start": 14.195,
+     "end": 14.328
+    },
+    {
+     "text": "never",
+     "highlight": false,
+     "start": 14.385,
+     "end": 14.633
+    },
+    {
+     "text": "their",
+     "highlight": false,
+     "start": 14.69,
+     "end": 14.823
+    },
+    {
+     "text": "voice.",
+     "highlight": true,
+     "start": 14.88,
+     "end": 15.299
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "A man's work jacket hanging on a hook, dripping, with long dark hairs on the shoulders",
+   "notes": "Respectful."
+  },
+  {
+   "id": 4,
+   "start": 15.789,
+   "end": 21.211,
+   "act": 1,
+   "set": "inside",
+   "owner": "I",
+   "framing": "Medium, mother and daughter watching TV",
+   "camera": "Locked",
+   "vo": "My father works nights at the factory. It was just me and Mom, watching TV.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "My",
+     "highlight": false,
+     "start": 16.146,
+     "end": 16.299
+    },
+    {
+     "text": "father",
+     "highlight": false,
+     "start": 16.356,
+     "end": 16.622
+    },
+    {
+     "text": "works",
+     "highlight": false,
+     "start": 16.699,
+     "end": 16.927
+    },
+    {
+     "text": "nights",
+     "highlight": false,
+     "start": 16.984,
+     "end": 17.251
+    },
+    {
+     "text": "at",
+     "highlight": false,
+     "start": 17.289,
+     "end": 17.365
+    },
+    {
+     "text": "the",
+     "highlight": false,
+     "start": 17.384,
+     "end": 17.46
+    },
+    {
+     "text": "factory.",
+     "highlight": false,
+     "start": 17.518,
+     "end": 17.975
+    },
+    {
+     "text": "It",
+     "highlight": false,
+     "start": 18.451,
+     "end": 18.508
+    },
+    {
+     "text": "was",
+     "highlight": false,
+     "start": 18.546,
+     "end": 18.66
+    },
+    {
+     "text": "just",
+     "highlight": false,
+     "start": 18.718,
+     "end": 18.908
+    },
+    {
+     "text": "me",
+     "highlight": false,
+     "start": 18.946,
+     "end": 19.041
+    },
+    {
+     "text": "and",
+     "highlight": false,
+     "start": 19.079,
+     "end": 19.175
+    },
+    {
+     "text": "Mom,",
+     "highlight": false,
+     "start": 19.232,
+     "end": 19.518
+    },
+    {
+     "text": "watching",
+     "highlight": false,
+     "start": 19.918,
+     "end": 20.241
+    },
+    {
+     "text": "TV.",
+     "highlight": true,
+     "start": 20.279,
+     "end": 20.718
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "Mother and daughter on a sofa in TV glow, rain on the window",
+   "notes": "Cozy."
+  },
+  {
+   "id": 5,
+   "start": 21.211,
+   "end": 25.161,
+   "act": 1,
+   "set": "inside",
+   "owner": "I",
+   "framing": "Medium, the front door opening",
+   "camera": "Slow push",
+   "vo": "At ten p.m., the front door opened. It was Dad.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "At",
+     "highlight": false,
+     "start": 21.568,
+     "end": 21.663
+    },
+    {
+     "text": "ten",
+     "highlight": false,
+     "start": 21.721,
+     "end": 21.911
+    },
+    {
+     "text": "p.m.,",
+     "highlight": false,
+     "start": 21.93,
+     "end": 22.254
+    },
+    {
+     "text": "the",
+     "highlight": false,
+     "start": 22.597,
+     "end": 22.673
+    },
+    {
+     "text": "front",
+     "highlight": false,
+     "start": 22.711,
+     "end": 22.863
+    },
+    {
+     "text": "door",
+     "highlight": false,
+     "start": 22.94,
+     "end": 23.111
+    },
+    {
+     "text": "opened.",
+     "highlight": false,
+     "start": 23.187,
+     "end": 23.53
+    },
+    {
+     "text": "It",
+     "highlight": false,
+     "start": 24.063,
+     "end": 24.14
+    },
+    {
+     "text": "was",
+     "highlight": false,
+     "start": 24.178,
+     "end": 24.311
+    },
+    {
+     "text": "Dad.",
+     "highlight": true,
+     "start": 24.368,
+     "end": 24.673
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "Front door opening, a tall man's silhouette in work clothes, soaking wet, face in shadow",
+   "notes": "Porch light behind."
+  },
+  {
+   "id": 6,
+   "start": 25.161,
+   "end": 30.905,
+   "act": 1,
+   "set": "inside",
+   "owner": "I",
+   "framing": "Medium, he walks past without a word",
+   "camera": "Lateral track",
+   "vo": "He didn't say hello. He walked straight to the bedroom. Dripping. Silent.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "He",
+     "highlight": false,
+     "start": 25.518,
+     "end": 25.613
+    },
+    {
+     "text": "didn't",
+     "highlight": false,
+     "start": 25.651,
+     "end": 25.899
+    },
+    {
+     "text": "say",
+     "highlight": false,
+     "start": 25.956,
+     "end": 26.128
+    },
+    {
+     "text": "hello.",
+     "highlight": false,
+     "start": 26.166,
+     "end": 26.642
+    },
+    {
+     "text": "He",
+     "highlight": false,
+     "start": 26.985,
+     "end": 27.08
+    },
+    {
+     "text": "walked",
+     "highlight": false,
+     "start": 27.137,
+     "end": 27.423
+    },
+    {
+     "text": "straight",
+     "highlight": false,
+     "start": 27.499,
+     "end": 27.747
+    },
+    {
+     "text": "to",
+     "highlight": false,
+     "start": 27.785,
+     "end": 27.861
+    },
+    {
+     "text": "the",
+     "highlight": false,
+     "start": 27.899,
+     "end": 27.956
+    },
+    {
+     "text": "bedroom.",
+     "highlight": false,
+     "start": 28.013,
+     "end": 28.451
+    },
+    {
+     "text": "Dripping.",
+     "highlight": false,
+     "start": 28.985,
+     "end": 29.385
+    },
+    {
+     "text": "Silent.",
+     "highlight": true,
+     "start": 29.918,
+     "end": 30.413
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "The tall figure passing behind the sofa, ducking slightly under the doorframe, wet footprints",
+   "notes": "Too tall."
+  },
+  {
+   "id": 7,
+   "start": 30.905,
+   "end": 34.687,
+   "act": 1,
+   "set": "inside",
+   "owner": "I",
+   "framing": "Close, mother's face in TV glow",
+   "camera": "Locked",
+   "vo": "Mom said he must be tired. Then her phone rang.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "Mom",
+     "highlight": false,
+     "start": 31.262,
+     "end": 31.548
+    },
+    {
+     "text": "said",
+     "highlight": false,
+     "start": 31.605,
+     "end": 31.776
+    },
+    {
+     "text": "he",
+     "highlight": false,
+     "start": 31.815,
+     "end": 31.91
+    },
+    {
+     "text": "must",
+     "highlight": false,
+     "start": 31.948,
+     "end": 32.119
+    },
+    {
+     "text": "be",
+     "highlight": false,
+     "start": 32.157,
+     "end": 32.272
+    },
+    {
+     "text": "tired.",
+     "highlight": false,
+     "start": 32.329,
+     "end": 32.729
+    },
+    {
+     "text": "Then",
+     "highlight": false,
+     "start": 33.3,
+     "end": 33.453
+    },
+    {
+     "text": "her",
+     "highlight": false,
+     "start": 33.491,
+     "end": 33.624
+    },
+    {
+     "text": "phone",
+     "highlight": false,
+     "start": 33.662,
+     "end": 33.891
+    },
+    {
+     "text": "rang.",
+     "highlight": true,
+     "start": 33.948,
+     "end": 34.195
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "Mother's profile lit by the TV, a phone lighting up on the cushion",
+   "notes": "Tension."
+  },
+  {
+   "id": 8,
+   "start": 34.687,
+   "end": 36.825,
+   "act": 1,
+   "set": "inside",
+   "owner": "I",
+   "framing": "Close, the phone screen",
+   "camera": "Slow push-in",
+   "vo": "The screen said: Dad.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "The",
+     "highlight": false,
+     "start": 35.044,
+     "end": 35.082
+    },
+    {
+     "text": "screen",
+     "highlight": false,
+     "start": 35.158,
+     "end": 35.406
+    },
+    {
+     "text": "said:",
+     "highlight": false,
+     "start": 35.501,
+     "end": 35.711
+    },
+    {
+     "text": "Dad.",
+     "highlight": true,
+     "start": 36.035,
+     "end": 36.339
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "Phone screen showing an incoming call 'BAPAK' with a photo silhouette",
+   "notes": "Cold screen light."
+  },
+  {
+   "id": 9,
+   "start": 36.825,
+   "end": 40.056,
+   "act": 1,
+   "set": "inside",
+   "owner": "I",
+   "framing": "Close, mother holding the phone to her ear",
+   "camera": "Locked",
+   "vo": "Hi. I'll be home late tonight. Lock the door.",
+   "voKind": "narration",
+   "speaker": "man",
+   "words": [
+    {
+     "text": "Hi.",
+     "highlight": false,
+     "start": 37.182,
+     "end": 37.506
+    },
+    {
+     "text": "I'll",
+     "highlight": false,
+     "start": 37.754,
+     "end": 37.849
+    },
+    {
+     "text": "be",
+     "highlight": false,
+     "start": 37.868,
+     "end": 37.963
+    },
+    {
+     "text": "home",
+     "highlight": false,
+     "start": 38.001,
+     "end": 38.154
+    },
+    {
+     "text": "late",
+     "highlight": false,
+     "start": 38.211,
+     "end": 38.363
+    },
+    {
+     "text": "tonight.",
+     "highlight": false,
+     "start": 38.401,
+     "end": 38.668
+    },
+    {
+     "text": "Lock",
+     "highlight": false,
+     "start": 39.03,
+     "end": 39.22
+    },
+    {
+     "text": "the",
+     "highlight": false,
+     "start": 39.258,
+     "end": 39.315
+    },
+    {
+     "text": "door.",
+     "highlight": true,
+     "start": 39.354,
+     "end": 39.563
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "Mother's hand holding the phone to her ear, her eyes moving to the hallway",
+   "notes": "Warm vs cold."
+  },
+  {
+   "id": 10,
+   "start": 40.056,
+   "end": 45.05,
+   "act": 1,
+   "set": "inside",
+   "owner": "I",
+   "framing": "Wide, the dark hallway to the bedroom",
+   "camera": "Very slow push",
+   "vo": "Mom looked at me. Then at the bedroom door. It was slowly opening.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "Mom",
+     "highlight": false,
+     "start": 40.413,
+     "end": 40.661
+    },
+    {
+     "text": "looked",
+     "highlight": false,
+     "start": 40.737,
+     "end": 40.927
+    },
+    {
+     "text": "at",
+     "highlight": false,
+     "start": 40.966,
+     "end": 41.08
+    },
+    {
+     "text": "me.",
+     "highlight": false,
+     "start": 41.118,
+     "end": 41.308
+    },
+    {
+     "text": "Then",
+     "highlight": false,
+     "start": 41.842,
+     "end": 41.994
+    },
+    {
+     "text": "at",
+     "highlight": false,
+     "start": 42.032,
+     "end": 42.108
+    },
+    {
+     "text": "the",
+     "highlight": false,
+     "start": 42.127,
+     "end": 42.204
+    },
+    {
+     "text": "bedroom",
+     "highlight": false,
+     "start": 42.242,
+     "end": 42.604
+    },
+    {
+     "text": "door.",
+     "highlight": false,
+     "start": 42.642,
+     "end": 42.946
+    },
+    {
+     "text": "It",
+     "highlight": false,
+     "start": 43.442,
+     "end": 43.499
+    },
+    {
+     "text": "was",
+     "highlight": false,
+     "start": 43.537,
+     "end": 43.67
+    },
+    {
+     "text": "slowly",
+     "highlight": false,
+     "start": 43.746,
+     "end": 44.127
+    },
+    {
+     "text": "opening.",
+     "highlight": true,
+     "start": 44.204,
+     "end": 44.566
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "Dark hallway, the bedroom door creaking open, a tall shape in the dark",
+   "notes": "Never show a face."
+  },
+  {
+   "id": 11,
+   "start": 45.05,
+   "end": 48.974,
+   "act": 1,
+   "set": "village",
+   "owner": "V",
+   "framing": "Wide, mother and daughter running out in the rain",
+   "camera": "Handheld",
+   "vo": "We ran out into the rain and didn't stop until the neighbors' house.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "We",
+     "highlight": false,
+     "start": 45.407,
+     "end": 45.521
+    },
+    {
+     "text": "ran",
+     "highlight": false,
+     "start": 45.579,
+     "end": 45.788
+    },
+    {
+     "text": "out",
+     "highlight": false,
+     "start": 45.845,
+     "end": 45.96
+    },
+    {
+     "text": "into",
+     "highlight": false,
+     "start": 46.017,
+     "end": 46.169
+    },
+    {
+     "text": "the",
+     "highlight": false,
+     "start": 46.207,
+     "end": 46.283
+    },
+    {
+     "text": "rain",
+     "highlight": false,
+     "start": 46.34,
+     "end": 46.588
+    },
+    {
+     "text": "and",
+     "highlight": false,
+     "start": 46.626,
+     "end": 46.74
+    },
+    {
+     "text": "didn't",
+     "highlight": false,
+     "start": 46.779,
+     "end": 47.007
+    },
+    {
+     "text": "stop",
+     "highlight": false,
+     "start": 47.083,
+     "end": 47.331
+    },
+    {
+     "text": "until",
+     "highlight": false,
+     "start": 47.369,
+     "end": 47.579
+    },
+    {
+     "text": "the",
+     "highlight": false,
+     "start": 47.617,
+     "end": 47.674
+    },
+    {
+     "text": "neighbors'",
+     "highlight": true,
+     "start": 47.731,
+     "end": 48.093
+    },
+    {
+     "text": "house.",
+     "highlight": false,
+     "start": 48.131,
+     "end": 48.474
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "Two figures running across the yard in the rain, the house door open behind them",
+   "notes": "Reuse village set."
+  },
+  {
+   "id": 12,
+   "start": 48.974,
+   "end": 55.487,
+   "act": 1,
+   "set": "village",
+   "owner": "V",
+   "framing": "Wide, the house at dawn",
+   "camera": "Slow pull-back",
+   "vo": "When Dad got home at dawn, the bed was soaked. And full of long, black hair.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "When",
+     "highlight": false,
+     "start": 49.331,
+     "end": 49.445
+    },
+    {
+     "text": "Dad",
+     "highlight": false,
+     "start": 49.522,
+     "end": 49.731
+    },
+    {
+     "text": "got",
+     "highlight": false,
+     "start": 49.769,
+     "end": 49.922
+    },
+    {
+     "text": "home",
+     "highlight": false,
+     "start": 49.96,
+     "end": 50.112
+    },
+    {
+     "text": "at",
+     "highlight": false,
+     "start": 50.15,
+     "end": 50.245
+    },
+    {
+     "text": "dawn,",
+     "highlight": false,
+     "start": 50.303,
+     "end": 50.588
+    },
+    {
+     "text": "the",
+     "highlight": false,
+     "start": 50.893,
+     "end": 50.95
+    },
+    {
+     "text": "bed",
+     "highlight": false,
+     "start": 51.007,
+     "end": 51.179
+    },
+    {
+     "text": "was",
+     "highlight": false,
+     "start": 51.217,
+     "end": 51.35
+    },
+    {
+     "text": "soaked.",
+     "highlight": false,
+     "start": 51.426,
+     "end": 51.884
+    },
+    {
+     "text": "And",
+     "highlight": false,
+     "start": 52.245,
+     "end": 52.398
+    },
+    {
+     "text": "full",
+     "highlight": false,
+     "start": 52.474,
+     "end": 52.607
+    },
+    {
+     "text": "of",
+     "highlight": false,
+     "start": 52.645,
+     "end": 52.779
+    },
+    {
+     "text": "long,",
+     "highlight": false,
+     "start": 52.855,
+     "end": 53.217
+    },
+    {
+     "text": "black",
+     "highlight": false,
+     "start": 53.636,
+     "end": 54.017
+    },
+    {
+     "text": "hair.",
+     "highlight": true,
+     "start": 54.436,
+     "end": 54.798
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "The house in grey dawn light, a man with a motorbike at the gate looking at the open door",
+   "notes": "Dawn."
+  },
+  {
+   "id": 13,
+   "start": 55.487,
+   "end": 58.287,
+   "act": 1,
+   "set": "graphic",
+   "owner": "G",
+   "framing": "End card",
+   "camera": "Static",
+   "vo": "Would you have noticed? Comment YES or NO.",
+   "voKind": "onscreen",
+   "speaker": null,
+   "words": [
+    {
+     "text": "Would",
+     "highlight": false,
+     "start": 55.737,
+     "end": 56.037
+    },
+    {
+     "text": "you",
+     "highlight": false,
+     "start": 55.957,
+     "end": 56.257
+    },
+    {
+     "text": "have",
+     "highlight": false,
+     "start": 56.177,
+     "end": 56.477
+    },
+    {
+     "text": "noticed?",
+     "highlight": false,
+     "start": 56.397,
+     "end": 56.697
+    },
+    {
+     "text": "Comment",
+     "highlight": false,
+     "start": 56.617,
+     "end": 56.917
+    },
+    {
+     "text": "YES",
+     "highlight": true,
+     "start": 56.837,
+     "end": 57.137
+    },
+    {
+     "text": "or",
+     "highlight": false,
+     "start": 57.057,
+     "end": 57.357
+    },
+    {
+     "text": "NO.",
+     "highlight": true,
+     "start": 57.277,
+     "end": 57.577
+    }
+   ],
+   "trans": "cut",
+   "caption": false,
+   "cool": false,
+   "hero": "CTA with a phone and door motif",
+   "notes": "No caption (on-screen text)."
+  }
+ ],
+ "audio": true
+}

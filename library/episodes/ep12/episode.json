@@ -1,0 +1,1311 @@
+{
+ "id": "EP12",
+ "title": "Mae Nak",
+ "fps": 30,
+ "width": 1080,
+ "height": 1920,
+ "durationSec": 61.263,
+ "accent": "#ffc857",
+ "timingSource": "ai33 eleven_v3 transcript, tempo x1.13",
+ "shots": [
+  {
+   "id": 1,
+   "start": 0.0,
+   "end": 7.445,
+   "act": 1,
+   "set": "house",
+   "owner": "H",
+   "framing": "Wide, stilt house over the canal at night",
+   "camera": "Slow push-in",
+   "vo": "In Thailand, if someone you love reaches for something that fell… and their arm keeps going… don't let them know you saw.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "In",
+     "highlight": false,
+     "start": 0.553,
+     "end": 0.659
+    },
+    {
+     "text": "Thailand,",
+     "highlight": false,
+     "start": 0.712,
+     "end": 1.226
+    },
+    {
+     "text": "if",
+     "highlight": false,
+     "start": 1.65,
+     "end": 1.739
+    },
+    {
+     "text": "someone",
+     "highlight": false,
+     "start": 1.81,
+     "end": 2.058
+    },
+    {
+     "text": "you",
+     "highlight": false,
+     "start": 2.093,
+     "end": 2.181
+    },
+    {
+     "text": "love",
+     "highlight": false,
+     "start": 2.235,
+     "end": 2.447
+    },
+    {
+     "text": "reaches",
+     "highlight": false,
+     "start": 2.5,
+     "end": 2.765
+    },
+    {
+     "text": "for",
+     "highlight": false,
+     "start": 2.801,
+     "end": 2.889
+    },
+    {
+     "text": "something",
+     "highlight": false,
+     "start": 2.942,
+     "end": 3.19
+    },
+    {
+     "text": "that",
+     "highlight": false,
+     "start": 3.226,
+     "end": 3.35
+    },
+    {
+     "text": "fell…",
+     "highlight": false,
+     "start": 3.42,
+     "end": 3.81
+    },
+    {
+     "text": "and",
+     "highlight": false,
+     "start": 4.128,
+     "end": 4.199
+    },
+    {
+     "text": "their",
+     "highlight": false,
+     "start": 4.217,
+     "end": 4.358
+    },
+    {
+     "text": "arm",
+     "highlight": false,
+     "start": 4.447,
+     "end": 4.642
+    },
+    {
+     "text": "keeps",
+     "highlight": false,
+     "start": 4.695,
+     "end": 4.907
+    },
+    {
+     "text": "going…",
+     "highlight": true,
+     "start": 4.96,
+     "end": 5.279
+    },
+    {
+     "text": "don't",
+     "highlight": false,
+     "start": 5.757,
+     "end": 5.934
+    },
+    {
+     "text": "let",
+     "highlight": false,
+     "start": 5.969,
+     "end": 6.075
+    },
+    {
+     "text": "them",
+     "highlight": false,
+     "start": 6.111,
+     "end": 6.235
+    },
+    {
+     "text": "know",
+     "highlight": false,
+     "start": 6.27,
+     "end": 6.429
+    },
+    {
+     "text": "you",
+     "highlight": false,
+     "start": 6.482,
+     "end": 6.606
+    },
+    {
+     "text": "saw.",
+     "highlight": false,
+     "start": 6.677,
+     "end": 6.96
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "A teak stilt house over dark water, one lamp in the window",
+   "notes": "Canal, palms; LOW detail bg."
+  },
+  {
+   "id": 2,
+   "start": 7.445,
+   "end": 10.407,
+   "act": 1,
+   "set": "graphic",
+   "owner": "G",
+   "framing": "Title card",
+   "camera": "Slow push",
+   "vo": "This is the story of Mae Nak.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "This",
+     "highlight": false,
+     "start": 7.798,
+     "end": 8.046
+    },
+    {
+     "text": "is",
+     "highlight": false,
+     "start": 8.152,
+     "end": 8.241
+    },
+    {
+     "text": "the",
+     "highlight": false,
+     "start": 8.276,
+     "end": 8.364
+    },
+    {
+     "text": "story",
+     "highlight": false,
+     "start": 8.435,
+     "end": 8.789
+    },
+    {
+     "text": "of",
+     "highlight": false,
+     "start": 9.055,
+     "end": 9.179
+    },
+    {
+     "text": "Mae",
+     "highlight": true,
+     "start": 9.232,
+     "end": 9.391
+    },
+    {
+     "text": "Nak.",
+     "highlight": true,
+     "start": 9.603,
+     "end": 9.922
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "Title 'MAE NAK' + 'แม่นาก · Thailand' over a woman's silhouette with long hair in lamp light",
+   "notes": "Warm-dark."
+  },
+  {
+   "id": 3,
+   "start": 10.407,
+   "end": 15.993,
+   "act": 1,
+   "set": "graphic",
+   "owner": "G",
+   "framing": "Lore insert",
+   "camera": "Slow push",
+   "vo": "A young wife who waited for her husband to come home from war. She waited… even after she died.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "A",
+     "highlight": false,
+     "start": 10.76,
+     "end": 10.831
+    },
+    {
+     "text": "young",
+     "highlight": false,
+     "start": 10.866,
+     "end": 11.043
+    },
+    {
+     "text": "wife",
+     "highlight": false,
+     "start": 11.096,
+     "end": 11.309
+    },
+    {
+     "text": "who",
+     "highlight": false,
+     "start": 11.344,
+     "end": 11.433
+    },
+    {
+     "text": "waited",
+     "highlight": false,
+     "start": 11.468,
+     "end": 11.68
+    },
+    {
+     "text": "for",
+     "highlight": false,
+     "start": 11.716,
+     "end": 11.804
+    },
+    {
+     "text": "her",
+     "highlight": false,
+     "start": 11.822,
+     "end": 11.928
+    },
+    {
+     "text": "husband",
+     "highlight": false,
+     "start": 11.964,
+     "end": 12.265
+    },
+    {
+     "text": "to",
+     "highlight": false,
+     "start": 12.3,
+     "end": 12.353
+    },
+    {
+     "text": "come",
+     "highlight": false,
+     "start": 12.388,
+     "end": 12.53
+    },
+    {
+     "text": "home",
+     "highlight": false,
+     "start": 12.565,
+     "end": 12.742
+    },
+    {
+     "text": "from",
+     "highlight": false,
+     "start": 12.778,
+     "end": 12.919
+    },
+    {
+     "text": "war.",
+     "highlight": false,
+     "start": 12.972,
+     "end": 13.203
+    },
+    {
+     "text": "She",
+     "highlight": false,
+     "start": 13.68,
+     "end": 13.787
+    },
+    {
+     "text": "waited…",
+     "highlight": false,
+     "start": 13.84,
+     "end": 14.104
+    },
+    {
+     "text": "even",
+     "highlight": false,
+     "start": 14.565,
+     "end": 14.725
+    },
+    {
+     "text": "after",
+     "highlight": false,
+     "start": 14.795,
+     "end": 14.99
+    },
+    {
+     "text": "she",
+     "highlight": false,
+     "start": 15.026,
+     "end": 15.132
+    },
+    {
+     "text": "died.",
+     "highlight": true,
+     "start": 15.185,
+     "end": 15.503
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "An oil lamp still burning on a windowsill, a wilted jasmine garland beside it",
+   "notes": "Respectful."
+  },
+  {
+   "id": 4,
+   "start": 15.993,
+   "end": 21.488,
+   "act": 1,
+   "set": "house",
+   "owner": "H",
+   "framing": "Medium, the husband returning by boat",
+   "camera": "Lateral track",
+   "vo": "When her husband came back, she was there. Smiling. With their baby in her arms.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "When",
+     "highlight": false,
+     "start": 16.346,
+     "end": 16.47
+    },
+    {
+     "text": "her",
+     "highlight": false,
+     "start": 16.505,
+     "end": 16.629
+    },
+    {
+     "text": "husband",
+     "highlight": false,
+     "start": 16.665,
+     "end": 17.001
+    },
+    {
+     "text": "came",
+     "highlight": false,
+     "start": 17.089,
+     "end": 17.266
+    },
+    {
+     "text": "back,",
+     "highlight": false,
+     "start": 17.32,
+     "end": 17.55
+    },
+    {
+     "text": "she",
+     "highlight": false,
+     "start": 17.851,
+     "end": 17.974
+    },
+    {
+     "text": "was",
+     "highlight": false,
+     "start": 18.01,
+     "end": 18.134
+    },
+    {
+     "text": "there.",
+     "highlight": false,
+     "start": 18.187,
+     "end": 18.399
+    },
+    {
+     "text": "Smiling.",
+     "highlight": false,
+     "start": 18.842,
+     "end": 19.249
+    },
+    {
+     "text": "With",
+     "highlight": false,
+     "start": 19.709,
+     "end": 19.815
+    },
+    {
+     "text": "their",
+     "highlight": false,
+     "start": 19.851,
+     "end": 19.974
+    },
+    {
+     "text": "baby",
+     "highlight": false,
+     "start": 20.028,
+     "end": 20.328
+    },
+    {
+     "text": "in",
+     "highlight": false,
+     "start": 20.364,
+     "end": 20.435
+    },
+    {
+     "text": "her",
+     "highlight": false,
+     "start": 20.47,
+     "end": 20.576
+    },
+    {
+     "text": "arms.",
+     "highlight": true,
+     "start": 20.665,
+     "end": 21.001
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "Man stepping from a small boat to the house steps; a woman silhouette with a bundle waiting in the doorway",
+   "notes": "Lamp-lit."
+  },
+  {
+   "id": 5,
+   "start": 21.488,
+   "end": 26.057,
+   "act": 1,
+   "set": "house",
+   "owner": "H",
+   "framing": "Medium, the couple inside, lamp light",
+   "camera": "Slow push",
+   "vo": "The neighbors stopped visiting. They tried to warn him. He didn't listen.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "The",
+     "highlight": false,
+     "start": 21.841,
+     "end": 21.912
+    },
+    {
+     "text": "neighbors",
+     "highlight": false,
+     "start": 21.965,
+     "end": 22.301
+    },
+    {
+     "text": "stopped",
+     "highlight": false,
+     "start": 22.39,
+     "end": 22.62
+    },
+    {
+     "text": "visiting.",
+     "highlight": false,
+     "start": 22.655,
+     "end": 23.027
+    },
+    {
+     "text": "They",
+     "highlight": false,
+     "start": 23.487,
+     "end": 23.593
+    },
+    {
+     "text": "tried",
+     "highlight": false,
+     "start": 23.629,
+     "end": 23.859
+    },
+    {
+     "text": "to",
+     "highlight": false,
+     "start": 23.894,
+     "end": 23.983
+    },
+    {
+     "text": "warn",
+     "highlight": false,
+     "start": 24.036,
+     "end": 24.23
+    },
+    {
+     "text": "him.",
+     "highlight": false,
+     "start": 24.266,
+     "end": 24.461
+    },
+    {
+     "text": "He",
+     "highlight": false,
+     "start": 24.903,
+     "end": 24.974
+    },
+    {
+     "text": "didn't",
+     "highlight": false,
+     "start": 25.009,
+     "end": 25.204
+    },
+    {
+     "text": "listen.",
+     "highlight": true,
+     "start": 25.239,
+     "end": 25.576
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "Inside: the wife preparing food at a low table, the husband sitting, warm lamp",
+   "notes": "Too quiet."
+  },
+  {
+   "id": 6,
+   "start": 26.057,
+   "end": 30.83,
+   "act": 1,
+   "set": "close",
+   "owner": "C",
+   "framing": "Close, a lime rolling across the floor",
+   "camera": "Track with the lime",
+   "vo": "One evening, she was making chili paste. A lime rolled off the table…",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "One",
+     "highlight": false,
+     "start": 26.41,
+     "end": 26.516
+    },
+    {
+     "text": "evening,",
+     "highlight": false,
+     "start": 26.587,
+     "end": 26.923
+    },
+    {
+     "text": "she",
+     "highlight": false,
+     "start": 27.401,
+     "end": 27.49
+    },
+    {
+     "text": "was",
+     "highlight": false,
+     "start": 27.525,
+     "end": 27.614
+    },
+    {
+     "text": "making",
+     "highlight": false,
+     "start": 27.649,
+     "end": 27.915
+    },
+    {
+     "text": "chili",
+     "highlight": false,
+     "start": 27.95,
+     "end": 28.18
+    },
+    {
+     "text": "paste.",
+     "highlight": false,
+     "start": 28.215,
+     "end": 28.552
+    },
+    {
+     "text": "A",
+     "highlight": false,
+     "start": 29.065,
+     "end": 29.118
+    },
+    {
+     "text": "lime",
+     "highlight": false,
+     "start": 29.171,
+     "end": 29.49
+    },
+    {
+     "text": "rolled",
+     "highlight": false,
+     "start": 29.543,
+     "end": 29.72
+    },
+    {
+     "text": "off",
+     "highlight": false,
+     "start": 29.772,
+     "end": 29.897
+    },
+    {
+     "text": "the",
+     "highlight": false,
+     "start": 29.932,
+     "end": 30.003
+    },
+    {
+     "text": "table…",
+     "highlight": false,
+     "start": 30.056,
+     "end": 30.357
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "A green lime rolling across teak floorboards toward a gap",
+   "notes": "Tactile wood."
+  },
+  {
+   "id": 7,
+   "start": 30.83,
+   "end": 34.25,
+   "act": 1,
+   "set": "close",
+   "owner": "C",
+   "framing": "Close, the lime falling through the gap",
+   "camera": "Locked",
+   "vo": "…and fell through the floorboards, to the ground below.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "…and",
+     "highlight": false,
+     "start": 31.183,
+     "end": 31.307
+    },
+    {
+     "text": "fell",
+     "highlight": false,
+     "start": 31.378,
+     "end": 31.555
+    },
+    {
+     "text": "through",
+     "highlight": false,
+     "start": 31.572,
+     "end": 31.696
+    },
+    {
+     "text": "the",
+     "highlight": false,
+     "start": 31.732,
+     "end": 31.803
+    },
+    {
+     "text": "floorboards,",
+     "highlight": false,
+     "start": 31.856,
+     "end": 32.422
+    },
+    {
+     "text": "to",
+     "highlight": false,
+     "start": 32.865,
+     "end": 32.918
+    },
+    {
+     "text": "the",
+     "highlight": false,
+     "start": 32.953,
+     "end": 33.024
+    },
+    {
+     "text": "ground",
+     "highlight": false,
+     "start": 33.059,
+     "end": 33.395
+    },
+    {
+     "text": "below.",
+     "highlight": true,
+     "start": 33.431,
+     "end": 33.767
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "The lime dropping through the gap into darkness under the house",
+   "notes": "Lamp from above."
+  },
+  {
+   "id": 8,
+   "start": 34.25,
+   "end": 38.798,
+   "act": 1,
+   "set": "house",
+   "owner": "H",
+   "framing": "Wide, under the house from outside",
+   "camera": "Slow tilt down",
+   "vo": "He was underneath, fixing the boat. He saw a hand come through the floor.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "He",
+     "highlight": false,
+     "start": 34.603,
+     "end": 34.674
+    },
+    {
+     "text": "was",
+     "highlight": false,
+     "start": 34.709,
+     "end": 34.833
+    },
+    {
+     "text": "underneath,",
+     "highlight": false,
+     "start": 34.886,
+     "end": 35.4
+    },
+    {
+     "text": "fixing",
+     "highlight": false,
+     "start": 35.683,
+     "end": 36.001
+    },
+    {
+     "text": "the",
+     "highlight": false,
+     "start": 36.037,
+     "end": 36.09
+    },
+    {
+     "text": "boat.",
+     "highlight": false,
+     "start": 36.143,
+     "end": 36.408
+    },
+    {
+     "text": "He",
+     "highlight": false,
+     "start": 36.78,
+     "end": 36.869
+    },
+    {
+     "text": "saw",
+     "highlight": false,
+     "start": 36.922,
+     "end": 37.046
+    },
+    {
+     "text": "a",
+     "highlight": false,
+     "start": 37.116,
+     "end": 37.169
+    },
+    {
+     "text": "hand",
+     "highlight": false,
+     "start": 37.24,
+     "end": 37.523
+    },
+    {
+     "text": "come",
+     "highlight": false,
+     "start": 37.577,
+     "end": 37.717
+    },
+    {
+     "text": "through",
+     "highlight": false,
+     "start": 37.736,
+     "end": 37.895
+    },
+    {
+     "text": "the",
+     "highlight": false,
+     "start": 37.931,
+     "end": 38.001
+    },
+    {
+     "text": "floor.",
+     "highlight": false,
+     "start": 38.054,
+     "end": 38.32
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "Husband under the stilt house by the boat, looking up; a pale hand emerging between boards above",
+   "notes": "Moonlight."
+  },
+  {
+   "id": 9,
+   "start": 38.798,
+   "end": 45.206,
+   "act": 1,
+   "set": "close",
+   "owner": "C",
+   "framing": "Low angle, the arm stretching down",
+   "camera": "Slow tilt down along the arm",
+   "vo": "And the arm kept stretching. Down. Down. Two meters. To pick up the lime.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "And",
+     "highlight": false,
+     "start": 39.151,
+     "end": 39.222
+    },
+    {
+     "text": "the",
+     "highlight": false,
+     "start": 39.257,
+     "end": 39.363
+    },
+    {
+     "text": "arm",
+     "highlight": false,
+     "start": 39.452,
+     "end": 39.647
+    },
+    {
+     "text": "kept",
+     "highlight": false,
+     "start": 39.735,
+     "end": 39.965
+    },
+    {
+     "text": "stretching.",
+     "highlight": true,
+     "start": 40.054,
+     "end": 40.479
+    },
+    {
+     "text": "Down.",
+     "highlight": false,
+     "start": 40.992,
+     "end": 41.328
+    },
+    {
+     "text": "Down.",
+     "highlight": false,
+     "start": 41.824,
+     "end": 42.213
+    },
+    {
+     "text": "Two",
+     "highlight": false,
+     "start": 42.744,
+     "end": 42.939
+    },
+    {
+     "text": "meters.",
+     "highlight": false,
+     "start": 42.992,
+     "end": 43.417
+    },
+    {
+     "text": "To",
+     "highlight": false,
+     "start": 43.859,
+     "end": 43.93
+    },
+    {
+     "text": "pick",
+     "highlight": false,
+     "start": 43.983,
+     "end": 44.107
+    },
+    {
+     "text": "up",
+     "highlight": false,
+     "start": 44.16,
+     "end": 44.248
+    },
+    {
+     "text": "the",
+     "highlight": false,
+     "start": 44.302,
+     "end": 44.372
+    },
+    {
+     "text": "lime.",
+     "highlight": false,
+     "start": 44.425,
+     "end": 44.726
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "An impossibly long thin pale arm reaching down from the floorboards to the lime on the ground",
+   "notes": "The hero shot; eerie, not gory."
+  },
+  {
+   "id": 10,
+   "start": 45.206,
+   "end": 49.949,
+   "act": 1,
+   "set": "house",
+   "owner": "H",
+   "framing": "Medium, husband frozen in the dark",
+   "camera": "Locked",
+   "vo": "He didn't scream. He just went back upstairs. And smiled at his wife.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "He",
+     "highlight": false,
+     "start": 45.559,
+     "end": 45.648
+    },
+    {
+     "text": "didn't",
+     "highlight": false,
+     "start": 45.683,
+     "end": 45.913
+    },
+    {
+     "text": "scream.",
+     "highlight": false,
+     "start": 46.002,
+     "end": 46.302
+    },
+    {
+     "text": "He",
+     "highlight": false,
+     "start": 46.692,
+     "end": 46.78
+    },
+    {
+     "text": "just",
+     "highlight": false,
+     "start": 46.833,
+     "end": 46.957
+    },
+    {
+     "text": "went",
+     "highlight": false,
+     "start": 46.993,
+     "end": 47.134
+    },
+    {
+     "text": "back",
+     "highlight": false,
+     "start": 47.17,
+     "end": 47.311
+    },
+    {
+     "text": "upstairs.",
+     "highlight": false,
+     "start": 47.364,
+     "end": 47.878
+    },
+    {
+     "text": "And",
+     "highlight": false,
+     "start": 48.32,
+     "end": 48.462
+    },
+    {
+     "text": "smiled",
+     "highlight": false,
+     "start": 48.55,
+     "end": 48.869
+    },
+    {
+     "text": "at",
+     "highlight": false,
+     "start": 48.904,
+     "end": 48.957
+    },
+    {
+     "text": "his",
+     "highlight": false,
+     "start": 48.993,
+     "end": 49.117
+    },
+    {
+     "text": "wife.",
+     "highlight": true,
+     "start": 49.17,
+     "end": 49.471
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "Husband climbing the steps, the wife's silhouette in the lamp-lit door",
+   "notes": "Tension."
+  },
+  {
+   "id": 11,
+   "start": 49.949,
+   "end": 54.431,
+   "act": 1,
+   "set": "house",
+   "owner": "H",
+   "framing": "Wide, the canal at night, a figure running",
+   "camera": "Slow pull-back",
+   "vo": "That night, he told her he was going to the toilet. And he ran.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "That",
+     "highlight": false,
+     "start": 50.302,
+     "end": 50.497
+    },
+    {
+     "text": "night,",
+     "highlight": false,
+     "start": 50.55,
+     "end": 50.833
+    },
+    {
+     "text": "he",
+     "highlight": false,
+     "start": 51.099,
+     "end": 51.222
+    },
+    {
+     "text": "told",
+     "highlight": false,
+     "start": 51.276,
+     "end": 51.488
+    },
+    {
+     "text": "her",
+     "highlight": false,
+     "start": 51.541,
+     "end": 51.683
+    },
+    {
+     "text": "he",
+     "highlight": false,
+     "start": 51.753,
+     "end": 51.824
+    },
+    {
+     "text": "was",
+     "highlight": false,
+     "start": 51.86,
+     "end": 51.984
+    },
+    {
+     "text": "going",
+     "highlight": false,
+     "start": 52.037,
+     "end": 52.249
+    },
+    {
+     "text": "to",
+     "highlight": false,
+     "start": 52.284,
+     "end": 52.355
+    },
+    {
+     "text": "the",
+     "highlight": false,
+     "start": 52.391,
+     "end": 52.444
+    },
+    {
+     "text": "toilet.",
+     "highlight": false,
+     "start": 52.514,
+     "end": 52.886
+    },
+    {
+     "text": "And",
+     "highlight": false,
+     "start": 53.293,
+     "end": 53.399
+    },
+    {
+     "text": "he",
+     "highlight": false,
+     "start": 53.453,
+     "end": 53.576
+    },
+    {
+     "text": "ran.",
+     "highlight": true,
+     "start": 53.647,
+     "end": 53.948
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "Tiny figure running along the canal bank away from the house; the window lamp still on",
+   "notes": "Moonlight."
+  },
+  {
+   "id": 12,
+   "start": 54.431,
+   "end": 58.463,
+   "act": 1,
+   "set": "close",
+   "owner": "C",
+   "framing": "Close, the lamp in the window",
+   "camera": "Very slow push",
+   "vo": "They say she's still waiting by the lamp. For him to come back.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "They",
+     "highlight": false,
+     "start": 54.784,
+     "end": 54.926
+    },
+    {
+     "text": "say",
+     "highlight": false,
+     "start": 54.979,
+     "end": 55.156
+    },
+    {
+     "text": "she's",
+     "highlight": false,
+     "start": 55.191,
+     "end": 55.35
+    },
+    {
+     "text": "still",
+     "highlight": false,
+     "start": 55.404,
+     "end": 55.581
+    },
+    {
+     "text": "waiting",
+     "highlight": false,
+     "start": 55.634,
+     "end": 55.899
+    },
+    {
+     "text": "by",
+     "highlight": false,
+     "start": 55.935,
+     "end": 56.023
+    },
+    {
+     "text": "the",
+     "highlight": false,
+     "start": 56.058,
+     "end": 56.112
+    },
+    {
+     "text": "lamp.",
+     "highlight": false,
+     "start": 56.165,
+     "end": 56.448
+    },
+    {
+     "text": "For",
+     "highlight": false,
+     "start": 56.89,
+     "end": 56.979
+    },
+    {
+     "text": "him",
+     "highlight": false,
+     "start": 57.014,
+     "end": 57.156
+    },
+    {
+     "text": "to",
+     "highlight": false,
+     "start": 57.191,
+     "end": 57.262
+    },
+    {
+     "text": "come",
+     "highlight": false,
+     "start": 57.297,
+     "end": 57.439
+    },
+    {
+     "text": "back.",
+     "highlight": true,
+     "start": 57.492,
+     "end": 57.775
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "The oil lamp in the window, a long shadow of hair moving behind it",
+   "notes": "Warm-dark."
+  },
+  {
+   "id": 13,
+   "start": 58.463,
+   "end": 61.263,
+   "act": 1,
+   "set": "graphic",
+   "owner": "G",
+   "framing": "End card",
+   "camera": "Static",
+   "vo": "Would you have run? Comment YES or NO.",
+   "voKind": "onscreen",
+   "speaker": null,
+   "words": [
+    {
+     "text": "Would",
+     "highlight": false,
+     "start": 58.713,
+     "end": 59.013
+    },
+    {
+     "text": "you",
+     "highlight": false,
+     "start": 58.933,
+     "end": 59.233
+    },
+    {
+     "text": "have",
+     "highlight": false,
+     "start": 59.153,
+     "end": 59.453
+    },
+    {
+     "text": "run?",
+     "highlight": false,
+     "start": 59.373,
+     "end": 59.673
+    },
+    {
+     "text": "Comment",
+     "highlight": false,
+     "start": 59.593,
+     "end": 59.893
+    },
+    {
+     "text": "YES",
+     "highlight": true,
+     "start": 59.813,
+     "end": 60.113
+    },
+    {
+     "text": "or",
+     "highlight": false,
+     "start": 60.033,
+     "end": 60.333
+    },
+    {
+     "text": "NO.",
+     "highlight": true,
+     "start": 60.253,
+     "end": 60.553
+    }
+   ],
+   "trans": "cut",
+   "caption": false,
+   "cool": false,
+   "hero": "CTA with a lime and lamp motif",
+   "notes": "No caption (on-screen text)."
+  }
+ ],
+ "audio": true
+}

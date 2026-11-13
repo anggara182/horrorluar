@@ -1,0 +1,1137 @@
+{
+ "id": "EP05",
+ "title": "The Ghost Train",
+ "fps": 30,
+ "width": 1080,
+ "height": 1920,
+ "durationSec": 58.25,
+ "accent": "#ff4d4d",
+ "timingSource": "ai33 eleven_v3 transcript, tempo x1.05",
+ "shots": [
+  {
+   "id": 1,
+   "start": 0.0,
+   "end": 6.802,
+   "act": 1,
+   "set": "platform",
+   "owner": "P",
+   "framing": "Wide, empty platform past midnight",
+   "camera": "Slow push-in",
+   "vo": "In Jakarta, if the last train arrives with every light on… and no sound… don't get on.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "In",
+     "highlight": false,
+     "start": 0.557,
+     "end": 0.614
+    },
+    {
+     "text": "Jakarta,",
+     "highlight": false,
+     "start": 0.671,
+     "end": 1.167
+    },
+    {
+     "text": "if",
+     "highlight": false,
+     "start": 1.814,
+     "end": 1.89
+    },
+    {
+     "text": "the",
+     "highlight": false,
+     "start": 1.948,
+     "end": 2.005
+    },
+    {
+     "text": "last",
+     "highlight": false,
+     "start": 2.043,
+     "end": 2.29
+    },
+    {
+     "text": "train",
+     "highlight": false,
+     "start": 2.367,
+     "end": 2.557
+    },
+    {
+     "text": "arrives",
+     "highlight": false,
+     "start": 2.614,
+     "end": 2.995
+    },
+    {
+     "text": "with",
+     "highlight": false,
+     "start": 3.033,
+     "end": 3.148
+    },
+    {
+     "text": "every",
+     "highlight": false,
+     "start": 3.224,
+     "end": 3.414
+    },
+    {
+     "text": "light",
+     "highlight": false,
+     "start": 3.452,
+     "end": 3.662
+    },
+    {
+     "text": "on…",
+     "highlight": false,
+     "start": 3.737,
+     "end": 4.024
+    },
+    {
+     "text": "and",
+     "highlight": false,
+     "start": 4.386,
+     "end": 4.481
+    },
+    {
+     "text": "no",
+     "highlight": true,
+     "start": 4.538,
+     "end": 4.71
+    },
+    {
+     "text": "sound…",
+     "highlight": true,
+     "start": 4.805,
+     "end": 5.167
+    },
+    {
+     "text": "don't",
+     "highlight": false,
+     "start": 5.681,
+     "end": 5.871
+    },
+    {
+     "text": "get",
+     "highlight": false,
+     "start": 5.91,
+     "end": 6.043
+    },
+    {
+     "text": "on.",
+     "highlight": false,
+     "start": 6.119,
+     "end": 6.31
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "A distant train headlight in the dark tunnel mouth, tracks gleaming",
+   "notes": "Platform, canopy, lamps; LOW detail bg."
+  },
+  {
+   "id": 2,
+   "start": 6.802,
+   "end": 8.922,
+   "act": 1,
+   "set": "graphic",
+   "owner": "G",
+   "framing": "Title card",
+   "camera": "Slow push",
+   "vo": "They call it the ghost train.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "They",
+     "highlight": false,
+     "start": 7.159,
+     "end": 7.35
+    },
+    {
+     "text": "call",
+     "highlight": false,
+     "start": 7.407,
+     "end": 7.559
+    },
+    {
+     "text": "it",
+     "highlight": false,
+     "start": 7.597,
+     "end": 7.692
+    },
+    {
+     "text": "the",
+     "highlight": false,
+     "start": 7.731,
+     "end": 7.807
+    },
+    {
+     "text": "ghost",
+     "highlight": true,
+     "start": 7.845,
+     "end": 8.054
+    },
+    {
+     "text": "train.",
+     "highlight": true,
+     "start": 8.15,
+     "end": 8.435
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "Title 'THE GHOST TRAIN' + 'Kereta Hantu · Jakarta' over a glowing train front",
+   "notes": "Dark tunnel, cold light."
+  },
+  {
+   "id": 3,
+   "start": 8.922,
+   "end": 13.831,
+   "act": 1,
+   "set": "graphic",
+   "owner": "G",
+   "framing": "Departure board insert",
+   "camera": "Slow push",
+   "vo": "It comes after the final departure. A train that isn't on any schedule.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "It",
+     "highlight": false,
+     "start": 9.279,
+     "end": 9.393
+    },
+    {
+     "text": "comes",
+     "highlight": false,
+     "start": 9.451,
+     "end": 9.812
+    },
+    {
+     "text": "after",
+     "highlight": false,
+     "start": 9.908,
+     "end": 10.098
+    },
+    {
+     "text": "the",
+     "highlight": false,
+     "start": 10.136,
+     "end": 10.251
+    },
+    {
+     "text": "final",
+     "highlight": false,
+     "start": 10.308,
+     "end": 10.574
+    },
+    {
+     "text": "departure.",
+     "highlight": false,
+     "start": 10.632,
+     "end": 11.146
+    },
+    {
+     "text": "A",
+     "highlight": false,
+     "start": 11.641,
+     "end": 11.698
+    },
+    {
+     "text": "train",
+     "highlight": false,
+     "start": 11.755,
+     "end": 12.06
+    },
+    {
+     "text": "that",
+     "highlight": false,
+     "start": 12.098,
+     "end": 12.193
+    },
+    {
+     "text": "isn't",
+     "highlight": false,
+     "start": 12.251,
+     "end": 12.441
+    },
+    {
+     "text": "on",
+     "highlight": false,
+     "start": 12.498,
+     "end": 12.612
+    },
+    {
+     "text": "any",
+     "highlight": false,
+     "start": 12.67,
+     "end": 12.803
+    },
+    {
+     "text": "schedule.",
+     "highlight": true,
+     "start": 12.917,
+     "end": 13.336
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "A split-flap / LED departure board: last line flickers to a blank row with a red dot",
+   "notes": "Board fills the frame; text simple."
+  },
+  {
+   "id": 4,
+   "start": 13.831,
+   "end": 19.126,
+   "act": 1,
+   "set": "train",
+   "owner": "T",
+   "framing": "Interior, wide down the carriage",
+   "camera": "Slow dolly forward",
+   "vo": "Inside, the passengers don't move. They're waiting… for one more.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "Inside,",
+     "highlight": false,
+     "start": 14.188,
+     "end": 14.76
+    },
+    {
+     "text": "the",
+     "highlight": false,
+     "start": 15.102,
+     "end": 15.16
+    },
+    {
+     "text": "passengers",
+     "highlight": false,
+     "start": 15.217,
+     "end": 15.674
+    },
+    {
+     "text": "don't",
+     "highlight": false,
+     "start": 15.731,
+     "end": 15.902
+    },
+    {
+     "text": "move.",
+     "highlight": false,
+     "start": 15.96,
+     "end": 16.283
+    },
+    {
+     "text": "They're",
+     "highlight": false,
+     "start": 16.836,
+     "end": 16.988
+    },
+    {
+     "text": "waiting…",
+     "highlight": true,
+     "start": 17.045,
+     "end": 17.388
+    },
+    {
+     "text": "for",
+     "highlight": false,
+     "start": 17.921,
+     "end": 18.036
+    },
+    {
+     "text": "one",
+     "highlight": false,
+     "start": 18.131,
+     "end": 18.264
+    },
+    {
+     "text": "more.",
+     "highlight": false,
+     "start": 18.321,
+     "end": 18.626
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "Rows of identical pale passengers all facing the doors; one empty seat lit",
+   "notes": "Too-bright warm-white interior."
+  },
+  {
+   "id": 5,
+   "start": 19.126,
+   "end": 24.308,
+   "act": 1,
+   "set": "platform",
+   "owner": "P",
+   "framing": "Medium, narrator alone on a bench",
+   "camera": "Locked, slow push",
+   "vo": "I missed the last train home. I sat alone on the platform, past midnight.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "I",
+     "highlight": false,
+     "start": 19.483,
+     "end": 19.54
+    },
+    {
+     "text": "missed",
+     "highlight": false,
+     "start": 19.597,
+     "end": 19.788
+    },
+    {
+     "text": "the",
+     "highlight": false,
+     "start": 19.826,
+     "end": 19.883
+    },
+    {
+     "text": "last",
+     "highlight": false,
+     "start": 19.94,
+     "end": 20.169
+    },
+    {
+     "text": "train",
+     "highlight": false,
+     "start": 20.207,
+     "end": 20.436
+    },
+    {
+     "text": "home.",
+     "highlight": false,
+     "start": 20.474,
+     "end": 20.778
+    },
+    {
+     "text": "I",
+     "highlight": false,
+     "start": 21.197,
+     "end": 21.255
+    },
+    {
+     "text": "sat",
+     "highlight": false,
+     "start": 21.293,
+     "end": 21.426
+    },
+    {
+     "text": "alone",
+     "highlight": false,
+     "start": 21.483,
+     "end": 21.788
+    },
+    {
+     "text": "on",
+     "highlight": false,
+     "start": 21.826,
+     "end": 21.883
+    },
+    {
+     "text": "the",
+     "highlight": false,
+     "start": 21.921,
+     "end": 21.978
+    },
+    {
+     "text": "platform,",
+     "highlight": false,
+     "start": 22.036,
+     "end": 22.569
+    },
+    {
+     "text": "past",
+     "highlight": false,
+     "start": 23.064,
+     "end": 23.35
+    },
+    {
+     "text": "midnight.",
+     "highlight": true,
+     "start": 23.388,
+     "end": 23.826
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "Narrator silhouette with backpack on a bench under one lamp; clock showing 00:40",
+   "notes": "Reuse platform set."
+  },
+  {
+   "id": 6,
+   "start": 24.308,
+   "end": 29.155,
+   "act": 1,
+   "set": "train",
+   "owner": "T",
+   "framing": "Wide, the train gliding in",
+   "camera": "Lateral track with the train",
+   "vo": "Then it came. No horn. No engine. Just lights.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "Then",
+     "highlight": false,
+     "start": 24.665,
+     "end": 24.818
+    },
+    {
+     "text": "it",
+     "highlight": false,
+     "start": 24.856,
+     "end": 24.913
+    },
+    {
+     "text": "came.",
+     "highlight": false,
+     "start": 25.027,
+     "end": 25.37
+    },
+    {
+     "text": "No",
+     "highlight": false,
+     "start": 25.941,
+     "end": 26.094
+    },
+    {
+     "text": "horn.",
+     "highlight": false,
+     "start": 26.189,
+     "end": 26.57
+    },
+    {
+     "text": "No",
+     "highlight": false,
+     "start": 26.989,
+     "end": 27.179
+    },
+    {
+     "text": "engine.",
+     "highlight": false,
+     "start": 27.256,
+     "end": 27.656
+    },
+    {
+     "text": "Just",
+     "highlight": false,
+     "start": 27.998,
+     "end": 28.208
+    },
+    {
+     "text": "lights.",
+     "highlight": true,
+     "start": 28.265,
+     "end": 28.665
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "The bright train sliding into the station, windows glowing, no motion blur needed",
+   "notes": "Light spill washes the platform."
+  },
+  {
+   "id": 7,
+   "start": 29.155,
+   "end": 34.651,
+   "act": 1,
+   "set": "train",
+   "owner": "T",
+   "framing": "Medium, doors opening in front of the narrator",
+   "camera": "Locked",
+   "vo": "The doors opened right in front of me. Warm. Bright. Full of empty seats.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "The",
+     "highlight": false,
+     "start": 29.512,
+     "end": 29.588
+    },
+    {
+     "text": "doors",
+     "highlight": false,
+     "start": 29.645,
+     "end": 29.931
+    },
+    {
+     "text": "opened",
+     "highlight": false,
+     "start": 30.026,
+     "end": 30.274
+    },
+    {
+     "text": "right",
+     "highlight": false,
+     "start": 30.331,
+     "end": 30.465
+    },
+    {
+     "text": "in",
+     "highlight": false,
+     "start": 30.484,
+     "end": 30.598
+    },
+    {
+     "text": "front",
+     "highlight": false,
+     "start": 30.636,
+     "end": 30.788
+    },
+    {
+     "text": "of",
+     "highlight": false,
+     "start": 30.826,
+     "end": 30.922
+    },
+    {
+     "text": "me.",
+     "highlight": false,
+     "start": 30.96,
+     "end": 31.112
+    },
+    {
+     "text": "Warm.",
+     "highlight": false,
+     "start": 31.626,
+     "end": 32.007
+    },
+    {
+     "text": "Bright.",
+     "highlight": false,
+     "start": 32.407,
+     "end": 32.75
+    },
+    {
+     "text": "Full",
+     "highlight": false,
+     "start": 33.188,
+     "end": 33.284
+    },
+    {
+     "text": "of",
+     "highlight": false,
+     "start": 33.341,
+     "end": 33.417
+    },
+    {
+     "text": "empty",
+     "highlight": true,
+     "start": 33.474,
+     "end": 33.684
+    },
+    {
+     "text": "seats.",
+     "highlight": true,
+     "start": 33.798,
+     "end": 34.16
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "Doors sliding open, light pouring out over the narrator's silhouette",
+   "notes": "Strong backlight."
+  },
+  {
+   "id": 8,
+   "start": 34.651,
+   "end": 39.649,
+   "act": 1,
+   "set": "train",
+   "owner": "T",
+   "framing": "Close, the passengers facing out",
+   "camera": "Slow push-in",
+   "vo": "I stepped closer. Every passenger was facing me. None of them blinked.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "I",
+     "highlight": false,
+     "start": 35.008,
+     "end": 35.065
+    },
+    {
+     "text": "stepped",
+     "highlight": false,
+     "start": 35.122,
+     "end": 35.351
+    },
+    {
+     "text": "closer.",
+     "highlight": false,
+     "start": 35.408,
+     "end": 35.789
+    },
+    {
+     "text": "Every",
+     "highlight": false,
+     "start": 36.361,
+     "end": 36.589
+    },
+    {
+     "text": "passenger",
+     "highlight": false,
+     "start": 36.646,
+     "end": 37.065
+    },
+    {
+     "text": "was",
+     "highlight": false,
+     "start": 37.122,
+     "end": 37.237
+    },
+    {
+     "text": "facing",
+     "highlight": false,
+     "start": 37.294,
+     "end": 37.599
+    },
+    {
+     "text": "me.",
+     "highlight": false,
+     "start": 37.656,
+     "end": 37.808
+    },
+    {
+     "text": "None",
+     "highlight": false,
+     "start": 38.341,
+     "end": 38.456
+    },
+    {
+     "text": "of",
+     "highlight": false,
+     "start": 38.513,
+     "end": 38.57
+    },
+    {
+     "text": "them",
+     "highlight": false,
+     "start": 38.608,
+     "end": 38.741
+    },
+    {
+     "text": "blinked.",
+     "highlight": true,
+     "start": 38.799,
+     "end": 39.161
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "A wall of identical pale faces in rows, all eyes on camera",
+   "notes": "Eerie repetition; very slight breathing sway."
+  },
+  {
+   "id": 9,
+   "start": 39.649,
+   "end": 42.673,
+   "act": 1,
+   "set": "platform",
+   "owner": "P",
+   "framing": "Medium, guard pulling the narrator back",
+   "camera": "Quick jolt then locked",
+   "vo": "A guard grabbed my shoulder and pulled me back.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "A",
+     "highlight": false,
+     "start": 40.006,
+     "end": 40.044
+    },
+    {
+     "text": "guard",
+     "highlight": false,
+     "start": 40.139,
+     "end": 40.425
+    },
+    {
+     "text": "grabbed",
+     "highlight": false,
+     "start": 40.52,
+     "end": 40.806
+    },
+    {
+     "text": "my",
+     "highlight": false,
+     "start": 40.844,
+     "end": 40.978
+    },
+    {
+     "text": "shoulder",
+     "highlight": false,
+     "start": 41.016,
+     "end": 41.359
+    },
+    {
+     "text": "and",
+     "highlight": false,
+     "start": 41.397,
+     "end": 41.473
+    },
+    {
+     "text": "pulled",
+     "highlight": false,
+     "start": 41.549,
+     "end": 41.72
+    },
+    {
+     "text": "me",
+     "highlight": false,
+     "start": 41.759,
+     "end": 41.854
+    },
+    {
+     "text": "back.",
+     "highlight": true,
+     "start": 41.892,
+     "end": 42.178
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "Guard's gloved hand on the narrator's shoulder, cap silhouette, vest stripe catching light",
+   "notes": "Train light on one side."
+  },
+  {
+   "id": 10,
+   "start": 42.673,
+   "end": 44.44,
+   "act": 1,
+   "set": "platform",
+   "owner": "P",
+   "framing": "Close on the guard, half in shadow",
+   "camera": "Locked",
+   "vo": "That's not ours.",
+   "voKind": "narration",
+   "speaker": "guard",
+   "words": [
+    {
+     "text": "That's",
+     "highlight": false,
+     "start": 43.03,
+     "end": 43.259
+    },
+    {
+     "text": "not",
+     "highlight": false,
+     "start": 43.316,
+     "end": 43.468
+    },
+    {
+     "text": "ours.",
+     "highlight": true,
+     "start": 43.525,
+     "end": 43.944
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "Guard's cap and jaw in profile, face in shadow, reflective stripe",
+   "notes": "Hard light from the train."
+  },
+  {
+   "id": 11,
+   "start": 44.44,
+   "end": 49.484,
+   "act": 1,
+   "set": "train",
+   "owner": "T",
+   "framing": "Wide, the train leaving into the dark",
+   "camera": "Slow pull-back",
+   "vo": "The doors closed. The train slid into the dark… without a sound.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "The",
+     "highlight": false,
+     "start": 44.797,
+     "end": 44.835
+    },
+    {
+     "text": "doors",
+     "highlight": false,
+     "start": 44.911,
+     "end": 45.216
+    },
+    {
+     "text": "closed.",
+     "highlight": false,
+     "start": 45.33,
+     "end": 45.826
+    },
+    {
+     "text": "The",
+     "highlight": false,
+     "start": 46.226,
+     "end": 46.321
+    },
+    {
+     "text": "train",
+     "highlight": false,
+     "start": 46.378,
+     "end": 46.664
+    },
+    {
+     "text": "slid",
+     "highlight": false,
+     "start": 46.797,
+     "end": 47.007
+    },
+    {
+     "text": "into",
+     "highlight": false,
+     "start": 47.064,
+     "end": 47.216
+    },
+    {
+     "text": "the",
+     "highlight": false,
+     "start": 47.254,
+     "end": 47.33
+    },
+    {
+     "text": "dark…",
+     "highlight": false,
+     "start": 47.388,
+     "end": 47.692
+    },
+    {
+     "text": "without",
+     "highlight": false,
+     "start": 48.13,
+     "end": 48.396
+    },
+    {
+     "text": "a",
+     "highlight": false,
+     "start": 48.454,
+     "end": 48.511
+    },
+    {
+     "text": "sound.",
+     "highlight": true,
+     "start": 48.588,
+     "end": 48.988
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "Tail of the bright train disappearing into the tunnel",
+   "notes": "Platform dims as it leaves."
+  },
+  {
+   "id": 12,
+   "start": 49.484,
+   "end": 55.45,
+   "act": 1,
+   "set": "platform",
+   "owner": "P",
+   "framing": "Wide, empty platform",
+   "camera": "Slow push",
+   "vo": "I turned to thank him. The platform was empty. There was no guard on shift that night.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "I",
+     "highlight": false,
+     "start": 49.841,
+     "end": 49.898
+    },
+    {
+     "text": "turned",
+     "highlight": false,
+     "start": 49.955,
+     "end": 50.26
+    },
+    {
+     "text": "to",
+     "highlight": false,
+     "start": 50.298,
+     "end": 50.394
+    },
+    {
+     "text": "thank",
+     "highlight": false,
+     "start": 50.432,
+     "end": 50.66
+    },
+    {
+     "text": "him.",
+     "highlight": false,
+     "start": 50.679,
+     "end": 50.87
+    },
+    {
+     "text": "The",
+     "highlight": false,
+     "start": 51.365,
+     "end": 51.441
+    },
+    {
+     "text": "platform",
+     "highlight": false,
+     "start": 51.479,
+     "end": 51.936
+    },
+    {
+     "text": "was",
+     "highlight": false,
+     "start": 51.974,
+     "end": 52.108
+    },
+    {
+     "text": "empty.",
+     "highlight": false,
+     "start": 52.165,
+     "end": 52.508
+    },
+    {
+     "text": "There",
+     "highlight": false,
+     "start": 52.927,
+     "end": 53.041
+    },
+    {
+     "text": "was",
+     "highlight": false,
+     "start": 53.079,
+     "end": 53.194
+    },
+    {
+     "text": "no",
+     "highlight": false,
+     "start": 53.251,
+     "end": 53.441
+    },
+    {
+     "text": "guard",
+     "highlight": false,
+     "start": 53.498,
+     "end": 53.765
+    },
+    {
+     "text": "on",
+     "highlight": false,
+     "start": 53.803,
+     "end": 53.936
+    },
+    {
+     "text": "shift",
+     "highlight": false,
+     "start": 53.994,
+     "end": 54.241
+    },
+    {
+     "text": "that",
+     "highlight": false,
+     "start": 54.298,
+     "end": 54.432
+    },
+    {
+     "text": "night.",
+     "highlight": true,
+     "start": 54.489,
+     "end": 54.755
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "Empty platform; on the bench, a guard's cap left behind",
+   "notes": "Cold, quiet."
+  },
+  {
+   "id": 13,
+   "start": 55.45,
+   "end": 58.25,
+   "act": 1,
+   "set": "graphic",
+   "owner": "G",
+   "framing": "End card",
+   "camera": "Static",
+   "vo": "Would you get on? Comment YES or NO.",
+   "voKind": "onscreen",
+   "speaker": null,
+   "words": [
+    {
+     "text": "Would",
+     "highlight": false,
+     "start": 55.7,
+     "end": 56.0
+    },
+    {
+     "text": "you",
+     "highlight": false,
+     "start": 55.92,
+     "end": 56.22
+    },
+    {
+     "text": "get",
+     "highlight": false,
+     "start": 56.14,
+     "end": 56.44
+    },
+    {
+     "text": "on?",
+     "highlight": true,
+     "start": 56.36,
+     "end": 56.66
+    },
+    {
+     "text": "Comment",
+     "highlight": false,
+     "start": 56.58,
+     "end": 56.88
+    },
+    {
+     "text": "YES",
+     "highlight": true,
+     "start": 56.8,
+     "end": 57.1
+    },
+    {
+     "text": "or",
+     "highlight": false,
+     "start": 57.02,
+     "end": 57.32
+    },
+    {
+     "text": "NO.",
+     "highlight": true,
+     "start": 57.24,
+     "end": 57.54
+    }
+   ],
+   "trans": "cut",
+   "caption": false,
+   "cool": false,
+   "hero": "CTA with a red signal light motif",
+   "notes": "No caption (on-screen text)."
+  }
+ ],
+ "audio": true
+}

@@ -1,0 +1,1000 @@
+{
+ "id": "EP02",
+ "title": "Nyi Roro Kidul",
+ "fps": 30,
+ "width": 1080,
+ "height": 1920,
+ "durationSec": 53.324,
+ "timingSource": "ai33 eleven_v3 TTS transcript, tempo x1.03",
+ "acts": [
+  {
+   "id": 1,
+   "name": "Hook",
+   "tint": "#5f8fa3"
+  },
+  {
+   "id": 2,
+   "name": "The Legend",
+   "tint": "#6fb39a"
+  },
+  {
+   "id": 3,
+   "name": "The Bag",
+   "tint": "#d39a52"
+  },
+  {
+   "id": 4,
+   "name": "The Shore",
+   "tint": "#4f7d6c"
+  },
+  {
+   "id": 5,
+   "name": "The Twist",
+   "tint": "#3fae78"
+  },
+  {
+   "id": 6,
+   "name": "Loop & CTA",
+   "tint": "#c45a3c"
+  }
+ ],
+ "shots": [
+  {
+   "id": 1,
+   "start": 0.0,
+   "end": 3.612,
+   "act": 1,
+   "set": "A Beach",
+   "framing": "Wide (style frame)",
+   "camera": "Slow push-in, parallax",
+   "vo": "On Java's southern coast, there's one rule.",
+   "speaker": null,
+   "voKind": "narration",
+   "words": [
+    {
+     "text": "On",
+     "highlight": false,
+     "start": 0.658,
+     "end": 0.755
+    },
+    {
+     "text": "Java's",
+     "highlight": false,
+     "start": 0.852,
+     "end": 1.241
+    },
+    {
+     "text": "southern",
+     "highlight": false,
+     "start": 1.28,
+     "end": 1.532
+    },
+    {
+     "text": "coast,",
+     "highlight": false,
+     "start": 1.629,
+     "end": 2.037
+    },
+    {
+     "text": "there's",
+     "highlight": false,
+     "start": 2.328,
+     "end": 2.561
+    },
+    {
+     "text": "one",
+     "highlight": false,
+     "start": 2.619,
+     "end": 2.755
+    },
+    {
+     "text": "rule.",
+     "highlight": true,
+     "start": 2.872,
+     "end": 3.124
+    }
+   ],
+   "sfx": "Surf, wind, gulls",
+   "notes": "Existing style frame composition."
+  },
+  {
+   "id": 2,
+   "start": 3.612,
+   "end": 5.366,
+   "act": 1,
+   "set": "E Graphic",
+   "framing": "Title hit",
+   "camera": "Green fabric whips across frame, hard stop",
+   "vo": "Never wear green.",
+   "speaker": null,
+   "voKind": "narration",
+   "words": [
+    {
+     "text": "Never",
+     "highlight": false,
+     "start": 3.82,
+     "end": 4.014
+    },
+    {
+     "text": "wear",
+     "highlight": false,
+     "start": 4.092,
+     "end": 4.228
+    },
+    {
+     "text": "green.",
+     "highlight": true,
+     "start": 4.325,
+     "end": 4.675
+    }
+   ],
+   "sfx": "Deep wave boom + whoosh",
+   "notes": "Green silk sweeps in, text slams; color flash green."
+  },
+  {
+   "id": 3,
+   "start": 5.366,
+   "end": 10.335,
+   "act": 2,
+   "set": "A Beach",
+   "framing": "Wide, tilt down from sky",
+   "camera": "Tilt down + slow push",
+   "vo": "The sea belongs to Nyi Roro Kidul, Queen of the Southern Sea.",
+   "speaker": null,
+   "voKind": "narration",
+   "words": [
+    {
+     "text": "The",
+     "highlight": false,
+     "start": 5.924,
+     "end": 6.041
+    },
+    {
+     "text": "sea",
+     "highlight": false,
+     "start": 6.06,
+     "end": 6.332
+    },
+    {
+     "text": "belongs",
+     "highlight": false,
+     "start": 6.41,
+     "end": 6.856
+    },
+    {
+     "text": "to",
+     "highlight": false,
+     "start": 6.915,
+     "end": 7.012
+    },
+    {
+     "text": "Nyi",
+     "highlight": true,
+     "start": 7.07,
+     "end": 7.245
+    },
+    {
+     "text": "Roro",
+     "highlight": false,
+     "start": 7.322,
+     "end": 7.594
+    },
+    {
+     "text": "Kidul,",
+     "highlight": true,
+     "start": 7.672,
+     "end": 8.08
+    },
+    {
+     "text": "Queen",
+     "highlight": false,
+     "start": 8.584,
+     "end": 8.876
+    },
+    {
+     "text": "of",
+     "highlight": false,
+     "start": 8.915,
+     "end": 8.973
+    },
+    {
+     "text": "the",
+     "highlight": false,
+     "start": 9.012,
+     "end": 9.07
+    },
+    {
+     "text": "Southern",
+     "highlight": false,
+     "start": 9.148,
+     "end": 9.419
+    },
+    {
+     "text": "Sea.",
+     "highlight": false,
+     "start": 9.554,
+     "end": 9.788
+    }
+   ],
+   "sfx": "Low choir pad, gamelan gong",
+   "notes": "Title card NYI RORO KIDUL. A breaking wave crest reads faintly as a crowned figure."
+  },
+  {
+   "id": 4,
+   "start": 10.335,
+   "end": 14.427,
+   "act": 2,
+   "set": "B Shore close",
+   "framing": "Insert, underwater/surface",
+   "camera": "Slow drift, light caustics",
+   "vo": "Green is her color. Wear it, and she thinks you're calling her.",
+   "speaker": null,
+   "voKind": "narration",
+   "words": [
+    {
+     "text": "Green",
+     "highlight": true,
+     "start": 10.693,
+     "end": 11.082
+    },
+    {
+     "text": "is",
+     "highlight": false,
+     "start": 11.12,
+     "end": 11.237
+    },
+    {
+     "text": "her",
+     "highlight": false,
+     "start": 11.276,
+     "end": 11.412
+    },
+    {
+     "text": "color.",
+     "highlight": false,
+     "start": 11.47,
+     "end": 11.781
+    },
+    {
+     "text": "Wear",
+     "highlight": false,
+     "start": 12.285,
+     "end": 12.46
+    },
+    {
+     "text": "it,",
+     "highlight": false,
+     "start": 12.499,
+     "end": 12.577
+    },
+    {
+     "text": "and",
+     "highlight": false,
+     "start": 12.616,
+     "end": 12.713
+    },
+    {
+     "text": "she",
+     "highlight": false,
+     "start": 12.752,
+     "end": 12.887
+    },
+    {
+     "text": "thinks",
+     "highlight": false,
+     "start": 12.926,
+     "end": 13.14
+    },
+    {
+     "text": "you're",
+     "highlight": false,
+     "start": 13.179,
+     "end": 13.295
+    },
+    {
+     "text": "calling",
+     "highlight": true,
+     "start": 13.353,
+     "end": 13.645
+    },
+    {
+     "text": "her.",
+     "highlight": false,
+     "start": 13.703,
+     "end": 13.936
+    }
+   ],
+   "sfx": "Underwater muffle, bubbles",
+   "notes": "Green selendang floating, rippling in the surf."
+  },
+  {
+   "id": 5,
+   "start": 14.427,
+   "end": 17.945,
+   "act": 2,
+   "set": "A Beach",
+   "framing": "Telephoto on headland",
+   "camera": "Slow push to the hotel",
+   "vo": "A hotel by that beach still keeps one room for her.",
+   "speaker": null,
+   "voKind": "narration",
+   "words": [
+    {
+     "text": "A",
+     "highlight": false,
+     "start": 14.785,
+     "end": 14.863
+    },
+    {
+     "text": "hotel",
+     "highlight": false,
+     "start": 14.902,
+     "end": 15.387
+    },
+    {
+     "text": "by",
+     "highlight": false,
+     "start": 15.426,
+     "end": 15.543
+    },
+    {
+     "text": "that",
+     "highlight": false,
+     "start": 15.601,
+     "end": 15.756
+    },
+    {
+     "text": "beach",
+     "highlight": false,
+     "start": 15.795,
+     "end": 16.086
+    },
+    {
+     "text": "still",
+     "highlight": false,
+     "start": 16.164,
+     "end": 16.377
+    },
+    {
+     "text": "keeps",
+     "highlight": false,
+     "start": 16.416,
+     "end": 16.669
+    },
+    {
+     "text": "one",
+     "highlight": false,
+     "start": 16.746,
+     "end": 16.882
+    },
+    {
+     "text": "room",
+     "highlight": false,
+     "start": 16.941,
+     "end": 17.135
+    },
+    {
+     "text": "for",
+     "highlight": false,
+     "start": 17.193,
+     "end": 17.271
+    },
+    {
+     "text": "her.",
+     "highlight": false,
+     "start": 17.329,
+     "end": 17.504
+    }
+   ],
+   "sfx": "Distant surf, wind",
+   "notes": "Push toward the lit green window on the top floor."
+  },
+  {
+   "id": 6,
+   "start": 17.945,
+   "end": 20.201,
+   "act": 2,
+   "set": "D Corridor",
+   "framing": "Medium, one-point perspective",
+   "camera": "Slow dolly toward door",
+   "vo": "Room 308.",
+   "speaker": null,
+   "voKind": "narration",
+   "words": [
+    {
+     "text": "Room",
+     "highlight": false,
+     "start": 18.253,
+     "end": 18.525
+    },
+    {
+     "text": "308.",
+     "highlight": true,
+     "start": 18.661,
+     "end": 19.457
+    }
+   ],
+   "sfx": "Hotel corridor hum, faint waves behind the door",
+   "notes": "Door 308, green light spilling under it."
+  },
+  {
+   "id": 7,
+   "start": 20.201,
+   "end": 22.679,
+   "act": 3,
+   "set": "C Bedroom",
+   "framing": "Top-down",
+   "camera": "Locked, hands move in",
+   "vo": "My mother packed my bag herself.",
+   "speaker": null,
+   "voKind": "narration",
+   "words": [
+    {
+     "text": "My",
+     "highlight": false,
+     "start": 20.659,
+     "end": 20.776
+    },
+    {
+     "text": "mother",
+     "highlight": false,
+     "start": 20.815,
+     "end": 21.009
+    },
+    {
+     "text": "packed",
+     "highlight": false,
+     "start": 21.086,
+     "end": 21.3
+    },
+    {
+     "text": "my",
+     "highlight": false,
+     "start": 21.339,
+     "end": 21.436
+    },
+    {
+     "text": "bag",
+     "highlight": false,
+     "start": 21.494,
+     "end": 21.669
+    },
+    {
+     "text": "herself.",
+     "highlight": true,
+     "start": 21.708,
+     "end": 22.232
+    }
+   ],
+   "sfx": "Zipper, fabric folding, clock tick",
+   "notes": "Open suitcase, white clothes, mother's hands only."
+  },
+  {
+   "id": 8,
+   "start": 22.679,
+   "end": 25.87,
+   "act": 3,
+   "set": "C Bedroom",
+   "framing": "Insert, top-down",
+   "camera": "Hands pull out a green scarf, set it aside",
+   "vo": "No green. She checked twice.",
+   "speaker": null,
+   "voKind": "narration",
+   "words": [
+    {
+     "text": "No",
+     "highlight": false,
+     "start": 22.987,
+     "end": 23.162
+    },
+    {
+     "text": "green.",
+     "highlight": false,
+     "start": 23.298,
+     "end": 23.647
+    },
+    {
+     "text": "She",
+     "highlight": false,
+     "start": 24.191,
+     "end": 24.346
+    },
+    {
+     "text": "checked",
+     "highlight": false,
+     "start": 24.405,
+     "end": 24.715
+    },
+    {
+     "text": "twice.",
+     "highlight": true,
+     "start": 24.774,
+     "end": 25.22
+    }
+   ],
+   "sfx": "Fabric pull, soft thud",
+   "notes": "A tick-list on paper; green scarf removed."
+  },
+  {
+   "id": 9,
+   "start": 25.87,
+   "end": 29.868,
+   "act": 4,
+   "set": "A Beach",
+   "framing": "Wide, low sun",
+   "camera": "Slow pull-back revealing exposed sand",
+   "vo": "At sunset, the sea pulled back. Far back.",
+   "speaker": null,
+   "voKind": "narration",
+   "words": [
+    {
+     "text": "At",
+     "highlight": false,
+     "start": 26.278,
+     "end": 26.395
+    },
+    {
+     "text": "sunset,",
+     "highlight": false,
+     "start": 26.453,
+     "end": 26.977
+    },
+    {
+     "text": "the",
+     "highlight": false,
+     "start": 27.288,
+     "end": 27.404
+    },
+    {
+     "text": "sea",
+     "highlight": false,
+     "start": 27.463,
+     "end": 27.618
+    },
+    {
+     "text": "pulled",
+     "highlight": false,
+     "start": 27.696,
+     "end": 27.909
+    },
+    {
+     "text": "back.",
+     "highlight": false,
+     "start": 27.987,
+     "end": 28.239
+    },
+    {
+     "text": "Far",
+     "highlight": true,
+     "start": 28.744,
+     "end": 28.958
+    },
+    {
+     "text": "back.",
+     "highlight": false,
+     "start": 29.055,
+     "end": 29.327
+    }
+   ],
+   "sfx": "Water draining, surf goes quiet",
+   "notes": "Waterline far out, wet flats shining."
+  },
+  {
+   "id": 10,
+   "start": 29.868,
+   "end": 31.7,
+   "act": 4,
+   "set": "A Beach",
+   "framing": "Medium, crowd silhouettes",
+   "camera": "Lateral track",
+   "vo": "Everyone took photos.",
+   "speaker": null,
+   "voKind": "narration",
+   "words": [
+    {
+     "text": "Everyone",
+     "highlight": false,
+     "start": 30.126,
+     "end": 30.495
+    },
+    {
+     "text": "took",
+     "highlight": false,
+     "start": 30.573,
+     "end": 30.709
+    },
+    {
+     "text": "photos.",
+     "highlight": true,
+     "start": 30.767,
+     "end": 31.252
+    }
+   ],
+   "sfx": "Shutter clicks, murmurs",
+   "notes": "Silhouettes with glowing phone screens."
+  },
+  {
+   "id": 11,
+   "start": 31.7,
+   "end": 33.217,
+   "act": 4,
+   "set": "A Beach",
+   "framing": "Tracking behind girl",
+   "camera": "Follow from behind",
+   "vo": "I walked closer.",
+   "speaker": null,
+   "voKind": "narration",
+   "words": [
+    {
+     "text": "I",
+     "highlight": false,
+     "start": 31.908,
+     "end": 31.967
+    },
+    {
+     "text": "walked",
+     "highlight": false,
+     "start": 32.005,
+     "end": 32.258
+    },
+    {
+     "text": "closer.",
+     "highlight": true,
+     "start": 32.316,
+     "end": 32.724
+    }
+   ],
+   "sfx": "Footsteps on wet sand",
+   "notes": "Girl in white dress walking toward the far waterline."
+  },
+  {
+   "id": 12,
+   "start": 33.217,
+   "end": 36.607,
+   "act": 4,
+   "set": "B Shore close",
+   "framing": "Close-up, feet",
+   "camera": "Low angle, foam slides in",
+   "vo": "A wave touched my feet. Just foam.",
+   "speaker": null,
+   "voKind": "narration",
+   "words": [
+    {
+     "text": "A",
+     "highlight": false,
+     "start": 33.575,
+     "end": 33.634
+    },
+    {
+     "text": "wave",
+     "highlight": false,
+     "start": 33.692,
+     "end": 33.944
+    },
+    {
+     "text": "touched",
+     "highlight": false,
+     "start": 34.041,
+     "end": 34.274
+    },
+    {
+     "text": "my",
+     "highlight": false,
+     "start": 34.313,
+     "end": 34.468
+    },
+    {
+     "text": "feet.",
+     "highlight": false,
+     "start": 34.527,
+     "end": 34.799
+    },
+    {
+     "text": "Just",
+     "highlight": false,
+     "start": 35.362,
+     "end": 35.653
+    },
+    {
+     "text": "foam.",
+     "highlight": true,
+     "start": 35.731,
+     "end": 36.119
+    }
+   ],
+   "sfx": "Gentle foam wash",
+   "notes": "Bare feet, ankle, foam over toes."
+  },
+  {
+   "id": 13,
+   "start": 36.607,
+   "end": 38.066,
+   "act": 4,
+   "set": "A Beach",
+   "framing": "Medium from behind",
+   "camera": "Slight handheld",
+   "vo": "I laughed.",
+   "speaker": null,
+   "voKind": "narration",
+   "words": [
+    {
+     "text": "I",
+     "highlight": false,
+     "start": 36.765,
+     "end": 36.824
+    },
+    {
+     "text": "laughed.",
+     "highlight": true,
+     "start": 36.882,
+     "end": 37.328
+    }
+   ],
+   "sfx": "Short girl laugh, surf",
+   "notes": "Shoulders shake; sky glow."
+  },
+  {
+   "id": 14,
+   "start": 38.066,
+   "end": 45.051,
+   "act": 5,
+   "set": "B Shore close",
+   "framing": "Tilt down to hem, extreme close-up",
+   "camera": "Tilt down, then locked as green climbs",
+   "vo": "Then I looked down. My white dress… was turning green. From the hem up.",
+   "speaker": null,
+   "voKind": "narration",
+   "words": [
+    {
+     "text": "Then",
+     "highlight": false,
+     "start": 38.524,
+     "end": 38.816
+    },
+    {
+     "text": "I",
+     "highlight": false,
+     "start": 39.029,
+     "end": 39.087
+    },
+    {
+     "text": "looked",
+     "highlight": false,
+     "start": 39.146,
+     "end": 39.417
+    },
+    {
+     "text": "down.",
+     "highlight": false,
+     "start": 39.495,
+     "end": 39.864
+    },
+    {
+     "text": "My",
+     "highlight": false,
+     "start": 40.388,
+     "end": 40.583
+    },
+    {
+     "text": "white",
+     "highlight": false,
+     "start": 40.621,
+     "end": 40.893
+    },
+    {
+     "text": "dress…",
+     "highlight": false,
+     "start": 40.951,
+     "end": 41.379
+    },
+    {
+     "text": "was",
+     "highlight": false,
+     "start": 41.709,
+     "end": 41.864
+    },
+    {
+     "text": "turning",
+     "highlight": false,
+     "start": 41.942,
+     "end": 42.272
+    },
+    {
+     "text": "green.",
+     "highlight": true,
+     "start": 42.349,
+     "end": 42.738
+    },
+    {
+     "text": "From",
+     "highlight": false,
+     "start": 43.301,
+     "end": 43.417
+    },
+    {
+     "text": "the",
+     "highlight": false,
+     "start": 43.476,
+     "end": 43.553
+    },
+    {
+     "text": "hem",
+     "highlight": false,
+     "start": 43.631,
+     "end": 43.981
+    },
+    {
+     "text": "up.",
+     "highlight": true,
+     "start": 44.116,
+     "end": 44.311
+    }
+   ],
+   "sfx": "Riser, drone swell, water hiss",
+   "notes": "Green dye climbing the white fabric from the hem upward."
+  },
+  {
+   "id": 15,
+   "start": 45.051,
+   "end": 47.418,
+   "act": 6,
+   "set": "A Beach",
+   "framing": "Wide, she is alone",
+   "camera": "Slow pull-back, crowd gone",
+   "vo": "She doesn't wait for you to wear it.",
+   "speaker": null,
+   "voKind": "narration",
+   "words": [
+    {
+     "text": "She",
+     "highlight": false,
+     "start": 45.509,
+     "end": 45.606
+    },
+    {
+     "text": "doesn't",
+     "highlight": false,
+     "start": 45.626,
+     "end": 45.898
+    },
+    {
+     "text": "wait",
+     "highlight": false,
+     "start": 45.936,
+     "end": 46.131
+    },
+    {
+     "text": "for",
+     "highlight": false,
+     "start": 46.169,
+     "end": 46.267
+    },
+    {
+     "text": "you",
+     "highlight": false,
+     "start": 46.305,
+     "end": 46.383
+    },
+    {
+     "text": "to",
+     "highlight": false,
+     "start": 46.402,
+     "end": 46.48
+    },
+    {
+     "text": "wear",
+     "highlight": true,
+     "start": 46.519,
+     "end": 46.713
+    },
+    {
+     "text": "it.",
+     "highlight": false,
+     "start": 46.771,
+     "end": 46.927
+    }
+   ],
+   "sfx": "Surf returns low, wind, distant gong",
+   "notes": "Sea rising toward her; green glow beneath the waves."
+  },
+  {
+   "id": 16,
+   "start": 47.418,
+   "end": 50.724,
+   "act": 6,
+   "set": "E Graphic",
+   "framing": "POV to camera",
+   "camera": "Push into dark water, green glow rises",
+   "vo": "Look at what you're wearing… right now.",
+   "speaker": null,
+   "voKind": "narration",
+   "words": [
+    {
+     "text": "Look",
+     "highlight": false,
+     "start": 47.826,
+     "end": 47.943
+    },
+    {
+     "text": "at",
+     "highlight": false,
+     "start": 47.982,
+     "end": 48.04
+    },
+    {
+     "text": "what",
+     "highlight": false,
+     "start": 48.079,
+     "end": 48.176
+    },
+    {
+     "text": "you're",
+     "highlight": false,
+     "start": 48.215,
+     "end": 48.351
+    },
+    {
+     "text": "wearing…",
+     "highlight": false,
+     "start": 48.409,
+     "end": 48.797
+    },
+    {
+     "text": "right",
+     "highlight": false,
+     "start": 49.302,
+     "end": 49.477
+    },
+    {
+     "text": "now.",
+     "highlight": true,
+     "start": 49.554,
+     "end": 49.865
+    }
+   ],
+   "sfx": "Underwater rumble, heartbeat",
+   "notes": "Green light swells toward the lens."
+  },
+  {
+   "id": 17,
+   "start": 50.724,
+   "end": 53.324,
+   "act": 6,
+   "set": "E Graphic",
+   "framing": "End card",
+   "camera": "Static",
+   "vo": "Comment your shirt color.",
+   "speaker": null,
+   "voKind": "onscreen",
+   "words": [
+    {
+     "text": "Comment",
+     "highlight": false,
+     "start": 50.974,
+     "end": 51.274
+    },
+    {
+     "text": "your",
+     "highlight": false,
+     "start": 51.274,
+     "end": 51.574
+    },
+    {
+     "text": "shirt",
+     "highlight": true,
+     "start": 51.574,
+     "end": 51.874
+    },
+    {
+     "text": "color.",
+     "highlight": true,
+     "start": 51.874,
+     "end": 52.174
+    }
+   ],
+   "sfx": "Single gong",
+   "notes": "CTA in green."
+  }
+ ],
+ "audio": true
+}

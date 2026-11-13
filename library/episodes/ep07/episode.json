@@ -1,0 +1,1137 @@
+{
+ "id": "EP07",
+ "title": "Kuchisake-onna",
+ "fps": 30,
+ "width": 1080,
+ "height": 1920,
+ "durationSec": 58.89,
+ "accent": "#ff6b8a",
+ "timingSource": "ai33 eleven_v3 transcript, tempo x1.05",
+ "shots": [
+  {
+   "id": 1,
+   "start": 0.0,
+   "end": 7.29,
+   "act": 1,
+   "set": "street",
+   "owner": "S",
+   "framing": "Wide, empty street, one streetlight, a tall figure under it",
+   "camera": "Slow push-in",
+   "vo": "In Japan, if a woman in a mask stops you at night and asks if she's pretty… don't say yes. Or no.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "In",
+     "highlight": false,
+     "start": 0.557,
+     "end": 0.652
+    },
+    {
+     "text": "Japan,",
+     "highlight": false,
+     "start": 0.69,
+     "end": 1.186
+    },
+    {
+     "text": "if",
+     "highlight": false,
+     "start": 1.586,
+     "end": 1.643
+    },
+    {
+     "text": "a",
+     "highlight": false,
+     "start": 1.719,
+     "end": 1.757
+    },
+    {
+     "text": "woman",
+     "highlight": false,
+     "start": 1.814,
+     "end": 2.043
+    },
+    {
+     "text": "in",
+     "highlight": false,
+     "start": 2.081,
+     "end": 2.138
+    },
+    {
+     "text": "a",
+     "highlight": false,
+     "start": 2.195,
+     "end": 2.252
+    },
+    {
+     "text": "mask",
+     "highlight": false,
+     "start": 2.31,
+     "end": 2.69
+    },
+    {
+     "text": "stops",
+     "highlight": false,
+     "start": 2.767,
+     "end": 3.014
+    },
+    {
+     "text": "you",
+     "highlight": false,
+     "start": 3.052,
+     "end": 3.11
+    },
+    {
+     "text": "at",
+     "highlight": false,
+     "start": 3.148,
+     "end": 3.243
+    },
+    {
+     "text": "night",
+     "highlight": false,
+     "start": 3.3,
+     "end": 3.567
+    },
+    {
+     "text": "and",
+     "highlight": false,
+     "start": 3.605,
+     "end": 3.7
+    },
+    {
+     "text": "asks",
+     "highlight": false,
+     "start": 3.776,
+     "end": 4.005
+    },
+    {
+     "text": "if",
+     "highlight": false,
+     "start": 4.043,
+     "end": 4.119
+    },
+    {
+     "text": "she's",
+     "highlight": false,
+     "start": 4.157,
+     "end": 4.329
+    },
+    {
+     "text": "pretty…",
+     "highlight": true,
+     "start": 4.386,
+     "end": 4.633
+    },
+    {
+     "text": "don't",
+     "highlight": false,
+     "start": 5.09,
+     "end": 5.3
+    },
+    {
+     "text": "say",
+     "highlight": false,
+     "start": 5.357,
+     "end": 5.529
+    },
+    {
+     "text": "yes.",
+     "highlight": false,
+     "start": 5.586,
+     "end": 5.929
+    },
+    {
+     "text": "Or",
+     "highlight": false,
+     "start": 6.367,
+     "end": 6.5
+    },
+    {
+     "text": "no.",
+     "highlight": true,
+     "start": 6.557,
+     "end": 6.805
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "Tall masked woman in a trench coat standing perfectly still under the streetlight",
+   "notes": "Utility poles, wires, low walls, vending machine; LOW detail bg."
+  },
+  {
+   "id": 2,
+   "start": 7.29,
+   "end": 11.622,
+   "act": 1,
+   "set": "graphic",
+   "owner": "G",
+   "framing": "Title card",
+   "camera": "Slow push",
+   "vo": "They call her Kuchisake-onna. The slit-mouthed woman.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "They",
+     "highlight": false,
+     "start": 7.647,
+     "end": 7.78
+    },
+    {
+     "text": "call",
+     "highlight": false,
+     "start": 7.838,
+     "end": 8.028
+    },
+    {
+     "text": "her",
+     "highlight": false,
+     "start": 8.085,
+     "end": 8.238
+    },
+    {
+     "text": "Kuchisake-onna.",
+     "highlight": true,
+     "start": 8.542,
+     "end": 9.59
+    },
+    {
+     "text": "The",
+     "highlight": false,
+     "start": 10.066,
+     "end": 10.161
+    },
+    {
+     "text": "slit-mouthed",
+     "highlight": false,
+     "start": 10.238,
+     "end": 10.79
+    },
+    {
+     "text": "woman.",
+     "highlight": false,
+     "start": 10.847,
+     "end": 11.132
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "Title 'KUCHISAKE-ONNA' + '口裂け女 · Japan' over a masked silhouette in profile",
+   "notes": "Dark, one cold light."
+  },
+  {
+   "id": 3,
+   "start": 11.622,
+   "end": 16.855,
+   "act": 1,
+   "set": "graphic",
+   "owner": "G",
+   "framing": "Lore insert: the mask",
+   "camera": "Slow push-in",
+   "vo": "Say no, and she takes you. Say yes… and she takes off the mask.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "Say",
+     "highlight": false,
+     "start": 11.979,
+     "end": 12.151
+    },
+    {
+     "text": "no,",
+     "highlight": false,
+     "start": 12.246,
+     "end": 12.474
+    },
+    {
+     "text": "and",
+     "highlight": false,
+     "start": 12.741,
+     "end": 12.836
+    },
+    {
+     "text": "she",
+     "highlight": false,
+     "start": 12.874,
+     "end": 13.008
+    },
+    {
+     "text": "takes",
+     "highlight": false,
+     "start": 13.046,
+     "end": 13.312
+    },
+    {
+     "text": "you.",
+     "highlight": false,
+     "start": 13.37,
+     "end": 13.484
+    },
+    {
+     "text": "Say",
+     "highlight": false,
+     "start": 14.074,
+     "end": 14.246
+    },
+    {
+     "text": "yes…",
+     "highlight": false,
+     "start": 14.303,
+     "end": 14.627
+    },
+    {
+     "text": "and",
+     "highlight": false,
+     "start": 15.103,
+     "end": 15.198
+    },
+    {
+     "text": "she",
+     "highlight": false,
+     "start": 15.236,
+     "end": 15.37
+    },
+    {
+     "text": "takes",
+     "highlight": false,
+     "start": 15.427,
+     "end": 15.636
+    },
+    {
+     "text": "off",
+     "highlight": false,
+     "start": 15.693,
+     "end": 15.827
+    },
+    {
+     "text": "the",
+     "highlight": false,
+     "start": 15.865,
+     "end": 15.922
+    },
+    {
+     "text": "mask.",
+     "highlight": true,
+     "start": 15.979,
+     "end": 16.36
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "A white surgical mask held by long pale fingers, its ear loop slowly slipping",
+   "notes": "Black background, rim light. Never show a mouth."
+  },
+  {
+   "id": 4,
+   "start": 16.855,
+   "end": 22.138,
+   "act": 1,
+   "set": "street",
+   "owner": "S",
+   "framing": "Medium, schoolgirl walking home",
+   "camera": "Tracking from behind",
+   "vo": "My sister walked home from cram school every night. Past the same streetlight.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "My",
+     "highlight": false,
+     "start": 17.212,
+     "end": 17.441
+    },
+    {
+     "text": "sister",
+     "highlight": false,
+     "start": 17.479,
+     "end": 17.841
+    },
+    {
+     "text": "walked",
+     "highlight": false,
+     "start": 17.955,
+     "end": 18.184
+    },
+    {
+     "text": "home",
+     "highlight": false,
+     "start": 18.222,
+     "end": 18.393
+    },
+    {
+     "text": "from",
+     "highlight": false,
+     "start": 18.469,
+     "end": 18.622
+    },
+    {
+     "text": "cram",
+     "highlight": false,
+     "start": 18.66,
+     "end": 18.888
+    },
+    {
+     "text": "school",
+     "highlight": false,
+     "start": 18.984,
+     "end": 19.288
+    },
+    {
+     "text": "every",
+     "highlight": false,
+     "start": 19.365,
+     "end": 19.555
+    },
+    {
+     "text": "night.",
+     "highlight": false,
+     "start": 19.631,
+     "end": 19.898
+    },
+    {
+     "text": "Past",
+     "highlight": false,
+     "start": 20.355,
+     "end": 20.641
+    },
+    {
+     "text": "the",
+     "highlight": false,
+     "start": 20.679,
+     "end": 20.773
+    },
+    {
+     "text": "same",
+     "highlight": false,
+     "start": 20.831,
+     "end": 21.06
+    },
+    {
+     "text": "streetlight.",
+     "highlight": true,
+     "start": 21.136,
+     "end": 21.65
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "Schoolgirl with a school bag walking toward the streetlight",
+   "notes": "Reuse street set."
+  },
+  {
+   "id": 5,
+   "start": 22.138,
+   "end": 27.828,
+   "act": 1,
+   "set": "street",
+   "owner": "S",
+   "framing": "Wide, the woman appears under the light",
+   "camera": "Slow push-in",
+   "vo": "One night, a very tall woman in a long coat was standing under it. Wearing a mask.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "One",
+     "highlight": false,
+     "start": 22.495,
+     "end": 22.59
+    },
+    {
+     "text": "night,",
+     "highlight": false,
+     "start": 22.667,
+     "end": 22.914
+    },
+    {
+     "text": "a",
+     "highlight": false,
+     "start": 23.333,
+     "end": 23.371
+    },
+    {
+     "text": "very",
+     "highlight": false,
+     "start": 23.428,
+     "end": 23.676
+    },
+    {
+     "text": "tall",
+     "highlight": false,
+     "start": 23.752,
+     "end": 24.038
+    },
+    {
+     "text": "woman",
+     "highlight": false,
+     "start": 24.076,
+     "end": 24.324
+    },
+    {
+     "text": "in",
+     "highlight": false,
+     "start": 24.362,
+     "end": 24.438
+    },
+    {
+     "text": "a",
+     "highlight": false,
+     "start": 24.495,
+     "end": 24.533
+    },
+    {
+     "text": "long",
+     "highlight": false,
+     "start": 24.59,
+     "end": 24.857
+    },
+    {
+     "text": "coat",
+     "highlight": false,
+     "start": 24.914,
+     "end": 25.162
+    },
+    {
+     "text": "was",
+     "highlight": false,
+     "start": 25.2,
+     "end": 25.295
+    },
+    {
+     "text": "standing",
+     "highlight": false,
+     "start": 25.352,
+     "end": 25.657
+    },
+    {
+     "text": "under",
+     "highlight": false,
+     "start": 25.713,
+     "end": 25.886
+    },
+    {
+     "text": "it.",
+     "highlight": false,
+     "start": 25.943,
+     "end": 26.076
+    },
+    {
+     "text": "Wearing",
+     "highlight": false,
+     "start": 26.533,
+     "end": 26.743
+    },
+    {
+     "text": "a",
+     "highlight": false,
+     "start": 26.781,
+     "end": 26.838
+    },
+    {
+     "text": "mask.",
+     "highlight": true,
+     "start": 26.895,
+     "end": 27.333
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "The tall masked woman under the light, the small schoolgirl stopped in the foreground",
+   "notes": "Scale contrast."
+  },
+  {
+   "id": 6,
+   "start": 27.828,
+   "end": 31.187,
+   "act": 1,
+   "set": "close",
+   "owner": "C",
+   "framing": "Low angle, the woman leaning down",
+   "camera": "Very slow push",
+   "vo": "She leaned down, close to my sister's face…",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "She",
+     "highlight": false,
+     "start": 28.185,
+     "end": 28.299
+    },
+    {
+     "text": "leaned",
+     "highlight": false,
+     "start": 28.395,
+     "end": 28.68
+    },
+    {
+     "text": "down,",
+     "highlight": false,
+     "start": 28.738,
+     "end": 29.004
+    },
+    {
+     "text": "close",
+     "highlight": false,
+     "start": 29.366,
+     "end": 29.633
+    },
+    {
+     "text": "to",
+     "highlight": false,
+     "start": 29.671,
+     "end": 29.728
+    },
+    {
+     "text": "my",
+     "highlight": false,
+     "start": 29.766,
+     "end": 29.918
+    },
+    {
+     "text": "sister's",
+     "highlight": false,
+     "start": 29.957,
+     "end": 30.318
+    },
+    {
+     "text": "face…",
+     "highlight": true,
+     "start": 30.376,
+     "end": 30.699
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "The masked face leaning down into frame from above, hair hanging, eyes shadowed",
+   "notes": "Streetlight halo behind her head."
+  },
+  {
+   "id": 7,
+   "start": 31.187,
+   "end": 32.842,
+   "act": 1,
+   "set": "close",
+   "owner": "C",
+   "framing": "Extreme close, the mask and eyes",
+   "camera": "Locked, tiny push",
+   "vo": "Am I pretty?",
+   "voKind": "narration",
+   "speaker": "ghost",
+   "words": [
+    {
+     "text": "Am",
+     "highlight": false,
+     "start": 31.544,
+     "end": 31.658
+    },
+    {
+     "text": "I",
+     "highlight": false,
+     "start": 31.735,
+     "end": 31.811
+    },
+    {
+     "text": "pretty?",
+     "highlight": true,
+     "start": 31.906,
+     "end": 32.249
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "Mask edge and two dark eyes under a black fringe, mask slightly tugging as she speaks",
+   "notes": "Almost black, cold rim."
+  },
+  {
+   "id": 8,
+   "start": 32.842,
+   "end": 37.983,
+   "act": 1,
+   "set": "close",
+   "owner": "C",
+   "framing": "Close, the sister's hands gripping her bag strap",
+   "camera": "Locked",
+   "vo": "My sister remembered what Grandma told her. Never yes. Never no.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "My",
+     "highlight": false,
+     "start": 33.199,
+     "end": 33.371
+    },
+    {
+     "text": "sister",
+     "highlight": false,
+     "start": 33.428,
+     "end": 33.752
+    },
+    {
+     "text": "remembered",
+     "highlight": false,
+     "start": 33.828,
+     "end": 34.285
+    },
+    {
+     "text": "what",
+     "highlight": false,
+     "start": 34.304,
+     "end": 34.437
+    },
+    {
+     "text": "Grandma",
+     "highlight": false,
+     "start": 34.475,
+     "end": 34.875
+    },
+    {
+     "text": "told",
+     "highlight": false,
+     "start": 34.932,
+     "end": 35.161
+    },
+    {
+     "text": "her.",
+     "highlight": false,
+     "start": 35.199,
+     "end": 35.371
+    },
+    {
+     "text": "Never",
+     "highlight": false,
+     "start": 35.866,
+     "end": 36.094
+    },
+    {
+     "text": "yes.",
+     "highlight": false,
+     "start": 36.209,
+     "end": 36.552
+    },
+    {
+     "text": "Never",
+     "highlight": false,
+     "start": 36.913,
+     "end": 37.142
+    },
+    {
+     "text": "no.",
+     "highlight": true,
+     "start": 37.256,
+     "end": 37.504
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "Two small hands gripping a school bag strap, knuckles pale",
+   "notes": "Trembling slightly."
+  },
+  {
+   "id": 9,
+   "start": 37.983,
+   "end": 41.372,
+   "act": 1,
+   "set": "close",
+   "owner": "C",
+   "framing": "Profile, the sister answering",
+   "camera": "Locked",
+   "vo": "She said, 'You look… average.'",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "She",
+     "highlight": false,
+     "start": 38.34,
+     "end": 38.493
+    },
+    {
+     "text": "said,",
+     "highlight": false,
+     "start": 38.626,
+     "end": 38.912
+    },
+    {
+     "text": "'You",
+     "highlight": false,
+     "start": 38.912,
+     "end": 39.54
+    },
+    {
+     "text": "look…",
+     "highlight": false,
+     "start": 39.635,
+     "end": 39.845
+    },
+    {
+     "text": "average.'",
+     "highlight": true,
+     "start": 40.359,
+     "end": 40.873
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "Schoolgirl's profile silhouette looking up, breath visible",
+   "notes": "Cold light from above."
+  },
+  {
+   "id": 10,
+   "start": 41.372,
+   "end": 46.042,
+   "act": 1,
+   "set": "street",
+   "owner": "S",
+   "framing": "Wide, the woman frozen, the girl running",
+   "camera": "Handheld, quick",
+   "vo": "The woman froze. Confused. And my sister ran.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "The",
+     "highlight": false,
+     "start": 41.729,
+     "end": 41.786
+    },
+    {
+     "text": "woman",
+     "highlight": false,
+     "start": 41.862,
+     "end": 42.129
+    },
+    {
+     "text": "froze.",
+     "highlight": false,
+     "start": 42.301,
+     "end": 42.796
+    },
+    {
+     "text": "Confused.",
+     "highlight": false,
+     "start": 43.234,
+     "end": 43.996
+    },
+    {
+     "text": "And",
+     "highlight": false,
+     "start": 44.453,
+     "end": 44.548
+    },
+    {
+     "text": "my",
+     "highlight": false,
+     "start": 44.586,
+     "end": 44.739
+    },
+    {
+     "text": "sister",
+     "highlight": false,
+     "start": 44.796,
+     "end": 45.101
+    },
+    {
+     "text": "ran.",
+     "highlight": true,
+     "start": 45.215,
+     "end": 45.558
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "Woman motionless under the light, schoolgirl running away toward camera",
+   "notes": "Reuse street set."
+  },
+  {
+   "id": 11,
+   "start": 46.042,
+   "end": 49.612,
+   "act": 1,
+   "set": "street",
+   "owner": "S",
+   "framing": "Wide, the empty street, the light flickering",
+   "camera": "Slow pull-back",
+   "vo": "She made it home. She never took that street again.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "She",
+     "highlight": false,
+     "start": 46.399,
+     "end": 46.475
+    },
+    {
+     "text": "made",
+     "highlight": false,
+     "start": 46.513,
+     "end": 46.647
+    },
+    {
+     "text": "it",
+     "highlight": false,
+     "start": 46.685,
+     "end": 46.78
+    },
+    {
+     "text": "home.",
+     "highlight": false,
+     "start": 46.837,
+     "end": 47.18
+    },
+    {
+     "text": "She",
+     "highlight": false,
+     "start": 47.637,
+     "end": 47.752
+    },
+    {
+     "text": "never",
+     "highlight": false,
+     "start": 47.809,
+     "end": 47.999
+    },
+    {
+     "text": "took",
+     "highlight": false,
+     "start": 48.056,
+     "end": 48.209
+    },
+    {
+     "text": "that",
+     "highlight": false,
+     "start": 48.266,
+     "end": 48.418
+    },
+    {
+     "text": "street",
+     "highlight": false,
+     "start": 48.494,
+     "end": 48.723
+    },
+    {
+     "text": "again.",
+     "highlight": true,
+     "start": 48.78,
+     "end": 49.123
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "Empty street under the light; on the ground, a dropped white mask",
+   "notes": "Quiet."
+  },
+  {
+   "id": 12,
+   "start": 49.612,
+   "end": 56.09,
+   "act": 1,
+   "set": "street",
+   "owner": "S",
+   "framing": "Medium, our front gate at night",
+   "camera": "Slow push-in",
+   "vo": "But last week, a tall woman in a mask asked me for directions… to our house.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "But",
+     "highlight": false,
+     "start": 49.969,
+     "end": 50.083
+    },
+    {
+     "text": "last",
+     "highlight": false,
+     "start": 50.388,
+     "end": 50.674
+    },
+    {
+     "text": "week,",
+     "highlight": false,
+     "start": 50.731,
+     "end": 50.96
+    },
+    {
+     "text": "a",
+     "highlight": false,
+     "start": 51.569,
+     "end": 51.626
+    },
+    {
+     "text": "tall",
+     "highlight": false,
+     "start": 51.702,
+     "end": 51.969
+    },
+    {
+     "text": "woman",
+     "highlight": false,
+     "start": 52.007,
+     "end": 52.293
+    },
+    {
+     "text": "in",
+     "highlight": false,
+     "start": 52.35,
+     "end": 52.407
+    },
+    {
+     "text": "a",
+     "highlight": false,
+     "start": 52.445,
+     "end": 52.502
+    },
+    {
+     "text": "mask",
+     "highlight": false,
+     "start": 52.579,
+     "end": 52.979
+    },
+    {
+     "text": "asked",
+     "highlight": false,
+     "start": 53.074,
+     "end": 53.283
+    },
+    {
+     "text": "me",
+     "highlight": true,
+     "start": 53.322,
+     "end": 53.436
+    },
+    {
+     "text": "for",
+     "highlight": false,
+     "start": 53.474,
+     "end": 53.55
+    },
+    {
+     "text": "directions…",
+     "highlight": false,
+     "start": 53.588,
+     "end": 54.198
+    },
+    {
+     "text": "to",
+     "highlight": false,
+     "start": 54.693,
+     "end": 54.788
+    },
+    {
+     "text": "our",
+     "highlight": false,
+     "start": 54.845,
+     "end": 54.96
+    },
+    {
+     "text": "house.",
+     "highlight": true,
+     "start": 55.017,
+     "end": 55.398
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "A family house gate with a nameplate, a tall masked shadow cast across it",
+   "notes": "Reuse street set palette."
+  },
+  {
+   "id": 13,
+   "start": 56.09,
+   "end": 58.89,
+   "act": 1,
+   "set": "graphic",
+   "owner": "G",
+   "framing": "End card",
+   "camera": "Static",
+   "vo": "Would you know what to say? Comment YES or NO.",
+   "voKind": "onscreen",
+   "speaker": null,
+   "words": [
+    {
+     "text": "Would",
+     "highlight": false,
+     "start": 56.34,
+     "end": 56.64
+    },
+    {
+     "text": "you",
+     "highlight": false,
+     "start": 56.56,
+     "end": 56.86
+    },
+    {
+     "text": "know",
+     "highlight": false,
+     "start": 56.78,
+     "end": 57.08
+    },
+    {
+     "text": "what",
+     "highlight": false,
+     "start": 57.0,
+     "end": 57.3
+    },
+    {
+     "text": "to",
+     "highlight": false,
+     "start": 57.22,
+     "end": 57.52
+    },
+    {
+     "text": "say?",
+     "highlight": true,
+     "start": 57.44,
+     "end": 57.74
+    },
+    {
+     "text": "Comment",
+     "highlight": false,
+     "start": 57.66,
+     "end": 57.96
+    },
+    {
+     "text": "YES",
+     "highlight": true,
+     "start": 57.88,
+     "end": 58.18
+    },
+    {
+     "text": "or",
+     "highlight": false,
+     "start": 58.1,
+     "end": 58.4
+    },
+    {
+     "text": "NO.",
+     "highlight": true,
+     "start": 58.32,
+     "end": 58.62
+    }
+   ],
+   "trans": "cut",
+   "caption": false,
+   "cool": false,
+   "hero": "CTA with a surgical mask motif",
+   "notes": "No caption (on-screen text)."
+  }
+ ],
+ "audio": true
+}

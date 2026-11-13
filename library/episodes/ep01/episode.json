@@ -1,0 +1,1072 @@
+{
+ "id": "ep01",
+ "title": "Kuntilanak",
+ "fps": 30,
+ "width": 1080,
+ "height": 1920,
+ "durationSec": 59.444,
+ "timingSource": "ai33 eleven_v3 TTS transcript, tempo x1.10",
+ "acts": [
+  {
+   "id": 1,
+   "name": "Hook",
+   "tint": "#5f8fa3",
+   "palette": [
+    "#0d1f2a",
+    "#06100f",
+    "#e8eef0",
+    "#ff7a3d"
+   ]
+  },
+  {
+   "id": 2,
+   "name": "The Legend",
+   "tint": "#6fb39a",
+   "palette": [
+    "#0f2420",
+    "#1a2a33",
+    "#d9f2e6",
+    "#ffd23f"
+   ]
+  },
+  {
+   "id": 3,
+   "name": "The Rule",
+   "tint": "#d39a52",
+   "palette": [
+    "#2a1a0e",
+    "#0d0805",
+    "#ffb35c",
+    "#ff7a3d"
+   ]
+  },
+  {
+   "id": 4,
+   "name": "The Walk",
+   "tint": "#4f7d6c",
+   "palette": [
+    "#0b1a1c",
+    "#040908",
+    "#9fc2b2",
+    "#ffd23f"
+   ]
+  },
+  {
+   "id": 5,
+   "name": "The Twist",
+   "tint": "#9a8fb8",
+   "palette": [
+    "#14141c",
+    "#050507",
+    "#c9c3dc",
+    "#ffd23f"
+   ]
+  },
+  {
+   "id": 6,
+   "name": "Loop & CTA",
+   "tint": "#c45a3c",
+   "palette": [
+    "#000000",
+    "#0a0a0a",
+    "#cfd8d6",
+    "#ff7a3d"
+   ]
+  }
+ ],
+ "shots": [
+  {
+   "id": 1,
+   "start": 0.0,
+   "end": 3.829,
+   "act": 1,
+   "framing": "Wide",
+   "camera": "Slow push-in",
+   "vo": "In Indonesia, if you hear a woman laughing far away…",
+   "voKind": "narration",
+   "speaker": null,
+   "words": [
+    {
+     "text": "In",
+     "highlight": false,
+     "start": 0.505,
+     "end": 0.559
+    },
+    {
+     "text": "Indonesia,",
+     "highlight": false,
+     "start": 0.632,
+     "end": 1.232
+    },
+    {
+     "text": "if",
+     "highlight": false,
+     "start": 1.632,
+     "end": 1.723
+    },
+    {
+     "text": "you",
+     "highlight": false,
+     "start": 1.759,
+     "end": 1.85
+    },
+    {
+     "text": "hear",
+     "highlight": false,
+     "start": 1.905,
+     "end": 2.05
+    },
+    {
+     "text": "a",
+     "highlight": false,
+     "start": 2.105,
+     "end": 2.141
+    },
+    {
+     "text": "woman",
+     "highlight": false,
+     "start": 2.177,
+     "end": 2.395
+    },
+    {
+     "text": "laughing",
+     "highlight": false,
+     "start": 2.45,
+     "end": 2.759
+    },
+    {
+     "text": "far",
+     "highlight": true,
+     "start": 2.886,
+     "end": 3.032
+    },
+    {
+     "text": "away…",
+     "highlight": true,
+     "start": 3.086,
+     "end": 3.395
+    }
+   ],
+   "sfx": "Crickets, faint distant laugh (reverb)"
+  },
+  {
+   "id": 2,
+   "start": 3.829,
+   "end": 4.924,
+   "act": 1,
+   "framing": "Title hit",
+   "camera": "Static, 2-frame shake",
+   "vo": "RUN.",
+   "voKind": "narration",
+   "speaker": null,
+   "words": [
+    {
+     "text": "RUN.",
+     "highlight": true,
+     "start": 3.984,
+     "end": 4.293
+    }
+   ],
+   "sfx": "Impact hit, then 0.3s silence"
+  },
+  {
+   "id": 3,
+   "start": 4.924,
+   "end": 7.035,
+   "act": 2,
+   "framing": "Title card",
+   "camera": "Push-in, ripple rings",
+   "vo": "She's called Kuntilanak.",
+   "voKind": "narration",
+   "speaker": null,
+   "words": [
+    {
+     "text": "She's",
+     "highlight": false,
+     "start": 5.279,
+     "end": 5.497
+    },
+    {
+     "text": "called",
+     "highlight": false,
+     "start": 5.551,
+     "end": 5.824
+    },
+    {
+     "text": "Kuntilanak.",
+     "highlight": true,
+     "start": 5.897,
+     "end": 6.551
+    }
+   ],
+   "sfx": "Low drone swell"
+  },
+  {
+   "id": 4,
+   "start": 7.035,
+   "end": 10.479,
+   "act": 2,
+   "framing": "Medium",
+   "camera": "Slow dolly back, fade to mist",
+   "vo": "A woman who died before her baby was born.",
+   "voKind": "narration",
+   "speaker": null,
+   "words": [
+    {
+     "text": "A",
+     "highlight": false,
+     "start": 7.34,
+     "end": 7.412
+    },
+    {
+     "text": "woman",
+     "highlight": false,
+     "start": 7.449,
+     "end": 7.685
+    },
+    {
+     "text": "who",
+     "highlight": false,
+     "start": 7.721,
+     "end": 7.867
+    },
+    {
+     "text": "died",
+     "highlight": false,
+     "start": 7.903,
+     "end": 8.321
+    },
+    {
+     "text": "before",
+     "highlight": false,
+     "start": 8.776,
+     "end": 9.012
+    },
+    {
+     "text": "her",
+     "highlight": false,
+     "start": 9.049,
+     "end": 9.176
+    },
+    {
+     "text": "baby",
+     "highlight": true,
+     "start": 9.212,
+     "end": 9.485
+    },
+    {
+     "text": "was",
+     "highlight": false,
+     "start": 9.54,
+     "end": 9.667
+    },
+    {
+     "text": "born.",
+     "highlight": false,
+     "start": 9.721,
+     "end": 10.049
+    }
+   ],
+   "sfx": "Soft wind, distant lullaby hum"
+  },
+  {
+   "id": 5,
+   "start": 10.479,
+   "end": 15.657,
+   "act": 2,
+   "framing": "Low angle",
+   "camera": "Tilt up the trunk",
+   "vo": "She waits in tall trees… and before she comes, you smell frangipani.",
+   "voKind": "narration",
+   "speaker": null,
+   "words": [
+    {
+     "text": "She",
+     "highlight": false,
+     "start": 10.784,
+     "end": 10.911
+    },
+    {
+     "text": "waits",
+     "highlight": false,
+     "start": 11.002,
+     "end": 11.274
+    },
+    {
+     "text": "in",
+     "highlight": false,
+     "start": 11.329,
+     "end": 11.438
+    },
+    {
+     "text": "tall",
+     "highlight": false,
+     "start": 11.493,
+     "end": 11.729
+    },
+    {
+     "text": "trees…",
+     "highlight": false,
+     "start": 11.784,
+     "end": 12.202
+    },
+    {
+     "text": "and",
+     "highlight": false,
+     "start": 12.62,
+     "end": 12.693
+    },
+    {
+     "text": "before",
+     "highlight": false,
+     "start": 12.747,
+     "end": 13.02
+    },
+    {
+     "text": "she",
+     "highlight": false,
+     "start": 13.074,
+     "end": 13.184
+    },
+    {
+     "text": "comes,",
+     "highlight": false,
+     "start": 13.256,
+     "end": 13.62
+    },
+    {
+     "text": "you",
+     "highlight": false,
+     "start": 14.002,
+     "end": 14.111
+    },
+    {
+     "text": "smell",
+     "highlight": false,
+     "start": 14.202,
+     "end": 14.42
+    },
+    {
+     "text": "frangipani.",
+     "highlight": true,
+     "start": 14.474,
+     "end": 15.165
+    }
+   ],
+   "sfx": "Branch creak, petals rustle"
+  },
+  {
+   "id": 6,
+   "start": 15.657,
+   "end": 17.789,
+   "act": 3,
+   "framing": "Medium",
+   "camera": "Push-in on grandma",
+   "vo": "My grandmother taught me the rule.",
+   "voKind": "narration",
+   "speaker": null,
+   "words": [
+    {
+     "text": "My",
+     "highlight": false,
+     "start": 16.012,
+     "end": 16.139
+    },
+    {
+     "text": "grandmother",
+     "highlight": false,
+     "start": 16.23,
+     "end": 16.63
+    },
+    {
+     "text": "taught",
+     "highlight": false,
+     "start": 16.702,
+     "end": 16.884
+    },
+    {
+     "text": "me",
+     "highlight": false,
+     "start": 16.921,
+     "end": 16.993
+    },
+    {
+     "text": "the",
+     "highlight": true,
+     "start": 17.03,
+     "end": 17.084
+    },
+    {
+     "text": "rule.",
+     "highlight": true,
+     "start": 17.157,
+     "end": 17.412
+    }
+   ],
+   "sfx": "Lamp flame flicker, geckos"
+  },
+  {
+   "id": 7,
+   "start": 17.789,
+   "end": 23.695,
+   "act": 3,
+   "framing": "Graphic insert",
+   "camera": "Diagram builds line by line",
+   "vo": "If her laugh sounds far… she's close. If it sounds close… she's far.",
+   "voKind": "narration",
+   "speaker": "GRANDMA",
+   "words": [
+    {
+     "text": "If",
+     "highlight": false,
+     "start": 18.094,
+     "end": 18.184
+    },
+    {
+     "text": "her",
+     "highlight": false,
+     "start": 18.221,
+     "end": 18.366
+    },
+    {
+     "text": "laugh",
+     "highlight": false,
+     "start": 18.421,
+     "end": 18.712
+    },
+    {
+     "text": "sounds",
+     "highlight": false,
+     "start": 18.766,
+     "end": 19.075
+    },
+    {
+     "text": "far…",
+     "highlight": true,
+     "start": 19.184,
+     "end": 19.475
+    },
+    {
+     "text": "she's",
+     "highlight": false,
+     "start": 19.93,
+     "end": 20.148
+    },
+    {
+     "text": "close.",
+     "highlight": true,
+     "start": 20.221,
+     "end": 20.675
+    },
+    {
+     "text": "If",
+     "highlight": false,
+     "start": 21.166,
+     "end": 21.239
+    },
+    {
+     "text": "it",
+     "highlight": false,
+     "start": 21.275,
+     "end": 21.384
+    },
+    {
+     "text": "sounds",
+     "highlight": false,
+     "start": 21.457,
+     "end": 21.712
+    },
+    {
+     "text": "close…",
+     "highlight": true,
+     "start": 21.821,
+     "end": 22.239
+    },
+    {
+     "text": "she's",
+     "highlight": false,
+     "start": 22.603,
+     "end": 22.839
+    },
+    {
+     "text": "far.",
+     "highlight": true,
+     "start": 22.912,
+     "end": 23.203
+    }
+   ],
+   "sfx": "Grandma VO (older voice), lamp hum"
+  },
+  {
+   "id": 8,
+   "start": 23.695,
+   "end": 28.192,
+   "act": 4,
+   "framing": "Wide",
+   "camera": "Tracking behind her",
+   "vo": "One night, I walked home alone… through the banana trees.",
+   "voKind": "narration",
+   "speaker": null,
+   "words": [
+    {
+     "text": "One",
+     "highlight": false,
+     "start": 24.15,
+     "end": 24.295
+    },
+    {
+     "text": "night,",
+     "highlight": false,
+     "start": 24.368,
+     "end": 24.659
+    },
+    {
+     "text": "I",
+     "highlight": false,
+     "start": 25.186,
+     "end": 25.259
+    },
+    {
+     "text": "walked",
+     "highlight": false,
+     "start": 25.295,
+     "end": 25.531
+    },
+    {
+     "text": "home",
+     "highlight": false,
+     "start": 25.568,
+     "end": 25.731
+    },
+    {
+     "text": "alone…",
+     "highlight": true,
+     "start": 25.804,
+     "end": 26.168
+    },
+    {
+     "text": "through",
+     "highlight": false,
+     "start": 26.695,
+     "end": 26.84
+    },
+    {
+     "text": "the",
+     "highlight": false,
+     "start": 26.877,
+     "end": 26.95
+    },
+    {
+     "text": "banana",
+     "highlight": false,
+     "start": 26.968,
+     "end": 27.331
+    },
+    {
+     "text": "trees.",
+     "highlight": false,
+     "start": 27.404,
+     "end": 27.804
+    }
+   ],
+   "sfx": "Footsteps on dirt, crickets"
+  },
+  {
+   "id": 9,
+   "start": 28.192,
+   "end": 31.992,
+   "act": 4,
+   "framing": "Close-up",
+   "camera": "Snap zoom 5%",
+   "vo": "Then I heard it. Laughing. Far away.",
+   "voKind": "narration",
+   "speaker": null,
+   "words": [
+    {
+     "text": "Then",
+     "highlight": false,
+     "start": 28.447,
+     "end": 28.592
+    },
+    {
+     "text": "I",
+     "highlight": false,
+     "start": 28.683,
+     "end": 28.737
+    },
+    {
+     "text": "heard",
+     "highlight": false,
+     "start": 28.792,
+     "end": 28.992
+    },
+    {
+     "text": "it.",
+     "highlight": false,
+     "start": 29.047,
+     "end": 29.21
+    },
+    {
+     "text": "Laughing.",
+     "highlight": false,
+     "start": 29.701,
+     "end": 30.174
+    },
+    {
+     "text": "Far",
+     "highlight": true,
+     "start": 30.828,
+     "end": 31.047
+    },
+    {
+     "text": "away.",
+     "highlight": true,
+     "start": 31.101,
+     "end": 31.465
+    }
+   ],
+   "sfx": "Laugh: FAR version (reverb, low-pass)"
+  },
+  {
+   "id": 10,
+   "start": 31.992,
+   "end": 34.508,
+   "act": 4,
+   "framing": "Low angle, Dutch",
+   "camera": "Handheld shake, fast track",
+   "vo": "I didn't think. I ran.",
+   "voKind": "narration",
+   "speaker": null,
+   "words": [
+    {
+     "text": "I",
+     "highlight": false,
+     "start": 32.147,
+     "end": 32.183
+    },
+    {
+     "text": "didn't",
+     "highlight": false,
+     "start": 32.201,
+     "end": 32.419
+    },
+    {
+     "text": "think.",
+     "highlight": false,
+     "start": 32.437,
+     "end": 32.692
+    },
+    {
+     "text": "I",
+     "highlight": true,
+     "start": 33.383,
+     "end": 33.456
+    },
+    {
+     "text": "ran.",
+     "highlight": true,
+     "start": 33.528,
+     "end": 33.819
+    }
+   ],
+   "sfx": "Running steps, heavy breath, leaves whip"
+  },
+  {
+   "id": 11,
+   "start": 34.508,
+   "end": 38.552,
+   "act": 4,
+   "framing": "Extreme close-up",
+   "camera": "Locked, very slow push",
+   "vo": "Then it came again. Right next to my ear.",
+   "voKind": "narration",
+   "speaker": null,
+   "words": [
+    {
+     "text": "Then",
+     "highlight": false,
+     "start": 35.313,
+     "end": 35.622
+    },
+    {
+     "text": "it",
+     "highlight": false,
+     "start": 35.731,
+     "end": 35.84
+    },
+    {
+     "text": "came",
+     "highlight": false,
+     "start": 35.894,
+     "end": 36.04
+    },
+    {
+     "text": "again.",
+     "highlight": false,
+     "start": 36.094,
+     "end": 36.422
+    },
+    {
+     "text": "Right",
+     "highlight": true,
+     "start": 37.04,
+     "end": 37.258
+    },
+    {
+     "text": "next",
+     "highlight": true,
+     "start": 37.313,
+     "end": 37.531
+    },
+    {
+     "text": "to",
+     "highlight": true,
+     "start": 37.567,
+     "end": 37.622
+    },
+    {
+     "text": "my",
+     "highlight": true,
+     "start": 37.658,
+     "end": 37.84
+    },
+    {
+     "text": "ear.",
+     "highlight": true,
+     "start": 37.931,
+     "end": 38.131
+    }
+   ],
+   "sfx": "Laugh: CLOSE version (dry, hard-panned)"
+  },
+  {
+   "id": 12,
+   "start": 38.552,
+   "end": 43.284,
+   "act": 4,
+   "framing": "Close-up",
+   "camera": "Slight pull-back, warmer key",
+   "vo": "I almost smiled. Close means far. I was safe.",
+   "voKind": "narration",
+   "speaker": null,
+   "words": [
+    {
+     "text": "I",
+     "highlight": false,
+     "start": 38.907,
+     "end": 38.979
+    },
+    {
+     "text": "almost",
+     "highlight": false,
+     "start": 39.034,
+     "end": 39.343
+    },
+    {
+     "text": "smiled.",
+     "highlight": false,
+     "start": 39.416,
+     "end": 39.907
+    },
+    {
+     "text": "Close",
+     "highlight": false,
+     "start": 40.416,
+     "end": 40.707
+    },
+    {
+     "text": "means",
+     "highlight": false,
+     "start": 40.779,
+     "end": 41.016
+    },
+    {
+     "text": "far.",
+     "highlight": false,
+     "start": 41.143,
+     "end": 41.488
+    },
+    {
+     "text": "I",
+     "highlight": false,
+     "start": 42.052,
+     "end": 42.088
+    },
+    {
+     "text": "was",
+     "highlight": false,
+     "start": 42.125,
+     "end": 42.252
+    },
+    {
+     "text": "safe.",
+     "highlight": true,
+     "start": 42.325,
+     "end": 42.688
+    }
+   ],
+   "sfx": "Drone dips, one long exhale"
+  },
+  {
+   "id": 13,
+   "start": 43.284,
+   "end": 46.722,
+   "act": 5,
+   "framing": "Wide",
+   "camera": "Static, rack focus front to back",
+   "vo": "But then I heard it far… and close…",
+   "voKind": "narration",
+   "speaker": null,
+   "words": [
+    {
+     "text": "But",
+     "highlight": false,
+     "start": 43.739,
+     "end": 43.884
+    },
+    {
+     "text": "then",
+     "highlight": false,
+     "start": 43.92,
+     "end": 44.048
+    },
+    {
+     "text": "I",
+     "highlight": false,
+     "start": 44.139,
+     "end": 44.193
+    },
+    {
+     "text": "heard",
+     "highlight": false,
+     "start": 44.248,
+     "end": 44.393
+    },
+    {
+     "text": "it",
+     "highlight": false,
+     "start": 44.429,
+     "end": 44.593
+    },
+    {
+     "text": "far…",
+     "highlight": true,
+     "start": 44.684,
+     "end": 45.011
+    },
+    {
+     "text": "and",
+     "highlight": false,
+     "start": 45.593,
+     "end": 45.739
+    },
+    {
+     "text": "close…",
+     "highlight": true,
+     "start": 45.811,
+     "end": 46.284
+    }
+   ],
+   "sfx": "Both laugh versions layered, drone cut"
+  },
+  {
+   "id": 14,
+   "start": 46.722,
+   "end": 50.715,
+   "act": 5,
+   "framing": "Extreme close-up",
+   "camera": "Push to eyes, fade to black",
+   "vo": "…at the same time. Grandma never told me what that means.",
+   "voKind": "narration",
+   "speaker": null,
+   "words": [
+    {
+     "text": "…at",
+     "highlight": false,
+     "start": 46.927,
+     "end": 46.981
+    },
+    {
+     "text": "the",
+     "highlight": false,
+     "start": 47.017,
+     "end": 47.09
+    },
+    {
+     "text": "same",
+     "highlight": true,
+     "start": 47.127,
+     "end": 47.327
+    },
+    {
+     "text": "time.",
+     "highlight": true,
+     "start": 47.399,
+     "end": 47.708
+    },
+    {
+     "text": "Grandma",
+     "highlight": false,
+     "start": 48.217,
+     "end": 48.545
+    },
+    {
+     "text": "never",
+     "highlight": false,
+     "start": 48.599,
+     "end": 48.781
+    },
+    {
+     "text": "told",
+     "highlight": false,
+     "start": 48.836,
+     "end": 48.999
+    },
+    {
+     "text": "me",
+     "highlight": false,
+     "start": 49.036,
+     "end": 49.127
+    },
+    {
+     "text": "what",
+     "highlight": false,
+     "start": 49.145,
+     "end": 49.254
+    },
+    {
+     "text": "that",
+     "highlight": true,
+     "start": 49.29,
+     "end": 49.417
+    },
+    {
+     "text": "means.",
+     "highlight": false,
+     "start": 49.454,
+     "end": 49.872
+    }
+   ],
+   "sfx": "Laughs stop. Silence."
+  },
+  {
+   "id": 15,
+   "start": 50.715,
+   "end": 55.344,
+   "act": 6,
+   "framing": "Close-up, to camera",
+   "camera": "Face emerges from black",
+   "vo": "Now… listen. Is she laughing near you… or far?",
+   "voKind": "narration",
+   "speaker": null,
+   "words": [
+    {
+     "text": "Now…",
+     "highlight": false,
+     "start": 51.27,
+     "end": 51.542
+    },
+    {
+     "text": "listen.",
+     "highlight": false,
+     "start": 51.979,
+     "end": 52.324
+    },
+    {
+     "text": "Is",
+     "highlight": false,
+     "start": 52.706,
+     "end": 52.779
+    },
+    {
+     "text": "she",
+     "highlight": false,
+     "start": 52.815,
+     "end": 52.96
+    },
+    {
+     "text": "laughing",
+     "highlight": false,
+     "start": 53.015,
+     "end": 53.324
+    },
+    {
+     "text": "near",
+     "highlight": true,
+     "start": 53.397,
+     "end": 53.56
+    },
+    {
+     "text": "you…",
+     "highlight": false,
+     "start": 53.67,
+     "end": 53.779
+    },
+    {
+     "text": "or",
+     "highlight": false,
+     "start": 54.233,
+     "end": 54.342
+    },
+    {
+     "text": "far?",
+     "highlight": true,
+     "start": 54.451,
+     "end": 54.724
+    }
+   ],
+   "sfx": "Breathing, very close in the mix"
+  },
+  {
+   "id": 16,
+   "start": 55.344,
+   "end": 56.944,
+   "act": 6,
+   "framing": "Black",
+   "camera": "None",
+   "vo": null,
+   "voKind": "none",
+   "speaker": null,
+   "words": [],
+   "sfx": "Laugh moves left to right across stereo"
+  },
+  {
+   "id": 17,
+   "start": 56.944,
+   "end": 59.444,
+   "act": 6,
+   "framing": "End card",
+   "camera": "Static",
+   "vo": "Comment NEAR or FAR",
+   "voKind": "on-screen",
+   "speaker": null,
+   "words": [
+    {
+     "text": "Comment",
+     "highlight": false,
+     "start": 57.194,
+     "end": 57.494
+    },
+    {
+     "text": "NEAR",
+     "highlight": true,
+     "start": 57.494,
+     "end": 57.794
+    },
+    {
+     "text": "or",
+     "highlight": false,
+     "start": 57.794,
+     "end": 58.094
+    },
+    {
+     "text": "FAR",
+     "highlight": true,
+     "start": 58.094,
+     "end": 58.394
+    }
+   ],
+   "sfx": "Single low note"
+  }
+ ]
+}
