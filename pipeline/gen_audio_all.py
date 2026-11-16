@@ -6,26 +6,22 @@ from episodes import EPISODES as _ALL, VOICES
 KEYS = sys.argv[1:] or list(_ALL)
 EPISODES = {k: _ALL[k] for k in KEYS}
 SFX = {
- "school_amb": ("Empty Japanese school corridor after hours, distant cicadas fading, faint wind through an open window, quiet hum", 20, True),
- "bathroom_amb": ("Empty tiled school bathroom at night, a slowly dripping tap, faint buzzing fluorescent light, echoey", 20, True),
- "knock3": ("Three slow knuckle knocks on a thin wooden toilet stall door in an echoey tiled room", 3, False),
- "stall_creak": ("Thin toilet stall door slowly creaking open, small squeaky hinge", 3, False),
- "plains_night": ("Open grassland plains at night, wind through tall grass, crickets, distant cattle lowing", 20, True),
- "whistle": ("Eerie lone human whistling, seven slow rising notes, distant and echoing over open plains at night", 7, False),
- "bones": ("Dry bones rattling inside a cloth sack, taken out one by one", 5, False),
- "dogs_whine": ("Two dogs whining and whimpering in fear at night", 4, False),
- "rooster": ("A rooster crowing at dawn far away in the countryside", 4, False),
- "barrio_night": ("Philippine village at night, crickets, geckos, palm leaves rustling, a distant dog bark", 20, True),
- "roof_land": ("Something heavy landing on a thatched roof, rustling straw, big wings folding", 3, False),
- "wings": ("Huge bird wings flapping heavily and taking off into the night", 3, False),
- "sniff": ("Slow heavy creature sniffing through a gap, close and breathy", 4, False),
- "pencil": ("Pencil scribbling fast on paper, scratchy", 4, False),
- "candles_out": ("Several candles blown out by a sudden gust, a soft whoosh then silence", 2, False),
- "clock_tick": ("Old wall clock ticking loudly in a quiet room at night", 10, True),
- "loch_amb": ("Scottish loch at dusk, gentle water lapping on stones, cold wind, a distant curlew call", 20, True),
- "horse_snort": ("A horse snorting and blowing softly while standing in shallow water", 3, False),
- "horse_water": ("A horse walking slowly into a lake, heavy hooves splashing in shallow water", 5, False),
- "horse_shriek": ("An unnatural shrill horse scream echoing over water, eerie", 3, False),
+ "snow_forest": ("Winter forest at night, cold wind through birch trees, snow creaking softly, very quiet", 20, True),
+ "hut_legs": ("A huge wooden hut creaking and groaning as it turns on giant legs, heavy scraping steps in deep snow", 4, False),
+ "oven_fire": ("Old clay oven fire crackling with a bubbling iron pot", 15, True),
+ "forest_summer": ("Pine forest on a bright summer night, soft breeze, distant birds, a faint creek", 20, True),
+ "goat_bells": ("Goats with small bells grazing on a mountain pasture", 8, True),
+ "singing_far": ("A woman singing a wordless haunting folk melody far away in a forest, echoing", 7, False),
+ "pig_grunt": ("A pig grunting and sniffing at a wooden door at night", 4, False),
+ "pig_squeal": ("A pig squealing loudly and running away into the night", 3, False),
+ "wall_knock": ("Knuckles knocking twice hard on a thin plaster wall", 2, False),
+ "china_street": ("Old Chinese city street at night, distant traffic, paper offerings crackling in metal bins, faint wind chimes", 20, True),
+ "whistle_tune": ("A person whistling a short simple melody once in an empty street at night", 4, False),
+ "footsteps_follow": ("Two sets of footsteps on wet pavement at night, the second following close behind and speeding up", 5, False),
+ "door_steps": ("Slow footsteps in a corridor stopping right outside an apartment door", 5, False),
+ "africa_night": ("Rural African night, crickets and frogs, a distant dog barking, soft wind in dry grass", 20, True),
+ "scratch_floor": ("Tiny claws scratching and tapping across a floor in the dark", 4, False),
+ "imp_giggle": ("A small mischievous creature giggling softly, very close, playful and eerie", 3, False),
 }
 def norm(t): return re.sub(r"[^a-z0-9' ]", "", t.lower()).split()
 def tts(ep, sid, voice, text, clean, take):
@@ -59,5 +55,5 @@ with cf.ThreadPoolExecutor(4) as ex:
         else: res[k].setdefault(str(sid), {})[str(take)] = o
         print(k, sid, take, ("ERR " + str(o["error"])[:80]) if "error" in o else ("ok " + str(o.get("score", ""))), flush=True)
 for ep in EPISODES: json.dump({"vo": res[ep]}, open(f"/home/user/{ep}/public/audio/manifest_raw.json", "w"), indent=1)
-json.dump(res["sfx"], open("/home/user/sfxlib/manifest_new4.json", "w"), indent=1)
+json.dump(res["sfx"], open("/home/user/sfxlib/manifest_new5.json", "w"), indent=1)
 print("DONE")

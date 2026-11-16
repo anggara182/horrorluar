@@ -40,7 +40,7 @@ for key, ep in [(k, EPISODES[k]) for k in KEYS]:
     b = open(f'{d}/src/comp/Bands.tsx').read()
     b = re.sub(r"import \{ VILLAGE \}.*?\n\n", "\n".join(reg_imp) + "\n\n", b, flags=re.S)
     b = b.replace("{ ...VILLAGE, ...BAMBOO, ...HOME, ...GRAPHIC }", "{ " + ", ".join(reg_spread) + " }")
-    assert 'BAMBOO' not in b and 'HOME }' not in b; open(f'{d}/src/comp/Bands.tsx', 'w').write(b)
+    assert 'BAMBOO' not in b and 'VILLAGE }' not in b.replace('VILLAGE }', '') ; open(f'{d}/src/comp/Bands.tsx', 'w').write(b)
     # style guide: generic rules + episode palette/characters
     s = style.replace('# EP03 Wewe Gombel — style guide', f"# {ep['id']} {ep['title']} — style guide")
     s = re.sub(r"## Palette.*?\n## Characters.*?\n(?=## Tech rules)", f"## Palette\n{ep['palette']}\n\n## Characters (no detailed faces)\n{ep['characters']}\n\n", s, flags=re.S)

@@ -1,0 +1,1221 @@
+{
+ "id": "EP25",
+ "title": "Tokoloshe",
+ "fps": 30,
+ "width": 1080,
+ "height": 1920,
+ "durationSec": 56.681,
+ "accent": "#7cc6fe",
+ "timingSource": "ai33 eleven_v3 transcript, tempo x1.08",
+ "shots": [
+  {
+   "id": 1,
+   "start": 0.0,
+   "end": 5.528,
+   "act": 1,
+   "set": "village",
+   "owner": "V",
+   "framing": "Wide, rondavels under a starry sky",
+   "camera": "Slow push-in",
+   "vo": "In South Africa, if you hear tiny footsteps under your bed at night… raise your bed on bricks.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "In",
+     "highlight": false,
+     "start": 0.456,
+     "end": 0.53
+    },
+    {
+     "text": "South",
+     "highlight": false,
+     "start": 0.604,
+     "end": 0.77
+    },
+    {
+     "text": "Africa,",
+     "highlight": false,
+     "start": 0.844,
+     "end": 1.178
+    },
+    {
+     "text": "if",
+     "highlight": false,
+     "start": 1.585,
+     "end": 1.659
+    },
+    {
+     "text": "you",
+     "highlight": false,
+     "start": 1.696,
+     "end": 1.77
+    },
+    {
+     "text": "hear",
+     "highlight": false,
+     "start": 1.826,
+     "end": 2.011
+    },
+    {
+     "text": "tiny",
+     "highlight": false,
+     "start": 2.067,
+     "end": 2.289
+    },
+    {
+     "text": "footsteps",
+     "highlight": false,
+     "start": 2.363,
+     "end": 2.77
+    },
+    {
+     "text": "under",
+     "highlight": false,
+     "start": 2.826,
+     "end": 2.974
+    },
+    {
+     "text": "your",
+     "highlight": false,
+     "start": 2.993,
+     "end": 3.104
+    },
+    {
+     "text": "bed",
+     "highlight": false,
+     "start": 3.141,
+     "end": 3.233
+    },
+    {
+     "text": "at",
+     "highlight": false,
+     "start": 3.27,
+     "end": 3.344
+    },
+    {
+     "text": "night…",
+     "highlight": false,
+     "start": 3.381,
+     "end": 3.604
+    },
+    {
+     "text": "raise",
+     "highlight": false,
+     "start": 3.974,
+     "end": 4.178
+    },
+    {
+     "text": "your",
+     "highlight": false,
+     "start": 4.215,
+     "end": 4.307
+    },
+    {
+     "text": "bed",
+     "highlight": false,
+     "start": 4.344,
+     "end": 4.53
+    },
+    {
+     "text": "on",
+     "highlight": false,
+     "start": 4.585,
+     "end": 4.678
+    },
+    {
+     "text": "bricks.",
+     "highlight": true,
+     "start": 4.77,
+     "end": 5.141
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "Round thatched huts under a huge starry sky, one window glowing",
+   "notes": "Acacias, stars; LOW detail bg."
+  },
+  {
+   "id": 2,
+   "start": 5.528,
+   "end": 7.816,
+   "act": 1,
+   "set": "graphic",
+   "owner": "G",
+   "framing": "Title card",
+   "camera": "Slow push",
+   "vo": "So the tokoloshe can't reach you.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "So",
+     "highlight": false,
+     "start": 5.784,
+     "end": 5.932
+    },
+    {
+     "text": "the",
+     "highlight": false,
+     "start": 5.969,
+     "end": 6.043
+    },
+    {
+     "text": "tokoloshe",
+     "highlight": true,
+     "start": 6.08,
+     "end": 6.691
+    },
+    {
+     "text": "can't",
+     "highlight": false,
+     "start": 6.784,
+     "end": 6.987
+    },
+    {
+     "text": "reach",
+     "highlight": false,
+     "start": 7.024,
+     "end": 7.247
+    },
+    {
+     "text": "you.",
+     "highlight": false,
+     "start": 7.302,
+     "end": 7.432
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "Title 'TOKOLOSHE' + 'South Africa' over a bed standing on stacked bricks, darkness beneath",
+   "notes": "Candle and moon."
+  },
+  {
+   "id": 3,
+   "start": 7.816,
+   "end": 14.516,
+   "act": 1,
+   "set": "graphic",
+   "owner": "G",
+   "framing": "Lore insert",
+   "camera": "Slow push",
+   "vo": "A small, mischievous spirit. Short as a child. It hides under beds, and it can turn invisible.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "A",
+     "highlight": false,
+     "start": 8.072,
+     "end": 8.164
+    },
+    {
+     "text": "small,",
+     "highlight": false,
+     "start": 8.238,
+     "end": 8.646
+    },
+    {
+     "text": "mischievous",
+     "highlight": false,
+     "start": 8.96,
+     "end": 9.423
+    },
+    {
+     "text": "spirit.",
+     "highlight": false,
+     "start": 9.516,
+     "end": 9.868
+    },
+    {
+     "text": "Short",
+     "highlight": false,
+     "start": 10.285,
+     "end": 10.507
+    },
+    {
+     "text": "as",
+     "highlight": false,
+     "start": 10.544,
+     "end": 10.599
+    },
+    {
+     "text": "a",
+     "highlight": false,
+     "start": 10.655,
+     "end": 10.692
+    },
+    {
+     "text": "child.",
+     "highlight": false,
+     "start": 10.747,
+     "end": 11.155
+    },
+    {
+     "text": "It",
+     "highlight": false,
+     "start": 11.572,
+     "end": 11.646
+    },
+    {
+     "text": "hides",
+     "highlight": false,
+     "start": 11.701,
+     "end": 11.979
+    },
+    {
+     "text": "under",
+     "highlight": false,
+     "start": 12.035,
+     "end": 12.22
+    },
+    {
+     "text": "beds,",
+     "highlight": false,
+     "start": 12.257,
+     "end": 12.609
+    },
+    {
+     "text": "and",
+     "highlight": false,
+     "start": 13.025,
+     "end": 13.118
+    },
+    {
+     "text": "it",
+     "highlight": false,
+     "start": 13.155,
+     "end": 13.21
+    },
+    {
+     "text": "can",
+     "highlight": false,
+     "start": 13.247,
+     "end": 13.377
+    },
+    {
+     "text": "turn",
+     "highlight": false,
+     "start": 13.433,
+     "end": 13.599
+    },
+    {
+     "text": "invisible.",
+     "highlight": true,
+     "start": 13.655,
+     "end": 14.136
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "The dark gap under a bed, two tiny glints of eyes",
+   "notes": "Eerie, not gory."
+  },
+  {
+   "id": 4,
+   "start": 14.516,
+   "end": 19.31,
+   "act": 1,
+   "set": "room",
+   "owner": "R",
+   "framing": "Medium, a bed raised on bricks",
+   "camera": "Slow push",
+   "vo": "At my grandmother's house, every bed stood on bricks. I thought it was strange.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "At",
+     "highlight": false,
+     "start": 14.772,
+     "end": 14.864
+    },
+    {
+     "text": "my",
+     "highlight": false,
+     "start": 14.883,
+     "end": 15.012
+    },
+    {
+     "text": "grandmother's",
+     "highlight": false,
+     "start": 15.049,
+     "end": 15.512
+    },
+    {
+     "text": "house,",
+     "highlight": false,
+     "start": 15.549,
+     "end": 15.846
+    },
+    {
+     "text": "every",
+     "highlight": false,
+     "start": 16.262,
+     "end": 16.485
+    },
+    {
+     "text": "bed",
+     "highlight": false,
+     "start": 16.577,
+     "end": 16.818
+    },
+    {
+     "text": "stood",
+     "highlight": false,
+     "start": 16.873,
+     "end": 17.022
+    },
+    {
+     "text": "on",
+     "highlight": false,
+     "start": 17.059,
+     "end": 17.188
+    },
+    {
+     "text": "bricks.",
+     "highlight": false,
+     "start": 17.225,
+     "end": 17.577
+    },
+    {
+     "text": "I",
+     "highlight": false,
+     "start": 17.994,
+     "end": 18.031
+    },
+    {
+     "text": "thought",
+     "highlight": false,
+     "start": 18.068,
+     "end": 18.197
+    },
+    {
+     "text": "it",
+     "highlight": false,
+     "start": 18.235,
+     "end": 18.29
+    },
+    {
+     "text": "was",
+     "highlight": false,
+     "start": 18.309,
+     "end": 18.401
+    },
+    {
+     "text": "strange.",
+     "highlight": true,
+     "start": 18.475,
+     "end": 18.92
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "A bed raised high on red brick stacks in a round room, patterned blanket",
+   "notes": "Warm candle."
+  },
+  {
+   "id": 5,
+   "start": 19.31,
+   "end": 23.593,
+   "act": 1,
+   "set": "room",
+   "owner": "R",
+   "framing": "Medium, mattress pulled to the floor",
+   "camera": "Locked",
+   "vo": "One hot night, I pulled my mattress onto the floor. It was cooler.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "One",
+     "highlight": false,
+     "start": 19.566,
+     "end": 19.695
+    },
+    {
+     "text": "hot",
+     "highlight": false,
+     "start": 19.751,
+     "end": 19.917
+    },
+    {
+     "text": "night,",
+     "highlight": false,
+     "start": 19.973,
+     "end": 20.232
+    },
+    {
+     "text": "I",
+     "highlight": false,
+     "start": 20.64,
+     "end": 20.695
+    },
+    {
+     "text": "pulled",
+     "highlight": false,
+     "start": 20.751,
+     "end": 20.936
+    },
+    {
+     "text": "my",
+     "highlight": false,
+     "start": 20.973,
+     "end": 21.084
+    },
+    {
+     "text": "mattress",
+     "highlight": false,
+     "start": 21.121,
+     "end": 21.454
+    },
+    {
+     "text": "onto",
+     "highlight": false,
+     "start": 21.51,
+     "end": 21.658
+    },
+    {
+     "text": "the",
+     "highlight": false,
+     "start": 21.695,
+     "end": 21.769
+    },
+    {
+     "text": "floor.",
+     "highlight": false,
+     "start": 21.825,
+     "end": 22.195
+    },
+    {
+     "text": "It",
+     "highlight": false,
+     "start": 22.612,
+     "end": 22.667
+    },
+    {
+     "text": "was",
+     "highlight": false,
+     "start": 22.704,
+     "end": 22.834
+    },
+    {
+     "text": "cooler.",
+     "highlight": true,
+     "start": 22.89,
+     "end": 23.204
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "Girl lying on a mattress on the floor beside the empty high bed",
+   "notes": "Calm."
+  },
+  {
+   "id": 6,
+   "start": 23.593,
+   "end": 27.691,
+   "act": 1,
+   "set": "room",
+   "owner": "R",
+   "framing": "Low angle, the floor in the dark",
+   "camera": "Very slow push",
+   "vo": "At midnight, I heard tiny footsteps. Scratching on the floor.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "At",
+     "highlight": false,
+     "start": 23.849,
+     "end": 23.941
+    },
+    {
+     "text": "midnight,",
+     "highlight": false,
+     "start": 23.997,
+     "end": 24.404
+    },
+    {
+     "text": "I",
+     "highlight": false,
+     "start": 24.812,
+     "end": 24.849
+    },
+    {
+     "text": "heard",
+     "highlight": false,
+     "start": 24.886,
+     "end": 25.071
+    },
+    {
+     "text": "tiny",
+     "highlight": false,
+     "start": 25.126,
+     "end": 25.404
+    },
+    {
+     "text": "footsteps.",
+     "highlight": false,
+     "start": 25.441,
+     "end": 25.96
+    },
+    {
+     "text": "Scratching",
+     "highlight": false,
+     "start": 26.376,
+     "end": 26.71
+    },
+    {
+     "text": "on",
+     "highlight": false,
+     "start": 26.747,
+     "end": 26.821
+    },
+    {
+     "text": "the",
+     "highlight": false,
+     "start": 26.839,
+     "end": 26.913
+    },
+    {
+     "text": "floor.",
+     "highlight": true,
+     "start": 26.969,
+     "end": 27.302
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "Floor level in darkness, the gap under the high bed, faint moonlight",
+   "notes": "Hold."
+  },
+  {
+   "id": 7,
+   "start": 27.691,
+   "end": 30.677,
+   "act": 1,
+   "set": "room",
+   "owner": "R",
+   "framing": "Close, the girl's face on the pillow",
+   "camera": "Locked",
+   "vo": "Then something giggled. Right next to my ear.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "Then",
+     "highlight": false,
+     "start": 27.947,
+     "end": 28.15
+    },
+    {
+     "text": "something",
+     "highlight": false,
+     "start": 28.28,
+     "end": 28.576
+    },
+    {
+     "text": "giggled.",
+     "highlight": false,
+     "start": 28.65,
+     "end": 28.965
+    },
+    {
+     "text": "Right",
+     "highlight": false,
+     "start": 29.382,
+     "end": 29.53
+    },
+    {
+     "text": "next",
+     "highlight": false,
+     "start": 29.567,
+     "end": 29.734
+    },
+    {
+     "text": "to",
+     "highlight": false,
+     "start": 29.771,
+     "end": 29.808
+    },
+    {
+     "text": "my",
+     "highlight": false,
+     "start": 29.845,
+     "end": 29.993
+    },
+    {
+     "text": "ear.",
+     "highlight": true,
+     "start": 30.067,
+     "end": 30.289
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "Girl's face on the pillow, eyes wide open in the dark",
+   "notes": "Tension."
+  },
+  {
+   "id": 8,
+   "start": 30.677,
+   "end": 33.723,
+   "act": 1,
+   "set": "room",
+   "owner": "R",
+   "framing": "Close, small fingers on the blanket",
+   "camera": "Locked",
+   "vo": "I felt little fingers on my blanket.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "I",
+     "highlight": false,
+     "start": 30.933,
+     "end": 31.081
+    },
+    {
+     "text": "felt",
+     "highlight": false,
+     "start": 31.118,
+     "end": 31.34
+    },
+    {
+     "text": "little",
+     "highlight": false,
+     "start": 31.396,
+     "end": 31.562
+    },
+    {
+     "text": "fingers",
+     "highlight": false,
+     "start": 31.673,
+     "end": 32.155
+    },
+    {
+     "text": "on",
+     "highlight": false,
+     "start": 32.571,
+     "end": 32.683
+    },
+    {
+     "text": "my",
+     "highlight": false,
+     "start": 32.72,
+     "end": 32.849
+    },
+    {
+     "text": "blanket.",
+     "highlight": true,
+     "start": 32.886,
+     "end": 33.331
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "Small grey fingers curling over the edge of the blanket",
+   "notes": "Hero; eerie, not gory."
+  },
+  {
+   "id": 9,
+   "start": 33.723,
+   "end": 38.305,
+   "act": 1,
+   "set": "room",
+   "owner": "R",
+   "framing": "Medium, grandmother with a candle",
+   "camera": "Handheld",
+   "vo": "I screamed. Grandma ran in with a candle. The room was empty.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "I",
+     "highlight": false,
+     "start": 33.979,
+     "end": 33.997
+    },
+    {
+     "text": "screamed.",
+     "highlight": false,
+     "start": 34.219,
+     "end": 34.701
+    },
+    {
+     "text": "Grandma",
+     "highlight": false,
+     "start": 35.117,
+     "end": 35.488
+    },
+    {
+     "text": "ran",
+     "highlight": false,
+     "start": 35.599,
+     "end": 35.784
+    },
+    {
+     "text": "in",
+     "highlight": false,
+     "start": 35.84,
+     "end": 35.932
+    },
+    {
+     "text": "with",
+     "highlight": false,
+     "start": 35.969,
+     "end": 36.062
+    },
+    {
+     "text": "a",
+     "highlight": false,
+     "start": 36.099,
+     "end": 36.136
+    },
+    {
+     "text": "candle.",
+     "highlight": false,
+     "start": 36.21,
+     "end": 36.617
+    },
+    {
+     "text": "The",
+     "highlight": false,
+     "start": 37.034,
+     "end": 37.127
+    },
+    {
+     "text": "room",
+     "highlight": false,
+     "start": 37.182,
+     "end": 37.367
+    },
+    {
+     "text": "was",
+     "highlight": false,
+     "start": 37.404,
+     "end": 37.516
+    },
+    {
+     "text": "empty.",
+     "highlight": true,
+     "start": 37.59,
+     "end": 37.923
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "Grandmother in the doorway with a candle, the girl sitting up, nothing else",
+   "notes": "Candle light."
+  },
+  {
+   "id": 10,
+   "start": 38.305,
+   "end": 42.714,
+   "act": 1,
+   "set": "room",
+   "owner": "R",
+   "framing": "Close, tiny muddy footprints",
+   "camera": "Slow push along the prints",
+   "vo": "But on the floor, tiny muddy footprints. Leading under the door.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "But",
+     "highlight": false,
+     "start": 38.561,
+     "end": 38.653
+    },
+    {
+     "text": "on",
+     "highlight": false,
+     "start": 38.69,
+     "end": 38.764
+    },
+    {
+     "text": "the",
+     "highlight": false,
+     "start": 38.783,
+     "end": 38.857
+    },
+    {
+     "text": "floor,",
+     "highlight": false,
+     "start": 38.912,
+     "end": 39.246
+    },
+    {
+     "text": "tiny",
+     "highlight": false,
+     "start": 39.662,
+     "end": 40.014
+    },
+    {
+     "text": "muddy",
+     "highlight": false,
+     "start": 40.07,
+     "end": 40.292
+    },
+    {
+     "text": "footprints.",
+     "highlight": false,
+     "start": 40.348,
+     "end": 40.996
+    },
+    {
+     "text": "Leading",
+     "highlight": false,
+     "start": 41.412,
+     "end": 41.672
+    },
+    {
+     "text": "under",
+     "highlight": false,
+     "start": 41.709,
+     "end": 41.857
+    },
+    {
+     "text": "the",
+     "highlight": false,
+     "start": 41.894,
+     "end": 41.968
+    },
+    {
+     "text": "door.",
+     "highlight": true,
+     "start": 42.024,
+     "end": 42.32
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "A trail of tiny muddy footprints across the floor to the gap under the door",
+   "notes": "Hero."
+  },
+  {
+   "id": 11,
+   "start": 42.714,
+   "end": 47.962,
+   "act": 1,
+   "set": "village",
+   "owner": "V",
+   "framing": "Wide, the homestead at dawn",
+   "camera": "Slow pull-back",
+   "vo": "In the morning, Grandma stacked new bricks under my bed. Without saying a word.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "In",
+     "highlight": false,
+     "start": 42.97,
+     "end": 43.007
+    },
+    {
+     "text": "the",
+     "highlight": false,
+     "start": 43.044,
+     "end": 43.099
+    },
+    {
+     "text": "morning,",
+     "highlight": false,
+     "start": 43.155,
+     "end": 43.544
+    },
+    {
+     "text": "Grandma",
+     "highlight": false,
+     "start": 43.951,
+     "end": 44.321
+    },
+    {
+     "text": "stacked",
+     "highlight": false,
+     "start": 44.47,
+     "end": 44.821
+    },
+    {
+     "text": "new",
+     "highlight": false,
+     "start": 44.895,
+     "end": 45.099
+    },
+    {
+     "text": "bricks",
+     "highlight": false,
+     "start": 45.136,
+     "end": 45.433
+    },
+    {
+     "text": "under",
+     "highlight": false,
+     "start": 45.488,
+     "end": 45.636
+    },
+    {
+     "text": "my",
+     "highlight": false,
+     "start": 45.673,
+     "end": 45.784
+    },
+    {
+     "text": "bed.",
+     "highlight": false,
+     "start": 45.84,
+     "end": 46.099
+    },
+    {
+     "text": "Without",
+     "highlight": false,
+     "start": 46.516,
+     "end": 46.831
+    },
+    {
+     "text": "saying",
+     "highlight": false,
+     "start": 46.886,
+     "end": 47.09
+    },
+    {
+     "text": "a",
+     "highlight": false,
+     "start": 47.145,
+     "end": 47.201
+    },
+    {
+     "text": "word.",
+     "highlight": true,
+     "start": 47.257,
+     "end": 47.571
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "The huts in pink dawn light, grandmother carrying bricks across the yard",
+   "notes": "Dawn."
+  },
+  {
+   "id": 12,
+   "start": 47.962,
+   "end": 53.881,
+   "act": 1,
+   "set": "village",
+   "owner": "V",
+   "framing": "Wide, a city apartment at night",
+   "camera": "Slow push-in",
+   "vo": "Now I live in the city. My bed is low. And some nights… I hear tiny footsteps again.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "Now",
+     "highlight": false,
+     "start": 48.218,
+     "end": 48.514
+    },
+    {
+     "text": "I",
+     "highlight": false,
+     "start": 48.606,
+     "end": 48.643
+    },
+    {
+     "text": "live",
+     "highlight": false,
+     "start": 48.681,
+     "end": 48.792
+    },
+    {
+     "text": "in",
+     "highlight": false,
+     "start": 48.81,
+     "end": 48.866
+    },
+    {
+     "text": "the",
+     "highlight": false,
+     "start": 48.903,
+     "end": 48.977
+    },
+    {
+     "text": "city.",
+     "highlight": false,
+     "start": 49.032,
+     "end": 49.273
+    },
+    {
+     "text": "My",
+     "highlight": false,
+     "start": 49.69,
+     "end": 49.801
+    },
+    {
+     "text": "bed",
+     "highlight": false,
+     "start": 49.856,
+     "end": 49.986
+    },
+    {
+     "text": "is",
+     "highlight": false,
+     "start": 50.023,
+     "end": 50.153
+    },
+    {
+     "text": "low.",
+     "highlight": false,
+     "start": 50.227,
+     "end": 50.449
+    },
+    {
+     "text": "And",
+     "highlight": false,
+     "start": 50.866,
+     "end": 50.995
+    },
+    {
+     "text": "some",
+     "highlight": false,
+     "start": 51.051,
+     "end": 51.199
+    },
+    {
+     "text": "nights…",
+     "highlight": false,
+     "start": 51.255,
+     "end": 51.55
+    },
+    {
+     "text": "I",
+     "highlight": false,
+     "start": 51.967,
+     "end": 52.004
+    },
+    {
+     "text": "hear",
+     "highlight": false,
+     "start": 52.041,
+     "end": 52.189
+    },
+    {
+     "text": "tiny",
+     "highlight": false,
+     "start": 52.244,
+     "end": 52.522
+    },
+    {
+     "text": "footsteps",
+     "highlight": false,
+     "start": 52.578,
+     "end": 52.985
+    },
+    {
+     "text": "again.",
+     "highlight": true,
+     "start": 53.041,
+     "end": 53.3
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "A city apartment block at night, one window lit, a low bed visible inside",
+   "notes": "Cold."
+  },
+  {
+   "id": 13,
+   "start": 53.881,
+   "end": 56.681,
+   "act": 1,
+   "set": "graphic",
+   "owner": "G",
+   "framing": "End card",
+   "camera": "Static",
+   "vo": "Would you sleep on the floor? Comment YES or NO.",
+   "voKind": "onscreen",
+   "speaker": null,
+   "words": [
+    {
+     "text": "Would",
+     "highlight": false,
+     "start": 54.131,
+     "end": 54.431
+    },
+    {
+     "text": "you",
+     "highlight": false,
+     "start": 54.351,
+     "end": 54.651
+    },
+    {
+     "text": "sleep",
+     "highlight": false,
+     "start": 54.571,
+     "end": 54.871
+    },
+    {
+     "text": "on",
+     "highlight": false,
+     "start": 54.791,
+     "end": 55.091
+    },
+    {
+     "text": "the",
+     "highlight": false,
+     "start": 55.011,
+     "end": 55.311
+    },
+    {
+     "text": "floor?",
+     "highlight": false,
+     "start": 55.231,
+     "end": 55.531
+    },
+    {
+     "text": "Comment",
+     "highlight": false,
+     "start": 55.451,
+     "end": 55.751
+    },
+    {
+     "text": "YES",
+     "highlight": true,
+     "start": 55.671,
+     "end": 55.971
+    },
+    {
+     "text": "or",
+     "highlight": false,
+     "start": 55.891,
+     "end": 56.191
+    },
+    {
+     "text": "NO.",
+     "highlight": true,
+     "start": 56.111,
+     "end": 56.411
+    }
+   ],
+   "trans": "cut",
+   "caption": false,
+   "cool": false,
+   "hero": "CTA with a bed on bricks and tiny footprints motif",
+   "notes": "No caption (on-screen text)."
+  }
+ ],
+ "audio": true
+}

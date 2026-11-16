@@ -1,0 +1,1065 @@
+{
+ "id": "EP24",
+ "title": "Ghost Month",
+ "fps": 30,
+ "width": 1080,
+ "height": 1920,
+ "durationSec": 53.96,
+ "accent": "#ff4d4d",
+ "timingSource": "ai33 eleven_v3 transcript, tempo x1.05",
+ "shots": [
+  {
+   "id": 1,
+   "start": 0.0,
+   "end": 5.984,
+   "act": 1,
+   "set": "street",
+   "owner": "T",
+   "framing": "Wide, lantern-lit street at night",
+   "camera": "Slow push-in",
+   "vo": "In China, during the seventh month, if someone taps your shoulder at night… don't turn around.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "In",
+     "highlight": false,
+     "start": 0.457,
+     "end": 0.552
+    },
+    {
+     "text": "China,",
+     "highlight": false,
+     "start": 0.648,
+     "end": 1.029
+    },
+    {
+     "text": "during",
+     "highlight": false,
+     "start": 1.39,
+     "end": 1.581
+    },
+    {
+     "text": "the",
+     "highlight": false,
+     "start": 1.619,
+     "end": 1.695
+    },
+    {
+     "text": "seventh",
+     "highlight": false,
+     "start": 1.752,
+     "end": 2.019
+    },
+    {
+     "text": "month,",
+     "highlight": false,
+     "start": 2.114,
+     "end": 2.381
+    },
+    {
+     "text": "if",
+     "highlight": false,
+     "start": 2.81,
+     "end": 2.886
+    },
+    {
+     "text": "someone",
+     "highlight": false,
+     "start": 2.943,
+     "end": 3.19
+    },
+    {
+     "text": "taps",
+     "highlight": false,
+     "start": 3.267,
+     "end": 3.495
+    },
+    {
+     "text": "your",
+     "highlight": false,
+     "start": 3.533,
+     "end": 3.648
+    },
+    {
+     "text": "shoulder",
+     "highlight": false,
+     "start": 3.686,
+     "end": 3.952
+    },
+    {
+     "text": "at",
+     "highlight": false,
+     "start": 3.99,
+     "end": 4.067
+    },
+    {
+     "text": "night…",
+     "highlight": false,
+     "start": 4.105,
+     "end": 4.352
+    },
+    {
+     "text": "don't",
+     "highlight": false,
+     "start": 4.733,
+     "end": 4.924
+    },
+    {
+     "text": "turn",
+     "highlight": false,
+     "start": 4.981,
+     "end": 5.133
+    },
+    {
+     "text": "around.",
+     "highlight": true,
+     "start": 5.19,
+     "end": 5.59
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "Old street of shophouses, red lanterns, small offering fires burning in bins on the pavement",
+   "notes": "Lanterns; LOW detail bg."
+  },
+  {
+   "id": 2,
+   "start": 5.984,
+   "end": 7.491,
+   "act": 1,
+   "set": "graphic",
+   "owner": "G",
+   "framing": "Title card",
+   "camera": "Slow push",
+   "vo": "It's Ghost Month.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "It's",
+     "highlight": false,
+     "start": 6.241,
+     "end": 6.451
+    },
+    {
+     "text": "Ghost",
+     "highlight": true,
+     "start": 6.47,
+     "end": 6.755
+    },
+    {
+     "text": "Month.",
+     "highlight": true,
+     "start": 6.832,
+     "end": 7.098
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "Title 'GHOST MONTH' + '鬼月 · China' over a red lantern and rising smoke",
+   "notes": "Red glow."
+  },
+  {
+   "id": 3,
+   "start": 7.491,
+   "end": 13.582,
+   "act": 1,
+   "set": "graphic",
+   "owner": "G",
+   "framing": "Lore insert",
+   "camera": "Slow push",
+   "vo": "For thirty days, the gates of the underworld open. And the hungry dead walk among the living.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "For",
+     "highlight": false,
+     "start": 7.748,
+     "end": 7.843
+    },
+    {
+     "text": "thirty",
+     "highlight": false,
+     "start": 8.091,
+     "end": 8.224
+    },
+    {
+     "text": "days,",
+     "highlight": false,
+     "start": 8.32,
+     "end": 8.701
+    },
+    {
+     "text": "the",
+     "highlight": false,
+     "start": 9.129,
+     "end": 9.205
+    },
+    {
+     "text": "gates",
+     "highlight": false,
+     "start": 9.262,
+     "end": 9.51
+    },
+    {
+     "text": "of",
+     "highlight": false,
+     "start": 9.548,
+     "end": 9.605
+    },
+    {
+     "text": "the",
+     "highlight": false,
+     "start": 9.662,
+     "end": 9.739
+    },
+    {
+     "text": "underworld",
+     "highlight": false,
+     "start": 9.796,
+     "end": 10.291
+    },
+    {
+     "text": "open.",
+     "highlight": false,
+     "start": 10.424,
+     "end": 10.748
+    },
+    {
+     "text": "And",
+     "highlight": false,
+     "start": 11.177,
+     "end": 11.253
+    },
+    {
+     "text": "the",
+     "highlight": false,
+     "start": 11.291,
+     "end": 11.367
+    },
+    {
+     "text": "hungry",
+     "highlight": false,
+     "start": 11.424,
+     "end": 11.748
+    },
+    {
+     "text": "dead",
+     "highlight": false,
+     "start": 11.862,
+     "end": 12.091
+    },
+    {
+     "text": "walk",
+     "highlight": false,
+     "start": 12.205,
+     "end": 12.434
+    },
+    {
+     "text": "among",
+     "highlight": false,
+     "start": 12.472,
+     "end": 12.72
+    },
+    {
+     "text": "the",
+     "highlight": false,
+     "start": 12.758,
+     "end": 12.815
+    },
+    {
+     "text": "living.",
+     "highlight": true,
+     "start": 12.853,
+     "end": 13.196
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "Paper offerings burning, sparks rising past a row of lanterns into the dark",
+   "notes": "Respectful."
+  },
+  {
+   "id": 4,
+   "start": 13.582,
+   "end": 19.88,
+   "act": 1,
+   "set": "home",
+   "owner": "H",
+   "framing": "Medium, grandmother lighting incense",
+   "camera": "Slow push",
+   "vo": "My grandmother had rules. Don't whistle at night. Don't swim. And never turn around.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "My",
+     "highlight": false,
+     "start": 13.839,
+     "end": 14.049
+    },
+    {
+     "text": "grandmother",
+     "highlight": false,
+     "start": 14.087,
+     "end": 14.62
+    },
+    {
+     "text": "had",
+     "highlight": false,
+     "start": 14.677,
+     "end": 14.849
+    },
+    {
+     "text": "rules.",
+     "highlight": false,
+     "start": 14.906,
+     "end": 15.306
+    },
+    {
+     "text": "Don't",
+     "highlight": false,
+     "start": 15.734,
+     "end": 15.925
+    },
+    {
+     "text": "whistle",
+     "highlight": false,
+     "start": 15.963,
+     "end": 16.211
+    },
+    {
+     "text": "at",
+     "highlight": false,
+     "start": 16.249,
+     "end": 16.344
+    },
+    {
+     "text": "night.",
+     "highlight": false,
+     "start": 16.401,
+     "end": 16.668
+    },
+    {
+     "text": "Don't",
+     "highlight": false,
+     "start": 16.992,
+     "end": 17.22
+    },
+    {
+     "text": "swim.",
+     "highlight": false,
+     "start": 17.296,
+     "end": 17.62
+    },
+    {
+     "text": "And",
+     "highlight": false,
+     "start": 18.02,
+     "end": 18.153
+    },
+    {
+     "text": "never",
+     "highlight": false,
+     "start": 18.23,
+     "end": 18.744
+    },
+    {
+     "text": "turn",
+     "highlight": false,
+     "start": 18.801,
+     "end": 18.972
+    },
+    {
+     "text": "around.",
+     "highlight": true,
+     "start": 19.03,
+     "end": 19.487
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "Grandmother in profile lighting incense at a small home altar, smoke curling",
+   "notes": "Warm."
+  },
+  {
+   "id": 5,
+   "start": 19.88,
+   "end": 24.006,
+   "act": 1,
+   "set": "street",
+   "owner": "T",
+   "framing": "Medium, walking home past the offerings",
+   "camera": "Tracking from behind",
+   "vo": "One night, walking home past the burning offerings, I whistled.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "One",
+     "highlight": false,
+     "start": 20.137,
+     "end": 20.27
+    },
+    {
+     "text": "night,",
+     "highlight": false,
+     "start": 20.328,
+     "end": 20.575
+    },
+    {
+     "text": "walking",
+     "highlight": false,
+     "start": 20.956,
+     "end": 21.261
+    },
+    {
+     "text": "home",
+     "highlight": false,
+     "start": 21.318,
+     "end": 21.528
+    },
+    {
+     "text": "past",
+     "highlight": false,
+     "start": 21.585,
+     "end": 21.775
+    },
+    {
+     "text": "the",
+     "highlight": false,
+     "start": 21.813,
+     "end": 21.89
+    },
+    {
+     "text": "burning",
+     "highlight": false,
+     "start": 21.928,
+     "end": 22.156
+    },
+    {
+     "text": "offerings,",
+     "highlight": false,
+     "start": 22.232,
+     "end": 22.709
+    },
+    {
+     "text": "I",
+     "highlight": false,
+     "start": 23.137,
+     "end": 23.194
+    },
+    {
+     "text": "whistled.",
+     "highlight": true,
+     "start": 23.251,
+     "end": 23.612
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "Young woman from behind walking past offering fires and lanterns",
+   "notes": "Night."
+  },
+  {
+   "id": 6,
+   "start": 24.006,
+   "end": 27.194,
+   "act": 1,
+   "set": "street",
+   "owner": "T",
+   "framing": "Wide, the empty street behind her",
+   "camera": "Locked",
+   "vo": "Behind me, someone whistled the same tune.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "Behind",
+     "highlight": false,
+     "start": 24.263,
+     "end": 24.72
+    },
+    {
+     "text": "me,",
+     "highlight": false,
+     "start": 24.758,
+     "end": 24.911
+    },
+    {
+     "text": "someone",
+     "highlight": false,
+     "start": 25.339,
+     "end": 25.663
+    },
+    {
+     "text": "whistled",
+     "highlight": false,
+     "start": 25.701,
+     "end": 25.987
+    },
+    {
+     "text": "the",
+     "highlight": false,
+     "start": 26.025,
+     "end": 26.101
+    },
+    {
+     "text": "same",
+     "highlight": false,
+     "start": 26.158,
+     "end": 26.406
+    },
+    {
+     "text": "tune.",
+     "highlight": true,
+     "start": 26.463,
+     "end": 26.806
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "The empty wet street behind her, lanterns swaying, nobody there",
+   "notes": "Hold."
+  },
+  {
+   "id": 7,
+   "start": 27.194,
+   "end": 30.404,
+   "act": 1,
+   "set": "street",
+   "owner": "T",
+   "framing": "Low angle, her feet and a second shadow",
+   "camera": "Tracking",
+   "vo": "I walked faster. The footsteps walked faster.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "I",
+     "highlight": false,
+     "start": 27.451,
+     "end": 27.489
+    },
+    {
+     "text": "walked",
+     "highlight": false,
+     "start": 27.527,
+     "end": 27.756
+    },
+    {
+     "text": "faster.",
+     "highlight": false,
+     "start": 27.851,
+     "end": 28.27
+    },
+    {
+     "text": "The",
+     "highlight": false,
+     "start": 28.699,
+     "end": 28.775
+    },
+    {
+     "text": "footsteps",
+     "highlight": false,
+     "start": 28.813,
+     "end": 29.251
+    },
+    {
+     "text": "walked",
+     "highlight": false,
+     "start": 29.346,
+     "end": 29.537
+    },
+    {
+     "text": "faster.",
+     "highlight": true,
+     "start": 29.632,
+     "end": 30.013
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "Her feet on wet pavement; under the lantern light, two shadows where there should be one",
+   "notes": "Tension."
+  },
+  {
+   "id": 8,
+   "start": 30.404,
+   "end": 33.613,
+   "act": 1,
+   "set": "street",
+   "owner": "T",
+   "framing": "Close, a pale hand on her shoulder",
+   "camera": "Locked",
+   "vo": "Then a cold hand tapped my shoulder.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "Then",
+     "highlight": false,
+     "start": 30.661,
+     "end": 31.023
+    },
+    {
+     "text": "a",
+     "highlight": false,
+     "start": 31.08,
+     "end": 31.137
+    },
+    {
+     "text": "cold",
+     "highlight": false,
+     "start": 31.194,
+     "end": 31.518
+    },
+    {
+     "text": "hand",
+     "highlight": false,
+     "start": 31.575,
+     "end": 31.937
+    },
+    {
+     "text": "tapped",
+     "highlight": false,
+     "start": 32.366,
+     "end": 32.614
+    },
+    {
+     "text": "my",
+     "highlight": false,
+     "start": 32.652,
+     "end": 32.804
+    },
+    {
+     "text": "shoulder.",
+     "highlight": true,
+     "start": 32.842,
+     "end": 33.223
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "A thin pale grey hand resting on the shoulder of her hoodie",
+   "notes": "Hero; eerie, not gory."
+  },
+  {
+   "id": 9,
+   "start": 33.613,
+   "end": 35.827,
+   "act": 1,
+   "set": "street",
+   "owner": "T",
+   "framing": "Close, her face, eyes forward",
+   "camera": "Very slow push",
+   "vo": "Every part of me wanted to look.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "Every",
+     "highlight": false,
+     "start": 33.87,
+     "end": 34.023
+    },
+    {
+     "text": "part",
+     "highlight": false,
+     "start": 34.118,
+     "end": 34.308
+    },
+    {
+     "text": "of",
+     "highlight": false,
+     "start": 34.327,
+     "end": 34.423
+    },
+    {
+     "text": "me",
+     "highlight": false,
+     "start": 34.461,
+     "end": 34.575
+    },
+    {
+     "text": "wanted",
+     "highlight": false,
+     "start": 34.823,
+     "end": 35.032
+    },
+    {
+     "text": "to",
+     "highlight": false,
+     "start": 35.07,
+     "end": 35.165
+    },
+    {
+     "text": "look.",
+     "highlight": true,
+     "start": 35.223,
+     "end": 35.432
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "Her profile in red lantern light, eyes wide, refusing to turn",
+   "notes": "Hold."
+  },
+  {
+   "id": 10,
+   "start": 35.827,
+   "end": 40.185,
+   "act": 1,
+   "set": "home",
+   "owner": "H",
+   "framing": "Medium, lighting incense at the altar",
+   "camera": "Handheld",
+   "vo": "I didn't. I ran home and lit incense, the way Grandma taught me.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "I",
+     "highlight": false,
+     "start": 36.084,
+     "end": 36.141
+    },
+    {
+     "text": "didn't.",
+     "highlight": false,
+     "start": 36.179,
+     "end": 36.522
+    },
+    {
+     "text": "I",
+     "highlight": false,
+     "start": 36.951,
+     "end": 37.027
+    },
+    {
+     "text": "ran",
+     "highlight": false,
+     "start": 37.084,
+     "end": 37.313
+    },
+    {
+     "text": "home",
+     "highlight": false,
+     "start": 37.37,
+     "end": 37.56
+    },
+    {
+     "text": "and",
+     "highlight": false,
+     "start": 37.598,
+     "end": 37.675
+    },
+    {
+     "text": "lit",
+     "highlight": false,
+     "start": 37.694,
+     "end": 37.827
+    },
+    {
+     "text": "incense,",
+     "highlight": false,
+     "start": 37.884,
+     "end": 38.36
+    },
+    {
+     "text": "the",
+     "highlight": false,
+     "start": 38.789,
+     "end": 38.846
+    },
+    {
+     "text": "way",
+     "highlight": false,
+     "start": 38.884,
+     "end": 38.998
+    },
+    {
+     "text": "Grandma",
+     "highlight": false,
+     "start": 39.037,
+     "end": 39.379
+    },
+    {
+     "text": "taught",
+     "highlight": true,
+     "start": 39.437,
+     "end": 39.627
+    },
+    {
+     "text": "me.",
+     "highlight": false,
+     "start": 39.665,
+     "end": 39.798
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "Her shaking hands lighting incense sticks at the small altar",
+   "notes": "Fast to calm."
+  },
+  {
+   "id": 11,
+   "start": 40.185,
+   "end": 45.402,
+   "act": 1,
+   "set": "home",
+   "owner": "H",
+   "framing": "Medium, the front door from inside",
+   "camera": "Locked",
+   "vo": "Outside my door, slow footsteps. Then nothing. Until dawn.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "Outside",
+     "highlight": false,
+     "start": 40.442,
+     "end": 40.785
+    },
+    {
+     "text": "my",
+     "highlight": false,
+     "start": 40.823,
+     "end": 40.975
+    },
+    {
+     "text": "door,",
+     "highlight": false,
+     "start": 41.014,
+     "end": 41.299
+    },
+    {
+     "text": "slow",
+     "highlight": false,
+     "start": 41.68,
+     "end": 41.909
+    },
+    {
+     "text": "footsteps.",
+     "highlight": false,
+     "start": 41.966,
+     "end": 42.518
+    },
+    {
+     "text": "Then",
+     "highlight": false,
+     "start": 42.947,
+     "end": 43.195
+    },
+    {
+     "text": "nothing.",
+     "highlight": false,
+     "start": 43.537,
+     "end": 43.899
+    },
+    {
+     "text": "Until",
+     "highlight": false,
+     "start": 44.328,
+     "end": 44.575
+    },
+    {
+     "text": "dawn.",
+     "highlight": true,
+     "start": 44.671,
+     "end": 45.014
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "The apartment door, a line of corridor light under it, a shadow standing still",
+   "notes": "Hold."
+  },
+  {
+   "id": 12,
+   "start": 45.402,
+   "end": 51.16,
+   "act": 1,
+   "set": "home",
+   "owner": "H",
+   "framing": "Close, the window at night",
+   "camera": "Slow push-in",
+   "vo": "The month is over now. But sometimes, when I whistle… someone still whistles back.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "The",
+     "highlight": false,
+     "start": 45.659,
+     "end": 45.735
+    },
+    {
+     "text": "month",
+     "highlight": false,
+     "start": 45.773,
+     "end": 45.983
+    },
+    {
+     "text": "is",
+     "highlight": false,
+     "start": 46.04,
+     "end": 46.116
+    },
+    {
+     "text": "over",
+     "highlight": false,
+     "start": 46.192,
+     "end": 46.383
+    },
+    {
+     "text": "now.",
+     "highlight": false,
+     "start": 46.44,
+     "end": 46.631
+    },
+    {
+     "text": "But",
+     "highlight": false,
+     "start": 47.031,
+     "end": 47.164
+    },
+    {
+     "text": "sometimes,",
+     "highlight": false,
+     "start": 47.221,
+     "end": 47.792
+    },
+    {
+     "text": "when",
+     "highlight": false,
+     "start": 48.192,
+     "end": 48.288
+    },
+    {
+     "text": "I",
+     "highlight": false,
+     "start": 48.364,
+     "end": 48.402
+    },
+    {
+     "text": "whistle…",
+     "highlight": false,
+     "start": 48.44,
+     "end": 48.764
+    },
+    {
+     "text": "someone",
+     "highlight": false,
+     "start": 49.192,
+     "end": 49.535
+    },
+    {
+     "text": "still",
+     "highlight": false,
+     "start": 49.631,
+     "end": 49.859
+    },
+    {
+     "text": "whistles",
+     "highlight": false,
+     "start": 49.897,
+     "end": 50.202
+    },
+    {
+     "text": "back.",
+     "highlight": true,
+     "start": 50.259,
+     "end": 50.564
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "Her window at night, a lantern-lit street below, her reflection in the glass",
+   "notes": "Cold."
+  },
+  {
+   "id": 13,
+   "start": 51.16,
+   "end": 53.96,
+   "act": 1,
+   "set": "graphic",
+   "owner": "G",
+   "framing": "End card",
+   "camera": "Static",
+   "vo": "Would you turn around? Comment YES or NO.",
+   "voKind": "onscreen",
+   "speaker": null,
+   "words": [
+    {
+     "text": "Would",
+     "highlight": false,
+     "start": 51.41,
+     "end": 51.71
+    },
+    {
+     "text": "you",
+     "highlight": false,
+     "start": 51.63,
+     "end": 51.93
+    },
+    {
+     "text": "turn",
+     "highlight": false,
+     "start": 51.85,
+     "end": 52.15
+    },
+    {
+     "text": "around?",
+     "highlight": false,
+     "start": 52.07,
+     "end": 52.37
+    },
+    {
+     "text": "Comment",
+     "highlight": false,
+     "start": 52.29,
+     "end": 52.59
+    },
+    {
+     "text": "YES",
+     "highlight": true,
+     "start": 52.51,
+     "end": 52.81
+    },
+    {
+     "text": "or",
+     "highlight": false,
+     "start": 52.73,
+     "end": 53.03
+    },
+    {
+     "text": "NO.",
+     "highlight": true,
+     "start": 52.95,
+     "end": 53.25
+    }
+   ],
+   "trans": "cut",
+   "caption": false,
+   "cool": false,
+   "hero": "CTA with a red lantern and pale hand motif",
+   "notes": "No caption (on-screen text)."
+  }
+ ],
+ "audio": true
+}

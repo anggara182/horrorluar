@@ -7,4 +7,4 @@
 - **Tidak boleh ada overlap volume:** antar cue SFX tidak saling menimpa (dicek otomatis), VO minimal ~13 dB di atas background di setiap kata.
 - **Master:** −14 LUFS integrated, limiter peak −1,4 dBFS.
 - **QC akhir:** spesifikasi file, durasi vs `episode.json`, loudness, dan offset audio (cross-correlation) harus 0 ms.
-- **SFX library:** `library/sfx/` (87 file, prompt asal tercatat di `library/catalog.json`). Tiga take `laugh_ghost*` noise, jangan dipakai.
+- **SFX library:** `library/sfx/` (103 file, prompt asal tercatat di `library/catalog.json`). Tiga take `laugh_ghost*` noise, jangan dipakai.

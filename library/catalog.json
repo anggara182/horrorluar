@@ -3423,6 +3423,851 @@
    ],
    "kit": "svg",
    "sprite": "thumbs/sprites/ep20.jpg"
+  },
+  {
+   "key": "ep21",
+   "title": "Baba Yaga",
+   "country": "Russia",
+   "project": "/home/user/ep21",
+   "video": "/home/user/ep21/out/EP21-baba-yaga.mp4",
+   "accent": "#ff9e4a",
+   "duration": 59.618,
+   "shots": [
+    {
+     "id": 1,
+     "set": "forest",
+     "framing": "Wide, snowy forest at night",
+     "camera": "Slow push-in",
+     "hero": "Birch forest in deep snow under the moon; far between the trees, a lit window high off the ground",
+     "vo": "In Russia, if you find a hut on chicken legs\u2026 say: turn your back to the forest. Your front to me.",
+     "start": 0.0,
+     "end": 6.945,
+     "thumb": "thumbs/ep21/s01.jpg",
+     "cell": 0
+    },
+    {
+     "id": 2,
+     "set": "graphic",
+     "framing": "Title card",
+     "camera": "Slow push",
+     "hero": "Title 'BABA YAGA' + '\u0411\u0430\u0431\u0430-\u042f\u0433\u0430 \u00b7 Russia' over the hut on chicken legs in silhouette",
+     "vo": "It belongs to Baba Yaga.",
+     "start": 6.945,
+     "end": 8.752,
+     "thumb": "thumbs/ep21/s02.jpg",
+     "cell": 1
+    },
+    {
+     "id": 3,
+     "set": "graphic",
+     "framing": "Lore insert",
+     "camera": "Slow push",
+     "hero": "A wooden mortar and pestle flying across the moon, a broom sweeping its trail",
+     "vo": "A witch who flies in a wooden mortar. She helps the polite. The rude never come home.",
+     "start": 8.752,
+     "end": 13.979,
+     "thumb": "thumbs/ep21/s03.jpg",
+     "cell": 2
+    },
+    {
+     "id": 4,
+     "set": "forest",
+     "framing": "Medium, a girl lost in the snow",
+     "camera": "Tracking from behind",
+     "hero": "Small girl in a red coat wading through deep snow between birches",
+     "vo": "My grandmother got lost in those woods as a girl. Snow. Dark. No path.",
+     "start": 13.979,
+     "end": 19.382,
+     "thumb": "thumbs/ep21/s04.jpg",
+     "cell": 3
+    },
+    {
+     "id": 5,
+     "set": "forest",
+     "framing": "Wide, the hut on chicken legs",
+     "camera": "Slow tilt up",
+     "hero": "Log hut high on two huge scaly bird legs in a clearing, one warm window",
+     "vo": "Then she saw it. A hut, standing on two giant chicken legs.",
+     "start": 19.382,
+     "end": 24.082,
+     "thumb": "thumbs/ep21/s05.jpg",
+     "cell": 4
+    },
+    {
+     "id": 6,
+     "set": "forest",
+     "framing": "Medium, the hut turning",
+     "camera": "Locked",
+     "hero": "The hut shifting on its legs, the girl small in the foreground",
+     "vo": "It turned slowly, its door to the trees. And she remembered the words.",
+     "start": 24.082,
+     "end": 28.58,
+     "thumb": "thumbs/ep21/s06.jpg",
+     "cell": 5
+    },
+    {
+     "id": 7,
+     "set": "forest",
+     "framing": "Close, the girl whispering",
+     "camera": "Very slow push",
+     "hero": "Girl's profile in the cold, breath steaming, eyes on the hut",
+     "vo": "Little hut\u2026 turn your back to the forest. Your front to me.",
+     "start": 28.58,
+     "end": 32.661,
+     "thumb": "thumbs/ep21/s07.jpg",
+     "cell": 6
+    },
+    {
+     "id": 8,
+     "set": "forest",
+     "framing": "Low angle, the legs bending, the door opening",
+     "camera": "Locked",
+     "hero": "Giant legs bending low, the door swinging open with warm oven light spilling on the snow",
+     "vo": "The legs creaked. The hut turned around. And the door opened.",
+     "start": 32.661,
+     "end": 36.728,
+     "thumb": "thumbs/ep21/s08.jpg",
+     "cell": 7
+    },
+    {
+     "id": 9,
+     "set": "hut",
+     "framing": "Medium, an old woman stirring a pot by the oven",
+     "camera": "Slow push",
+     "hero": "Hunched old woman in firelight by a clay oven, stirring an iron pot, a glint of iron teeth",
+     "vo": "Inside, an old woman with iron teeth stirred a pot. She smiled.",
+     "start": 36.728,
+     "end": 41.237,
+     "thumb": "thumbs/ep21/s09.jpg",
+     "cell": 8
+    },
+    {
+     "id": 10,
+     "set": "hut",
+     "framing": "Close, Baba Yaga's face in firelight",
+     "camera": "Very slow push",
+     "hero": "Firelit profile: hooked nose, wild grey hair, a sly smile",
+     "vo": "You asked nicely, she said. So I will show you the way home.",
+     "start": 41.237,
+     "end": 45.615,
+     "thumb": "thumbs/ep21/s10.jpg",
+     "cell": 9
+    },
+    {
+     "id": 11,
+     "set": "forest",
+     "framing": "Wide, a ball of yarn rolling through the snow at dawn",
+     "camera": "Slow pull-back",
+     "hero": "A red yarn line across the snow at dawn, the girl following it toward distant roofs",
+     "vo": "She gave her a ball of red yarn. It rolled through the snow, all the way home.",
+     "start": 45.615,
+     "end": 50.381,
+     "thumb": "thumbs/ep21/s11.jpg",
+     "cell": 10
+    },
+    {
+     "id": 12,
+     "set": "forest",
+     "framing": "Wide, a window at night, snow outside",
+     "camera": "Slow push-in",
+     "hero": "A cottage window at night; in the snow outside, huge three-toed bird prints",
+     "vo": "Grandma is ninety now. Last winter she whispered: I hear chicken feet. Outside my window.",
+     "start": 50.381,
+     "end": 56.818,
+     "thumb": "thumbs/ep21/s12.jpg",
+     "cell": 11
+    },
+    {
+     "id": 13,
+     "set": "graphic",
+     "framing": "End card",
+     "camera": "Static",
+     "hero": "CTA with the hut on chicken legs and red yarn motif",
+     "vo": "Would you knock on the door? Comment YES or NO.",
+     "start": 56.818,
+     "end": 59.618,
+     "thumb": "thumbs/ep21/s13.jpg",
+     "cell": 12
+    }
+   ],
+   "kit": "svg",
+   "sprite": "thumbs/sprites/ep21.jpg"
+  },
+  {
+   "key": "ep22",
+   "title": "Huldra",
+   "country": "Norway",
+   "project": "/home/user/ep22",
+   "video": "/home/user/ep22/out/EP22-huldra.mp4",
+   "accent": "#a6e3a1",
+   "duration": 59.391,
+   "shots": [
+    {
+     "id": 1,
+     "set": "woods",
+     "framing": "Wide, pine forest under a golden night sky",
+     "camera": "Slow push-in",
+     "hero": "Tall pines against a pale gold night sky; a woman's pale shape far between the trunks",
+     "vo": "In Norway, if a beautiful woman calls you into the forest\u2026 look at her back. If you see a tail\u2026 don't follow.",
+     "start": 0.0,
+     "end": 7.272,
+     "thumb": "thumbs/ep22/s01.jpg",
+     "cell": 0
+    },
+    {
+     "id": 2,
+     "set": "graphic",
+     "framing": "Title card",
+     "camera": "Slow push",
+     "hero": "Title 'HULDRA' + 'Hulder \u00b7 Norway' over a woman's silhouette with long hair between pines",
+     "vo": "She's a huldra.",
+     "start": 7.272,
+     "end": 8.682,
+     "thumb": "thumbs/ep22/s02.jpg",
+     "cell": 1
+    },
+    {
+     "id": 3,
+     "set": "graphic",
+     "framing": "Lore insert",
+     "camera": "Slow push",
+     "hero": "A tree trunk split open, hollow and dark inside, with long golden hair caught on the bark",
+     "vo": "A forest spirit. Beautiful from the front. Hollow like a rotten tree from behind.",
+     "start": 8.682,
+     "end": 14.594,
+     "thumb": "thumbs/ep22/s03.jpg",
+     "cell": 2
+    },
+    {
+     "id": 4,
+     "set": "farm",
+     "framing": "Wide, the mountain farm",
+     "camera": "Slow lateral track",
+     "hero": "Turf-roof cabin on a slope, goats grazing, a boy with a stick, low golden sun",
+     "vo": "Every summer, my brother herded goats at our mountain farm. Alone. Under the midnight sun.",
+     "start": 14.594,
+     "end": 20.218,
+     "thumb": "thumbs/ep22/s04.jpg",
+     "cell": 3
+    },
+    {
+     "id": 5,
+     "set": "woods",
+     "framing": "Medium, the boy at the forest edge",
+     "camera": "Slow push",
+     "hero": "Boy from behind at the edge of the pines, listening",
+     "vo": "One night, he heard singing in the trees. A woman's voice, calling his name.",
+     "start": 20.218,
+     "end": 25.547,
+     "thumb": "thumbs/ep22/s05.jpg",
+     "cell": 4
+    },
+    {
+     "id": 6,
+     "set": "woods",
+     "framing": "Medium, the woman between the pines",
+     "camera": "Very slow push",
+     "hero": "Beautiful woman in a linen dress among the trees, golden hair glowing in the low sun",
+     "vo": "She stood between the pines. Long golden hair. A smile like sunlight.",
+     "start": 25.547,
+     "end": 30.269,
+     "thumb": "thumbs/ep22/s06.jpg",
+     "cell": 5
+    },
+    {
+     "id": 7,
+     "set": "woods",
+     "framing": "Medium, the boy walking toward her",
+     "camera": "Tracking from behind",
+     "hero": "Boy stepping toward her through ferns; her dress hem stirring in the wind",
+     "vo": "He walked toward her. Then the wind lifted her dress.",
+     "start": 30.269,
+     "end": 33.447,
+     "thumb": "thumbs/ep22/s07.jpg",
+     "cell": 6
+    },
+    {
+     "id": 8,
+     "set": "woods",
+     "framing": "Close, a cow's tail under the hem",
+     "camera": "Locked",
+     "hero": "Low angle at the dress hem: a long cow's tail with a tuft swishing in the ferns",
+     "vo": "Behind her\u2026 a long cow's tail.",
+     "start": 33.447,
+     "end": 35.925,
+     "thumb": "thumbs/ep22/s08.jpg",
+     "cell": 7
+    },
+    {
+     "id": 9,
+     "set": "woods",
+     "framing": "Close, the boy's face",
+     "camera": "Locked",
+     "hero": "Boy's profile in golden light, swallowing, eyes fixed ahead",
+     "vo": "He remembered Grandpa's rule. Don't run. Just say: your tail is showing.",
+     "start": 35.925,
+     "end": 41.22,
+     "thumb": "thumbs/ep22/s09.jpg",
+     "cell": 8
+    },
+    {
+     "id": 10,
+     "set": "woods",
+     "framing": "Medium, the huldra turning away",
+     "camera": "Locked",
+     "hero": "The woman from behind: golden hair parted over a dark hollow bark-like back",
+     "vo": "Her smile dropped. She turned around. And her back was hollow, like a dead tree.",
+     "start": 41.22,
+     "end": 46.855,
+     "thumb": "thumbs/ep22/s10.jpg",
+     "cell": 9
+    },
+    {
+     "id": 11,
+     "set": "farm",
+     "framing": "Wide, the boy running down the mountain",
+     "camera": "Handheld",
+     "hero": "Tiny figure running down a steep path past the cabin, goats scattering",
+     "vo": "She vanished into the forest. He ran all the way down the mountain.",
+     "start": 46.855,
+     "end": 50.8,
+     "thumb": "thumbs/ep22/s11.jpg",
+     "cell": 10
+    },
+    {
+     "id": 12,
+     "set": "farm",
+     "framing": "Wide, our house at the forest edge",
+     "camera": "Slow push-in",
+     "hero": "A farmhouse at the forest edge in the golden night, a pale woman shape just inside the trees",
+     "vo": "He never went back. But every summer, a woman sings his name. A little closer to our house.",
+     "start": 50.8,
+     "end": 56.591,
+     "thumb": "thumbs/ep22/s12.jpg",
+     "cell": 11
+    },
+    {
+     "id": 13,
+     "set": "graphic",
+     "framing": "End card",
+     "camera": "Static",
+     "hero": "CTA with pines and a tail silhouette motif",
+     "vo": "Would you follow her? Comment YES or NO.",
+     "start": 56.591,
+     "end": 59.391,
+     "thumb": "thumbs/ep22/s13.jpg",
+     "cell": 12
+    }
+   ],
+   "kit": "svg",
+   "sprite": "thumbs/sprites/ep22.jpg"
+  },
+  {
+   "key": "ep23",
+   "title": "Babi Ngepet",
+   "country": "Indonesia",
+   "project": "/home/user/ep23",
+   "video": "/home/user/ep23/out/EP23-babi-ngepet.mp4",
+   "accent": "#ffd166",
+   "duration": 57.567,
+   "shots": [
+    {
+     "id": 1,
+     "set": "kampung",
+     "framing": "Wide, a village lane at night",
+     "camera": "Slow push-in",
+     "hero": "A muddy lane between houses at night; a black pig shape crossing far down the lane",
+     "vo": "In Indonesia, if a black pig walks through your village at night\u2026 and somewhere a candle is burning\u2026 blow it out.",
+     "start": 0.0,
+     "end": 6.613,
+     "thumb": "thumbs/ep23/s01.jpg",
+     "cell": 0
+    },
+    {
+     "id": 2,
+     "set": "graphic",
+     "framing": "Title card",
+     "camera": "Slow push",
+     "hero": "Title 'BABI NGEPET' + 'An Indonesian legend' over a candle flame on a tray of water",
+     "vo": "It might be a babi ngepet.",
+     "start": 6.613,
+     "end": 8.945,
+     "thumb": "thumbs/ep23/s02.jpg",
+     "cell": 1
+    },
+    {
+     "id": 3,
+     "set": "graphic",
+     "framing": "Lore insert",
+     "camera": "Slow push",
+     "hero": "A candle on a tray of water, its flame wavering, coins glinting beside it",
+     "vo": "Someone who turns into a pig to steal money. A partner guards a candle. If the flame shakes, the pig is in danger.",
+     "start": 8.945,
+     "end": 15.641,
+     "thumb": "thumbs/ep23/s03.jpg",
+     "cell": 2
+    },
+    {
+     "id": 4,
+     "set": "kampung",
+     "framing": "Medium, villagers whispering",
+     "camera": "Slow push",
+     "hero": "Villagers with lamps whispering at a gate, an empty money tin in one hand",
+     "vo": "In our village, money kept disappearing. And at night, people saw a black pig.",
+     "start": 15.641,
+     "end": 21.046,
+     "thumb": "thumbs/ep23/s04.jpg",
+     "cell": 3
+    },
+    {
+     "id": 5,
+     "set": "kampung",
+     "framing": "Wide, the lane with lamps at midnight",
+     "camera": "Locked",
+     "hero": "Men with lamps hiding in the dark; at the end of the lane a black pig steps into the light",
+     "vo": "My father and the neighbors waited with lamps. At midnight, it came.",
+     "start": 21.046,
+     "end": 25.581,
+     "thumb": "thumbs/ep23/s05.jpg",
+     "cell": 4
+    },
+    {
+     "id": 6,
+     "set": "kampung",
+     "framing": "Medium, the pig sniffing under a door",
+     "camera": "Very slow push",
+     "hero": "Black pig nosing under a wooden door, lamp light on its wet bristles",
+     "vo": "A black pig, sniffing under doors. It wasn't afraid of the lamps.",
+     "start": 25.581,
+     "end": 29.981,
+     "thumb": "thumbs/ep23/s06.jpg",
+     "cell": 5
+    },
+    {
+     "id": 7,
+     "set": "kampung",
+     "framing": "Close, father with his lamp",
+     "camera": "Locked",
+     "hero": "Father's lamp-lit face in profile, turning toward the dark houses",
+     "vo": "My father whispered: don't chase it. Find the candle.",
+     "start": 29.981,
+     "end": 33.94,
+     "thumb": "thumbs/ep23/s07.jpg",
+     "cell": 6
+    },
+    {
+     "id": 8,
+     "set": "room",
+     "framing": "Medium, through a window: a woman by a candle",
+     "camera": "Very slow push",
+     "hero": "Through wooden shutters: a woman's silhouette sitting perfectly still before a candle on a tray of water",
+     "vo": "Through one window, we saw a woman sitting by a candle. Staring at the flame.",
+     "start": 33.94,
+     "end": 38.718,
+     "thumb": "thumbs/ep23/s08.jpg",
+     "cell": 7
+    },
+    {
+     "id": 9,
+     "set": "room",
+     "framing": "Close, the flame shaking",
+     "camera": "Locked",
+     "hero": "The candle flame trembling wildly, ripples on the tray of water",
+     "vo": "My father knocked on the wall. The flame shook.",
+     "start": 38.718,
+     "end": 41.811,
+     "thumb": "thumbs/ep23/s09.jpg",
+     "cell": 8
+    },
+    {
+     "id": 10,
+     "set": "kampung",
+     "framing": "Wide, the pig fleeing",
+     "camera": "Handheld",
+     "hero": "The black pig bolting down the lane past the lamps into darkness",
+     "vo": "Outside, the pig squealed. And ran into the dark.",
+     "start": 41.811,
+     "end": 45.734,
+     "thumb": "thumbs/ep23/s10.jpg",
+     "cell": 9
+    },
+    {
+     "id": 11,
+     "set": "room",
+     "framing": "Close, the candle blown out",
+     "camera": "Locked",
+     "hero": "Smoke curling from a dead wick over the tray of water",
+     "vo": "The woman blew out the candle. Too late.",
+     "start": 45.734,
+     "end": 48.495,
+     "thumb": "thumbs/ep23/s11.jpg",
+     "cell": 10
+    },
+    {
+     "id": 12,
+     "set": "kampung",
+     "framing": "Wide, the lane at dawn",
+     "camera": "Slow pull-back",
+     "hero": "A man limping home along the lane in grey dawn, villagers watching from doorways",
+     "vo": "The next morning, our neighbor came home limping. Mud on his feet. And a black bristle on his collar.",
+     "start": 48.495,
+     "end": 54.767,
+     "thumb": "thumbs/ep23/s12.jpg",
+     "cell": 11
+    },
+    {
+     "id": 13,
+     "set": "graphic",
+     "framing": "End card",
+     "camera": "Static",
+     "hero": "CTA with a candle and black pig motif",
+     "vo": "Would you blow out the candle? Comment YES or NO.",
+     "start": 54.767,
+     "end": 57.567,
+     "thumb": "thumbs/ep23/s13.jpg",
+     "cell": 12
+    }
+   ],
+   "kit": "svg",
+   "sprite": "thumbs/sprites/ep23.jpg"
+  },
+  {
+   "key": "ep24",
+   "title": "Ghost Month",
+   "country": "China",
+   "project": "/home/user/ep24",
+   "video": "/home/user/ep24/out/EP24-ghost-month.mp4",
+   "accent": "#ff4d4d",
+   "duration": 53.96,
+   "shots": [
+    {
+     "id": 1,
+     "set": "street",
+     "framing": "Wide, lantern-lit street at night",
+     "camera": "Slow push-in",
+     "hero": "Old street of shophouses, red lanterns, small offering fires burning in bins on the pavement",
+     "vo": "In China, during the seventh month, if someone taps your shoulder at night\u2026 don't turn around.",
+     "start": 0.0,
+     "end": 5.984,
+     "thumb": "thumbs/ep24/s01.jpg",
+     "cell": 0
+    },
+    {
+     "id": 2,
+     "set": "graphic",
+     "framing": "Title card",
+     "camera": "Slow push",
+     "hero": "Title 'GHOST MONTH' + '\u9b3c\u6708 \u00b7 China' over a red lantern and rising smoke",
+     "vo": "It's Ghost Month.",
+     "start": 5.984,
+     "end": 7.491,
+     "thumb": "thumbs/ep24/s02.jpg",
+     "cell": 1
+    },
+    {
+     "id": 3,
+     "set": "graphic",
+     "framing": "Lore insert",
+     "camera": "Slow push",
+     "hero": "Paper offerings burning, sparks rising past a row of lanterns into the dark",
+     "vo": "For thirty days, the gates of the underworld open. And the hungry dead walk among the living.",
+     "start": 7.491,
+     "end": 13.582,
+     "thumb": "thumbs/ep24/s03.jpg",
+     "cell": 2
+    },
+    {
+     "id": 4,
+     "set": "home",
+     "framing": "Medium, grandmother lighting incense",
+     "camera": "Slow push",
+     "hero": "Grandmother in profile lighting incense at a small home altar, smoke curling",
+     "vo": "My grandmother had rules. Don't whistle at night. Don't swim. And never turn around.",
+     "start": 13.582,
+     "end": 19.88,
+     "thumb": "thumbs/ep24/s04.jpg",
+     "cell": 3
+    },
+    {
+     "id": 5,
+     "set": "street",
+     "framing": "Medium, walking home past the offerings",
+     "camera": "Tracking from behind",
+     "hero": "Young woman from behind walking past offering fires and lanterns",
+     "vo": "One night, walking home past the burning offerings, I whistled.",
+     "start": 19.88,
+     "end": 24.006,
+     "thumb": "thumbs/ep24/s05.jpg",
+     "cell": 4
+    },
+    {
+     "id": 6,
+     "set": "street",
+     "framing": "Wide, the empty street behind her",
+     "camera": "Locked",
+     "hero": "The empty wet street behind her, lanterns swaying, nobody there",
+     "vo": "Behind me, someone whistled the same tune.",
+     "start": 24.006,
+     "end": 27.194,
+     "thumb": "thumbs/ep24/s06.jpg",
+     "cell": 5
+    },
+    {
+     "id": 7,
+     "set": "street",
+     "framing": "Low angle, her feet and a second shadow",
+     "camera": "Tracking",
+     "hero": "Her feet on wet pavement; under the lantern light, two shadows where there should be one",
+     "vo": "I walked faster. The footsteps walked faster.",
+     "start": 27.194,
+     "end": 30.404,
+     "thumb": "thumbs/ep24/s07.jpg",
+     "cell": 6
+    },
+    {
+     "id": 8,
+     "set": "street",
+     "framing": "Close, a pale hand on her shoulder",
+     "camera": "Locked",
+     "hero": "A thin pale grey hand resting on the shoulder of her hoodie",
+     "vo": "Then a cold hand tapped my shoulder.",
+     "start": 30.404,
+     "end": 33.613,
+     "thumb": "thumbs/ep24/s08.jpg",
+     "cell": 7
+    },
+    {
+     "id": 9,
+     "set": "street",
+     "framing": "Close, her face, eyes forward",
+     "camera": "Very slow push",
+     "hero": "Her profile in red lantern light, eyes wide, refusing to turn",
+     "vo": "Every part of me wanted to look.",
+     "start": 33.613,
+     "end": 35.827,
+     "thumb": "thumbs/ep24/s09.jpg",
+     "cell": 8
+    },
+    {
+     "id": 10,
+     "set": "home",
+     "framing": "Medium, lighting incense at the altar",
+     "camera": "Handheld",
+     "hero": "Her shaking hands lighting incense sticks at the small altar",
+     "vo": "I didn't. I ran home and lit incense, the way Grandma taught me.",
+     "start": 35.827,
+     "end": 40.185,
+     "thumb": "thumbs/ep24/s10.jpg",
+     "cell": 9
+    },
+    {
+     "id": 11,
+     "set": "home",
+     "framing": "Medium, the front door from inside",
+     "camera": "Locked",
+     "hero": "The apartment door, a line of corridor light under it, a shadow standing still",
+     "vo": "Outside my door, slow footsteps. Then nothing. Until dawn.",
+     "start": 40.185,
+     "end": 45.402,
+     "thumb": "thumbs/ep24/s11.jpg",
+     "cell": 10
+    },
+    {
+     "id": 12,
+     "set": "home",
+     "framing": "Close, the window at night",
+     "camera": "Slow push-in",
+     "hero": "Her window at night, a lantern-lit street below, her reflection in the glass",
+     "vo": "The month is over now. But sometimes, when I whistle\u2026 someone still whistles back.",
+     "start": 45.402,
+     "end": 51.16,
+     "thumb": "thumbs/ep24/s12.jpg",
+     "cell": 11
+    },
+    {
+     "id": 13,
+     "set": "graphic",
+     "framing": "End card",
+     "camera": "Static",
+     "hero": "CTA with a red lantern and pale hand motif",
+     "vo": "Would you turn around? Comment YES or NO.",
+     "start": 51.16,
+     "end": 53.96,
+     "thumb": "thumbs/ep24/s13.jpg",
+     "cell": 12
+    }
+   ],
+   "kit": "svg",
+   "sprite": "thumbs/sprites/ep24.jpg"
+  },
+  {
+   "key": "ep25",
+   "title": "Tokoloshe",
+   "country": "South Africa",
+   "project": "/home/user/ep25",
+   "video": "/home/user/ep25/out/EP25-tokoloshe.mp4",
+   "accent": "#7cc6fe",
+   "duration": 56.681,
+   "shots": [
+    {
+     "id": 1,
+     "set": "village",
+     "framing": "Wide, rondavels under a starry sky",
+     "camera": "Slow push-in",
+     "hero": "Round thatched huts under a huge starry sky, one window glowing",
+     "vo": "In South Africa, if you hear tiny footsteps under your bed at night\u2026 raise your bed on bricks.",
+     "start": 0.0,
+     "end": 5.528,
+     "thumb": "thumbs/ep25/s01.jpg",
+     "cell": 0
+    },
+    {
+     "id": 2,
+     "set": "graphic",
+     "framing": "Title card",
+     "camera": "Slow push",
+     "hero": "Title 'TOKOLOSHE' + 'South Africa' over a bed standing on stacked bricks, darkness beneath",
+     "vo": "So the tokoloshe can't reach you.",
+     "start": 5.528,
+     "end": 7.816,
+     "thumb": "thumbs/ep25/s02.jpg",
+     "cell": 1
+    },
+    {
+     "id": 3,
+     "set": "graphic",
+     "framing": "Lore insert",
+     "camera": "Slow push",
+     "hero": "The dark gap under a bed, two tiny glints of eyes",
+     "vo": "A small, mischievous spirit. Short as a child. It hides under beds, and it can turn invisible.",
+     "start": 7.816,
+     "end": 14.516,
+     "thumb": "thumbs/ep25/s03.jpg",
+     "cell": 2
+    },
+    {
+     "id": 4,
+     "set": "room",
+     "framing": "Medium, a bed raised on bricks",
+     "camera": "Slow push",
+     "hero": "A bed raised high on red brick stacks in a round room, patterned blanket",
+     "vo": "At my grandmother's house, every bed stood on bricks. I thought it was strange.",
+     "start": 14.516,
+     "end": 19.31,
+     "thumb": "thumbs/ep25/s04.jpg",
+     "cell": 3
+    },
+    {
+     "id": 5,
+     "set": "room",
+     "framing": "Medium, mattress pulled to the floor",
+     "camera": "Locked",
+     "hero": "Girl lying on a mattress on the floor beside the empty high bed",
+     "vo": "One hot night, I pulled my mattress onto the floor. It was cooler.",
+     "start": 19.31,
+     "end": 23.593,
+     "thumb": "thumbs/ep25/s05.jpg",
+     "cell": 4
+    },
+    {
+     "id": 6,
+     "set": "room",
+     "framing": "Low angle, the floor in the dark",
+     "camera": "Very slow push",
+     "hero": "Floor level in darkness, the gap under the high bed, faint moonlight",
+     "vo": "At midnight, I heard tiny footsteps. Scratching on the floor.",
+     "start": 23.593,
+     "end": 27.691,
+     "thumb": "thumbs/ep25/s06.jpg",
+     "cell": 5
+    },
+    {
+     "id": 7,
+     "set": "room",
+     "framing": "Close, the girl's face on the pillow",
+     "camera": "Locked",
+     "hero": "Girl's face on the pillow, eyes wide open in the dark",
+     "vo": "Then something giggled. Right next to my ear.",
+     "start": 27.691,
+     "end": 30.677,
+     "thumb": "thumbs/ep25/s07.jpg",
+     "cell": 6
+    },
+    {
+     "id": 8,
+     "set": "room",
+     "framing": "Close, small fingers on the blanket",
+     "camera": "Locked",
+     "hero": "Small grey fingers curling over the edge of the blanket",
+     "vo": "I felt little fingers on my blanket.",
+     "start": 30.677,
+     "end": 33.723,
+     "thumb": "thumbs/ep25/s08.jpg",
+     "cell": 7
+    },
+    {
+     "id": 9,
+     "set": "room",
+     "framing": "Medium, grandmother with a candle",
+     "camera": "Handheld",
+     "hero": "Grandmother in the doorway with a candle, the girl sitting up, nothing else",
+     "vo": "I screamed. Grandma ran in with a candle. The room was empty.",
+     "start": 33.723,
+     "end": 38.305,
+     "thumb": "thumbs/ep25/s09.jpg",
+     "cell": 8
+    },
+    {
+     "id": 10,
+     "set": "room",
+     "framing": "Close, tiny muddy footprints",
+     "camera": "Slow push along the prints",
+     "hero": "A trail of tiny muddy footprints across the floor to the gap under the door",
+     "vo": "But on the floor, tiny muddy footprints. Leading under the door.",
+     "start": 38.305,
+     "end": 42.714,
+     "thumb": "thumbs/ep25/s10.jpg",
+     "cell": 9
+    },
+    {
+     "id": 11,
+     "set": "village",
+     "framing": "Wide, the homestead at dawn",
+     "camera": "Slow pull-back",
+     "hero": "The huts in pink dawn light, grandmother carrying bricks across the yard",
+     "vo": "In the morning, Grandma stacked new bricks under my bed. Without saying a word.",
+     "start": 42.714,
+     "end": 47.962,
+     "thumb": "thumbs/ep25/s11.jpg",
+     "cell": 10
+    },
+    {
+     "id": 12,
+     "set": "village",
+     "framing": "Wide, a city apartment at night",
+     "camera": "Slow push-in",
+     "hero": "A city apartment block at night, one window lit, a low bed visible inside",
+     "vo": "Now I live in the city. My bed is low. And some nights\u2026 I hear tiny footsteps again.",
+     "start": 47.962,
+     "end": 53.881,
+     "thumb": "thumbs/ep25/s12.jpg",
+     "cell": 11
+    },
+    {
+     "id": 13,
+     "set": "graphic",
+     "framing": "End card",
+     "camera": "Static",
+     "hero": "CTA with a bed on bricks and tiny footprints motif",
+     "vo": "Would you sleep on the floor? Comment YES or NO.",
+     "start": 53.881,
+     "end": 56.681,
+     "thumb": "thumbs/ep25/s13.jpg",
+     "cell": 12
+    }
+   ],
+   "kit": "svg",
+   "sprite": "thumbs/sprites/ep25.jpg"
   }
  ],
  "components": [
@@ -7215,9 +8060,785 @@
     11,
     12
    ]
+  },
+  {
+   "name": "Hut",
+   "cat": "prop",
+   "ep": "ep21",
+   "file": "episodes/ep21/art/forest_art.tsx",
+   "line": 32,
+   "props": "x: number; y: number; s?: number; turn?: number; bend?: number; door?: number; t?: number; glow?: number; sil?: boolean",
+   "doc": "Hut on chicken legs, origin = ground centre between the feet. turn 0 = side (window), 1 = front (door). bend 0..1, door 0..1 open.",
+   "imports": [
+    "./world"
+   ],
+   "shots": [
+    1,
+    5,
+    6,
+    7,
+    8
+   ]
+  },
+  {
+   "name": "Spill",
+   "cat": "prop",
+   "ep": "ep21",
+   "file": "episodes/ep21/art/forest_art.tsx",
+   "line": 71,
+   "props": "x: number; y: number; w: number; h: number; o: number",
+   "doc": "Light spill from an open door down to the snow (world coords).",
+   "imports": [
+    "./world"
+   ],
+   "shots": [
+    8
+   ]
+  },
+  {
+   "name": "GirlBack",
+   "cat": "character",
+   "ep": "ep21",
+   "file": "episodes/ep21/art/forest_art.tsx",
+   "line": 79,
+   "props": "x: number; y: number; h: number; phase?: number; rim?: string",
+   "doc": "Small girl, back view (wading). Origin at feet. h = full height.",
+   "imports": [
+    "./world"
+   ],
+   "shots": [
+    4,
+    6,
+    11
+   ]
+  },
+  {
+   "name": "GirlProfile",
+   "cat": "face",
+   "ep": "ep21",
+   "file": "episodes/ep21/art/forest_art.tsx",
+   "line": 101,
+   "props": "x: number; y: number; s?: number; breath?: number; t?: number",
+   "doc": "Close profile of the girl facing right; (x,y) = nose tip-ish, s scale.",
+   "imports": [
+    "./world"
+   ],
+   "shots": [
+    7
+   ]
+  },
+  {
+   "name": "Print",
+   "cat": "prop",
+   "ep": "ep21",
+   "file": "episodes/ep21/art/forest_art.tsx",
+   "line": 123,
+   "props": "x: number; y: number; s?: number; r?: number",
+   "doc": "Three-toed bird print.",
+   "imports": [
+    "./world"
+   ],
+   "shots": [
+    12
+   ]
+  },
+  {
+   "name": "Snowfall",
+   "cat": "fx",
+   "ep": "ep21",
+   "file": "episodes/ep21/art/forest_art.tsx",
+   "line": 130,
+   "props": "t: number; n?: number; seed?: number; o?: number; size?: number",
+   "doc": "Falling snow (deterministic).",
+   "imports": [
+    "./world"
+   ],
+   "shots": [
+    7,
+    12
+   ]
+  },
+  {
+   "name": "ChickenHut",
+   "cat": "prop",
+   "ep": "ep21",
+   "file": "episodes/ep21/art/graphic_hut.tsx",
+   "line": 4,
+   "props": "cx: number; base: number; s?: number; window?: number",
+   "doc": "Hut on chicken legs, silhouette-first, centred at (cx, base). base = ground line under the talons. s = scale.",
+   "imports": [],
+   "shots": [
+    2,
+    3,
+    13
+   ]
+  },
+  {
+   "name": "Spruce",
+   "cat": "prop",
+   "ep": "ep21",
+   "file": "episodes/ep21/art/graphic_hut.tsx",
+   "line": 76,
+   "props": "x: number; y: number; h: number; fill?: string",
+   "doc": "Simple spruce silhouette.",
+   "imports": [],
+   "shots": [
+    2,
+    3,
+    13
+   ]
+  },
+  {
+   "name": "Yaga",
+   "cat": "prop",
+   "ep": "ep21",
+   "file": "episodes/ep21/art/hut_yaga.tsx",
+   "line": 4,
+   "props": "x: number; y: number; s: number; stir: number; smile: number; glint: number; id: string",
+   "doc": "Baba Yaga, facing right, origin at her feet. Height ~ 430 local units. stir = phase (radians), smile 0..1, glint 0..1.",
+   "imports": [],
+   "shots": [
+    9
+   ]
+  },
+  {
+   "name": "YagaClose",
+   "cat": "prop",
+   "ep": "ep21",
+   "file": "episodes/ep21/art/hut_yaga.tsx",
+   "line": 71,
+   "props": "x: number; y: number; s: number; smile: number; glint: number; blink: number; hairT: number",
+   "doc": "Close profile for shot 10 (local units ~ 800 tall, origin at chin-ish).",
+   "imports": [],
+   "shots": [
+    10
+   ]
+  },
+  {
+   "name": "forest set",
+   "cat": "set",
+   "ep": "ep21",
+   "file": "episodes/ep21/sets/forest.tsx",
+   "line": 1,
+   "props": "bands: forest/birch, forest/fg, forest/sky",
+   "doc": "shots [1, 4, 5, 6, 7, 8, 11, 12]",
+   "imports": [],
+   "thumb": "thumbs/ep21/s01.jpg",
+   "shots": [
+    1,
+    4,
+    5,
+    6,
+    7,
+    8,
+    11,
+    12
+   ]
+  },
+  {
+   "name": "graphic set",
+   "cat": "set",
+   "ep": "ep21",
+   "file": "episodes/ep21/sets/graphic.tsx",
+   "line": 1,
+   "props": "bands: graphic/hut, graphic/sky",
+   "doc": "shots [2, 3, 13]",
+   "imports": [],
+   "thumb": "thumbs/ep21/s02.jpg",
+   "shots": [
+    2,
+    3,
+    13
+   ]
+  },
+  {
+   "name": "hut set",
+   "cat": "set",
+   "ep": "ep21",
+   "file": "episodes/ep21/sets/hut.tsx",
+   "line": 1,
+   "props": "bands: hut/back, hut/backsoft, hut/fg",
+   "doc": "shots [9, 10]",
+   "imports": [],
+   "thumb": "thumbs/ep21/s09.jpg",
+   "shots": [
+    9,
+    10
+   ]
+  },
+  {
+   "name": "Goat",
+   "cat": "prop",
+   "ep": "ep22",
+   "file": "episodes/ep22/art/farm_figs.tsx",
+   "line": 4,
+   "props": "x: number; y: number; s?: number; dir?: number; graze?: number; leg?: number; c?: string",
+   "doc": "Goat seen side-on, feet at (x,y). s = scale, dir 1 faces right. graze 0..1 lowers head.",
+   "imports": [],
+   "shots": [
+    4,
+    11
+   ]
+  },
+  {
+   "name": "Boy",
+   "cat": "character",
+   "ep": "ep22",
+   "file": "episodes/ep22/art/farm_figs.tsx",
+   "line": 24,
+   "props": "x: number; y: number; h: number; dir?: number; run?: number; phase?: number; rim?: string",
+   "doc": "Boy (~16) from the side: cap, wool sweater, herding stick. Feet at (x,y), height h. run 0..1 = running pose with phase.",
+   "imports": [],
+   "shots": [
+    4,
+    11
+   ]
+  },
+  {
+   "name": "Huldra",
+   "cat": "prop",
+   "ep": "ep22",
+   "file": "episodes/ep22/art/farm_figs.tsx",
+   "line": 55,
+   "props": "x: number; y: number; h: number; o?: number; sway?: number",
+   "doc": "The huldra, pale, partly hidden between pines. Feet at (x,y), height h.",
+   "imports": [],
+   "shots": [
+    1,
+    6,
+    7,
+    8,
+    10,
+    12
+   ]
+  },
+  {
+   "name": "HuldraSil",
+   "cat": "prop",
+   "ep": "ep22",
+   "file": "episodes/ep22/art/graphic_huldra.tsx",
+   "line": 4,
+   "props": "x: number; y: number; s?: number; sway?: number; fill?: string; rim?: string; tail?: number",
+   "doc": "Back-lit huldra silhouette (front view), feet at (x,y), height ~ 820*s. sway = hair motion phase.",
+   "imports": [],
+   "shots": [
+    2,
+    13
+   ]
+  },
+  {
+   "name": "Huldra",
+   "cat": "prop",
+   "ep": "ep22",
+   "file": "episodes/ep22/art/woods_figs.tsx",
+   "line": 5,
+   "props": "x: number; y: number; h: number; view: 'front' | 'back'; sway?: number; hem?: number; tail?: number; swish?: number; smile?: number; id: string",
+   "doc": "Huldra, feet at (x,y), height h. view front/back. sway -1..1, hem 0..1 (wind), tail 0..1 visible, swish -1..1",
+   "imports": [
+    "../sets/woods"
+   ],
+   "shots": [
+    1,
+    6,
+    7,
+    8,
+    10,
+    12
+   ]
+  },
+  {
+   "name": "BoyBack",
+   "cat": "character",
+   "ep": "ep22",
+   "file": "episodes/ep22/art/woods_figs.tsx",
+   "line": 87,
+   "props": "x: number; y: number; h: number; step?: number",
+   "doc": "Boy (~16) from behind, feet at (x,y), height h. step 0..1 walking phase.",
+   "imports": [
+    "../sets/woods"
+   ],
+   "shots": [
+    5,
+    7
+   ]
+  },
+  {
+   "name": "BoyProfile",
+   "cat": "face",
+   "ep": "ep22",
+   "file": "episodes/ep22/art/woods_figs.tsx",
+   "line": 118,
+   "props": "x: number; y: number; s: number; gulp?: number; blink?: number",
+   "doc": "Boy profile close-up (facing right), anchor (x,y), scale s. gulp 0..1",
+   "imports": [
+    "../sets/woods"
+   ],
+   "shots": [
+    9
+   ]
+  },
+  {
+   "name": "farm set",
+   "cat": "set",
+   "ep": "ep22",
+   "file": "episodes/ep22/sets/farm.tsx",
+   "line": 1,
+   "props": "bands: farm/fg, farm/mid, farm/sky",
+   "doc": "shots [4, 11, 12]",
+   "imports": [],
+   "thumb": "thumbs/ep22/s04.jpg",
+   "shots": [
+    4,
+    11,
+    12
+   ]
+  },
+  {
+   "name": "graphic set",
+   "cat": "set",
+   "ep": "ep22",
+   "file": "episodes/ep22/sets/graphic.tsx",
+   "line": 1,
+   "props": "bands: graphic/fg, graphic/pines, graphic/sky",
+   "doc": "shots [2, 3, 13]",
+   "imports": [],
+   "thumb": "thumbs/ep22/s02.jpg",
+   "shots": [
+    2,
+    3,
+    13
+   ]
+  },
+  {
+   "name": "woods set",
+   "cat": "set",
+   "ep": "ep22",
+   "file": "episodes/ep22/sets/woods.tsx",
+   "line": 1,
+   "props": "bands: woods/far, woods/fg, woods/mid, woods/sky",
+   "doc": "shots [1, 5, 6, 7, 8, 9, 10]",
+   "imports": [],
+   "thumb": "thumbs/ep22/s01.jpg",
+   "shots": [
+    1,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+   ]
+  },
+  {
+   "name": "CandleTray",
+   "cat": "prop",
+   "ep": "ep23",
+   "file": "episodes/ep23/art/graphic_candle.tsx",
+   "line": 4,
+   "props": "x: number; y: number; s?: number; t: number; shake?: number; id: string",
+   "doc": "Candle standing in a round tray of water. (x,y) = tray centre. flick = flame sway (-1..1), shake = 0..1 extra wobble.",
+   "imports": [],
+   "shots": [
+    2,
+    3,
+    13
+   ]
+  },
+  {
+   "name": "PigSil",
+   "cat": "prop",
+   "ep": "ep23",
+   "file": "episodes/ep23/art/graphic_candle.tsx",
+   "line": 52,
+   "props": "x: number; y: number; s?: number; fill?: string; eye?: number; rim?: string",
+   "doc": "Black pig silhouette, side view facing right. (x,y) = feet line centre.",
+   "imports": [],
+   "shots": [
+    3,
+    13
+   ]
+  },
+  {
+   "name": "CoinG",
+   "cat": "prop",
+   "ep": "ep23",
+   "file": "episodes/ep23/art/graphic_candle.tsx",
+   "line": 62,
+   "props": "x: number; y: number; r?: number; tilt?: number",
+   "doc": "Simple gold coin, slightly tilted.",
+   "imports": [],
+   "shots": [
+    3
+   ]
+  },
+  {
+   "name": "KDefs",
+   "cat": "prop",
+   "ep": "ep23",
+   "file": "episodes/ep23/art/kampung_figs.tsx",
+   "line": 4,
+   "props": "",
+   "doc": "Glow defs used by live layers (radial gradients only).",
+   "imports": [],
+   "shots": [
+    1,
+    4,
+    5,
+    6,
+    7,
+    10,
+    12
+   ]
+  },
+  {
+   "name": "Villager",
+   "cat": "prop",
+   "ep": "ep23",
+   "file": "episodes/ep23/art/kampung_figs.tsx",
+   "line": 12,
+   "props": "x: number; y: number; s?: number; lamp?: boolean; flick?: number; flip?: boolean; lean?: number; fill?: string; rim?: string; peci?: boolean",
+   "doc": "Villager silhouette (feet at x,y, ~380 tall at s=1) with sarong + peci; lamp held at side. flicker 0..1.",
+   "imports": [],
+   "shots": [
+    4,
+    5,
+    7,
+    10,
+    12
+   ]
+  },
+  {
+   "name": "Pig",
+   "cat": "prop",
+   "ep": "ep23",
+   "file": "episodes/ep23/art/kampung_figs.tsx",
+   "line": 40,
+   "props": "x: number; y: number; s?: number; ph?: number; sniff?: number; flip?: boolean; eye?: number; sheen?: string",
+   "doc": "Black pig, facing RIGHT (flip for left), feet at x,y, ~260 long at s=1. ph = walk phase, sniff 0..1 lowers snout.",
+   "imports": [],
+   "shots": [
+    1,
+    4,
+    5,
+    6,
+    10
+   ]
+  },
+  {
+   "name": "kampung set",
+   "cat": "set",
+   "ep": "ep23",
+   "file": "episodes/ep23/sets/kampung.tsx",
+   "line": 1,
+   "props": "bands: kampung/dawn, kampung/fg, kampung/night",
+   "doc": "shots [1, 4, 5, 6, 7, 10, 12]",
+   "imports": [],
+   "thumb": "thumbs/ep23/s01.jpg",
+   "shots": [
+    1,
+    4,
+    5,
+    6,
+    7,
+    10,
+    12
+   ]
+  },
+  {
+   "name": "room set",
+   "cat": "set",
+   "ep": "ep23",
+   "file": "episodes/ep23/sets/room.tsx",
+   "line": 1,
+   "props": "bands: room/close, room/inside, room/wall",
+   "doc": "shots [8, 9, 11]",
+   "imports": [],
+   "thumb": "thumbs/ep23/s08.jpg",
+   "shots": [
+    8,
+    9,
+    11
+   ]
+  },
+  {
+   "name": "PaleHand",
+   "cat": "hand",
+   "ep": "ep24",
+   "file": "episodes/ep24/art/graphic_hand.tsx",
+   "line": 4,
+   "props": "id?: string",
+   "doc": "Long pale hand reaching in from the right, fingertips pinching at origin. (from library ep07 graphic_art PaleHand)",
+   "imports": [],
+   "shots": [
+    13
+   ]
+  },
+  {
+   "name": "Grandma",
+   "cat": "character",
+   "ep": "ep24",
+   "file": "episodes/ep24/art/home_figs.tsx",
+   "line": 4,
+   "props": "x: number; y: number; s?: number; arm?: number; bob?: number",
+   "doc": "Grandmother in profile facing right, origin = top of head. h = height of the visible figure scale (~head 130).",
+   "imports": [],
+   "shots": [
+    4
+   ]
+  },
+  {
+   "name": "Smoke",
+   "cat": "fx",
+   "ep": "ep24",
+   "file": "episodes/ep24/art/home_figs.tsx",
+   "line": 36,
+   "props": "x: number; y: number; t: number; o?: number; len?: number; seed?: number",
+   "doc": "curling smoke from (x,y) upward; t seconds.",
+   "imports": [],
+   "shots": [
+    2,
+    3,
+    4,
+    10,
+    13
+   ]
+  },
+  {
+   "name": "Ember",
+   "cat": "prop",
+   "ep": "ep24",
+   "file": "episodes/ep24/art/home_figs.tsx",
+   "line": 53,
+   "props": "x: number; y: number; o?: number",
+   "doc": "",
+   "imports": [],
+   "shots": [
+    4,
+    10
+   ]
+  },
+  {
+   "name": "SleeveHand",
+   "cat": "hand",
+   "ep": "ep24",
+   "file": "episodes/ep24/art/home_figs.tsx",
+   "line": 61,
+   "props": "sx: number; sy: number; wx: number; wy: number; a: number; flip?: boolean",
+   "doc": "young hand in hoodie sleeve: sleeve from (sx,sy) to wrist (wx,wy), mitten hand pointing at angle a (deg).",
+   "imports": [],
+   "shots": [
+    10
+   ]
+  },
+  {
+   "name": "Bust",
+   "cat": "prop",
+   "ep": "ep24",
+   "file": "episodes/ep24/art/home_figs.tsx",
+   "line": 81,
+   "props": "x: number; y: number; s?: number; fill: string; hood?: boolean; hair?: boolean",
+   "doc": "head-and-shoulders silhouette (reflection). origin = top of head.",
+   "imports": [],
+   "shots": [
+    12
+   ]
+  },
+  {
+   "name": "Lantern",
+   "cat": "prop",
+   "ep": "ep24",
+   "file": "episodes/ep24/art/street_figs.tsx",
+   "line": 21,
+   "props": "x: number; y: number; s: number; sway?: number; glow?: number",
+   "doc": "One red paper lantern with radial glow. sway = degrees.",
+   "imports": [],
+   "shots": [
+    2,
+    3,
+    13
+   ]
+  },
+  {
+   "name": "FireBin",
+   "cat": "fx",
+   "ep": "ep24",
+   "file": "episodes/ep24/art/street_figs.tsx",
+   "line": 35,
+   "props": "x: number; y: number; s: number; t: number",
+   "doc": "Metal offering bin with burning paper. t = seconds for flicker.",
+   "imports": [],
+   "shots": []
+  },
+  {
+   "name": "Walker",
+   "cat": "character",
+   "ep": "ep24",
+   "file": "episodes/ep24/art/street_figs.tsx",
+   "line": 60,
+   "props": "x: number; y: number; h: number; phase?: number; amp?: number; rim?: string",
+   "doc": "Narrator, seen from behind: hoodie (hood down), tote bag, jeans. feet at (x,y), height h. phase = gait 0..1. rim = side light colour.",
+   "imports": [],
+   "shots": [
+    5
+   ]
+  },
+  {
+   "name": "home set",
+   "cat": "set",
+   "ep": "ep24",
+   "file": "episodes/ep24/sets/home.tsx",
+   "line": 1,
+   "props": "bands: home/altar, home/door, home/fg, home/window",
+   "doc": "shots [4, 10, 11, 12]",
+   "imports": [],
+   "thumb": "thumbs/ep24/s04.jpg",
+   "shots": [
+    4,
+    10,
+    11,
+    12
+   ]
+  },
+  {
+   "name": "street set",
+   "cat": "set",
+   "ep": "ep24",
+   "file": "episodes/ep24/sets/street.tsx",
+   "line": 1,
+   "props": "bands: street/bg, street/close, street/fg",
+   "doc": "shots [1, 5, 6, 7, 8, 9]",
+   "imports": [],
+   "thumb": "thumbs/ep24/s01.jpg",
+   "shots": [
+    1,
+    5,
+    6,
+    7,
+    8,
+    9
+   ]
+  },
+  {
+   "name": "BedOnBricks",
+   "cat": "prop",
+   "ep": "ep25",
+   "file": "episodes/ep25/art/graphic_bed.tsx",
+   "line": 5,
+   "props": "x0: number; x1: number; fy: number; id: string",
+   "doc": "",
+   "imports": [],
+   "shots": [
+    2,
+    3,
+    13
+   ]
+  },
+  {
+   "name": "Footprint",
+   "cat": "fx",
+   "ep": "ep25",
+   "file": "episodes/ep25/art/graphic_bed.tsx",
+   "line": 61,
+   "props": "x: number; y: number; s?: number; rot?: number; o?: number; fill?: string",
+   "doc": "Tiny muddy footprint (child-small, 3-toed).",
+   "imports": [],
+   "shots": [
+    13
+   ]
+  },
+  {
+   "name": "TinyFingers",
+   "cat": "hand",
+   "ep": "ep25",
+   "file": "episodes/ep25/art/graphic_bed.tsx",
+   "line": 69,
+   "props": "x: number; y: number; s?: number; o?: number",
+   "doc": "Small grey fingers reaching out of the dark (back of hand up, fingers pointing down toward viewer).",
+   "imports": [],
+   "shots": [
+    3
+   ]
+  },
+  {
+   "name": "Rondavel",
+   "cat": "prop",
+   "ep": "ep25",
+   "file": "episodes/ep25/sets/village.tsx",
+   "line": 25,
+   "props": "x: number; b: number; w: number; h: number; roof: number; wall?: string; wallD?: string; thatch?: string; thatchD?: string; win?: boolean; door?: boolean",
+   "doc": "Rondavel: round hut, cylindrical wall + conical thatch. x = centre, b = base y.",
+   "imports": [
+    "../art/world",
+    "../comp/Bands"
+   ],
+   "shots": [
+    1,
+    11,
+    12
+   ]
+  },
+  {
+   "name": "graphic set",
+   "cat": "set",
+   "ep": "ep25",
+   "file": "episodes/ep25/sets/graphic.tsx",
+   "line": 1,
+   "props": "bands: graphic/fg, graphic/room",
+   "doc": "shots [2, 3, 13]",
+   "imports": [],
+   "thumb": "thumbs/ep25/s02.jpg",
+   "shots": [
+    2,
+    3,
+    13
+   ]
+  },
+  {
+   "name": "room set",
+   "cat": "set",
+   "ep": "ep25",
+   "file": "episodes/ep25/sets/room.tsx",
+   "line": 1,
+   "props": "bands: room/bed, room/bg, room/fg",
+   "doc": "shots [4, 5, 6, 7, 8, 9, 10]",
+   "imports": [],
+   "thumb": "thumbs/ep25/s04.jpg",
+   "shots": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+   ]
+  },
+  {
+   "name": "village set",
+   "cat": "set",
+   "ep": "ep25",
+   "file": "episodes/ep25/sets/village.tsx",
+   "line": 1,
+   "props": "bands: village/city, village/fg, village/huts, village/sky",
+   "doc": "shots [1, 11, 12]",
+   "imports": [],
+   "thumb": "thumbs/ep25/s01.jpg",
+   "shots": [
+    1,
+    11,
+    12
+   ]
   }
  ],
  "sfx": [
+  {
+   "name": "africa_night",
+   "file": "sfx/africa_night.mp3",
+   "dur": 20.04,
+   "prompt": "",
+   "loop": false,
+   "note": ""
+  },
   {
    "name": "amb_night",
    "file": "sfx/amb_night.mp3",
@@ -7286,6 +8907,14 @@
    "name": "candles_out",
    "file": "sfx/candles_out.mp3",
    "dur": 2.04,
+   "prompt": "",
+   "loop": false,
+   "note": ""
+  },
+  {
+   "name": "china_street",
+   "file": "sfx/china_street.mp3",
+   "dur": 20.04,
    "prompt": "",
    "loop": false,
    "note": ""
@@ -7371,6 +9000,14 @@
    "note": ""
   },
   {
+   "name": "door_steps",
+   "file": "sfx/door_steps.mp3",
+   "dur": 5.04,
+   "prompt": "",
+   "loop": false,
+   "note": ""
+  },
+  {
    "name": "drag",
    "file": "sfx/drag.mp3",
    "dur": 6.03,
@@ -7451,6 +9088,22 @@
    "note": ""
   },
   {
+   "name": "footsteps_follow",
+   "file": "sfx/footsteps_follow.mp3",
+   "dur": 5.04,
+   "prompt": "",
+   "loop": false,
+   "note": ""
+  },
+  {
+   "name": "forest_summer",
+   "file": "sfx/forest_summer.mp3",
+   "dur": 20.04,
+   "prompt": "",
+   "loop": false,
+   "note": ""
+  },
+  {
    "name": "gecko",
    "file": "sfx/gecko.mp3",
    "dur": 4.05,
@@ -7471,6 +9124,14 @@
    "file": "sfx/glitch.mp3",
    "dur": 1.04,
    "prompt": "Short digital glitch static burst",
+   "loop": false,
+   "note": ""
+  },
+  {
+   "name": "goat_bells",
+   "file": "sfx/goat_bells.mp3",
+   "dur": 8.05,
+   "prompt": "",
    "loop": false,
    "note": ""
   },
@@ -7518,6 +9179,22 @@
    "name": "horse_water",
    "file": "sfx/horse_water.mp3",
    "dur": 5.04,
+   "prompt": "",
+   "loop": false,
+   "note": ""
+  },
+  {
+   "name": "hut_legs",
+   "file": "sfx/hut_legs.mp3",
+   "dur": 4.05,
+   "prompt": "",
+   "loop": false,
+   "note": ""
+  },
+  {
+   "name": "imp_giggle",
+   "file": "sfx/imp_giggle.mp3",
+   "dur": 3.03,
    "prompt": "",
    "loop": false,
    "note": ""
@@ -7627,6 +9304,14 @@
    "note": ""
   },
   {
+   "name": "oven_fire",
+   "file": "sfx/oven_fire.mp3",
+   "dur": 15.05,
+   "prompt": "",
+   "loop": false,
+   "note": ""
+  },
+  {
    "name": "pencil",
    "file": "sfx/pencil.mp3",
    "dur": 4.05,
@@ -7647,6 +9332,22 @@
    "file": "sfx/phone_ring.mp3",
    "dur": 4.05,
    "prompt": "Mobile phone ringing and vibrating on a sofa cushion",
+   "loop": false,
+   "note": ""
+  },
+  {
+   "name": "pig_grunt",
+   "file": "sfx/pig_grunt.mp3",
+   "dur": 4.05,
+   "prompt": "",
+   "loop": false,
+   "note": ""
+  },
+  {
+   "name": "pig_squeal",
+   "file": "sfx/pig_squeal.mp3",
+   "dur": 3.03,
+   "prompt": "",
    "loop": false,
    "note": ""
   },
@@ -7731,9 +9432,33 @@
    "note": ""
   },
   {
+   "name": "scratch_floor",
+   "file": "sfx/scratch_floor.mp3",
+   "dur": 4.05,
+   "prompt": "",
+   "loop": false,
+   "note": ""
+  },
+  {
+   "name": "singing_far",
+   "file": "sfx/singing_far.mp3",
+   "dur": 7.03,
+   "prompt": "",
+   "loop": false,
+   "note": ""
+  },
+  {
    "name": "sniff",
    "file": "sfx/sniff.mp3",
    "dur": 4.05,
+   "prompt": "",
+   "loop": false,
+   "note": ""
+  },
+  {
+   "name": "snow_forest",
+   "file": "sfx/snow_forest.mp3",
+   "dur": 20.04,
    "prompt": "",
    "loop": false,
    "note": ""
@@ -7859,6 +9584,14 @@
    "note": ""
   },
   {
+   "name": "wall_knock",
+   "file": "sfx/wall_knock.mp3",
+   "dur": 2.04,
+   "prompt": "",
+   "loop": false,
+   "note": ""
+  },
+  {
    "name": "ward_amb",
    "file": "sfx/ward_amb.mp3",
    "dur": 20.04,
@@ -7878,6 +9611,14 @@
    "name": "whistle",
    "file": "sfx/whistle.mp3",
    "dur": 7.03,
+   "prompt": "",
+   "loop": false,
+   "note": ""
+  },
+  {
+   "name": "whistle_tune",
+   "file": "sfx/whistle_tune.mp3",
+   "dur": 4.05,
    "prompt": "",
    "loop": false,
    "note": ""

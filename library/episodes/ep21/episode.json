@@ -1,0 +1,1305 @@
+{
+ "id": "EP21",
+ "title": "Baba Yaga",
+ "fps": 30,
+ "width": 1080,
+ "height": 1920,
+ "durationSec": 59.618,
+ "accent": "#ff9e4a",
+ "timingSource": "ai33 eleven_v3 transcript, tempo x1.1",
+ "shots": [
+  {
+   "id": 1,
+   "start": 0.0,
+   "end": 6.945,
+   "act": 1,
+   "set": "forest",
+   "owner": "F",
+   "framing": "Wide, snowy forest at night",
+   "camera": "Slow push-in",
+   "vo": "In Russia, if you find a hut on chicken legs… say: turn your back to the forest. Your front to me.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "In",
+     "highlight": false,
+     "start": 0.455,
+     "end": 0.564
+    },
+    {
+     "text": "Russia,",
+     "highlight": false,
+     "start": 0.655,
+     "end": 1.018
+    },
+    {
+     "text": "if",
+     "highlight": false,
+     "start": 1.309,
+     "end": 1.418
+    },
+    {
+     "text": "you",
+     "highlight": false,
+     "start": 1.455,
+     "end": 1.564
+    },
+    {
+     "text": "find",
+     "highlight": false,
+     "start": 1.618,
+     "end": 1.8
+    },
+    {
+     "text": "a",
+     "highlight": false,
+     "start": 1.855,
+     "end": 1.891
+    },
+    {
+     "text": "hut",
+     "highlight": false,
+     "start": 1.945,
+     "end": 2.164
+    },
+    {
+     "text": "on",
+     "highlight": false,
+     "start": 2.218,
+     "end": 2.327
+    },
+    {
+     "text": "chicken",
+     "highlight": false,
+     "start": 2.382,
+     "end": 2.618
+    },
+    {
+     "text": "legs…",
+     "highlight": false,
+     "start": 2.673,
+     "end": 2.982
+    },
+    {
+     "text": "say:",
+     "highlight": false,
+     "start": 3.391,
+     "end": 3.627
+    },
+    {
+     "text": "turn",
+     "highlight": false,
+     "start": 3.627,
+     "end": 4.3
+    },
+    {
+     "text": "your",
+     "highlight": false,
+     "start": 4.336,
+     "end": 4.445
+    },
+    {
+     "text": "back",
+     "highlight": false,
+     "start": 4.482,
+     "end": 4.664
+    },
+    {
+     "text": "to",
+     "highlight": false,
+     "start": 4.7,
+     "end": 4.773
+    },
+    {
+     "text": "the",
+     "highlight": false,
+     "start": 4.809,
+     "end": 4.882
+    },
+    {
+     "text": "forest.",
+     "highlight": false,
+     "start": 4.936,
+     "end": 5.355
+    },
+    {
+     "text": "Your",
+     "highlight": false,
+     "start": 5.7,
+     "end": 5.845
+    },
+    {
+     "text": "front",
+     "highlight": false,
+     "start": 5.9,
+     "end": 6.118
+    },
+    {
+     "text": "to",
+     "highlight": false,
+     "start": 6.173,
+     "end": 6.245
+    },
+    {
+     "text": "me.",
+     "highlight": true,
+     "start": 6.3,
+     "end": 6.555
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "Birch forest in deep snow under the moon; far between the trees, a lit window high off the ground",
+   "notes": "Birches, snow; LOW detail bg."
+  },
+  {
+   "id": 2,
+   "start": 6.945,
+   "end": 8.752,
+   "act": 1,
+   "set": "graphic",
+   "owner": "G",
+   "framing": "Title card",
+   "camera": "Slow push",
+   "vo": "It belongs to Baba Yaga.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "It",
+     "highlight": false,
+     "start": 7.2,
+     "end": 7.272
+    },
+    {
+     "text": "belongs",
+     "highlight": false,
+     "start": 7.309,
+     "end": 7.672
+    },
+    {
+     "text": "to",
+     "highlight": false,
+     "start": 7.709,
+     "end": 7.763
+    },
+    {
+     "text": "Baba",
+     "highlight": true,
+     "start": 7.8,
+     "end": 7.981
+    },
+    {
+     "text": "Yaga.",
+     "highlight": true,
+     "start": 8.036,
+     "end": 8.363
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "Title 'BABA YAGA' + 'Баба-Яга · Russia' over the hut on chicken legs in silhouette",
+   "notes": "Moonlight, chimney smoke."
+  },
+  {
+   "id": 3,
+   "start": 8.752,
+   "end": 13.979,
+   "act": 1,
+   "set": "graphic",
+   "owner": "G",
+   "framing": "Lore insert",
+   "camera": "Slow push",
+   "vo": "A witch who flies in a wooden mortar. She helps the polite. The rude never come home.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "A",
+     "highlight": false,
+     "start": 9.007,
+     "end": 9.079
+    },
+    {
+     "text": "witch",
+     "highlight": false,
+     "start": 9.116,
+     "end": 9.316
+    },
+    {
+     "text": "who",
+     "highlight": false,
+     "start": 9.352,
+     "end": 9.497
+    },
+    {
+     "text": "flies",
+     "highlight": false,
+     "start": 9.552,
+     "end": 9.843
+    },
+    {
+     "text": "in",
+     "highlight": false,
+     "start": 9.861,
+     "end": 9.916
+    },
+    {
+     "text": "a",
+     "highlight": false,
+     "start": 9.97,
+     "end": 10.007
+    },
+    {
+     "text": "wooden",
+     "highlight": false,
+     "start": 10.043,
+     "end": 10.243
+    },
+    {
+     "text": "mortar.",
+     "highlight": false,
+     "start": 10.297,
+     "end": 10.643
+    },
+    {
+     "text": "She",
+     "highlight": false,
+     "start": 11.052,
+     "end": 11.179
+    },
+    {
+     "text": "helps",
+     "highlight": false,
+     "start": 11.216,
+     "end": 11.452
+    },
+    {
+     "text": "the",
+     "highlight": false,
+     "start": 11.488,
+     "end": 11.561
+    },
+    {
+     "text": "polite.",
+     "highlight": false,
+     "start": 11.597,
+     "end": 11.997
+    },
+    {
+     "text": "The",
+     "highlight": false,
+     "start": 12.407,
+     "end": 12.497
+    },
+    {
+     "text": "rude",
+     "highlight": false,
+     "start": 12.57,
+     "end": 12.825
+    },
+    {
+     "text": "never",
+     "highlight": false,
+     "start": 12.879,
+     "end": 13.079
+    },
+    {
+     "text": "come",
+     "highlight": false,
+     "start": 13.134,
+     "end": 13.279
+    },
+    {
+     "text": "home.",
+     "highlight": true,
+     "start": 13.316,
+     "end": 13.588
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "A wooden mortar and pestle flying across the moon, a broom sweeping its trail",
+   "notes": "Folkloric, eerie."
+  },
+  {
+   "id": 4,
+   "start": 13.979,
+   "end": 19.382,
+   "act": 1,
+   "set": "forest",
+   "owner": "F",
+   "framing": "Medium, a girl lost in the snow",
+   "camera": "Tracking from behind",
+   "vo": "My grandmother got lost in those woods as a girl. Snow. Dark. No path.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "My",
+     "highlight": false,
+     "start": 14.234,
+     "end": 14.415
+    },
+    {
+     "text": "grandmother",
+     "highlight": false,
+     "start": 14.47,
+     "end": 14.924
+    },
+    {
+     "text": "got",
+     "highlight": false,
+     "start": 14.961,
+     "end": 15.106
+    },
+    {
+     "text": "lost",
+     "highlight": false,
+     "start": 15.161,
+     "end": 15.415
+    },
+    {
+     "text": "in",
+     "highlight": false,
+     "start": 15.452,
+     "end": 15.506
+    },
+    {
+     "text": "those",
+     "highlight": false,
+     "start": 15.543,
+     "end": 15.743
+    },
+    {
+     "text": "woods",
+     "highlight": false,
+     "start": 15.797,
+     "end": 16.015
+    },
+    {
+     "text": "as",
+     "highlight": false,
+     "start": 16.07,
+     "end": 16.124
+    },
+    {
+     "text": "a",
+     "highlight": false,
+     "start": 16.161,
+     "end": 16.215
+    },
+    {
+     "text": "girl.",
+     "highlight": false,
+     "start": 16.27,
+     "end": 16.543
+    },
+    {
+     "text": "Snow.",
+     "highlight": false,
+     "start": 16.952,
+     "end": 17.279
+    },
+    {
+     "text": "Dark.",
+     "highlight": false,
+     "start": 17.688,
+     "end": 17.997
+    },
+    {
+     "text": "No",
+     "highlight": false,
+     "start": 18.406,
+     "end": 18.515
+    },
+    {
+     "text": "path.",
+     "highlight": true,
+     "start": 18.643,
+     "end": 18.988
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "Small girl in a red coat wading through deep snow between birches",
+   "notes": "Cold blue."
+  },
+  {
+   "id": 5,
+   "start": 19.382,
+   "end": 24.082,
+   "act": 1,
+   "set": "forest",
+   "owner": "F",
+   "framing": "Wide, the hut on chicken legs",
+   "camera": "Slow tilt up",
+   "vo": "Then she saw it. A hut, standing on two giant chicken legs.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "Then",
+     "highlight": false,
+     "start": 19.637,
+     "end": 19.946
+    },
+    {
+     "text": "she",
+     "highlight": false,
+     "start": 20.037,
+     "end": 20.182
+    },
+    {
+     "text": "saw",
+     "highlight": false,
+     "start": 20.237,
+     "end": 20.418
+    },
+    {
+     "text": "it.",
+     "highlight": false,
+     "start": 20.455,
+     "end": 20.6
+    },
+    {
+     "text": "A",
+     "highlight": false,
+     "start": 21.009,
+     "end": 21.064
+    },
+    {
+     "text": "hut,",
+     "highlight": false,
+     "start": 21.118,
+     "end": 21.409
+    },
+    {
+     "text": "standing",
+     "highlight": false,
+     "start": 21.818,
+     "end": 22.164
+    },
+    {
+     "text": "on",
+     "highlight": false,
+     "start": 22.2,
+     "end": 22.346
+    },
+    {
+     "text": "two",
+     "highlight": false,
+     "start": 22.418,
+     "end": 22.6
+    },
+    {
+     "text": "giant",
+     "highlight": false,
+     "start": 22.746,
+     "end": 23.037
+    },
+    {
+     "text": "chicken",
+     "highlight": false,
+     "start": 23.073,
+     "end": 23.309
+    },
+    {
+     "text": "legs.",
+     "highlight": true,
+     "start": 23.364,
+     "end": 23.691
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "Log hut high on two huge scaly bird legs in a clearing, one warm window",
+   "notes": "Hero."
+  },
+  {
+   "id": 6,
+   "start": 24.082,
+   "end": 28.58,
+   "act": 1,
+   "set": "forest",
+   "owner": "F",
+   "framing": "Medium, the hut turning",
+   "camera": "Locked",
+   "vo": "It turned slowly, its door to the trees. And she remembered the words.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "It",
+     "highlight": false,
+     "start": 24.337,
+     "end": 24.409
+    },
+    {
+     "text": "turned",
+     "highlight": false,
+     "start": 24.464,
+     "end": 24.7
+    },
+    {
+     "text": "slowly,",
+     "highlight": false,
+     "start": 24.773,
+     "end": 25.155
+    },
+    {
+     "text": "its",
+     "highlight": false,
+     "start": 25.564,
+     "end": 25.709
+    },
+    {
+     "text": "door",
+     "highlight": false,
+     "start": 25.764,
+     "end": 25.927
+    },
+    {
+     "text": "to",
+     "highlight": false,
+     "start": 25.964,
+     "end": 26.037
+    },
+    {
+     "text": "the",
+     "highlight": false,
+     "start": 26.073,
+     "end": 26.146
+    },
+    {
+     "text": "trees.",
+     "highlight": false,
+     "start": 26.2,
+     "end": 26.582
+    },
+    {
+     "text": "And",
+     "highlight": false,
+     "start": 26.991,
+     "end": 27.082
+    },
+    {
+     "text": "she",
+     "highlight": false,
+     "start": 27.137,
+     "end": 27.246
+    },
+    {
+     "text": "remembered",
+     "highlight": false,
+     "start": 27.282,
+     "end": 27.646
+    },
+    {
+     "text": "the",
+     "highlight": false,
+     "start": 27.682,
+     "end": 27.755
+    },
+    {
+     "text": "words.",
+     "highlight": true,
+     "start": 27.791,
+     "end": 28.191
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "The hut shifting on its legs, the girl small in the foreground",
+   "notes": "Hold."
+  },
+  {
+   "id": 7,
+   "start": 28.58,
+   "end": 32.661,
+   "act": 1,
+   "set": "forest",
+   "owner": "F",
+   "framing": "Close, the girl whispering",
+   "camera": "Very slow push",
+   "vo": "Little hut… turn your back to the forest. Your front to me.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "Little",
+     "highlight": false,
+     "start": 28.835,
+     "end": 29.053
+    },
+    {
+     "text": "hut…",
+     "highlight": false,
+     "start": 29.144,
+     "end": 29.416
+    },
+    {
+     "text": "turn",
+     "highlight": false,
+     "start": 29.825,
+     "end": 30.025
+    },
+    {
+     "text": "your",
+     "highlight": false,
+     "start": 30.062,
+     "end": 30.171
+    },
+    {
+     "text": "back",
+     "highlight": false,
+     "start": 30.207,
+     "end": 30.371
+    },
+    {
+     "text": "to",
+     "highlight": false,
+     "start": 30.425,
+     "end": 30.48
+    },
+    {
+     "text": "the",
+     "highlight": false,
+     "start": 30.516,
+     "end": 30.607
+    },
+    {
+     "text": "forest.",
+     "highlight": false,
+     "start": 30.644,
+     "end": 31.044
+    },
+    {
+     "text": "Your",
+     "highlight": false,
+     "start": 31.453,
+     "end": 31.598
+    },
+    {
+     "text": "front",
+     "highlight": false,
+     "start": 31.653,
+     "end": 31.871
+    },
+    {
+     "text": "to",
+     "highlight": false,
+     "start": 31.925,
+     "end": 31.998
+    },
+    {
+     "text": "me.",
+     "highlight": true,
+     "start": 32.053,
+     "end": 32.271
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "Girl's profile in the cold, breath steaming, eyes on the hut",
+   "notes": "Quiet."
+  },
+  {
+   "id": 8,
+   "start": 32.661,
+   "end": 36.728,
+   "act": 1,
+   "set": "forest",
+   "owner": "F",
+   "framing": "Low angle, the legs bending, the door opening",
+   "camera": "Locked",
+   "vo": "The legs creaked. The hut turned around. And the door opened.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "The",
+     "highlight": false,
+     "start": 32.916,
+     "end": 32.988
+    },
+    {
+     "text": "legs",
+     "highlight": false,
+     "start": 33.043,
+     "end": 33.297
+    },
+    {
+     "text": "creaked.",
+     "highlight": false,
+     "start": 33.388,
+     "end": 33.716
+    },
+    {
+     "text": "The",
+     "highlight": false,
+     "start": 34.125,
+     "end": 34.179
+    },
+    {
+     "text": "hut",
+     "highlight": false,
+     "start": 34.216,
+     "end": 34.379
+    },
+    {
+     "text": "turned",
+     "highlight": false,
+     "start": 34.434,
+     "end": 34.616
+    },
+    {
+     "text": "around.",
+     "highlight": false,
+     "start": 34.67,
+     "end": 35.052
+    },
+    {
+     "text": "And",
+     "highlight": false,
+     "start": 35.461,
+     "end": 35.534
+    },
+    {
+     "text": "the",
+     "highlight": false,
+     "start": 35.57,
+     "end": 35.625
+    },
+    {
+     "text": "door",
+     "highlight": false,
+     "start": 35.679,
+     "end": 35.897
+    },
+    {
+     "text": "opened.",
+     "highlight": true,
+     "start": 35.97,
+     "end": 36.333
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "Giant legs bending low, the door swinging open with warm oven light spilling on the snow",
+   "notes": "Hero."
+  },
+  {
+   "id": 9,
+   "start": 36.728,
+   "end": 41.237,
+   "act": 1,
+   "set": "hut",
+   "owner": "H",
+   "framing": "Medium, an old woman stirring a pot by the oven",
+   "camera": "Slow push",
+   "vo": "Inside, an old woman with iron teeth stirred a pot. She smiled.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "Inside,",
+     "highlight": false,
+     "start": 36.983,
+     "end": 37.492
+    },
+    {
+     "text": "an",
+     "highlight": false,
+     "start": 37.71,
+     "end": 37.801
+    },
+    {
+     "text": "old",
+     "highlight": false,
+     "start": 37.873,
+     "end": 38.037
+    },
+    {
+     "text": "woman",
+     "highlight": false,
+     "start": 38.073,
+     "end": 38.328
+    },
+    {
+     "text": "with",
+     "highlight": false,
+     "start": 38.364,
+     "end": 38.492
+    },
+    {
+     "text": "iron",
+     "highlight": false,
+     "start": 38.601,
+     "end": 38.837
+    },
+    {
+     "text": "teeth",
+     "highlight": false,
+     "start": 38.91,
+     "end": 39.183
+    },
+    {
+     "text": "stirred",
+     "highlight": false,
+     "start": 39.255,
+     "end": 39.419
+    },
+    {
+     "text": "a",
+     "highlight": false,
+     "start": 39.455,
+     "end": 39.51
+    },
+    {
+     "text": "pot.",
+     "highlight": false,
+     "start": 39.564,
+     "end": 39.855
+    },
+    {
+     "text": "She",
+     "highlight": false,
+     "start": 40.264,
+     "end": 40.373
+    },
+    {
+     "text": "smiled.",
+     "highlight": true,
+     "start": 40.446,
+     "end": 40.846
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "Hunched old woman in firelight by a clay oven, stirring an iron pot, a glint of iron teeth",
+   "notes": "Never gory."
+  },
+  {
+   "id": 10,
+   "start": 41.237,
+   "end": 45.615,
+   "act": 1,
+   "set": "hut",
+   "owner": "H",
+   "framing": "Close, Baba Yaga's face in firelight",
+   "camera": "Very slow push",
+   "vo": "You asked nicely, she said. So I will show you the way home.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "You",
+     "highlight": false,
+     "start": 41.492,
+     "end": 41.619
+    },
+    {
+     "text": "asked",
+     "highlight": false,
+     "start": 41.728,
+     "end": 42.055
+    },
+    {
+     "text": "nicely,",
+     "highlight": false,
+     "start": 42.164,
+     "end": 42.601
+    },
+    {
+     "text": "she",
+     "highlight": false,
+     "start": 43.01,
+     "end": 43.137
+    },
+    {
+     "text": "said.",
+     "highlight": false,
+     "start": 43.192,
+     "end": 43.392
+    },
+    {
+     "text": "So",
+     "highlight": false,
+     "start": 43.392,
+     "end": 43.973
+    },
+    {
+     "text": "I",
+     "highlight": false,
+     "start": 44.064,
+     "end": 44.101
+    },
+    {
+     "text": "will",
+     "highlight": false,
+     "start": 44.119,
+     "end": 44.228
+    },
+    {
+     "text": "show",
+     "highlight": false,
+     "start": 44.282,
+     "end": 44.464
+    },
+    {
+     "text": "you",
+     "highlight": false,
+     "start": 44.519,
+     "end": 44.592
+    },
+    {
+     "text": "the",
+     "highlight": false,
+     "start": 44.628,
+     "end": 44.682
+    },
+    {
+     "text": "way",
+     "highlight": false,
+     "start": 44.719,
+     "end": 44.828
+    },
+    {
+     "text": "home.",
+     "highlight": true,
+     "start": 44.937,
+     "end": 45.228
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "Firelit profile: hooked nose, wild grey hair, a sly smile",
+   "notes": "Eerie-kind."
+  },
+  {
+   "id": 11,
+   "start": 45.615,
+   "end": 50.381,
+   "act": 1,
+   "set": "forest",
+   "owner": "F",
+   "framing": "Wide, a ball of yarn rolling through the snow at dawn",
+   "camera": "Slow pull-back",
+   "vo": "She gave her a ball of red yarn. It rolled through the snow, all the way home.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "She",
+     "highlight": false,
+     "start": 45.87,
+     "end": 45.979
+    },
+    {
+     "text": "gave",
+     "highlight": false,
+     "start": 46.015,
+     "end": 46.197
+    },
+    {
+     "text": "her",
+     "highlight": false,
+     "start": 46.215,
+     "end": 46.306
+    },
+    {
+     "text": "a",
+     "highlight": false,
+     "start": 46.36,
+     "end": 46.415
+    },
+    {
+     "text": "ball",
+     "highlight": false,
+     "start": 46.451,
+     "end": 46.633
+    },
+    {
+     "text": "of",
+     "highlight": false,
+     "start": 46.67,
+     "end": 46.76
+    },
+    {
+     "text": "red",
+     "highlight": false,
+     "start": 46.797,
+     "end": 46.96
+    },
+    {
+     "text": "yarn.",
+     "highlight": false,
+     "start": 47.015,
+     "end": 47.342
+    },
+    {
+     "text": "It",
+     "highlight": false,
+     "start": 47.751,
+     "end": 47.842
+    },
+    {
+     "text": "rolled",
+     "highlight": false,
+     "start": 47.897,
+     "end": 48.151
+    },
+    {
+     "text": "through",
+     "highlight": false,
+     "start": 48.17,
+     "end": 48.297
+    },
+    {
+     "text": "the",
+     "highlight": false,
+     "start": 48.333,
+     "end": 48.406
+    },
+    {
+     "text": "snow,",
+     "highlight": false,
+     "start": 48.497,
+     "end": 48.788
+    },
+    {
+     "text": "all",
+     "highlight": false,
+     "start": 49.197,
+     "end": 49.342
+    },
+    {
+     "text": "the",
+     "highlight": false,
+     "start": 49.397,
+     "end": 49.451
+    },
+    {
+     "text": "way",
+     "highlight": false,
+     "start": 49.506,
+     "end": 49.651
+    },
+    {
+     "text": "home.",
+     "highlight": true,
+     "start": 49.706,
+     "end": 49.997
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "A red yarn line across the snow at dawn, the girl following it toward distant roofs",
+   "notes": "Dawn."
+  },
+  {
+   "id": 12,
+   "start": 50.381,
+   "end": 56.818,
+   "act": 1,
+   "set": "forest",
+   "owner": "F",
+   "framing": "Wide, a window at night, snow outside",
+   "camera": "Slow push-in",
+   "vo": "Grandma is ninety now. Last winter she whispered: I hear chicken feet. Outside my window.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "Grandma",
+     "highlight": false,
+     "start": 50.636,
+     "end": 51.036
+    },
+    {
+     "text": "is",
+     "highlight": false,
+     "start": 51.09,
+     "end": 51.217
+    },
+    {
+     "text": "ninety",
+     "highlight": false,
+     "start": 51.472,
+     "end": 51.672
+    },
+    {
+     "text": "now.",
+     "highlight": false,
+     "start": 51.726,
+     "end": 51.963
+    },
+    {
+     "text": "Last",
+     "highlight": false,
+     "start": 52.372,
+     "end": 52.626
+    },
+    {
+     "text": "winter",
+     "highlight": false,
+     "start": 52.663,
+     "end": 52.899
+    },
+    {
+     "text": "she",
+     "highlight": false,
+     "start": 52.954,
+     "end": 53.063
+    },
+    {
+     "text": "whispered:",
+     "highlight": false,
+     "start": 53.099,
+     "end": 53.463
+    },
+    {
+     "text": "I",
+     "highlight": false,
+     "start": 53.481,
+     "end": 53.99
+    },
+    {
+     "text": "hear",
+     "highlight": false,
+     "start": 54.045,
+     "end": 54.208
+    },
+    {
+     "text": "chicken",
+     "highlight": false,
+     "start": 54.263,
+     "end": 54.572
+    },
+    {
+     "text": "feet.",
+     "highlight": false,
+     "start": 54.626,
+     "end": 54.863
+    },
+    {
+     "text": "Outside",
+     "highlight": false,
+     "start": 55.272,
+     "end": 55.636
+    },
+    {
+     "text": "my",
+     "highlight": false,
+     "start": 55.672,
+     "end": 55.799
+    },
+    {
+     "text": "window.",
+     "highlight": true,
+     "start": 55.854,
+     "end": 56.236
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "A cottage window at night; in the snow outside, huge three-toed bird prints",
+   "notes": "Cold."
+  },
+  {
+   "id": 13,
+   "start": 56.818,
+   "end": 59.618,
+   "act": 1,
+   "set": "graphic",
+   "owner": "G",
+   "framing": "End card",
+   "camera": "Static",
+   "vo": "Would you knock on the door? Comment YES or NO.",
+   "voKind": "onscreen",
+   "speaker": null,
+   "words": [
+    {
+     "text": "Would",
+     "highlight": false,
+     "start": 57.068,
+     "end": 57.368
+    },
+    {
+     "text": "you",
+     "highlight": false,
+     "start": 57.288,
+     "end": 57.588
+    },
+    {
+     "text": "knock",
+     "highlight": false,
+     "start": 57.508,
+     "end": 57.808
+    },
+    {
+     "text": "on",
+     "highlight": false,
+     "start": 57.728,
+     "end": 58.028
+    },
+    {
+     "text": "the",
+     "highlight": false,
+     "start": 57.948,
+     "end": 58.248
+    },
+    {
+     "text": "door?",
+     "highlight": false,
+     "start": 58.168,
+     "end": 58.468
+    },
+    {
+     "text": "Comment",
+     "highlight": false,
+     "start": 58.388,
+     "end": 58.688
+    },
+    {
+     "text": "YES",
+     "highlight": true,
+     "start": 58.608,
+     "end": 58.908
+    },
+    {
+     "text": "or",
+     "highlight": false,
+     "start": 58.828,
+     "end": 59.128
+    },
+    {
+     "text": "NO.",
+     "highlight": true,
+     "start": 59.048,
+     "end": 59.348
+    }
+   ],
+   "trans": "cut",
+   "caption": false,
+   "cool": false,
+   "hero": "CTA with the hut on chicken legs and red yarn motif",
+   "notes": "No caption (on-screen text)."
+  }
+ ],
+ "audio": true
+}

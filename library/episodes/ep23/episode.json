@@ -1,0 +1,1275 @@
+{
+ "id": "EP23",
+ "title": "Babi Ngepet",
+ "fps": 30,
+ "width": 1080,
+ "height": 1920,
+ "durationSec": 57.567,
+ "accent": "#ffd166",
+ "timingSource": "ai33 eleven_v3 transcript, tempo x1.1",
+ "shots": [
+  {
+   "id": 1,
+   "start": 0.0,
+   "end": 6.613,
+   "act": 1,
+   "set": "kampung",
+   "owner": "K",
+   "framing": "Wide, a village lane at night",
+   "camera": "Slow push-in",
+   "vo": "In Indonesia, if a black pig walks through your village at night… and somewhere a candle is burning… blow it out.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "In",
+     "highlight": false,
+     "start": 0.455,
+     "end": 0.509
+    },
+    {
+     "text": "Indonesia,",
+     "highlight": false,
+     "start": 0.564,
+     "end": 1.055
+    },
+    {
+     "text": "if",
+     "highlight": false,
+     "start": 1.464,
+     "end": 1.518
+    },
+    {
+     "text": "a",
+     "highlight": false,
+     "start": 1.555,
+     "end": 1.609
+    },
+    {
+     "text": "black",
+     "highlight": false,
+     "start": 1.645,
+     "end": 1.9
+    },
+    {
+     "text": "pig",
+     "highlight": false,
+     "start": 1.936,
+     "end": 2.118
+    },
+    {
+     "text": "walks",
+     "highlight": false,
+     "start": 2.191,
+     "end": 2.427
+    },
+    {
+     "text": "through",
+     "highlight": false,
+     "start": 2.445,
+     "end": 2.591
+    },
+    {
+     "text": "your",
+     "highlight": false,
+     "start": 2.627,
+     "end": 2.736
+    },
+    {
+     "text": "village",
+     "highlight": false,
+     "start": 2.773,
+     "end": 2.991
+    },
+    {
+     "text": "at",
+     "highlight": false,
+     "start": 3.027,
+     "end": 3.1
+    },
+    {
+     "text": "night…",
+     "highlight": false,
+     "start": 3.155,
+     "end": 3.391
+    },
+    {
+     "text": "and",
+     "highlight": false,
+     "start": 3.8,
+     "end": 3.909
+    },
+    {
+     "text": "somewhere",
+     "highlight": false,
+     "start": 3.982,
+     "end": 4.327
+    },
+    {
+     "text": "a",
+     "highlight": false,
+     "start": 4.382,
+     "end": 4.418
+    },
+    {
+     "text": "candle",
+     "highlight": false,
+     "start": 4.491,
+     "end": 4.745
+    },
+    {
+     "text": "is",
+     "highlight": false,
+     "start": 4.8,
+     "end": 4.891
+    },
+    {
+     "text": "burning…",
+     "highlight": false,
+     "start": 4.945,
+     "end": 5.255
+    },
+    {
+     "text": "blow",
+     "highlight": false,
+     "start": 5.664,
+     "end": 5.827
+    },
+    {
+     "text": "it",
+     "highlight": false,
+     "start": 5.864,
+     "end": 5.936
+    },
+    {
+     "text": "out.",
+     "highlight": true,
+     "start": 6.009,
+     "end": 6.227
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "A muddy lane between houses at night; a black pig shape crossing far down the lane",
+   "notes": "Houses, banana trees; LOW detail bg."
+  },
+  {
+   "id": 2,
+   "start": 6.613,
+   "end": 8.945,
+   "act": 1,
+   "set": "graphic",
+   "owner": "G",
+   "framing": "Title card",
+   "camera": "Slow push",
+   "vo": "It might be a babi ngepet.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "It",
+     "highlight": false,
+     "start": 6.868,
+     "end": 7.013
+    },
+    {
+     "text": "might",
+     "highlight": false,
+     "start": 7.068,
+     "end": 7.304
+    },
+    {
+     "text": "be",
+     "highlight": false,
+     "start": 7.358,
+     "end": 7.468
+    },
+    {
+     "text": "a",
+     "highlight": false,
+     "start": 7.522,
+     "end": 7.577
+    },
+    {
+     "text": "babi",
+     "highlight": true,
+     "start": 7.613,
+     "end": 7.922
+    },
+    {
+     "text": "ngepet.",
+     "highlight": true,
+     "start": 8.031,
+     "end": 8.558
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "Title 'BABI NGEPET' + 'An Indonesian legend' over a candle flame on a tray of water",
+   "notes": "Candle light."
+  },
+  {
+   "id": 3,
+   "start": 8.945,
+   "end": 15.641,
+   "act": 1,
+   "set": "graphic",
+   "owner": "G",
+   "framing": "Lore insert",
+   "camera": "Slow push",
+   "vo": "Someone who turns into a pig to steal money. A partner guards a candle. If the flame shakes, the pig is in danger.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "Someone",
+     "highlight": false,
+     "start": 9.2,
+     "end": 9.454
+    },
+    {
+     "text": "who",
+     "highlight": false,
+     "start": 9.49,
+     "end": 9.6
+    },
+    {
+     "text": "turns",
+     "highlight": false,
+     "start": 9.654,
+     "end": 9.872
+    },
+    {
+     "text": "into",
+     "highlight": false,
+     "start": 9.909,
+     "end": 10.054
+    },
+    {
+     "text": "a",
+     "highlight": false,
+     "start": 10.109,
+     "end": 10.181
+    },
+    {
+     "text": "pig",
+     "highlight": false,
+     "start": 10.236,
+     "end": 10.436
+    },
+    {
+     "text": "to",
+     "highlight": false,
+     "start": 10.472,
+     "end": 10.563
+    },
+    {
+     "text": "steal",
+     "highlight": false,
+     "start": 10.618,
+     "end": 10.818
+    },
+    {
+     "text": "money.",
+     "highlight": false,
+     "start": 10.854,
+     "end": 11.109
+    },
+    {
+     "text": "A",
+     "highlight": false,
+     "start": 11.509,
+     "end": 11.563
+    },
+    {
+     "text": "partner",
+     "highlight": false,
+     "start": 11.618,
+     "end": 11.89
+    },
+    {
+     "text": "guards",
+     "highlight": false,
+     "start": 11.927,
+     "end": 12.145
+    },
+    {
+     "text": "a",
+     "highlight": false,
+     "start": 12.181,
+     "end": 12.218
+    },
+    {
+     "text": "candle.",
+     "highlight": false,
+     "start": 12.272,
+     "end": 12.636
+    },
+    {
+     "text": "If",
+     "highlight": false,
+     "start": 13.018,
+     "end": 13.072
+    },
+    {
+     "text": "the",
+     "highlight": false,
+     "start": 13.109,
+     "end": 13.181
+    },
+    {
+     "text": "flame",
+     "highlight": false,
+     "start": 13.236,
+     "end": 13.49
+    },
+    {
+     "text": "shakes,",
+     "highlight": false,
+     "start": 13.545,
+     "end": 13.909
+    },
+    {
+     "text": "the",
+     "highlight": false,
+     "start": 14.272,
+     "end": 14.363
+    },
+    {
+     "text": "pig",
+     "highlight": false,
+     "start": 14.418,
+     "end": 14.6
+    },
+    {
+     "text": "is",
+     "highlight": false,
+     "start": 14.636,
+     "end": 14.709
+    },
+    {
+     "text": "in",
+     "highlight": false,
+     "start": 14.745,
+     "end": 14.818
+    },
+    {
+     "text": "danger.",
+     "highlight": true,
+     "start": 14.872,
+     "end": 15.254
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "A candle on a tray of water, its flame wavering, coins glinting beside it",
+   "notes": "Eerie."
+  },
+  {
+   "id": 4,
+   "start": 15.641,
+   "end": 21.046,
+   "act": 1,
+   "set": "kampung",
+   "owner": "K",
+   "framing": "Medium, villagers whispering",
+   "camera": "Slow push",
+   "vo": "In our village, money kept disappearing. And at night, people saw a black pig.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "In",
+     "highlight": false,
+     "start": 15.896,
+     "end": 15.968
+    },
+    {
+     "text": "our",
+     "highlight": false,
+     "start": 16.023,
+     "end": 16.168
+    },
+    {
+     "text": "village,",
+     "highlight": false,
+     "start": 16.223,
+     "end": 16.568
+    },
+    {
+     "text": "money",
+     "highlight": false,
+     "start": 16.977,
+     "end": 17.214
+    },
+    {
+     "text": "kept",
+     "highlight": false,
+     "start": 17.268,
+     "end": 17.486
+    },
+    {
+     "text": "disappearing.",
+     "highlight": false,
+     "start": 17.523,
+     "end": 18.105
+    },
+    {
+     "text": "And",
+     "highlight": false,
+     "start": 18.514,
+     "end": 18.605
+    },
+    {
+     "text": "at",
+     "highlight": false,
+     "start": 18.641,
+     "end": 18.732
+    },
+    {
+     "text": "night,",
+     "highlight": false,
+     "start": 18.786,
+     "end": 19.041
+    },
+    {
+     "text": "people",
+     "highlight": false,
+     "start": 19.441,
+     "end": 19.641
+    },
+    {
+     "text": "saw",
+     "highlight": false,
+     "start": 19.75,
+     "end": 19.896
+    },
+    {
+     "text": "a",
+     "highlight": false,
+     "start": 19.95,
+     "end": 20.023
+    },
+    {
+     "text": "black",
+     "highlight": false,
+     "start": 20.059,
+     "end": 20.277
+    },
+    {
+     "text": "pig.",
+     "highlight": true,
+     "start": 20.386,
+     "end": 20.659
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "Villagers with lamps whispering at a gate, an empty money tin in one hand",
+   "notes": "Lamp-lit."
+  },
+  {
+   "id": 5,
+   "start": 21.046,
+   "end": 25.581,
+   "act": 1,
+   "set": "kampung",
+   "owner": "K",
+   "framing": "Wide, the lane with lamps at midnight",
+   "camera": "Locked",
+   "vo": "My father and the neighbors waited with lamps. At midnight, it came.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "My",
+     "highlight": false,
+     "start": 21.301,
+     "end": 21.446
+    },
+    {
+     "text": "father",
+     "highlight": false,
+     "start": 21.501,
+     "end": 21.846
+    },
+    {
+     "text": "and",
+     "highlight": false,
+     "start": 21.882,
+     "end": 21.955
+    },
+    {
+     "text": "the",
+     "highlight": false,
+     "start": 21.991,
+     "end": 22.064
+    },
+    {
+     "text": "neighbors",
+     "highlight": false,
+     "start": 22.101,
+     "end": 22.446
+    },
+    {
+     "text": "waited",
+     "highlight": false,
+     "start": 22.537,
+     "end": 22.81
+    },
+    {
+     "text": "with",
+     "highlight": false,
+     "start": 22.846,
+     "end": 22.973
+    },
+    {
+     "text": "lamps.",
+     "highlight": false,
+     "start": 23.028,
+     "end": 23.41
+    },
+    {
+     "text": "At",
+     "highlight": false,
+     "start": 23.81,
+     "end": 23.919
+    },
+    {
+     "text": "midnight,",
+     "highlight": false,
+     "start": 23.973,
+     "end": 24.391
+    },
+    {
+     "text": "it",
+     "highlight": false,
+     "start": 24.718,
+     "end": 24.828
+    },
+    {
+     "text": "came.",
+     "highlight": true,
+     "start": 24.882,
+     "end": 25.191
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "Men with lamps hiding in the dark; at the end of the lane a black pig steps into the light",
+   "notes": "Hold."
+  },
+  {
+   "id": 6,
+   "start": 25.581,
+   "end": 29.981,
+   "act": 1,
+   "set": "kampung",
+   "owner": "K",
+   "framing": "Medium, the pig sniffing under a door",
+   "camera": "Very slow push",
+   "vo": "A black pig, sniffing under doors. It wasn't afraid of the lamps.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "A",
+     "highlight": false,
+     "start": 25.836,
+     "end": 25.908
+    },
+    {
+     "text": "black",
+     "highlight": false,
+     "start": 25.945,
+     "end": 26.163
+    },
+    {
+     "text": "pig,",
+     "highlight": false,
+     "start": 26.29,
+     "end": 26.563
+    },
+    {
+     "text": "sniffing",
+     "highlight": false,
+     "start": 26.972,
+     "end": 27.245
+    },
+    {
+     "text": "under",
+     "highlight": false,
+     "start": 27.281,
+     "end": 27.481
+    },
+    {
+     "text": "doors.",
+     "highlight": false,
+     "start": 27.517,
+     "end": 27.917
+    },
+    {
+     "text": "It",
+     "highlight": false,
+     "start": 28.326,
+     "end": 28.399
+    },
+    {
+     "text": "wasn't",
+     "highlight": false,
+     "start": 28.436,
+     "end": 28.654
+    },
+    {
+     "text": "afraid",
+     "highlight": false,
+     "start": 28.708,
+     "end": 28.945
+    },
+    {
+     "text": "of",
+     "highlight": false,
+     "start": 28.981,
+     "end": 29.054
+    },
+    {
+     "text": "the",
+     "highlight": false,
+     "start": 29.09,
+     "end": 29.145
+    },
+    {
+     "text": "lamps.",
+     "highlight": true,
+     "start": 29.199,
+     "end": 29.599
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "Black pig nosing under a wooden door, lamp light on its wet bristles",
+   "notes": "Hero."
+  },
+  {
+   "id": 7,
+   "start": 29.981,
+   "end": 33.94,
+   "act": 1,
+   "set": "kampung",
+   "owner": "K",
+   "framing": "Close, father with his lamp",
+   "camera": "Locked",
+   "vo": "My father whispered: don't chase it. Find the candle.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "My",
+     "highlight": false,
+     "start": 30.236,
+     "end": 30.381
+    },
+    {
+     "text": "father",
+     "highlight": false,
+     "start": 30.436,
+     "end": 30.69
+    },
+    {
+     "text": "whispered:",
+     "highlight": false,
+     "start": 30.763,
+     "end": 31.126
+    },
+    {
+     "text": "don't",
+     "highlight": false,
+     "start": 31.145,
+     "end": 31.854
+    },
+    {
+     "text": "chase",
+     "highlight": false,
+     "start": 31.908,
+     "end": 32.108
+    },
+    {
+     "text": "it.",
+     "highlight": false,
+     "start": 32.163,
+     "end": 32.308
+    },
+    {
+     "text": "Find",
+     "highlight": false,
+     "start": 32.717,
+     "end": 33.008
+    },
+    {
+     "text": "the",
+     "highlight": false,
+     "start": 33.045,
+     "end": 33.099
+    },
+    {
+     "text": "candle.",
+     "highlight": true,
+     "start": 33.172,
+     "end": 33.554
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "Father's lamp-lit face in profile, turning toward the dark houses",
+   "notes": "Tension."
+  },
+  {
+   "id": 8,
+   "start": 33.94,
+   "end": 38.718,
+   "act": 1,
+   "set": "room",
+   "owner": "R",
+   "framing": "Medium, through a window: a woman by a candle",
+   "camera": "Very slow push",
+   "vo": "Through one window, we saw a woman sitting by a candle. Staring at the flame.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "Through",
+     "highlight": false,
+     "start": 34.195,
+     "end": 34.358
+    },
+    {
+     "text": "one",
+     "highlight": false,
+     "start": 34.449,
+     "end": 34.595
+    },
+    {
+     "text": "window,",
+     "highlight": false,
+     "start": 34.667,
+     "end": 35.067
+    },
+    {
+     "text": "we",
+     "highlight": false,
+     "start": 35.431,
+     "end": 35.522
+    },
+    {
+     "text": "saw",
+     "highlight": false,
+     "start": 35.576,
+     "end": 35.722
+    },
+    {
+     "text": "a",
+     "highlight": false,
+     "start": 35.795,
+     "end": 35.831
+    },
+    {
+     "text": "woman",
+     "highlight": false,
+     "start": 35.885,
+     "end": 36.158
+    },
+    {
+     "text": "sitting",
+     "highlight": false,
+     "start": 36.195,
+     "end": 36.413
+    },
+    {
+     "text": "by",
+     "highlight": false,
+     "start": 36.449,
+     "end": 36.54
+    },
+    {
+     "text": "a",
+     "highlight": false,
+     "start": 36.595,
+     "end": 36.631
+    },
+    {
+     "text": "candle.",
+     "highlight": false,
+     "start": 36.685,
+     "end": 37.049
+    },
+    {
+     "text": "Staring",
+     "highlight": false,
+     "start": 37.458,
+     "end": 37.749
+    },
+    {
+     "text": "at",
+     "highlight": false,
+     "start": 37.785,
+     "end": 37.858
+    },
+    {
+     "text": "the",
+     "highlight": false,
+     "start": 37.876,
+     "end": 37.949
+    },
+    {
+     "text": "flame.",
+     "highlight": true,
+     "start": 38.004,
+     "end": 38.331
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "Through wooden shutters: a woman's silhouette sitting perfectly still before a candle on a tray of water",
+   "notes": "Hero."
+  },
+  {
+   "id": 9,
+   "start": 38.718,
+   "end": 41.811,
+   "act": 1,
+   "set": "room",
+   "owner": "R",
+   "framing": "Close, the flame shaking",
+   "camera": "Locked",
+   "vo": "My father knocked on the wall. The flame shook.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "My",
+     "highlight": false,
+     "start": 38.973,
+     "end": 39.118
+    },
+    {
+     "text": "father",
+     "highlight": false,
+     "start": 39.173,
+     "end": 39.445
+    },
+    {
+     "text": "knocked",
+     "highlight": false,
+     "start": 39.463,
+     "end": 39.682
+    },
+    {
+     "text": "on",
+     "highlight": false,
+     "start": 39.736,
+     "end": 39.791
+    },
+    {
+     "text": "the",
+     "highlight": false,
+     "start": 39.827,
+     "end": 39.918
+    },
+    {
+     "text": "wall.",
+     "highlight": false,
+     "start": 39.954,
+     "end": 40.227
+    },
+    {
+     "text": "The",
+     "highlight": false,
+     "start": 40.636,
+     "end": 40.727
+    },
+    {
+     "text": "flame",
+     "highlight": false,
+     "start": 40.782,
+     "end": 41.018
+    },
+    {
+     "text": "shook.",
+     "highlight": true,
+     "start": 41.145,
+     "end": 41.418
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "The candle flame trembling wildly, ripples on the tray of water",
+   "notes": "Hero."
+  },
+  {
+   "id": 10,
+   "start": 41.811,
+   "end": 45.734,
+   "act": 1,
+   "set": "kampung",
+   "owner": "K",
+   "framing": "Wide, the pig fleeing",
+   "camera": "Handheld",
+   "vo": "Outside, the pig squealed. And ran into the dark.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "Outside,",
+     "highlight": false,
+     "start": 42.066,
+     "end": 42.666
+    },
+    {
+     "text": "the",
+     "highlight": false,
+     "start": 43.029,
+     "end": 43.12
+    },
+    {
+     "text": "pig",
+     "highlight": false,
+     "start": 43.175,
+     "end": 43.338
+    },
+    {
+     "text": "squealed.",
+     "highlight": false,
+     "start": 43.466,
+     "end": 43.866
+    },
+    {
+     "text": "And",
+     "highlight": false,
+     "start": 44.266,
+     "end": 44.393
+    },
+    {
+     "text": "ran",
+     "highlight": false,
+     "start": 44.466,
+     "end": 44.666
+    },
+    {
+     "text": "into",
+     "highlight": false,
+     "start": 44.702,
+     "end": 44.866
+    },
+    {
+     "text": "the",
+     "highlight": false,
+     "start": 44.902,
+     "end": 44.975
+    },
+    {
+     "text": "dark.",
+     "highlight": true,
+     "start": 45.011,
+     "end": 45.338
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "The black pig bolting down the lane past the lamps into darkness",
+   "notes": "Fast."
+  },
+  {
+   "id": 11,
+   "start": 45.734,
+   "end": 48.495,
+   "act": 1,
+   "set": "room",
+   "owner": "R",
+   "framing": "Close, the candle blown out",
+   "camera": "Locked",
+   "vo": "The woman blew out the candle. Too late.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "The",
+     "highlight": false,
+     "start": 45.989,
+     "end": 46.061
+    },
+    {
+     "text": "woman",
+     "highlight": false,
+     "start": 46.116,
+     "end": 46.334
+    },
+    {
+     "text": "blew",
+     "highlight": false,
+     "start": 46.425,
+     "end": 46.589
+    },
+    {
+     "text": "out",
+     "highlight": false,
+     "start": 46.625,
+     "end": 46.734
+    },
+    {
+     "text": "the",
+     "highlight": false,
+     "start": 46.77,
+     "end": 46.843
+    },
+    {
+     "text": "candle.",
+     "highlight": false,
+     "start": 46.898,
+     "end": 47.225
+    },
+    {
+     "text": "Too",
+     "highlight": false,
+     "start": 47.634,
+     "end": 47.761
+    },
+    {
+     "text": "late.",
+     "highlight": true,
+     "start": 47.852,
+     "end": 48.107
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "Smoke curling from a dead wick over the tray of water",
+   "notes": "Dark."
+  },
+  {
+   "id": 12,
+   "start": 48.495,
+   "end": 54.767,
+   "act": 1,
+   "set": "kampung",
+   "owner": "K",
+   "framing": "Wide, the lane at dawn",
+   "camera": "Slow pull-back",
+   "vo": "The next morning, our neighbor came home limping. Mud on his feet. And a black bristle on his collar.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "The",
+     "highlight": false,
+     "start": 48.75,
+     "end": 48.822
+    },
+    {
+     "text": "next",
+     "highlight": false,
+     "start": 48.859,
+     "end": 49.095
+    },
+    {
+     "text": "morning,",
+     "highlight": false,
+     "start": 49.15,
+     "end": 49.422
+    },
+    {
+     "text": "our",
+     "highlight": false,
+     "start": 49.786,
+     "end": 49.895
+    },
+    {
+     "text": "neighbor",
+     "highlight": false,
+     "start": 49.931,
+     "end": 50.186
+    },
+    {
+     "text": "came",
+     "highlight": false,
+     "start": 50.277,
+     "end": 50.422
+    },
+    {
+     "text": "home",
+     "highlight": false,
+     "start": 50.477,
+     "end": 50.677
+    },
+    {
+     "text": "limping.",
+     "highlight": false,
+     "start": 50.731,
+     "end": 51.077
+    },
+    {
+     "text": "Mud",
+     "highlight": false,
+     "start": 51.486,
+     "end": 51.686
+    },
+    {
+     "text": "on",
+     "highlight": false,
+     "start": 51.74,
+     "end": 51.813
+    },
+    {
+     "text": "his",
+     "highlight": false,
+     "start": 51.85,
+     "end": 52.013
+    },
+    {
+     "text": "feet.",
+     "highlight": false,
+     "start": 52.068,
+     "end": 52.286
+    },
+    {
+     "text": "And",
+     "highlight": false,
+     "start": 52.695,
+     "end": 52.768
+    },
+    {
+     "text": "a",
+     "highlight": false,
+     "start": 52.804,
+     "end": 52.859
+    },
+    {
+     "text": "black",
+     "highlight": false,
+     "start": 52.895,
+     "end": 53.168
+    },
+    {
+     "text": "bristle",
+     "highlight": false,
+     "start": 53.222,
+     "end": 53.513
+    },
+    {
+     "text": "on",
+     "highlight": false,
+     "start": 53.55,
+     "end": 53.64
+    },
+    {
+     "text": "his",
+     "highlight": false,
+     "start": 53.659,
+     "end": 53.804
+    },
+    {
+     "text": "collar.",
+     "highlight": true,
+     "start": 53.859,
+     "end": 54.186
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "A man limping home along the lane in grey dawn, villagers watching from doorways",
+   "notes": "Dawn."
+  },
+  {
+   "id": 13,
+   "start": 54.767,
+   "end": 57.567,
+   "act": 1,
+   "set": "graphic",
+   "owner": "G",
+   "framing": "End card",
+   "camera": "Static",
+   "vo": "Would you blow out the candle? Comment YES or NO.",
+   "voKind": "onscreen",
+   "speaker": null,
+   "words": [
+    {
+     "text": "Would",
+     "highlight": false,
+     "start": 55.017,
+     "end": 55.317
+    },
+    {
+     "text": "you",
+     "highlight": false,
+     "start": 55.237,
+     "end": 55.537
+    },
+    {
+     "text": "blow",
+     "highlight": false,
+     "start": 55.457,
+     "end": 55.757
+    },
+    {
+     "text": "out",
+     "highlight": false,
+     "start": 55.677,
+     "end": 55.977
+    },
+    {
+     "text": "the",
+     "highlight": false,
+     "start": 55.897,
+     "end": 56.197
+    },
+    {
+     "text": "candle?",
+     "highlight": false,
+     "start": 56.117,
+     "end": 56.417
+    },
+    {
+     "text": "Comment",
+     "highlight": false,
+     "start": 56.337,
+     "end": 56.637
+    },
+    {
+     "text": "YES",
+     "highlight": true,
+     "start": 56.557,
+     "end": 56.857
+    },
+    {
+     "text": "or",
+     "highlight": false,
+     "start": 56.777,
+     "end": 57.077
+    },
+    {
+     "text": "NO.",
+     "highlight": true,
+     "start": 56.997,
+     "end": 57.297
+    }
+   ],
+   "trans": "cut",
+   "caption": false,
+   "cool": false,
+   "hero": "CTA with a candle and black pig motif",
+   "notes": "No caption (on-screen text)."
+  }
+ ],
+ "audio": true
+}

@@ -1,0 +1,1245 @@
+{
+ "id": "EP22",
+ "title": "Huldra",
+ "fps": 30,
+ "width": 1080,
+ "height": 1920,
+ "durationSec": 59.391,
+ "accent": "#a6e3a1",
+ "timingSource": "ai33 eleven_v3 transcript, tempo x1.1",
+ "shots": [
+  {
+   "id": 1,
+   "start": 0.0,
+   "end": 7.272,
+   "act": 1,
+   "set": "woods",
+   "owner": "W",
+   "framing": "Wide, pine forest under a golden night sky",
+   "camera": "Slow push-in",
+   "vo": "In Norway, if a beautiful woman calls you into the forest… look at her back. If you see a tail… don't follow.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "In",
+     "highlight": false,
+     "start": 0.455,
+     "end": 0.545
+    },
+    {
+     "text": "Norway,",
+     "highlight": false,
+     "start": 0.618,
+     "end": 1.018
+    },
+    {
+     "text": "if",
+     "highlight": false,
+     "start": 1.418,
+     "end": 1.491
+    },
+    {
+     "text": "a",
+     "highlight": false,
+     "start": 1.527,
+     "end": 1.582
+    },
+    {
+     "text": "beautiful",
+     "highlight": false,
+     "start": 1.618,
+     "end": 1.964
+    },
+    {
+     "text": "woman",
+     "highlight": false,
+     "start": 2.036,
+     "end": 2.255
+    },
+    {
+     "text": "calls",
+     "highlight": false,
+     "start": 2.364,
+     "end": 2.582
+    },
+    {
+     "text": "you",
+     "highlight": false,
+     "start": 2.618,
+     "end": 2.691
+    },
+    {
+     "text": "into",
+     "highlight": false,
+     "start": 2.727,
+     "end": 2.873
+    },
+    {
+     "text": "the",
+     "highlight": false,
+     "start": 2.909,
+     "end": 3.0
+    },
+    {
+     "text": "forest…",
+     "highlight": false,
+     "start": 3.055,
+     "end": 3.473
+    },
+    {
+     "text": "look",
+     "highlight": false,
+     "start": 3.882,
+     "end": 3.991
+    },
+    {
+     "text": "at",
+     "highlight": false,
+     "start": 4.027,
+     "end": 4.1
+    },
+    {
+     "text": "her",
+     "highlight": false,
+     "start": 4.118,
+     "end": 4.264
+    },
+    {
+     "text": "back.",
+     "highlight": false,
+     "start": 4.3,
+     "end": 4.609
+    },
+    {
+     "text": "If",
+     "highlight": false,
+     "start": 5.018,
+     "end": 5.091
+    },
+    {
+     "text": "you",
+     "highlight": false,
+     "start": 5.127,
+     "end": 5.218
+    },
+    {
+     "text": "see",
+     "highlight": false,
+     "start": 5.273,
+     "end": 5.364
+    },
+    {
+     "text": "a",
+     "highlight": false,
+     "start": 5.418,
+     "end": 5.473
+    },
+    {
+     "text": "tail…",
+     "highlight": true,
+     "start": 5.545,
+     "end": 5.836
+    },
+    {
+     "text": "don't",
+     "highlight": false,
+     "start": 6.245,
+     "end": 6.464
+    },
+    {
+     "text": "follow.",
+     "highlight": false,
+     "start": 6.536,
+     "end": 6.882
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "Tall pines against a pale gold night sky; a woman's pale shape far between the trunks",
+   "notes": "Pines, rocks; LOW detail bg."
+  },
+  {
+   "id": 2,
+   "start": 7.272,
+   "end": 8.682,
+   "act": 1,
+   "set": "graphic",
+   "owner": "G",
+   "framing": "Title card",
+   "camera": "Slow push",
+   "vo": "She's a huldra.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "She's",
+     "highlight": false,
+     "start": 7.527,
+     "end": 7.708
+    },
+    {
+     "text": "a",
+     "highlight": false,
+     "start": 7.763,
+     "end": 7.817
+    },
+    {
+     "text": "huldra.",
+     "highlight": true,
+     "start": 7.854,
+     "end": 8.29
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "Title 'HULDRA' + 'Hulder · Norway' over a woman's silhouette with long hair between pines",
+   "notes": "Golden night."
+  },
+  {
+   "id": 3,
+   "start": 8.682,
+   "end": 14.594,
+   "act": 1,
+   "set": "graphic",
+   "owner": "G",
+   "framing": "Lore insert",
+   "camera": "Slow push",
+   "vo": "A forest spirit. Beautiful from the front. Hollow like a rotten tree from behind.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "A",
+     "highlight": false,
+     "start": 8.937,
+     "end": 9.027
+    },
+    {
+     "text": "forest",
+     "highlight": false,
+     "start": 9.082,
+     "end": 9.482
+    },
+    {
+     "text": "spirit.",
+     "highlight": false,
+     "start": 9.627,
+     "end": 10.027
+    },
+    {
+     "text": "Beautiful",
+     "highlight": false,
+     "start": 10.437,
+     "end": 10.873
+    },
+    {
+     "text": "from",
+     "highlight": false,
+     "start": 10.909,
+     "end": 11.037
+    },
+    {
+     "text": "the",
+     "highlight": false,
+     "start": 11.073,
+     "end": 11.146
+    },
+    {
+     "text": "front.",
+     "highlight": false,
+     "start": 11.2,
+     "end": 11.473
+    },
+    {
+     "text": "Hollow",
+     "highlight": false,
+     "start": 11.882,
+     "end": 12.227
+    },
+    {
+     "text": "like",
+     "highlight": false,
+     "start": 12.282,
+     "end": 12.391
+    },
+    {
+     "text": "a",
+     "highlight": false,
+     "start": 12.446,
+     "end": 12.5
+    },
+    {
+     "text": "rotten",
+     "highlight": false,
+     "start": 12.555,
+     "end": 12.809
+    },
+    {
+     "text": "tree",
+     "highlight": false,
+     "start": 12.882,
+     "end": 13.137
+    },
+    {
+     "text": "from",
+     "highlight": false,
+     "start": 13.546,
+     "end": 13.673
+    },
+    {
+     "text": "behind.",
+     "highlight": true,
+     "start": 13.709,
+     "end": 14.2
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "A tree trunk split open, hollow and dark inside, with long golden hair caught on the bark",
+   "notes": "Eerie, not gory."
+  },
+  {
+   "id": 4,
+   "start": 14.594,
+   "end": 20.218,
+   "act": 1,
+   "set": "farm",
+   "owner": "M",
+   "framing": "Wide, the mountain farm",
+   "camera": "Slow lateral track",
+   "vo": "Every summer, my brother herded goats at our mountain farm. Alone. Under the midnight sun.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "Every",
+     "highlight": false,
+     "start": 14.849,
+     "end": 15.03
+    },
+    {
+     "text": "summer,",
+     "highlight": false,
+     "start": 15.121,
+     "end": 15.376
+    },
+    {
+     "text": "my",
+     "highlight": false,
+     "start": 15.703,
+     "end": 15.83
+    },
+    {
+     "text": "brother",
+     "highlight": false,
+     "start": 15.867,
+     "end": 16.121
+    },
+    {
+     "text": "herded",
+     "highlight": false,
+     "start": 16.158,
+     "end": 16.376
+    },
+    {
+     "text": "goats",
+     "highlight": false,
+     "start": 16.467,
+     "end": 16.685
+    },
+    {
+     "text": "at",
+     "highlight": false,
+     "start": 16.721,
+     "end": 16.776
+    },
+    {
+     "text": "our",
+     "highlight": false,
+     "start": 16.812,
+     "end": 16.885
+    },
+    {
+     "text": "mountain",
+     "highlight": false,
+     "start": 16.939,
+     "end": 17.158
+    },
+    {
+     "text": "farm.",
+     "highlight": false,
+     "start": 17.267,
+     "end": 17.539
+    },
+    {
+     "text": "Alone.",
+     "highlight": false,
+     "start": 17.949,
+     "end": 18.349
+    },
+    {
+     "text": "Under",
+     "highlight": false,
+     "start": 18.758,
+     "end": 18.939
+    },
+    {
+     "text": "the",
+     "highlight": false,
+     "start": 18.994,
+     "end": 19.049
+    },
+    {
+     "text": "midnight",
+     "highlight": false,
+     "start": 19.103,
+     "end": 19.449
+    },
+    {
+     "text": "sun.",
+     "highlight": true,
+     "start": 19.558,
+     "end": 19.83
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "Turf-roof cabin on a slope, goats grazing, a boy with a stick, low golden sun",
+   "notes": "Peaceful."
+  },
+  {
+   "id": 5,
+   "start": 20.218,
+   "end": 25.547,
+   "act": 1,
+   "set": "woods",
+   "owner": "W",
+   "framing": "Medium, the boy at the forest edge",
+   "camera": "Slow push",
+   "vo": "One night, he heard singing in the trees. A woman's voice, calling his name.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "One",
+     "highlight": false,
+     "start": 20.473,
+     "end": 20.582
+    },
+    {
+     "text": "night,",
+     "highlight": false,
+     "start": 20.673,
+     "end": 20.945
+    },
+    {
+     "text": "he",
+     "highlight": false,
+     "start": 21.2,
+     "end": 21.309
+    },
+    {
+     "text": "heard",
+     "highlight": false,
+     "start": 21.363,
+     "end": 21.545
+    },
+    {
+     "text": "singing",
+     "highlight": false,
+     "start": 21.673,
+     "end": 21.927
+    },
+    {
+     "text": "in",
+     "highlight": false,
+     "start": 21.963,
+     "end": 22.036
+    },
+    {
+     "text": "the",
+     "highlight": false,
+     "start": 22.073,
+     "end": 22.145
+    },
+    {
+     "text": "trees.",
+     "highlight": false,
+     "start": 22.218,
+     "end": 22.654
+    },
+    {
+     "text": "A",
+     "highlight": false,
+     "start": 23.063,
+     "end": 23.118
+    },
+    {
+     "text": "woman's",
+     "highlight": false,
+     "start": 23.154,
+     "end": 23.482
+    },
+    {
+     "text": "voice,",
+     "highlight": false,
+     "start": 23.536,
+     "end": 23.882
+    },
+    {
+     "text": "calling",
+     "highlight": false,
+     "start": 24.263,
+     "end": 24.554
+    },
+    {
+     "text": "his",
+     "highlight": false,
+     "start": 24.609,
+     "end": 24.754
+    },
+    {
+     "text": "name.",
+     "highlight": true,
+     "start": 24.809,
+     "end": 25.154
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "Boy from behind at the edge of the pines, listening",
+   "notes": "Hold."
+  },
+  {
+   "id": 6,
+   "start": 25.547,
+   "end": 30.269,
+   "act": 1,
+   "set": "woods",
+   "owner": "W",
+   "framing": "Medium, the woman between the pines",
+   "camera": "Very slow push",
+   "vo": "She stood between the pines. Long golden hair. A smile like sunlight.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "She",
+     "highlight": false,
+     "start": 25.802,
+     "end": 25.911
+    },
+    {
+     "text": "stood",
+     "highlight": false,
+     "start": 25.983,
+     "end": 26.147
+    },
+    {
+     "text": "between",
+     "highlight": false,
+     "start": 26.165,
+     "end": 26.438
+    },
+    {
+     "text": "the",
+     "highlight": false,
+     "start": 26.456,
+     "end": 26.529
+    },
+    {
+     "text": "pines.",
+     "highlight": false,
+     "start": 26.583,
+     "end": 26.965
+    },
+    {
+     "text": "Long",
+     "highlight": false,
+     "start": 27.374,
+     "end": 27.647
+    },
+    {
+     "text": "golden",
+     "highlight": false,
+     "start": 27.683,
+     "end": 27.974
+    },
+    {
+     "text": "hair.",
+     "highlight": false,
+     "start": 28.029,
+     "end": 28.302
+    },
+    {
+     "text": "A",
+     "highlight": false,
+     "start": 28.711,
+     "end": 28.765
+    },
+    {
+     "text": "smile",
+     "highlight": false,
+     "start": 28.856,
+     "end": 29.165
+    },
+    {
+     "text": "like",
+     "highlight": false,
+     "start": 29.202,
+     "end": 29.383
+    },
+    {
+     "text": "sunlight.",
+     "highlight": true,
+     "start": 29.438,
+     "end": 29.874
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "Beautiful woman in a linen dress among the trees, golden hair glowing in the low sun",
+   "notes": "Too beautiful."
+  },
+  {
+   "id": 7,
+   "start": 30.269,
+   "end": 33.447,
+   "act": 1,
+   "set": "woods",
+   "owner": "W",
+   "framing": "Medium, the boy walking toward her",
+   "camera": "Tracking from behind",
+   "vo": "He walked toward her. Then the wind lifted her dress.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "He",
+     "highlight": false,
+     "start": 30.524,
+     "end": 30.633
+    },
+    {
+     "text": "walked",
+     "highlight": false,
+     "start": 30.669,
+     "end": 30.887
+    },
+    {
+     "text": "toward",
+     "highlight": false,
+     "start": 30.942,
+     "end": 31.16
+    },
+    {
+     "text": "her.",
+     "highlight": false,
+     "start": 31.196,
+     "end": 31.342
+    },
+    {
+     "text": "Then",
+     "highlight": false,
+     "start": 31.751,
+     "end": 31.86
+    },
+    {
+     "text": "the",
+     "highlight": false,
+     "start": 31.896,
+     "end": 31.969
+    },
+    {
+     "text": "wind",
+     "highlight": false,
+     "start": 32.024,
+     "end": 32.26
+    },
+    {
+     "text": "lifted",
+     "highlight": false,
+     "start": 32.296,
+     "end": 32.569
+    },
+    {
+     "text": "her",
+     "highlight": false,
+     "start": 32.587,
+     "end": 32.696
+    },
+    {
+     "text": "dress.",
+     "highlight": true,
+     "start": 32.733,
+     "end": 33.06
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "Boy stepping toward her through ferns; her dress hem stirring in the wind",
+   "notes": "Tension."
+  },
+  {
+   "id": 8,
+   "start": 33.447,
+   "end": 35.925,
+   "act": 1,
+   "set": "woods",
+   "owner": "W",
+   "framing": "Close, a cow's tail under the hem",
+   "camera": "Locked",
+   "vo": "Behind her… a long cow's tail.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "Behind",
+     "highlight": false,
+     "start": 33.702,
+     "end": 34.047
+    },
+    {
+     "text": "her…",
+     "highlight": false,
+     "start": 34.065,
+     "end": 34.211
+    },
+    {
+     "text": "a",
+     "highlight": false,
+     "start": 34.538,
+     "end": 34.556
+    },
+    {
+     "text": "long",
+     "highlight": false,
+     "start": 34.629,
+     "end": 34.847
+    },
+    {
+     "text": "cow's",
+     "highlight": false,
+     "start": 34.938,
+     "end": 35.211
+    },
+    {
+     "text": "tail.",
+     "highlight": true,
+     "start": 35.265,
+     "end": 35.538
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "Low angle at the dress hem: a long cow's tail with a tuft swishing in the ferns",
+   "notes": "Hero."
+  },
+  {
+   "id": 9,
+   "start": 35.925,
+   "end": 41.22,
+   "act": 1,
+   "set": "woods",
+   "owner": "W",
+   "framing": "Close, the boy's face",
+   "camera": "Locked",
+   "vo": "He remembered Grandpa's rule. Don't run. Just say: your tail is showing.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "He",
+     "highlight": false,
+     "start": 36.18,
+     "end": 36.27
+    },
+    {
+     "text": "remembered",
+     "highlight": false,
+     "start": 36.307,
+     "end": 36.707
+    },
+    {
+     "text": "Grandpa's",
+     "highlight": false,
+     "start": 36.78,
+     "end": 37.234
+    },
+    {
+     "text": "rule.",
+     "highlight": false,
+     "start": 37.307,
+     "end": 37.525
+    },
+    {
+     "text": "Don't",
+     "highlight": false,
+     "start": 37.934,
+     "end": 38.134
+    },
+    {
+     "text": "run.",
+     "highlight": false,
+     "start": 38.189,
+     "end": 38.443
+    },
+    {
+     "text": "Just",
+     "highlight": false,
+     "start": 38.852,
+     "end": 39.016
+    },
+    {
+     "text": "say:",
+     "highlight": false,
+     "start": 39.07,
+     "end": 39.307
+    },
+    {
+     "text": "your",
+     "highlight": false,
+     "start": 39.325,
+     "end": 39.943
+    },
+    {
+     "text": "tail",
+     "highlight": false,
+     "start": 40.052,
+     "end": 40.307
+    },
+    {
+     "text": "is",
+     "highlight": false,
+     "start": 40.361,
+     "end": 40.452
+    },
+    {
+     "text": "showing.",
+     "highlight": true,
+     "start": 40.507,
+     "end": 40.834
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "Boy's profile in golden light, swallowing, eyes fixed ahead",
+   "notes": "Quiet."
+  },
+  {
+   "id": 10,
+   "start": 41.22,
+   "end": 46.855,
+   "act": 1,
+   "set": "woods",
+   "owner": "W",
+   "framing": "Medium, the huldra turning away",
+   "camera": "Locked",
+   "vo": "Her smile dropped. She turned around. And her back was hollow, like a dead tree.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "Her",
+     "highlight": false,
+     "start": 41.475,
+     "end": 41.565
+    },
+    {
+     "text": "smile",
+     "highlight": false,
+     "start": 41.675,
+     "end": 42.02
+    },
+    {
+     "text": "dropped.",
+     "highlight": false,
+     "start": 42.111,
+     "end": 42.511
+    },
+    {
+     "text": "She",
+     "highlight": false,
+     "start": 42.92,
+     "end": 43.029
+    },
+    {
+     "text": "turned",
+     "highlight": false,
+     "start": 43.084,
+     "end": 43.265
+    },
+    {
+     "text": "around.",
+     "highlight": false,
+     "start": 43.32,
+     "end": 43.738
+    },
+    {
+     "text": "And",
+     "highlight": false,
+     "start": 44.138,
+     "end": 44.211
+    },
+    {
+     "text": "her",
+     "highlight": false,
+     "start": 44.247,
+     "end": 44.356
+    },
+    {
+     "text": "back",
+     "highlight": false,
+     "start": 44.411,
+     "end": 44.629
+    },
+    {
+     "text": "was",
+     "highlight": false,
+     "start": 44.665,
+     "end": 44.775
+    },
+    {
+     "text": "hollow,",
+     "highlight": false,
+     "start": 44.829,
+     "end": 45.211
+    },
+    {
+     "text": "like",
+     "highlight": false,
+     "start": 45.62,
+     "end": 45.729
+    },
+    {
+     "text": "a",
+     "highlight": false,
+     "start": 45.784,
+     "end": 45.838
+    },
+    {
+     "text": "dead",
+     "highlight": false,
+     "start": 45.893,
+     "end": 46.111
+    },
+    {
+     "text": "tree.",
+     "highlight": true,
+     "start": 46.184,
+     "end": 46.475
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "The woman from behind: golden hair parted over a dark hollow bark-like back",
+   "notes": "Never gory."
+  },
+  {
+   "id": 11,
+   "start": 46.855,
+   "end": 50.8,
+   "act": 1,
+   "set": "farm",
+   "owner": "M",
+   "framing": "Wide, the boy running down the mountain",
+   "camera": "Handheld",
+   "vo": "She vanished into the forest. He ran all the way down the mountain.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "She",
+     "highlight": false,
+     "start": 47.11,
+     "end": 47.255
+    },
+    {
+     "text": "vanished",
+     "highlight": false,
+     "start": 47.328,
+     "end": 47.673
+    },
+    {
+     "text": "into",
+     "highlight": false,
+     "start": 47.71,
+     "end": 47.855
+    },
+    {
+     "text": "the",
+     "highlight": false,
+     "start": 47.891,
+     "end": 47.982
+    },
+    {
+     "text": "forest.",
+     "highlight": false,
+     "start": 48.019,
+     "end": 48.51
+    },
+    {
+     "text": "He",
+     "highlight": false,
+     "start": 48.919,
+     "end": 49.01
+    },
+    {
+     "text": "ran",
+     "highlight": false,
+     "start": 49.064,
+     "end": 49.264
+    },
+    {
+     "text": "all",
+     "highlight": false,
+     "start": 49.337,
+     "end": 49.446
+    },
+    {
+     "text": "the",
+     "highlight": false,
+     "start": 49.482,
+     "end": 49.537
+    },
+    {
+     "text": "way",
+     "highlight": false,
+     "start": 49.573,
+     "end": 49.7
+    },
+    {
+     "text": "down",
+     "highlight": false,
+     "start": 49.755,
+     "end": 49.9
+    },
+    {
+     "text": "the",
+     "highlight": false,
+     "start": 49.937,
+     "end": 49.991
+    },
+    {
+     "text": "mountain.",
+     "highlight": true,
+     "start": 50.046,
+     "end": 50.41
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "Tiny figure running down a steep path past the cabin, goats scattering",
+   "notes": "Fast."
+  },
+  {
+   "id": 12,
+   "start": 50.8,
+   "end": 56.591,
+   "act": 1,
+   "set": "farm",
+   "owner": "M",
+   "framing": "Wide, our house at the forest edge",
+   "camera": "Slow push-in",
+   "vo": "He never went back. But every summer, a woman sings his name. A little closer to our house.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "He",
+     "highlight": false,
+     "start": 51.055,
+     "end": 51.164
+    },
+    {
+     "text": "never",
+     "highlight": false,
+     "start": 51.218,
+     "end": 51.4
+    },
+    {
+     "text": "went",
+     "highlight": false,
+     "start": 51.455,
+     "end": 51.618
+    },
+    {
+     "text": "back.",
+     "highlight": false,
+     "start": 51.673,
+     "end": 51.945
+    },
+    {
+     "text": "But",
+     "highlight": false,
+     "start": 52.355,
+     "end": 52.445
+    },
+    {
+     "text": "every",
+     "highlight": false,
+     "start": 52.5,
+     "end": 52.664
+    },
+    {
+     "text": "summer,",
+     "highlight": false,
+     "start": 52.791,
+     "end": 53.064
+    },
+    {
+     "text": "a",
+     "highlight": false,
+     "start": 53.136,
+     "end": 53.173
+    },
+    {
+     "text": "woman",
+     "highlight": false,
+     "start": 53.209,
+     "end": 53.482
+    },
+    {
+     "text": "sings",
+     "highlight": false,
+     "start": 53.555,
+     "end": 53.773
+    },
+    {
+     "text": "his",
+     "highlight": false,
+     "start": 53.809,
+     "end": 53.955
+    },
+    {
+     "text": "name.",
+     "highlight": false,
+     "start": 54.009,
+     "end": 54.264
+    },
+    {
+     "text": "A",
+     "highlight": false,
+     "start": 54.673,
+     "end": 54.709
+    },
+    {
+     "text": "little",
+     "highlight": false,
+     "start": 54.745,
+     "end": 54.945
+    },
+    {
+     "text": "closer",
+     "highlight": false,
+     "start": 54.982,
+     "end": 55.309
+    },
+    {
+     "text": "to",
+     "highlight": false,
+     "start": 55.345,
+     "end": 55.436
+    },
+    {
+     "text": "our",
+     "highlight": false,
+     "start": 55.491,
+     "end": 55.6
+    },
+    {
+     "text": "house.",
+     "highlight": true,
+     "start": 55.655,
+     "end": 56.0
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "A farmhouse at the forest edge in the golden night, a pale woman shape just inside the trees",
+   "notes": "Cold."
+  },
+  {
+   "id": 13,
+   "start": 56.591,
+   "end": 59.391,
+   "act": 1,
+   "set": "graphic",
+   "owner": "G",
+   "framing": "End card",
+   "camera": "Static",
+   "vo": "Would you follow her? Comment YES or NO.",
+   "voKind": "onscreen",
+   "speaker": null,
+   "words": [
+    {
+     "text": "Would",
+     "highlight": false,
+     "start": 56.841,
+     "end": 57.141
+    },
+    {
+     "text": "you",
+     "highlight": false,
+     "start": 57.061,
+     "end": 57.361
+    },
+    {
+     "text": "follow",
+     "highlight": false,
+     "start": 57.281,
+     "end": 57.581
+    },
+    {
+     "text": "her?",
+     "highlight": false,
+     "start": 57.501,
+     "end": 57.801
+    },
+    {
+     "text": "Comment",
+     "highlight": false,
+     "start": 57.721,
+     "end": 58.021
+    },
+    {
+     "text": "YES",
+     "highlight": true,
+     "start": 57.941,
+     "end": 58.241
+    },
+    {
+     "text": "or",
+     "highlight": false,
+     "start": 58.161,
+     "end": 58.461
+    },
+    {
+     "text": "NO.",
+     "highlight": true,
+     "start": 58.381,
+     "end": 58.681
+    }
+   ],
+   "trans": "cut",
+   "caption": false,
+   "cool": false,
+   "hero": "CTA with pines and a tail silhouette motif",
+   "notes": "No caption (on-screen text)."
+  }
+ ],
+ "audio": true
+}

@@ -1,6 +1,6 @@
 #!/bin/bash
 # Refresh /home/user/horror-luar from the working tree (docs/README are maintained in place).
-set -e; R=/home/user/horror-luar; H=/home/user
+set -e; R=/home/user/horrorluar; H=/home/user
 cp $H/AGENT_BRIEF.md $R/docs/AGENT_BRIEF.md
 rm -rf $R/episodes $R/pipeline $R/library; mkdir -p $R/episodes $R/pipeline
 for d in $H/ep0[3-9] $H/ep1[0-9] $H/ep20; do e=$(basename $d); [ -f $d/STYLE.md ] && mkdir -p $R/episodes/$e && cp $d/STYLE.md $R/episodes/$e/; done

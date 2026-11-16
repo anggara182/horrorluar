@@ -6,9 +6,9 @@ KEY = sys.argv[1]
 ROOT = f"/home/user/{KEY}"; A = f"{ROOT}/public/audio"; FIN = f"{A}/final"; DATA = f"{ROOT}/src/data/episode.json"
 LIB = "/home/user/sfxlib"; TEMPO = 1.05; SR = 48000; CTA_LEN = 2.8
 VO_FX = {"ghost": "lowpass=f=6500,aecho=0.8:0.5:60|120:0.2|0.12,", "man": "highpass=f=300,lowpass=f=3400,acompressor=threshold=0.1:ratio=3,"}
-TEMPO_EP = {"ep11": 1.12, "ep12": 1.13, "ep14": 1.12, "ep16": 1.10, "ep17": 1.12, "ep18": 1.10, "ep19": 1.10, "ep20": 1.05}
+TEMPO_EP = {"ep11": 1.12, "ep12": 1.13, "ep14": 1.12, "ep16": 1.10, "ep17": 1.12, "ep18": 1.10, "ep19": 1.10, "ep20": 1.05, "ep21": 1.10, "ep22": 1.10, "ep23": 1.10, "ep24": 1.05, "ep25": 1.08}
 TEMPO = TEMPO_EP.get(KEY, TEMPO)
-PAUSE_EP = {"ep16": .45, "ep17": .45, "ep18": .45, "ep19": .45, "ep20": .45}  # max silence kept between words (source seconds); longer gaps are shortened
+PAUSE_EP = {"ep16": .45, "ep17": .45, "ep18": .45, "ep19": .45, "ep20": .45, "ep21": .45, "ep22": .45, "ep23": .45, "ep24": .45, "ep25": .45}  # max silence kept between words (source seconds); longer gaps are shortened
 MAXGAP = PAUSE_EP.get(KEY)
 
 def sh(cmd):
@@ -301,6 +301,87 @@ def cue_sheet(S, at, end_of, word_t, total):
                 (L("heartbeat"), at(9), dict(dur=end_of(10) - at(9), vol=-10, fin=.2, fout=.3)),
                 (L("horse_shriek"), at(11), dict(dur=min(3, end_of(11) - at(11)), vol=-6, fout=.5)),
                 (L("horse_snort"), word_t(12, "horse"), dict(dur=min(3, end_of(12) - word_t(12, "horse")), vol=-12, fx=far, fout=.4)),
+                (L("low_note"), at(13), dict(dur=2.6, vol=0, fout=1.4))]
+    elif KEY == "ep21":
+        beds = [(L("snow_forest"), 0, dict(dur=at(9), fin=1.0, fout=.4, loop=True)),
+                (L("oven_fire"), at(9), dict(dur=at(11) - at(9), vol=-4, fin=.3, fout=.4, loop=True)),
+                (L("dawn"), at(11), dict(dur=at(12) - at(11), vol=-6, fin=.6, fout=.5, loop=True)),
+                (L("snow_forest"), at(12), dict(dur=at(13) - at(12), vol=-2, fin=.4, fout=.5, loop=True)),
+                (L("drone"), at(2), dict(dur=at(4) - at(2), vol=-6, fin=1.0, fout=.5, loop=True)),
+                (L("drone"), at(5), dict(dur=end_of(8) - at(5), vol=-5, fin=1.0, fout=.5, loop=True)),
+                (L("drone"), at(13), dict(dur=total - at(13), vol=-8, fin=.5, fout=1.0, loop=True))]
+        c8, o8 = word_t(8, "creaked"), word_t(8, "opened")
+        cues = [(L("low_note"), at(2), dict(dur=2.8, vol=-4, fout=1.4)),
+                (L("snow_steps"), at(4, .2), dict(dur=min(4, end_of(4) - at(4, .2)), vol=-8, fout=.4)),
+                (L("hut_legs"), word_t(6, "turned"), dict(dur=min(4, end_of(6) - word_t(6, "turned")), vol=-6, fout=.5)),
+                (L("hut_legs"), c8, dict(dur=max(.5, min(4, o8 - c8 - .05)), vol=-4, fout=.3)),
+                (L("door_creak"), o8, dict(dur=min(2.5, end_of(8) - o8), vol=-6, fout=.4)),
+                (L("sting"), word_t(9, "smiled"), dict(dur=min(1.4, at(10) - word_t(9, "smiled")), vol=-8, fout=.4)),
+                (L("hut_legs"), word_t(12, "feet"), dict(dur=min(3, end_of(12) - word_t(12, "feet")), vol=-14, fx=far, fout=.5)),
+                (L("low_note"), at(13), dict(dur=2.6, vol=0, fout=1.4))]
+    elif KEY == "ep22":
+        beds = [(L("forest_summer"), 0, dict(dur=at(12), fin=1.0, fout=.4, loop=True)),
+                (L("goat_bells"), at(4), dict(dur=at(5) - at(4), vol=-8, fin=.3, fout=.4, loop=True)),
+                (L("forest_summer"), at(12), dict(dur=at(13) - at(12), vol=-2, fin=.4, fout=.5, loop=True)),
+                (L("drone"), at(2), dict(dur=at(4) - at(2), vol=-6, fin=1.0, fout=.5, loop=True)),
+                (L("drone"), at(7), dict(dur=end_of(10) - at(7), vol=-4, fin=1.0, fout=.5, loop=True)),
+                (L("drone"), at(13), dict(dur=total - at(13), vol=-8, fin=.5, fout=1.0, loop=True))]
+        cues = [(L("low_note"), at(2), dict(dur=2.8, vol=-4, fout=1.4)),
+                (L("singing_far"), word_t(5, "singing"), dict(dur=min(7, end_of(5) - word_t(5, "singing")), vol=-8, fx=far, fout=.6)),
+                (L("sting"), word_t(8, "tail"), dict(dur=min(1.4, at(9) - word_t(8, "tail")), vol=-6, fout=.4)),
+                (L("heartbeat"), at(9), dict(dur=end_of(9) - at(9), vol=-10, fin=.2, fout=.3)),
+                (L("running"), at(11), dict(dur=min(4, end_of(11) - at(11)), vol=-6, fout=.4)),
+                (L("singing_far"), word_t(12, "sings"), dict(dur=min(5, end_of(12) - word_t(12, "sings")), vol=-14, fx=far, fout=.6)),
+                (L("low_note"), at(13), dict(dur=2.6, vol=0, fout=1.4))]
+    elif KEY == "ep23":
+        k9, b11 = word_t(9, "knocked"), word_t(11, "blew")
+        beds = [(L("kampung_night"), 0, dict(dur=at(12), fin=1.0, fout=.4, loop=True)),
+                (L("candle"), at(8), dict(dur=at(10) - at(8), vol=-8, fin=.3, fout=.3, loop=True)),
+                (L("candle"), at(11), dict(dur=max(.5, b11 - at(11)), vol=-8, fin=.2, fout=.2, loop=True)),
+                (L("dawn"), at(12), dict(dur=at(13) - at(12), vol=-6, fin=.6, fout=.5, loop=True)),
+                (L("drone"), at(2), dict(dur=at(4) - at(2), vol=-6, fin=1.0, fout=.5, loop=True)),
+                (L("drone"), at(5), dict(dur=end_of(11) - at(5), vol=-5, fin=1.0, fout=.5, loop=True)),
+                (L("drone"), at(13), dict(dur=total - at(13), vol=-8, fin=.5, fout=1.0, loop=True))]
+        cues = [(L("pig_grunt"), word_t(1, "pig"), dict(dur=min(3, end_of(1) - word_t(1, "pig")), vol=-14, fx=far, fout=.4)),
+                (L("low_note"), at(2), dict(dur=2.8, vol=-4, fout=1.4)),
+                (L("pig_grunt"), at(6), dict(dur=min(4, end_of(6) - at(6)), vol=-6, fout=.4)),
+                (L("wall_knock"), k9, dict(dur=max(.4, min(2, word_t(9, "flame") - k9 - .05)), vol=-4, fout=.2)),
+                (L("sting"), word_t(9, "shook"), dict(dur=min(1.4, at(10) - word_t(9, "shook")), vol=-8, fout=.4)),
+                (L("pig_squeal"), word_t(10, "squealed"), dict(dur=min(3, end_of(10) - word_t(10, "squealed")), vol=-6, fout=.5)),
+                (L("candles_out"), b11, dict(dur=min(1.5, end_of(11) - b11), vol=-8, fout=.3)),
+                (L("low_note"), at(13), dict(dur=2.6, vol=0, fout=1.4))]
+    elif KEY == "ep24":
+        beds = [(L("china_street"), 0, dict(dur=at(4), fin=1.0, fout=.4, loop=True)),
+                (L("apt_hum"), at(4), dict(dur=at(5) - at(4), vol=-6, fin=.3, fout=.3, loop=True)),
+                (L("china_street"), at(5), dict(dur=at(10) - at(5), fin=.3, fout=.4, loop=True)),
+                (L("apt_hum"), at(10), dict(dur=at(13) - at(10), vol=-4, fin=.3, fout=.5, loop=True)),
+                (L("drone"), at(2), dict(dur=at(4) - at(2), vol=-6, fin=1.0, fout=.5, loop=True)),
+                (L("drone"), at(6), dict(dur=end_of(9) - at(6), vol=-4, fin=1.0, fout=.5, loop=True)),
+                (L("drone"), at(13), dict(dur=total - at(13), vol=-8, fin=.5, fout=1.0, loop=True))]
+        cues = [(L("low_note"), at(2), dict(dur=2.8, vol=-4, fout=1.4)),
+                (L("whistle_tune"), word_t(5, "whistled"), dict(dur=min(3, end_of(5) - word_t(5, "whistled")), vol=-8, fout=.4)),
+                (L("whistle_tune"), word_t(6, "whistled"), dict(dur=min(3, end_of(6) - word_t(6, "whistled")), vol=-14, fx=far, fout=.5)),
+                (L("footsteps_follow"), at(7), dict(dur=min(5, end_of(7) - at(7)), vol=-6, fout=.4)),
+                (L("sting"), word_t(8, "tapped"), dict(dur=min(1.4, at(9) - word_t(8, "tapped")), vol=-6, fout=.4)),
+                (L("heartbeat"), at(9), dict(dur=end_of(9) - at(9), vol=-8, fin=.2, fout=.3)),
+                (L("door_steps"), at(11), dict(dur=max(.6, min(5, word_t(11, "nothing") - at(11) - .05)), vol=-6, fout=.3)),
+                (L("whistle_tune"), word_t(12, "whistles"), dict(dur=min(3, end_of(12) - word_t(12, "whistles")), vol=-16, fx=far, fout=.5)),
+                (L("low_note"), at(13), dict(dur=2.6, vol=0, fout=1.4))]
+    elif KEY == "ep25":
+        beds = [(L("africa_night"), 0, dict(dur=at(4), fin=1.0, fout=.4, loop=True)),
+                (L("africa_night"), at(4), dict(dur=at(11) - at(4), vol=-6, fin=.3, fout=.4, loop=True)),
+                (L("candle"), at(9), dict(dur=at(11) - at(9), vol=-8, fin=.2, fout=.3, loop=True)),
+                (L("dawn"), at(11), dict(dur=at(12) - at(11), vol=-6, fin=.6, fout=.5, loop=True)),
+                (L("city_night"), at(12), dict(dur=at(13) - at(12), vol=-6, fin=.4, fout=.5, loop=True)),
+                (L("drone"), at(2), dict(dur=at(4) - at(2), vol=-6, fin=1.0, fout=.5, loop=True)),
+                (L("drone"), at(6), dict(dur=end_of(10) - at(6), vol=-4, fin=1.0, fout=.5, loop=True)),
+                (L("drone"), at(13), dict(dur=total - at(13), vol=-8, fin=.5, fout=1.0, loop=True))]
+        cues = [(L("low_note"), at(2), dict(dur=2.8, vol=-4, fout=1.4)),
+                (L("scratch_floor"), word_t(6, "tiny"), dict(dur=min(4, end_of(6) - word_t(6, "tiny")), vol=-6, fout=.4)),
+                (L("imp_giggle"), word_t(7, "giggled"), dict(dur=min(3, end_of(7) - word_t(7, "giggled")), vol=-6, fout=.4)),
+                (L("sting"), word_t(8, "fingers"), dict(dur=min(1.4, at(9) - word_t(8, "fingers")), vol=-8, fout=.4)),
+                (L("tiny_steps"), word_t(10, "tiny"), dict(dur=min(3, end_of(10) - word_t(10, "tiny")), vol=-10, fout=.4)),
+                (L("tiny_steps"), word_t(12, "tiny"), dict(dur=min(3, end_of(12) - word_t(12, "tiny")), vol=-14, fx=far, fout=.4)),
                 (L("low_note"), at(13), dict(dur=2.6, vol=0, fout=1.4))]
     else:  # ep06
         beds = [(L("ward_amb"), 0, dict(dur=at(10), fin=1.0, fout=.4, loop=True)),
