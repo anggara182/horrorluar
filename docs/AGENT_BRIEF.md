@@ -19,6 +19,7 @@ Edit ONLY `src/sets/<set>.tsx`, `src/shots/<OWNER>.tsx` and NEW files `src/art/<
 - Title fonts via `@remotion/google-fonts` (Cinzel / Marcellus / Cormorant / Oswald…). For Japanese/Korean/Thai glyphs use a Noto font that has them and check they render.
 - No 3D, no per-frame filters, no mix-blend-mode, no box-shadow glows (glow = radial gradients), hard cuts only, no glitch/flash/transition effects, no grain (added at encode).
 - Eerie, never gory. Ghosts are mostly implied: silhouettes, hair, hands, reflections, eyes.
+- When editing one shot, never replace a block that spans other shots: every `Sxx` export of your owner file must still exist afterwards (`npx tsc -p .` with no filter must stay clean).
 - Reuse one set of bands across your shots via camera crop/zoom/parallax; live elements via `<Live>`.
 
 ## Workflow (mandatory)

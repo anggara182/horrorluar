@@ -17,7 +17,7 @@ Short vertikal 9:16 (1080x1920, 30 fps), 50–60 detik, VO bahasa Inggris untuk 
 - ±150–165 kata total. Kalimat pendek. Kata kunci ditandai `*kata*` (warna aksen di caption).
 - Tag emosi ElevenLabs v3 di teks TTS: `[whispers]`, `[hushed]`, `[scared]`, `[urgent]`. Jeda dengan `...`.
 - Seram tapi tidak gore. Makhluk lebih banyak tersirat: siluet, bayangan, tangan, mata, jejak.
-- Nama lokal yang sulit diucapkan wajib dicek STT. Kalau salah, pakai ejaan fonetis (contoh: "pot-chong" untuk pocong, "Meh Nahk" untuk Mae Nak) atau splice dari take berbahasa asli (contoh: "Suster Ngesot").
+- Nama lokal yang sulit diucapkan wajib dicek STT. Kalau salah, pakai ejaan fonetis (contoh: "pot-chong" untuk pocong, "Meh Nahk" untuk Mae Nak, "bah-bee ngeh-pet" untuk babi ngepet) atau splice dari take berbahasa asli (contoh: "Suster Ngesot").
 
 ## Voice (ai33 / ElevenLabs v3)
 | key | voice id | pakai untuk |
@@ -30,5 +30,5 @@ Short vertikal 9:16 (1080x1920, 30 fps), 50–60 detik, VO bahasa Inggris untuk 
 | man | elevenlabs_iP95p4xoKVk53GoZ742B | pria di telepon (EQ telepon di mix) |
 
 ## Episode yang sudah jadi
-EP01 Kuntilanak · EP02 Nyi Roro Kidul · EP03 Wewe Gombel · EP04 Pocong · EP05 Ghost Train · EP06 Suster Ngesot · EP07 Kuchisake-onna (Jepang) · EP08 La Llorona (Meksiko) · EP09 Jangsan Tiger (Korea) · EP10 Bloody Mary (AS) · EP11 Tuyul · EP12 Mae Nak (Thailand) · EP13 The Banshee (Irlandia) · EP14 The Elevator Game (Korea) · EP15 Genderuwo · EP16 Hanako-san (Jepang) · EP17 El Silbón (Venezuela) · EP18 Aswang (Filipina) · EP19 Jelangkung · EP20 The Kelpie (Skotlandia).
+EP01 Kuntilanak · EP02 Nyi Roro Kidul · EP03 Wewe Gombel · EP04 Pocong · EP05 Ghost Train · EP06 Suster Ngesot · EP07 Kuchisake-onna (Jepang) · EP08 La Llorona (Meksiko) · EP09 Jangsan Tiger (Korea) · EP10 Bloody Mary (AS) · EP11 Tuyul · EP12 Mae Nak (Thailand) · EP13 The Banshee (Irlandia) · EP14 The Elevator Game (Korea) · EP15 Genderuwo · EP16 Hanako-san (Jepang) · EP17 El Silbón (Venezuela) · EP18 Aswang (Filipina) · EP19 Jelangkung · EP20 The Kelpie (Skotlandia) · EP21 Baba Yaga (Rusia) · EP22 Huldra (Norwegia) · EP23 Babi Ngepet · EP24 Ghost Month (Tiongkok) · EP25 Tokoloshe (Afrika Selatan).
 Naskah lengkap semua episode ada di `pipeline/episodes.py`.
