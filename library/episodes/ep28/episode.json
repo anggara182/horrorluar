@@ -1,0 +1,1263 @@
+{
+ "id": "EP28",
+ "title": "Sundel Bolong",
+ "fps": 30,
+ "width": 1080,
+ "height": 1920,
+ "durationSec": 58.343,
+ "accent": "#f7a8c4",
+ "timingSource": "ai33 eleven_v3 transcript, tempo x1.1",
+ "shots": [
+  {
+   "id": 1,
+   "start": 0.0,
+   "end": 6.005,
+   "act": 1,
+   "set": "street",
+   "owner": "J",
+   "framing": "Wide, a village road at midnight",
+   "camera": "Slow push-in",
+   "vo": "In Indonesia, if a beautiful woman buys food from you at midnight… don't look at her back.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "In",
+     "highlight": false,
+     "start": 0.455,
+     "end": 0.59
+    },
+    {
+     "text": "Indonesia,",
+     "highlight": false,
+     "start": 0.6,
+     "end": 1.479
+    },
+    {
+     "text": "if",
+     "highlight": false,
+     "start": 1.536,
+     "end": 1.685
+    },
+    {
+     "text": "a",
+     "highlight": false,
+     "start": 1.7,
+     "end": 1.811
+    },
+    {
+     "text": "beautiful",
+     "highlight": false,
+     "start": 1.821,
+     "end": 2.226
+    },
+    {
+     "text": "woman",
+     "highlight": false,
+     "start": 2.255,
+     "end": 2.516
+    },
+    {
+     "text": "buys",
+     "highlight": false,
+     "start": 2.545,
+     "end": 2.8
+    },
+    {
+     "text": "food",
+     "highlight": false,
+     "start": 2.829,
+     "end": 3.026
+    },
+    {
+     "text": "from",
+     "highlight": false,
+     "start": 3.045,
+     "end": 3.211
+    },
+    {
+     "text": "you",
+     "highlight": false,
+     "start": 3.218,
+     "end": 3.34
+    },
+    {
+     "text": "at",
+     "highlight": false,
+     "start": 3.355,
+     "end": 3.472
+    },
+    {
+     "text": "midnight…",
+     "highlight": false,
+     "start": 3.482,
+     "end": 4.355
+    },
+    {
+     "text": "don't",
+     "highlight": false,
+     "start": 4.436,
+     "end": 4.679
+    },
+    {
+     "text": "look",
+     "highlight": false,
+     "start": 4.682,
+     "end": 4.818
+    },
+    {
+     "text": "at",
+     "highlight": false,
+     "start": 4.818,
+     "end": 4.915
+    },
+    {
+     "text": "her",
+     "highlight": false,
+     "start": 4.927,
+     "end": 5.061
+    },
+    {
+     "text": "back.",
+     "highlight": true,
+     "start": 5.073,
+     "end": 5.615
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "A dark village road, a satay cart glowing by a frangipani tree, a white figure in the distance",
+   "notes": "Banana trees; LOW detail bg."
+  },
+  {
+   "id": 2,
+   "start": 6.005,
+   "end": 8.118,
+   "act": 1,
+   "set": "graphic",
+   "owner": "G",
+   "framing": "Title card",
+   "camera": "Slow push",
+   "vo": "She might be Sundel Bolong.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "She",
+     "highlight": false,
+     "start": 6.26,
+     "end": 6.454
+    },
+    {
+     "text": "might",
+     "highlight": false,
+     "start": 6.469,
+     "end": 6.681
+    },
+    {
+     "text": "be",
+     "highlight": false,
+     "start": 6.687,
+     "end": 6.85
+    },
+    {
+     "text": "Sundel",
+     "highlight": true,
+     "start": 6.878,
+     "end": 7.204
+    },
+    {
+     "text": "Bolong.",
+     "highlight": true,
+     "start": 7.232,
+     "end": 7.728
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "Title 'SUNDEL BOLONG' + 'An Indonesian legend' over very long black hair falling down a white dress",
+   "notes": "Moonlight."
+  },
+  {
+   "id": 3,
+   "start": 8.118,
+   "end": 12.892,
+   "act": 1,
+   "set": "graphic",
+   "owner": "G",
+   "framing": "Lore insert",
+   "camera": "Slow push",
+   "vo": "A woman in white with very long hair. And her hair hides a hole in her back.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "A",
+     "highlight": false,
+     "start": 8.373,
+     "end": 8.477
+    },
+    {
+     "text": "woman",
+     "highlight": false,
+     "start": 8.477,
+     "end": 8.749
+    },
+    {
+     "text": "in",
+     "highlight": false,
+     "start": 8.763,
+     "end": 8.879
+    },
+    {
+     "text": "white",
+     "highlight": false,
+     "start": 8.891,
+     "end": 9.089
+    },
+    {
+     "text": "with",
+     "highlight": false,
+     "start": 9.109,
+     "end": 9.303
+    },
+    {
+     "text": "very",
+     "highlight": false,
+     "start": 9.323,
+     "end": 9.54
+    },
+    {
+     "text": "long",
+     "highlight": false,
+     "start": 9.554,
+     "end": 9.81
+    },
+    {
+     "text": "hair.",
+     "highlight": false,
+     "start": 9.83,
+     "end": 10.479
+    },
+    {
+     "text": "And",
+     "highlight": false,
+     "start": 10.554,
+     "end": 10.697
+    },
+    {
+     "text": "her",
+     "highlight": false,
+     "start": 10.709,
+     "end": 10.835
+    },
+    {
+     "text": "hair",
+     "highlight": false,
+     "start": 10.845,
+     "end": 11.117
+    },
+    {
+     "text": "hides",
+     "highlight": false,
+     "start": 11.136,
+     "end": 11.381
+    },
+    {
+     "text": "a",
+     "highlight": false,
+     "start": 11.391,
+     "end": 11.49
+    },
+    {
+     "text": "hole",
+     "highlight": false,
+     "start": 11.5,
+     "end": 11.698
+    },
+    {
+     "text": "in",
+     "highlight": false,
+     "start": 11.718,
+     "end": 11.853
+    },
+    {
+     "text": "her",
+     "highlight": false,
+     "start": 11.863,
+     "end": 11.998
+    },
+    {
+     "text": "back.",
+     "highlight": true,
+     "start": 12.009,
+     "end": 12.496
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "Long black hair swaying, frangipani petals drifting past",
+   "notes": "Eerie, not gory."
+  },
+  {
+   "id": 4,
+   "start": 12.892,
+   "end": 18.63,
+   "act": 1,
+   "set": "street",
+   "owner": "J",
+   "framing": "Medium, father pushing his satay cart",
+   "camera": "Tracking",
+   "vo": "My father sold satay from a cart. Every night, he walked the village roads until late.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "My",
+     "highlight": false,
+     "start": 13.147,
+     "end": 13.345
+    },
+    {
+     "text": "father",
+     "highlight": false,
+     "start": 13.374,
+     "end": 13.762
+    },
+    {
+     "text": "sold",
+     "highlight": false,
+     "start": 13.81,
+     "end": 14.062
+    },
+    {
+     "text": "satay",
+     "highlight": false,
+     "start": 14.101,
+     "end": 14.417
+    },
+    {
+     "text": "from",
+     "highlight": false,
+     "start": 14.465,
+     "end": 14.589
+    },
+    {
+     "text": "a",
+     "highlight": false,
+     "start": 14.589,
+     "end": 14.672
+    },
+    {
+     "text": "cart.",
+     "highlight": false,
+     "start": 14.683,
+     "end": 15.4
+    },
+    {
+     "text": "Every",
+     "highlight": false,
+     "start": 15.477,
+     "end": 15.689
+    },
+    {
+     "text": "night,",
+     "highlight": false,
+     "start": 15.701,
+     "end": 16.237
+    },
+    {
+     "text": "he",
+     "highlight": false,
+     "start": 16.276,
+     "end": 16.465
+    },
+    {
+     "text": "walked",
+     "highlight": false,
+     "start": 16.494,
+     "end": 16.756
+    },
+    {
+     "text": "the",
+     "highlight": false,
+     "start": 16.784,
+     "end": 16.874
+    },
+    {
+     "text": "village",
+     "highlight": false,
+     "start": 16.883,
+     "end": 17.147
+    },
+    {
+     "text": "roads",
+     "highlight": false,
+     "start": 17.147,
+     "end": 17.444
+    },
+    {
+     "text": "until",
+     "highlight": false,
+     "start": 17.447,
+     "end": 17.772
+    },
+    {
+     "text": "late.",
+     "highlight": true,
+     "start": 17.801,
+     "end": 18.236
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "Father pushing a glowing wooden cart along the road, smoke rising",
+   "notes": "Warm grill light."
+  },
+  {
+   "id": 5,
+   "start": 18.63,
+   "end": 24.239,
+   "act": 1,
+   "set": "street",
+   "owner": "J",
+   "framing": "Medium, the woman in white",
+   "camera": "Very slow push",
+   "vo": "One night, a woman in white stopped him. Long black hair. Down to her knees.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "One",
+     "highlight": false,
+     "start": 18.885,
+     "end": 19.025
+    },
+    {
+     "text": "night,",
+     "highlight": false,
+     "start": 19.039,
+     "end": 19.618
+    },
+    {
+     "text": "a",
+     "highlight": false,
+     "start": 19.675,
+     "end": 19.807
+    },
+    {
+     "text": "woman",
+     "highlight": false,
+     "start": 19.816,
+     "end": 20.041
+    },
+    {
+     "text": "in",
+     "highlight": false,
+     "start": 20.057,
+     "end": 20.179
+    },
+    {
+     "text": "white",
+     "highlight": false,
+     "start": 20.194,
+     "end": 20.501
+    },
+    {
+     "text": "stopped",
+     "highlight": false,
+     "start": 20.539,
+     "end": 20.814
+    },
+    {
+     "text": "him.",
+     "highlight": false,
+     "start": 20.824,
+     "end": 21.399
+    },
+    {
+     "text": "Long",
+     "highlight": false,
+     "start": 21.475,
+     "end": 21.723
+    },
+    {
+     "text": "black",
+     "highlight": false,
+     "start": 21.76,
+     "end": 22.155
+    },
+    {
+     "text": "hair.",
+     "highlight": false,
+     "start": 22.194,
+     "end": 22.783
+    },
+    {
+     "text": "Down",
+     "highlight": false,
+     "start": 22.84,
+     "end": 23.071
+    },
+    {
+     "text": "to",
+     "highlight": false,
+     "start": 23.075,
+     "end": 23.199
+    },
+    {
+     "text": "her",
+     "highlight": false,
+     "start": 23.212,
+     "end": 23.365
+    },
+    {
+     "text": "knees.",
+     "highlight": true,
+     "start": 23.385,
+     "end": 23.855
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "A pale woman in white under the frangipani tree, hair to her knees",
+   "notes": "Hero."
+  },
+  {
+   "id": 6,
+   "start": 24.239,
+   "end": 29.384,
+   "act": 1,
+   "set": "close",
+   "owner": "C",
+   "framing": "Close, satay on the grill",
+   "camera": "Locked",
+   "vo": "She ordered one hundred skewers. Then she sat and waited. Without a word.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "She",
+     "highlight": false,
+     "start": 24.494,
+     "end": 24.701
+    },
+    {
+     "text": "ordered",
+     "highlight": false,
+     "start": 24.73,
+     "end": 25.081
+    },
+    {
+     "text": "one",
+     "highlight": false,
+     "start": 25.103,
+     "end": 25.243
+    },
+    {
+     "text": "hundred",
+     "highlight": false,
+     "start": 25.257,
+     "end": 25.574
+    },
+    {
+     "text": "skewers.",
+     "highlight": false,
+     "start": 25.603,
+     "end": 26.392
+    },
+    {
+     "text": "Then",
+     "highlight": false,
+     "start": 26.468,
+     "end": 26.739
+    },
+    {
+     "text": "she",
+     "highlight": false,
+     "start": 26.758,
+     "end": 26.947
+    },
+    {
+     "text": "sat",
+     "highlight": false,
+     "start": 26.976,
+     "end": 27.228
+    },
+    {
+     "text": "and",
+     "highlight": false,
+     "start": 27.266,
+     "end": 27.402
+    },
+    {
+     "text": "waited.",
+     "highlight": false,
+     "start": 27.412,
+     "end": 28.063
+    },
+    {
+     "text": "Without",
+     "highlight": false,
+     "start": 28.139,
+     "end": 28.36
+    },
+    {
+     "text": "a",
+     "highlight": false,
+     "start": 28.375,
+     "end": 28.492
+    },
+    {
+     "text": "word.",
+     "highlight": true,
+     "start": 28.503,
+     "end": 28.991
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "Rows of skewers on glowing charcoal, smoke, the white dress blurred behind",
+   "notes": "Tactile."
+  },
+  {
+   "id": 7,
+   "start": 29.384,
+   "end": 33.194,
+   "act": 1,
+   "set": "close",
+   "owner": "C",
+   "framing": "Close, damp banknotes in his hand",
+   "camera": "Locked",
+   "vo": "She paid with money that was damp. And smelled of flowers.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "She",
+     "highlight": false,
+     "start": 29.639,
+     "end": 29.828
+    },
+    {
+     "text": "paid",
+     "highlight": false,
+     "start": 29.857,
+     "end": 30.128
+    },
+    {
+     "text": "with",
+     "highlight": false,
+     "start": 30.148,
+     "end": 30.346
+    },
+    {
+     "text": "money",
+     "highlight": false,
+     "start": 30.366,
+     "end": 30.569
+    },
+    {
+     "text": "that",
+     "highlight": false,
+     "start": 30.579,
+     "end": 30.748
+    },
+    {
+     "text": "was",
+     "highlight": false,
+     "start": 30.757,
+     "end": 30.912
+    },
+    {
+     "text": "damp.",
+     "highlight": false,
+     "start": 30.941,
+     "end": 31.407
+    },
+    {
+     "text": "And",
+     "highlight": false,
+     "start": 31.521,
+     "end": 31.71
+    },
+    {
+     "text": "smelled",
+     "highlight": false,
+     "start": 31.739,
+     "end": 32.033
+    },
+    {
+     "text": "of",
+     "highlight": false,
+     "start": 32.048,
+     "end": 32.172
+    },
+    {
+     "text": "flowers.",
+     "highlight": true,
+     "start": 32.184,
+     "end": 32.802
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "Father's palm holding damp banknotes, a frangipani blossom on top",
+   "notes": "Uneasy."
+  },
+  {
+   "id": 8,
+   "start": 33.194,
+   "end": 36.656,
+   "act": 1,
+   "set": "street",
+   "owner": "J",
+   "framing": "Medium, the woman walking away",
+   "camera": "Locked",
+   "vo": "When she walked away, the wind lifted her hair.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "When",
+     "highlight": false,
+     "start": 33.449,
+     "end": 33.659
+    },
+    {
+     "text": "she",
+     "highlight": false,
+     "start": 33.667,
+     "end": 33.829
+    },
+    {
+     "text": "walked",
+     "highlight": false,
+     "start": 33.858,
+     "end": 34.135
+    },
+    {
+     "text": "away,",
+     "highlight": false,
+     "start": 34.144,
+     "end": 34.802
+    },
+    {
+     "text": "the",
+     "highlight": false,
+     "start": 34.859,
+     "end": 34.994
+    },
+    {
+     "text": "wind",
+     "highlight": false,
+     "start": 35.003,
+     "end": 35.322
+    },
+    {
+     "text": "lifted",
+     "highlight": false,
+     "start": 35.359,
+     "end": 35.639
+    },
+    {
+     "text": "her",
+     "highlight": false,
+     "start": 35.649,
+     "end": 35.832
+    },
+    {
+     "text": "hair.",
+     "highlight": true,
+     "start": 35.859,
+     "end": 36.273
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "The woman from behind on the dark road, her long hair beginning to lift",
+   "notes": "Tension."
+  },
+  {
+   "id": 9,
+   "start": 36.656,
+   "end": 41.55,
+   "act": 1,
+   "set": "close",
+   "owner": "C",
+   "framing": "Close, behind the hair",
+   "camera": "Very slow push",
+   "vo": "Behind it, there was nothing. Just darkness. Where her back should be.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "Behind",
+     "highlight": false,
+     "start": 36.911,
+     "end": 37.263
+    },
+    {
+     "text": "it,",
+     "highlight": false,
+     "start": 37.292,
+     "end": 37.682
+    },
+    {
+     "text": "there",
+     "highlight": false,
+     "start": 37.721,
+     "end": 37.904
+    },
+    {
+     "text": "was",
+     "highlight": false,
+     "start": 37.904,
+     "end": 38.055
+    },
+    {
+     "text": "nothing.",
+     "highlight": false,
+     "start": 38.083,
+     "end": 38.598
+    },
+    {
+     "text": "Just",
+     "highlight": false,
+     "start": 38.876,
+     "end": 39.181
+    },
+    {
+     "text": "darkness.",
+     "highlight": false,
+     "start": 39.238,
+     "end": 39.909
+    },
+    {
+     "text": "Where",
+     "highlight": false,
+     "start": 40.031,
+     "end": 40.245
+    },
+    {
+     "text": "her",
+     "highlight": false,
+     "start": 40.248,
+     "end": 40.35
+    },
+    {
+     "text": "back",
+     "highlight": false,
+     "start": 40.35,
+     "end": 40.591
+    },
+    {
+     "text": "should",
+     "highlight": false,
+     "start": 40.611,
+     "end": 40.769
+    },
+    {
+     "text": "be.",
+     "highlight": true,
+     "start": 40.774,
+     "end": 41.163
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "Long hair parting in the wind to reveal only deep black shadow, no gore",
+   "notes": "Hero."
+  },
+  {
+   "id": 10,
+   "start": 41.55,
+   "end": 44.815,
+   "act": 1,
+   "set": "street",
+   "owner": "J",
+   "framing": "Wide, the abandoned cart",
+   "camera": "Handheld",
+   "vo": "My father left the cart and ran all the way home.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "My",
+     "highlight": false,
+     "start": 41.805,
+     "end": 41.99
+    },
+    {
+     "text": "father",
+     "highlight": false,
+     "start": 42.019,
+     "end": 42.372
+    },
+    {
+     "text": "left",
+     "highlight": false,
+     "start": 42.382,
+     "end": 42.618
+    },
+    {
+     "text": "the",
+     "highlight": false,
+     "start": 42.627,
+     "end": 42.726
+    },
+    {
+     "text": "cart",
+     "highlight": false,
+     "start": 42.736,
+     "end": 42.988
+    },
+    {
+     "text": "and",
+     "highlight": false,
+     "start": 43.027,
+     "end": 43.208
+    },
+    {
+     "text": "ran",
+     "highlight": false,
+     "start": 43.236,
+     "end": 43.484
+    },
+    {
+     "text": "all",
+     "highlight": false,
+     "start": 43.521,
+     "end": 43.661
+    },
+    {
+     "text": "the",
+     "highlight": false,
+     "start": 43.673,
+     "end": 43.766
+    },
+    {
+     "text": "way",
+     "highlight": false,
+     "start": 43.766,
+     "end": 44.028
+    },
+    {
+     "text": "home.",
+     "highlight": true,
+     "start": 44.094,
+     "end": 44.43
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "The satay cart alone on the road, grill still smoking, a figure running far away",
+   "notes": "Fast."
+  },
+  {
+   "id": 11,
+   "start": 44.815,
+   "end": 49.637,
+   "act": 1,
+   "set": "close",
+   "owner": "C",
+   "framing": "Close, the money box at dawn",
+   "camera": "Slow push-in",
+   "vo": "In the morning, he opened his money box. It was full of frangipani petals.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "In",
+     "highlight": false,
+     "start": 45.07,
+     "end": 45.228
+    },
+    {
+     "text": "the",
+     "highlight": false,
+     "start": 45.233,
+     "end": 45.314
+    },
+    {
+     "text": "morning,",
+     "highlight": false,
+     "start": 45.324,
+     "end": 45.86
+    },
+    {
+     "text": "he",
+     "highlight": false,
+     "start": 45.899,
+     "end": 46.087
+    },
+    {
+     "text": "opened",
+     "highlight": false,
+     "start": 46.115,
+     "end": 46.387
+    },
+    {
+     "text": "his",
+     "highlight": false,
+     "start": 46.406,
+     "end": 46.512
+    },
+    {
+     "text": "money",
+     "highlight": false,
+     "start": 46.524,
+     "end": 46.693
+    },
+    {
+     "text": "box.",
+     "highlight": false,
+     "start": 46.706,
+     "end": 47.285
+    },
+    {
+     "text": "It",
+     "highlight": false,
+     "start": 47.342,
+     "end": 47.485
+    },
+    {
+     "text": "was",
+     "highlight": false,
+     "start": 47.497,
+     "end": 47.623
+    },
+    {
+     "text": "full",
+     "highlight": false,
+     "start": 47.633,
+     "end": 47.904
+    },
+    {
+     "text": "of",
+     "highlight": false,
+     "start": 47.924,
+     "end": 48.066
+    },
+    {
+     "text": "frangipani",
+     "highlight": false,
+     "start": 48.079,
+     "end": 48.687
+    },
+    {
+     "text": "petals.",
+     "highlight": true,
+     "start": 48.715,
+     "end": 49.263
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "An open wooden money box full of white frangipani petals in dawn light",
+   "notes": "Dawn."
+  },
+  {
+   "id": 12,
+   "start": 49.637,
+   "end": 55.543,
+   "act": 1,
+   "set": "street",
+   "owner": "J",
+   "framing": "Wide, our house at night",
+   "camera": "Slow push-in",
+   "vo": "Last night, a woman in white stood outside our house. And asked for one hundred skewers.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "Last",
+     "highlight": false,
+     "start": 49.892,
+     "end": 50.163
+    },
+    {
+     "text": "night,",
+     "highlight": false,
+     "start": 50.182,
+     "end": 50.78
+    },
+    {
+     "text": "a",
+     "highlight": false,
+     "start": 50.837,
+     "end": 50.972
+    },
+    {
+     "text": "woman",
+     "highlight": false,
+     "start": 50.982,
+     "end": 51.211
+    },
+    {
+     "text": "in",
+     "highlight": false,
+     "start": 51.228,
+     "end": 51.342
+    },
+    {
+     "text": "white",
+     "highlight": false,
+     "start": 51.355,
+     "end": 51.598
+    },
+    {
+     "text": "stood",
+     "highlight": false,
+     "start": 51.637,
+     "end": 51.854
+    },
+    {
+     "text": "outside",
+     "highlight": false,
+     "start": 51.855,
+     "end": 52.19
+    },
+    {
+     "text": "our",
+     "highlight": false,
+     "start": 52.219,
+     "end": 52.353
+    },
+    {
+     "text": "house.",
+     "highlight": false,
+     "start": 52.364,
+     "end": 53.04
+    },
+    {
+     "text": "And",
+     "highlight": false,
+     "start": 53.101,
+     "end": 53.329
+    },
+    {
+     "text": "asked",
+     "highlight": false,
+     "start": 53.377,
+     "end": 53.595
+    },
+    {
+     "text": "for",
+     "highlight": false,
+     "start": 53.61,
+     "end": 53.788
+    },
+    {
+     "text": "one",
+     "highlight": false,
+     "start": 53.819,
+     "end": 54.002
+    },
+    {
+     "text": "hundred",
+     "highlight": false,
+     "start": 54.031,
+     "end": 54.346
+    },
+    {
+     "text": "skewers.",
+     "highlight": true,
+     "start": 54.394,
+     "end": 54.949
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "A house gate at night, a white figure with very long hair standing just outside",
+   "notes": "Cold."
+  },
+  {
+   "id": 13,
+   "start": 55.543,
+   "end": 58.343,
+   "act": 1,
+   "set": "graphic",
+   "owner": "G",
+   "framing": "End card",
+   "camera": "Static",
+   "vo": "Would you sell to her? Comment YES or NO.",
+   "voKind": "onscreen",
+   "speaker": null,
+   "words": [
+    {
+     "text": "Would",
+     "highlight": false,
+     "start": 55.793,
+     "end": 56.093
+    },
+    {
+     "text": "you",
+     "highlight": false,
+     "start": 56.013,
+     "end": 56.313
+    },
+    {
+     "text": "sell",
+     "highlight": false,
+     "start": 56.233,
+     "end": 56.533
+    },
+    {
+     "text": "to",
+     "highlight": false,
+     "start": 56.453,
+     "end": 56.753
+    },
+    {
+     "text": "her?",
+     "highlight": false,
+     "start": 56.673,
+     "end": 56.973
+    },
+    {
+     "text": "Comment",
+     "highlight": false,
+     "start": 56.893,
+     "end": 57.193
+    },
+    {
+     "text": "YES",
+     "highlight": true,
+     "start": 57.113,
+     "end": 57.413
+    },
+    {
+     "text": "or",
+     "highlight": false,
+     "start": 57.333,
+     "end": 57.633
+    },
+    {
+     "text": "NO.",
+     "highlight": true,
+     "start": 57.553,
+     "end": 57.853
+    }
+   ],
+   "trans": "cut",
+   "caption": false,
+   "cool": false,
+   "hero": "CTA with satay skewers and frangipani motif",
+   "notes": "No caption (on-screen text)."
+  }
+ ],
+ "audio": true
+}

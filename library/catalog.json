@@ -4268,6 +4268,851 @@
    ],
    "kit": "svg",
    "sprite": "thumbs/sprites/ep25.jpg"
+  },
+  {
+   "key": "ep26",
+   "title": "Kunekune",
+   "country": "Japan",
+   "project": "/home/user/ep26",
+   "video": "/home/user/ep26/out/EP26-kunekune.mp4",
+   "accent": "#9be15d",
+   "duration": 62.044,
+   "shots": [
+    {
+     "id": 1,
+     "set": "fields",
+     "framing": "Wide, rice fields in summer haze",
+     "camera": "Slow push-in",
+     "hero": "Endless green paddies under a hot pale sky; a tiny white twisting shape far away",
+     "vo": "In Japan, if you see something white wriggling far away in the rice fields\u2026 don't look closer. Ever.",
+     "start": 0.0,
+     "end": 6.721,
+     "thumb": "thumbs/ep26/s01.jpg",
+     "cell": 0
+    },
+    {
+     "id": 2,
+     "set": "graphic",
+     "framing": "Title card",
+     "camera": "Slow push",
+     "hero": "Title 'KUNEKUNE' + '\u304f\u306d\u304f\u306d \u00b7 Japan' over a tiny white twisting figure in the heat haze",
+     "vo": "They call it kunekune.",
+     "start": 6.721,
+     "end": 9.219,
+     "thumb": "thumbs/ep26/s02.jpg",
+     "cell": 1
+    },
+    {
+     "id": 3,
+     "set": "graphic",
+     "framing": "Lore insert",
+     "camera": "Slow push",
+     "hero": "A pair of old binoculars on the veranda, the field reflected in the lenses",
+     "vo": "Nobody knows what it is. And those who understand it\u2026 never stop smiling.",
+     "start": 9.219,
+     "end": 14.248,
+     "thumb": "thumbs/ep26/s03.jpg",
+     "cell": 2
+    },
+    {
+     "id": 4,
+     "set": "house",
+     "framing": "Wide, the farmhouse veranda",
+     "camera": "Slow lateral track",
+     "hero": "Two kids on a wooden veranda eating watermelon, paddies beyond, a wind chime",
+     "vo": "Every summer, my brother and I stayed at our grandparents' farm. Rice fields to the horizon.",
+     "start": 14.248,
+     "end": 19.763,
+     "thumb": "thumbs/ep26/s04.jpg",
+     "cell": 3
+    },
+    {
+     "id": 5,
+     "set": "fields",
+     "framing": "Wide, the white shape in the far field",
+     "camera": "Very slow push",
+     "hero": "Far across the paddies, a thin white figure bending and twisting",
+     "vo": "One hot afternoon, we saw something white in the far field. Twisting. Like paper in the wind.",
+     "start": 19.763,
+     "end": 26.531,
+     "thumb": "thumbs/ep26/s05.jpg",
+     "cell": 4
+    },
+    {
+     "id": 6,
+     "set": "fields",
+     "framing": "Close, the still rice",
+     "camera": "Locked",
+     "hero": "Rice stalks perfectly still, the white shape still twisting far behind",
+     "vo": "But there was no wind. Not a single leaf moved.",
+     "start": 26.531,
+     "end": 29.786,
+     "thumb": "thumbs/ep26/s06.jpg",
+     "cell": 5
+    },
+    {
+     "id": 7,
+     "set": "house",
+     "framing": "Medium, the brother lifting binoculars",
+     "camera": "Slow push",
+     "hero": "Brother on the veranda raising old binoculars toward the field",
+     "vo": "My brother grabbed Grandpa's binoculars. He wanted to see what it was.",
+     "start": 29.786,
+     "end": 34.187,
+     "thumb": "thumbs/ep26/s07.jpg",
+     "cell": 6
+    },
+    {
+     "id": 8,
+     "set": "house",
+     "framing": "Close, the brother's mouth",
+     "camera": "Locked",
+     "hero": "Close on the brother's face below the binoculars, the corners of his mouth slowly lifting",
+     "vo": "He looked for a long time. Then he started to laugh.",
+     "start": 34.187,
+     "end": 37.895,
+     "thumb": "thumbs/ep26/s08.jpg",
+     "cell": 7
+    },
+    {
+     "id": 9,
+     "set": "house",
+     "framing": "Medium, Grandpa covering his eyes",
+     "camera": "Handheld",
+     "hero": "Grandpa's hands over the brother's eyes, binoculars falling on the boards",
+     "vo": "Grandpa ran out, tore the binoculars away, and covered my brother's eyes.",
+     "start": 37.895,
+     "end": 42.569,
+     "thumb": "thumbs/ep26/s09.jpg",
+     "cell": 8
+    },
+    {
+     "id": 10,
+     "set": "house",
+     "framing": "Close, Grandpa whispering",
+     "camera": "Very slow push",
+     "hero": "Grandpa's worried profile; behind him the brother, still smiling at nothing",
+     "vo": "Did you understand it, he whispered. My brother just kept smiling.",
+     "start": 42.569,
+     "end": 47.217,
+     "thumb": "thumbs/ep26/s10.jpg",
+     "cell": 9
+    },
+    {
+     "id": 11,
+     "set": "fields",
+     "framing": "Wide, the paddies at dusk",
+     "camera": "Slow pull-back",
+     "hero": "Orange dusk over the paddies, a small car on the far road toward the mountains",
+     "vo": "They took him to a shrine in the mountains. He never came back to the farm.",
+     "start": 47.217,
+     "end": 51.711,
+     "thumb": "thumbs/ep26/s11.jpg",
+     "cell": 10
+    },
+    {
+     "id": 12,
+     "set": "fields",
+     "framing": "Wide, the field on a hot day",
+     "camera": "Slow push-in",
+     "hero": "The paddies in heat haze; the white figure now noticeably nearer",
+     "vo": "Grandpa sold the binoculars. But on hot afternoons, I still see something white, twisting. A little closer.",
+     "start": 51.711,
+     "end": 59.244,
+     "thumb": "thumbs/ep26/s12.jpg",
+     "cell": 11
+    },
+    {
+     "id": 13,
+     "set": "graphic",
+     "framing": "End card",
+     "camera": "Static",
+     "hero": "CTA with binoculars and a white twisting shape motif",
+     "vo": "Would you have looked? Comment YES or NO.",
+     "start": 59.244,
+     "end": 62.044,
+     "thumb": "thumbs/ep26/s13.jpg",
+     "cell": 12
+    }
+   ],
+   "kit": "svg",
+   "sprite": "thumbs/sprites/ep26.jpg"
+  },
+  {
+   "key": "ep27",
+   "title": "Chudail",
+   "country": "India",
+   "project": "/home/user/ep27",
+   "video": "/home/user/ep27/out/EP27-chudail.mp4",
+   "accent": "#ff6a3d",
+   "duration": 60.68,
+   "shots": [
+    {
+     "id": 1,
+     "set": "road",
+     "framing": "Wide, a lonely road under a banyan tree",
+     "camera": "Slow push-in",
+     "hero": "Moonlit dusty road, a huge banyan tree with hanging roots, a red figure under it",
+     "vo": "In India, if a woman on a lonely road asks you to walk with her\u2026 look at her feet. If they point backwards\u2026 run.",
+     "start": 0.0,
+     "end": 7.563,
+     "thumb": "thumbs/ep27/s01.jpg",
+     "cell": 0
+    },
+    {
+     "id": 2,
+     "set": "graphic",
+     "framing": "Title card",
+     "camera": "Slow push",
+     "hero": "Title 'CHUDAIL' + '\u091a\u0941\u0921\u093c\u0948\u0932 \u00b7 India' over a red sari silhouette under banyan roots",
+     "vo": "She might be a chudail.",
+     "start": 7.563,
+     "end": 9.422,
+     "thumb": "thumbs/ep27/s02.jpg",
+     "cell": 1
+    },
+    {
+     "id": 3,
+     "set": "graphic",
+     "framing": "Lore insert",
+     "camera": "Slow push",
+     "hero": "Silver anklets on bare feet in the dust, toes pointing backwards",
+     "vo": "A spirit who lures travelers off the road. Beautiful. Polite. And her feet face the wrong way.",
+     "start": 9.422,
+     "end": 15.707,
+     "thumb": "thumbs/ep27/s03.jpg",
+     "cell": 2
+    },
+    {
+     "id": 4,
+     "set": "road",
+     "framing": "Medium, a truck stopped by the banyan",
+     "camera": "Slow push",
+     "hero": "Painted truck stalled on the road, hood up, uncle with a torch, banyan behind",
+     "vo": "My uncle drove a truck. One night, it broke down near an old banyan tree.",
+     "start": 15.707,
+     "end": 20.642,
+     "thumb": "thumbs/ep27/s04.jpg",
+     "cell": 3
+    },
+    {
+     "id": 5,
+     "set": "road",
+     "framing": "Medium, the woman in red by the road",
+     "camera": "Very slow push",
+     "hero": "Woman in a red sari at the roadside, face half hidden by her veil",
+     "vo": "A woman in a red sari stood by the road. She asked him to walk her home.",
+     "start": 20.642,
+     "end": 25.152,
+     "thumb": "thumbs/ep27/s05.jpg",
+     "cell": 4
+    },
+    {
+     "id": 6,
+     "set": "road",
+     "framing": "Medium, walking side by side",
+     "camera": "Tracking from behind",
+     "hero": "Uncle and the woman walking away from the truck along the dark road",
+     "vo": "She was kind. She smiled. She knew his name.",
+     "start": 25.152,
+     "end": 29.086,
+     "thumb": "thumbs/ep27/s06.jpg",
+     "cell": 5
+    },
+    {
+     "id": 7,
+     "set": "road",
+     "framing": "Wide, headlights flicker on behind them",
+     "camera": "Locked",
+     "hero": "Long beams of light from behind lighting the dust ahead of the two figures",
+     "vo": "Then the headlights flickered on behind them. And he saw her footprints.",
+     "start": 29.086,
+     "end": 33.219,
+     "thumb": "thumbs/ep27/s07.jpg",
+     "cell": 6
+    },
+    {
+     "id": 8,
+     "set": "road",
+     "framing": "Close, footprints in the dust",
+     "camera": "Slow push along the prints",
+     "hero": "Two lines of footprints: his forward, hers reversed, leading back toward the banyan",
+     "vo": "Her toes pointed backwards. Toward the tree.",
+     "start": 33.219,
+     "end": 36.494,
+     "thumb": "thumbs/ep27/s08.jpg",
+     "cell": 7
+    },
+    {
+     "id": 9,
+     "set": "road",
+     "framing": "Close, uncle's face",
+     "camera": "Locked",
+     "hero": "Uncle's profile in the headlight glow, sweating, eyes forward",
+     "vo": "He remembered Grandma's words. Don't run. Don't scream. Walk back to the light.",
+     "start": 36.494,
+     "end": 42.455,
+     "thumb": "thumbs/ep27/s09.jpg",
+     "cell": 8
+    },
+    {
+     "id": 10,
+     "set": "road",
+     "framing": "Wide, uncle walking back, the woman behind",
+     "camera": "Tracking",
+     "hero": "Uncle walking toward the headlights; behind him, a red shape following at a distance",
+     "vo": "He turned back. With every step, he heard her anklets behind him.",
+     "start": 42.455,
+     "end": 47.061,
+     "thumb": "thumbs/ep27/s10.jpg",
+     "cell": 9
+    },
+    {
+     "id": 11,
+     "set": "road",
+     "framing": "Wide, the truck at dawn",
+     "camera": "Slow pull-back",
+     "hero": "Pale dawn on the road, the truck with headlights on, the banyan behind, no woman",
+     "vo": "He reached the truck at dawn. The engine started on the first try.",
+     "start": 47.061,
+     "end": 51.042,
+     "thumb": "thumbs/ep27/s11.jpg",
+     "cell": 10
+    },
+    {
+     "id": 12,
+     "set": "home",
+     "framing": "Medium, a knock at the courtyard door",
+     "camera": "Slow push-in",
+     "hero": "A courtyard door at night, a red sari hem and bare feet visible under the gap",
+     "vo": "He never drove that road again. But last week, a woman in red knocked on our door. Asking for him by name.",
+     "start": 51.042,
+     "end": 57.88,
+     "thumb": "thumbs/ep27/s12.jpg",
+     "cell": 11
+    },
+    {
+     "id": 13,
+     "set": "graphic",
+     "framing": "End card",
+     "camera": "Static",
+     "hero": "CTA with anklets and reversed footprints motif",
+     "vo": "Would you walk with her? Comment YES or NO.",
+     "start": 57.88,
+     "end": 60.68,
+     "thumb": "thumbs/ep27/s13.jpg",
+     "cell": 12
+    }
+   ],
+   "kit": "svg",
+   "sprite": "thumbs/sprites/ep27.jpg"
+  },
+  {
+   "key": "ep28",
+   "title": "Sundel Bolong",
+   "country": "Indonesia",
+   "project": "/home/user/ep28",
+   "video": "/home/user/ep28/out/EP28-sundel-bolong.mp4",
+   "accent": "#f7a8c4",
+   "duration": 58.343,
+   "shots": [
+    {
+     "id": 1,
+     "set": "street",
+     "framing": "Wide, a village road at midnight",
+     "camera": "Slow push-in",
+     "hero": "A dark village road, a satay cart glowing by a frangipani tree, a white figure in the distance",
+     "vo": "In Indonesia, if a beautiful woman buys food from you at midnight\u2026 don't look at her back.",
+     "start": 0.0,
+     "end": 6.005,
+     "thumb": "thumbs/ep28/s01.jpg",
+     "cell": 0
+    },
+    {
+     "id": 2,
+     "set": "graphic",
+     "framing": "Title card",
+     "camera": "Slow push",
+     "hero": "Title 'SUNDEL BOLONG' + 'An Indonesian legend' over very long black hair falling down a white dress",
+     "vo": "She might be Sundel Bolong.",
+     "start": 6.005,
+     "end": 8.118,
+     "thumb": "thumbs/ep28/s02.jpg",
+     "cell": 1
+    },
+    {
+     "id": 3,
+     "set": "graphic",
+     "framing": "Lore insert",
+     "camera": "Slow push",
+     "hero": "Long black hair swaying, frangipani petals drifting past",
+     "vo": "A woman in white with very long hair. And her hair hides a hole in her back.",
+     "start": 8.118,
+     "end": 12.892,
+     "thumb": "thumbs/ep28/s03.jpg",
+     "cell": 2
+    },
+    {
+     "id": 4,
+     "set": "street",
+     "framing": "Medium, father pushing his satay cart",
+     "camera": "Tracking",
+     "hero": "Father pushing a glowing wooden cart along the road, smoke rising",
+     "vo": "My father sold satay from a cart. Every night, he walked the village roads until late.",
+     "start": 12.892,
+     "end": 18.63,
+     "thumb": "thumbs/ep28/s04.jpg",
+     "cell": 3
+    },
+    {
+     "id": 5,
+     "set": "street",
+     "framing": "Medium, the woman in white",
+     "camera": "Very slow push",
+     "hero": "A pale woman in white under the frangipani tree, hair to her knees",
+     "vo": "One night, a woman in white stopped him. Long black hair. Down to her knees.",
+     "start": 18.63,
+     "end": 24.239,
+     "thumb": "thumbs/ep28/s05.jpg",
+     "cell": 4
+    },
+    {
+     "id": 6,
+     "set": "close",
+     "framing": "Close, satay on the grill",
+     "camera": "Locked",
+     "hero": "Rows of skewers on glowing charcoal, smoke, the white dress blurred behind",
+     "vo": "She ordered one hundred skewers. Then she sat and waited. Without a word.",
+     "start": 24.239,
+     "end": 29.384,
+     "thumb": "thumbs/ep28/s06.jpg",
+     "cell": 5
+    },
+    {
+     "id": 7,
+     "set": "close",
+     "framing": "Close, damp banknotes in his hand",
+     "camera": "Locked",
+     "hero": "Father's palm holding damp banknotes, a frangipani blossom on top",
+     "vo": "She paid with money that was damp. And smelled of flowers.",
+     "start": 29.384,
+     "end": 33.194,
+     "thumb": "thumbs/ep28/s07.jpg",
+     "cell": 6
+    },
+    {
+     "id": 8,
+     "set": "street",
+     "framing": "Medium, the woman walking away",
+     "camera": "Locked",
+     "hero": "The woman from behind on the dark road, her long hair beginning to lift",
+     "vo": "When she walked away, the wind lifted her hair.",
+     "start": 33.194,
+     "end": 36.656,
+     "thumb": "thumbs/ep28/s08.jpg",
+     "cell": 7
+    },
+    {
+     "id": 9,
+     "set": "close",
+     "framing": "Close, behind the hair",
+     "camera": "Very slow push",
+     "hero": "Long hair parting in the wind to reveal only deep black shadow, no gore",
+     "vo": "Behind it, there was nothing. Just darkness. Where her back should be.",
+     "start": 36.656,
+     "end": 41.55,
+     "thumb": "thumbs/ep28/s09.jpg",
+     "cell": 8
+    },
+    {
+     "id": 10,
+     "set": "street",
+     "framing": "Wide, the abandoned cart",
+     "camera": "Handheld",
+     "hero": "The satay cart alone on the road, grill still smoking, a figure running far away",
+     "vo": "My father left the cart and ran all the way home.",
+     "start": 41.55,
+     "end": 44.815,
+     "thumb": "thumbs/ep28/s10.jpg",
+     "cell": 9
+    },
+    {
+     "id": 11,
+     "set": "close",
+     "framing": "Close, the money box at dawn",
+     "camera": "Slow push-in",
+     "hero": "An open wooden money box full of white frangipani petals in dawn light",
+     "vo": "In the morning, he opened his money box. It was full of frangipani petals.",
+     "start": 44.815,
+     "end": 49.637,
+     "thumb": "thumbs/ep28/s11.jpg",
+     "cell": 10
+    },
+    {
+     "id": 12,
+     "set": "street",
+     "framing": "Wide, our house at night",
+     "camera": "Slow push-in",
+     "hero": "A house gate at night, a white figure with very long hair standing just outside",
+     "vo": "Last night, a woman in white stood outside our house. And asked for one hundred skewers.",
+     "start": 49.637,
+     "end": 55.543,
+     "thumb": "thumbs/ep28/s12.jpg",
+     "cell": 11
+    },
+    {
+     "id": 13,
+     "set": "graphic",
+     "framing": "End card",
+     "camera": "Static",
+     "hero": "CTA with satay skewers and frangipani motif",
+     "vo": "Would you sell to her? Comment YES or NO.",
+     "start": 55.543,
+     "end": 58.343,
+     "thumb": "thumbs/ep28/s13.jpg",
+     "cell": 12
+    }
+   ],
+   "kit": "svg",
+   "sprite": "thumbs/sprites/ep28.jpg"
+  },
+  {
+   "key": "ep29",
+   "title": "The Yule Cat",
+   "country": "Iceland",
+   "project": "/home/user/ep29",
+   "video": "/home/user/ep29/out/EP29-yule-cat.mp4",
+   "accent": "#ffd23f",
+   "duration": 61.605,
+   "shots": [
+    {
+     "id": 1,
+     "set": "farm",
+     "framing": "Wide, a snowy farm under the aurora",
+     "camera": "Slow push-in",
+     "hero": "A lonely turf-roof farmhouse in deep snow, green aurora, black mountains",
+     "vo": "In Iceland, if you don't get new clothes before Christmas\u2026 stay inside on Christmas night.",
+     "start": 0.0,
+     "end": 5.946,
+     "thumb": "thumbs/ep29/s01.jpg",
+     "cell": 0
+    },
+    {
+     "id": 2,
+     "set": "graphic",
+     "framing": "Title card",
+     "camera": "Slow push",
+     "hero": "Title 'J\u00d3LAK\u00d6TTURINN' + 'The Yule Cat \u00b7 Iceland' over two huge yellow eyes in the dark",
+     "vo": "Because the Yule Cat is hungry.",
+     "start": 5.946,
+     "end": 8.255,
+     "thumb": "thumbs/ep29/s02.jpg",
+     "cell": 1
+    },
+    {
+     "id": 3,
+     "set": "graphic",
+     "framing": "Lore insert",
+     "camera": "Slow push",
+     "hero": "An enormous cat silhouette stepping over a farmhouse against the aurora",
+     "vo": "A giant black cat, taller than houses. It hunts anyone who didn't get new clothes for Christmas.",
+     "start": 8.255,
+     "end": 14.6,
+     "thumb": "thumbs/ep29/s03.jpg",
+     "cell": 2
+    },
+    {
+     "id": 4,
+     "set": "home",
+     "framing": "Medium, the family spinning wool",
+     "camera": "Slow push",
+     "hero": "Lamp-lit room, a girl at a spinning wheel, wool skeins hanging",
+     "vo": "My grandmother grew up on a farm in the north. All winter, everyone worked hard, spinning wool.",
+     "start": 14.6,
+     "end": 20.738,
+     "thumb": "thumbs/ep29/s04.jpg",
+     "cell": 3
+    },
+    {
+     "id": 5,
+     "set": "home",
+     "framing": "Medium, the little brother asleep over unfinished wool",
+     "camera": "Locked",
+     "hero": "Small boy asleep by a pile of unspun wool, candle low",
+     "vo": "Those who finished got new clothes. Her little brother didn't finish.",
+     "start": 20.738,
+     "end": 24.826,
+     "thumb": "thumbs/ep29/s05.jpg",
+     "cell": 4
+    },
+    {
+     "id": 6,
+     "set": "home",
+     "framing": "Close, new red socks passed to him",
+     "camera": "Slow push-in",
+     "hero": "A girl's hands giving a pair of new red knitted socks to small hands",
+     "vo": "On Christmas Eve, Grandma gave him her own new socks. He didn't understand why.",
+     "start": 24.826,
+     "end": 30.134,
+     "thumb": "thumbs/ep29/s06.jpg",
+     "cell": 5
+    },
+    {
+     "id": 7,
+     "set": "farm",
+     "framing": "Wide, snow falling, everything silent",
+     "camera": "Locked",
+     "hero": "The farmhouse in falling snow, the aurora fading, no wind",
+     "vo": "That night, snow fell. And everything went quiet.",
+     "start": 30.134,
+     "end": 34.544,
+     "thumb": "thumbs/ep29/s07.jpg",
+     "cell": 6
+    },
+    {
+     "id": 8,
+     "set": "home",
+     "framing": "Medium, two huge eyes outside the window",
+     "camera": "Very slow push",
+     "hero": "The small window frame at night; outside, filling it, two enormous glowing yellow eyes",
+     "vo": "Through the window, two huge yellow eyes. As high as the roof.",
+     "start": 34.544,
+     "end": 39.618,
+     "thumb": "thumbs/ep29/s08.jpg",
+     "cell": 7
+    },
+    {
+     "id": 9,
+     "set": "home",
+     "framing": "Close, the children frozen in the lamp light",
+     "camera": "Locked",
+     "hero": "The two children huddled, yellow eye-light falling over them and the red socks",
+     "vo": "The cat looked at each of them. At their clothes. At his new socks.",
+     "start": 39.618,
+     "end": 43.861,
+     "thumb": "thumbs/ep29/s09.jpg",
+     "cell": 8
+    },
+    {
+     "id": 10,
+     "set": "farm",
+     "framing": "Wide, the giant cat walking away",
+     "camera": "Slow pull-back",
+     "hero": "An enormous black cat silhouette stepping over the ridge against the aurora",
+     "vo": "Then it turned away. And walked over the mountain without a sound.",
+     "start": 43.861,
+     "end": 48.534,
+     "thumb": "thumbs/ep29/s10.jpg",
+     "cell": 9
+    },
+    {
+     "id": 11,
+     "set": "farm",
+     "framing": "Wide, giant paw prints at dawn",
+     "camera": "Slow pull-back",
+     "hero": "Pale blue dawn, a trail of enormous paw prints past the farmhouse",
+     "vo": "In the morning, there were paw prints in the snow. Each one bigger than a door.",
+     "start": 48.534,
+     "end": 53.3,
+     "thumb": "thumbs/ep29/s11.jpg",
+     "cell": 10
+    },
+    {
+     "id": 12,
+     "set": "home",
+     "framing": "Close, knitting needles at night",
+     "camera": "Slow push-in",
+     "hero": "Old hands knitting red socks by a window; outside in the dark, two faint yellow dots",
+     "vo": "Grandma still knits new socks for all of us. Every Christmas. Just in case.",
+     "start": 53.3,
+     "end": 58.805,
+     "thumb": "thumbs/ep29/s12.jpg",
+     "cell": 11
+    },
+    {
+     "id": 13,
+     "set": "graphic",
+     "framing": "End card",
+     "camera": "Static",
+     "hero": "CTA with red socks and yellow cat eyes motif",
+     "vo": "Would you go out on Christmas night? Comment YES or NO.",
+     "start": 58.805,
+     "end": 61.605,
+     "thumb": "thumbs/ep29/s13.jpg",
+     "cell": 12
+    }
+   ],
+   "kit": "svg",
+   "sprite": "thumbs/sprites/ep29.jpg"
+  },
+  {
+   "key": "ep30",
+   "title": "Min Min Lights",
+   "country": "Australia",
+   "project": "/home/user/ep30",
+   "video": "/home/user/ep30/out/EP30-min-min-lights.mp4",
+   "accent": "#7fe3ff",
+   "duration": 58.531,
+   "shots": [
+    {
+     "id": 1,
+     "set": "outback",
+     "framing": "Wide, the outback under the stars",
+     "camera": "Slow push-in",
+     "hero": "Flat red scrubland under a huge starry sky, a single cold light hovering far away",
+     "vo": "In the Australian outback, if a light floats toward you at night\u2026 don't follow it. Never walk toward it.",
+     "start": 0.0,
+     "end": 6.869,
+     "thumb": "thumbs/ep30/s01.jpg",
+     "cell": 0
+    },
+    {
+     "id": 2,
+     "set": "graphic",
+     "framing": "Title card",
+     "camera": "Slow push",
+     "hero": "Title 'MIN MIN LIGHTS' + 'Outback \u00b7 Australia' over a glowing orb above the scrub",
+     "vo": "They call them the Min Min lights.",
+     "start": 6.869,
+     "end": 9.118,
+     "thumb": "thumbs/ep30/s02.jpg",
+     "cell": 1
+    },
+    {
+     "id": 3,
+     "set": "graphic",
+     "framing": "Lore insert",
+     "camera": "Slow push",
+     "hero": "A trail of faint light-orbs drifting over the desert into darkness",
+     "vo": "Glowing lights that follow travelers. Some say they lead you home. Most say they lead you away.",
+     "start": 9.118,
+     "end": 15.361,
+     "thumb": "thumbs/ep30/s03.jpg",
+     "cell": 2
+    },
+    {
+     "id": 4,
+     "set": "camp",
+     "framing": "Wide, a campfire beside a ute",
+     "camera": "Slow lateral track",
+     "hero": "Small campfire, a ute, two swags, father and son sitting, endless dark around",
+     "vo": "My dad and I were camping off a dirt road. Three hundred kilometers from any town.",
+     "start": 15.361,
+     "end": 20.473,
+     "thumb": "thumbs/ep30/s04.jpg",
+     "cell": 3
+    },
+    {
+     "id": 5,
+     "set": "outback",
+     "framing": "Wide, the light appears over the scrub",
+     "camera": "Very slow push",
+     "hero": "A single cold orb rising above the spinifex, lighting it faintly blue",
+     "vo": "Around midnight, a white light appeared over the scrub. Floating. Silent.",
+     "start": 20.473,
+     "end": 25.816,
+     "thumb": "thumbs/ep30/s05.jpg",
+     "cell": 4
+    },
+    {
+     "id": 6,
+     "set": "camp",
+     "framing": "Medium, dad watching",
+     "camera": "Locked",
+     "hero": "Dad standing by the fire, looking out into the dark, a cold dot in the distance",
+     "vo": "Dad thought it was a car. But there was no road there.",
+     "start": 25.816,
+     "end": 29.44,
+     "thumb": "thumbs/ep30/s06.jpg",
+     "cell": 5
+    },
+    {
+     "id": 7,
+     "set": "outback",
+     "framing": "Medium, the light hovering closer",
+     "camera": "Locked",
+     "hero": "The orb hanging still above a dead gum tree, its halo pulsing",
+     "vo": "It came closer. Then it stopped. As if it was watching.",
+     "start": 29.44,
+     "end": 33.737,
+     "thumb": "thumbs/ep30/s07.jpg",
+     "cell": 6
+    },
+    {
+     "id": 8,
+     "set": "camp",
+     "framing": "Medium, dad walking toward it",
+     "camera": "Tracking from behind",
+     "hero": "Dad walking away from the fire into the dark toward the light, his face lit blue",
+     "vo": "Dad stood up and started walking toward it. Slowly. Like he was called.",
+     "start": 33.737,
+     "end": 38.733,
+     "thumb": "thumbs/ep30/s08.jpg",
+     "cell": 7
+    },
+    {
+     "id": 9,
+     "set": "camp",
+     "framing": "Close, the boy grabbing his hand",
+     "camera": "Handheld",
+     "hero": "A boy's hand gripping his father's big hand, frost-blue light on them",
+     "vo": "I grabbed his hand. It was ice cold.",
+     "start": 38.733,
+     "end": 41.88,
+     "thumb": "thumbs/ep30/s09.jpg",
+     "cell": 8
+    },
+    {
+     "id": 10,
+     "set": "outback",
+     "framing": "Wide, the light pulling back",
+     "camera": "Locked",
+     "hero": "The orb drifting backwards over the scrub, a faint trail behind it",
+     "vo": "The light pulled back. Waiting for him to follow.",
+     "start": 41.88,
+     "end": 45.044,
+     "thumb": "thumbs/ep30/s10.jpg",
+     "cell": 9
+    },
+    {
+     "id": 11,
+     "set": "camp",
+     "framing": "Wide, sunrise over the camp",
+     "camera": "Slow pull-back",
+     "hero": "Orange sunrise over the red plain, father and son sitting by a dead fire",
+     "vo": "I held on until sunrise. When the sun came up, the light was gone.",
+     "start": 45.044,
+     "end": 49.487,
+     "thumb": "thumbs/ep30/s11.jpg",
+     "cell": 10
+    },
+    {
+     "id": 12,
+     "set": "camp",
+     "framing": "Medium, dad at a window at night",
+     "camera": "Slow push-in",
+     "hero": "Dad from behind at a house window at night; far out on the plain, a tiny cold light",
+     "vo": "Dad doesn't remember any of it. But at night, he stands at the window. Looking for a light in the dark.",
+     "start": 49.487,
+     "end": 55.731,
+     "thumb": "thumbs/ep30/s12.jpg",
+     "cell": 11
+    },
+    {
+     "id": 13,
+     "set": "graphic",
+     "framing": "End card",
+     "camera": "Static",
+     "hero": "CTA with a glowing orb and campfire motif",
+     "vo": "Would you follow the light? Comment YES or NO.",
+     "start": 55.731,
+     "end": 58.531,
+     "thumb": "thumbs/ep30/s13.jpg",
+     "cell": 12
+    }
+   ],
+   "kit": "svg",
+   "sprite": "thumbs/sprites/ep30.jpg"
   }
  ],
  "components": [
@@ -8828,6 +9673,812 @@
     11,
     12
    ]
+  },
+  {
+   "name": "Kune",
+   "cat": "prop",
+   "ep": "ep26",
+   "file": "episodes/ep26/art/graphic_kune.tsx",
+   "line": 4,
+   "props": "x: number; y: number; h: number; t: number; color?: string; glow?: boolean; id?: string",
+   "doc": "Tiny white twisting figure (kunekune). Feet at (x,y), height h. t = seconds (drives the wriggle).",
+   "imports": [],
+   "shots": [
+    2,
+    7,
+    13
+   ]
+  },
+  {
+   "name": "Binoculars",
+   "cat": "prop",
+   "ep": "ep26",
+   "file": "episodes/ep26/art/graphic_kune.tsx",
+   "line": 45,
+   "props": "x: number; y: number; s: number; lens?: (cx: number, cy: number, r: number, i: number) => React.ReactNode; rim?: string",
+   "doc": "Old binoculars, side-by-side barrels, front view slightly from above. Centre (x,y), scale s (\u22481 \u2192 520 px wide).",
+   "imports": [],
+   "shots": [
+    3,
+    13
+   ]
+  },
+  {
+   "name": "Chime",
+   "cat": "prop",
+   "ep": "ep26",
+   "file": "episodes/ep26/art/house_figs.tsx",
+   "line": 6,
+   "props": "x: number; y: number; s?: number; sw?: number",
+   "doc": "glass wind chime hanging from the eave; sw = swing in degrees",
+   "imports": [],
+   "shots": [
+    4,
+    7
+   ]
+  },
+  {
+   "name": "Kune",
+   "cat": "prop",
+   "ep": "ep26",
+   "file": "episodes/ep26/art/house_figs.tsx",
+   "line": 21,
+   "props": "x: number; y: number; h: number; t: number; o?: number",
+   "doc": "tiny white wriggling figure far away",
+   "imports": [],
+   "shots": [
+    2,
+    7,
+    13
+   ]
+  },
+  {
+   "name": "KidBack",
+   "cat": "character",
+   "ep": "ep26",
+   "file": "episodes/ep26/art/house_figs.tsx",
+   "line": 33,
+   "props": "x: number; y: number; h: number; shirt: string; melon?: number; lean?: number",
+   "doc": "child sitting on the veranda edge, seen from behind. x,y = seat point, h = seated height",
+   "imports": [],
+   "shots": [
+    4
+   ]
+  },
+  {
+   "name": "BrotherSide",
+   "cat": "prop",
+   "ep": "ep26",
+   "file": "episodes/ep26/art/house_figs.tsx",
+   "line": 59,
+   "props": "x: number; y: number; h: number; raise: number; smile?: number; bino?: boolean",
+   "doc": "brother standing in profile facing right, raising binoculars. raise 0..1",
+   "imports": [],
+   "shots": [
+    7,
+    9,
+    10
+   ]
+  },
+  {
+   "name": "MouthClose",
+   "cat": "face",
+   "ep": "ep26",
+   "file": "episodes/ep26/art/house_figs.tsx",
+   "line": 94,
+   "props": "smile: number",
+   "doc": "extreme close: brother's lower face under binoculars, mouth corners lifting. Frame-space 1080x1920",
+   "imports": [],
+   "shots": [
+    8
+   ]
+  },
+  {
+   "name": "Grandpa",
+   "cat": "character",
+   "ep": "ep26",
+   "file": "episodes/ep26/art/house_figs.tsx",
+   "line": 123,
+   "props": "x: number; y: number; h: number; reach?: number; worry?: number",
+   "doc": "Grandpa in profile facing left. x,y = feet; h height. reach 0..1 extends arms forward-left",
+   "imports": [],
+   "shots": [
+    9
+   ]
+  },
+  {
+   "name": "GrandpaClose",
+   "cat": "character",
+   "ep": "ep26",
+   "file": "episodes/ep26/art/house_figs.tsx",
+   "line": 144,
+   "props": "open: number",
+   "doc": "close Grandpa profile (frame space), facing right, worried, whispering. open 0..1",
+   "imports": [],
+   "shots": [
+    10
+   ]
+  },
+  {
+   "name": "fields set",
+   "cat": "set",
+   "ep": "ep26",
+   "file": "episodes/ep26/sets/fields.tsx",
+   "line": 1,
+   "props": "bands: fields/close, fields/fg, fields/paddies, fields/sky",
+   "doc": "shots [1, 5, 6, 11, 12]",
+   "imports": [],
+   "thumb": "thumbs/ep26/s01.jpg",
+   "shots": [
+    1,
+    5,
+    6,
+    11,
+    12
+   ]
+  },
+  {
+   "name": "graphic set",
+   "cat": "set",
+   "ep": "ep26",
+   "file": "episodes/ep26/sets/graphic.tsx",
+   "line": 1,
+   "props": "bands: graphic/fg, graphic/field, graphic/sky",
+   "doc": "shots [2, 3, 13]",
+   "imports": [],
+   "thumb": "thumbs/ep26/s02.jpg",
+   "shots": [
+    2,
+    3,
+    13
+   ]
+  },
+  {
+   "name": "house set",
+   "cat": "set",
+   "ep": "ep26",
+   "file": "episodes/ep26/sets/house.tsx",
+   "line": 1,
+   "props": "bands: house/bg, house/veranda",
+   "doc": "shots [4, 7, 8, 9, 10]",
+   "imports": [],
+   "thumb": "thumbs/ep26/s04.jpg",
+   "shots": [
+    4,
+    7,
+    8,
+    9,
+    10
+   ]
+  },
+  {
+   "name": "Footprint",
+   "cat": "fx",
+   "ep": "ep27",
+   "file": "episodes/ep27/art/graphic_feet.tsx",
+   "line": 4,
+   "props": "wet: number; fill?: string; rim?: string",
+   "doc": "One bare footprint (origin centre, toes up). Copied from library ep08 close_art Footprint, restyled for dust.",
+   "imports": [],
+   "shots": [
+    3,
+    13
+   ]
+  },
+  {
+   "name": "SideFoot",
+   "cat": "fx",
+   "ep": "ep27",
+   "file": "episodes/ep27/art/graphic_feet.tsx",
+   "line": 15,
+   "props": "x: number; y: number; s?: number; dir?: number; lift?: number; glint?: number",
+   "doc": "Side-view bare foot, origin at the sole under the ankle. dir=-1: toes point left. Silver anklet at the ankle.",
+   "imports": [],
+   "shots": [
+    3
+   ]
+  },
+  {
+   "name": "Chudail",
+   "cat": "prop",
+   "ep": "ep27",
+   "file": "episodes/ep27/art/road_figs.tsx",
+   "line": 11,
+   "props": "x: number; y: number; s: number; back?: boolean; sway?: number; rim?: string",
+   "doc": "Woman in red sari, standing; origin at feet centre, height ~ 620*s. facing: 1 = toward camera-ish, -1 = back.",
+   "imports": [],
+   "shots": [
+    1,
+    5,
+    6,
+    7,
+    10
+   ]
+  },
+  {
+   "name": "Uncle",
+   "cat": "character",
+   "ep": "ep27",
+   "file": "episodes/ep27/art/road_figs.tsx",
+   "line": 39,
+   "props": "x: number; y: number; s: number; step?: number; front?: boolean; torch?: boolean; rim?: string",
+   "doc": "Uncle: kurta, side/back. origin feet; height ~ 640*s. step 0..1 animates walk. dir 1 faces right.",
+   "imports": [],
+   "shots": [
+    4,
+    6,
+    7,
+    10
+   ]
+  },
+  {
+   "name": "Truck",
+   "cat": "prop",
+   "ep": "ep27",
+   "file": "episodes/ep27/art/road_figs.tsx",
+   "line": 64,
+   "props": "x: number; y: number; s: number; lights?: number; hood?: boolean",
+   "doc": "Painted truck, 3/4 front view facing camera-left. origin ground centre, width ~760*s.",
+   "imports": [],
+   "shots": [
+    4,
+    11
+   ]
+  },
+  {
+   "name": "HlDefs",
+   "cat": "prop",
+   "ep": "ep27",
+   "file": "episodes/ep27/art/road_figs.tsx",
+   "line": 92,
+   "props": "",
+   "doc": "",
+   "imports": [],
+   "shots": [
+    1,
+    4,
+    5,
+    7,
+    8,
+    10,
+    11
+   ]
+  },
+  {
+   "name": "Foot",
+   "cat": "fx",
+   "ep": "ep27",
+   "file": "episodes/ep27/art/road_figs.tsx",
+   "line": 101,
+   "props": "x: number; y: number; s: number; rot: number; o?: number; fill?: string",
+   "doc": "Footprint: toes toward -y when rot=0.",
+   "imports": [],
+   "shots": [
+    1,
+    7,
+    8
+   ]
+  },
+  {
+   "name": "home set",
+   "cat": "set",
+   "ep": "ep27",
+   "file": "episodes/ep27/sets/home.tsx",
+   "line": 1,
+   "props": "bands: home/bg, home/fg",
+   "doc": "shots [12]",
+   "imports": [],
+   "thumb": "thumbs/ep27/s12.jpg",
+   "shots": [
+    12
+   ]
+  },
+  {
+   "name": "road set",
+   "cat": "set",
+   "ep": "ep27",
+   "file": "episodes/ep27/sets/road.tsx",
+   "line": 1,
+   "props": "bands: road/fg, road/mid, road/sky",
+   "doc": "shots [1, 4, 5, 6, 7, 8, 9, 10, 11]",
+   "imports": [],
+   "thumb": "thumbs/ep27/s01.jpg",
+   "shots": [
+    1,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+   ]
+  },
+  {
+   "name": "Frangi",
+   "cat": "prop",
+   "ep": "ep28",
+   "file": "episodes/ep28/art/close_bits.tsx",
+   "line": 4,
+   "props": "x: number; y: number; s?: number; rot?: number; tint?: string; shade?: string; op?: number",
+   "doc": "Frangipani blossom: 5 overlapping petals, pink-yellow centre. Centred at x,y.",
+   "imports": [],
+   "shots": [
+    7,
+    11,
+    13
+   ]
+  },
+  {
+   "name": "Petal",
+   "cat": "prop",
+   "ep": "ep28",
+   "file": "episodes/ep28/art/close_bits.tsx",
+   "line": 18,
+   "props": "x: number; y: number; s?: number; rot?: number; fill?: string; op?: number",
+   "doc": "A single loose petal (teardrop).",
+   "imports": [],
+   "shots": [
+    2,
+    3,
+    11,
+    13
+   ]
+  },
+  {
+   "name": "WomanBack",
+   "cat": "character",
+   "ep": "ep28",
+   "file": "episodes/ep28/art/graphic_woman.tsx",
+   "line": 5,
+   "props": "x: number; y: number; s?: number; sway?: number; part?: number; rim?: string; id: string",
+   "doc": "Back view of the woman in white with knee-long black hair. Frame coords: x = centre, y = top of head, s = scale (1 => ~1500 px tall). sway: -1..1 lower-hair sway, part: 0..1 hair parting on the back (reveals only darkness).",
+   "imports": [],
+   "shots": [
+    2,
+    3
+   ]
+  },
+  {
+   "name": "Frangi",
+   "cat": "prop",
+   "ep": "ep28",
+   "file": "episodes/ep28/art/graphic_woman.tsx",
+   "line": 81,
+   "props": "x: number; y: number; s?: number; rot?: number; op?: number",
+   "doc": "Frangipani blossom: 5 cream petals, pink-yellow centre.",
+   "imports": [],
+   "shots": [
+    7,
+    11,
+    13
+   ]
+  },
+  {
+   "name": "Petal",
+   "cat": "prop",
+   "ep": "ep28",
+   "file": "episodes/ep28/art/graphic_woman.tsx",
+   "line": 92,
+   "props": "x: number; y: number; s?: number; rot?: number; op?: number",
+   "doc": "Single drifting petal.",
+   "imports": [],
+   "shots": [
+    2,
+    3,
+    11,
+    13
+   ]
+  },
+  {
+   "name": "Skewer",
+   "cat": "prop",
+   "ep": "ep28",
+   "file": "episodes/ep28/art/graphic_woman.tsx",
+   "line": 100,
+   "props": "x: number; y: number; s?: number; rot?: number",
+   "doc": "Satay skewer: stick with 4 glazed meat chunks. Origin = handle end, points along +x.",
+   "imports": [],
+   "shots": [
+    13
+   ]
+  },
+  {
+   "name": "FigDefs",
+   "cat": "character",
+   "ep": "ep28",
+   "file": "episodes/ep28/art/street_figs.tsx",
+   "line": 5,
+   "props": "",
+   "doc": "",
+   "imports": [],
+   "shots": [
+    1,
+    4,
+    5,
+    8,
+    10,
+    12
+   ]
+  },
+  {
+   "name": "Woman",
+   "cat": "character",
+   "ep": "ep28",
+   "file": "episodes/ep28/art/street_figs.tsx",
+   "line": 35,
+   "props": "x: number; y: number; h: number; view?: 'back' | 'side'; lift?: number; sway?: number; aura?: boolean",
+   "doc": "The sundel bolong. view back|side(facing left). lift 0..1 = hair lifting to reveal the dark hollow. sway = hair wind.",
+   "imports": [],
+   "shots": [
+    1,
+    5,
+    8,
+    12
+   ]
+  },
+  {
+   "name": "Father",
+   "cat": "character",
+   "ep": "ep28",
+   "file": "episodes/ep28/art/street_figs.tsx",
+   "line": 76,
+   "props": "x: number; y: number; h: number; walk?: number; push?: boolean; flip?: boolean; run?: boolean",
+   "doc": "Satay seller (father), side view facing right. walk = phase in radians, fan = fanning amount (0 none).",
+   "imports": [],
+   "shots": [
+    1,
+    4,
+    10
+   ]
+  },
+  {
+   "name": "Cart",
+   "cat": "prop",
+   "ep": "ep28",
+   "file": "episodes/ep28/art/street_figs.tsx",
+   "line": 109,
+   "props": "x: number; y: number; s: number; t: number; smoke?: number; fire?: number",
+   "doc": "Satay cart. x,y = rear wheel ground point; w \u2248 1000 units long at scale 1.",
+   "imports": [],
+   "shots": [
+    1,
+    4,
+    10
+   ]
+  },
+  {
+   "name": "close set",
+   "cat": "set",
+   "ep": "ep28",
+   "file": "episodes/ep28/sets/close.tsx",
+   "line": 1,
+   "props": "bands: close/dress, close/night",
+   "doc": "shots [6, 7, 9, 11]",
+   "imports": [],
+   "thumb": "thumbs/ep28/s06.jpg",
+   "shots": [
+    6,
+    7,
+    9,
+    11
+   ]
+  },
+  {
+   "name": "street set",
+   "cat": "set",
+   "ep": "ep28",
+   "file": "episodes/ep28/sets/street.tsx",
+   "line": 1,
+   "props": "bands: street/fg, street/house, street/road, street/sky",
+   "doc": "shots [1, 4, 5, 8, 10, 12]",
+   "imports": [],
+   "thumb": "thumbs/ep28/s01.jpg",
+   "shots": [
+    1,
+    4,
+    5,
+    8,
+    10,
+    12
+   ]
+  },
+  {
+   "name": "YuleCat",
+   "cat": "prop",
+   "ep": "ep29",
+   "file": "episodes/ep29/art/farm_cat.tsx",
+   "line": 4,
+   "props": "x: number; y: number; s: number; walk?: number; look?: number; eyes?: number; id: string; fill?: string",
+   "doc": "Giant Yule Cat silhouette, side view walking left->right, origin at the back feet line. s = scale (1 \u2248 700 px long body). walk = gait phase (rad). look: 0 side, 1 head turned back toward camera (eyes visible).",
+   "imports": [],
+   "shots": [
+    10
+   ]
+  },
+  {
+   "name": "PawPrint",
+   "cat": "prop",
+   "ep": "ep29",
+   "file": "episodes/ep29/art/farm_cat.tsx",
+   "line": 48,
+   "props": "x: number; y: number; s: number; rot?: number; o?: number; dark?: string; lip?: string",
+   "doc": "One giant paw print in snow (perspective-squashed ellipse group).",
+   "imports": [],
+   "shots": [
+    11
+   ]
+  },
+  {
+   "name": "CatEye",
+   "cat": "face",
+   "ep": "ep29",
+   "file": "episodes/ep29/art/graphic_cat.tsx",
+   "line": 7,
+   "props": "x: number; y: number; w: number; open?: number; id: string; tilt?: number; glow?: number",
+   "doc": "Glowing almond cat eye with slit pupil. open 0..1 (blink), look = pupil x shift.",
+   "imports": [],
+   "shots": [
+    2,
+    13
+   ]
+  },
+  {
+   "name": "CatHeadFront",
+   "cat": "prop",
+   "ep": "ep29",
+   "file": "episodes/ep29/art/graphic_cat.tsx",
+   "line": 31,
+   "props": "x: number; y: number; r: number; rim?: string",
+   "doc": "Frontal head silhouette (ears up), eyes added by caller. Local origin = head centre, width ~ 2*r.",
+   "imports": [],
+   "shots": [
+    2
+   ]
+  },
+  {
+   "name": "YuleCatSide",
+   "cat": "prop",
+   "ep": "ep29",
+   "file": "episodes/ep29/art/graphic_cat.tsx",
+   "line": 62,
+   "props": "x: number; y: number; s: number; step?: number; tail?: number; eye?: number; id: string; rim?: string",
+   "doc": "Side silhouette of the giant cat, facing left, stepping. Local origin = ground under the body, units: shoulder height ~720, length ~1300. step 0..1 lifts/advances the raised front paw.",
+   "imports": [],
+   "shots": [
+    3
+   ]
+  },
+  {
+   "name": "TurfHouse",
+   "cat": "prop",
+   "ep": "ep29",
+   "file": "episodes/ep29/art/graphic_cat.tsx",
+   "line": 99,
+   "props": "x: number; y: number; s: number; lit?: number",
+   "doc": "Icelandic turf house: 3 timber gables under a snowy turf mound. Origin = ground centre, width ~460.",
+   "imports": [],
+   "shots": [
+    3
+   ]
+  },
+  {
+   "name": "Sock",
+   "cat": "prop",
+   "ep": "ep29",
+   "file": "episodes/ep29/art/graphic_cat.tsx",
+   "line": 130,
+   "props": "x: number; y: number; s?: number; rot?: number; flip?: boolean",
+   "doc": "Knitted red sock hanging from its cuff (origin = top centre of cuff).",
+   "imports": [],
+   "shots": [
+    6,
+    13
+   ]
+  },
+  {
+   "name": "Kid",
+   "cat": "character",
+   "ep": "ep29",
+   "file": "episodes/ep29/art/home_kid.tsx",
+   "line": 4,
+   "props": "x: number; y: number; h: number; phase?: number; jumper: string; hair?: 'long' | 'short'; rim?: number; reach?: number; rc?: string; boot?: string",
+   "doc": "Child from behind in wool jumper + wellies. (x,y) = feet, h = height.",
+   "imports": [],
+   "shots": [
+    4,
+    8,
+    9
+   ]
+  },
+  {
+   "name": "TurfHouse",
+   "cat": "prop",
+   "ep": "ep29",
+   "file": "episodes/ep29/sets/farm.tsx",
+   "line": 17,
+   "props": "x: number; y: number; s: number; lit?: number",
+   "doc": "Turf-roof farmhouse with snow on the grass roof, one lit window.",
+   "imports": [
+    "../art/world",
+    "../comp/Bands"
+   ],
+   "shots": [
+    3
+   ]
+  },
+  {
+   "name": "farm set",
+   "cat": "set",
+   "ep": "ep29",
+   "file": "episodes/ep29/sets/farm.tsx",
+   "line": 1,
+   "props": "bands: farm/fg, farm/land, farm/mtn, farm/sky",
+   "doc": "shots [1, 7, 10, 11]",
+   "imports": [],
+   "thumb": "thumbs/ep29/s01.jpg",
+   "shots": [
+    1,
+    7,
+    10,
+    11
+   ]
+  },
+  {
+   "name": "graphic set",
+   "cat": "set",
+   "ep": "ep29",
+   "file": "episodes/ep29/sets/graphic.tsx",
+   "line": 1,
+   "props": "bands: graphic/aurora, graphic/sky",
+   "doc": "shots [2, 3, 13]",
+   "imports": [],
+   "thumb": "thumbs/ep29/s02.jpg",
+   "shots": [
+    2,
+    3,
+    13
+   ]
+  },
+  {
+   "name": "home set",
+   "cat": "set",
+   "ep": "ep29",
+   "file": "episodes/ep29/sets/home.tsx",
+   "line": 1,
+   "props": "bands: home/fg, home/room",
+   "doc": "shots [4, 5, 6, 8, 9, 12]",
+   "imports": [],
+   "thumb": "thumbs/ep29/s04.jpg",
+   "shots": [
+    4,
+    5,
+    6,
+    8,
+    9,
+    12
+   ]
+  },
+  {
+   "name": "DadStand",
+   "cat": "prop",
+   "ep": "ep30",
+   "file": "episodes/ep30/art/camp_figs.tsx",
+   "line": 4,
+   "props": "x: number; y: number; s?: number; rim?: string; side?: 1 | -1; step?: number; fill?: string; face?: string; rimOp?: number",
+   "doc": "Standing dad silhouette (bush hat, flannel), feet at (x,y), height ~ 560*s. rim = rim light colour on side `side`.",
+   "imports": [],
+   "shots": [
+    6,
+    8,
+    12
+   ]
+  },
+  {
+   "name": "Sitter",
+   "cat": "prop",
+   "ep": "ep30",
+   "file": "episodes/ep30/art/camp_figs.tsx",
+   "line": 34,
+   "props": "x: number; y: number; s?: number; dir?: 1 | -1; child?: boolean; rim?: string; fill?: string",
+   "doc": "Sitting figure (side view facing +x when dir=1), seat at (x,y). child = smaller, no hat.",
+   "imports": [],
+   "shots": [
+    4,
+    11
+   ]
+  },
+  {
+   "name": "Fire",
+   "cat": "fx",
+   "ep": "ep30",
+   "file": "episodes/ep30/art/camp_figs.tsx",
+   "line": 60,
+   "props": "x: number; y: number; s?: number; t: number; lit?: number",
+   "doc": "Campfire flames (live). t = seconds, lit 0..1 (0 = dead embers).",
+   "imports": [],
+   "shots": [
+    4,
+    6,
+    8,
+    11
+   ]
+  },
+  {
+   "name": "KDefs",
+   "cat": "prop",
+   "ep": "ep30",
+   "file": "episodes/ep30/art/camp_figs.tsx",
+   "line": 87,
+   "props": "",
+   "doc": "Gradients used by Fire / Orb; place once inside each Live svg that uses them.",
+   "imports": [],
+   "shots": [
+    4,
+    6,
+    8,
+    11,
+    12
+   ]
+  },
+  {
+   "name": "Orb",
+   "cat": "prop",
+   "ep": "ep30",
+   "file": "episodes/ep30/art/camp_figs.tsx",
+   "line": 96,
+   "props": "x: number; y: number; r?: number; op?: number",
+   "doc": "",
+   "imports": [],
+   "shots": [
+    1,
+    2,
+    3,
+    5,
+    6,
+    7,
+    8,
+    10,
+    12,
+    13
+   ]
+  },
+  {
+   "name": "camp set",
+   "cat": "set",
+   "ep": "ep30",
+   "file": "episodes/ep30/sets/camp.tsx",
+   "line": 1,
+   "props": "bands: camp/dawn, camp/fg, camp/house, camp/night",
+   "doc": "shots [4, 6, 8, 9, 11, 12]",
+   "imports": [],
+   "thumb": "thumbs/ep30/s04.jpg",
+   "shots": [
+    4,
+    6,
+    8,
+    9,
+    11,
+    12
+   ]
+  },
+  {
+   "name": "outback set",
+   "cat": "set",
+   "ep": "ep30",
+   "file": "episodes/ep30/sets/outback.tsx",
+   "line": 1,
+   "props": "bands: outback/fg, outback/land, outback/sky",
+   "doc": "shots [1, 5, 7, 10]",
+   "imports": [],
+   "thumb": "thumbs/ep30/s01.jpg",
+   "shots": [
+    1,
+    5,
+    7,
+    10
+   ]
   }
  ],
  "sfx": [
@@ -8845,6 +10496,14 @@
    "dur": 30.04,
    "prompt": "Tropical night ambience in an Indonesian village banana grove, crickets chirping, distant frogs, gentle leaves rustling",
    "loop": true,
+   "note": ""
+  },
+  {
+   "name": "anklets",
+   "file": "sfx/anklets.mp3",
+   "dur": 5.04,
+   "prompt": "",
+   "loop": false,
    "note": ""
   },
   {
@@ -8872,9 +10531,25 @@
    "note": ""
   },
   {
+   "name": "big_purr",
+   "file": "sfx/big_purr.mp3",
+   "dur": 4.05,
+   "prompt": "",
+   "loop": false,
+   "note": ""
+  },
+  {
    "name": "bones",
    "file": "sfx/bones.mp3",
    "dur": 5.04,
+   "prompt": "",
+   "loop": false,
+   "note": ""
+  },
+  {
+   "name": "boy_laugh",
+   "file": "sfx/boy_laugh.mp3",
+   "dur": 4.05,
    "prompt": "",
    "loop": false,
    "note": ""
@@ -8914,6 +10589,14 @@
   {
    "name": "china_street",
    "file": "sfx/china_street.mp3",
+   "dur": 20.04,
+   "prompt": "",
+   "loop": false,
+   "note": ""
+  },
+  {
+   "name": "cicadas",
+   "file": "sfx/cicadas.mp3",
    "dur": 20.04,
    "prompt": "",
    "loop": false,
@@ -9144,10 +10827,26 @@
    "note": ""
   },
   {
+   "name": "hair_wind",
+   "file": "sfx/hair_wind.mp3",
+   "dur": 4.05,
+   "prompt": "",
+   "loop": false,
+   "note": ""
+  },
+  {
    "name": "heartbeat",
    "file": "sfx/heartbeat.mp3",
    "dur": 6.03,
    "prompt": "Slow heavy heartbeat thumps, muffled",
+   "loop": false,
+   "note": ""
+  },
+  {
+   "name": "heavy_paws",
+   "file": "sfx/heavy_paws.mp3",
+   "dur": 5.04,
+   "prompt": "",
    "loop": false,
    "note": ""
   },
@@ -9195,6 +10894,14 @@
    "name": "imp_giggle",
    "file": "sfx/imp_giggle.mp3",
    "dur": 3.03,
+   "prompt": "",
+   "loop": false,
+   "note": ""
+  },
+  {
+   "name": "india_night",
+   "file": "sfx/india_night.mp3",
+   "dur": 20.04,
    "prompt": "",
    "loop": false,
    "note": ""
@@ -9256,6 +10963,14 @@
    "note": ""
   },
   {
+   "name": "light_hum",
+   "file": "sfx/light_hum.mp3",
+   "dur": 5.04,
+   "prompt": "",
+   "loop": false,
+   "note": ""
+  },
+  {
    "name": "lime_drop",
    "file": "sfx/lime_drop.mp3",
    "dur": 3.03,
@@ -9301,6 +11016,14 @@
    "dur": 12.04,
    "prompt": "Small motorbike riding steadily at night, engine hum and wind, interior perspective",
    "loop": true,
+   "note": ""
+  },
+  {
+   "name": "outback_night",
+   "file": "sfx/outback_night.mp3",
+   "dur": 20.04,
+   "prompt": "",
+   "loop": false,
    "note": ""
   },
   {
@@ -9424,6 +11147,14 @@
    "note": ""
   },
   {
+   "name": "satay_grill",
+   "file": "sfx/satay_grill.mp3",
+   "dur": 15.05,
+   "prompt": "",
+   "loop": false,
+   "note": ""
+  },
+  {
    "name": "school_amb",
    "file": "sfx/school_amb.mp3",
    "dur": 20.04,
@@ -9472,10 +11203,26 @@
    "note": ""
   },
   {
+   "name": "snow_wind",
+   "file": "sfx/snow_wind.mp3",
+   "dur": 20.04,
+   "prompt": "",
+   "loop": false,
+   "note": ""
+  },
+  {
    "name": "sob_far",
    "file": "sfx/sob_far.mp3",
    "dur": 6.03,
    "prompt": "A woman softly sobbing far away by a river at night, echo",
+   "loop": false,
+   "note": ""
+  },
+  {
+   "name": "spinning_wheel",
+   "file": "sfx/spinning_wheel.mp3",
+   "dur": 8.05,
+   "prompt": "",
    "loop": false,
    "note": ""
   },
@@ -9568,6 +11315,14 @@
    "note": ""
   },
   {
+   "name": "truck_start",
+   "file": "sfx/truck_start.mp3",
+   "dur": 4.05,
+   "prompt": "",
+   "loop": false,
+   "note": ""
+  },
+  {
    "name": "voice_far",
    "file": "sfx/voice_far.mp3",
    "dur": 4.05,
@@ -9637,6 +11392,14 @@
    "dur": 15.05,
    "prompt": "Soft eerie night wind blowing through large banana leaves",
    "loop": true,
+   "note": ""
+  },
+  {
+   "name": "wind_chime",
+   "file": "sfx/wind_chime.mp3",
+   "dur": 6.03,
+   "prompt": "",
+   "loop": false,
    "note": ""
   },
   {

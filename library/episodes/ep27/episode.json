@@ -1,0 +1,1323 @@
+{
+ "id": "EP27",
+ "title": "Chudail",
+ "fps": 30,
+ "width": 1080,
+ "height": 1920,
+ "durationSec": 60.68,
+ "accent": "#ff6a3d",
+ "timingSource": "ai33 eleven_v3 transcript, tempo x1.13",
+ "shots": [
+  {
+   "id": 1,
+   "start": 0.0,
+   "end": 7.563,
+   "act": 1,
+   "set": "road",
+   "owner": "R",
+   "framing": "Wide, a lonely road under a banyan tree",
+   "camera": "Slow push-in",
+   "vo": "In India, if a woman on a lonely road asks you to walk with her… look at her feet. If they point backwards… run.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "In",
+     "highlight": false,
+     "start": 0.453,
+     "end": 0.594
+    },
+    {
+     "text": "India,",
+     "highlight": false,
+     "start": 0.604,
+     "end": 1.262
+    },
+    {
+     "text": "if",
+     "highlight": false,
+     "start": 1.32,
+     "end": 1.457
+    },
+    {
+     "text": "a",
+     "highlight": false,
+     "start": 1.471,
+     "end": 1.585
+    },
+    {
+     "text": "woman",
+     "highlight": false,
+     "start": 1.595,
+     "end": 1.818
+    },
+    {
+     "text": "on",
+     "highlight": false,
+     "start": 1.834,
+     "end": 1.927
+    },
+    {
+     "text": "a",
+     "highlight": false,
+     "start": 1.931,
+     "end": 2.01
+    },
+    {
+     "text": "lonely",
+     "highlight": false,
+     "start": 2.019,
+     "end": 2.345
+    },
+    {
+     "text": "road",
+     "highlight": false,
+     "start": 2.373,
+     "end": 2.672
+    },
+    {
+     "text": "asks",
+     "highlight": false,
+     "start": 2.727,
+     "end": 2.937
+    },
+    {
+     "text": "you",
+     "highlight": false,
+     "start": 2.949,
+     "end": 3.079
+    },
+    {
+     "text": "to",
+     "highlight": false,
+     "start": 3.09,
+     "end": 3.22
+    },
+    {
+     "text": "walk",
+     "highlight": false,
+     "start": 3.232,
+     "end": 3.397
+    },
+    {
+     "text": "with",
+     "highlight": false,
+     "start": 3.409,
+     "end": 3.519
+    },
+    {
+     "text": "her…",
+     "highlight": false,
+     "start": 3.524,
+     "end": 3.971
+    },
+    {
+     "text": "look",
+     "highlight": false,
+     "start": 4.011,
+     "end": 4.195
+    },
+    {
+     "text": "at",
+     "highlight": false,
+     "start": 4.195,
+     "end": 4.282
+    },
+    {
+     "text": "her",
+     "highlight": false,
+     "start": 4.294,
+     "end": 4.417
+    },
+    {
+     "text": "feet.",
+     "highlight": false,
+     "start": 4.427,
+     "end": 5.131
+    },
+    {
+     "text": "If",
+     "highlight": false,
+     "start": 5.205,
+     "end": 5.304
+    },
+    {
+     "text": "they",
+     "highlight": false,
+     "start": 5.304,
+     "end": 5.477
+    },
+    {
+     "text": "point",
+     "highlight": false,
+     "start": 5.488,
+     "end": 5.735
+    },
+    {
+     "text": "backwards…",
+     "highlight": true,
+     "start": 5.772,
+     "end": 6.618
+    },
+    {
+     "text": "run.",
+     "highlight": false,
+     "start": 6.692,
+     "end": 7.181
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "Moonlit dusty road, a huge banyan tree with hanging roots, a red figure under it",
+   "notes": "Fields; LOW detail bg."
+  },
+  {
+   "id": 2,
+   "start": 7.563,
+   "end": 9.422,
+   "act": 1,
+   "set": "graphic",
+   "owner": "G",
+   "framing": "Title card",
+   "camera": "Slow push",
+   "vo": "She might be a chudail.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "She",
+     "highlight": false,
+     "start": 7.816,
+     "end": 8.036
+    },
+    {
+     "text": "might",
+     "highlight": false,
+     "start": 8.065,
+     "end": 8.238
+    },
+    {
+     "text": "be",
+     "highlight": false,
+     "start": 8.25,
+     "end": 8.351
+    },
+    {
+     "text": "a",
+     "highlight": false,
+     "start": 8.365,
+     "end": 8.453
+    },
+    {
+     "text": "chudail.",
+     "highlight": true,
+     "start": 8.453,
+     "end": 9.03
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "Title 'CHUDAIL' + 'चुड़ैल · India' over a red sari silhouette under banyan roots",
+   "notes": "Moonlight."
+  },
+  {
+   "id": 3,
+   "start": 9.422,
+   "end": 15.707,
+   "act": 1,
+   "set": "graphic",
+   "owner": "G",
+   "framing": "Lore insert",
+   "camera": "Slow push",
+   "vo": "A spirit who lures travelers off the road. Beautiful. Polite. And her feet face the wrong way.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "A",
+     "highlight": false,
+     "start": 9.675,
+     "end": 9.826
+    },
+    {
+     "text": "spirit",
+     "highlight": false,
+     "start": 9.834,
+     "end": 10.115
+    },
+    {
+     "text": "who",
+     "highlight": false,
+     "start": 10.126,
+     "end": 10.303
+    },
+    {
+     "text": "lures",
+     "highlight": false,
+     "start": 10.331,
+     "end": 10.638
+    },
+    {
+     "text": "travelers",
+     "highlight": false,
+     "start": 10.685,
+     "end": 11.091
+    },
+    {
+     "text": "off",
+     "highlight": false,
+     "start": 11.11,
+     "end": 11.261
+    },
+    {
+     "text": "the",
+     "highlight": false,
+     "start": 11.277,
+     "end": 11.389
+    },
+    {
+     "text": "road.",
+     "highlight": false,
+     "start": 11.401,
+     "end": 11.803
+    },
+    {
+     "text": "Beautiful.",
+     "highlight": false,
+     "start": 12.091,
+     "end": 12.895
+    },
+    {
+     "text": "Polite.",
+     "highlight": false,
+     "start": 12.952,
+     "end": 13.674
+    },
+    {
+     "text": "And",
+     "highlight": false,
+     "start": 13.731,
+     "end": 13.867
+    },
+    {
+     "text": "her",
+     "highlight": false,
+     "start": 13.879,
+     "end": 14.004
+    },
+    {
+     "text": "feet",
+     "highlight": false,
+     "start": 14.014,
+     "end": 14.26
+    },
+    {
+     "text": "face",
+     "highlight": false,
+     "start": 14.297,
+     "end": 14.502
+    },
+    {
+     "text": "the",
+     "highlight": false,
+     "start": 14.525,
+     "end": 14.641
+    },
+    {
+     "text": "wrong",
+     "highlight": false,
+     "start": 14.652,
+     "end": 14.883
+    },
+    {
+     "text": "way.",
+     "highlight": true,
+     "start": 14.883,
+     "end": 15.316
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "Silver anklets on bare feet in the dust, toes pointing backwards",
+   "notes": "Eerie, not gory."
+  },
+  {
+   "id": 4,
+   "start": 15.707,
+   "end": 20.642,
+   "act": 1,
+   "set": "road",
+   "owner": "R",
+   "framing": "Medium, a truck stopped by the banyan",
+   "camera": "Slow push",
+   "vo": "My uncle drove a truck. One night, it broke down near an old banyan tree.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "My",
+     "highlight": false,
+     "start": 15.96,
+     "end": 16.162
+    },
+    {
+     "text": "uncle",
+     "highlight": false,
+     "start": 16.19,
+     "end": 16.441
+    },
+    {
+     "text": "drove",
+     "highlight": false,
+     "start": 16.468,
+     "end": 16.655
+    },
+    {
+     "text": "a",
+     "highlight": false,
+     "start": 16.659,
+     "end": 16.749
+    },
+    {
+     "text": "truck.",
+     "highlight": false,
+     "start": 16.749,
+     "end": 17.448
+    },
+    {
+     "text": "One",
+     "highlight": false,
+     "start": 17.521,
+     "end": 17.657
+    },
+    {
+     "text": "night,",
+     "highlight": false,
+     "start": 17.668,
+     "end": 18.188
+    },
+    {
+     "text": "it",
+     "highlight": false,
+     "start": 18.226,
+     "end": 18.41
+    },
+    {
+     "text": "broke",
+     "highlight": false,
+     "start": 18.438,
+     "end": 18.648
+    },
+    {
+     "text": "down",
+     "highlight": false,
+     "start": 18.65,
+     "end": 18.907
+    },
+    {
+     "text": "near",
+     "highlight": false,
+     "start": 18.926,
+     "end": 19.093
+    },
+    {
+     "text": "an",
+     "highlight": false,
+     "start": 19.102,
+     "end": 19.211
+    },
+    {
+     "text": "old",
+     "highlight": false,
+     "start": 19.226,
+     "end": 19.392
+    },
+    {
+     "text": "banyan",
+     "highlight": false,
+     "start": 19.42,
+     "end": 19.742
+    },
+    {
+     "text": "tree.",
+     "highlight": true,
+     "start": 19.769,
+     "end": 20.268
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "Painted truck stalled on the road, hood up, uncle with a torch, banyan behind",
+   "notes": "Night."
+  },
+  {
+   "id": 5,
+   "start": 20.642,
+   "end": 25.152,
+   "act": 1,
+   "set": "road",
+   "owner": "R",
+   "framing": "Medium, the woman in red by the road",
+   "camera": "Very slow push",
+   "vo": "A woman in a red sari stood by the road. She asked him to walk her home.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "A",
+     "highlight": false,
+     "start": 20.895,
+     "end": 21.027
+    },
+    {
+     "text": "woman",
+     "highlight": false,
+     "start": 21.037,
+     "end": 21.292
+    },
+    {
+     "text": "in",
+     "highlight": false,
+     "start": 21.32,
+     "end": 21.432
+    },
+    {
+     "text": "a",
+     "highlight": false,
+     "start": 21.435,
+     "end": 21.503
+    },
+    {
+     "text": "red",
+     "highlight": false,
+     "start": 21.506,
+     "end": 21.777
+    },
+    {
+     "text": "sari",
+     "highlight": false,
+     "start": 21.815,
+     "end": 22.193
+    },
+    {
+     "text": "stood",
+     "highlight": false,
+     "start": 22.24,
+     "end": 22.428
+    },
+    {
+     "text": "by",
+     "highlight": false,
+     "start": 22.448,
+     "end": 22.577
+    },
+    {
+     "text": "the",
+     "highlight": false,
+     "start": 22.585,
+     "end": 22.654
+    },
+    {
+     "text": "road.",
+     "highlight": false,
+     "start": 22.665,
+     "end": 23.239
+    },
+    {
+     "text": "She",
+     "highlight": false,
+     "start": 23.295,
+     "end": 23.479
+    },
+    {
+     "text": "asked",
+     "highlight": false,
+     "start": 23.507,
+     "end": 23.715
+    },
+    {
+     "text": "him",
+     "highlight": false,
+     "start": 23.727,
+     "end": 23.851
+    },
+    {
+     "text": "to",
+     "highlight": false,
+     "start": 23.861,
+     "end": 23.966
+    },
+    {
+     "text": "walk",
+     "highlight": false,
+     "start": 23.975,
+     "end": 24.184
+    },
+    {
+     "text": "her",
+     "highlight": false,
+     "start": 24.187,
+     "end": 24.276
+    },
+    {
+     "text": "home.",
+     "highlight": true,
+     "start": 24.284,
+     "end": 24.767
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "Woman in a red sari at the roadside, face half hidden by her veil",
+   "notes": "Too beautiful."
+  },
+  {
+   "id": 6,
+   "start": 25.152,
+   "end": 29.086,
+   "act": 1,
+   "set": "road",
+   "owner": "R",
+   "framing": "Medium, walking side by side",
+   "camera": "Tracking from behind",
+   "vo": "She was kind. She smiled. She knew his name.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "She",
+     "highlight": false,
+     "start": 25.405,
+     "end": 25.568
+    },
+    {
+     "text": "was",
+     "highlight": false,
+     "start": 25.582,
+     "end": 25.797
+    },
+    {
+     "text": "kind.",
+     "highlight": false,
+     "start": 25.843,
+     "end": 26.417
+    },
+    {
+     "text": "She",
+     "highlight": false,
+     "start": 26.548,
+     "end": 26.732
+    },
+    {
+     "text": "smiled.",
+     "highlight": false,
+     "start": 26.759,
+     "end": 27.299
+    },
+    {
+     "text": "She",
+     "highlight": false,
+     "start": 27.609,
+     "end": 27.82
+    },
+    {
+     "text": "knew",
+     "highlight": false,
+     "start": 27.839,
+     "end": 28.078
+    },
+    {
+     "text": "his",
+     "highlight": false,
+     "start": 28.087,
+     "end": 28.225
+    },
+    {
+     "text": "name.",
+     "highlight": true,
+     "start": 28.237,
+     "end": 28.71
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "Uncle and the woman walking away from the truck along the dark road",
+   "notes": "Uneasy."
+  },
+  {
+   "id": 7,
+   "start": 29.086,
+   "end": 33.219,
+   "act": 1,
+   "set": "road",
+   "owner": "R",
+   "framing": "Wide, headlights flicker on behind them",
+   "camera": "Locked",
+   "vo": "Then the headlights flickered on behind them. And he saw her footprints.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "Then",
+     "highlight": false,
+     "start": 29.339,
+     "end": 29.607
+    },
+    {
+     "text": "the",
+     "highlight": false,
+     "start": 29.626,
+     "end": 29.722
+    },
+    {
+     "text": "headlights",
+     "highlight": false,
+     "start": 29.722,
+     "end": 30.179
+    },
+    {
+     "text": "flickered",
+     "highlight": false,
+     "start": 30.189,
+     "end": 30.507
+    },
+    {
+     "text": "on",
+     "highlight": false,
+     "start": 30.536,
+     "end": 30.646
+    },
+    {
+     "text": "behind",
+     "highlight": false,
+     "start": 30.649,
+     "end": 30.93
+    },
+    {
+     "text": "them.",
+     "highlight": false,
+     "start": 30.959,
+     "end": 31.46
+    },
+    {
+     "text": "And",
+     "highlight": false,
+     "start": 31.516,
+     "end": 31.655
+    },
+    {
+     "text": "he",
+     "highlight": false,
+     "start": 31.667,
+     "end": 31.788
+    },
+    {
+     "text": "saw",
+     "highlight": false,
+     "start": 31.799,
+     "end": 31.959
+    },
+    {
+     "text": "her",
+     "highlight": false,
+     "start": 31.967,
+     "end": 32.077
+    },
+    {
+     "text": "footprints.",
+     "highlight": true,
+     "start": 32.091,
+     "end": 32.837
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "Long beams of light from behind lighting the dust ahead of the two figures",
+   "notes": "Hero beat."
+  },
+  {
+   "id": 8,
+   "start": 33.219,
+   "end": 36.494,
+   "act": 1,
+   "set": "road",
+   "owner": "R",
+   "framing": "Close, footprints in the dust",
+   "camera": "Slow push along the prints",
+   "vo": "Her toes pointed backwards. Toward the tree.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "Her",
+     "highlight": false,
+     "start": 33.472,
+     "end": 33.656
+    },
+    {
+     "text": "toes",
+     "highlight": false,
+     "start": 33.684,
+     "end": 34.001
+    },
+    {
+     "text": "pointed",
+     "highlight": false,
+     "start": 34.038,
+     "end": 34.364
+    },
+    {
+     "text": "backwards.",
+     "highlight": false,
+     "start": 34.392,
+     "end": 34.99
+    },
+    {
+     "text": "Toward",
+     "highlight": false,
+     "start": 35.207,
+     "end": 35.538
+    },
+    {
+     "text": "the",
+     "highlight": false,
+     "start": 35.543,
+     "end": 35.656
+    },
+    {
+     "text": "tree.",
+     "highlight": true,
+     "start": 35.667,
+     "end": 36.11
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "Two lines of footprints: his forward, hers reversed, leading back toward the banyan",
+   "notes": "Hero."
+  },
+  {
+   "id": 9,
+   "start": 36.494,
+   "end": 42.455,
+   "act": 1,
+   "set": "road",
+   "owner": "R",
+   "framing": "Close, uncle's face",
+   "camera": "Locked",
+   "vo": "He remembered Grandma's words. Don't run. Don't scream. Walk back to the light.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "He",
+     "highlight": false,
+     "start": 36.747,
+     "end": 36.928
+    },
+    {
+     "text": "remembered",
+     "highlight": false,
+     "start": 36.942,
+     "end": 37.4
+    },
+    {
+     "text": "Grandma's",
+     "highlight": false,
+     "start": 37.42,
+     "end": 37.907
+    },
+    {
+     "text": "words.",
+     "highlight": false,
+     "start": 37.911,
+     "end": 38.396
+    },
+    {
+     "text": "Don't",
+     "highlight": false,
+     "start": 38.703,
+     "end": 39.021
+    },
+    {
+     "text": "run.",
+     "highlight": false,
+     "start": 39.04,
+     "end": 39.575
+    },
+    {
+     "text": "Don't",
+     "highlight": false,
+     "start": 39.721,
+     "end": 40.029
+    },
+    {
+     "text": "scream.",
+     "highlight": false,
+     "start": 40.03,
+     "end": 40.801
+    },
+    {
+     "text": "Walk",
+     "highlight": false,
+     "start": 40.875,
+     "end": 41.138
+    },
+    {
+     "text": "back",
+     "highlight": false,
+     "start": 41.158,
+     "end": 41.329
+    },
+    {
+     "text": "to",
+     "highlight": false,
+     "start": 41.34,
+     "end": 41.435
+    },
+    {
+     "text": "the",
+     "highlight": false,
+     "start": 41.446,
+     "end": 41.521
+    },
+    {
+     "text": "light.",
+     "highlight": true,
+     "start": 41.521,
+     "end": 42.067
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "Uncle's profile in the headlight glow, sweating, eyes forward",
+   "notes": "Quiet."
+  },
+  {
+   "id": 10,
+   "start": 42.455,
+   "end": 47.061,
+   "act": 1,
+   "set": "road",
+   "owner": "R",
+   "framing": "Wide, uncle walking back, the woman behind",
+   "camera": "Tracking",
+   "vo": "He turned back. With every step, he heard her anklets behind him.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "He",
+     "highlight": false,
+     "start": 42.708,
+     "end": 42.92
+    },
+    {
+     "text": "turned",
+     "highlight": false,
+     "start": 42.947,
+     "end": 43.264
+    },
+    {
+     "text": "back.",
+     "highlight": false,
+     "start": 43.301,
+     "end": 43.812
+    },
+    {
+     "text": "With",
+     "highlight": false,
+     "start": 43.867,
+     "end": 44.018
+    },
+    {
+     "text": "every",
+     "highlight": false,
+     "start": 44.027,
+     "end": 44.316
+    },
+    {
+     "text": "step,",
+     "highlight": false,
+     "start": 44.363,
+     "end": 44.797
+    },
+    {
+     "text": "he",
+     "highlight": false,
+     "start": 44.876,
+     "end": 44.99
+    },
+    {
+     "text": "heard",
+     "highlight": false,
+     "start": 45.0,
+     "end": 45.193
+    },
+    {
+     "text": "her",
+     "highlight": false,
+     "start": 45.213,
+     "end": 45.331
+    },
+    {
+     "text": "anklets",
+     "highlight": false,
+     "start": 45.336,
+     "end": 45.897
+    },
+    {
+     "text": "behind",
+     "highlight": false,
+     "start": 45.991,
+     "end": 46.316
+    },
+    {
+     "text": "him.",
+     "highlight": true,
+     "start": 46.345,
+     "end": 46.674
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "Uncle walking toward the headlights; behind him, a red shape following at a distance",
+   "notes": "Tension."
+  },
+  {
+   "id": 11,
+   "start": 47.061,
+   "end": 51.042,
+   "act": 1,
+   "set": "road",
+   "owner": "R",
+   "framing": "Wide, the truck at dawn",
+   "camera": "Slow pull-back",
+   "vo": "He reached the truck at dawn. The engine started on the first try.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "He",
+     "highlight": false,
+     "start": 47.314,
+     "end": 47.473
+    },
+    {
+     "text": "reached",
+     "highlight": false,
+     "start": 47.483,
+     "end": 47.708
+    },
+    {
+     "text": "the",
+     "highlight": false,
+     "start": 47.712,
+     "end": 47.788
+    },
+    {
+     "text": "truck",
+     "highlight": false,
+     "start": 47.788,
+     "end": 48.032
+    },
+    {
+     "text": "at",
+     "highlight": false,
+     "start": 48.05,
+     "end": 48.183
+    },
+    {
+     "text": "dawn.",
+     "highlight": false,
+     "start": 48.193,
+     "end": 48.774
+    },
+    {
+     "text": "The",
+     "highlight": false,
+     "start": 48.831,
+     "end": 48.986
+    },
+    {
+     "text": "engine",
+     "highlight": false,
+     "start": 49.004,
+     "end": 49.294
+    },
+    {
+     "text": "started",
+     "highlight": false,
+     "start": 49.332,
+     "end": 49.605
+    },
+    {
+     "text": "on",
+     "highlight": false,
+     "start": 49.615,
+     "end": 49.723
+    },
+    {
+     "text": "the",
+     "highlight": false,
+     "start": 49.73,
+     "end": 49.789
+    },
+    {
+     "text": "first",
+     "highlight": false,
+     "start": 49.792,
+     "end": 50.073
+    },
+    {
+     "text": "try.",
+     "highlight": true,
+     "start": 50.111,
+     "end": 50.776
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "Pale dawn on the road, the truck with headlights on, the banyan behind, no woman",
+   "notes": "Dawn."
+  },
+  {
+   "id": 12,
+   "start": 51.042,
+   "end": 57.88,
+   "act": 1,
+   "set": "home",
+   "owner": "H",
+   "framing": "Medium, a knock at the courtyard door",
+   "camera": "Slow push-in",
+   "vo": "He never drove that road again. But last week, a woman in red knocked on our door. Asking for him by name.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "He",
+     "highlight": false,
+     "start": 51.295,
+     "end": 51.452
+    },
+    {
+     "text": "never",
+     "highlight": false,
+     "start": 51.463,
+     "end": 51.657
+    },
+    {
+     "text": "drove",
+     "highlight": false,
+     "start": 51.667,
+     "end": 51.923
+    },
+    {
+     "text": "that",
+     "highlight": false,
+     "start": 51.95,
+     "end": 52.098
+    },
+    {
+     "text": "road",
+     "highlight": false,
+     "start": 52.1,
+     "end": 52.299
+    },
+    {
+     "text": "again.",
+     "highlight": false,
+     "start": 52.322,
+     "end": 52.956
+    },
+    {
+     "text": "But",
+     "highlight": false,
+     "start": 53.012,
+     "end": 53.197
+    },
+    {
+     "text": "last",
+     "highlight": false,
+     "start": 53.224,
+     "end": 53.418
+    },
+    {
+     "text": "week,",
+     "highlight": false,
+     "start": 53.437,
+     "end": 53.966
+    },
+    {
+     "text": "a",
+     "highlight": false,
+     "start": 54.003,
+     "end": 54.135
+    },
+    {
+     "text": "woman",
+     "highlight": false,
+     "start": 54.145,
+     "end": 54.4
+    },
+    {
+     "text": "in",
+     "highlight": false,
+     "start": 54.428,
+     "end": 54.523
+    },
+    {
+     "text": "red",
+     "highlight": false,
+     "start": 54.525,
+     "end": 54.763
+    },
+    {
+     "text": "knocked",
+     "highlight": false,
+     "start": 54.782,
+     "end": 55.055
+    },
+    {
+     "text": "on",
+     "highlight": false,
+     "start": 55.065,
+     "end": 55.133
+    },
+    {
+     "text": "our",
+     "highlight": false,
+     "start": 55.145,
+     "end": 55.268
+    },
+    {
+     "text": "door.",
+     "highlight": false,
+     "start": 55.277,
+     "end": 55.982
+    },
+    {
+     "text": "Asking",
+     "highlight": false,
+     "start": 56.056,
+     "end": 56.337
+    },
+    {
+     "text": "for",
+     "highlight": false,
+     "start": 56.348,
+     "end": 56.478
+    },
+    {
+     "text": "him",
+     "highlight": false,
+     "start": 56.49,
+     "end": 56.665
+    },
+    {
+     "text": "by",
+     "highlight": false,
+     "start": 56.693,
+     "end": 56.825
+    },
+    {
+     "text": "name.",
+     "highlight": true,
+     "start": 56.835,
+     "end": 57.292
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "A courtyard door at night, a red sari hem and bare feet visible under the gap",
+   "notes": "Cold."
+  },
+  {
+   "id": 13,
+   "start": 57.88,
+   "end": 60.68,
+   "act": 1,
+   "set": "graphic",
+   "owner": "G",
+   "framing": "End card",
+   "camera": "Static",
+   "vo": "Would you walk with her? Comment YES or NO.",
+   "voKind": "onscreen",
+   "speaker": null,
+   "words": [
+    {
+     "text": "Would",
+     "highlight": false,
+     "start": 58.13,
+     "end": 58.43
+    },
+    {
+     "text": "you",
+     "highlight": false,
+     "start": 58.35,
+     "end": 58.65
+    },
+    {
+     "text": "walk",
+     "highlight": false,
+     "start": 58.57,
+     "end": 58.87
+    },
+    {
+     "text": "with",
+     "highlight": false,
+     "start": 58.79,
+     "end": 59.09
+    },
+    {
+     "text": "her?",
+     "highlight": false,
+     "start": 59.01,
+     "end": 59.31
+    },
+    {
+     "text": "Comment",
+     "highlight": false,
+     "start": 59.23,
+     "end": 59.53
+    },
+    {
+     "text": "YES",
+     "highlight": true,
+     "start": 59.45,
+     "end": 59.75
+    },
+    {
+     "text": "or",
+     "highlight": false,
+     "start": 59.67,
+     "end": 59.97
+    },
+    {
+     "text": "NO.",
+     "highlight": true,
+     "start": 59.89,
+     "end": 60.19
+    }
+   ],
+   "trans": "cut",
+   "caption": false,
+   "cool": false,
+   "hero": "CTA with anklets and reversed footprints motif",
+   "notes": "No caption (on-screen text)."
+  }
+ ],
+ "audio": true
+}

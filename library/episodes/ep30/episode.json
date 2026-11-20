@@ -1,0 +1,1275 @@
+{
+ "id": "EP30",
+ "title": "Min Min Lights",
+ "fps": 30,
+ "width": 1080,
+ "height": 1920,
+ "durationSec": 58.531,
+ "accent": "#7fe3ff",
+ "timingSource": "ai33 eleven_v3 transcript, tempo x1.1",
+ "shots": [
+  {
+   "id": 1,
+   "start": 0.0,
+   "end": 6.869,
+   "act": 1,
+   "set": "outback",
+   "owner": "O",
+   "framing": "Wide, the outback under the stars",
+   "camera": "Slow push-in",
+   "vo": "In the Australian outback, if a light floats toward you at night… don't follow it. Never walk toward it.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "In",
+     "highlight": false,
+     "start": 0.455,
+     "end": 0.605
+    },
+    {
+     "text": "the",
+     "highlight": false,
+     "start": 0.609,
+     "end": 0.712
+    },
+    {
+     "text": "Australian",
+     "highlight": false,
+     "start": 0.727,
+     "end": 1.254
+    },
+    {
+     "text": "outback,",
+     "highlight": false,
+     "start": 1.282,
+     "end": 1.964
+    },
+    {
+     "text": "if",
+     "highlight": false,
+     "start": 2.003,
+     "end": 2.137
+    },
+    {
+     "text": "a",
+     "highlight": false,
+     "start": 2.147,
+     "end": 2.232
+    },
+    {
+     "text": "light",
+     "highlight": false,
+     "start": 2.232,
+     "end": 2.49
+    },
+    {
+     "text": "floats",
+     "highlight": false,
+     "start": 2.509,
+     "end": 2.853
+    },
+    {
+     "text": "toward",
+     "highlight": false,
+     "start": 2.873,
+     "end": 3.168
+    },
+    {
+     "text": "you",
+     "highlight": false,
+     "start": 3.173,
+     "end": 3.297
+    },
+    {
+     "text": "at",
+     "highlight": false,
+     "start": 3.309,
+     "end": 3.403
+    },
+    {
+     "text": "night…",
+     "highlight": false,
+     "start": 3.403,
+     "end": 4.055
+    },
+    {
+     "text": "don't",
+     "highlight": false,
+     "start": 4.118,
+     "end": 4.436
+    },
+    {
+     "text": "follow",
+     "highlight": false,
+     "start": 4.455,
+     "end": 4.676
+    },
+    {
+     "text": "it.",
+     "highlight": false,
+     "start": 4.691,
+     "end": 5.246
+    },
+    {
+     "text": "Never",
+     "highlight": false,
+     "start": 5.321,
+     "end": 5.587
+    },
+    {
+     "text": "walk",
+     "highlight": false,
+     "start": 5.618,
+     "end": 5.89
+    },
+    {
+     "text": "toward",
+     "highlight": true,
+     "start": 5.9,
+     "end": 6.181
+    },
+    {
+     "text": "it.",
+     "highlight": false,
+     "start": 6.191,
+     "end": 6.476
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "Flat red scrubland under a huge starry sky, a single cold light hovering far away",
+   "notes": "Spinifex; LOW detail bg."
+  },
+  {
+   "id": 2,
+   "start": 6.869,
+   "end": 9.118,
+   "act": 1,
+   "set": "graphic",
+   "owner": "G",
+   "framing": "Title card",
+   "camera": "Slow push",
+   "vo": "They call them the Min Min lights.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "They",
+     "highlight": false,
+     "start": 7.124,
+     "end": 7.342
+    },
+    {
+     "text": "call",
+     "highlight": false,
+     "start": 7.342,
+     "end": 7.56
+    },
+    {
+     "text": "them",
+     "highlight": false,
+     "start": 7.56,
+     "end": 7.778
+    },
+    {
+     "text": "the",
+     "highlight": false,
+     "start": 7.778,
+     "end": 7.851
+    },
+    {
+     "text": "Min",
+     "highlight": true,
+     "start": 7.851,
+     "end": 8.142
+    },
+    {
+     "text": "Min",
+     "highlight": false,
+     "start": 8.142,
+     "end": 8.287
+    },
+    {
+     "text": "lights.",
+     "highlight": true,
+     "start": 8.287,
+     "end": 8.724
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "Title 'MIN MIN LIGHTS' + 'Outback · Australia' over a glowing orb above the scrub",
+   "notes": "Cold glow."
+  },
+  {
+   "id": 3,
+   "start": 9.118,
+   "end": 15.361,
+   "act": 1,
+   "set": "graphic",
+   "owner": "G",
+   "framing": "Lore insert",
+   "camera": "Slow push",
+   "vo": "Glowing lights that follow travelers. Some say they lead you home. Most say they lead you away.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "Glowing",
+     "highlight": false,
+     "start": 9.373,
+     "end": 9.78
+    },
+    {
+     "text": "lights",
+     "highlight": false,
+     "start": 9.809,
+     "end": 10.153
+    },
+    {
+     "text": "that",
+     "highlight": false,
+     "start": 10.173,
+     "end": 10.371
+    },
+    {
+     "text": "follow",
+     "highlight": false,
+     "start": 10.391,
+     "end": 10.706
+    },
+    {
+     "text": "travelers.",
+     "highlight": false,
+     "start": 10.754,
+     "end": 11.586
+    },
+    {
+     "text": "Some",
+     "highlight": false,
+     "start": 11.767,
+     "end": 11.969
+    },
+    {
+     "text": "say",
+     "highlight": false,
+     "start": 11.991,
+     "end": 12.173
+    },
+    {
+     "text": "they",
+     "highlight": false,
+     "start": 12.203,
+     "end": 12.325
+    },
+    {
+     "text": "lead",
+     "highlight": false,
+     "start": 12.325,
+     "end": 12.504
+    },
+    {
+     "text": "you",
+     "highlight": false,
+     "start": 12.509,
+     "end": 12.682
+    },
+    {
+     "text": "home.",
+     "highlight": false,
+     "start": 12.711,
+     "end": 13.36
+    },
+    {
+     "text": "Most",
+     "highlight": false,
+     "start": 13.436,
+     "end": 13.743
+    },
+    {
+     "text": "say",
+     "highlight": false,
+     "start": 13.8,
+     "end": 13.949
+    },
+    {
+     "text": "they",
+     "highlight": false,
+     "start": 13.963,
+     "end": 14.103
+    },
+    {
+     "text": "lead",
+     "highlight": false,
+     "start": 14.109,
+     "end": 14.309
+    },
+    {
+     "text": "you",
+     "highlight": false,
+     "start": 14.309,
+     "end": 14.438
+    },
+    {
+     "text": "away.",
+     "highlight": true,
+     "start": 14.445,
+     "end": 14.977
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "A trail of faint light-orbs drifting over the desert into darkness",
+   "notes": "Eerie."
+  },
+  {
+   "id": 4,
+   "start": 15.361,
+   "end": 20.473,
+   "act": 1,
+   "set": "camp",
+   "owner": "K",
+   "framing": "Wide, a campfire beside a ute",
+   "camera": "Slow lateral track",
+   "vo": "My dad and I were camping off a dirt road. Three hundred kilometers from any town.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "My",
+     "highlight": false,
+     "start": 15.616,
+     "end": 15.757
+    },
+    {
+     "text": "dad",
+     "highlight": false,
+     "start": 15.77,
+     "end": 16.01
+    },
+    {
+     "text": "and",
+     "highlight": false,
+     "start": 16.025,
+     "end": 16.117
+    },
+    {
+     "text": "I",
+     "highlight": false,
+     "start": 16.117,
+     "end": 16.265
+    },
+    {
+     "text": "were",
+     "highlight": false,
+     "start": 16.279,
+     "end": 16.493
+    },
+    {
+     "text": "camping",
+     "highlight": false,
+     "start": 16.497,
+     "end": 16.814
+    },
+    {
+     "text": "off",
+     "highlight": false,
+     "start": 16.843,
+     "end": 16.976
+    },
+    {
+     "text": "a",
+     "highlight": false,
+     "start": 16.988,
+     "end": 17.088
+    },
+    {
+     "text": "dirt",
+     "highlight": false,
+     "start": 17.088,
+     "end": 17.324
+    },
+    {
+     "text": "road.",
+     "highlight": false,
+     "start": 17.343,
+     "end": 17.784
+    },
+    {
+     "text": "Three",
+     "highlight": false,
+     "start": 18.079,
+     "end": 18.386
+    },
+    {
+     "text": "hundred",
+     "highlight": false,
+     "start": 18.425,
+     "end": 18.633
+    },
+    {
+     "text": "kilometers",
+     "highlight": false,
+     "start": 18.643,
+     "end": 19.242
+    },
+    {
+     "text": "from",
+     "highlight": false,
+     "start": 19.29,
+     "end": 19.487
+    },
+    {
+     "text": "any",
+     "highlight": false,
+     "start": 19.506,
+     "end": 19.696
+    },
+    {
+     "text": "town.",
+     "highlight": true,
+     "start": 19.725,
+     "end": 20.086
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "Small campfire, a ute, two swags, father and son sitting, endless dark around",
+   "notes": "Warm."
+  },
+  {
+   "id": 5,
+   "start": 20.473,
+   "end": 25.816,
+   "act": 1,
+   "set": "outback",
+   "owner": "O",
+   "framing": "Wide, the light appears over the scrub",
+   "camera": "Very slow push",
+   "vo": "Around midnight, a white light appeared over the scrub. Floating. Silent.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "Around",
+     "highlight": false,
+     "start": 20.728,
+     "end": 21.153
+    },
+    {
+     "text": "midnight,",
+     "highlight": false,
+     "start": 21.191,
+     "end": 21.822
+    },
+    {
+     "text": "a",
+     "highlight": false,
+     "start": 21.84,
+     "end": 21.979
+    },
+    {
+     "text": "white",
+     "highlight": false,
+     "start": 21.991,
+     "end": 22.256
+    },
+    {
+     "text": "light",
+     "highlight": false,
+     "start": 22.276,
+     "end": 22.486
+    },
+    {
+     "text": "appeared",
+     "highlight": false,
+     "start": 22.509,
+     "end": 22.889
+    },
+    {
+     "text": "over",
+     "highlight": false,
+     "start": 22.928,
+     "end": 23.123
+    },
+    {
+     "text": "the",
+     "highlight": false,
+     "start": 23.128,
+     "end": 23.216
+    },
+    {
+     "text": "scrub.",
+     "highlight": false,
+     "start": 23.228,
+     "end": 23.941
+    },
+    {
+     "text": "Floating.",
+     "highlight": false,
+     "start": 24.018,
+     "end": 24.753
+    },
+    {
+     "text": "Silent.",
+     "highlight": true,
+     "start": 24.811,
+     "end": 25.424
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "A single cold orb rising above the spinifex, lighting it faintly blue",
+   "notes": "Hero."
+  },
+  {
+   "id": 6,
+   "start": 25.816,
+   "end": 29.44,
+   "act": 1,
+   "set": "camp",
+   "owner": "K",
+   "framing": "Medium, dad watching",
+   "camera": "Locked",
+   "vo": "Dad thought it was a car. But there was no road there.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "Dad",
+     "highlight": false,
+     "start": 26.071,
+     "end": 26.27
+    },
+    {
+     "text": "thought",
+     "highlight": false,
+     "start": 26.289,
+     "end": 26.542
+    },
+    {
+     "text": "it",
+     "highlight": false,
+     "start": 26.561,
+     "end": 26.611
+    },
+    {
+     "text": "was",
+     "highlight": false,
+     "start": 26.616,
+     "end": 26.701
+    },
+    {
+     "text": "a",
+     "highlight": false,
+     "start": 26.707,
+     "end": 26.841
+    },
+    {
+     "text": "car.",
+     "highlight": false,
+     "start": 26.871,
+     "end": 27.539
+    },
+    {
+     "text": "But",
+     "highlight": false,
+     "start": 27.598,
+     "end": 27.731
+    },
+    {
+     "text": "there",
+     "highlight": false,
+     "start": 27.743,
+     "end": 27.925
+    },
+    {
+     "text": "was",
+     "highlight": false,
+     "start": 27.925,
+     "end": 28.071
+    },
+    {
+     "text": "no",
+     "highlight": false,
+     "start": 28.1,
+     "end": 28.289
+    },
+    {
+     "text": "road",
+     "highlight": true,
+     "start": 28.317,
+     "end": 28.588
+    },
+    {
+     "text": "there.",
+     "highlight": false,
+     "start": 28.607,
+     "end": 29.049
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "Dad standing by the fire, looking out into the dark, a cold dot in the distance",
+   "notes": "Uneasy."
+  },
+  {
+   "id": 7,
+   "start": 29.44,
+   "end": 33.737,
+   "act": 1,
+   "set": "outback",
+   "owner": "O",
+   "framing": "Medium, the light hovering closer",
+   "camera": "Locked",
+   "vo": "It came closer. Then it stopped. As if it was watching.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "It",
+     "highlight": false,
+     "start": 29.695,
+     "end": 29.846
+    },
+    {
+     "text": "came",
+     "highlight": false,
+     "start": 29.858,
+     "end": 30.121
+    },
+    {
+     "text": "closer.",
+     "highlight": false,
+     "start": 30.14,
+     "end": 30.602
+    },
+    {
+     "text": "Then",
+     "highlight": false,
+     "start": 30.931,
+     "end": 31.162
+    },
+    {
+     "text": "it",
+     "highlight": false,
+     "start": 31.167,
+     "end": 31.334
+    },
+    {
+     "text": "stopped.",
+     "highlight": false,
+     "start": 31.361,
+     "end": 31.892
+    },
+    {
+     "text": "As",
+     "highlight": false,
+     "start": 32.285,
+     "end": 32.41
+    },
+    {
+     "text": "if",
+     "highlight": false,
+     "start": 32.413,
+     "end": 32.516
+    },
+    {
+     "text": "it",
+     "highlight": false,
+     "start": 32.531,
+     "end": 32.662
+    },
+    {
+     "text": "was",
+     "highlight": false,
+     "start": 32.676,
+     "end": 32.843
+    },
+    {
+     "text": "watching.",
+     "highlight": true,
+     "start": 32.87,
+     "end": 33.345
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "The orb hanging still above a dead gum tree, its halo pulsing",
+   "notes": "Hold."
+  },
+  {
+   "id": 8,
+   "start": 33.737,
+   "end": 38.733,
+   "act": 1,
+   "set": "camp",
+   "owner": "K",
+   "framing": "Medium, dad walking toward it",
+   "camera": "Tracking from behind",
+   "vo": "Dad stood up and started walking toward it. Slowly. Like he was called.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "Dad",
+     "highlight": false,
+     "start": 33.992,
+     "end": 34.322
+    },
+    {
+     "text": "stood",
+     "highlight": false,
+     "start": 34.342,
+     "end": 34.557
+    },
+    {
+     "text": "up",
+     "highlight": false,
+     "start": 34.558,
+     "end": 34.752
+    },
+    {
+     "text": "and",
+     "highlight": false,
+     "start": 34.782,
+     "end": 34.916
+    },
+    {
+     "text": "started",
+     "highlight": false,
+     "start": 34.928,
+     "end": 35.253
+    },
+    {
+     "text": "walking",
+     "highlight": false,
+     "start": 35.282,
+     "end": 35.575
+    },
+    {
+     "text": "toward",
+     "highlight": false,
+     "start": 35.592,
+     "end": 35.853
+    },
+    {
+     "text": "it.",
+     "highlight": false,
+     "start": 35.856,
+     "end": 36.092
+    },
+    {
+     "text": "Slowly.",
+     "highlight": false,
+     "start": 36.446,
+     "end": 37.149
+    },
+    {
+     "text": "Like",
+     "highlight": false,
+     "start": 37.373,
+     "end": 37.591
+    },
+    {
+     "text": "he",
+     "highlight": false,
+     "start": 37.592,
+     "end": 37.732
+    },
+    {
+     "text": "was",
+     "highlight": false,
+     "start": 37.746,
+     "end": 37.919
+    },
+    {
+     "text": "called.",
+     "highlight": true,
+     "start": 37.948,
+     "end": 38.339
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "Dad walking away from the fire into the dark toward the light, his face lit blue",
+   "notes": "Tension."
+  },
+  {
+   "id": 9,
+   "start": 38.733,
+   "end": 41.88,
+   "act": 1,
+   "set": "camp",
+   "owner": "K",
+   "framing": "Close, the boy grabbing his hand",
+   "camera": "Handheld",
+   "vo": "I grabbed his hand. It was ice cold.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "I",
+     "highlight": false,
+     "start": 38.988,
+     "end": 39.123
+    },
+    {
+     "text": "grabbed",
+     "highlight": false,
+     "start": 39.133,
+     "end": 39.42
+    },
+    {
+     "text": "his",
+     "highlight": false,
+     "start": 39.433,
+     "end": 39.613
+    },
+    {
+     "text": "hand.",
+     "highlight": false,
+     "start": 39.642,
+     "end": 40.044
+    },
+    {
+     "text": "It",
+     "highlight": false,
+     "start": 40.433,
+     "end": 40.55
+    },
+    {
+     "text": "was",
+     "highlight": false,
+     "start": 40.551,
+     "end": 40.7
+    },
+    {
+     "text": "ice",
+     "highlight": false,
+     "start": 40.728,
+     "end": 40.998
+    },
+    {
+     "text": "cold.",
+     "highlight": true,
+     "start": 41.018,
+     "end": 41.498
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "A boy's hand gripping his father's big hand, frost-blue light on them",
+   "notes": "Hero."
+  },
+  {
+   "id": 10,
+   "start": 41.88,
+   "end": 45.044,
+   "act": 1,
+   "set": "outback",
+   "owner": "O",
+   "framing": "Wide, the light pulling back",
+   "camera": "Locked",
+   "vo": "The light pulled back. Waiting for him to follow.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "The",
+     "highlight": false,
+     "start": 42.135,
+     "end": 42.25
+    },
+    {
+     "text": "light",
+     "highlight": false,
+     "start": 42.25,
+     "end": 42.551
+    },
+    {
+     "text": "pulled",
+     "highlight": false,
+     "start": 42.589,
+     "end": 42.836
+    },
+    {
+     "text": "back.",
+     "highlight": false,
+     "start": 42.874,
+     "end": 43.462
+    },
+    {
+     "text": "Waiting",
+     "highlight": false,
+     "start": 43.517,
+     "end": 43.811
+    },
+    {
+     "text": "for",
+     "highlight": false,
+     "start": 43.825,
+     "end": 43.942
+    },
+    {
+     "text": "him",
+     "highlight": false,
+     "start": 43.953,
+     "end": 44.086
+    },
+    {
+     "text": "to",
+     "highlight": false,
+     "start": 44.098,
+     "end": 44.232
+    },
+    {
+     "text": "follow.",
+     "highlight": true,
+     "start": 44.244,
+     "end": 44.657
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "The orb drifting backwards over the scrub, a faint trail behind it",
+   "notes": "Eerie."
+  },
+  {
+   "id": 11,
+   "start": 45.044,
+   "end": 49.487,
+   "act": 1,
+   "set": "camp",
+   "owner": "K",
+   "framing": "Wide, sunrise over the camp",
+   "camera": "Slow pull-back",
+   "vo": "I held on until sunrise. When the sun came up, the light was gone.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "I",
+     "highlight": false,
+     "start": 45.299,
+     "end": 45.489
+    },
+    {
+     "text": "held",
+     "highlight": false,
+     "start": 45.517,
+     "end": 45.716
+    },
+    {
+     "text": "on",
+     "highlight": false,
+     "start": 45.735,
+     "end": 45.919
+    },
+    {
+     "text": "until",
+     "highlight": false,
+     "start": 45.948,
+     "end": 46.207
+    },
+    {
+     "text": "sunrise.",
+     "highlight": false,
+     "start": 46.235,
+     "end": 47.041
+    },
+    {
+     "text": "When",
+     "highlight": false,
+     "start": 47.099,
+     "end": 47.246
+    },
+    {
+     "text": "the",
+     "highlight": false,
+     "start": 47.253,
+     "end": 47.332
+    },
+    {
+     "text": "sun",
+     "highlight": false,
+     "start": 47.332,
+     "end": 47.551
+    },
+    {
+     "text": "came",
+     "highlight": false,
+     "start": 47.599,
+     "end": 47.798
+    },
+    {
+     "text": "up,",
+     "highlight": false,
+     "start": 47.817,
+     "end": 48.154
+    },
+    {
+     "text": "the",
+     "highlight": false,
+     "start": 48.173,
+     "end": 48.308
+    },
+    {
+     "text": "light",
+     "highlight": false,
+     "start": 48.317,
+     "end": 48.516
+    },
+    {
+     "text": "was",
+     "highlight": false,
+     "start": 48.535,
+     "end": 48.72
+    },
+    {
+     "text": "gone.",
+     "highlight": true,
+     "start": 48.748,
+     "end": 49.107
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "Orange sunrise over the red plain, father and son sitting by a dead fire",
+   "notes": "Dawn."
+  },
+  {
+   "id": 12,
+   "start": 49.487,
+   "end": 55.731,
+   "act": 1,
+   "set": "camp",
+   "owner": "K",
+   "framing": "Medium, dad at a window at night",
+   "camera": "Slow push-in",
+   "vo": "Dad doesn't remember any of it. But at night, he stands at the window. Looking for a light in the dark.",
+   "voKind": "narration",
+   "speaker": "narr",
+   "words": [
+    {
+     "text": "Dad",
+     "highlight": false,
+     "start": 49.742,
+     "end": 49.938
+    },
+    {
+     "text": "doesn't",
+     "highlight": false,
+     "start": 49.958,
+     "end": 50.232
+    },
+    {
+     "text": "remember",
+     "highlight": false,
+     "start": 50.232,
+     "end": 50.581
+    },
+    {
+     "text": "any",
+     "highlight": false,
+     "start": 50.61,
+     "end": 50.759
+    },
+    {
+     "text": "of",
+     "highlight": false,
+     "start": 50.773,
+     "end": 50.877
+    },
+    {
+     "text": "it.",
+     "highlight": false,
+     "start": 50.882,
+     "end": 51.222
+    },
+    {
+     "text": "But",
+     "highlight": false,
+     "start": 51.474,
+     "end": 51.622
+    },
+    {
+     "text": "at",
+     "highlight": false,
+     "start": 51.637,
+     "end": 51.754
+    },
+    {
+     "text": "night,",
+     "highlight": false,
+     "start": 51.764,
+     "end": 52.303
+    },
+    {
+     "text": "he",
+     "highlight": false,
+     "start": 52.341,
+     "end": 52.529
+    },
+    {
+     "text": "stands",
+     "highlight": false,
+     "start": 52.558,
+     "end": 52.827
+    },
+    {
+     "text": "at",
+     "highlight": false,
+     "start": 52.846,
+     "end": 52.969
+    },
+    {
+     "text": "the",
+     "highlight": false,
+     "start": 52.973,
+     "end": 53.054
+    },
+    {
+     "text": "window.",
+     "highlight": false,
+     "start": 53.064,
+     "end": 53.729
+    },
+    {
+     "text": "Looking",
+     "highlight": false,
+     "start": 53.785,
+     "end": 54.045
+    },
+    {
+     "text": "for",
+     "highlight": false,
+     "start": 54.074,
+     "end": 54.21
+    },
+    {
+     "text": "a",
+     "highlight": false,
+     "start": 54.219,
+     "end": 54.296
+    },
+    {
+     "text": "light",
+     "highlight": false,
+     "start": 54.296,
+     "end": 54.55
+    },
+    {
+     "text": "in",
+     "highlight": false,
+     "start": 54.564,
+     "end": 54.651
+    },
+    {
+     "text": "the",
+     "highlight": false,
+     "start": 54.655,
+     "end": 54.737
+    },
+    {
+     "text": "dark.",
+     "highlight": true,
+     "start": 54.737,
+     "end": 55.144
+    }
+   ],
+   "trans": "cut",
+   "caption": true,
+   "cool": false,
+   "hero": "Dad from behind at a house window at night; far out on the plain, a tiny cold light",
+   "notes": "Cold."
+  },
+  {
+   "id": 13,
+   "start": 55.731,
+   "end": 58.531,
+   "act": 1,
+   "set": "graphic",
+   "owner": "G",
+   "framing": "End card",
+   "camera": "Static",
+   "vo": "Would you follow the light? Comment YES or NO.",
+   "voKind": "onscreen",
+   "speaker": null,
+   "words": [
+    {
+     "text": "Would",
+     "highlight": false,
+     "start": 55.981,
+     "end": 56.281
+    },
+    {
+     "text": "you",
+     "highlight": false,
+     "start": 56.201,
+     "end": 56.501
+    },
+    {
+     "text": "follow",
+     "highlight": false,
+     "start": 56.421,
+     "end": 56.721
+    },
+    {
+     "text": "the",
+     "highlight": false,
+     "start": 56.641,
+     "end": 56.941
+    },
+    {
+     "text": "light?",
+     "highlight": false,
+     "start": 56.861,
+     "end": 57.161
+    },
+    {
+     "text": "Comment",
+     "highlight": false,
+     "start": 57.081,
+     "end": 57.381
+    },
+    {
+     "text": "YES",
+     "highlight": true,
+     "start": 57.301,
+     "end": 57.601
+    },
+    {
+     "text": "or",
+     "highlight": false,
+     "start": 57.521,
+     "end": 57.821
+    },
+    {
+     "text": "NO.",
+     "highlight": true,
+     "start": 57.741,
+     "end": 58.041
+    }
+   ],
+   "trans": "cut",
+   "caption": false,
+   "cool": false,
+   "hero": "CTA with a glowing orb and campfire motif",
+   "notes": "No caption (on-screen text)."
+  }
+ ],
+ "audio": true
+}

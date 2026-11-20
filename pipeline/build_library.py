@@ -11,7 +11,7 @@ EPS = [  # key, project dir, title, country, video
     ('ep03', 'ep03', 'Wewe Gombel', 'Indonesia', 'out/ep03-v4.mp4'),
 ]
 COUNTRY = {'ep04': 'Indonesia', 'ep05': 'Indonesia', 'ep06': 'Indonesia', 'ep07': 'Japan', 'ep08': 'Mexico', 'ep09': 'Korea',
-           'ep10': 'USA', 'ep11': 'Indonesia', 'ep12': 'Thailand', 'ep13': 'Ireland', 'ep14': 'Korea', 'ep15': 'Indonesia (Java)', 'ep16': 'Japan', 'ep17': 'Venezuela', 'ep18': 'Philippines', 'ep19': 'Indonesia', 'ep20': 'Scotland', 'ep21': 'Russia', 'ep22': 'Norway', 'ep23': 'Indonesia', 'ep24': 'China', 'ep25': 'South Africa'}
+           'ep10': 'USA', 'ep11': 'Indonesia', 'ep12': 'Thailand', 'ep13': 'Ireland', 'ep14': 'Korea', 'ep15': 'Indonesia (Java)', 'ep16': 'Japan', 'ep17': 'Venezuela', 'ep18': 'Philippines', 'ep19': 'Indonesia', 'ep20': 'Scotland', 'ep21': 'Russia', 'ep22': 'Norway', 'ep23': 'Indonesia', 'ep24': 'China', 'ep25': 'South Africa', 'ep26': 'Japan', 'ep27': 'India', 'ep28': 'Indonesia', 'ep29': 'Iceland', 'ep30': 'Australia'}
 for k in sorted(EPISODES):
     vids = sorted(glob.glob(f'{H}/{k}/out/EP*.mp4'))
     EPS.append((k, k, EPISODES[k]['title'], COUNTRY.get(k, ''), os.path.relpath(vids[-1], f'{H}/{k}') if vids else ''))

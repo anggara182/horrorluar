@@ -11,7 +11,7 @@ Pipeline produksi short horor legenda (9:16, 50–60 detik, VO Inggris) dengan R
 | `docs/AGENT_BRIEF.md` | Brief untuk agent yang menggambar set (dipakai per episode) |
 | `episodes/<ep>/STYLE.md` | Palet, karakter, dan pembagian set per episode |
 | `pipeline/` | `episodes.py` (naskah), scaffold, generate audio, build mix, QC, antrean render, builder library |
-| `library/` | Kode SVG semua episode, 103 SFX, thumbnail shot, `catalog.json`, `LIBRARY.md`, galeri `index.html` |
+| `library/` | Kode SVG semua episode, 117 SFX, thumbnail shot, `catalog.json`, `LIBRARY.md`, galeri `index.html` |
 | `library/template/` | Kit Remotion untuk memulai episode baru |
 
 ## Alur episode baru

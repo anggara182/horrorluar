@@ -6,22 +6,20 @@ from episodes import EPISODES as _ALL, VOICES
 KEYS = sys.argv[1:] or list(_ALL)
 EPISODES = {k: _ALL[k] for k in KEYS}
 SFX = {
- "snow_forest": ("Winter forest at night, cold wind through birch trees, snow creaking softly, very quiet", 20, True),
- "hut_legs": ("A huge wooden hut creaking and groaning as it turns on giant legs, heavy scraping steps in deep snow", 4, False),
- "oven_fire": ("Old clay oven fire crackling with a bubbling iron pot", 15, True),
- "forest_summer": ("Pine forest on a bright summer night, soft breeze, distant birds, a faint creek", 20, True),
- "goat_bells": ("Goats with small bells grazing on a mountain pasture", 8, True),
- "singing_far": ("A woman singing a wordless haunting folk melody far away in a forest, echoing", 7, False),
- "pig_grunt": ("A pig grunting and sniffing at a wooden door at night", 4, False),
- "pig_squeal": ("A pig squealing loudly and running away into the night", 3, False),
- "wall_knock": ("Knuckles knocking twice hard on a thin plaster wall", 2, False),
- "china_street": ("Old Chinese city street at night, distant traffic, paper offerings crackling in metal bins, faint wind chimes", 20, True),
- "whistle_tune": ("A person whistling a short simple melody once in an empty street at night", 4, False),
- "footsteps_follow": ("Two sets of footsteps on wet pavement at night, the second following close behind and speeding up", 5, False),
- "door_steps": ("Slow footsteps in a corridor stopping right outside an apartment door", 5, False),
- "africa_night": ("Rural African night, crickets and frogs, a distant dog barking, soft wind in dry grass", 20, True),
- "scratch_floor": ("Tiny claws scratching and tapping across a floor in the dark", 4, False),
- "imp_giggle": ("A small mischievous creature giggling softly, very close, playful and eerie", 3, False),
+ "cicadas": ("Japanese summer afternoon, loud cicadas, hot still air over rice fields", 20, True),
+ "wind_chime": ("A small Japanese glass wind chime tinkling softly on a veranda", 6, True),
+ "boy_laugh": ("A teenage boy laughing quietly and strangely, slow, uncanny, close", 4, False),
+ "india_night": ("Indian village road at night, crickets, distant dogs, wind in a huge banyan tree", 20, True),
+ "anklets": ("Silver anklet bells jingling softly with slow barefoot steps on a dirt road", 5, False),
+ "truck_start": ("Old diesel truck engine starting on the first try and idling", 4, False),
+ "satay_grill": ("Charcoal satay grill sizzling and crackling at night, a hand fan waving", 15, True),
+ "hair_wind": ("Soft night wind rising, rustling leaves and long hair", 4, False),
+ "snow_wind": ("Icelandic winter night, wind over deep snow, very cold and empty", 20, True),
+ "spinning_wheel": ("Old wooden spinning wheel whirring steadily in a quiet room", 8, True),
+ "big_purr": ("An enormous cat's deep rumbling purr, very low and slow", 4, False),
+ "heavy_paws": ("Huge soft heavy footsteps crunching deep snow, slow, a giant animal walking away", 5, False),
+ "outback_night": ("Australian outback at night, dry wind, crickets, a distant dingo howl", 20, True),
+ "light_hum": ("A faint eerie electric hum rising and falling, otherworldly", 5, False),
 }
 def norm(t): return re.sub(r"[^a-z0-9' ]", "", t.lower()).split()
 def tts(ep, sid, voice, text, clean, take):
@@ -55,5 +53,5 @@ with cf.ThreadPoolExecutor(4) as ex:
         else: res[k].setdefault(str(sid), {})[str(take)] = o
         print(k, sid, take, ("ERR " + str(o["error"])[:80]) if "error" in o else ("ok " + str(o.get("score", ""))), flush=True)
 for ep in EPISODES: json.dump({"vo": res[ep]}, open(f"/home/user/{ep}/public/audio/manifest_raw.json", "w"), indent=1)
-json.dump(res["sfx"], open("/home/user/sfxlib/manifest_new5.json", "w"), indent=1)
+json.dump(res["sfx"], open("/home/user/sfxlib/manifest_new6.json", "w"), indent=1)
 print("DONE")
