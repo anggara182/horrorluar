@@ -15,7 +15,8 @@ import ai33  # noqa: E402
 VOICES = {
     "NARATOR": "elevenlabs_Aw7qttNp8aSAczVs9nwb",     # Angga - Authentic Indonesian
     "PENGENDARA": "elevenlabs_gQQvBatMocMgEreeSqHb",  # Baron - Calm & Mature
-    "JUNED": "elevenlabs_tqu2FgJzLu4PdJziSqSq",       # Kurnia - Character
+    "JUNED": "elevenlabs_tqu2FgJzLu4PdJziSqSq",       # Kurnia - Character (chat read out, phone EQ)
+    "JUNED_LIVE": "elevenlabs_tqu2FgJzLu4PdJziSqSq",  # Kurnia, in person (no EQ)
 }
 SPEED = "1.08"
 TAKES = 2
@@ -29,9 +30,15 @@ def blocks(ep):
     out, who = [], None
     for line in body.splitlines()[1:]:
         line = line.strip()
-        if not line:
+        if not line or line.startswith("#"):
             continue
-        m = re.match(r"^([A-Z]+):\s*(.*)$", line)
+        j = re.match(r"^\(jeda ([0-9.]+)", line)
+        if j:  # silent gap (e.g. GAGAL + rewind), no TTS
+            out.append(["PAUSE", j.group(1)]); who = None
+            continue
+        if line.startswith("("):
+            continue
+        m = re.match(r"^([A-Z_]+):\s*(.*)$", line)
         if m:
             who, line = m.group(1), m.group(2)
             out.append([who, line])
@@ -77,6 +84,8 @@ def generate(ep):
     log = json.load(open(log_p)) if os.path.exists(log_p) else {}
     last = 0.0
     for i, (who, text) in enumerate(blocks(ep), 1):
+        if who == "PAUSE":
+            continue
         for take in range(1, TAKES + 1):
             key = f"b{i:02d}_t{take}"
             if os.path.exists(os.path.join(vo, key + ".mp3")):
@@ -115,6 +124,11 @@ def assemble(ep):
     vo = os.path.join(ep, "vo"); tmp = os.path.join(vo, "_tmp"); os.makedirs(tmp, exist_ok=True)
     picks, parts, all_words, t0 = [], [], [], 0.0
     for i, (who, text) in enumerate(blocks(ep), 1):
+        if who == "PAUSE":
+            out = os.path.join(tmp, f"b{i:02d}.wav"); d = float(text)
+            subprocess.run(["ffmpeg", "-y", "-v", "error", "-f", "lavfi", "-i", "anullsrc=r=48000:cl=mono", "-t", str(d), out], check=True)
+            picks.append({"block": i, "who": "PAUSE", "start": round(t0, 3), "dur": d}); parts.append(out); t0 += d + GAP_S
+            continue
         best = None
         for take in range(1, TAKES + 1):
             key = f"b{i:02d}_t{take}"

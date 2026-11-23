@@ -29,6 +29,8 @@ SYNTH = {
     # doppler pass-by: engine pitched up and closing, then pitched down and leaving
     "@passby": ("[0:a]atrim=0:0.7,asetrate=48000*1.18,aresample=48000,afade=t=in:d=0.5[a];[0:a]atrim=1:2.2,asetrate=48000*0.86,aresample=48000,afade=t=out:st=0.2:d=1.0[b];[a][b]concat=n=2:v=0:a=1", ["moto_ride"]),
     # engine sputter and die: three chunks dropping in pitch, chopped, then nothing
+    # tape rewind whir: rising squeal + hiss
+    "@tape": ("sine=f=600:d=2,vibrato=f=14:d=0.6,asetrate=48000*1.6,aresample=48000,volume=0.25[a];anoisesrc=d=2:c=pink:a=0.5,highpass=f=1500[b];[a][b]amix=inputs=2:normalize=0,afade=t=in:d=0.1,afade=t=out:st=1.7:d=0.3", []),
     "@die": ("[0:a]atrim=0:0.35,asetrate=48000*0.95,aresample=48000[a];[0:a]atrim=1:1.25,asetrate=48000*0.78,aresample=48000,volume=0.8[b];[0:a]atrim=2:2.45,asetrate=48000*0.6,aresample=48000,volume=0.6,tremolo=f=9:d=0.9,afade=t=out:st=0.2:d=0.25[c];[a][b][c]concat=n=3:v=0:a=1,lowpass=f=4000", ["moto_ride"]),
 }
 
@@ -75,7 +77,15 @@ g += f";{''.join(duck)}amix=inputs={len(duck)}:normalize=0[dk];[dk][sc]sidechain
 if os.environ.get("STEM") == "sfx":  # check: SFX only, same gains, no loudnorm (compare against the -16 LUFS VO)
     g += f";[vo]anullsink;[dkd]{''.join(plain)}amix=inputs={1 + len(plain)}:normalize=0,atrim=0:{END}[out]"
 else:
-    g += f";[vo][dkd]{''.join(plain)}amix=inputs={2 + len(plain)}:normalize=0,atrim=0:{END},afade=t=out:st={END - 0.03:.3f}:d=0.03,loudnorm=I=-14.6:TP=-1.5:LRA=11,alimiter=limit=0.85,aresample=48000[out]"
+    rw = cfg.get("rewind")
+    if rw:  # GAGAL -> rewind: the wrong branch (VO + SFX) reversed and sped up, everything else muted in the window
+        a0, a1 = rw["src"]; at, d = rw["at"], rw["dur"]; k = (a1 - a0) / d
+        g += f";[vo][dkd]{''.join(plain)}amix=inputs={2 + len(plain)}:normalize=0,asplit=2[pre][cp]"
+        g += f";[cp]atrim={a0}:{a1},asetpts=PTS-STARTPTS,areverse,asetrate=48000*{k:.3f},aresample=48000,atrim=0:{d},afade=t=in:d=0.05,afade=t=out:st={d - 0.15:.3f}:d=0.15,volume={rw.get('db', -6)}dB,adelay={int(at * 1000)}:all=1[rv]"
+        g += f";[pre]volume=0:enable='between(t,{at},{at + d})'[pm];[pm][rv]amix=inputs=2:normalize=0"
+    else:
+        g += f";[vo][dkd]{''.join(plain)}amix=inputs={2 + len(plain)}:normalize=0"
+    g += f",atrim=0:{END},afade=t=out:st={END - 0.03:.3f}:d=0.03,loudnorm=I=-14.6:TP=-1.5:LRA=11,alimiter=limit=0.85,aresample=48000[out]"
 out = os.path.join(ep, "mix.wav" if os.environ.get("STEM") != "sfx" else "vo/_tmp/sfx_stem.wav")
 subprocess.run(["ffmpeg", "-y", "-v", "error", *inputs, "-filter_complex", g, "-map", "[out]", "-ac", "2", out], check=True)
 r = subprocess.run(["ffmpeg", "-hide_banner", "-i", out, "-af", "ebur128=peak=true", "-f", "null", "-"], capture_output=True, text=True).stderr

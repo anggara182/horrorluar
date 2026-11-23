@@ -15,6 +15,14 @@ Selesai juga (23 Nov):
 - v2 final: `ep01/render/ep01-v2.mp4` (44,5 MB, CRF 22, −13,8 LUFS) + `ep01-v2-hp.mp4` (10 MB).
 - Percepatan yang dipasang: tanpa antialias WebGL, material unlit tanpa lampu/bayangan, tekstur tanpa mipmap/anisotropi (kecuali tanah/tembok berulang), sedikit lapisan transparan layar penuh.
 
+v3 (23 Nov, catatan adrian setelah v2: "rapiin lagi, ekspresi bisa digerakin, ban ga muter", caption "dibikin normal dan kebaca"):
+- Roda: roda samping berputar (versi blur + tanda putih saat ngebut, biar tidak efek wagon-wheel), tapak ban belakang/depan bergulir, ban depan goyang dikit saat jalan. Motor parkir/berhenti diam.
+- Micro-expression Kamu (`remotion/src/look3/face.ts`, deterministik per frame): kedip tiap ±2–4 dtk, lirikan kecil, alis naik di kata kunci, mulut rapat/terbuka, napas + menelan; mata melotot + pupil mengecil di beat seram (S21, S29, S32, S35). Dipakai di tampak samping, berdiri di toko, close-up wajah, dan tampak depan.
+- Si Pengendara: titik ungu di kaca helm berkedip di kalimat seram, kilau kaca bergeser pelan, helm close-up miring sedikit; S16 helm menoleh tipis saat ditepuk.
+- Caption baru: frasa utuh, putih bold + outline gelap, default sepertiga bawah, per shot `capY`.
+- Reframe S03/S04/S10/S14/S16, variasi pohon/skyline.
+- Render v3: `tools/render_shots.sh ep01 v3` (log `ep01/render-v3.log`). Audio v3 di-remux main dengan mix baru.
+
 Berikutnya: adrian nonton `ep01/render/ep01-v2.mp4` → revisi per shot → cover + caption → jadwal (izin adrian).
 Kalau ada baris VO yang jelek: generate ulang baris itu saja (hapus `ep01/vo/bNN_t*.mp3`, jalankan `tools/vo.py ep01`), lalu `tools/mix.py ep01`.
 

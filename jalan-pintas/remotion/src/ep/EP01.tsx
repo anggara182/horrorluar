@@ -54,7 +54,7 @@ const SPECS: Record<string, Spec> = {
   S15: { scene: 'jalanAxis', move: 7, a: POV, pov: 'map', povZ: [-0.31, -0.24], shake: 0.003 },
   S16: { scene: 'jalanAxis', move: 7, a: C([-0.1, 1.64, 0.05], [-0.33, 1.32, -1.1], 44), b: C([-0.18, 1.58, -0.3], [-0.35, 1.33, -1.1], 40), ease: 'io', pov: 'none', tap: true, shake: 0.004 },
   S17: { scene: 'jalanSide', move: 7, a: C([0.05, 1.0, 2.7], [0.06, 1.0, 0], 40), b: C([0.05, 1.02, 2.4], [0.06, 1.02, 0], 40), cu: ['helm', 1.71], rider: 'none', shake: 0.006 },
-  S18: { scene: 'jalanAxis', move: 7, dark: true, a: C([0.4, 1.7, 4.2], [0, 1.0, -6], 42), b: C([0.4, 1.8, 6.2], [0, 1.0, -6], 42), rider: 'back', shake: 0.008 },
+  S18: { scene: 'jalanAxis', move: 7, dark: true, a: C([0.4, 1.7, 4.2], [0, 1.0, -6], 42), b: C([0.4, 1.8, 6.2], [0, 1.0, -6], 42), rider: 'back', shake: 0.008 , capY: 1560},
   S19: { scene: 'relSide', move: 6, a: C([0.9, 1.2, 3.7], [-0.2, 1.05, 0], 40), b: C([0.6, 1.2, 3.35], [-0.2, 1.05, 0], 40), rider: 'side', shake: 0.008, grade: 'rel', cone: true },
   S20: { scene: 'relAxis', move: 6, a: POV, pov: 'chat2', povZ: [-0.32, -0.27], shake: 0.003, grade: 'rel' },
   S21: { scene: 'relSide', move: 6, a: C([0, 0.94, 2.0], [0, 0.9, 0], 40), b: C([0, 0.93, 1.75], [0, 0.9, 0], 40), cu: ['faceS', 1.71, RED], rider: 'none', shake: 0.005, grade: 'rel' , capY: 330},
@@ -62,7 +62,7 @@ const SPECS: Record<string, Spec> = {
   S23: { scene: 'relSide', move: 6, a: C([0, 1.5, 2.8], [0, 2.0, 0], 34), b: C([0, 0.56, 2.8], [0, 0.5, 0], 34), ease: 'whip', cu: ['plate', 1.0, '#ffd8d0'], rider: 'none', shake: 0.006, grade: 'rel' },
   S24: { scene: 'relSide', move: 6, a: C([0, 0.54, 2.7], [0, 0.5, 0], 34), b: C([0, 0.52, 2.35], [0, 0.5, 0], 34), cu: ['plate', 1.0, '#ffd8d0'], rider: 'none', shake: 0.004, grade: 'rel' },
   S25: { scene: 'relAxis', move: 6, a: POV, pov: 'info', povZ: [-0.27, -0.25], shake: 0.003, grade: 'rel' },
-  S26: { scene: 'relAxis', move: 6, a: C([0.25, 1.1, 9.0], [0, 1.0, -2], 30), b: C([0.25, 1.1, 8.5], [0, 1.0, -2], 30), rider: 'back', cone: true, shake: 0.01, grade: 'rel' },
+  S26: { scene: 'relAxis', move: 6, a: C([0.25, 1.1, 9.0], [0, 1.0, -2], 30), b: C([0.25, 1.1, 8.5], [0, 1.0, -2], 30), rider: 'back', cone: true, shake: 0.01, grade: 'rel' , capY: 300},
   S27: { scene: 'relAxis', move: 6, a: POV, pov: 'photo', povZ: [-0.3, -0.25], shake: 0.003, grade: 'rel' },
   S28: { scene: 'relAxis', a: C([0.25, 0.95, 3.0], [0.1, 0.85, 0], 22), b: C([0.24, 0.96, 2.95], [0.1, 0.86, 0], 22), rider: 'backT', cone: true, grade: 'photo', capY: 300 },
   S29: { scene: 'relAxis', a: C([0.25, 0.95, 3.0], [0.1, 0.85, 0], 22), b: C([0.2, 1.55, 2.6], [0.12, 1.42, 0], 26), ease: 'out', rider: 'backT', cone: true, grade: 'twist' },
@@ -148,7 +148,7 @@ const SideRiders: React.FC<{ t: Tex; A: V3; driverOnly?: boolean; spin: number; 
   <group position={[A[0], bob, A[2]]}>
     <mesh position={[0, 0.0, 0.02]} rotation={[-Math.PI / 2, 0, 0]} renderOrder={6}><planeGeometry args={[2.6, 0.8]} /><meshBasicMaterial map={t.blob} transparent opacity={0.75} depthWrite={false} /></mesh>
     {[-0.671, 0.614].map((x) => (
-      <mesh key={x} position={[x, 0.244, -0.003]} rotation={[0, 0, speed > 2 ? -spin * 0.12 : -spin]} renderOrder={7}>
+      <mesh key={x} position={[x, 0.244, -0.003]} rotation={[0, 0, speed > 2 ? -spin * 0.3 : -spin]} renderOrder={7}>
         <planeGeometry args={[0.514, 0.514]} /><meshBasicMaterial map={speed > 2 ? t.wheelBlur : t.wheel} transparent alphaTest={0.02} toneMapped={false} />
       </mesh>
     ))}
@@ -199,6 +199,7 @@ const moodFor = (id: string): Mood => {
 
 // ---------- captions ----------
 type W = { w: string; s: number; e: number; who: string };
+const NUM = /^(satu|dua|tiga|empat|lima|enam|tujuh|delapan|sembilan|nol)[.,?]?$/i; // keep a spoken number (the plate) on one caption
 const PAGES = (() => {
   const raw: W[] = (timing as any).words.map((x: any) => ({ w: x.w, s: x.s, e: x.e, who: x.who }));
   const ws: W[] = [];
@@ -213,9 +214,9 @@ const PAGES = (() => {
   const pages: { words: W[]; s: number; e: number }[] = []; let cur: W[] = [];
   ws.forEach((w) => {
     const sentenceStart = /^[A-Z]/.test(w.w) && !['Juned', 'Juned,', 'Juned.', 'B', 'Kak', 'Kak,', 'Kakak', 'Kakaknya'].includes(w.w);
-    if (cur.length && (cur[0].who !== w.who || cur.length >= 5 || (sentenceStart && cur.length >= 2))) { pages.push({ words: cur, s: cur[0].s, e: 0 }); cur = []; }
+    if (cur.length && (cur[0].who !== w.who || (cur.length >= 8 && !(NUM.test(cur[cur.length - 1].w) && NUM.test(w.w))) || (sentenceStart && cur.length >= 2))) { pages.push({ words: cur, s: cur[0].s, e: 0 }); cur = []; }
     cur.push(w);
-    if (/[.?]$/.test(w.w) || (/,$/.test(w.w) && cur.length >= 3)) { pages.push({ words: cur, s: cur[0].s, e: 0 }); cur = []; }
+    if (/[.?]$/.test(w.w) || (/,$/.test(w.w) && cur.length >= 4)) { pages.push({ words: cur, s: cur[0].s, e: 0 }); cur = []; }
   });
   if (cur.length) pages.push({ words: cur, s: cur[0].s, e: 0 });
   pages.forEach((p, i) => { p.e = Math.min(pages[i + 1]?.s ?? END, p.words[p.words.length - 1].e + 0.7); });

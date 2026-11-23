@@ -13,10 +13,10 @@ NARATOR: [urgent] Mesin mati di rel. [tense] Lompat turun, atau tetap pegangan?
 NARATOR: [fast] Kalau kamu tetap pegangan... [creepy] motornya jalan lagi. Tanpa suara mesin.
 [tense] Di aplikasi: tiba dalam tujuh menit. Sepuluh menit kemudian... tujuh menit. Satu jam kemudian... [creepy] tujuh menit.
 PENGENDARA: [low] [calm] Udah sampai, Kak.
-NARATOR: [tense] Kamu turun. Di depan TOKO 24. [creepy] Dan di depan pintunya... ada kamu. Lagi pesen ojol.
+NARATOR: [tense] Kamu turun. Di depan Toko Dua Puluh Empat. [creepy] Dan di depan pintunya... ada kamu. Lagi pesen ojol.
 
 ### GAGAL + REWIND (±22–25 dtk)
-(tanpa VO; stempel GAGAL + hit, lalu rewind dengan suara pita)
+(jeda 2.8 dtk: tanpa VO; stempel GAGAL + hit, lalu rewind dengan suara pita)
 
 ### Cabang BENAR: lompat turun (±25–70 dtk)
 NARATOR: [fast] Tapi kamu lompat turun. [tense] Drivernya nggak ngejar. Dia cuma diem. Helmnya masih ngadep ke kamu.

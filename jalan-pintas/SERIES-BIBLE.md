@@ -42,7 +42,8 @@ Tambahkan tempat baru di sini begitu dipakai.
 - Cahaya = dilukis di gambar + glow additive (lampu, sorot lampu motor, genangan cahaya di aspal) + kabut warna. Grain + vignette di atas (CSS).
 - Warna per babak: oranye TOKO 24 (flashback) → biru jalan gelap (sekarang) → merah rel mati (bahaya/pilihan).
 - Palet: navy malam `#0B1030`, ungu JALANIN `#7B3FE4`, oranye TOKO 24 `#FF7A1A`, merah lampu belakang `#E0262B`.
-- Gerak: kamera (push, tilt, whip, handheld), latar parallax, roda berputar (sprite roda terpisah), motor goyang kecil, lampu berkedip, dan GANTI GAMBAR (mis. helm biasa → helm menghadap belakang). Tanpa animasi anggota badan.
+- Gerak: kamera (push, tilt, whip, handheld), latar parallax, roda berputar (sprite roda terpisah; versi blur saat ngebut), tapak ban bergulir, motor goyang kecil, lampu berkedip, GANTI GAMBAR (mis. helm biasa → helm menghadap belakang), dan micro-expression wajah Kamu (kedip, lirik, alis, mulut, napas; `look3/face.ts`). Titik ungu di kaca helm berkedip di kalimat seram. Tanpa animasi anggota badan.
+- Caption: frasa utuh, putih bold + outline gelap, sepertiga bawah (lihat CLAUDE.md §Caption).
 
 **Daftar gambar (sprite)** — `remotion/src/look3/svg.ts` + `svg2.ts`, skala 700 px = 1 m:
 | Sprite | Dipakai untuk |
