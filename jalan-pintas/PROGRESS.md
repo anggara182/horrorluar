@@ -11,7 +11,8 @@ Selesai juga (23 Nov):
 - adrian pilih **2.5D** (gambar datar di ruang 3D). EP01 dipindah: `remotion/src/ep/EP01.tsx` + `sets25.tsx` + sprite `src/look3/`. 35 shot, kamera disesuaikan ke gambar yang ada. Contact sheet: `remotion/out/contact-sheet.jpg` (`node scripts/contact.mjs ep01 0.5`).
 - Audio tetap `ep01/mix.wav` (`tools/mix.py ep01`, cue di `ep01/sfx.json`).
 - Render per shot + cache: `tools/render_shots.sh ep01 vN` (hanya shot yang berubah dirender ulang; `--only S05,S06` / `--force`). Draf cepat: `SCALE=0.5 tools/render_shots.sh ep01 vN-draft` (540x960).
-- Kecepatan (container tanpa GPU): draf 540x960 ±0,24 dtk/frame (35 shot, 7,5 mnt termasuk ±4 dtk persiapan per shot). Final: lihat `ep01/render-v2.log`.
+- Kecepatan (container tanpa GPU): draf 540x960 ±0,24 dtk/frame (35 shot, 7,5 mnt termasuk ±4 dtk persiapan per shot). Final 1080x1920 ±0,34 dtk/frame (10,7 mnt render + ±1,5 mnt sambung/encode = ±12,8 mnt). Revisi 1 shot ±10–20 dtk + encode ±1,5 mnt.
+- v2 final: `ep01/render/ep01-v2.mp4` (44,5 MB, CRF 22, −13,8 LUFS) + `ep01-v2-hp.mp4` (10 MB).
 - Percepatan yang dipasang: tanpa antialias WebGL, material unlit tanpa lampu/bayangan, tekstur tanpa mipmap/anisotropi (kecuali tanah/tembok berulang), sedikit lapisan transparan layar penuh.
 
 Berikutnya: adrian nonton `ep01/render/ep01-v2.mp4` → revisi per shot → cover + caption → jadwal (izin adrian).
