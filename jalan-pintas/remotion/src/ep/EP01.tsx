@@ -70,6 +70,9 @@ const SPECS: Record<string, Spec> = {
   S35: { set: 'rel', a: C([4.8, 1.6, 1.75], [-6, 1.1, -0.7], 36), b: C([0.55, 1.55, 0.75], [-0.48, 1.5, 0], 30), ease: 'io', headlight: () => false, follower: -13, labels: 2, ride: { face: 'scared', headDown: 0, pTurn: -0.5 }, shake: 0.004, grade: 'rel' },
 };
 
+/** Shots wide enough for cast shadows to read; close-ups and POV rely on the painted contact blobs. */
+const SHADOWS = new Set(['S01', 'S02', 'S03', 'S08', 'S09', 'S13', 'S14', 'S18', 'S26', 'S30']);
+
 const lerp = (a: number, b: number, u: number) => a + (b - a) * u;
 const lerp3 = (a: V3, b: V3, u: number): V3 => [lerp(a[0], b[0], u), lerp(a[1], b[1], u), lerp(a[2], b[2], u)];
 const ease = (u: number, k?: string) => (k === 'whip' ? 1 - Math.pow(1 - Math.min(1, u / 0.3), 3) : k === 'out' ? 1 - Math.pow(1 - Math.min(1, u / 0.6), 3) : k === 'io' ? u * u * (3 - 2 * u) : u);
@@ -114,7 +117,7 @@ const Headlamp: React.FC<{ on: boolean; strength?: number }> = ({ on, strength =
   return (<>
     <primitive object={target} position={[8, 0, 0]} />
     <spotLight position={[0.7, 1.1, 0]} target={target} color="#fff1cf" intensity={strength} angle={0.45} penumbra={0.6} distance={40} decay={1.1}
-      castShadow shadow-mapSize-width={1024} shadow-mapSize-height={1024} shadow-bias={-0.0006} shadow-normalBias={0.03} />
+      castShadow={false} />
     <Beam p={[2.6, 0.9, 0]} r={[0, 0, -Math.PI / 2 - 0.05]} len={4} w={1.8} color="#fff1cf" opacity={0.14} />
   </>);
 };
@@ -233,8 +236,8 @@ export const EP01: React.FC = () => {
 
   return (
     <AbsoluteFill style={{ background: '#000' }}>
-      <ThreeCanvas width={width} height={height} shadows linear={false}
-        onCreated={({ gl }) => { gl.toneMapping = THREE.ACESFilmicToneMapping; gl.toneMappingExposure = 1.15; gl.shadowMap.type = THREE.PCFSoftShadowMap; }}>
+      <ThreeCanvas width={width} height={height} shadows={SHADOWS.has(shot.id)} linear={false} gl={{ antialias: false, powerPreference: 'high-performance' }}
+        onCreated={({ gl }) => { gl.toneMapping = THREE.ACESFilmicToneMapping; gl.toneMappingExposure = 1.15; gl.shadowMap.type = THREE.PCFShadowMap; }}>
         <CamRig p={cam.p} t={cam.t} fov={cam.fov} />
         {spec.set === 'jalan' && <JalanSet tex={tex} />}
         {spec.set === 'toko' && <TokoSet tex={tex} />}

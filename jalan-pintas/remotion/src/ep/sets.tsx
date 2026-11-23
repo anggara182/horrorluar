@@ -36,7 +36,7 @@ export const JalanSet: React.FC<{ tex: Tex; lamps?: boolean }> = ({ tex, lamps =
     <color attach="background" args={['#0b0d24']} />
     <fog attach="fog" args={['#0e1030', 10, 55]} />
     <hemisphereLight args={['#3c4890', '#0e0d16', 0.5]} />
-    <directionalLight position={[30, 14, -10]} color="#9fb0ff" intensity={0.8} castShadow shadow-mapSize-width={2048} shadow-mapSize-height={2048}
+    <directionalLight position={[30, 14, -10]} color="#9fb0ff" intensity={0.8} castShadow shadow-mapSize-width={1024} shadow-mapSize-height={1024}
       shadow-camera-left={-40} shadow-camera-right={40} shadow-camera-top={20} shadow-camera-bottom={-20} shadow-bias={-0.0006} shadow-normalBias={0.04} />
     <SkyDome tex={tex.sky} />
     <Horizon a={tex.sky1} b={tex.sky2} trees={tex.trees} trees2={tex.trees2} />
@@ -62,7 +62,7 @@ export const TokoSet: React.FC<{ tex: Tex }> = ({ tex }) => (
     <color attach="background" args={['#141634']} />
     <fog attach="fog" args={['#1a1c44', 18, 60]} />
     <hemisphereLight args={['#5866b8', '#1c1a26', 0.55]} />
-    <directionalLight position={[-6, 10, 8]} color="#8ea0ff" intensity={0.7} castShadow shadow-mapSize-width={2048} shadow-mapSize-height={2048}
+    <directionalLight position={[-6, 10, 8]} color="#8ea0ff" intensity={0.7} shadow-mapSize-width={1024} shadow-mapSize-height={1024}
       shadow-camera-left={-12} shadow-camera-right={12} shadow-camera-top={10} shadow-camera-bottom={-10} shadow-bias={-0.0006} shadow-normalBias={0.03} />
     <SkyDome tex={tex.sky} />
     <Horizon a={tex.sky1} b={tex.sky2} />
@@ -75,7 +75,7 @@ export const TokoSet: React.FC<{ tex: Tex }> = ({ tex }) => (
     <Card tex={tex.sky1} p={[10, 3.4, -9]} w={10} h={6} />
     <StreetLamp p={[-3.6, 0, -3.4]} />
     <spotLight position={[-3.6, 6.2, -2.1]} color="#ffcf8f" intensity={70} angle={0.6} penumbra={0.7} distance={30} decay={1.1} castShadow
-      shadow-mapSize-width={2048} shadow-mapSize-height={2048} shadow-bias={-0.0006} shadow-normalBias={0.03} />
+      shadow-mapSize-width={1024} shadow-mapSize-height={1024} shadow-bias={-0.0006} shadow-normalBias={0.03} />
     <pointLight position={[3, 1.6, 3.5]} color="#9fb4ff" intensity={3} distance={9} />
   </group>
 );
