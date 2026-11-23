@@ -1,0 +1,137 @@
+[
+  {
+    "language_code": "",
+    "language_probability": 1,
+    "text": "Jangan lihat ke belakang, Kak, yang ngikutin kita itu bukan ojol.",
+    "words": [
+      {
+        "text": "Jangan",
+        "start": 0.2,
+        "end": 0.443,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 0.443,
+        "end": 0.46,
+        "type": "spacing"
+      },
+      {
+        "text": "lihat",
+        "start": 0.46,
+        "end": 0.667,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 0.667,
+        "end": 0.68,
+        "type": "spacing"
+      },
+      {
+        "text": "ke",
+        "start": 0.68,
+        "end": 0.797,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 0.797,
+        "end": 0.8,
+        "type": "spacing"
+      },
+      {
+        "text": "belakang,",
+        "start": 0.8,
+        "end": 1.229,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 1.229,
+        "end": 1.23,
+        "type": "spacing"
+      },
+      {
+        "text": "Kak,",
+        "start": 1.23,
+        "end": 1.797,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 1.797,
+        "end": 1.86,
+        "type": "spacing"
+      },
+      {
+        "text": "yang",
+        "start": 1.86,
+        "end": 2.107,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 2.107,
+        "end": 2.11,
+        "type": "spacing"
+      },
+      {
+        "text": "ngikutin",
+        "start": 2.11,
+        "end": 2.462,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 2.462,
+        "end": 2.493,
+        "type": "spacing"
+      },
+      {
+        "text": "kita",
+        "start": 2.493,
+        "end": 2.72,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 2.72,
+        "end": 2.73,
+        "type": "spacing"
+      },
+      {
+        "text": "itu",
+        "start": 2.73,
+        "end": 2.88,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 2.88,
+        "end": 2.89,
+        "type": "spacing"
+      },
+      {
+        "text": "bukan",
+        "start": 2.89,
+        "end": 3.193,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 3.193,
+        "end": 3.23,
+        "type": "spacing"
+      },
+      {
+        "text": "ojol.",
+        "start": 3.23,
+        "end": 3.869,
+        "type": "word"
+      }
+    ],
+    "transcription_id": "0a767e5e98325466d2a8",
+    "audio_duration_secs": 4.04898
+  }
+]

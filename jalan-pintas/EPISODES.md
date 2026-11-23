@@ -4,7 +4,7 @@ Catatan per episode: apa yang terjadi, pilihan, hasil vote, dan yang jadi perman
 
 | Ep | Judul internal | Status | Pilihan di akhir | Hasil vote | Yang jadi permanen |
 |---|---|---|---|---|---|
-| 01 | Titik Ungu | draf naskah v1 | 1 lompat turun / 2 tetap pegangan | - | Plat B 4217 KZ, ETA 7 menit, rel mati |
+| 01 | Titik Ungu | VO jadi (77,8 dtk) | 1 lompat turun / 2 tetap pegangan | - | Plat B 4217 KZ, ETA 7 menit, rel mati, kepala Si Pengendara bisa berputar 180° |
 
 ## Benang season (bisa berubah mengikuti vote)
 1. Ep1–2: siapa yang memboncengmu? (dua Juned)

@@ -12,13 +12,14 @@
 | Tokoh | Peran | Tampilan (bentuk dasar) | Detail yang wajib terbaca |
 |---|---|---|---|
 | **Kamu** | Penumpang, POV penonton | Manekin kepala bulat, kulit sawo matang, kaus seragam oranye "TOKO 24", ransel abu | Tangan selalu memegang pinggang driver atau HP |
-| **Si Pengendara** | Driver yang memboncengmu, maskot seri | Jaket ungu aplikasi JALANIN, helm ungu dengan **kaca helm gelap selalu tertutup**, badge dada "JUNED" | Kaca helm memantulkan titik ungu kecil (pin peta). Wajahnya tidak pernah terlihat |
+| **Si Pengendara** | Driver yang memboncengmu, maskot seri | Jaket ungu aplikasi JALANIN, helm ungu dengan **kaca helm gelap selalu tertutup**, badge dada "JUNED" | Kaca helm memantulkan titik ungu kecil (pin peta). Wajahnya tidak pernah terlihat. Kepalanya bisa berputar 180° sementara badan tetap ke depan (EP01) |
 | **Juned (di aplikasi)** | Driver asli, hanya muncul lewat chat/foto/telepon | Jaket dan helm sama, tapi kaca helm terbuka, kumis tipis, wajah cemas | Selalu muncul di layar HP, tidak pernah di set yang sama dengan Si Pengendara (sampai bible bilang lain) |
 
-Suara:
-- Narator: energik dan cepat, tidak berbisik. Kandidat dipilih di langkah VO (uji hook 1 kalimat).
-- Si Pengendara: pria, rendah dan tenang, tidak pernah berteriak.
-- Juned (chat dibacakan): pria, logat Jakarta biasa, kesal lalu takut. EQ telepon tipis.
+Suara (EP01, ganti di sini kalau adrian minta):
+- Narator: "Angga - Authentic Indonesian" `elevenlabs_Aw7qttNp8aSAczVs9nwb`. Energik dan cepat, tidak berbisik.
+- Si Pengendara: "Baron - Calm & Mature" `elevenlabs_gQQvBatMocMgEreeSqHb`. Rendah dan tenang, tidak pernah berteriak.
+- Juned (chat dibacakan): "Kurnia - Character" `elevenlabs_tqu2FgJzLu4PdJziSqSq`. Kesal lalu takut. EQ telepon tipis di mix.
+- Tidak memakai narator utama akun lain (Saos Cocol, Alvar, Ricky) supaya seri ini punya suara sendiri.
 - Setting ai33: model `eleven_v3`, speed 1.05–1.10 (stability tidak diteruskan ai33). Tag emosi Inggris di depan kalimat.
 
 ## Benda dan perangkat berulang

@@ -1,0 +1,617 @@
+[
+  {
+    "language_code": "",
+    "language_probability": 1,
+    "text": "Padahal kamu lagi duduk di buncengannya. Kamu baru kelar shift di minimarket. Esen odjol. Lima menit ada motor berhenti. Jaket ungu. Plat B empat dua satu tujuh. Nama di dada. Juned. Semua cocok. Kamu naik. Sekarang kamu buka peta. Titik motornya Juned masih diem di depan minimarket. Kamu tepuk pundak drivernya.",
+    "words": [
+      {
+        "text": "Padahal",
+        "start": 0.52,
+        "end": 0.888,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 0.888,
+        "end": 0.92,
+        "type": "spacing"
+      },
+      {
+        "text": "kamu",
+        "start": 0.92,
+        "end": 1.119,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 1.119,
+        "end": 1.12,
+        "type": "spacing"
+      },
+      {
+        "text": "lagi",
+        "start": 1.12,
+        "end": 1.316,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 1.316,
+        "end": 1.33,
+        "type": "spacing"
+      },
+      {
+        "text": "duduk",
+        "start": 1.33,
+        "end": 1.563,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 1.563,
+        "end": 1.58,
+        "type": "spacing"
+      },
+      {
+        "text": "di",
+        "start": 1.58,
+        "end": 1.671,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 1.671,
+        "end": 1.671,
+        "type": "spacing"
+      },
+      {
+        "text": "buncengannya.",
+        "start": 1.671,
+        "end": 2.668,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 2.668,
+        "end": 2.752,
+        "type": "spacing"
+      },
+      {
+        "text": "Kamu",
+        "start": 2.752,
+        "end": 2.98,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 2.98,
+        "end": 2.991,
+        "type": "spacing"
+      },
+      {
+        "text": "baru",
+        "start": 2.991,
+        "end": 3.19,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 3.19,
+        "end": 3.19,
+        "type": "spacing"
+      },
+      {
+        "text": "kelar",
+        "start": 3.19,
+        "end": 3.46,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 3.46,
+        "end": 3.47,
+        "type": "spacing"
+      },
+      {
+        "text": "shift",
+        "start": 3.47,
+        "end": 3.71,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 3.71,
+        "end": 3.71,
+        "type": "spacing"
+      },
+      {
+        "text": "di",
+        "start": 3.71,
+        "end": 3.874,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 3.874,
+        "end": 3.89,
+        "type": "spacing"
+      },
+      {
+        "text": "minimarket.",
+        "start": 3.89,
+        "end": 4.766,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 4.766,
+        "end": 4.83,
+        "type": "spacing"
+      },
+      {
+        "text": "Esen",
+        "start": 4.83,
+        "end": 5.125,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 5.125,
+        "end": 5.16,
+        "type": "spacing"
+      },
+      {
+        "text": "odjol.",
+        "start": 5.16,
+        "end": 5.799,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 5.799,
+        "end": 5.863,
+        "type": "spacing"
+      },
+      {
+        "text": "Lima",
+        "start": 5.863,
+        "end": 6.091,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 6.091,
+        "end": 6.102,
+        "type": "spacing"
+      },
+      {
+        "text": "menit",
+        "start": 6.102,
+        "end": 6.625,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 6.625,
+        "end": 6.74,
+        "type": "spacing"
+      },
+      {
+        "text": "ada",
+        "start": 6.74,
+        "end": 6.949,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 6.949,
+        "end": 6.98,
+        "type": "spacing"
+      },
+      {
+        "text": "motor",
+        "start": 6.98,
+        "end": 7.217,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 7.217,
+        "end": 7.23,
+        "type": "spacing"
+      },
+      {
+        "text": "berhenti.",
+        "start": 7.23,
+        "end": 8.095,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 8.095,
+        "end": 8.18,
+        "type": "spacing"
+      },
+      {
+        "text": "Jaket",
+        "start": 8.18,
+        "end": 8.482,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 8.482,
+        "end": 8.52,
+        "type": "spacing"
+      },
+      {
+        "text": "ungu.",
+        "start": 8.52,
+        "end": 9.149,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 9.149,
+        "end": 9.213,
+        "type": "spacing"
+      },
+      {
+        "text": "Plat",
+        "start": 9.213,
+        "end": 9.454,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 9.454,
+        "end": 9.47,
+        "type": "spacing"
+      },
+      {
+        "text": "B",
+        "start": 9.47,
+        "end": 9.659,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 9.659,
+        "end": 9.691,
+        "type": "spacing"
+      },
+      {
+        "text": "empat",
+        "start": 9.691,
+        "end": 9.92,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 9.92,
+        "end": 9.93,
+        "type": "spacing"
+      },
+      {
+        "text": "dua",
+        "start": 9.93,
+        "end": 10.153,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 10.153,
+        "end": 10.19,
+        "type": "spacing"
+      },
+      {
+        "text": "satu",
+        "start": 10.19,
+        "end": 10.414,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 10.414,
+        "end": 10.43,
+        "type": "spacing"
+      },
+      {
+        "text": "tujuh.",
+        "start": 10.43,
+        "end": 11.147,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 11.147,
+        "end": 11.21,
+        "type": "spacing"
+      },
+      {
+        "text": "Nama",
+        "start": 11.21,
+        "end": 11.489,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 11.489,
+        "end": 11.49,
+        "type": "spacing"
+      },
+      {
+        "text": "di",
+        "start": 11.49,
+        "end": 11.621,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 11.621,
+        "end": 11.64,
+        "type": "spacing"
+      },
+      {
+        "text": "dada.",
+        "start": 11.64,
+        "end": 12.26,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 12.26,
+        "end": 12.323,
+        "type": "spacing"
+      },
+      {
+        "text": "Juned.",
+        "start": 12.323,
+        "end": 13.058,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 13.058,
+        "end": 13.121,
+        "type": "spacing"
+      },
+      {
+        "text": "Semua",
+        "start": 13.121,
+        "end": 13.416,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 13.416,
+        "end": 13.45,
+        "type": "spacing"
+      },
+      {
+        "text": "cocok.",
+        "start": 13.45,
+        "end": 14.118,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 14.118,
+        "end": 14.16,
+        "type": "spacing"
+      },
+      {
+        "text": "Kamu",
+        "start": 14.16,
+        "end": 14.411,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 14.411,
+        "end": 14.43,
+        "type": "spacing"
+      },
+      {
+        "text": "naik.",
+        "start": 14.43,
+        "end": 15.056,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 15.056,
+        "end": 15.12,
+        "type": "spacing"
+      },
+      {
+        "text": "Sekarang",
+        "start": 15.12,
+        "end": 15.423,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 15.423,
+        "end": 15.434,
+        "type": "spacing"
+      },
+      {
+        "text": "kamu",
+        "start": 15.434,
+        "end": 15.667,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 15.667,
+        "end": 15.68,
+        "type": "spacing"
+      },
+      {
+        "text": "buka",
+        "start": 15.68,
+        "end": 15.87,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 15.87,
+        "end": 15.87,
+        "type": "spacing"
+      },
+      {
+        "text": "peta.",
+        "start": 15.87,
+        "end": 16.568,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 16.568,
+        "end": 16.631,
+        "type": "spacing"
+      },
+      {
+        "text": "Titik",
+        "start": 16.631,
+        "end": 16.867,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 16.867,
+        "end": 16.88,
+        "type": "spacing"
+      },
+      {
+        "text": "motornya",
+        "start": 16.88,
+        "end": 17.318,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 17.318,
+        "end": 17.35,
+        "type": "spacing"
+      },
+      {
+        "text": "Juned",
+        "start": 17.35,
+        "end": 17.874,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 17.874,
+        "end": 17.99,
+        "type": "spacing"
+      },
+      {
+        "text": "masih",
+        "start": 17.99,
+        "end": 18.298,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 18.298,
+        "end": 18.31,
+        "type": "spacing"
+      },
+      {
+        "text": "diem",
+        "start": 18.31,
+        "end": 18.553,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 18.553,
+        "end": 18.57,
+        "type": "spacing"
+      },
+      {
+        "text": "di",
+        "start": 18.57,
+        "end": 18.653,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 18.653,
+        "end": 18.653,
+        "type": "spacing"
+      },
+      {
+        "text": "depan",
+        "start": 18.653,
+        "end": 18.857,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 18.857,
+        "end": 18.87,
+        "type": "spacing"
+      },
+      {
+        "text": "minimarket.",
+        "start": 18.87,
+        "end": 19.859,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 19.859,
+        "end": 19.901,
+        "type": "spacing"
+      },
+      {
+        "text": "Kamu",
+        "start": 19.901,
+        "end": 20.13,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 20.13,
+        "end": 20.14,
+        "type": "spacing"
+      },
+      {
+        "text": "tepuk",
+        "start": 20.14,
+        "end": 20.369,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 20.369,
+        "end": 20.38,
+        "type": "spacing"
+      },
+      {
+        "text": "pundak",
+        "start": 20.38,
+        "end": 20.704,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 20.704,
+        "end": 20.72,
+        "type": "spacing"
+      },
+      {
+        "text": "drivernya.",
+        "start": 20.72,
+        "end": 21.692,
+        "type": "word"
+      }
+    ],
+    "transcription_id": "a01b7759e1738e742bbc",
+    "audio_duration_secs": 21.707755
+  }
+]

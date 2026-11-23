@@ -1,0 +1,137 @@
+[
+  {
+    "language_code": "ms",
+    "language_probability": 1,
+    "text": "Kak, saya lihat tadi Kakak naik motor orang. Itu bukan saya.",
+    "words": [
+      {
+        "text": "Kak,",
+        "start": 0.16,
+        "end": 0.49,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 0.49,
+        "end": 0.83,
+        "type": "spacing"
+      },
+      {
+        "text": "saya",
+        "start": 0.83,
+        "end": 1.154,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 1.154,
+        "end": 1.17,
+        "type": "spacing"
+      },
+      {
+        "text": "lihat",
+        "start": 1.17,
+        "end": 1.38,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 1.38,
+        "end": 1.391,
+        "type": "spacing"
+      },
+      {
+        "text": "tadi",
+        "start": 1.391,
+        "end": 1.62,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 1.62,
+        "end": 1.63,
+        "type": "spacing"
+      },
+      {
+        "text": "Kakak",
+        "start": 1.63,
+        "end": 1.83,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 1.83,
+        "end": 1.83,
+        "type": "spacing"
+      },
+      {
+        "text": "naik",
+        "start": 1.83,
+        "end": 2.019,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 2.019,
+        "end": 2.03,
+        "type": "spacing"
+      },
+      {
+        "text": "motor",
+        "start": 2.03,
+        "end": 2.318,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 2.318,
+        "end": 2.35,
+        "type": "spacing"
+      },
+      {
+        "text": "orang.",
+        "start": 2.35,
+        "end": 2.804,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 2.804,
+        "end": 3.3,
+        "type": "spacing"
+      },
+      {
+        "text": "Itu",
+        "start": 3.3,
+        "end": 3.529,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 3.529,
+        "end": 3.54,
+        "type": "spacing"
+      },
+      {
+        "text": "bukan",
+        "start": 3.54,
+        "end": 3.828,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 3.828,
+        "end": 3.86,
+        "type": "spacing"
+      },
+      {
+        "text": "saya.",
+        "start": 3.86,
+        "end": 4.337,
+        "type": "word"
+      }
+    ],
+    "transcription_id": "7a503308834b149a6785",
+    "audio_duration_secs": 4.623673
+  }
+]

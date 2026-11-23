@@ -1,0 +1,269 @@
+[
+  {
+    "language_code": "",
+    "language_probability": 1,
+    "text": "Jadi kamu percaya yang mana? Satu, lompat turun tunggu motor di belakang. Dua, tetap pegangan sampai jalan pintasnya habis. Satu atau dua.",
+    "words": [
+      {
+        "text": "Jadi",
+        "start": 0.18,
+        "end": 0.568,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 0.568,
+        "end": 0.6,
+        "type": "spacing"
+      },
+      {
+        "text": "kamu",
+        "start": 0.6,
+        "end": 0.814,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 0.814,
+        "end": 0.82,
+        "type": "spacing"
+      },
+      {
+        "text": "percaya",
+        "start": 0.82,
+        "end": 1.124,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 1.124,
+        "end": 1.155,
+        "type": "spacing"
+      },
+      {
+        "text": "yang",
+        "start": 1.155,
+        "end": 1.34,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 1.34,
+        "end": 1.35,
+        "type": "spacing"
+      },
+      {
+        "text": "mana?",
+        "start": 1.35,
+        "end": 2.048,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 2.048,
+        "end": 2.111,
+        "type": "spacing"
+      },
+      {
+        "text": "Satu,",
+        "start": 2.111,
+        "end": 2.847,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 2.847,
+        "end": 2.91,
+        "type": "spacing"
+      },
+      {
+        "text": "lompat",
+        "start": 2.91,
+        "end": 3.233,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 3.233,
+        "end": 3.25,
+        "type": "spacing"
+      },
+      {
+        "text": "turun",
+        "start": 3.25,
+        "end": 3.828,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 3.828,
+        "end": 3.943,
+        "type": "spacing"
+      },
+      {
+        "text": "tunggu",
+        "start": 3.943,
+        "end": 4.264,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 4.264,
+        "end": 4.28,
+        "type": "spacing"
+      },
+      {
+        "text": "motor",
+        "start": 4.28,
+        "end": 4.549,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 4.549,
+        "end": 4.58,
+        "type": "spacing"
+      },
+      {
+        "text": "di",
+        "start": 4.58,
+        "end": 4.7,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 4.7,
+        "end": 4.7,
+        "type": "spacing"
+      },
+      {
+        "text": "belakang.",
+        "start": 4.7,
+        "end": 5.418,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 5.418,
+        "end": 5.46,
+        "type": "spacing"
+      },
+      {
+        "text": "Dua,",
+        "start": 5.46,
+        "end": 6.055,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 6.055,
+        "end": 6.1,
+        "type": "spacing"
+      },
+      {
+        "text": "tetap",
+        "start": 6.1,
+        "end": 6.412,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 6.412,
+        "end": 6.413,
+        "type": "spacing"
+      },
+      {
+        "text": "pegangan",
+        "start": 6.413,
+        "end": 6.859,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 6.859,
+        "end": 6.891,
+        "type": "spacing"
+      },
+      {
+        "text": "sampai",
+        "start": 6.891,
+        "end": 7.199,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 7.199,
+        "end": 7.21,
+        "type": "spacing"
+      },
+      {
+        "text": "jalan",
+        "start": 7.21,
+        "end": 7.454,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 7.454,
+        "end": 7.47,
+        "type": "spacing"
+      },
+      {
+        "text": "pintasnya",
+        "start": 7.47,
+        "end": 7.978,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 7.978,
+        "end": 8.01,
+        "type": "spacing"
+      },
+      {
+        "text": "habis.",
+        "start": 8.01,
+        "end": 8.798,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 8.798,
+        "end": 8.882,
+        "type": "spacing"
+      },
+      {
+        "text": "Satu",
+        "start": 8.882,
+        "end": 9.492,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 9.492,
+        "end": 9.61,
+        "type": "spacing"
+      },
+      {
+        "text": "atau",
+        "start": 9.61,
+        "end": 9.888,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 9.888,
+        "end": 9.92,
+        "type": "spacing"
+      },
+      {
+        "text": "dua.",
+        "start": 9.92,
+        "end": 10.356,
+        "type": "word"
+      }
+    ],
+    "transcription_id": "ea81f9727dff7d76980c",
+    "audio_duration_secs": 10.527347
+  }
+]

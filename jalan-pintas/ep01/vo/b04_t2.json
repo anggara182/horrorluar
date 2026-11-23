@@ -1,0 +1,77 @@
+[
+  {
+    "language_code": "",
+    "language_probability": 1,
+    "text": "Pegangan Kak, Kita lewat jalan pintas.",
+    "words": [
+      {
+        "text": "Pegangan",
+        "start": 0.12,
+        "end": 0.586,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 0.586,
+        "end": 0.6,
+        "type": "spacing"
+      },
+      {
+        "text": "Kak,",
+        "start": 0.6,
+        "end": 0.954,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 0.954,
+        "end": 0.974,
+        "type": "spacing"
+      },
+      {
+        "text": "Kita",
+        "start": 0.974,
+        "end": 1.235,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 1.235,
+        "end": 1.235,
+        "type": "spacing"
+      },
+      {
+        "text": "lewat",
+        "start": 1.235,
+        "end": 1.431,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 1.431,
+        "end": 1.442,
+        "type": "spacing"
+      },
+      {
+        "text": "jalan",
+        "start": 1.442,
+        "end": 1.691,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 1.691,
+        "end": 1.71,
+        "type": "spacing"
+      },
+      {
+        "text": "pintas.",
+        "start": 1.71,
+        "end": 2.381,
+        "type": "word"
+      }
+    ],
+    "transcription_id": "6a20f602778a64dc2426",
+    "audio_duration_secs": 2.507755
+  }
+]

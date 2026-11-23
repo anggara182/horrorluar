@@ -1,0 +1,101 @@
+[
+  {
+    "language_code": "",
+    "language_probability": 1,
+    "text": "Kak, saya ngikutin dari belakang. Liat foto ini.",
+    "words": [
+      {
+        "text": "Kak,",
+        "start": 0.28,
+        "end": 0.789,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 0.789,
+        "end": 0.832,
+        "type": "spacing"
+      },
+      {
+        "text": "saya",
+        "start": 0.832,
+        "end": 1.074,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 1.074,
+        "end": 1.09,
+        "type": "spacing"
+      },
+      {
+        "text": "ngikutin",
+        "start": 1.09,
+        "end": 1.342,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 1.342,
+        "end": 1.342,
+        "type": "spacing"
+      },
+      {
+        "text": "dari",
+        "start": 1.342,
+        "end": 1.546,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 1.546,
+        "end": 1.56,
+        "type": "spacing"
+      },
+      {
+        "text": "belakang.",
+        "start": 1.56,
+        "end": 2.099,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 2.099,
+        "end": 2.42,
+        "type": "spacing"
+      },
+      {
+        "text": "Liat",
+        "start": 2.42,
+        "end": 2.648,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 2.648,
+        "end": 2.66,
+        "type": "spacing"
+      },
+      {
+        "text": "foto",
+        "start": 2.66,
+        "end": 2.94,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 2.94,
+        "end": 2.971,
+        "type": "spacing"
+      },
+      {
+        "text": "ini.",
+        "start": 2.971,
+        "end": 3.405,
+        "type": "word"
+      }
+    ],
+    "transcription_id": "946eab7de8a172cd2481",
+    "audio_duration_secs": 3.657143
+  }
+]

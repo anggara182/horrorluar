@@ -1,0 +1,281 @@
+[
+  {
+    "language_code": "",
+    "language_probability": 1,
+    "text": "Fotonya masuk, Diambil dari motor di belakangmu. Itu punggungmu, Di boncengan, Dan helm drivernya ngadep ke belakang, ke arahmu. Mesin motor tiba-tiba mati.",
+    "words": [
+      {
+        "text": "Fotonya",
+        "start": 0.17,
+        "end": 0.728,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 0.728,
+        "end": 0.76,
+        "type": "spacing"
+      },
+      {
+        "text": "masuk,",
+        "start": 0.76,
+        "end": 1.416,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 1.416,
+        "end": 1.48,
+        "type": "spacing"
+      },
+      {
+        "text": "Diambil",
+        "start": 1.48,
+        "end": 1.97,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 1.97,
+        "end": 1.99,
+        "type": "spacing"
+      },
+      {
+        "text": "dari",
+        "start": 1.99,
+        "end": 2.187,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 2.187,
+        "end": 2.2,
+        "type": "spacing"
+      },
+      {
+        "text": "motor",
+        "start": 2.2,
+        "end": 2.422,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 2.422,
+        "end": 2.434,
+        "type": "spacing"
+      },
+      {
+        "text": "di",
+        "start": 2.434,
+        "end": 2.543,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 2.543,
+        "end": 2.543,
+        "type": "spacing"
+      },
+      {
+        "text": "belakangmu.",
+        "start": 2.543,
+        "end": 3.488,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 3.488,
+        "end": 3.551,
+        "type": "spacing"
+      },
+      {
+        "text": "Itu",
+        "start": 3.551,
+        "end": 3.722,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 3.722,
+        "end": 3.74,
+        "type": "spacing"
+      },
+      {
+        "text": "punggungmu,",
+        "start": 3.74,
+        "end": 4.607,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 4.607,
+        "end": 4.67,
+        "type": "spacing"
+      },
+      {
+        "text": "Di",
+        "start": 4.67,
+        "end": 4.782,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 4.782,
+        "end": 4.782,
+        "type": "spacing"
+      },
+      {
+        "text": "boncengan,",
+        "start": 4.782,
+        "end": 5.587,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 5.587,
+        "end": 5.63,
+        "type": "spacing"
+      },
+      {
+        "text": "Dan",
+        "start": 5.63,
+        "end": 5.897,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 5.897,
+        "end": 5.95,
+        "type": "spacing"
+      },
+      {
+        "text": "helm",
+        "start": 5.95,
+        "end": 6.186,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 6.186,
+        "end": 6.2,
+        "type": "spacing"
+      },
+      {
+        "text": "drivernya",
+        "start": 6.2,
+        "end": 7.006,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 7.006,
+        "end": 7.142,
+        "type": "spacing"
+      },
+      {
+        "text": "ngadep",
+        "start": 7.142,
+        "end": 7.457,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 7.457,
+        "end": 7.47,
+        "type": "spacing"
+      },
+      {
+        "text": "ke",
+        "start": 7.47,
+        "end": 7.573,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 7.573,
+        "end": 7.573,
+        "type": "spacing"
+      },
+      {
+        "text": "belakang,",
+        "start": 7.573,
+        "end": 8.239,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 8.239,
+        "end": 8.26,
+        "type": "spacing"
+      },
+      {
+        "text": "ke",
+        "start": 8.26,
+        "end": 8.468,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 8.468,
+        "end": 8.5,
+        "type": "spacing"
+      },
+      {
+        "text": "arahmu.",
+        "start": 8.5,
+        "end": 9.178,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 9.178,
+        "end": 9.22,
+        "type": "spacing"
+      },
+      {
+        "text": "Mesin",
+        "start": 9.22,
+        "end": 9.508,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 9.508,
+        "end": 9.54,
+        "type": "spacing"
+      },
+      {
+        "text": "motor",
+        "start": 9.54,
+        "end": 9.769,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 9.769,
+        "end": 9.78,
+        "type": "spacing"
+      },
+      {
+        "text": "tiba-tiba",
+        "start": 9.78,
+        "end": 10.248,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 10.248,
+        "end": 10.26,
+        "type": "spacing"
+      },
+      {
+        "text": "mati.",
+        "start": 10.26,
+        "end": 10.805,
+        "type": "word"
+      }
+    ],
+    "transcription_id": "18607234c83ddba49a8b",
+    "audio_duration_secs": 10.945306
+  }
+]

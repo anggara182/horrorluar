@@ -1,0 +1,113 @@
+[
+  {
+    "language_code": "",
+    "language_probability": 1,
+    "text": "Kak, saya udah di titik jemput, Kakaknya di mana?",
+    "words": [
+      {
+        "text": "Kak,",
+        "start": 0.17,
+        "end": 0.653,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 0.653,
+        "end": 0.674,
+        "type": "spacing"
+      },
+      {
+        "text": "saya",
+        "start": 0.674,
+        "end": 0.862,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 0.862,
+        "end": 0.88,
+        "type": "spacing"
+      },
+      {
+        "text": "udah",
+        "start": 0.88,
+        "end": 1.096,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 1.096,
+        "end": 1.12,
+        "type": "spacing"
+      },
+      {
+        "text": "di",
+        "start": 1.12,
+        "end": 1.175,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 1.175,
+        "end": 1.175,
+        "type": "spacing"
+      },
+      {
+        "text": "titik",
+        "start": 1.175,
+        "end": 1.438,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 1.438,
+        "end": 1.47,
+        "type": "spacing"
+      },
+      {
+        "text": "jemput,",
+        "start": 1.47,
+        "end": 1.924,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 1.924,
+        "end": 2.101,
+        "type": "spacing"
+      },
+      {
+        "text": "Kakaknya",
+        "start": 2.101,
+        "end": 2.569,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 2.569,
+        "end": 2.58,
+        "type": "spacing"
+      },
+      {
+        "text": "di",
+        "start": 2.58,
+        "end": 2.692,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 2.692,
+        "end": 2.692,
+        "type": "spacing"
+      },
+      {
+        "text": "mana?",
+        "start": 2.692,
+        "end": 3.094,
+        "type": "word"
+      }
+    ],
+    "transcription_id": "9378fe1042cb3bb10598",
+    "audio_duration_secs": 3.422041
+  }
+]

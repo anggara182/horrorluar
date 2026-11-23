@@ -1,0 +1,173 @@
+[
+  {
+    "language_code": "",
+    "language_probability": 1,
+    "text": "Kamu lihat spion Plat motor yang kamu naikin B empat dua satu tujuh Sama.",
+    "words": [
+      {
+        "text": "Kamu",
+        "start": 0.13,
+        "end": 0.451,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 0.451,
+        "end": 0.47,
+        "type": "spacing"
+      },
+      {
+        "text": "lihat",
+        "start": 0.47,
+        "end": 0.682,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 0.682,
+        "end": 0.7,
+        "type": "spacing"
+      },
+      {
+        "text": "spion",
+        "start": 0.7,
+        "end": 1.351,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 1.351,
+        "end": 1.465,
+        "type": "spacing"
+      },
+      {
+        "text": "Plat",
+        "start": 1.465,
+        "end": 1.75,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 1.75,
+        "end": 1.782,
+        "type": "spacing"
+      },
+      {
+        "text": "motor",
+        "start": 1.782,
+        "end": 2.017,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 2.017,
+        "end": 2.03,
+        "type": "spacing"
+      },
+      {
+        "text": "yang",
+        "start": 2.03,
+        "end": 2.18,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 2.18,
+        "end": 2.18,
+        "type": "spacing"
+      },
+      {
+        "text": "kamu",
+        "start": 2.18,
+        "end": 2.423,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 2.423,
+        "end": 2.44,
+        "type": "spacing"
+      },
+      {
+        "text": "naikin",
+        "start": 2.44,
+        "end": 3.192,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 3.192,
+        "end": 3.37,
+        "type": "spacing"
+      },
+      {
+        "text": "B",
+        "start": 3.37,
+        "end": 3.696,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 3.696,
+        "end": 3.77,
+        "type": "spacing"
+      },
+      {
+        "text": "empat",
+        "start": 3.77,
+        "end": 4.07,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 4.07,
+        "end": 4.08,
+        "type": "spacing"
+      },
+      {
+        "text": "dua",
+        "start": 4.08,
+        "end": 4.296,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 4.296,
+        "end": 4.33,
+        "type": "spacing"
+      },
+      {
+        "text": "satu",
+        "start": 4.33,
+        "end": 4.563,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 4.563,
+        "end": 4.58,
+        "type": "spacing"
+      },
+      {
+        "text": "tujuh",
+        "start": 4.58,
+        "end": 5.332,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 5.332,
+        "end": 5.51,
+        "type": "spacing"
+      },
+      {
+        "text": "Sama.",
+        "start": 5.51,
+        "end": 6.126,
+        "type": "word"
+      }
+    ],
+    "transcription_id": "285a4955b23b5b2a40dd",
+    "audio_duration_secs": 6.269388
+  }
+]

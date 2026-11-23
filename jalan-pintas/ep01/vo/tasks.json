@@ -1,0 +1,134 @@
+{
+ "b01_t1": {
+  "task_id": "777de7ef-0c98-4c3b-9eaa-6677e72e2a5b",
+  "who": "NARATOR",
+  "text": "[urgent] Bayangin kamu lagi dibonceng ojol tengah malem... [tense] terus drivernya ngechat kamu dari aplikasi.",
+  "credit": 141
+ },
+ "b01_t2": {
+  "task_id": "d733f5cd-8922-4b69-b95f-15b7d570e351",
+  "who": "NARATOR",
+  "text": "[urgent] Bayangin kamu lagi dibonceng ojol tengah malem... [tense] terus drivernya ngechat kamu dari aplikasi.",
+  "credit": 141
+ },
+ "b02_t1": {
+  "task_id": "8429afc1-05dd-43a7-9f5e-22e8951fc8f0",
+  "who": "JUNED",
+  "text": "[annoyed] Kak, saya udah di titik jemput. Kakaknya di mana?",
+  "credit": 75
+ },
+ "b02_t2": {
+  "task_id": "8f00600f-4e1e-402d-a7e8-54ed04d669da",
+  "who": "JUNED",
+  "text": "[annoyed] Kak, saya udah di titik jemput. Kakaknya di mana?",
+  "credit": 75
+ },
+ "b03_t1": {
+  "task_id": "da8e9d05-88cd-4461-823a-92fe2fef694c",
+  "who": "NARATOR",
+  "text": "[fast] Padahal kamu lagi duduk di boncengannya. [fast] Kamu baru kelar shift di minimarket. Pesen ojol. Lima menit, ada motor berhenti. Jaket ungu. Plat B empat dua satu tujuh. Nama di dada: Juned. [confident] Semua cocok. Kamu naik. [tense] Sekarang kamu buka peta. Titik motornya Juned... masih diem di depan minimarket. [fast] Kamu tepuk pundak drivernya.",
+  "credit": 459
+ },
+ "b03_t2": {
+  "task_id": "dbcb3487-f282-496c-870c-30c9a4443e8f",
+  "who": "NARATOR",
+  "text": "[fast] Padahal kamu lagi duduk di boncengannya. [fast] Kamu baru kelar shift di minimarket. Pesen ojol. Lima menit, ada motor berhenti. Jaket ungu. Plat B empat dua satu tujuh. Nama di dada: Juned. [confident] Semua cocok. Kamu naik. [tense] Sekarang kamu buka peta. Titik motornya Juned... masih diem di depan minimarket. [fast] Kamu tepuk pundak drivernya.",
+  "credit": 459
+ },
+ "b04_t1": {
+  "task_id": "6221794f-4983-475a-ac4f-24a0a6c8495f",
+  "who": "PENGENDARA",
+  "text": "[low] [calm] Pegangan, Kak. Kita lewat jalan pintas.",
+  "credit": 66
+ },
+ "b04_t2": {
+  "task_id": "753437e4-76fa-47f8-85c7-76b94c432e9f",
+  "who": "PENGENDARA",
+  "text": "[low] [calm] Pegangan, Kak. Kita lewat jalan pintas.",
+  "credit": 66
+ },
+ "b05_t1": {
+  "task_id": "b39c106e-4d19-45ef-b728-3b3d188ff64f",
+  "who": "NARATOR",
+  "text": "[tense] Dia belok ke jalan tanpa lampu. Ke arah rel yang udah mati.",
+  "credit": 86
+ },
+ "b05_t2": {
+  "task_id": "25c9667a-6b05-4583-bad5-c961e0470117",
+  "who": "NARATOR",
+  "text": "[tense] Dia belok ke jalan tanpa lampu. Ke arah rel yang udah mati.",
+  "credit": 86
+ },
+ "b06_t1": {
+  "task_id": "f7811310-efc8-454f-aa11-b6ddeeaf47be",
+  "who": "JUNED",
+  "text": "[annoyed] Kak, saya liat tadi Kakak naik motor orang. Itu bukan saya.",
+  "credit": 88
+ },
+ "b06_t2": {
+  "task_id": "80915bd5-9a72-4c6c-8e25-8024d99343f4",
+  "who": "JUNED",
+  "text": "[annoyed] Kak, saya liat tadi Kakak naik motor orang. Itu bukan saya.",
+  "credit": 88
+ },
+ "b07_t1": {
+  "task_id": "9743bded-ad4c-4b74-984b-bf25bfc2b040",
+  "who": "NARATOR",
+  "text": "[fast] Kamu liat spion. Plat motor yang kamu naikin... [creepy] B empat dua satu tujuh. Sama.",
+  "credit": 119
+ },
+ "b07_t2": {
+  "task_id": "a695abf8-f4c2-44e8-8b8b-59752bd2a64c",
+  "who": "NARATOR",
+  "text": "[fast] Kamu liat spion. Plat motor yang kamu naikin... [creepy] B empat dua satu tujuh. Sama.",
+  "credit": 119
+ },
+ "b08_t1": {
+  "task_id": "d31120c6-5f5b-4faf-a130-38381c238d8a",
+  "who": "JUNED",
+  "text": "[scared] Kak, saya ngikutin dari belakang. Liat foto ini.",
+  "credit": 72
+ },
+ "b08_t2": {
+  "task_id": "4162a9bd-9d71-4e7e-95be-4394255f1bd0",
+  "who": "JUNED",
+  "text": "[scared] Kak, saya ngikutin dari belakang. Liat foto ini.",
+  "credit": 72
+ },
+ "b09_t1": {
+  "task_id": "692865f0-915d-4760-9c8a-550928f93e15",
+  "who": "NARATOR",
+  "text": "[tense] Fotonya masuk. Diambil dari motor di belakangmu. Itu punggungmu, di boncengan. [creepy] Dan helm drivernya... ngadep ke belakang. Ke arahmu. [urgent] Mesin motor tiba-tiba mati.",
+  "credit": 238
+ },
+ "b09_t2": {
+  "task_id": "33c03e77-e4fb-419d-815b-bee0cf21ad89",
+  "who": "NARATOR",
+  "text": "[tense] Fotonya masuk. Diambil dari motor di belakangmu. Itu punggungmu, di boncengan. [creepy] Dan helm drivernya... ngadep ke belakang. Ke arahmu. [urgent] Mesin motor tiba-tiba mati.",
+  "credit": 238
+ },
+ "b10_t1": {
+  "task_id": "9b4427a3-90eb-400e-b2e1-76aa54154655",
+  "who": "PENGENDARA",
+  "text": "[low] [calm] Jangan liat ke belakang, Kak. Yang ngikutin kita itu bukan ojol.",
+  "credit": 98
+ },
+ "b10_t2": {
+  "task_id": "28ec4eea-ab52-4cd6-96ec-d16b0567fcef",
+  "who": "PENGENDARA",
+  "text": "[low] [calm] Jangan liat ke belakang, Kak. Yang ngikutin kita itu bukan ojol.",
+  "credit": 98
+ },
+ "b11_t1": {
+  "task_id": "f4499f4a-5acd-4a82-a2b6-30eb167771c9",
+  "who": "NARATOR",
+  "text": "[intense] Jadi kamu percaya yang mana? [fast] Satu: lompat turun, tunggu motor di belakang. Dua: tetap pegangan sampai jalan pintasnya habis. [sharp] Satu... atau dua?",
+  "credit": 215
+ },
+ "b11_t2": {
+  "task_id": "4ee55860-26e3-40d3-a802-fb488fe240fd",
+  "who": "NARATOR",
+  "text": "[intense] Jadi kamu percaya yang mana? [fast] Satu: lompat turun, tunggu motor di belakang. Dua: tetap pegangan sampai jalan pintasnya habis. [sharp] Satu... atau dua?",
+  "credit": 215
+ }
+}

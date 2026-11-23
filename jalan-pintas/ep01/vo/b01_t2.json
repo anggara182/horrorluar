@@ -1,0 +1,173 @@
+[
+  {
+    "language_code": "",
+    "language_probability": 1,
+    "text": "Bayangin kamu lagi di bonceng ojol tengah malem, terus drivernya ngechat kamu dari aplikasi.",
+    "words": [
+      {
+        "text": "Bayangin",
+        "start": 0.18,
+        "end": 0.648,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 0.648,
+        "end": 0.68,
+        "type": "spacing"
+      },
+      {
+        "text": "kamu",
+        "start": 0.68,
+        "end": 0.909,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 0.909,
+        "end": 0.92,
+        "type": "spacing"
+      },
+      {
+        "text": "lagi",
+        "start": 0.92,
+        "end": 1.119,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 1.119,
+        "end": 1.12,
+        "type": "spacing"
+      },
+      {
+        "text": "di",
+        "start": 1.12,
+        "end": 1.177,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 1.177,
+        "end": 1.177,
+        "type": "spacing"
+      },
+      {
+        "text": "bonceng",
+        "start": 1.177,
+        "end": 1.508,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 1.508,
+        "end": 1.52,
+        "type": "spacing"
+      },
+      {
+        "text": "ojol",
+        "start": 1.52,
+        "end": 1.793,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 1.793,
+        "end": 1.794,
+        "type": "spacing"
+      },
+      {
+        "text": "tengah",
+        "start": 1.794,
+        "end": 2.112,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 2.112,
+        "end": 2.113,
+        "type": "spacing"
+      },
+      {
+        "text": "malem,",
+        "start": 2.113,
+        "end": 2.604,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 2.604,
+        "end": 2.911,
+        "type": "spacing"
+      },
+      {
+        "text": "terus",
+        "start": 2.911,
+        "end": 3.157,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 3.157,
+        "end": 3.16,
+        "type": "spacing"
+      },
+      {
+        "text": "drivernya",
+        "start": 3.16,
+        "end": 3.627,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 3.627,
+        "end": 3.64,
+        "type": "spacing"
+      },
+      {
+        "text": "ngechat",
+        "start": 3.64,
+        "end": 3.929,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 3.929,
+        "end": 3.95,
+        "type": "spacing"
+      },
+      {
+        "text": "kamu",
+        "start": 3.95,
+        "end": 4.171,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 4.171,
+        "end": 4.18,
+        "type": "spacing"
+      },
+      {
+        "text": "dari",
+        "start": 4.18,
+        "end": 4.339,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 4.339,
+        "end": 4.35,
+        "type": "spacing"
+      },
+      {
+        "text": "aplikasi.",
+        "start": 4.35,
+        "end": 5.142,
+        "type": "word"
+      }
+    ],
+    "transcription_id": "92b7d06e60f3f4731eb5",
+    "audio_duration_secs": 5.355102
+  }
+]
