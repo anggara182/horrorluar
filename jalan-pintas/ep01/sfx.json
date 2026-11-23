@@ -1,0 +1,37 @@
+{
+ "end": 77.74,
+ "beds": [
+  {"f": "kampung_night", "from": 0, "to": 11.73, "db": -26},
+  {"f": "moto_ride", "from": 0, "to": 11.73, "db": -24, "duck": true},
+  {"f": "fluor_buzz", "from": 11.73, "to": 24.13, "db": -30},
+  {"f": "city_night", "from": 11.73, "to": 24.13, "db": -28},
+  {"f": "moto_idle", "from": 15.2, "to": 24.13, "db": -26, "duck": true},
+  {"f": "kampung_night", "from": 24.13, "to": 35.97, "db": -26},
+  {"f": "moto_ride", "from": 24.13, "to": 60.26, "db": -24, "duck": true},
+  {"f": "drone", "from": 35.97, "to": 77.74, "db": -24},
+  {"f": "wind", "from": 35.97, "to": 77.74, "db": -30},
+  {"f": "moto_idle", "from": 48.11, "to": 51.2, "db": -32},
+  {"f": "moto_idle", "from": 68.27, "to": 77.74, "db": -34},
+  {"f": "heartbeat", "from": 66.04, "to": 77.74, "db": -22}
+ ],
+ "hits": [
+  {"f": "whoosh", "t": 0.0, "db": -14},
+  {"f": "@notif", "t": 3.09, "db": -18},
+  {"f": "hit", "t": 9.43, "db": -24},
+  {"f": "door_open", "t": 11.73, "db": -26},
+  {"f": "whoosh", "t": 14.93, "db": -22},
+  {"f": "hit", "t": 25.8, "db": -20},
+  {"f": "cloth", "t": 29.27, "db": -20},
+  {"f": "whoosh", "t": 33.94, "db": -20},
+  {"f": "@notif", "t": 37.84, "db": -18},
+  {"f": "whoosh", "t": 43.25, "db": -18},
+  {"f": "hit", "t": 47.17, "db": -18},
+  {"f": "@notif", "t": 51.2, "db": -18},
+  {"f": "sting", "t": 56.66, "db": -14},
+  {"f": "hit", "t": 56.66, "db": -14},
+  {"f": "low_note", "t": 60.3, "db": -16},
+  {"f": "riser", "t": 71.9, "db": -22},
+  {"f": "@pop", "t": 68.27, "db": -18},
+  {"f": "@pop", "t": 71.95, "db": -18}
+ ]
+}

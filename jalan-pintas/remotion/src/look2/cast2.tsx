@@ -9,8 +9,8 @@ export const K = {
   kulit: '#9a6443', rambut: '#1b130f', seragam: '#ff8a2a', seragamGelap: '#d9661a', jeans: '#2f4a78', ransel: '#59606e', helmP: '#3d4a66',
 };
 
-const Wheel: React.FC<{ x: number }> = ({ x }) => (
-  <group position={[x, 0.245, 0]}>
+const Wheel: React.FC<{ x: number; spin?: number }> = ({ x, spin = 0 }) => (
+  <group position={[x, 0.245, 0]} rotation={[0, 0, -spin]}>
     <T g={torus(0.18, 0.065)} color={K.rubber} outline={0.01} />
     <T g={cyl(0.125, 0.125, 0.07)} r={[Math.PI / 2, 0, 0]} color={K.chrome} outline={0.006} />
     <T g={cyl(0.04, 0.04, 0.12)} r={[Math.PI / 2, 0, 0]} color={K.trim} outline={0} />
@@ -23,7 +23,8 @@ export const plateTex = () => canvasTex(512, 160, (g) => {
   g.fillStyle = '#f2f2f2'; g.font = '800 92px Inter'; g.textAlign = 'center'; g.textBaseline = 'middle'; g.fillText('B 4217 KZ', 256, 84);
 });
 
-export const Scooter: React.FC<{ plate: THREE.Texture; headlight?: boolean }> = ({ plate, headlight = true }) => {
+export const Scooter: React.FC<{ plate: THREE.Texture; headlight?: boolean; dark?: boolean; mirrorTex?: THREE.Texture; spin?: number }> = ({ plate, headlight = true, dark = false, mirrorTex, spin = 0 }) => {
+  const BODY = dark ? '#2b2e38' : K.body;
   const cowl = profile('cowl', [[-0.12, 0.34], [-0.16, 0.64], [-0.45, 0.68], [-0.78, 0.72], [-0.9, 0.62], [-0.93, 0.52], [-0.8, 0.52], [-0.55, 0.5], [-0.3, 0.42], [-0.18, 0.34], [-0.12, 0.34]], 0.36, 0.035);
   const shield = profile('shield', [[0.2, 0.3], [0.25, 0.6], [0.3, 0.86], [0.34, 1.02], [0.44, 1.04], [0.53, 1.0], [0.5, 0.8], [0.46, 0.5], [0.4, 0.32], [0.3, 0.26], [0.2, 0.3]], 0.38, 0.03);
   const seat = profile('seat', [[-0.05, 0.66], [-0.1, 0.77], [-0.3, 0.77], [-0.6, 0.78], [-0.79, 0.72], [-0.83, 0.66], [-0.72, 0.655], [-0.4, 0.645], [-0.05, 0.66]], 0.3, 0.04);
@@ -31,19 +32,19 @@ export const Scooter: React.FC<{ plate: THREE.Texture; headlight?: boolean }> = 
   return (
     <group>
       <Blob p={[0, 0.01, 0]} s={[2.0, 0.8]} opacity={0.7} />
-      <Wheel x={0.64} /><Wheel x={-0.64} />
-      <T g={cowl} color={K.body} />
-      <T g={shield} color={K.body} />
+      <Wheel x={0.64} spin={spin} /><Wheel x={-0.64} spin={spin} />
+      <T g={cowl} color={BODY} />
+      <T g={shield} color={BODY} />
       <T g={seat} color={K.seat} />
-      <T g={fender} color={K.body} outline={0.008} />
+      <T g={fender} color={BODY} outline={0.008} />
       <T g={rbox(0.5, 0.07, 0.3, 0.02)} p={[0.02, 0.31, 0]} color={K.trim} />
       <T g={rbox(0.42, 0.16, 0.22, 0.04)} p={[-0.42, 0.33, 0]} color="#4a4e5a" />
       <T g={cyl(0.045, 0.035, 0.42)} p={[-0.62, 0.3, 0.17]} r={[0, 0, Math.PI / 2 - 0.15]} color={K.chrome} outline={0.006} />
       {[-0.07, 0.07].map((z) => <Limb key={z} a={[0.64, 0.25, z]} b={[0.5, 0.95, z]} r={0.022} color={K.chrome} outline={0.006} />)}
       {/* headset + headlight */}
-      <T g={sphere(0.1)} s={[1.45, 0.85, 1.6]} p={[0.5, 1.1, 0]} color={K.body} />
+      <T g={sphere(0.1)} s={[1.45, 0.85, 1.6]} p={[0.5, 1.1, 0]} color={BODY} />
       <mesh position={[0.635, 1.1, 0]} scale={[0.35, 0.55, 1]}>
-        <sphereGeometry args={[0.07, 24, 16]} /><meshBasicMaterial color="#fffbe8" toneMapped={false} />
+        <sphereGeometry args={[0.07, 24, 16]} /><meshBasicMaterial color={headlight ? '#fffbe8' : '#3a3c44'} toneMapped={false} />
       </mesh>
       {headlight && <Glow p={[0.68, 1.1, 0]} color="#fff2cc" size={0.9} opacity={0.95} />}
       {/* handlebar, grips, mirrors */}
@@ -53,8 +54,8 @@ export const Scooter: React.FC<{ plate: THREE.Texture; headlight?: boolean }> = 
           <Limb a={[0.46, 1.13, 0.27 * s]} b={[0.46, 1.13, 0.35 * s]} r={0.024} color={K.rubber} outline={0.006} />
           <Limb a={[0.46, 1.14, 0.22 * s]} b={[0.42, 1.33, 0.27 * s]} r={0.008} color={K.trim} outline={0.004} />
           <T g={sphere(0.05)} s={[0.35, 0.8, 1.25]} p={[0.42, 1.36, 0.28 * s]} color="#2a2e38" outline={0.006} />
-          <mesh position={[0.405, 1.36, 0.28 * s]} rotation={[0, -Math.PI / 2, 0]} scale={[1.25, 0.8, 1]}>
-            <circleGeometry args={[0.045, 24]} /><meshStandardMaterial color="#9fb6e0" metalness={0.9} roughness={0.08} />
+          <mesh position={[0.396, 1.36, 0.28 * s]} rotation={[0, -Math.PI / 2, 0]} scale={[1.25, 0.8, 1]}>
+            <circleGeometry args={[0.045, 24]} />{mirrorTex && s === 1 ? <meshBasicMaterial map={mirrorTex} toneMapped={false} /> : <meshStandardMaterial color="#9fb6e0" metalness={0.9} roughness={0.08} />}
           </mesh>
           <mesh position={[-0.9, 0.6, 0.15 * s]}><sphereGeometry args={[0.02, 12, 8]} /><meshBasicMaterial color="#ffae3a" /></mesh>
         </group>
@@ -127,13 +128,16 @@ const FullHelmet: React.FC = () => (
 );
 
 /** Si Pengendara. headTurn rotates the helmet around y (Math.PI = facing backwards). */
-export const Pengendara: React.FC<{ headTurn?: number }> = ({ headTurn = 0 }) => (
+export const badgeTex = () => canvasTex(256, 96, (g) => { g.fillStyle = '#f4f0ff'; g.fillRect(0, 0, 256, 96); g.fillStyle = '#7b3fe4'; g.fillRect(0, 0, 256, 22); g.fillStyle = '#1a1030'; g.font = '900 50px Inter'; g.textAlign = 'center'; g.fillText('JUNED', 128, 76); });
+
+export const Pengendara: React.FC<{ headTurn?: number; badge?: THREE.Texture }> = ({ headTurn = 0, badge }) => (
   <group>
     <T g={rbox(0.26, 0.16, 0.3, 0.06)} p={[-0.12, 0.84, 0]} color={K.celana} />
     <group position={[-0.08, 1.12, 0]} rotation={[0, 0, -0.2]}>
       <T g={capsule(0.16, 0.3)} s={[0.9, 1, 1.18]} color={K.jaket} />
       {[-0.07, 0.07].map((y) => <T key={y} g={cyl(0.149, 0.149, 0.03)} s={[0.9, 1, 1.18]} p={[0, y, 0]} color={K.stripe} emissive="#b9c2d6" ei={0.25} outline={0.006} />)}
       <T g={torus(0.085, 0.028)} p={[0.0, 0.29, 0]} r={[Math.PI / 2, 0, 0]} color={K.jaketGelap} outline={0.006} />
+      {badge && <mesh position={[0.147, 0.13, 0.07]} rotation={[0, Math.PI / 2, 0]}><planeGeometry args={[0.1, 0.0375]} /><meshBasicMaterial map={badge} toneMapped={false} /></mesh>}
     </group>
     <Limb a={[-0.04, 1.36, 0]} b={[-0.02, 1.42, 0]} r={0.05} color={K.kulit} />
     <group position={[-0.01, 1.53, 0]} rotation={[0, headTurn, 0]}><FullHelmet /></group>
@@ -159,7 +163,7 @@ export const Phone: React.FC<{ screen?: THREE.Texture; p?: V3; r?: V3; s?: numbe
 );
 
 /** Kamu. Left hand on the driver's waist, right hand holds the phone. */
-export const Penumpang: React.FC<{ face: THREE.Texture; screen?: THREE.Texture; headTurn?: number; headDown?: number }> = ({ face, screen, headTurn = 0, headDown = 0.35 }) => (
+export const Penumpang: React.FC<{ face: THREE.Texture; screen?: THREE.Texture; headTurn?: number; headDown?: number; tap?: number }> = ({ face, screen, headTurn = 0, headDown = 0.35, tap }) => (
   <group>
     <T g={rbox(0.26, 0.15, 0.3, 0.06)} p={[-0.53, 0.85, 0]} color={K.jeans} />
     <group position={[-0.52, 1.13, 0]} rotation={[0, 0, -0.08]}>
@@ -180,8 +184,14 @@ export const Penumpang: React.FC<{ face: THREE.Texture; screen?: THREE.Texture; 
       <T g={rbox(0.09, 0.014, 0.2, 0.006)} p={[0.13, 0.065, 0]} r={[0, 0, -0.25]} color={K.helmP} outline={0.005} />
     </group>
     {/* left arm to the driver's waist */}
-    <Limb a={[-0.48, 1.3, -0.19]} b={[-0.36, 1.1, -0.24]} r={0.05} color={K.seragam} />
-    <Limb a={[-0.36, 1.1, -0.24]} b={[-0.21, 1.04, -0.2]} r={0.042} color={K.kulit} />
+    {tap === undefined ? <>
+      <Limb a={[-0.48, 1.3, -0.19]} b={[-0.36, 1.1, -0.24]} r={0.05} color={K.seragam} />
+      <Limb a={[-0.36, 1.1, -0.24]} b={[-0.21, 1.04, -0.2]} r={0.042} color={K.kulit} />
+    </> : <>
+      <Limb a={[-0.48, 1.3, -0.19]} b={[-0.33, 1.24, -0.3]} r={0.05} color={K.seragam} />
+      <Limb a={[-0.33, 1.24, -0.3]} b={[-0.13, 1.36 + tap * 0.05, -0.21]} r={0.042} color={K.kulit} />
+      <T g={sphere(0.045)} s={[1.3, 0.7, 1]} p={[-0.11, 1.37 + tap * 0.05, -0.2]} color={K.kulit} outline={0.004} />
+    </>}
     {/* right arm holding the phone */}
     <Limb a={[-0.48, 1.3, 0.19]} b={[-0.38, 1.08, 0.22]} r={0.05} color={K.seragam} />
     <Limb a={[-0.38, 1.08, 0.22]} b={[-0.29, 1.19, 0.08]} r={0.042} color={K.kulit} />
@@ -196,12 +206,41 @@ export const Penumpang: React.FC<{ face: THREE.Texture; screen?: THREE.Texture; 
   </group>
 );
 
+/** Kamu standing (flashback at TOKO 24), facing +x, phone in the right hand. */
+export const PenumpangBerdiri: React.FC<{ face: THREE.Texture; screen?: THREE.Texture; headDown?: number }> = ({ face, screen, headDown = 0.35 }) => (
+  <group>
+    <Blob p={[0, 0.01, 0]} s={[0.7, 0.5]} opacity={0.6} />
+    <T g={rbox(0.24, 0.16, 0.3, 0.06)} p={[0, 0.98, 0]} color={K.jeans} />
+    <group position={[0, 1.27, 0]}>
+      <T g={capsule(0.15, 0.3)} s={[0.85, 1, 1.15]} color={K.seragam} />
+      <T g={torus(0.08, 0.026)} p={[0, 0.28, 0]} r={[Math.PI / 2, 0, 0]} color={K.seragamGelap} outline={0.006} />
+      <T g={rbox(0.14, 0.34, 0.28, 0.05)} p={[-0.2, 0, 0]} color={K.ransel} />
+      {[-1, 1].map((s) => <Limb key={s} a={[-0.12, 0.21, 0.1 * s]} b={[0.1, -0.05, 0.12 * s]} r={0.015} color="#3a3f4c" outline={0.004} />)}
+    </group>
+    <Limb a={[0, 1.5, 0]} b={[0, 1.55, 0]} r={0.048} color={K.kulit} />
+    <group position={[0.01, 1.65, 0]} rotation={[0, 0, -headDown]}><Head face={face} /></group>
+    <Limb a={[0, 1.44, -0.19]} b={[0.02, 1.16, -0.22]} r={0.05} color={K.seragam} />
+    <Limb a={[0.02, 1.16, -0.22]} b={[0.04, 0.92, -0.2]} r={0.042} color={K.kulit} />
+    <Limb a={[0, 1.44, 0.19]} b={[0.06, 1.18, 0.22]} r={0.05} color={K.seragam} />
+    <Limb a={[0.06, 1.18, 0.22]} b={[0.2, 1.28, 0.1]} r={0.042} color={K.kulit} />
+    <Phone screen={screen} p={[0.23, 1.32, 0.08]} r={[0, -Math.PI / 2 + 0.35, 0.95]} s={0.85} />
+    {[-1, 1].map((s) => (
+      <group key={s}>
+        <Limb a={[0, 0.95, 0.1 * s]} b={[0.01, 0.52, 0.11 * s]} r={0.068} color={K.jeans} />
+        <Limb a={[0.01, 0.52, 0.11 * s]} b={[0, 0.1, 0.11 * s]} r={0.058} color={K.jeans} />
+        <T g={rbox(0.22, 0.08, 0.1, 0.03)} p={[0.05, 0.05, 0.11 * s]} color="#ecebe6" />
+      </group>
+    ))}
+  </group>
+);
+
 /** Scooter + both riders, in profile space. */
-export const Ride: React.FC<{ plate: THREE.Texture; face: THREE.Texture; screen?: THREE.Texture; headTurn?: number; passenger?: boolean; headDown?: number }> =
-  ({ plate, face, screen, headTurn = 0, passenger = true, headDown }) => (
+export const Ride: React.FC<{ plate: THREE.Texture; face: THREE.Texture; screen?: THREE.Texture; headTurn?: number; passenger?: boolean; headDown?: number;
+  headlight?: boolean; dark?: boolean; mirrorTex?: THREE.Texture; spin?: number; badge?: THREE.Texture; driver?: boolean; tap?: number; pTurn?: number }> =
+  ({ plate, face, screen, headTurn = 0, passenger = true, headDown, headlight = true, dark, mirrorTex, spin, badge, driver = true, tap, pTurn = 0 }) => (
     <group>
-      <Scooter plate={plate} />
-      <Pengendara headTurn={headTurn} />
-      {passenger && <Penumpang face={face} screen={screen} headDown={headDown} />}
+      <Scooter plate={plate} headlight={headlight} dark={dark} mirrorTex={mirrorTex} spin={spin} />
+      {driver && <Pengendara headTurn={headTurn} badge={badge} />}
+      {passenger && <Penumpang face={face} screen={screen} headDown={headDown} tap={tap} headTurn={pTurn} />}
     </group>
   );

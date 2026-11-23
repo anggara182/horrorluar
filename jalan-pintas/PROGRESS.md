@@ -6,7 +6,9 @@ Selesai: 0 naskah (v2, `ep01/naskah.md`), 1 VO, 2 timing + 3 shot list (`ep01/br
 - ai33: 22 task (2 take × 11 blok), 3.314 kredit, `ep01/vo/tasks.json`. Suara: Angga (narator), Baron (Si Pengendara), Kurnia (Juned, EQ telepon).
 - Tidak ada hening >0,8 dtk, jadi tidak ada yang dipotong.
 
-Berikutnya: langkah 4 build. Komposisi `EP01` di Remotion yang membaca `shots.json` + `vo_timing.json` (caption karaoke per kata), aset baru di daftar `brief.md`, kamera bergerak per shot, VO + SFX + mesin. Lalu langkah 5: SATU contact sheet (1 frame per shot).
+Selesai juga: 4 build (`remotion/src/ep/EP01.tsx`, 35 shot dari `shots.json`, caption karaoke dari `vo_timing.json`, label pilihan diproyeksikan ke titik 3D), 5 preview (`remotion/out/contact-sheet.jpg`, `node scripts/contact.mjs ep01 0.5`), audio (`tools/mix.py ep01` → `ep01/mix.wav`, −13,8 LUFS, peak −3,1 dBFS; cue SFX di `ep01/sfx.json`, semua dari `library/sfx` + 2 bunyi sintetis).
+Sedang: 6 render. Perintah: `tools/render.sh ep01 v1` (log `ep01/render.log`) → `ep01/render/ep01-v1.mp4` + `-hp.mp4`.
+Berikutnya: adrian nonton v1 → perbaikan per shot (render ulang cuma butuh menit) → cover + caption → jadwal (izin adrian).
 Kalau ada baris yang jelek: generate ulang baris itu saja (hapus `ep01/vo/bNN_t*.mp3`, jalankan `tools/vo.py ep01`).
 
 Catatan render (23 Nov, pipeline diganti):
