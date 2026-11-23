@@ -2,9 +2,10 @@
 
 Catatan per episode: apa yang terjadi, pilihan, hasil vote, dan yang jadi permanen.
 
-| Ep | Judul internal | Status | Pilihan di akhir | Hasil vote | Yang jadi permanen |
+| Ep | Judul internal | Status | Pilihan di akhir | Opsi BENAR (kanon) | Yang jadi permanen |
 |---|---|---|---|---|---|
-| 01 | Titik Ungu | shot list jadi, build berikutnya | 1 lompat turun / 2 tetap pegangan | - | Plat B 4217 KZ, ETA 7 menit, rel mati, kepala Si Pengendara bisa berputar 180° |
+| 01 | Titik Ungu | shot list jadi, build berikutnya | 1 lompat turun / 2 tetap pegangan | 1 (lompat turun) | Plat B 4217 KZ, ETA 7 menit, rel mati, kepala Si Pengendara bisa berputar 180° |
+| 02 | Tujuh Menit | draf naskah v1 | 1 terima orderan / 2 tolak, jalan biasa | 2 (tolak) | Ada "Kamu kedua" di TOKO 24 (cabang salah), orderan atas namamu dari rel mati, Juned asli sudah muncul |
 
 ## Benang season (bisa berubah mengikuti vote)
 1. Ep1–2: siapa yang memboncengmu? (dua Juned)

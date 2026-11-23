@@ -69,8 +69,23 @@ Tambahkan tempat baru di sini begitu dipakai.
 | 50–70 dtk | Twist: satu petunjuk yang jelas (foto, plat, pantulan), bukan daftar aturan. |
 | akhir | Pilihan 1/2, sama-sama berisiko. Label 1 dan 2 menempel ke benda yang dimaksud. Cut to black di kata terakhir. |
 
-Episode 2 dan seterusnya: recap 5–8 dtk → umumkan pilihan terbanyak → tunjukkan dulu akibat opsi yang kalah ("Kalau kamu pilih…") → lanjut dari opsi yang menang → pilihan baru.
-Setiap episode harus bisa ditonton sendiri. Universe = bonus untuk fans, bukan tembok untuk penonton baru.
+### Episode 2 dan seterusnya: SALAH → GAGAL → REWIND → BENAR (adrian, 23 Nov)
+Cerita ditentukan kita (kanon), bukan hasil vote. Pilihan di akhir episode tetap ditanyakan ke penonton sebagai pancingan komentar, dan jawabannya baru terbuka di episode berikutnya.
+
+| Bagian | Durasi | Isi |
+|---|---|---|
+| Recap | 5–8 dtk | "Kemarin malem…" + dua pilihan disebut lagi. Suara dari frame pertama. |
+| Cabang SALAH | 15–20 dtk | "Kalau kamu [opsi salah]…" Dimainkan seolah nyata, konsekuensinya konkret dan seram, berakhir buruk. |
+| GAGAL | ±1 dtk | Stempel GAGAL di layar + hit. Satu-satunya teks besar yang boleh selain caption dan label pilihan. |
+| Rewind | 1,5–2 dtk | Frame cabang salah diputar mundur cepat (±6×) dengan look kaset VHS: garis scan, warna geser, pita noise, ikon ◀◀. Audio = cuplikan cabang salah dibalik + desing pita. Kembali ke momen pilihan. |
+| Cabang BENAR | 35–45 dtk | "Tapi kamu [opsi benar]." Cerita lanjut, ada eskalasi dan satu twist. |
+| Pilihan baru | 6–8 dtk | Pilihan 1/2, label menempel ke benda, cut to black di kata terakhir. |
+
+Aturan:
+- Opsi yang benar dicatat di `EPISODES.md` saat episode sebelumnya ditulis, sebelum tayang. Jangan diubah setelah tayang.
+- Cabang SALAH tetap harus logis dan menanam petunjuk untuk misteri season, bukan cuma jumpscare.
+- Opsi benar tidak boleh selalu nomor yang sama, dan tidak boleh selalu yang "aman".
+- Setiap episode harus bisa ditonton sendiri. Universe = bonus untuk fans, bukan tembok untuk penonton baru.
 
 ## Aturan menulis
 - Bahasa ngobrol Jakarta-an ringan ("malem", "nggak"), kalimat pendek. Angka ditulis huruf.
