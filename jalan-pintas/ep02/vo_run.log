@@ -1,2 +1,44 @@
 b01_t1 NARATOR ok 89
 b01_t2 NARATOR ok 89
+b02_t1 NARATOR ok 271
+b02_t2 NARATOR ok 271
+b03_t1 PENGENDARA ok 37
+b03_t2 PENGENDARA ok 37
+Traceback (most recent call last):
+  File "/home/user/horrorluar/jalan-pintas/tools/../../pipeline/ai33.py", line 24, in _req
+    with urllib.request.urlopen(r, timeout=timeout) as resp:
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/urllib/request.py", line 189, in urlopen
+    return opener.open(url, data, timeout)
+           ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/urllib/request.py", line 495, in open
+    response = meth(req, response)
+  File "/usr/local/lib/python3.13/urllib/request.py", line 604, in http_response
+    response = self.parent.error(
+        'http', request, response, code, msg, hdrs)
+  File "/usr/local/lib/python3.13/urllib/request.py", line 533, in error
+    return self._call_chain(*args)
+           ~~~~~~~~~~~~~~~~^^^^^^^
+  File "/usr/local/lib/python3.13/urllib/request.py", line 466, in _call_chain
+    result = func(*args)
+  File "/usr/local/lib/python3.13/urllib/request.py", line 613, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 502: Bad Gateway
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/user/horrorluar/jalan-pintas/tools/vo.py", line 185, in <module>
+    generate(ep)
+    ~~~~~~~~^^^^
+  File "/home/user/horrorluar/jalan-pintas/tools/vo.py", line 96, in generate
+    tid = submit(text, VOICES[who]); last = time.time()
+  File "/home/user/horrorluar/jalan-pintas/tools/vo.py", line 72, in submit
+    return ai33.create_tts(text, voice, model_id="eleven_v3", speed=SPEED)["task_id"]
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/horrorluar/jalan-pintas/tools/../../pipeline/ai33.py", line 38, in create_tts
+    return _req("POST", "/v3/text-to-speech", d)
+  File "/home/user/horrorluar/jalan-pintas/tools/../../pipeline/ai33.py", line 30, in _req
+    raise RuntimeError(f"{method} {path} -> {e.code}: {msg}")
+RuntimeError: POST /v3/text-to-speech -> 502: 
+EXIT 1

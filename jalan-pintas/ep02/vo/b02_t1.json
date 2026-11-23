@@ -1,0 +1,317 @@
+[
+  {
+    "language_code": "",
+    "language_probability": 1,
+    "text": "Kalau kamu tetap pegangan, motornya jalan lagi. Tanpa suara mesin. Di aplikasi, tiba dalam tujuh menit, sepuluh menit kemudian, tujuh menit, satu jam kemudian, tujuh menit.",
+    "words": [
+      {
+        "text": "Kalau",
+        "start": 0.14,
+        "end": 0.439,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 0.439,
+        "end": 0.44,
+        "type": "spacing"
+      },
+      {
+        "text": "kamu",
+        "start": 0.44,
+        "end": 0.669,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 0.669,
+        "end": 0.68,
+        "type": "spacing"
+      },
+      {
+        "text": "tetap",
+        "start": 0.68,
+        "end": 0.915,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 0.915,
+        "end": 0.915,
+        "type": "spacing"
+      },
+      {
+        "text": "pegangan,",
+        "start": 0.915,
+        "end": 1.727,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 1.727,
+        "end": 1.79,
+        "type": "spacing"
+      },
+      {
+        "text": "motornya",
+        "start": 1.79,
+        "end": 2.259,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 2.259,
+        "end": 2.27,
+        "type": "spacing"
+      },
+      {
+        "text": "jalan",
+        "start": 2.27,
+        "end": 2.499,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 2.499,
+        "end": 2.51,
+        "type": "spacing"
+      },
+      {
+        "text": "lagi.",
+        "start": 2.51,
+        "end": 3.165,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 3.165,
+        "end": 3.23,
+        "type": "spacing"
+      },
+      {
+        "text": "Tanpa",
+        "start": 3.23,
+        "end": 3.537,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 3.537,
+        "end": 3.55,
+        "type": "spacing"
+      },
+      {
+        "text": "suara",
+        "start": 3.55,
+        "end": 3.79,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 3.79,
+        "end": 3.79,
+        "type": "spacing"
+      },
+      {
+        "text": "mesin.",
+        "start": 3.79,
+        "end": 4.453,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 4.453,
+        "end": 4.495,
+        "type": "spacing"
+      },
+      {
+        "text": "Di",
+        "start": 4.495,
+        "end": 4.669,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 4.669,
+        "end": 4.69,
+        "type": "spacing"
+      },
+      {
+        "text": "aplikasi,",
+        "start": 4.69,
+        "end": 5.627,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 5.627,
+        "end": 5.69,
+        "type": "spacing"
+      },
+      {
+        "text": "tiba",
+        "start": 5.69,
+        "end": 5.926,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 5.926,
+        "end": 5.94,
+        "type": "spacing"
+      },
+      {
+        "text": "dalam",
+        "start": 5.94,
+        "end": 6.158,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 6.158,
+        "end": 6.17,
+        "type": "spacing"
+      },
+      {
+        "text": "tujuh",
+        "start": 6.17,
+        "end": 6.392,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 6.392,
+        "end": 6.404,
+        "type": "spacing"
+      },
+      {
+        "text": "menit,",
+        "start": 6.404,
+        "end": 6.977,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 6.977,
+        "end": 7.04,
+        "type": "spacing"
+      },
+      {
+        "text": "sepuluh",
+        "start": 7.04,
+        "end": 7.37,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 7.37,
+        "end": 7.37,
+        "type": "spacing"
+      },
+      {
+        "text": "menit",
+        "start": 7.37,
+        "end": 7.589,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 7.589,
+        "end": 7.6,
+        "type": "spacing"
+      },
+      {
+        "text": "kemudian,",
+        "start": 7.6,
+        "end": 8.43,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 8.43,
+        "end": 8.472,
+        "type": "spacing"
+      },
+      {
+        "text": "tujuh",
+        "start": 8.472,
+        "end": 8.7,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 8.7,
+        "end": 8.711,
+        "type": "spacing"
+      },
+      {
+        "text": "menit,",
+        "start": 8.711,
+        "end": 9.367,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 9.367,
+        "end": 9.43,
+        "type": "spacing"
+      },
+      {
+        "text": "satu",
+        "start": 9.43,
+        "end": 9.673,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 9.673,
+        "end": 9.69,
+        "type": "spacing"
+      },
+      {
+        "text": "jam",
+        "start": 9.69,
+        "end": 9.814,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 9.814,
+        "end": 9.825,
+        "type": "spacing"
+      },
+      {
+        "text": "kemudian,",
+        "start": 9.825,
+        "end": 10.658,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 10.658,
+        "end": 10.7,
+        "type": "spacing"
+      },
+      {
+        "text": "tujuh",
+        "start": 10.7,
+        "end": 10.929,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 10.929,
+        "end": 10.94,
+        "type": "spacing"
+      },
+      {
+        "text": "menit.",
+        "start": 10.94,
+        "end": 11.452,
+        "type": "word"
+      }
+    ],
+    "transcription_id": "9f546c087440b32ce412",
+    "audio_duration_secs": 11.467755
+  }
+]

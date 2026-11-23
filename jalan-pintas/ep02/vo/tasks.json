@@ -14,6 +14,30 @@
  "b02_t1": {
   "task_id": "22589c20-d77d-4a42-85ad-5b9459b8daf0",
   "who": "NARATOR",
-  "text": "[fast] Kalau kamu tetap pegangan... [creepy] motornya jalan lagi. Tanpa suara mesin. [tense] Di aplikasi: tiba dalam tujuh menit. Sepuluh menit kemudian... tujuh menit. Satu jam kemudian... [creepy] tujuh menit."
+  "text": "[fast] Kalau kamu tetap pegangan... [creepy] motornya jalan lagi. Tanpa suara mesin. [tense] Di aplikasi: tiba dalam tujuh menit. Sepuluh menit kemudian... tujuh menit. Satu jam kemudian... [creepy] tujuh menit.",
+  "credit": 271
+ },
+ "b02_t2": {
+  "task_id": "d4622d8e-e7ea-478b-9c70-ed1c726200de",
+  "who": "NARATOR",
+  "text": "[fast] Kalau kamu tetap pegangan... [creepy] motornya jalan lagi. Tanpa suara mesin. [tense] Di aplikasi: tiba dalam tujuh menit. Sepuluh menit kemudian... tujuh menit. Satu jam kemudian... [creepy] tujuh menit.",
+  "credit": 271
+ },
+ "b03_t1": {
+  "task_id": "9b37eb81-1d00-4dbb-9c80-9751e6f3646c",
+  "who": "PENGENDARA",
+  "text": "[low] [calm] Udah sampai, Kak.",
+  "credit": 37
+ },
+ "b03_t2": {
+  "task_id": "f44d8ace-9365-40d9-b5c0-6eef73ec9f63",
+  "who": "PENGENDARA",
+  "text": "[low] [calm] Udah sampai, Kak.",
+  "credit": 37
+ },
+ "b04_t1": {
+  "task_id": "7d5fe97d-cadc-4f84-aa1a-d21f2cba88b8",
+  "who": "NARATOR",
+  "text": "[tense] Kamu turun. Di depan Toko Dua Puluh Empat. [creepy] Dan di depan pintunya... ada kamu. Lagi pesen ojol."
  }
 }

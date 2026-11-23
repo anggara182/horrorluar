@@ -71,7 +71,7 @@ def submit(text, voice):
         try:
             return ai33.create_tts(text, voice, model_id="eleven_v3", speed=SPEED)["task_id"]
         except RuntimeError as e:
-            if "429" in str(e) or "queue_limit" in str(e):
+            if any(c in str(e) for c in ("429", "queue_limit", "-> 502", "-> 503", "-> 504", "-> 500")):
                 w = min(delay, 300) + random.uniform(0, 10); print(f"  backoff {w:.0f}s", flush=True)
                 time.sleep(w); delay *= 2; continue
             raise

@@ -1,0 +1,41 @@
+[
+  {
+    "language_code": "",
+    "language_probability": 1,
+    "text": "Udah sampai, Kak?",
+    "words": [
+      {
+        "text": "Udah",
+        "start": 0.112,
+        "end": 0.39,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 0.39,
+        "end": 0.42,
+        "type": "spacing"
+      },
+      {
+        "text": "sampai,",
+        "start": 0.42,
+        "end": 0.742,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 0.742,
+        "end": 0.742,
+        "type": "spacing"
+      },
+      {
+        "text": "Kak?",
+        "start": 0.742,
+        "end": 1.107,
+        "type": "word"
+      }
+    ],
+    "transcription_id": "b2f45e112e98da9f04da",
+    "audio_duration_secs": 1.306122
+  }
+]
