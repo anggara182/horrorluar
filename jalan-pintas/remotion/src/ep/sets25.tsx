@@ -7,12 +7,12 @@ export type Tex = Record<string, THREE.Texture>;
 const aspect = (t: THREE.Texture) => { const im: any = t.image; return im.width / im.height; };
 
 /** Flat sprite standing on the ground: p = bottom centre, h = height (m). */
-export const Sprite: React.FC<{ tex: THREE.Texture; p: V3; h: number; color?: string; opacity?: number; ry?: number; fog?: boolean; order?: number }> =
-  ({ tex, p, h, color = '#ffffff', opacity = 1, ry = 0, fog = true, order }) => {
+export const Sprite: React.FC<{ tex: THREE.Texture; p: V3; h: number; color?: string; opacity?: number; ry?: number; fog?: boolean; order?: number; flip?: boolean }> =
+  ({ tex, p, h, color = '#ffffff', opacity = 1, ry = 0, fog = true, order, flip }) => {
     const w = h * aspect(tex);
     return (
       <group position={p} rotation={[0, ry, 0]}>
-        <mesh position={[0, h / 2, 0]} renderOrder={order}>
+        <mesh position={[0, h / 2, 0]} renderOrder={order} scale={[flip ? -1 : 1, 1, 1]}>
           <planeGeometry args={[w, h]} />
           <meshBasicMaterial map={tex} color={color} transparent opacity={opacity} alphaTest={0.02} fog={fog} toneMapped={false} />
         </mesh>
@@ -71,8 +71,8 @@ export const JalanSide: React.FC<{ t: Tex; x0: number; lamps?: boolean }> = ({ t
       <fog attach="fog" args={['#121438', 14, 70]} />
       <Back tex={t.sky} p={[x0 * 0.9, -14, -95]} h={80} />
       <Back tex={t.skyFar} p={[x0 * 0.6 - 6, -0.5, -46]} h={14} color="#8d88c8" />
-      <Sprite tex={t.trees} p={[X - 30, 0, -12]} h={9} color="#2e3360" />
-      <Sprite tex={t.trees2} p={[X + 12, 0, -14]} h={8} color="#2e3360" />
+      <Back tex={t.skyFar2} p={[x0 * 0.6 + 30, -0.5, -52]} h={12} color="#7f7ab8" />
+      {[-48, -18, 12, 42].map((dx, i) => <Sprite key={dx} tex={[t.trees, t.trees4, t.trees2, t.trees5][(Math.round(X / 18) + i) & 3]} p={[X + dx, 0, -11 - (i % 2) * 3]} h={7.5 + ((i * 7) % 3)} color={i % 2 ? '#2a2f58' : '#30356a'} flip={i % 2 === 1} />)}
       <Flat tex={t.dirt} p={[X, -0.01, -10]} s={[220, 40]} rep={[40, 8]} color="#3a3a4a" />
       <Flat tex={t.asphalt} p={[X, 0, 0]} s={[5, 220]} rep={[1, 30]} color="#9a9ec0" rz={Math.PI / 2} />
       <Strip tex={t.wallL} p={[X, 0.75, -2.9]} s={[220, 1.5]} rep={22} color="#9aa0c6" />
@@ -114,8 +114,7 @@ export const RelSide: React.FC<{ t: Tex; x0: number }> = ({ t, x0 }) => {
       <color attach="background" args={['#1a0607']} />
       <fog attach="fog" args={['#2a0b0d', 9, 50]} />
       <Back tex={t.skyRed} p={[x0 * 0.9, -14, -95]} h={80} />
-      <Sprite tex={t.trees3} p={[X - 20, 0, -16]} h={12} color="#5a1c1e" />
-      <Sprite tex={t.trees3} p={[X + 14, 0, -12]} h={10} color="#3a1012" />
+      {[-44, -14, 16, 46].map((dx, i) => <Sprite key={dx} tex={i % 2 ? t.trees3b : t.trees3} p={[X + dx, 0, -12 - (i % 3) * 3]} h={9 + (i % 3) * 1.5} color={i % 2 ? '#4a1416' : '#5a1c1e'} flip={i > 1} />)}
       <Flat tex={t.dirt} p={[X, -0.01, -10]} s={[220, 40]} rep={[44, 8]} color="#5a3632" />
       <Flat tex={t.rail} p={[X, 0, -2.4]} s={[2.4, 220]} rep={[1, 24]} color="#c98a7a" rz={Math.PI / 2} />
       {[-60, -30, 0, 30, 60].map((dx) => (
@@ -139,8 +138,8 @@ export const JalanAxis: React.FC<{ t: Tex; z0: number; dark?: boolean }> = ({ t,
       <Back tex={t.sky} p={[0, -12, z0 - 95]} h={80} />
       <Back tex={t.skyFar} p={[0, -0.5, z0 - 50]} h={14} color="#8d88c8" />
       <Back tex={t.sky} p={[0, -12, z0 + 95]} h={80} ry={Math.PI} />
-      <Sprite tex={t.trees} p={[-7.5, 0, z0 - 26]} h={8} color="#2e3360" />
-      <Sprite tex={t.trees2} p={[8.5, 0, z0 - 20]} h={7} color="#2e3360" />
+      <Sprite tex={t.trees4} p={[-7.5, 0, z0 - 26]} h={8} color="#2e3360" />
+      <Sprite tex={t.trees5} p={[8.5, 0, z0 - 20]} h={7} color="#2e3360" flip />
       <Flat tex={t.dirt} p={[0, -0.01, Z]} s={[40, 200]} rep={[8, 40]} color="#2c2c38" />
       <Flat tex={t.asphalt2} p={[0, 0, Z]} s={[5, 200]} rep={[1, 26]} color="#a2a6c2" />
       {[-1, 1].map((s) => <Strip key={s} tex={s < 0 ? t.wallL : t.wallR} p={[s * 2.9, 0.75, Z]} s={[200, 1.5]} ry={-s * Math.PI / 2} rep={20} color="#9aa0c6" />)}
@@ -158,7 +157,7 @@ export const RelAxis: React.FC<{ t: Tex; z0: number }> = ({ t, z0 }) => {
       <Back tex={t.skyRed} p={[0, -12, z0 - 95]} h={80} />
       <Back tex={t.skyRed} p={[0, -12, z0 + 95]} h={80} ry={Math.PI} />
       <Sprite tex={t.trees3} p={[-6, 0, z0 - 30]} h={12} color="#5a1c1e" />
-      <Sprite tex={t.trees3} p={[9, 0, z0 - 22]} h={10} color="#3a1012" />
+      <Sprite tex={t.trees3b} p={[9, 0, z0 - 22]} h={10} color="#3a1012" flip />
       <Sprite tex={t.trees3} p={[6, 0, z0 + 26]} h={11} color="#4a1416" ry={Math.PI} />
       <Flat tex={t.dirt} p={[0, -0.01, Z]} s={[40, 200]} rep={[8, 40]} color="#5a3632" />
       <Flat tex={t.rail} p={[-2.1, 0, Z]} s={[2.4, 200]} rep={[1, 22]} color="#c98a7a" />

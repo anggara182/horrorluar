@@ -44,7 +44,7 @@ const SPECS: Record<string, Spec> = {
   S05: { scene: 'jalanAxis', move: 7, a: POV, pov: 'chat1', povZ: [-0.32, -0.3], shake: 0.003 },
   S06: { scene: 'jalanAxis', move: 7, a: POV, pov: 'chat1', povZ: [-0.3, -0.25], shake: 0.003 },
   S07: { scene: 'jalanAxis', move: 7, a: C([0.32, 2.1, 1.75], [0.05, 1.45, 0], 32), b: C([0.26, 2.05, 1.55], [0.05, 1.47, 0], 32), rider: 'back', shake: 0.008 },
-  S08: { scene: 'tokoSide', world: true, a: C([1.2, 1.45, -2.0], [0.3, 1.3, -6], 38), b: C([0.95, 1.42, -2.7], [0.3, 1.32, -6], 38), stand: true, rider: 'none', shake: 0.005, grade: 'toko' },
+  S08: { scene: 'tokoSide', world: true, a: C([1.2, 1.45, -2.0], [0.3, 1.3, -6], 38), b: C([0.95, 1.42, -2.7], [0.3, 1.32, -6], 38), stand: true, rider: 'none', shake: 0.005, grade: 'toko' , capY: 1500},
   S09: { scene: 'tokoSide', world: true, track: 1, a: C([1.6, 0.55, 3.6], [0, 1.0, 0], 44), b: C([1.5, 0.56, 3.5], [0, 1.0, 0], 44), x: (lt, d) => -7 * Math.pow(1 - Math.min(1, lt / (d * 0.8)), 2.2), rider: 'sideDriver', shake: 0.006, grade: 'toko', cone: true },
   S10: { scene: 'tokoSide', a: C([0.05, 1.0, 1.4], [0.05, 1.0, 0], 34), b: C([0.22, 1.4, 1.75], [0.22, 1.38, 0], 34), ease: 'io', cu: ['jacket', 2.29], rider: 'none', shake: 0.004, grade: 'toko' },
   S11: { scene: 'tokoSide', a: C([0, 0.56, 2.9], [0, 0.5, 0], 34), b: C([0, 0.54, 2.6], [0, 0.5, 0], 34), cu: ['plate', 1.0], rider: 'none', shake: 0.004, grade: 'toko' },
@@ -57,7 +57,7 @@ const SPECS: Record<string, Spec> = {
   S18: { scene: 'jalanAxis', move: 7, dark: true, a: C([0.4, 1.7, 4.2], [0, 1.0, -6], 42), b: C([0.4, 1.8, 6.2], [0, 1.0, -6], 42), rider: 'back', shake: 0.008 },
   S19: { scene: 'relSide', move: 6, a: C([0.9, 1.2, 3.7], [-0.2, 1.05, 0], 40), b: C([0.6, 1.2, 3.35], [-0.2, 1.05, 0], 40), rider: 'side', shake: 0.008, grade: 'rel', cone: true },
   S20: { scene: 'relAxis', move: 6, a: POV, pov: 'chat2', povZ: [-0.32, -0.27], shake: 0.003, grade: 'rel' },
-  S21: { scene: 'relSide', move: 6, a: C([0, 0.94, 2.0], [0, 0.9, 0], 40), b: C([0, 0.93, 1.75], [0, 0.9, 0], 40), cu: ['faceS', 1.71, RED], rider: 'none', shake: 0.005, grade: 'rel' },
+  S21: { scene: 'relSide', move: 6, a: C([0, 0.94, 2.0], [0, 0.9, 0], 40), b: C([0, 0.93, 1.75], [0, 0.9, 0], 40), cu: ['faceS', 1.71, RED], rider: 'none', shake: 0.005, grade: 'rel' , capY: 330},
   S22: { scene: 'relSide', move: 6, a: C([0, 0.68, 2.4], [0, 0.66, 0], 40), b: C([0, 0.68, 2.1], [0, 0.66, 0], 40), cu: ['mirror', 1.29], rider: 'none', shake: 0.004, grade: 'rel' },
   S23: { scene: 'relSide', move: 6, a: C([0, 1.5, 2.8], [0, 2.0, 0], 34), b: C([0, 0.56, 2.8], [0, 0.5, 0], 34), ease: 'whip', cu: ['plate', 1.0, '#ffd8d0'], rider: 'none', shake: 0.006, grade: 'rel' },
   S24: { scene: 'relSide', move: 6, a: C([0, 0.54, 2.7], [0, 0.5, 0], 34), b: C([0, 0.52, 2.35], [0, 0.5, 0], 34), cu: ['plate', 1.0, '#ffd8d0'], rider: 'none', shake: 0.004, grade: 'rel' },
@@ -68,7 +68,7 @@ const SPECS: Record<string, Spec> = {
   S29: { scene: 'relAxis', a: C([0.25, 0.95, 3.0], [0.1, 0.85, 0], 22), b: C([0.2, 1.55, 2.6], [0.12, 1.42, 0], 26), ease: 'out', rider: 'backT', cone: true, grade: 'twist' },
   S30: { scene: 'relAxis', x: (lt) => 3 * (1 - Math.exp(-lt * 1.6)), a: C([0.6, 1.3, -4.6], [0, 1.0, 0], 38), b: C([0.55, 1.3, -4.4], [0, 1.0, 0], 38), rider: 'front', hl: (lt) => lt < 0.22 || (lt > 0.3 && lt < 0.36), shake: 0.008, grade: 'rel' },
   S31: { scene: 'relAxis', a: C([0.32, 1.95, 1.7], [0.1, 1.5, 0], 34), b: C([0.28, 1.92, 1.5], [0.1, 1.51, 0], 34), rider: 'back', swapAt: 63.77, shake: 0.005, grade: 'rel' },
-  S32: { scene: 'relSide', a: C([0, 0.93, 1.95], [0, 0.9, 0], 40), b: C([0, 0.92, 1.62], [0, 0.9, 0], 40), cu: ['faceS', 1.71, RED], rider: 'none', shake: 0.005, grade: 'rel' },
+  S32: { scene: 'relSide', a: C([0, 0.93, 1.95], [0, 0.9, 0], 40), b: C([0, 0.92, 1.62], [0, 0.9, 0], 40), cu: ['faceS', 1.71, RED], rider: 'none', shake: 0.005, grade: 'rel' , capY: 330},
   S33: { scene: 'relAxis', a: C([1.4, 1.4, -4.6], [0, 1.2, 2], 36), b: C([1.3, 1.4, -4.4], [0, 1.2, 2], 36), rider: 'front', follower: 13, labels: 1, shake: 0.005, grade: 'rel' , capY: 300},
   S34: { scene: 'relAxis', a: C([1.3, 1.4, -4.4], [0, 1.2, 2], 36), b: C([1.2, 1.4, -4.2], [0, 1.2, 2], 36), rider: 'front', follower: 13, labels: 2, shake: 0.005, grade: 'rel' , capY: 300},
   S35: { scene: 'relAxis', a: C([1.2, 1.4, -4.2], [0, 1.2, 2], 36), b: C([-0.22, 1.36, -1.7], [-0.37, 1.3, 0], 32), ease: 'io', rider: 'front', follower: 13, labels: 2, shake: 0.004, grade: 'rel' , capY: 300},
@@ -105,16 +105,56 @@ const OnCamera: React.FC<{ children: React.ReactNode }> = ({ children }) => {
 
 const aspect = (t: THREE.Texture) => { const im: any = t.image; return im.width / im.height; };
 
+// ---------- living faces + visors ----------
+/** Kamu's face, redrawn each frame on a small canvas over the sprite. Sprite px → metres at 700 px/m. */
+const FaceLayer: React.FC<{ view: FaceView; sw: number; sh: number; dy: number; mood: Mood; gt: number; tint?: string }> = ({ view, sw, sh, dy, mood, gt, tint = '#ffffff' }) => {
+  const { c, tex } = useMemo(() => {
+    const c = document.createElement('canvas'); c.width = Math.round(view.w * view.k); c.height = Math.round(view.h * view.k);
+    const tex = new THREE.CanvasTexture(c); tex.colorSpace = THREE.SRGBColorSpace; tex.generateMipmaps = false; tex.minFilter = THREE.LinearFilter; return { c, tex };
+  }, [view]);
+  drawFace(c.getContext('2d')!, view, faceAt(gt, mood)); tex.needsUpdate = true;
+  const w = view.w / 700, h = view.h / 700;
+  const x = (view.x0 + view.w / 2 - sw / 2) / 700, y = (sh - (view.y0 + view.h / 2)) / 700 + dy;
+  return (
+    <mesh position={[x, y, 0.004]} renderOrder={9}>
+      <planeGeometry args={[w, h]} /><meshBasicMaterial map={tex} color={tint} transparent depthWrite={false} toneMapped={false} />
+    </mesh>
+  );
+};
+
+/** Creepy lines: the purple pin dot on the visor flickers; otherwise it glows steadily. A soft glint drifts on the visor. */
+const CREEPY: [number, number][] = [[31.23, 33.94], [56.66, 60.26], [62.12, 66.04], [68.27, 77.74]];
+const dotAt = (gt: number) => {
+  const creepy = CREEPY.some(([a, b]) => gt >= a && gt <= b);
+  const n = Math.sin(gt * 37.1) * Math.sin(gt * 11.3 + 1.7) * Math.sin(gt * 5.3);
+  return creepy ? 0.55 + 0.45 * Math.abs(n) + (Math.sin(gt * 61) > 0.93 ? 0.4 : 0) : 0.8 + 0.08 * Math.sin(gt * 2.1);
+};
+const Visor: React.FC<{ t: Tex; p: V3; gt: number; s?: number }> = ({ t, p, gt, s = 1 }) => (
+  <group position={p}>
+    <Add tex={t.glow} p={[0, 0, 0.006]} s={[0.16 * s, 0.16 * s]} color="#9a5cff" opacity={dotAt(gt)} />
+    <Add tex={t.glow} p={[-0.07 * s + Math.sin(gt * 0.7) * 0.025 * s, 0.045 * s, 0.006]} s={[0.07 * s, 0.03 * s]} color="#ffffff" opacity={0.35 + 0.15 * Math.sin(gt * 1.3)} />
+  </group>
+);
+
+/** Scrolling tyre tread (back / front views). */
+const Tread: React.FC<{ t: Tex; p: V3; w: number; h: number; dist: number }> = ({ t, p, w, h, dist }) => {
+  const tex = useMemo(() => { const x = t.tread.clone(); x.wrapS = x.wrapT = THREE.RepeatWrapping; x.repeat.set(1, h / 0.09); x.needsUpdate = true; return x; }, [t.tread, h]);
+  tex.offset.y = dist / 0.09;
+  return <mesh position={p} renderOrder={9}><planeGeometry args={[w, h]} /><meshBasicMaterial map={tex} toneMapped={false} /></mesh>;
+};
+
 // ---------- riders ----------
-const SideRiders: React.FC<{ t: Tex; A: V3; driverOnly?: boolean; spin: number; bob: number; cone?: boolean; warm?: boolean }> = ({ t, A, driverOnly, spin, bob, cone, warm }) => (
+const SideRiders: React.FC<{ t: Tex; A: V3; driverOnly?: boolean; spin: number; speed: number; bob: number; cone?: boolean; warm?: boolean; gt: number; mood: Mood }> = ({ t, A, driverOnly, spin, speed, bob, cone, warm, gt, mood }) => (
   <group position={[A[0], bob, A[2]]}>
     <mesh position={[0, 0.0, 0.02]} rotation={[-Math.PI / 2, 0, 0]} renderOrder={6}><planeGeometry args={[2.6, 0.8]} /><meshBasicMaterial map={t.blob} transparent opacity={0.75} depthWrite={false} /></mesh>
     {[-0.671, 0.614].map((x) => (
-      <mesh key={x} position={[x, 0.244, -0.003]} rotation={[0, 0, -spin]} renderOrder={7}>
-        <planeGeometry args={[0.514, 0.514]} /><meshBasicMaterial map={t.wheel} transparent alphaTest={0.02} toneMapped={false} />
+      <mesh key={x} position={[x, 0.244, -0.003]} rotation={[0, 0, speed > 2 ? -spin * 0.12 : -spin]} renderOrder={7}>
+        <planeGeometry args={[0.514, 0.514]} /><meshBasicMaterial map={speed > 2 ? t.wheelBlur : t.wheel} transparent alphaTest={0.02} toneMapped={false} />
       </mesh>
     ))}
     <Sprite tex={driverOnly ? t.sideDriver : t.side} p={[0, -0.057, 0]} h={2.0} order={8} color={warm ? '#fff4ea' : '#ffffff'} />
+    {!driverOnly && <group position={[0, headBobAt(gt), 0]}><FaceLayer view={VIEW_SIDE} sw={1600} sh={1400} dy={-0.057} mood={mood} gt={gt} tint={warm ? '#fff4ea' : '#ffffff'} /></group>}
+    <Visor t={t} p={[0.086, 1.303, 0]} gt={gt} s={0.8} />
     <Add tex={t.glow} p={[0.73, 0.99, 0.05]} s={[0.9, 0.9]} color="#fff3d0" opacity={0.95} />
     <Add tex={t.glow} p={[-0.87, 0.6, 0.05]} s={[0.6, 0.6]} color="#ff2a2a" opacity={0.8} />
     {cone && <group position={[0.75, 0.98, 0.02]} rotation={[0, 0, -Math.PI / 2 - 0.16]}><Add tex={t.cone} p={[0, 2.1, 0]} s={[2.0, 4.2]} color="#fff1cf" opacity={0.26} /></group>}
@@ -122,25 +162,42 @@ const SideRiders: React.FC<{ t: Tex; A: V3; driverOnly?: boolean; spin: number; 
   </group>
 );
 
-const BackRiders: React.FC<{ t: Tex; A: V3; turned: boolean; bob: number }> = ({ t, A, turned, bob }) => (
+const BackRiders: React.FC<{ t: Tex; A: V3; turned: boolean; bob: number; dist: number; gt: number }> = ({ t, A, turned, bob, dist, gt }) => (
   <group position={[A[0], bob, A[2]]}>
     <mesh position={[0, 0.01, -0.2]} rotation={[-Math.PI / 2, 0, 0]} renderOrder={6}><planeGeometry args={[1.3, 2.6]} /><meshBasicMaterial map={t.blob} transparent opacity={0.7} depthWrite={false} /></mesh>
+    <Tread t={t} p={[0, 0.158, 0.004]} w={0.126} h={0.22} dist={dist} />
     <Sprite tex={turned ? t.backT : t.back} p={[0, -0.023, 0]} h={2.0} order={8} />
+    {turned && <Visor t={t} p={[0.191, 1.483, 0]} gt={gt} />}
     <Add tex={t.glow} p={[0, 0.6, 0.06]} s={[1.0, 0.6]} color="#ff2a2a" opacity={0.6} />
   </group>
 );
 
-const FrontRiders: React.FC<{ t: Tex; A: V3; lit: boolean }> = ({ t, A, lit }) => (
+const FrontRiders: React.FC<{ t: Tex; A: V3; lit: boolean; dist: number; moving: boolean; gt: number; mood: Mood }> = ({ t, A, lit, dist, moving, gt, mood }) => (
   <group position={A}>
     <mesh position={[0, 0.01, 0]} rotation={[-Math.PI / 2, 0, 0]} renderOrder={6}><planeGeometry args={[1.4, 2.4]} /><meshBasicMaterial map={t.blob} transparent opacity={0.7} depthWrite={false} /></mesh>
-    <Sprite tex={lit ? t.frontLit : t.front} p={[0, -0.026, 0]} h={2.0} ry={Math.PI} order={8} />
+    <group rotation={[0, Math.PI, moving ? Math.sin(gt * 9) * 0.006 : 0]}>
+      <Tread t={t} p={[0, 0.167, 0.004]} w={0.109} h={0.243} dist={-dist} />
+      <Sprite tex={lit ? t.frontLit : t.front} p={[0, -0.026, 0]} h={2.0} order={8} />
+      <group position={[0, headBobAt(gt), 0]}><FaceLayer view={VIEW_PEEK} sw={1000} sh={1400} dy={-0.026} mood={mood} gt={gt} /></group>
+      <Visor t={t} p={[0.057, 1.411, 0]} gt={gt} />
+    </group>
     {lit && <Add tex={t.glow} p={[0, 0.81, -0.08]} s={[1.6, 1.6]} color="#fff3d0" opacity={0.95} />}
     {lit && <Add tex={t.glow} p={[0, 0.02, -3]} s={[4, 6]} color="#fff1cf" opacity={0.5} r={[-Math.PI / 2, 0, 0]} />}
   </group>
 );
 
+// ---------- moods (micro-expressions) ----------
+const KEYT: number[] = (timing as any).words.filter((w: any) => w.who === 'NARATOR' && ['diem', 'cocok', 'pintas', 'lampu', 'mati', 'spion', 'sama', 'belakangmu', 'punggungmu', 'ngadep', 'percaya'].includes(String(w.w).toLowerCase().replace(/[^a-z]/g, ''))).map((w: any) => w.s);
+const SCARY: [number, number][] = [[40.56, 41.98], [56.66, 60.26], [66.04, 68.27], [75.88, 77.74]];
+const moodFor = (id: string): Mood => {
+  const n = Number(id.slice(1));
+  const base = n >= 20 ? 'scared' : 'worried';
+  const beats = [...KEYT.map((t) => ({ t, kind: 'brow' as const })), { t: 40.56, kind: 'scare' as const }, { t: 56.66, kind: 'scare' as const }, { t: 60.26, kind: 'scare' as const }, { t: 6.01, kind: 'part' as const }, { t: 37.84, kind: 'part' as const }];
+  const look: [number, number] = id === 'S08' ? [0, 0.7] : ['S30', 'S33', 'S34', 'S35'].includes(id) ? [-0.5, 0] : ['S21', 'S32'].includes(id) ? [0.25, -0.1] : [0.35, 0.55];
+  return { base, look, beats, scary: SCARY };
+};
+
 // ---------- captions ----------
-const KEYS = new Set(['ojol', 'aplikasi', 'jemput', 'boncengannya', 'minimarket', 'ungu', 'juned', 'cocok', 'peta', 'diem', 'pundak', 'pintas', 'lampu', 'mati', 'bukan', 'spion', 'sama', 'belakang', 'foto', 'punggungmu', 'ngadep', 'arahmu', 'percaya', 'lompat', 'pegangan', 'dua']);
 type W = { w: string; s: number; e: number; who: string };
 const PAGES = (() => {
   const raw: W[] = (timing as any).words.map((x: any) => ({ w: x.w, s: x.s, e: x.e, who: x.who }));
@@ -155,7 +212,8 @@ const PAGES = (() => {
   }
   const pages: { words: W[]; s: number; e: number }[] = []; let cur: W[] = [];
   ws.forEach((w) => {
-    if (cur.length && (cur[0].who !== w.who || cur.length >= 6)) { pages.push({ words: cur, s: cur[0].s, e: 0 }); cur = []; }
+    const sentenceStart = /^[A-Z]/.test(w.w) && !['Juned', 'Juned,', 'Juned.', 'B', 'Kak', 'Kak,', 'Kakak', 'Kakaknya'].includes(w.w);
+    if (cur.length && (cur[0].who !== w.who || cur.length >= 5 || (sentenceStart && cur.length >= 2))) { pages.push({ words: cur, s: cur[0].s, e: 0 }); cur = []; }
     cur.push(w);
     if (/[.?]$/.test(w.w) || (/,$/.test(w.w) && cur.length >= 3)) { pages.push({ words: cur, s: cur[0].s, e: 0 }); cur = []; }
   });
@@ -167,10 +225,7 @@ const PAGES = (() => {
 const Captions: React.FC<{ gt: number; top: number }> = ({ gt, top }) => {
   const pg = PAGES.find((p) => gt >= p.s - 0.02 && gt < p.e);
   if (!pg) return null;
-  let active = 0; pg.words.forEach((w, i) => { if (gt >= w.s - 0.02) active = i; });
-  const words: CapWord[] = pg.words.map((w) => ({ w: w.w, who: w.who as any }));
-  const kIdx = pg.words.findIndex((w, i) => i <= active && KEYS.has(w.w.toLowerCase().replace(/[^a-z]/g, '')));
-  return <Caption words={words} active={active} keyword={kIdx >= 0 ? kIdx : undefined} top={top} />;
+  return <Caption words={pg.words.map((w) => ({ w: w.w, who: w.who as any }))} top={top} />;
 };
 
 // ---------- choice labels ----------
@@ -217,10 +272,11 @@ const useAssets = () => {
     (async () => {
       await Promise.all(['500 34px Inter', '700 26px Inter', '800 44px Inter', '900 140px Inter'].map((f) => document.fonts.load(f)));
       const L = async (s: string, k: number) => svgTex(s, k);
+      const [wheelB, tread, helmBack, trees4, trees5] = await Promise.all([svgTex(wheelBlur(), 1), svgTex(treadStrip(), 1), svgTex(helmetBackPov(), 1), Promise.resolve(treesTex(15, '#0c0f1e')), Promise.resolve(treesTex(21, '#0a0d1a'))]);
       const [side, sideDriver, back, backT, front, frontLit, driverBack, hand, whl, stand, faceW, faceS, helm, jacket, tap, mirror, plate, follower] = await Promise.all([
-        L(ridersSide({ wheels: false }), 1.4), L(ridersSide({ wheels: false, passenger: false }), 1.4), L(ridersBack({ turned: false }), 1.4), L(ridersBack({ turned: true }), 1.4),
-        L(ridersFront({ headlight: false }), 1.6), L(ridersFront({ headlight: true }), 1.4), L(driverBackPov(), 1), L(handPhone(), 1.2), L(wheel(), 1),
-        L(kamuStand(), 1.5), L(faceCU('worried'), 1.3), L(faceCU('scared'), 1.3), L(helmetCU(), 1.3), L(jacketCU(), 1.3), L(tapHand(), 1), L(mirrorCU(), 1.3), L(plateCU(), 1.3), L(followerFront(), 1)]);
+        L(ridersSide({ wheels: false, face: false }), 1.4), L(ridersSide({ wheels: false, passenger: false }), 1.4), L(ridersBack({ turned: false, tread: false }), 1.4), L(ridersBack({ turned: true, tread: false }), 1.4),
+        L(ridersFront({ headlight: false, face: false, tread: false }), 1.6), L(ridersFront({ headlight: true, face: false, tread: false }), 1.4), L(driverBackPov({ helmet: false }), 1), L(handPhone(), 1.2), L(wheel(), 1),
+        L(kamuStand({ face: false }), 1.5), L(faceCU('worried', false), 1.3), L(faceCU('scared', false), 1.3), L(helmetCU(), 1.3), L(jacketCU(), 1.3), L(tapHand(), 1), L(mirrorCU(), 1.3), L(plateCU(), 1.3), L(followerFront(), 1)]);
       const m1 = { text: 'Kak, saya udah di titik jemput. Kakaknya di mana?', time: '00.14' };
       const m2 = { text: 'Kak, saya liat tadi Kakak naik motor orang. Itu bukan saya.', time: '00.17' };
       const m3 = { text: 'Kak, saya ngikutin dari belakang. Liat foto ini.', time: '00.18' };
@@ -231,6 +287,7 @@ const useAssets = () => {
       ng.putImageData(id, 0, 0); setNoise(nc.toDataURL());
       const tx: Tex = {
         side, sideDriver, back, backT, front, frontLit, driverBack, hand, wheel: whl, stand, faceW, faceS, helm, jacket, tap, mirror, plate, follower, kerb,
+        wheelBlur: wheelB, tread, helmBack, trees4, trees5, skyFar2: skylineTex(11, '#10122a', '#ffc870', 0.22), trees3b: treesTex(27, '#140708'),
         chat1: chatScreen2([m1]), chat2: chatScreen2([m1, m2]), photo: chatScreen2([m3, { photo: true, time: '00.18' }]), map: mapScreen(), info: infoScreen(),
         sky: skyTex('#0a0c2a', '#2a2160', '#5a3a7a'), skyFar: skylineTex(4, '#0e1024', '#ffcf7a', 0.28), skyNear: skylineTex(9, '#141634', '#ffd28a', 0.2),
         trees: treesTex(5, '#0b0e1c'), trees2: treesTex(8, '#0d1020'), trees3: treesTex(12, '#120607'), skyRed: skyTex('#120406', '#4a1014', '#7a2020', false, 7),
@@ -263,6 +320,9 @@ export const EP01: React.FC = () => {
   const moving = !!s.move || !!s.x;
   const bob = moving ? Math.sin(gt * 40) * 0.004 : 0;
   const spin = dist / 0.245;
+  const speed = s.move ?? (s.x ? Math.abs(s.x(lt + 0.04, d) - s.x(lt, d)) / 0.04 : 0);
+  const mood = moodFor(shot.id);
+  const tapK = s.tap ? ease(Math.min(1, Math.max(0, (lt - 0.6) / 0.5)), 'io') : 0;
   const hl = s.hl ? s.hl(lt) : true;
   const grade = s.grade ?? (s.scene.startsWith('rel') ? 'rel' : s.scene.startsWith('toko') ? 'toko' : 'jalan');
   const turnedNow = s.rider === 'backT' || (s.swapAt !== undefined && gt >= s.swapAt);
@@ -287,12 +347,19 @@ export const EP01: React.FC = () => {
         {s.scene === 'jalanAxis' && <JalanAxis t={t} z0={A[2]} dark={s.dark} />}
         {s.scene === 'relAxis' && <RelAxis t={t} z0={A[2]} />}
 
-        {(s.rider === 'side' || s.rider === 'sideDriver') && <SideRiders t={t} A={A} driverOnly={s.rider === 'sideDriver'} spin={spin} bob={bob} cone={s.cone} warm={grade === 'toko'} />}
-        {(s.rider === 'back' || s.rider === 'backT') && <BackRiders t={t} A={A} turned={turnedNow} bob={bob} />}
-        {(s.rider === 'front' || s.rider === 'frontLit') && <FrontRiders t={t} A={A} lit={s.rider === 'frontLit' || (s.hl ? hl : false)} />}
-        {s.stand && <Sprite tex={t.stand} p={[0.3, 0, -6]} h={2.0} order={8} color="#fff6ee" />}
+        {(s.rider === 'side' || s.rider === 'sideDriver') && <SideRiders t={t} A={A} driverOnly={s.rider === 'sideDriver'} spin={spin} speed={speed} bob={bob} cone={s.cone} warm={grade === 'toko'} gt={gt} mood={mood} />}
+        {(s.rider === 'back' || s.rider === 'backT') && <BackRiders t={t} A={A} turned={turnedNow} bob={bob} dist={dist} gt={gt} />}
+        {(s.rider === 'front' || s.rider === 'frontLit') && <FrontRiders t={t} A={A} lit={s.rider === 'frontLit' || (s.hl ? hl : false)} dist={dist} moving={speed > 0.3} gt={gt} mood={mood} />}
+        {s.stand && <group position={[0.3, 0, -6]}>
+          <Sprite tex={t.stand} p={[0, 0, 0]} h={2.0} order={8} color="#fff6ee" />
+          <group position={[0, headBobAt(gt), 0]}><FaceLayer view={VIEW_STAND} sw={700} sh={1400} dy={0} mood={mood} gt={gt} tint="#fff6ee" /></group>
+        </group>}
         {s.stand && <Add tex={t.glow} p={[0.36, 1.66, -5.95]} s={[0.9, 0.9]} color="#a57bff" opacity={0.35} />}
-        {cu && <Sprite tex={cu} p={[A[0], 0, A[2]]} h={s.cu![1]} color={s.cu![2] ?? '#ffffff'} order={8} />}
+        {cu && <group position={[A[0], 0, A[2]]} rotation={[0, 0, s.cu![0] === 'helm' ? Math.sin(gt * 0.9) * 0.03 : 0]}>
+          <Sprite tex={cu} p={[0, s.cu![0].startsWith('face') ? headBobAt(gt) * 2 : 0, 0]} h={s.cu![1]} color={s.cu![2] ?? '#ffffff'} order={8} />
+          {s.cu![0].startsWith('face') && <group position={[0, headBobAt(gt) * 2, 0]}><FaceLayer view={VIEW_CU} sw={1000} sh={1200} dy={0} mood={mood} gt={gt} tint={s.cu![2] ?? '#ffffff'} /></group>}
+          {s.cu![0] === 'helm' && <Visor t={t} p={[0.2, 1.0, 0]} gt={gt} s={2.6} />}
+        </group>}
         {/* follower behind the riders (front views) */}
         {s.follower !== undefined && <>
           <Sprite tex={t.follower} p={[A[0] + 0.2, -0.03, A[2] + s.follower]} h={2.0} ry={Math.PI} order={7} />
@@ -304,9 +371,13 @@ export const EP01: React.FC = () => {
         {/* POV: the driver's back ahead, the hand with the phone on the camera */}
         {s.pov && <>
           <Sprite tex={t.driverBack} p={[A[0] - 0.2, 0.75, A[2] - 1.05]} h={1.05} order={10} />
+          {/* the helmet is its own layer so the driver can react (S16: tiny turn toward the tap) */}
+          <mesh position={[A[0] - 0.2 - 0.025 * tapK, 1.506 - 0.004 * tapK, A[2] - 1.047]} rotation={[0, 0, 0.06 * tapK]} scale={[1 - 0.06 * tapK, 1, 1]} renderOrder={11}>
+            <planeGeometry args={[0.392, 0.392]} /><meshBasicMaterial map={t.helmBack} transparent alphaTest={0.02} toneMapped={false} />
+          </mesh>
           <Add tex={t.glow} p={[A[0] + 0.1, 0.02, A[2] - 5]} s={[5, 10]} color="#fff0cc" opacity={0.75} r={[-Math.PI / 2, 0, 0]} />
         </>}
-        {s.tap && <Sprite tex={t.tap} p={[A[0] - 0.47, 1.14 + 0.02 * Math.abs(Math.sin(lt * 9)), A[2] - 1.0]} h={0.35} order={12} />}
+        {s.tap && <Sprite tex={t.tap} p={[A[0] - 0.47 - 0.12 * (1 - ease(Math.min(1, lt / 0.35), 'io')), 1.14 + 0.035 * Math.abs(Math.sin(Math.max(0, lt - 0.35) * 7)) - 0.05 * (1 - ease(Math.min(1, lt / 0.35), 'io')), A[2] - 1.0]} h={0.35} order={12} />}
         {s.pov && s.pov !== 'none' && (
           <OnCamera>
             <group position={[0.02, -0.08, povZ]} rotation={[-0.15, -0.06, 0.05]}>
@@ -319,7 +390,7 @@ export const EP01: React.FC = () => {
       <Grade kind={grade} lt={lt} noise={noise} flash={swapFlash} />
       {lab1 && <Label n={1} text="LOMPAT TURUN" at={lab1} box={[clampX(lab1[0] - 170, 470), clampY(lab1[1] - 230)]} color="#FFD23F" pop={pop1} />}
       {lab2 && <Label n={2} text="TETAP PEGANGAN" at={lab2} box={[clampX(lab2[0] - 260, 560), clampY(lab2[1] + 260)]} color="#B48CFF" pop={pop2} />}
-      <Captions gt={gt} top={s.pov && s.pov !== 'none' ? 250 : 330} />
+      <Captions gt={gt} top={s.capY ?? (s.pov && s.pov !== 'none' ? 250 : 1320)} />
     </AbsoluteFill>
   );
 };
