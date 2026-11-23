@@ -74,7 +74,7 @@ Cerita ditentukan kita (kanon), bukan hasil vote. Pilihan di akhir episode tetap
 
 | Bagian | Durasi | Isi |
 |---|---|---|
-| Recap | 5–8 dtk | "Kemarin malem…" + dua pilihan disebut lagi. Suara dari frame pertama. |
+| Recap | 2–4 dtk | SATU beat, 2–3 cut cepat: situasi terakhir + dua pilihan dalam satu kalimat ("Mesin mati di rel. Lompat turun, atau tetap pegangan?"). Suara dari frame pertama. |
 | Cabang SALAH | 15–20 dtk | "Kalau kamu [opsi salah]…" Dimainkan seolah nyata, konsekuensinya konkret dan seram, berakhir buruk. |
 | GAGAL | ±1 dtk | Stempel GAGAL di layar + hit. Satu-satunya teks besar yang boleh selain caption dan label pilihan. |
 | Rewind | 1,5–2 dtk | Frame cabang salah diputar mundur cepat (±6×) dengan look kaset VHS: garis scan, warna geser, pita noise, ikon ◀◀. Audio = cuplikan cabang salah dibalik + desing pita. Kembali ke momen pilihan. |
