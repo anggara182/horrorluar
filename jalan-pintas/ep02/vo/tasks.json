@@ -8,6 +8,12 @@
  "b01_t2": {
   "task_id": "2ad962e7-0b9a-49f5-b6b3-b0c5128c3d6b",
   "who": "NARATOR",
-  "text": "[urgent] Mesin mati di rel. [tense] Lompat turun, atau tetap pegangan?"
+  "text": "[urgent] Mesin mati di rel. [tense] Lompat turun, atau tetap pegangan?",
+  "credit": 89
+ },
+ "b02_t1": {
+  "task_id": "22589c20-d77d-4a42-85ad-5b9459b8daf0",
+  "who": "NARATOR",
+  "text": "[fast] Kalau kamu tetap pegangan... [creepy] motornya jalan lagi. Tanpa suara mesin. [tense] Di aplikasi: tiba dalam tujuh menit. Sepuluh menit kemudian... tujuh menit. Satu jam kemudian... [creepy] tujuh menit."
  }
 }
