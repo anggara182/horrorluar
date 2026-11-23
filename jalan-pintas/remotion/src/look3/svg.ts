@@ -32,8 +32,8 @@ export const wheelSide = (cx: number, cy: number) => `
   <circle cx="${cx}" cy="${cy}" r="34" fill="#c9cfdb"/><circle cx="${cx}" cy="${cy}" r="14" fill="#4a4f5e"/>`;
 
 /** Two riders on the white matic, side view, heading right. Warm rim light from the shop behind. 1600x1400. */
-export type SideOpts = { wheels?: boolean; passenger?: boolean; headlight?: boolean };
-export const ridersSide = ({ wheels = true, passenger = true, headlight = true }: SideOpts = {}) => svg(1600, 1400, `
+export type SideOpts = { wheels?: boolean; passenger?: boolean; headlight?: boolean; face?: boolean };
+export const ridersSide = ({ wheels = true, passenger = true, headlight = true, face = true }: SideOpts = {}) => svg(1600, 1400, `
   <linearGradient id="rim" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffe3b8" stop-opacity=".95"/><stop offset=".35" stop-color="#ffe3b8" stop-opacity="0"/></linearGradient>
   <!-- engine, swingarm, muffler -->
   <path d="M300 1060 L650 1040 L670 1150 L360 1205 Z" fill="#2f333e"/>
@@ -89,10 +89,10 @@ export const ridersSide = ({ wheels = true, passenger = true, headlight = true }
   <circle cx="470" cy="470" r="98" fill="url(#skin)"/>
   <path d="M380 470 C378 520 402 552 430 565 C410 520 405 480 420 450 Z" fill="#1a120d"/>
   <ellipse cx="438" cy="486" rx="14" ry="20" fill="#9a603e"/>
-  <ellipse cx="522" cy="472" rx="17" ry="21" fill="#fbf7f2"/><circle cx="529" cy="481" r="9" fill="#1a1010"/><circle cx="526" cy="476" r="3" fill="#fff"/>
-  <path d="M498 438 C515 432 534 436 548 446" stroke="#2a170f" stroke-width="8" fill="none" stroke-linecap="round"/>
+  ${face ? `<ellipse cx="522" cy="472" rx="17" ry="21" fill="#fbf7f2"/><circle cx="529" cy="481" r="9" fill="#1a1010"/><circle cx="526" cy="476" r="3" fill="#fff"/>
+  <path d="M498 438 C515 432 534 436 548 446" stroke="#2a170f" stroke-width="8" fill="none" stroke-linecap="round"/>` : ''}
   <path d="M562 478 C574 494 572 508 560 512" stroke="#6e3f27" stroke-width="6" fill="none" stroke-linecap="round"/>
-  <path d="M528 530 C538 524 548 532 556 526" stroke="#3a1712" stroke-width="6" fill="none" stroke-linecap="round"/>
+  ${face ? `<path d="M528 530 C538 524 548 532 556 526" stroke="#3a1712" stroke-width="6" fill="none" stroke-linecap="round"/>` : ''}
   <path d="M556 420 C566 438 566 448 556 452 C546 448 546 438 556 420 Z" fill="#bfe4ff" stroke="#1a1010" stroke-width="3"/>
   <path d="M370 474 C362 388 420 350 482 352 C542 354 578 392 580 432 L522 426 C480 414 420 432 396 482 Z" fill="url(#slate)"/>
   <path d="M370 474 C362 388 420 350 482 352 C542 354 578 392 580 432" fill="none" stroke="url(#rim)" stroke-width="8"/>
@@ -125,7 +125,7 @@ export const ridersSide = ({ wheels = true, passenger = true, headlight = true }
 `);
 
 /** From behind (the follower's view): passenger's back + backpack, driver's helmet TURNED to face the camera. 1000x1400. */
-export const ridersBack = ({ turned = true }: { turned?: boolean } = {}) => svg(1000, 1400, `
+export const ridersBack = ({ turned = true, tread = true }: { turned?: boolean; tread?: boolean } = {}) => svg(1000, 1400, `
   <linearGradient id="rimR" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ff5a4a" stop-opacity=".95"/><stop offset=".4" stop-color="#ff5a4a" stop-opacity="0"/></linearGradient>
   <linearGradient id="lit" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff6ea"/><stop offset="1" stop-color="#c9b8b0"/></linearGradient>
   <!-- driver's arms + handlebar + mirrors (behind everything) -->
@@ -162,7 +162,7 @@ export const ridersBack = ({ turned = true }: { turned?: boolean } = {}) => svg(
   <!-- scooter rear -->
   <ellipse cx="500" cy="1384" rx="190" ry="26" fill="#000" opacity=".55"/>
   <rect x="444" y="1100" width="112" height="284" rx="50" fill="#26272e"/>
-  ${[0,1,2,3,4,5].map((k) => `<rect x="456" y="${1150 + k * 38}" width="88" height="12" rx="6" fill="#4a4c56"/>`).join('')}
+  ${tread ? [0,1,2,3,4,5].map((k) => `<rect x="456" y="${1150 + k * 38}" width="88" height="12" rx="6" fill="#4a4c56"/>`).join('') : ''}
   <rect x="444" y="1100" width="20" height="284" rx="10" fill="#5a5c68" opacity=".6"/>
   <path d="M426 1112 L574 1112 L566 1196 L434 1196 Z" fill="#17181d"/>
   <path d="M330 1000 C330 930 380 900 500 900 C620 900 670 930 670 1000 L642 1112 C600 1144 400 1144 358 1112 Z" fill="url(#lit)"/>
@@ -196,8 +196,18 @@ export const ridersBack = ({ turned = true }: { turned?: boolean } = {}) => svg(
   <path d="M402 470 C398 392 444 352 500 352 C556 352 602 392 598 470" fill="none" stroke="url(#rimR)" stroke-width="8"/>
 `);
 
+const HELMET_BACK_POV = `
+  <circle cx="700" cy="420" r="262" fill="url(#helm)"/>
+  <path d="M440 420 C440 270 560 160 700 160 C840 160 960 270 960 420" fill="none" stroke="url(#rimC)" stroke-width="16"/>
+  <ellipse cx="610" cy="280" rx="120" ry="50" fill="#fff" opacity=".18" transform="rotate(-25 610 280)"/>
+  <path d="M560 560 C640 590 760 590 840 560" stroke="#d9dff0" stroke-width="16" fill="none" opacity=".8"/>
+  <path d="M520 600 C600 650 800 650 880 600" stroke="#3a1a90" stroke-width="14" fill="none" opacity=".7"/>`;
+
+/** Only the driver's helmet from the passenger's eyes (same canvas as driverBackPov, so it can turn on its own). 1400x1500 → cropped 560x560 around the helmet. */
+export const helmetBackPov = () => svg(560, 560, `<g transform="translate(-420 -140)"><linearGradient id="rimC" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#b9c8ff" stop-opacity=".9"/><stop offset=".3" stop-color="#b9c8ff" stop-opacity="0"/></linearGradient>${HELMET_BACK_POV}</g>`);
+
 /** Driver seen from the passenger's eyes: helmet back, jacket back with JALANIN, arms to the bars. 1400x1200. */
-export const driverBackPov = () => svg(1400, 1500, `
+export const driverBackPov = ({ helmet = true }: { helmet?: boolean } = {}) => svg(1400, 1500, `
   <linearGradient id="rimC" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#b9c8ff" stop-opacity=".9"/><stop offset=".3" stop-color="#b9c8ff" stop-opacity="0"/></linearGradient>
   <path d="M40 1010 L1360 1000" stroke="#15161b" stroke-width="30" stroke-linecap="round"/>
   <path d="M120 990 L80 790" stroke="#2a2d36" stroke-width="12"/><ellipse cx="78" cy="770" rx="58" ry="38" fill="#262932"/>
@@ -214,11 +224,7 @@ export const driverBackPov = () => svg(1400, 1500, `
   <path d="M256 1100 C540 1080 860 1080 1144 1100 L1146 1140 C860 1120 540 1120 254 1140 Z" fill="#dfe3ec"/>
   <text x="700" y="900" font-family="Inter, Arial, sans-serif" font-weight="900" font-size="96" fill="#e6dcff" text-anchor="middle" letter-spacing="4">JALANIN</text>
   <path d="M560 680 C620 650 780 650 840 680 L820 720 C760 700 640 700 580 720 Z" fill="#3e1f99"/>
-  <circle cx="700" cy="420" r="262" fill="url(#helm)"/>
-  <path d="M440 420 C440 270 560 160 700 160 C840 160 960 270 960 420" fill="none" stroke="url(#rimC)" stroke-width="16"/>
-  <ellipse cx="610" cy="280" rx="120" ry="50" fill="#fff" opacity=".18" transform="rotate(-25 610 280)"/>
-  <path d="M560 560 C640 590 760 590 840 560" stroke="#d9dff0" stroke-width="16" fill="none" opacity=".8"/>
-  <path d="M520 600 C600 650 800 650 880 600" stroke="#3a1a90" stroke-width="14" fill="none" opacity=".7"/>
+  ${helmet ? HELMET_BACK_POV : ''}
   <rect x="200" y="1180" width="1000" height="320" fill="url(#fadeB)"/>
 `);
 

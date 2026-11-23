@@ -12,7 +12,7 @@ const eyes = (scared: boolean, lx: number, rx: number, y: number, s = 1) => `
     <circle cx="${x + 2 * s}" cy="${y + (scared ? -2 : 4) * s}" r="${4 * s}" fill="#fff"/>`).join('')}`;
 
 /** Kamu, standing at the shop, front 3/4, phone in both hands, purple screen light on the face. 700x1400. */
-export const kamuStand = () => svg(700, 1400, `
+export const kamuStand = ({ face = true }: { face?: boolean } = {}) => svg(700, 1400, `
   <radialGradient id="faceP" cx=".5" cy=".7" r=".6"><stop offset="0" stop-color="#b48cff" stop-opacity=".55"/><stop offset="1" stop-color="#b48cff" stop-opacity="0"/></radialGradient>
   <linearGradient id="rimW" x1="1" y1="0" x2="0" y2="0"><stop offset="0" stop-color="#fff3e0" stop-opacity=".9"/><stop offset=".25" stop-color="#fff3e0" stop-opacity="0"/></linearGradient>
   <ellipse cx="350" cy="1385" rx="190" ry="20" fill="#000" opacity=".5"/>
@@ -45,16 +45,16 @@ export const kamuStand = () => svg(700, 1400, `
   <path d="M238 320 C232 220 300 190 360 192 C430 194 480 230 476 300 C452 262 400 246 350 252 C300 256 262 282 250 336 Z" fill="#1d140f"/>
   <path d="M250 300 C280 270 320 262 352 268 L330 230 C290 236 258 258 250 300 Z" fill="#2a1d15"/>
   <ellipse cx="240" cy="345" rx="16" ry="26" fill="#9a603e"/>
-  ${eyes(false, 318, 404, 348, 0.8)}
+  ${face ? `${eyes(false, 318, 404, 348, 0.8)}
   <path d="M290 300 C306 294 326 298 340 308" stroke="#2a170f" stroke-width="9" fill="none" stroke-linecap="round"/>
-  <path d="M374 308 C388 298 408 294 424 300" stroke="#2a170f" stroke-width="9" fill="none" stroke-linecap="round"/>
+  <path d="M374 308 C388 298 408 294 424 300" stroke="#2a170f" stroke-width="9" fill="none" stroke-linecap="round"/>` : ''}
   <path d="M362 368 C356 392 364 402 374 402" stroke="#6e3f27" stroke-width="6" fill="none" stroke-linecap="round"/>
-  <path d="M332 430 C346 422 366 434 384 424" stroke="#3a1712" stroke-width="7" fill="none" stroke-linecap="round"/>
+  ${face ? '<path d="M332 430 C346 422 366 434 384 424" stroke="#3a1712" stroke-width="7" fill="none" stroke-linecap="round"/>' : ''}
   <path d="M470 330 C476 300 470 260 450 236" fill="none" stroke="url(#rimW)" stroke-width="10"/>
 `);
 
 /** Kamu's face close-up, front 3/4, open-face helmet. mood: worried | scared. 1000x1200. */
-export const faceCU = (mood: 'worried' | 'scared') => {
+export const faceCU = (mood: 'worried' | 'scared', face = true) => {
   const sc = mood === 'scared';
   return svg(1000, 1200, `
   <linearGradient id="rimC2" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#b9c8ff" stop-opacity=".9"/><stop offset=".2" stop-color="#b9c8ff" stop-opacity="0"/></linearGradient>
@@ -69,11 +69,11 @@ export const faceCU = (mood: 'worried' | 'scared') => {
   <ellipse cx="500" cy="560" rx="250" ry="270" fill="url(#skin)"/>
   <ellipse cx="260" cy="590" rx="34" ry="56" fill="#9a603e"/>
   <path d="M250 560 C240 420 300 330 380 300 C330 380 320 440 330 520 Z" fill="#1d140f"/>
-  ${eyes(sc, 410, 600, 560, 1.6)}
+  ${face ? `${eyes(sc, 410, 600, 560, 1.6)}
   <path d="${sc ? 'M340 452 C370 430 420 424 456 440' : 'M344 470 C376 456 420 456 452 476'}" stroke="#2a170f" stroke-width="18" fill="none" stroke-linecap="round"/>
-  <path d="${sc ? 'M548 440 C584 424 634 430 664 452' : 'M552 476 C584 456 628 456 660 470'}" stroke="#2a170f" stroke-width="18" fill="none" stroke-linecap="round"/>
+  <path d="${sc ? 'M548 440 C584 424 634 430 664 452' : 'M552 476 C584 456 628 456 660 470'}" stroke="#2a170f" stroke-width="18" fill="none" stroke-linecap="round"/>` : ''}
   <path d="M520 600 C506 650 520 676 548 676" stroke="#6e3f27" stroke-width="10" fill="none" stroke-linecap="round"/>
-  ${sc ? '<ellipse cx="510" cy="744" rx="40" ry="50" fill="#3a1712"/><ellipse cx="510" cy="760" rx="26" ry="24" fill="#7a2a22"/>'
+  ${!face ? '' : sc ? '<ellipse cx="510" cy="744" rx="40" ry="50" fill="#3a1712"/><ellipse cx="510" cy="760" rx="26" ry="24" fill="#7a2a22"/>'
        : '<path d="M450 740 C478 722 506 750 534 732 C552 722 566 730 576 738" stroke="#3a1712" stroke-width="12" fill="none" stroke-linecap="round"/>'}
   <ellipse cx="350" cy="660" rx="54" ry="26" fill="#d06450" opacity=".25"/><ellipse cx="660" cy="660" rx="54" ry="26" fill="#d06450" opacity=".25"/>
   <path d="M730 470 C748 520 748 548 730 556 C712 548 712 520 730 470 Z" fill="#bfe4ff" stroke="#1a1010" stroke-width="5"/>
@@ -195,23 +195,23 @@ export const followerFront = () => svg(800, 1400, `
 `);
 
 /** Both riders seen from the FRONT, stopped: driver's visor stares at us, Kamu peeks over his shoulder. 1000x1400. */
-export const ridersFront = ({ headlight = false }: { headlight?: boolean } = {}) => svg(1000, 1400, `
+export const ridersFront = ({ headlight = false, face = true, tread = true }: { headlight?: boolean; face?: boolean; tread?: boolean } = {}) => svg(1000, 1400, `
   <linearGradient id="rimR2" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ff5a4a" stop-opacity=".95"/><stop offset=".35" stop-color="#ff5a4a" stop-opacity="0"/></linearGradient>
   <linearGradient id="litF" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f2e8e6"/><stop offset="1" stop-color="#9a8c90"/></linearGradient>
   <ellipse cx="500" cy="1386" rx="230" ry="24" fill="#000" opacity=".6"/>
   <!-- passenger behind (peeking, scared) -->
   <path d="M620 700 C640 600 700 560 760 560 C820 566 860 610 870 700 L870 860 L640 860 Z" fill="url(#orange)"/>
   <circle cx="760" cy="470" r="92" fill="url(#skin)"/>
-  ${eyes(true, 730, 800, 474, 0.75)}
+  ${face ? `${eyes(true, 730, 800, 474, 0.75)}
   <path d="M706 440 C722 428 744 428 756 436" stroke="#2a170f" stroke-width="8" fill="none" stroke-linecap="round"/>
   <path d="M780 436 C792 428 812 428 826 440" stroke="#2a170f" stroke-width="8" fill="none" stroke-linecap="round"/>
-  <ellipse cx="768" cy="530" rx="16" ry="20" fill="#3a1712"/>
+  <ellipse cx="768" cy="530" rx="16" ry="20" fill="#3a1712"/>` : ''}
   <path d="M664 470 C656 400 700 360 762 360 C826 362 862 404 858 470 L820 456 C800 420 720 420 700 456 Z" fill="url(#slate)"/>
   <path d="M664 470 C656 400 700 360 762 360" fill="none" stroke="url(#rimR2)" stroke-width="7"/>
   <ellipse cx="668" cy="610" rx="34" ry="26" fill="url(#skin)"/>
   <!-- legshield + front fender + front tyre -->
   <rect x="452" y="1150" width="96" height="232" rx="44" fill="#1c1d22"/>
-  ${[0, 1, 2, 3, 4].map((k) => `<rect x="462" y="${1190 + k * 36}" width="76" height="10" rx="5" fill="#3a3c46"/>`).join('')}
+  ${tread ? [0, 1, 2, 3, 4].map((k) => `<rect x="462" y="${1190 + k * 36}" width="76" height="10" rx="5" fill="#3a3c46"/>`).join('') : ''}
   <path d="M410 1150 C410 1110 450 1092 500 1092 C550 1092 590 1110 590 1150 L560 1180 L440 1180 Z" fill="url(#litF)"/>
   <path d="M300 1120 C290 960 330 800 400 740 L600 740 C670 800 710 960 700 1120 C640 1150 360 1150 300 1120 Z" fill="url(#litF)"/>
   <path d="M300 1120 C290 960 330 800 400 740 L600 740 C670 800 710 960 700 1120" fill="none" stroke="url(#rimR2)" stroke-width="9"/>
@@ -246,4 +246,25 @@ export const ridersFront = ({ headlight = false }: { headlight?: boolean } = {})
     <path d="M-66 74 C-34 94 34 94 66 74 L62 110 C34 126 -34 126 -62 110 Z" fill="#3a1a90" opacity=".9"/>
     <rect x="-30" y="-158" width="60" height="18" rx="9" fill="#4b26ad"/>
   </g>
+`);
+
+/** Side wheel at speed: rim + spokes smeared into rings, one bright mark so rotation reads (no wagon-wheel strobing). 360x360. */
+export const wheelBlur = () => svg(360, 360, `
+  <radialGradient id="hub"><stop offset="0" stop-color="#d7dce6"/><stop offset="1" stop-color="#7a8294"/></radialGradient>
+  <circle cx="180" cy="180" r="171" fill="#15161b"/>
+  <circle cx="180" cy="180" r="171" fill="none" stroke="#33363f" stroke-width="6"/>
+  ${[150, 160].map((r) => `<circle cx="180" cy="180" r="${r}" fill="none" stroke="#3a3d47" stroke-width="3" opacity=".7"/>`).join('')}
+  <circle cx="180" cy="180" r="110" fill="url(#chrome)"/>
+  <circle cx="180" cy="180" r="92" fill="#4a505e"/>
+  ${[30, 55, 80].map((r) => `<circle cx="180" cy="180" r="${r}" fill="none" stroke="#8f97a8" stroke-width="10" opacity=".45"/>`).join('')}
+  <circle cx="180" cy="180" r="34" fill="url(#hub)"/><circle cx="180" cy="180" r="14" fill="#4a4f5e"/>
+  <path d="M180 18 A 162 162 0 0 1 300 70" stroke="#6a6e7c" stroke-width="9" fill="none" stroke-linecap="round"/>
+  <rect x="172" y="96" width="16" height="30" rx="6" fill="#e8ecf4"/>
+`);
+
+/** Scrolling tyre tread (seen from behind/front): light bands on transparent, repeats vertically. 64x128. */
+export const treadStrip = () => svg(64, 128, `
+  <rect x="0" y="0" width="64" height="128" fill="#26272e"/>
+  <rect x="6" y="10" width="52" height="14" rx="6" fill="#4e505c"/><rect x="6" y="74" width="52" height="14" rx="6" fill="#4e505c"/>
+  <rect x="0" y="0" width="10" height="128" fill="#5a5c68" opacity=".55"/>
 `);

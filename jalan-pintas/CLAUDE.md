@@ -9,7 +9,7 @@ Folder ini terpisah dari seri legenda Inggris di repo `horrorluar` (`../docs`, `
 - Satu video maksimal 4 jam: build + render + edit. Kalau sesuatu makan waktu terlalu lama, sederhanakan.
 - Pipeline: Remotion + Three.js (`@remotion/three`) di `remotion/`. Blender tidak dipakai (23 Nov: render CPU ±12 dtk/frame vs ±0,2 dtk/frame Three.js).
 - Look 2.5D: gambar vektor datar di ruang 3D (bible §Look). Tanpa walk cycle, tanpa lip sync. Sudut kamera mengikuti gambar yang sudah ada; sudut baru = gambar baru dulu.
-- Gerak = kamera, parallax, roda, lampu, dan ganti gambar. Dinamika datang dari kamera, cahaya, dan suara.
+- Gerak = kamera, parallax, roda berputar, lampu, ganti gambar, dan micro-expression wajah (kedip, lirikan, alis, mulut; `remotion/src/look3/face.ts`, deterministik per frame).
 
 ## Cara kerja
 - Satu langkah per sesi: 0 naskah, 1 VO, 2 timing, 3 shot list, 4 build, 5 preview, 6 render, 7 edit.
@@ -28,10 +28,11 @@ Folder ini terpisah dari seri legenda Inggris di repo `horrorluar` (`../docs`, `
 - Cut to black tepat saat kata terakhir selesai. Tanpa end card, tanpa outro.
 
 ## Caption
-- Karaoke (dari referensi 23 Nov): huruf biasa (bukan kapital semua), Inter, maks 2 baris, di sepertiga atas (top ±330 px).
-- Kata yang sedang diucapkan putih tebal, kata sebelumnya abu. Satu kata kunci per kalimat diberi kotak seleksi ungu `#7B3FE4` dengan 4 titik sudut.
-- Komponen: `remotion/src/ui/Caption.tsx`.
-- Warna per suara: driver = abu muda `#C9CCD6`, chat Juned di aplikasi = ungu muda `#C7A8FF`, narator = putih.
+- Polos dan gampang dibaca (arahan adrian 23 Nov, gaya karaoke dibuang): satu frasa utuh tampil sekaligus (frasa baru tiap beberapa kata, ikut timing VO), semua kata putih, bold Inter ±70 px, huruf biasa, maks 2 baris, rata tengah.
+- Outline gelap tebal (`-webkit-text-stroke` ±7 px `#0b0812`, paint-order stroke) + bayangan lembut, supaya terbaca di rak toko yang terang maupun malam.
+- Tanpa kotak kata kunci, tanpa kata abu, tanpa bold per kata. Chat Juned boleh sedikit ungu muda; selain itu putih.
+- Posisi: sepertiga bawah (y ±1300–1450) secara default, tapi digeser per shot supaya tidak menutupi wajah, HP, atau label pilihan. Shot POV HP: di atas (y ±250).
+- Komponen: `remotion/src/ui/Caption.tsx`; posisi per shot: `capY` di `SPECS` (`remotion/src/ep/EP01.tsx`).
 
 ## Suara
 - VO −16 LUFS, master −14 LUFS, true peak di bawah −1 dBTP.
@@ -53,4 +54,4 @@ Folder ini terpisah dari seri legenda Inggris di repo `horrorluar` (`../docs`, `
 ## Hasil akhir
 - H.264 CRF 22 (supaya final < 50 MB; CRF 18 = ±93 MB), AAC 192k. Plus salinan kecil untuk HP (`-hp.mp4`).
 - Cover 1080x1920 dari render Three.js (lihat bible §Cover).
-- Tokoh, motor, dan set ada di `remotion/src/three/` dan dipakai ulang tiap episode.
+- Tokoh, motor, dan set ada di `remotion/src/look3/` (sprite) dan `remotion/src/ep/sets25.tsx`, dipakai ulang tiap episode.

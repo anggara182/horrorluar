@@ -11,8 +11,9 @@ import timing from '../../../ep01/vo_timing.json';
 import { asphaltTex, skyTex, skylineTex, treesTex } from '../look2/sets2';
 import { chatScreen2, infoScreen, mapScreen } from '../ui/screens2';
 import { Caption, CapWord } from '../ui/Caption';
-import { driverBackPov, handPhone, ridersBack, ridersSide } from '../look3/svg';
-import { faceCU, followerFront, helmetCU, jacketCU, kamuStand, mirrorCU, plateCU, ridersFront, tapHand, wheel } from '../look3/svg2';
+import { driverBackPov, handPhone, helmetBackPov, ridersBack, ridersSide } from '../look3/svg';
+import { faceCU, followerFront, helmetCU, jacketCU, kamuStand, mirrorCU, plateCU, ridersFront, tapHand, treadStrip, wheel, wheelBlur } from '../look3/svg2';
+import { FaceView, Mood, VIEW_CU, VIEW_PEEK, VIEW_SIDE, VIEW_STAND, drawFace, faceAt, headBobAt } from '../look3/face';
 import { blobTex, coneTex, fogTex, glowTex, paint, poleTex, railTex, signalTex, svgTex, tokoTex, wallTex } from '../look3/paint';
 import { Add, JalanAxis, JalanSide, RelAxis, RelSide, Sprite, Tex, TokoSide, V3 } from './sets25';
 
@@ -28,7 +29,7 @@ type Spec = {
   rider?: 'side' | 'sideDriver' | 'back' | 'backT' | 'front' | 'frontLit' | 'none';
   cu?: [string, number, string?]; stand?: boolean; pov?: string; povZ?: [number, number]; tap?: boolean;
   swapAt?: number; hl?: (lt: number) => boolean; follower?: number; labels?: number; dark?: boolean;
-  grade?: 'jalan' | 'toko' | 'rel' | 'photo' | 'twist'; shake?: number; cone?: boolean;
+  grade?: 'jalan' | 'toko' | 'rel' | 'photo' | 'twist'; shake?: number; cone?: boolean; capY?: number;
 };
 const C = (p: V3, t: V3, fov: number): Cam => ({ p, t, fov });
 const POV: Cam = C([0.1, 1.75, 0.3], [0.05, 1.0, -6], 58);
@@ -38,20 +39,20 @@ const RED = '#ffc2b8';
 const SPECS: Record<string, Spec> = {
   S01: { scene: 'jalanSide', world: true, track: 0.55, a: C([0, 0.42, 3.3], [0, 1.0, 0], 50), b: C([0.3, 0.44, 3.2], [0, 1.0, 0], 48), x: (lt) => -3.6 + 7.5 * lt, rider: 'side', shake: 0.02, cone: true },
   S02: { scene: 'jalanSide', move: 7, a: C([0.4, 1.25, 2.7], [-0.1, 1.12, 0], 42), b: C([0.65, 1.28, 2.45], [0, 1.12, 0], 42), rider: 'side', shake: 0.01, cone: true },
-  S03: { scene: 'jalanSide', move: 7, a: C([-2, 2.2, 22], [0, 1.6, 0], 15), b: C([-1, 2.2, 21], [0, 1.6, 0], 15), rider: 'side', shake: 0.006, cone: true },
-  S04: { scene: 'jalanSide', move: 7, a: C([-0.12, 1.25, 1.35], [-0.3, 1.18, 0], 34), b: C([-0.2, 1.23, 1.15], [-0.3, 1.18, 0], 34), rider: 'side', shake: 0.005 },
+  S03: { scene: 'jalanSide', move: 7, a: C([-1.2, 2.0, 15], [0, 1.3, 0], 13), b: C([-0.8, 1.9, 13.5], [0, 1.25, 0], 11), rider: 'side', shake: 0.006, cone: true },
+  S04: { scene: 'jalanSide', move: 7, a: C([-0.12, 1.12, 1.6], [-0.3, 1.1, 0], 36), b: C([-0.2, 1.11, 1.42], [-0.3, 1.1, 0], 36), rider: 'side', shake: 0.005 },
   S05: { scene: 'jalanAxis', move: 7, a: POV, pov: 'chat1', povZ: [-0.32, -0.3], shake: 0.003 },
   S06: { scene: 'jalanAxis', move: 7, a: POV, pov: 'chat1', povZ: [-0.3, -0.25], shake: 0.003 },
   S07: { scene: 'jalanAxis', move: 7, a: C([0.32, 2.1, 1.75], [0.05, 1.45, 0], 32), b: C([0.26, 2.05, 1.55], [0.05, 1.47, 0], 32), rider: 'back', shake: 0.008 },
   S08: { scene: 'tokoSide', world: true, a: C([1.2, 1.45, -2.0], [0.3, 1.3, -6], 38), b: C([0.95, 1.42, -2.7], [0.3, 1.32, -6], 38), stand: true, rider: 'none', shake: 0.005, grade: 'toko' },
   S09: { scene: 'tokoSide', world: true, track: 1, a: C([1.6, 0.55, 3.6], [0, 1.0, 0], 44), b: C([1.5, 0.56, 3.5], [0, 1.0, 0], 44), x: (lt, d) => -7 * Math.pow(1 - Math.min(1, lt / (d * 0.8)), 2.2), rider: 'sideDriver', shake: 0.006, grade: 'toko', cone: true },
-  S10: { scene: 'tokoSide', a: C([0.05, 1.0, 1.4], [0.05, 1.0, 0], 34), b: C([0.05, 1.9, 1.35], [0.05, 1.95, 0], 34), ease: 'io', cu: ['jacket', 2.29], rider: 'none', shake: 0.004, grade: 'toko' },
+  S10: { scene: 'tokoSide', a: C([0.05, 1.0, 1.4], [0.05, 1.0, 0], 34), b: C([0.22, 1.4, 1.75], [0.22, 1.38, 0], 34), ease: 'io', cu: ['jacket', 2.29], rider: 'none', shake: 0.004, grade: 'toko' },
   S11: { scene: 'tokoSide', a: C([0, 0.56, 2.9], [0, 0.5, 0], 34), b: C([0, 0.54, 2.6], [0, 0.5, 0], 34), cu: ['plate', 1.0], rider: 'none', shake: 0.004, grade: 'toko' },
   S12: { scene: 'tokoSide', a: C([0.28, 1.43, 1.35], [0.28, 1.43, 0], 30), b: C([0.28, 1.43, 1.15], [0.28, 1.43, 0], 30), cu: ['jacket', 2.29], rider: 'none', shake: 0.003, grade: 'toko' },
   S13: { scene: 'tokoSide', a: C([0.6, 1.3, 3.4], [-0.1, 1.1, 0], 40), b: C([0.4, 1.28, 3.1], [-0.1, 1.1, 0], 40), rider: 'side', shake: 0.005, grade: 'toko', cone: true },
-  S14: { scene: 'jalanSide', move: 7, a: C([-0.15, 1.35, 1.7], [-0.32, 1.18, 0], 38), b: C([-0.25, 1.37, 1.5], [-0.32, 1.18, 0], 38), rider: 'side', shake: 0.008 },
+  S14: { scene: 'jalanSide', move: 7, a: C([-0.18, 1.18, 2.0], [-0.32, 1.08, 0], 38), b: C([-0.26, 1.17, 1.8], [-0.32, 1.08, 0], 38), rider: 'side', shake: 0.008 },
   S15: { scene: 'jalanAxis', move: 7, a: POV, pov: 'map', povZ: [-0.31, -0.24], shake: 0.003 },
-  S16: { scene: 'jalanAxis', move: 7, a: C([0.0, 1.72, 0.3], [-0.25, 1.25, -1.1], 50), b: C([-0.03, 1.71, 0.22], [-0.27, 1.26, -1.1], 48), pov: 'none', tap: true, shake: 0.005 },
+  S16: { scene: 'jalanAxis', move: 7, a: C([-0.1, 1.64, 0.05], [-0.33, 1.32, -1.1], 44), b: C([-0.18, 1.58, -0.3], [-0.35, 1.33, -1.1], 40), ease: 'io', pov: 'none', tap: true, shake: 0.004 },
   S17: { scene: 'jalanSide', move: 7, a: C([0.05, 1.0, 2.7], [0.06, 1.0, 0], 40), b: C([0.05, 1.02, 2.4], [0.06, 1.02, 0], 40), cu: ['helm', 1.71], rider: 'none', shake: 0.006 },
   S18: { scene: 'jalanAxis', move: 7, dark: true, a: C([0.4, 1.7, 4.2], [0, 1.0, -6], 42), b: C([0.4, 1.8, 6.2], [0, 1.0, -6], 42), rider: 'back', shake: 0.008 },
   S19: { scene: 'relSide', move: 6, a: C([0.9, 1.2, 3.7], [-0.2, 1.05, 0], 40), b: C([0.6, 1.2, 3.35], [-0.2, 1.05, 0], 40), rider: 'side', shake: 0.008, grade: 'rel', cone: true },
@@ -63,14 +64,14 @@ const SPECS: Record<string, Spec> = {
   S25: { scene: 'relAxis', move: 6, a: POV, pov: 'info', povZ: [-0.27, -0.25], shake: 0.003, grade: 'rel' },
   S26: { scene: 'relAxis', move: 6, a: C([0.25, 1.1, 9.0], [0, 1.0, -2], 30), b: C([0.25, 1.1, 8.5], [0, 1.0, -2], 30), rider: 'back', cone: true, shake: 0.01, grade: 'rel' },
   S27: { scene: 'relAxis', move: 6, a: POV, pov: 'photo', povZ: [-0.3, -0.25], shake: 0.003, grade: 'rel' },
-  S28: { scene: 'relAxis', a: C([0.25, 0.95, 3.0], [0.1, 0.85, 0], 22), b: C([0.24, 0.96, 2.95], [0.1, 0.86, 0], 22), rider: 'backT', cone: true, grade: 'photo' },
+  S28: { scene: 'relAxis', a: C([0.25, 0.95, 3.0], [0.1, 0.85, 0], 22), b: C([0.24, 0.96, 2.95], [0.1, 0.86, 0], 22), rider: 'backT', cone: true, grade: 'photo', capY: 300 },
   S29: { scene: 'relAxis', a: C([0.25, 0.95, 3.0], [0.1, 0.85, 0], 22), b: C([0.2, 1.55, 2.6], [0.12, 1.42, 0], 26), ease: 'out', rider: 'backT', cone: true, grade: 'twist' },
   S30: { scene: 'relAxis', x: (lt) => 3 * (1 - Math.exp(-lt * 1.6)), a: C([0.6, 1.3, -4.6], [0, 1.0, 0], 38), b: C([0.55, 1.3, -4.4], [0, 1.0, 0], 38), rider: 'front', hl: (lt) => lt < 0.22 || (lt > 0.3 && lt < 0.36), shake: 0.008, grade: 'rel' },
   S31: { scene: 'relAxis', a: C([0.32, 1.95, 1.7], [0.1, 1.5, 0], 34), b: C([0.28, 1.92, 1.5], [0.1, 1.51, 0], 34), rider: 'back', swapAt: 63.77, shake: 0.005, grade: 'rel' },
   S32: { scene: 'relSide', a: C([0, 0.93, 1.95], [0, 0.9, 0], 40), b: C([0, 0.92, 1.62], [0, 0.9, 0], 40), cu: ['faceS', 1.71, RED], rider: 'none', shake: 0.005, grade: 'rel' },
-  S33: { scene: 'relAxis', a: C([1.4, 1.4, -4.6], [0, 1.2, 2], 36), b: C([1.3, 1.4, -4.4], [0, 1.2, 2], 36), rider: 'front', follower: 13, labels: 1, shake: 0.005, grade: 'rel' },
-  S34: { scene: 'relAxis', a: C([1.3, 1.4, -4.4], [0, 1.2, 2], 36), b: C([1.2, 1.4, -4.2], [0, 1.2, 2], 36), rider: 'front', follower: 13, labels: 2, shake: 0.005, grade: 'rel' },
-  S35: { scene: 'relAxis', a: C([1.2, 1.4, -4.2], [0, 1.2, 2], 36), b: C([-0.22, 1.36, -1.7], [-0.37, 1.3, 0], 32), ease: 'io', rider: 'front', follower: 13, labels: 2, shake: 0.004, grade: 'rel' },
+  S33: { scene: 'relAxis', a: C([1.4, 1.4, -4.6], [0, 1.2, 2], 36), b: C([1.3, 1.4, -4.4], [0, 1.2, 2], 36), rider: 'front', follower: 13, labels: 1, shake: 0.005, grade: 'rel' , capY: 300},
+  S34: { scene: 'relAxis', a: C([1.3, 1.4, -4.4], [0, 1.2, 2], 36), b: C([1.2, 1.4, -4.2], [0, 1.2, 2], 36), rider: 'front', follower: 13, labels: 2, shake: 0.005, grade: 'rel' , capY: 300},
+  S35: { scene: 'relAxis', a: C([1.2, 1.4, -4.2], [0, 1.2, 2], 36), b: C([-0.22, 1.36, -1.7], [-0.37, 1.3, 0], 32), ease: 'io', rider: 'front', follower: 13, labels: 2, shake: 0.004, grade: 'rel' , capY: 300},
 };
 
 /** Shots that are scenes along the road axis (A = [0,0,-d]); everything else travels along +x. */
