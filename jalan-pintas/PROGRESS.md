@@ -9,7 +9,8 @@ Selesai: 0 naskah (v2, `ep01/naskah.md`), 1 VO.
 Berikutnya: adrian dengar `ep01/vo.mp3`. Kalau oke → langkah 2 timing + 3 shot list (`ep01/brief.md`: shot tiap 2–4 dtk, tiap 1 dtk di 5 dtk pertama, dikunci ke kata pertama barisnya).
 Kalau ada baris yang jelek: generate ulang baris itu saja (hapus `ep01/vo/bNN_t*.mp3`, jalankan `tools/vo.py ep01`).
 
-Catatan render (penting untuk langkah 4–6):
-- Blender 4.2.3 LTS di `/opt/blender/` (container, hilang kalau container baru: unduh lagi dari download.blender.org + `apt-get install libegl1 libegl-mesa0 libgl1-mesa-dri libxi6 libxxf86vm1 libxkbcommon0 libsm6`).
-- Tanpa GPU: EEVEE 1080x1920, 16 sample ≈ 12 dtk/frame. 78 dtk × 24 fps = 1.870 frame ≈ 6 jam → melewati batas 4 jam.
-- Rencana: render 720x1280 / 8 sample (perkiraan 3–4 dtk/frame), tanpa volumetrik (kabut = bidang transparan), lalu upscale ke 1080x1920 saat edit. Ukur ulang di preview.
+Catatan render (23 Nov, pipeline diganti):
+- Blender ditinggal. Remotion + Three.js di `remotion/` (`npm install`, lalu `npx remotion still ...`). Di container: Chromium headless shell + `swangle`; di PC lokal hapus baris browser di `remotion.config.ts`.
+- Kecepatan uji: ±0,17 dtk/frame 1080x1920 → satu episode ±6 menit render.
+- Look test 3 shot jadi (`remotion/out/s1-3.png`): hook TOKO 24, POV HP, helm menghadap belakang. Menunggu pendapat adrian.
+- PR visual sebelum build penuh: motor masih kotak-kotak (perlu dibulatkan), tangan kiri penumpang menembus badan driver, wajah penumpang kecil di wide shot, set masih terlalu gelap dibanding referensi.

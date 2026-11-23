@@ -37,8 +37,11 @@ Suara (EP01, ganti di sini kalau adrian minta):
 
 Tambahkan tempat baru di sini begitu dipakai.
 
-## Look (Blender EEVEE)
-- 3D sederhana, gelap, sinematik. Semua dari bentuk dasar ber-bevel, wajah = tekstur gambar datar per shot.
+## Look (Remotion + Three.js)
+- 3D low-poly datar ala referensi 23 Nov: bentuk dasar, tanpa tekstur, cahaya bergradasi + glow palsu (sprite) + kabut. Wajah = bola kecil (mata, alis, mulut).
+- Warna per babak: oranye TOKO 24 (awal) → biru jalan gelap (tengah) → merah rel mati (bahaya/pilihan).
+- Shot POV: tangan memegang HP yang menempel ke kamera; layar HP (aplikasi JALANIN) harus terbaca.
+- Look test: `remotion/out/sheet.png` (`npx remotion still src/index.ts LookTest out/sN.png --props='{"shot":N}'`).
 - Palet: navy malam `#0B1030`, ungu JALANIN `#7B3FE4`, oranye TOKO 24 `#FF7A1A`, merah lampu belakang `#E0262B`.
 - Malam tetap terbaca: wajah dan tangan selalu dapat rim light.
 - Kamera: handheld shake di setiap shot, low angle di aspal saat motor lewat, push-in pelan ke kaca helm, whip-pan cepat ke spion/ke belakang, POV ke layar HP.
@@ -65,10 +68,10 @@ Setiap episode harus bisa ditonton sendiri. Universe = bonus untuk fans, bukan t
 - Fiksi. Tanpa merek asli (aplikasi = JALANIN, minimarket = TOKO 24). Lucu boleh dari situasi, tidak dari tubuh, suku, agama, atau orang sungguhan.
 
 ## Cover (sama tiap episode, hanya nomor yang berubah)
-Render dari scene Blender, bukan gambar AI. Sepertiga atas: "JALAN" putih bold italic + "PINTAS" merah besar, garis merah tebal, "EPISODE N" spasi lebar. Bawah: close-up Kamu di boncengan, cemas, memegang HP dengan pin ungu. Latar: Si Pengendara dari belakang, kaca helm memantulkan titik ungu. Dua warna: hitam dan merah (+ ungu kecil di pin).
+Render dari scene Three.js, bukan gambar AI. Sepertiga atas: "JALAN" putih bold italic + "PINTAS" merah besar, garis merah tebal, "EPISODE N" spasi lebar. Bawah: close-up Kamu di boncengan, cemas, memegang HP dengan pin ungu. Latar: Si Pengendara dari belakang, kaca helm memantulkan titik ungu. Dua warna: hitam dan merah (+ ungu kecil di pin).
 
 ## Logo / foto profil
-Helm ungu dengan kaca tertutup, kepala dan bahu, di tengah latar hitam pekat. Satu-satunya cahaya: titik ungu kecil di kaca helm + rim light dingin tipis. Tanpa teks. Dirender dari aset helm Si Pengendara.
+Helm ungu dengan kaca tertutup, kepala dan bahu, di tengah latar hitam pekat. Satu-satunya cahaya: titik ungu kecil di kaca helm + rim light dingin tipis. Tanpa teks. Dirender dari helm Si Pengendara (Three.js).
 
 ## Akun (usulan, belum dibuat)
 - Nama: **Jalan Pintas**. Handle sama di IG, TikTok, YouTube: `@jalanpintas.series` (CEK ketersediaan).

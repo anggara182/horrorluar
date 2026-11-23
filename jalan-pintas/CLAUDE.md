@@ -7,8 +7,8 @@ Folder ini terpisah dari seri legenda Inggris di repo `horrorluar` (`../docs`, `
 
 ## Batas keras
 - Satu video maksimal 4 jam: build + render + edit. Kalau sesuatu makan waktu terlalu lama, sederhanakan.
-- Pakai Blender EEVEE saja, jangan pernah Cycles.
-- Pakai bentuk dasar ber-bevel. Tanpa walk cycle, tanpa lip sync, tanpa model detail kecuali yang sudah ada di `assets/`.
+- Pipeline: Remotion + Three.js (`@remotion/three`) di `remotion/`. Blender tidak dipakai (23 Nov: render CPU ±12 dtk/frame vs ±0,2 dtk/frame Three.js).
+- Pakai bentuk dasar (kapsul, kotak, bola). Tanpa walk cycle, tanpa lip sync, tanpa model detail kecuali yang sudah ada di `assets/`.
 - Gerak tokoh = rotasi kepala/badan di antara shot + ganti tekstur wajah. Dinamika datang dari kamera, cahaya, dan suara, bukan dari model.
 
 ## Cara kerja
@@ -16,7 +16,7 @@ Folder ini terpisah dari seri legenda Inggris di repo `horrorluar` (`../docs`, `
 - Setelah tiap langkah, tulis yang sudah selesai dan langkah berikutnya di `PROGRESS.md`. Lalu berhenti.
 - Preview = SATU contact sheet low-res berisi key frame. Tidak ada cek frame per frame.
 - Render panjang dijalankan di background. Tulis perintahnya di `PROGRESS.md`, lalu berhenti.
-- Cek semua material sebelum render: tidak boleh ada tekstur pink/hilang, melar, atau berkedip.
+- Cek sebelum render: tidak ada tekstur hilang/melar/berkedip, tidak ada tangan/tubuh yang menembus benda, teks layar HP terbaca di ukuran HP.
 - Agent kontrol (maks 3 aktif): timing (shot mulai di barisnya), visual (contact sheet: tekstur, benda melayang/terpotong, tokoh keluar frame, teks HP terbaca), aturan (cek daftar di bawah). Ulangi sampai bersih, baru render final.
 
 ## Aturan video
@@ -28,9 +28,10 @@ Folder ini terpisah dari seri legenda Inggris di repo `horrorluar` (`../docs`, `
 - Cut to black tepat saat kata terakhir selesai. Tanpa end card, tanpa outro.
 
 ## Caption
-- Putih, bold, uppercase, 2–3 kata, sinkron ke timestamp kata.
+- Karaoke (dari referensi 23 Nov): huruf biasa (bukan kapital semua), Inter, maks 2 baris, di sepertiga atas (top ±330 px).
+- Kata yang sedang diucapkan putih tebal, kata sebelumnya abu. Satu kata kunci per kalimat diberi kotak seleksi ungu `#7B3FE4` dengan 4 titik sudut.
+- Komponen: `remotion/src/ui/Caption.tsx`.
 - Warna per suara: driver = abu muda `#C9CCD6`, chat Juned di aplikasi = ungu muda `#C7A8FF`, narator = putih.
-- Satu kata kuning `#FFD23F` tiap 10–15 dtk, hanya di kata kunci.
 
 ## Suara
 - VO −16 LUFS, master −14 LUFS, true peak di bawah −1 dBTP.
@@ -46,10 +47,10 @@ Folder ini terpisah dari seri legenda Inggris di repo `horrorluar` (`../docs`, `
 ## Biaya dan layanan luar
 - Key ai33 dipakai bersama akun studio lain (batas efektif ±5 task). Sebelum submit VO, minta izin adrian dulu dan ikuti aturan antrean studio (`_shared/ATURAN-PARALEL.md` §3: tunggu kalau ≥4 task belum done, jarak submit ≥15 dtk + jitter, backoff kalau kena 429). Jangan submit SFX lewat ai33.
 - Sebelum memakai apa pun yang berbayar, sebutkan harganya dulu.
-- Tanpa gambar AI untuk tokoh, cover, atau logo. Semuanya dirender dari scene Blender.
+- Tanpa gambar AI untuk tokoh, cover, atau logo. Semuanya dirender dari scene Three.js.
 - Jangan posting atau menjadwalkan tanpa izin eksplisit adrian.
 
 ## Hasil akhir
 - H.264 CRF 18, AAC 192k. Plus salinan kecil untuk HP (`-hp.mp4`).
 - Cover 1080x1920 dari render Blender (lihat bible §Cover).
-- Simpan scene sebagai template di `assets/` untuk episode berikutnya.
+- Tokoh, motor, dan set ada di `remotion/src/three/` dan dipakai ulang tiap episode.
