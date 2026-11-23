@@ -1,0 +1,70 @@
+<!doctype html><html><head><meta charset="utf-8">
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;800&family=Cormorant+Garamond:ital,wght@1,600&display=swap" rel="stylesheet">
+<style>body{margin:0;background:#000}svg{display:block}</style></head><body>
+<!-- A: moon clock at midnight with crow -->
+<svg id="a" width="1080" height="1080" viewBox="0 0 1080 1080">
+ <defs>
+  <radialGradient id="bgA" cx="50%" cy="42%" r="70%"><stop offset="0" stop-color="#1a2440"/><stop offset=".6" stop-color="#0a0f1e"/><stop offset="1" stop-color="#03050b"/></radialGradient>
+  <radialGradient id="moonA" cx="45%" cy="40%" r="60%"><stop offset="0" stop-color="#fff8e6"/><stop offset=".7" stop-color="#e9dcbc"/><stop offset="1" stop-color="#c9b88f"/></radialGradient>
+  <radialGradient id="haloA" cx="50%" cy="50%" r="50%"><stop offset=".55" stop-color="#ffe9b0" stop-opacity=".35"/><stop offset="1" stop-color="#ffe9b0" stop-opacity="0"/></radialGradient>
+  <path id="arcTop" d="M 210 540 A 330 330 0 0 1 870 540"/>
+  <path id="arcBot" d="M 230 560 A 310 310 0 0 0 850 560"/>
+ </defs>
+ <rect width="1080" height="1080" fill="url(#bgA)"/>
+ <circle cx="540" cy="540" r="330" fill="url(#haloA)"/>
+ <circle cx="540" cy="540" r="230" fill="url(#moonA)"/>
+ <g fill="#cbb98f" opacity=".45"><circle cx="470" cy="470" r="34"/><circle cx="610" cy="600" r="22"/><circle cx="600" cy="455" r="14"/><circle cx="480" cy="620" r="16"/></g>
+ <g stroke="#1b1a22" stroke-width="10" stroke-linecap="round" fill="none" opacity=".85">
+  <line x1="540" y1="540" x2="540" y2="355"/><line x1="540" y1="540" x2="548" y2="400"/>
+ </g>
+ <g fill="#1b1a22" opacity=".7">
+  <circle cx="540" cy="540" r="14"/>
+  <rect x="534" y="320" width="12" height="28" rx="3"/><rect x="534" y="732" width="12" height="28" rx="3"/>
+  <rect x="320" y="534" width="28" height="12" rx="3"/><rect x="732" y="534" width="28" height="12" rx="3"/>
+ </g>
+ <!-- crow on the rim -->
+ <path d="M 640 352 q 18 -40 52 -44 q 14 -2 22 6 l 26 -6 l -20 16 q 8 22 -6 44 q 30 6 62 34 q -40 -6 -66 2 q -34 12 -62 -8 q -10 -24 -8 -44 Z" fill="#06070b"/>
+ <text font-family="Cinzel" font-weight="800" font-size="64" letter-spacing="10" fill="#efe2c2"><textPath href="#arcTop" startOffset="50%" text-anchor="middle">TALES FROM</textPath></text>
+ <text font-family="Cinzel" font-weight="800" font-size="64" letter-spacing="10" fill="#efe2c2"><textPath href="#arcBot" startOffset="50%" text-anchor="middle" dominant-baseline="hanging">MIDNIGHT</textPath></text>
+</svg>
+<!-- B: monogram TM in a crescent ring -->
+<svg id="b" width="1080" height="1080" viewBox="0 0 1080 1080">
+ <defs>
+  <radialGradient id="bgB" cx="50%" cy="50%" r="70%"><stop offset="0" stop-color="#2a0f14"/><stop offset=".55" stop-color="#12070a"/><stop offset="1" stop-color="#050203"/></radialGradient>
+  <linearGradient id="goldB" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffe6a8"/><stop offset=".55" stop-color="#d9a441"/><stop offset="1" stop-color="#8a5a1c"/></linearGradient>
+  <radialGradient id="flame" cx="50%" cy="70%" r="60%"><stop offset="0" stop-color="#fff4c2"/><stop offset=".5" stop-color="#ffb347"/><stop offset="1" stop-color="#ff6a1a" stop-opacity="0"/></radialGradient>
+  <mask id="cres"><rect width="1080" height="1080" fill="#000"/><circle cx="540" cy="540" r="330" fill="#fff"/><circle cx="610" cy="500" r="300" fill="#000"/></mask>
+ </defs>
+ <rect width="1080" height="1080" fill="url(#bgB)"/>
+ <circle cx="540" cy="540" r="330" fill="url(#goldB)" mask="url(#cres)"/>
+ <text x="540" y="640" text-anchor="middle" font-family="Cinzel" font-weight="800" font-size="300" fill="url(#goldB)" letter-spacing="-10">TM</text>
+ <circle cx="540" cy="350" r="60" fill="url(#flame)" opacity=".9"/>
+ <path d="M 540 300 q 22 30 0 62 q -22 -32 0 -62 Z" fill="#fff1c4"/>
+ <text x="540" y="770" text-anchor="middle" font-family="Cinzel" font-weight="600" font-size="46" letter-spacing="14" fill="#e9c77a">TALES FROM MIDNIGHT</text>
+</svg>
+<!-- C: moon, lone tree, lit window -->
+<svg id="c" width="1080" height="1080" viewBox="0 0 1080 1080">
+ <defs>
+  <linearGradient id="skyC" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#050812"/><stop offset=".6" stop-color="#0f1a33"/><stop offset="1" stop-color="#1d2b4f"/></linearGradient>
+  <radialGradient id="moonC" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#f4f1e6"/><stop offset=".85" stop-color="#d7d6cc"/><stop offset="1" stop-color="#d7d6cc" stop-opacity="0"/></radialGradient>
+  <radialGradient id="glowC" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#ffc66b" stop-opacity=".9"/><stop offset="1" stop-color="#ffc66b" stop-opacity="0"/></radialGradient>
+ </defs>
+ <rect width="1080" height="1080" fill="url(#skyC)"/>
+ <circle cx="540" cy="430" r="200" fill="url(#moonC)"/>
+ <path d="M 0 760 Q 270 700 540 735 T 1080 740 L 1080 1080 L 0 1080 Z" fill="#05070c"/>
+ <!-- lone dead tree -->
+ <g stroke="#05070c" stroke-linecap="round" fill="none">
+  <path d="M 420 745 C 430 640 410 560 440 470" stroke-width="26"/>
+  <path d="M 437 520 C 400 480 370 470 330 440" stroke-width="12"/>
+  <path d="M 440 470 C 470 420 500 400 545 370" stroke-width="11"/>
+  <path d="M 432 560 C 470 540 505 520 560 515" stroke-width="9"/>
+  <path d="M 350 452 L 320 410" stroke-width="7"/><path d="M 520 384 L 540 340" stroke-width="6"/>
+ </g>
+ <!-- small house with one lit window -->
+ <path d="M 600 745 L 600 670 L 650 630 L 700 670 L 700 745 Z" fill="#05070c"/>
+ <circle cx="650" cy="695" r="42" fill="url(#glowC)"/>
+ <rect x="638" y="682" width="24" height="26" fill="#ffd27a"/>
+ <text x="540" y="870" text-anchor="middle" font-family="Cinzel" font-weight="800" font-size="76" letter-spacing="8" fill="#e8e2d0">TALES</text>
+ <text x="540" y="935" text-anchor="middle" font-family="Cormorant Garamond" font-style="italic" font-weight="600" font-size="52" letter-spacing="4" fill="#ffc66b">from midnight</text>
+</svg>
+</body></html>
