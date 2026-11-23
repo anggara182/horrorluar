@@ -1,0 +1,356 @@
+{
+ "fps": 24,
+ "end": 77.74,
+ "shots": [
+  {
+   "id": "S01",
+   "start": 0.0,
+   "end": 0.87,
+   "dur": 0.87,
+   "set": "jalan",
+   "kamera": "Low angle di aspal, motor lewat kencang dari kanan ke kiri, lampu depan flare",
+   "aksi": "Hook: motor melesat",
+   "sfx": "whoosh"
+  },
+  {
+   "id": "S02",
+   "start": 0.87,
+   "end": 1.82,
+   "dur": 0.95,
+   "set": "jalan",
+   "kamera": "Tracking samping medium, dua pengendara, penumpang lihat HP",
+   "aksi": "Dibonceng",
+   "sfx": "mesin"
+  },
+  {
+   "id": "S03",
+   "start": 1.82,
+   "end": 3.09,
+   "dur": 1.27,
+   "set": "jalan",
+   "kamera": "Wide tinggi: jalan di antara pohon pisang, motor kecil, bulan",
+   "aksi": "Tengah malam",
+   "sfx": "angin"
+  },
+  {
+   "id": "S04",
+   "start": 3.09,
+   "end": 4.21,
+   "dur": 1.12,
+   "set": "jalan",
+   "kamera": "CU HP di tangan penumpang dari samping, notifikasi pop",
+   "aksi": "Drivernya ngechat",
+   "sfx": "notif"
+  },
+  {
+   "id": "S05",
+   "start": 4.21,
+   "end": 6.01,
+   "dur": 1.8,
+   "set": "pov",
+   "kamera": "POV HP: chat terbuka (layar chat-1)",
+   "aksi": "Aplikasi",
+   "sfx": ""
+  },
+  {
+   "id": "S06",
+   "start": 6.01,
+   "end": 9.43,
+   "dur": 3.42,
+   "set": "pov",
+   "kamera": "POV HP push-in pelan ke bubble Juned",
+   "aksi": "Juned: sudah di titik jemput",
+   "sfx": ""
+  },
+  {
+   "id": "S07",
+   "start": 9.43,
+   "end": 11.73,
+   "dur": 2.3,
+   "set": "jalan",
+   "kamera": "Over-shoulder dari belakang penumpang ke punggung + helm driver, push pelan",
+   "aksi": "Padahal kamu di boncengannya",
+   "sfx": "hit kecil"
+  },
+  {
+   "id": "S08",
+   "start": 11.73,
+   "end": 14.93,
+   "dur": 3.2,
+   "set": "toko",
+   "kamera": "Flashback TOKO 24: penumpang berdiri di depan toko pegang HP, push pelan",
+   "aksi": "Kelar shift, pesan ojol",
+   "sfx": "bel pintu"
+  },
+  {
+   "id": "S09",
+   "start": 14.93,
+   "end": 17.25,
+   "dur": 2.32,
+   "set": "toko",
+   "kamera": "Low angle: motor masuk dari kiri, lampu menyapu, berhenti",
+   "aksi": "Motor berhenti",
+   "sfx": "rem"
+  },
+  {
+   "id": "S10",
+   "start": 17.25,
+   "end": 18.29,
+   "dur": 1.04,
+   "set": "toko",
+   "kamera": "CU jaket ungu + garis reflektif, tilt naik",
+   "aksi": "Jaket ungu",
+   "sfx": ""
+  },
+  {
+   "id": "S11",
+   "start": 18.29,
+   "end": 20.38,
+   "dur": 2.09,
+   "set": "toko",
+   "kamera": "CU plat belakang B 4217 KZ (lampu toko)",
+   "aksi": "Plat cocok",
+   "sfx": ""
+  },
+  {
+   "id": "S12",
+   "start": 20.38,
+   "end": 22.21,
+   "dur": 1.83,
+   "set": "toko",
+   "kamera": "CU badge dada 'JUNED'",
+   "aksi": "Nama di dada",
+   "sfx": ""
+  },
+  {
+   "id": "S13",
+   "start": 22.21,
+   "end": 24.13,
+   "dur": 1.92,
+   "set": "toko",
+   "kamera": "Wide: penumpang sudah duduk di belakang driver",
+   "aksi": "Semua cocok, naik",
+   "sfx": ""
+  },
+  {
+   "id": "S14",
+   "start": 24.13,
+   "end": 25.8,
+   "dur": 1.67,
+   "set": "jalan",
+   "kamera": "Medium samping: penumpang angkat HP",
+   "aksi": "Buka peta",
+   "sfx": "mesin"
+  },
+  {
+   "id": "S15",
+   "start": 25.8,
+   "end": 29.08,
+   "dur": 3.28,
+   "set": "pov",
+   "kamera": "POV HP peta: pin ungu diam di TOKO 24, push-in ke pin, ETA 7 menit (layar peta)",
+   "aksi": "Titik motor diam",
+   "sfx": "hit"
+  },
+  {
+   "id": "S16",
+   "start": 29.08,
+   "end": 31.23,
+   "dur": 2.15,
+   "set": "jalan",
+   "kamera": "CU tangan penumpang menepuk pundak driver (over-shoulder)",
+   "aksi": "Tepuk pundak",
+   "sfx": "tepuk"
+  },
+  {
+   "id": "S17",
+   "start": 31.23,
+   "end": 33.94,
+   "dur": 2.71,
+   "set": "jalan",
+   "kamera": "CU 3/4 depan helm driver low angle, titik ungu di kaca",
+   "aksi": "Pegangan, jalan pintas",
+   "sfx": ""
+  },
+  {
+   "id": "S18",
+   "start": 33.94,
+   "end": 35.97,
+   "dur": 2.03,
+   "set": "jalan",
+   "kamera": "Wide tinggi: motor belok dari jalan berlampu ke gang gelap",
+   "aksi": "Belok ke jalan tanpa lampu",
+   "sfx": "whoosh pelan"
+  },
+  {
+   "id": "S19",
+   "start": 35.97,
+   "end": 37.84,
+   "dur": 1.87,
+   "set": "rel",
+   "kamera": "Wide: rel mati, sinyal merah miring, lampu motor masuk jalur",
+   "aksi": "Ke arah rel mati",
+   "sfx": "drone naik"
+  },
+  {
+   "id": "S20",
+   "start": 37.84,
+   "end": 40.56,
+   "dur": 2.72,
+   "set": "pov",
+   "kamera": "POV HP: pesan kedua Juned (layar chat-2)",
+   "aksi": "Itu bukan saya",
+   "sfx": "notif"
+  },
+  {
+   "id": "S21",
+   "start": 40.56,
+   "end": 41.98,
+   "dur": 1.42,
+   "set": "rel",
+   "kamera": "CU wajah penumpang takut (depan)",
+   "aksi": "Bukan saya",
+   "sfx": ""
+  },
+  {
+   "id": "S22",
+   "start": 41.98,
+   "end": 43.25,
+   "dur": 1.27,
+   "set": "rel",
+   "kamera": "CU spion dari POV: di pantulan, satu lampu motor jauh di belakang",
+   "aksi": "Lihat spion",
+   "sfx": ""
+  },
+  {
+   "id": "S23",
+   "start": 43.25,
+   "end": 45.17,
+   "dur": 1.92,
+   "set": "rel",
+   "kamera": "Whip-pan ke CU plat belakang (lampu rem merah)",
+   "aksi": "Plat motor ini",
+   "sfx": "whip"
+  },
+  {
+   "id": "S24",
+   "start": 45.17,
+   "end": 47.17,
+   "dur": 2.0,
+   "set": "rel",
+   "kamera": "Push-in plat B 4217 KZ",
+   "aksi": "Plat sama",
+   "sfx": ""
+  },
+  {
+   "id": "S25",
+   "start": 47.17,
+   "end": 48.11,
+   "dur": 0.94,
+   "set": "pov",
+   "kamera": "POV HP: info driver B 4217 KZ (layar info)",
+   "aksi": "Sama?",
+   "sfx": "hit"
+  },
+  {
+   "id": "S26",
+   "start": 48.11,
+   "end": 51.2,
+   "dur": 3.09,
+   "set": "rel",
+   "kamera": "Wide dari jauh di belakang: satu lampu motor pengikut di depan kamera, dua pengendara di depan",
+   "aksi": "Juned ngikutin",
+   "sfx": "mesin kedua"
+  },
+  {
+   "id": "S27",
+   "start": 51.2,
+   "end": 54.59,
+   "dur": 3.39,
+   "set": "pov",
+   "kamera": "POV HP: foto masuk di chat (layar foto)",
+   "aksi": "Fotonya masuk",
+   "sfx": "notif"
+  },
+  {
+   "id": "S28",
+   "start": 54.59,
+   "end": 56.66,
+   "dur": 2.07,
+   "set": "rel",
+   "kamera": "Isi foto, crop: punggung penumpang + ransel, helm driver belum kelihatan",
+   "aksi": "Itu punggungmu",
+   "sfx": ""
+  },
+  {
+   "id": "S29",
+   "start": 56.66,
+   "end": 60.26,
+   "dur": 3.6,
+   "set": "rel",
+   "kamera": "TWIST HERO: tilt naik, helm driver menghadap kamera, push-in pelan, tahan",
+   "aksi": "Helm ngadep ke belakang",
+   "sfx": "hit besar"
+  },
+  {
+   "id": "S30",
+   "start": 60.26,
+   "end": 62.12,
+   "dur": 1.86,
+   "set": "rel",
+   "kamera": "Wide depan: lampu motor mati, gelap, tinggal sinyal merah",
+   "aksi": "Mesin mati",
+   "sfx": "mesin berhenti + hening"
+  },
+  {
+   "id": "S31",
+   "start": 62.12,
+   "end": 66.04,
+   "dur": 3.92,
+   "set": "rel",
+   "kamera": "Over-shoulder ke helm driver; di 'yang ngikutin kita' helm berputar pelan ke samping",
+   "aksi": "Jangan lihat ke belakang",
+   "sfx": "drone"
+  },
+  {
+   "id": "S32",
+   "start": 66.04,
+   "end": 68.27,
+   "dur": 2.23,
+   "set": "rel",
+   "kamera": "CU wajah penumpang, cahaya merah",
+   "aksi": "Percaya yang mana?",
+   "sfx": ""
+  },
+  {
+   "id": "S33",
+   "start": 68.27,
+   "end": 71.95,
+   "dur": 3.68,
+   "set": "rel",
+   "kamera": "Wide samping: motor berhenti di rel, lampu pengikut di belakang. Label '1 LOMPAT TURUN' nempel ke lampu pengikut",
+   "aksi": "Opsi 1",
+   "sfx": "pop"
+  },
+  {
+   "id": "S34",
+   "start": 71.95,
+   "end": 75.88,
+   "dur": 3.93,
+   "set": "rel",
+   "kamera": "Wide sama, label '2 TETAP PEGANGAN' nempel ke driver; label 1 tetap",
+   "aksi": "Opsi 2",
+   "sfx": "pop"
+  },
+  {
+   "id": "S35",
+   "start": 75.88,
+   "end": 77.74,
+   "dur": 1.86,
+   "set": "rel",
+   "kamera": "Push-in pelan ke wajah penumpang, dua label tetap. Cut to black di 77.74",
+   "aksi": "Satu atau dua?",
+   "sfx": "cut"
+  }
+ ]
+}

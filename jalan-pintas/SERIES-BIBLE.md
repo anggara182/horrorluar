@@ -38,7 +38,8 @@ Suara (EP01, ganti di sini kalau adrian minta):
 Tambahkan tempat baru di sini begitu dipakai.
 
 ## Look (Remotion + Three.js)
-- 3D low-poly datar ala referensi 23 Nov: bentuk dasar, tanpa tekstur, cahaya bergradasi + glow palsu (sprite) + kabut. Wajah = bola kecil (mata, alis, mulut).
+- **Look v2 (dikunci 23 Nov):** campuran 2D/3D. Tokoh, motor, properti = 3D cel shading 4 tingkat + garis tinta `#120d1d` (`remotion/src/look2/toon.tsx`). Wajah digambar 2D di kepala 3D. Latar = lapisan lukis 2D (langit, siluet kampung + jendela menyala, tiang + kabel, pohon pisang). Glow, sorot lampu, kabut = kartu 2D additive. Grain + vignette di atas.
+- Lighting selalu punya sumber: lampu jalan / toko / lampu motor / sinyal merah / bulan sebagai rim. Acuan: `remotion/out/v2-s1..3.png`.
 - Warna per babak: oranye TOKO 24 (awal) → biru jalan gelap (tengah) → merah rel mati (bahaya/pilihan).
 - Shot POV: tangan memegang HP yang menempel ke kamera; layar HP (aplikasi JALANIN) harus terbaca.
 - Look test: `remotion/out/sheet.png` (`npx remotion still src/index.ts LookTest out/sN.png --props='{"shot":N}'`).
