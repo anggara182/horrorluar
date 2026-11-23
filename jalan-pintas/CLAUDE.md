@@ -8,8 +8,8 @@ Folder ini terpisah dari seri legenda Inggris di repo `horrorluar` (`../docs`, `
 ## Batas keras
 - Satu video maksimal 4 jam: build + render + edit. Kalau sesuatu makan waktu terlalu lama, sederhanakan.
 - Pipeline: Remotion + Three.js (`@remotion/three`) di `remotion/`. Blender tidak dipakai (23 Nov: render CPU ±12 dtk/frame vs ±0,2 dtk/frame Three.js).
-- Pakai bentuk dasar (kapsul, kotak, bola). Tanpa walk cycle, tanpa lip sync, tanpa model detail kecuali yang sudah ada di `assets/`.
-- Gerak tokoh = rotasi kepala/badan di antara shot + ganti tekstur wajah. Dinamika datang dari kamera, cahaya, dan suara, bukan dari model.
+- Pakai bentuk dasar (kapsul, kotak, bola). Tanpa walk cycle, tanpa lip sync, tanpa model detail kecuali yang sudah ada di `remotion/src/three/`.
+- Gerak tokoh = rotasi kepala/badan di antara shot + ganti ekspresi wajah. Dinamika datang dari kamera, cahaya, dan suara, bukan dari model.
 
 ## Cara kerja
 - Satu langkah per sesi: 0 naskah, 1 VO, 2 timing, 3 shot list, 4 build, 5 preview, 6 render, 7 edit.
@@ -52,5 +52,5 @@ Folder ini terpisah dari seri legenda Inggris di repo `horrorluar` (`../docs`, `
 
 ## Hasil akhir
 - H.264 CRF 18, AAC 192k. Plus salinan kecil untuk HP (`-hp.mp4`).
-- Cover 1080x1920 dari render Blender (lihat bible §Cover).
+- Cover 1080x1920 dari render Three.js (lihat bible §Cover).
 - Tokoh, motor, dan set ada di `remotion/src/three/` dan dipakai ulang tiap episode.
