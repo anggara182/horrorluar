@@ -1,4 +1,6 @@
-// EP01 "Titik Ungu": 35 shots locked to the VO (ep01/shots.json + ep01/vo_timing.json). Video only; audio is mixed by tools/mix.py.
+// EP01 "Titik Ungu", 2.5D: flat painted sprites (src/look3) placed in 3D space, unlit, camera moves for parallax.
+// 35 shots locked to the VO (ep01/shots.json + ep01/vo_timing.json). Video only; audio = tools/mix.py.
+// The 3D cel-shaded version is kept in EP01_3d.tsx (not registered).
 import React, { useLayoutEffect, useMemo, useRef, useState } from 'react';
 import { AbsoluteFill, continueRender, delayRender, useCurrentFrame, useVideoConfig } from 'remotion';
 import { ThreeCanvas } from '@remotion/three';
@@ -6,121 +8,135 @@ import { useThree } from '@react-three/fiber';
 import * as THREE from 'three';
 import shotsJson from '../../../ep01/shots.json';
 import timing from '../../../ep01/vo_timing.json';
-import { Beam, Glow, Limb, T, V3, canvasTex, rbox } from '../look2/toon';
-import { K, Penumpang, PenumpangBerdiri, Phone, Ride, badgeTex, faceTex, plateTex } from '../look2/cast2';
-import { asphaltTex, rng, skyTex, skylineTex, treesTex } from '../look2/sets2';
-import { JalanSet, RelSet, TokoSet, Tex } from './sets';
-import { chatScreen2, infoScreen, mapScreen, orderScreen } from '../ui/screens2';
+import { asphaltTex, skyTex, skylineTex, treesTex } from '../look2/sets2';
+import { chatScreen2, infoScreen, mapScreen } from '../ui/screens2';
 import { Caption, CapWord } from '../ui/Caption';
+import { driverBackPov, handPhone, ridersBack, ridersSide } from '../look3/svg';
+import { faceCU, followerFront, helmetCU, jacketCU, kamuStand, mirrorCU, plateCU, ridersFront, tapHand, wheel } from '../look3/svg2';
+import { blobTex, coneTex, fogTex, glowTex, paint, poleTex, railTex, signalTex, svgTex, tokoTex, wallTex } from '../look3/paint';
+import { Add, JalanAxis, JalanSide, RelAxis, RelSide, Sprite, Tex, TokoSide, V3 } from './sets25';
 
 export const FPS = 24;
 export const END = shotsJson.end;
 export const DURATION = Math.ceil(END * FPS) + 1;
 
 type Cam = { p: V3; t: V3; fov: number };
+type Scene = 'jalanSide' | 'tokoSide' | 'relSide' | 'jalanAxis' | 'relAxis';
 type Spec = {
-  set: 'jalan' | 'toko' | 'rel';
-  a: Cam; b?: Cam; world?: boolean; ease?: 'io' | 'out' | 'whip';
-  move?: number; x?: (lt: number, d: number) => number; track?: boolean;
-  ride?: Record<string, any> | null; stand?: boolean;
-  pov?: string; povZ?: [number, number];
-  shake?: number; lamps?: boolean; follower?: number; labels?: number;
-  headTurn?: (gt: number, lt: number) => number; headlight?: (lt: number) => boolean;
-  grade?: 'jalan' | 'toko' | 'rel' | 'photo' | 'twist';
+  scene: Scene; a: Cam; b?: Cam; ease?: 'io' | 'out' | 'whip'; world?: boolean; track?: number;
+  move?: number; x?: (lt: number, d: number) => number;
+  rider?: 'side' | 'sideDriver' | 'back' | 'backT' | 'front' | 'frontLit' | 'none';
+  cu?: [string, number, string?]; stand?: boolean; pov?: string; povZ?: [number, number]; tap?: boolean;
+  swapAt?: number; hl?: (lt: number) => boolean; follower?: number; labels?: number; dark?: boolean;
+  grade?: 'jalan' | 'toko' | 'rel' | 'photo' | 'twist'; shake?: number; cone?: boolean;
 };
-
-const POV: Cam = { p: [-0.62, 1.78, 0.28], t: [4, 0.85, -0.2], fov: 54 };
 const C = (p: V3, t: V3, fov: number): Cam => ({ p, t, fov });
+const POV: Cam = C([0.1, 1.75, 0.3], [0.05, 1.0, -6], 58);
+const RED = '#ffc2b8';
 
+// One line per shot (scripts/render_shots.mjs hashes these lines to find changed shots).
 const SPECS: Record<string, Spec> = {
-  S01: { set: 'jalan', world: true, track: true, a: C([0.6, 0.3, 2.35], [0, 1.0, 0], 54), b: C([0.9, 0.32, 2.3], [0, 1.0, 0], 52), x: (lt) => -4 + 9 * lt, shake: 0.02, ride: {} },
-  S02: { set: 'jalan', move: 7, a: C([0.4, 1.3, 2.45], [-0.2, 1.2, 0], 50), b: C([0.7, 1.33, 2.35], [-0.1, 1.2, 0], 50), shake: 0.012, ride: { headDown: 0.45 } },
-  S03: { set: 'jalan', move: 7, a: C([-6, 7, 9], [1, 0.8, 0], 40), b: C([-4.5, 6.4, 8], [1.5, 0.8, 0], 40), shake: 0.01, ride: {} },
-  S04: { set: 'jalan', move: 7, a: C([-0.52, 1.78, 0.38], [-0.27, 1.2, 0.06], 28), b: C([-0.5, 1.72, 0.3], [-0.27, 1.21, 0.06], 24), shake: 0.006, ride: { headDown: 0.45 } },
-  S05: { set: 'jalan', move: 7, a: POV, pov: 'chat1', povZ: [-0.32, -0.3], shake: 0.004, ride: { passenger: false } },
-  S06: { set: 'jalan', move: 7, a: POV, pov: 'chat1', povZ: [-0.3, -0.24], shake: 0.004, ride: { passenger: false } },
-  S07: { set: 'jalan', move: 7, a: C([-1.6, 1.95, 0.5], [0.1, 1.45, 0], 38), b: C([-1.4, 1.92, 0.44], [0.1, 1.47, 0], 36), shake: 0.008, ride: { headDown: 0.2 } },
-  S08: { set: 'toko', world: true, a: C([1.6, 1.5, -1.2], [0.3, 1.45, -4.6], 40), b: C([1.25, 1.48, -1.9], [0.3, 1.5, -4.6], 38), ride: null, stand: true, shake: 0.006, grade: 'toko' },
-  S09: { set: 'toko', a: C([2.6, 0.4, 3.0], [-1.2, 0.95, 0], 44), b: C([2.5, 0.42, 2.9], [-0.4, 0.95, 0], 44), x: (lt, d) => -8 * Math.pow(1 - Math.min(1, lt / (d * 0.8)), 2.2), ride: { passenger: false }, shake: 0.008, grade: 'toko' },
-  S10: { set: 'toko', a: C([0.95, 1.15, 0.38], [-0.06, 1.12, 0], 34), b: C([0.88, 1.45, 0.32], [-0.02, 1.5, 0], 34), ease: 'io', ride: { passenger: false }, shake: 0.005, grade: 'toko' },
-  S11: { set: 'toko', a: C([-1.75, 0.62, 0.3], [-0.9, 0.47, 0], 30), b: C([-1.5, 0.58, 0.2], [-0.9, 0.47, 0], 28), ride: { passenger: false }, shake: 0.004, grade: 'toko' },
-  S12: { set: 'toko', a: C([0.62, 1.3, 0.3], [0.07, 1.26, 0.06], 26), b: C([0.52, 1.28, 0.22], [0.07, 1.26, 0.06], 24), ride: { passenger: false }, shake: 0.004, grade: 'toko' },
-  S13: { set: 'toko', a: C([1.8, 1.25, 3.6], [-0.25, 1.1, 0], 40), b: C([1.55, 1.22, 3.25], [-0.25, 1.1, 0], 40), ride: { headDown: 0.4 }, shake: 0.006, grade: 'toko' },
-  S14: { set: 'jalan', move: 7, a: C([0.45, 1.5, 1.95], [-0.5, 1.35, 0], 40), b: C([0.3, 1.52, 1.8], [-0.5, 1.37, 0], 40), ride: { headDown: 0.5 }, shake: 0.01 },
-  S15: { set: 'jalan', move: 7, a: POV, pov: 'map', povZ: [-0.31, -0.22], shake: 0.004, ride: { passenger: false } },
-  S16: { set: 'jalan', move: 7, a: C([-1.15, 1.78, -0.95], [-0.2, 1.36, -0.1], 40), b: C([-1.05, 1.75, -0.85], [-0.2, 1.37, -0.1], 38), ride: { tap: 1, headDown: 0.1 }, shake: 0.008 },
-  S17: { set: 'jalan', move: 7, a: C([1.25, 1.22, 0.72], [0, 1.52, 0], 34), b: C([1.08, 1.26, 0.6], [0, 1.53, 0], 32), ride: { headDown: 0.15 }, shake: 0.008 },
-  S18: { set: 'jalan', move: 7, x: (lt) => 8 + 7 * lt, a: C([-7, 6, -2], [5, 0, 0], 45), b: C([-6, 5.6, -1.6], [6, 0, 0], 45), ride: {}, shake: 0.01 },
-  S19: { set: 'rel', move: 6, a: C([7, 1.4, 3.2], [-1, 1, -1], 42), b: C([6.4, 1.5, 2.8], [-0.5, 1, -1], 42), ride: { headDown: 0.3 }, shake: 0.01, grade: 'rel' },
-  S20: { set: 'rel', move: 6, a: POV, pov: 'chat2', povZ: [-0.32, -0.27], shake: 0.004, ride: { passenger: false }, grade: 'rel' },
-  S21: { set: 'rel', move: 6, a: C([0.3, 1.56, 0.62], [-0.48, 1.5, 0], 30), b: C([0.22, 1.55, 0.55], [-0.48, 1.5, 0], 27), ride: { headDown: 0.05, face: 'scared', pTurn: -0.6 }, shake: 0.006, grade: 'rel' },
-  S22: { set: 'rel', move: 6, a: C([0.05, 1.42, 0.3], [0.405, 1.36, 0.28], 22), b: C([0.1, 1.41, 0.29], [0.405, 1.36, 0.28], 18), ride: { mirror: true }, shake: 0.004, grade: 'rel' },
-  S23: { set: 'rel', move: 6, a: C([-1.6, 0.62, 0.5], [-0.9, 1.4, 1.6], 30), b: C([-1.5, 0.6, 0.25], [-0.9, 0.48, 0], 30), ease: 'whip', ride: {}, shake: 0.006, grade: 'rel' },
-  S24: { set: 'rel', move: 6, a: C([-1.5, 0.58, 0.15], [-0.9, 0.47, 0], 26), b: C([-1.25, 0.55, 0.08], [-0.9, 0.47, 0], 24), ride: {}, shake: 0.004, grade: 'rel' },
-  S25: { set: 'rel', move: 6, a: POV, pov: 'info', povZ: [-0.27, -0.25], shake: 0.003, ride: { passenger: false }, grade: 'rel' },
-  S26: { set: 'rel', move: 6, a: C([-15, 1.05, 1.2], [0, 1.1, 0], 30), b: C([-14, 1.05, 1.0], [0, 1.1, 0], 30), follower: -10, ride: {}, shake: 0.01, grade: 'rel' },
-  S27: { set: 'rel', move: 6, a: POV, pov: 'photo', povZ: [-0.3, -0.25], shake: 0.003, ride: { passenger: false }, grade: 'rel' },
-  S28: { set: 'rel', a: C([-3.6, 1.15, 0.9], [-0.45, 0.95, 0], 28), b: C([-3.5, 1.16, 0.88], [-0.45, 0.97, 0], 28), ride: { headTurn: Math.PI, headDown: 0.5 }, grade: 'photo' },
-  S29: { set: 'rel', a: C([-3.6, 1.2, 0.95], [-0.4, 0.95, 0], 30), b: C([-3.5, 1.95, 1.0], [-0.15, 1.42, 0.02], 29), ease: 'out', ride: { headTurn: Math.PI, headDown: 0.5, face: 'scared' }, grade: 'twist' },
-  S30: { set: 'rel', x: (lt) => 3 * (1 - Math.exp(-lt * 1.6)), a: C([5.5, 1.25, 1.6], [0, 1, 0], 40), b: C([5.2, 1.25, 1.5], [0, 1, 0], 40), headlight: (lt) => lt < 0.22 || (lt > 0.3 && lt < 0.36), ride: { face: 'scared', headDown: 0.1 }, shake: 0.008, grade: 'rel' },
-  S31: { set: 'rel', a: C([-1.7, 2.15, 1.15], [0, 1.45, 0], 32), b: C([-1.55, 2.1, 1.05], [0, 1.47, 0], 30), headlight: () => false, headTurn: (gt) => (gt < 63.77 ? 0 : -1.35 * Math.min(1, (gt - 63.77) / 1.3)), ride: { headDown: 0.1 }, shake: 0.006, grade: 'rel' },
-  S32: { set: 'rel', a: C([0.32, 1.55, 0.6], [-0.48, 1.5, 0], 29), b: C([0.24, 1.54, 0.52], [-0.48, 1.5, 0], 26), headlight: () => false, ride: { headDown: 0.0, face: 'scared', pTurn: -0.6 }, shake: 0.006, grade: 'rel' },
-  S33: { set: 'rel', a: C([5.2, 1.6, 1.9], [-6, 1.1, -0.7], 36), b: C([5.0, 1.6, 1.82], [-6, 1.1, -0.7], 36), headlight: () => false, follower: -13, labels: 1, ride: { face: 'scared', headDown: 0 }, shake: 0.006, grade: 'rel' },
-  S34: { set: 'rel', a: C([5.0, 1.6, 1.82], [-6, 1.1, -0.7], 36), b: C([4.8, 1.6, 1.75], [-6, 1.1, -0.7], 36), headlight: () => false, follower: -13, labels: 2, ride: { face: 'scared', headDown: 0 }, shake: 0.006, grade: 'rel' },
-  S35: { set: 'rel', a: C([4.8, 1.6, 1.75], [-6, 1.1, -0.7], 36), b: C([0.55, 1.55, 0.75], [-0.48, 1.5, 0], 30), ease: 'io', headlight: () => false, follower: -13, labels: 2, ride: { face: 'scared', headDown: 0, pTurn: -0.5 }, shake: 0.004, grade: 'rel' },
+  S01: { scene: 'jalanSide', world: true, track: 0.55, a: C([0, 0.42, 3.3], [0, 1.0, 0], 50), b: C([0.3, 0.44, 3.2], [0, 1.0, 0], 48), x: (lt) => -3.6 + 7.5 * lt, rider: 'side', shake: 0.02, cone: true },
+  S02: { scene: 'jalanSide', move: 7, a: C([0.4, 1.25, 2.7], [-0.1, 1.12, 0], 42), b: C([0.65, 1.28, 2.45], [0, 1.12, 0], 42), rider: 'side', shake: 0.01, cone: true },
+  S03: { scene: 'jalanSide', move: 7, a: C([-2, 2.2, 22], [0, 1.6, 0], 15), b: C([-1, 2.2, 21], [0, 1.6, 0], 15), rider: 'side', shake: 0.006, cone: true },
+  S04: { scene: 'jalanSide', move: 7, a: C([-0.12, 1.25, 1.35], [-0.3, 1.18, 0], 34), b: C([-0.2, 1.23, 1.15], [-0.3, 1.18, 0], 34), rider: 'side', shake: 0.005 },
+  S05: { scene: 'jalanAxis', move: 7, a: POV, pov: 'chat1', povZ: [-0.32, -0.3], shake: 0.003 },
+  S06: { scene: 'jalanAxis', move: 7, a: POV, pov: 'chat1', povZ: [-0.3, -0.25], shake: 0.003 },
+  S07: { scene: 'jalanAxis', move: 7, a: C([0.32, 2.1, 1.75], [0.05, 1.45, 0], 32), b: C([0.26, 2.05, 1.55], [0.05, 1.47, 0], 32), rider: 'back', shake: 0.008 },
+  S08: { scene: 'tokoSide', world: true, a: C([1.2, 1.45, -2.0], [0.3, 1.3, -6], 38), b: C([0.95, 1.42, -2.7], [0.3, 1.32, -6], 38), stand: true, rider: 'none', shake: 0.005, grade: 'toko' },
+  S09: { scene: 'tokoSide', world: true, track: 1, a: C([1.6, 0.55, 3.6], [0, 1.0, 0], 44), b: C([1.5, 0.56, 3.5], [0, 1.0, 0], 44), x: (lt, d) => -7 * Math.pow(1 - Math.min(1, lt / (d * 0.8)), 2.2), rider: 'sideDriver', shake: 0.006, grade: 'toko', cone: true },
+  S10: { scene: 'tokoSide', a: C([0.05, 1.0, 1.4], [0.05, 1.0, 0], 34), b: C([0.05, 1.9, 1.35], [0.05, 1.95, 0], 34), ease: 'io', cu: ['jacket', 2.29], rider: 'none', shake: 0.004, grade: 'toko' },
+  S11: { scene: 'tokoSide', a: C([0, 0.56, 2.9], [0, 0.5, 0], 34), b: C([0, 0.54, 2.6], [0, 0.5, 0], 34), cu: ['plate', 1.0], rider: 'none', shake: 0.004, grade: 'toko' },
+  S12: { scene: 'tokoSide', a: C([0.28, 1.43, 1.35], [0.28, 1.43, 0], 30), b: C([0.28, 1.43, 1.15], [0.28, 1.43, 0], 30), cu: ['jacket', 2.29], rider: 'none', shake: 0.003, grade: 'toko' },
+  S13: { scene: 'tokoSide', a: C([0.6, 1.3, 3.4], [-0.1, 1.1, 0], 40), b: C([0.4, 1.28, 3.1], [-0.1, 1.1, 0], 40), rider: 'side', shake: 0.005, grade: 'toko', cone: true },
+  S14: { scene: 'jalanSide', move: 7, a: C([-0.15, 1.35, 1.7], [-0.32, 1.18, 0], 38), b: C([-0.25, 1.37, 1.5], [-0.32, 1.18, 0], 38), rider: 'side', shake: 0.008 },
+  S15: { scene: 'jalanAxis', move: 7, a: POV, pov: 'map', povZ: [-0.31, -0.24], shake: 0.003 },
+  S16: { scene: 'jalanAxis', move: 7, a: C([0.0, 1.72, 0.3], [-0.25, 1.25, -1.1], 50), b: C([-0.03, 1.71, 0.22], [-0.27, 1.26, -1.1], 48), pov: 'none', tap: true, shake: 0.005 },
+  S17: { scene: 'jalanSide', move: 7, a: C([0.05, 1.0, 2.7], [0.06, 1.0, 0], 40), b: C([0.05, 1.02, 2.4], [0.06, 1.02, 0], 40), cu: ['helm', 1.71], rider: 'none', shake: 0.006 },
+  S18: { scene: 'jalanAxis', move: 7, dark: true, a: C([0.4, 1.7, 4.2], [0, 1.0, -6], 42), b: C([0.4, 1.8, 6.2], [0, 1.0, -6], 42), rider: 'back', shake: 0.008 },
+  S19: { scene: 'relSide', move: 6, a: C([0.9, 1.2, 3.7], [-0.2, 1.05, 0], 40), b: C([0.6, 1.2, 3.35], [-0.2, 1.05, 0], 40), rider: 'side', shake: 0.008, grade: 'rel', cone: true },
+  S20: { scene: 'relAxis', move: 6, a: POV, pov: 'chat2', povZ: [-0.32, -0.27], shake: 0.003, grade: 'rel' },
+  S21: { scene: 'relSide', move: 6, a: C([0, 0.94, 2.0], [0, 0.9, 0], 40), b: C([0, 0.93, 1.75], [0, 0.9, 0], 40), cu: ['faceS', 1.71, RED], rider: 'none', shake: 0.005, grade: 'rel' },
+  S22: { scene: 'relSide', move: 6, a: C([0, 0.68, 2.4], [0, 0.66, 0], 40), b: C([0, 0.68, 2.1], [0, 0.66, 0], 40), cu: ['mirror', 1.29], rider: 'none', shake: 0.004, grade: 'rel' },
+  S23: { scene: 'relSide', move: 6, a: C([0, 1.5, 2.8], [0, 2.0, 0], 34), b: C([0, 0.56, 2.8], [0, 0.5, 0], 34), ease: 'whip', cu: ['plate', 1.0, '#ffd8d0'], rider: 'none', shake: 0.006, grade: 'rel' },
+  S24: { scene: 'relSide', move: 6, a: C([0, 0.54, 2.7], [0, 0.5, 0], 34), b: C([0, 0.52, 2.35], [0, 0.5, 0], 34), cu: ['plate', 1.0, '#ffd8d0'], rider: 'none', shake: 0.004, grade: 'rel' },
+  S25: { scene: 'relAxis', move: 6, a: POV, pov: 'info', povZ: [-0.27, -0.25], shake: 0.003, grade: 'rel' },
+  S26: { scene: 'relAxis', move: 6, a: C([0.25, 1.1, 9.0], [0, 1.0, -2], 30), b: C([0.25, 1.1, 8.5], [0, 1.0, -2], 30), rider: 'back', cone: true, shake: 0.01, grade: 'rel' },
+  S27: { scene: 'relAxis', move: 6, a: POV, pov: 'photo', povZ: [-0.3, -0.25], shake: 0.003, grade: 'rel' },
+  S28: { scene: 'relAxis', a: C([0.25, 0.95, 3.0], [0.1, 0.85, 0], 22), b: C([0.24, 0.96, 2.95], [0.1, 0.86, 0], 22), rider: 'backT', cone: true, grade: 'photo' },
+  S29: { scene: 'relAxis', a: C([0.25, 0.95, 3.0], [0.1, 0.85, 0], 22), b: C([0.2, 1.55, 2.6], [0.12, 1.42, 0], 26), ease: 'out', rider: 'backT', cone: true, grade: 'twist' },
+  S30: { scene: 'relAxis', x: (lt) => 3 * (1 - Math.exp(-lt * 1.6)), a: C([0.6, 1.3, -4.6], [0, 1.0, 0], 38), b: C([0.55, 1.3, -4.4], [0, 1.0, 0], 38), rider: 'front', hl: (lt) => lt < 0.22 || (lt > 0.3 && lt < 0.36), shake: 0.008, grade: 'rel' },
+  S31: { scene: 'relAxis', a: C([0.32, 1.95, 1.7], [0.1, 1.5, 0], 34), b: C([0.28, 1.92, 1.5], [0.1, 1.51, 0], 34), rider: 'back', swapAt: 63.77, shake: 0.005, grade: 'rel' },
+  S32: { scene: 'relSide', a: C([0, 0.93, 1.95], [0, 0.9, 0], 40), b: C([0, 0.92, 1.62], [0, 0.9, 0], 40), cu: ['faceS', 1.71, RED], rider: 'none', shake: 0.005, grade: 'rel' },
+  S33: { scene: 'relAxis', a: C([1.4, 1.4, -4.6], [0, 1.2, 2], 36), b: C([1.3, 1.4, -4.4], [0, 1.2, 2], 36), rider: 'front', follower: 13, labels: 1, shake: 0.005, grade: 'rel' },
+  S34: { scene: 'relAxis', a: C([1.3, 1.4, -4.4], [0, 1.2, 2], 36), b: C([1.2, 1.4, -4.2], [0, 1.2, 2], 36), rider: 'front', follower: 13, labels: 2, shake: 0.005, grade: 'rel' },
+  S35: { scene: 'relAxis', a: C([1.2, 1.4, -4.2], [0, 1.2, 2], 36), b: C([-0.22, 1.36, -1.7], [-0.37, 1.3, 0], 32), ease: 'io', rider: 'front', follower: 13, labels: 2, shake: 0.004, grade: 'rel' },
 };
 
-/** Shots wide enough for cast shadows to read; close-ups and POV rely on the painted contact blobs. */
-const SHADOWS = new Set(['S01', 'S02', 'S03', 'S08', 'S09', 'S13', 'S14', 'S18', 'S26', 'S30']);
+/** Shots that are scenes along the road axis (A = [0,0,-d]); everything else travels along +x. */
+const isAxis = (s: Spec) => s.scene === 'jalanAxis' || s.scene === 'relAxis';
 
 const lerp = (a: number, b: number, u: number) => a + (b - a) * u;
 const lerp3 = (a: V3, b: V3, u: number): V3 => [lerp(a[0], b[0], u), lerp(a[1], b[1], u), lerp(a[2], b[2], u)];
 const ease = (u: number, k?: string) => (k === 'whip' ? 1 - Math.pow(1 - Math.min(1, u / 0.3), 3) : k === 'out' ? 1 - Math.pow(1 - Math.min(1, u / 0.6), 3) : k === 'io' ? u * u * (3 - 2 * u) : u);
 
-const camAt = (s: Spec, u: number, base: V3, gt: number) => {
+const camAt = (s: Spec, u: number, A: V3, gt: number): Cam => {
   const b = s.b ?? s.a; const e = ease(u, s.ease);
-  const off = s.world ? [0, 0, 0] : base;
   const p = lerp3(s.a.p, b.p, e), t = lerp3(s.a.t, b.t, e);
-  if (s.world && s.track) t[0] += base[0];
+  const off: V3 = s.world ? [0, 0, 0] : A;
+  if (s.world && s.track) t[0] += A[0] * s.track;
   const k = s.shake ?? 0;
-  const sh: V3 = [Math.sin(gt * 1.9) * k + Math.sin(gt * 4.3) * k * 0.4, Math.sin(gt * 2.3 + 1) * k + Math.sin(gt * 5.1) * k * 0.3, Math.sin(gt * 1.6 + 2) * k];
-  return { p: [p[0] + off[0] + sh[0], p[1] + off[1] + sh[1], p[2] + off[2] + sh[2]] as V3, t: [t[0] + off[0], t[1] + off[1], t[2] + off[2]] as V3, fov: lerp(s.a.fov, b.fov, e) };
+  const sh: V3 = [Math.sin(gt * 1.9) * k + Math.sin(gt * 4.3) * k * 0.4, Math.sin(gt * 2.3 + 1) * k + Math.sin(gt * 5.1) * k * 0.3, 0];
+  return { p: [p[0] + off[0] + sh[0], p[1] + off[1] + sh[1], p[2] + off[2]], t: [t[0] + off[0], t[1] + off[1], t[2] + off[2]], fov: lerp(s.a.fov, b.fov, e) };
 };
 
-const CamRig: React.FC<{ p: V3; t: V3; fov: number }> = ({ p, t, fov }) => {
+const CamRig: React.FC<{ c: Cam }> = ({ c }) => {
   const { camera } = useThree();
-  useLayoutEffect(() => { const c = camera as THREE.PerspectiveCamera; c.position.set(...p); c.fov = fov; c.near = 0.02; c.far = 400; c.lookAt(...t); c.updateProjectionMatrix(); });
+  useLayoutEffect(() => { const k = camera as THREE.PerspectiveCamera; k.position.set(...c.p); k.fov = c.fov; k.near = 0.02; k.far = 400; k.lookAt(...c.t); k.updateProjectionMatrix(); k.updateMatrixWorld(); });
   return null;
 };
 
-const PovHand: React.FC<{ screen: THREE.Texture; z: number }> = ({ screen, z }) => {
+const OnCamera: React.FC<{ children: React.ReactNode }> = ({ children }) => {
   const { camera } = useThree(); const ref = useRef<THREE.Group>(null);
-  useLayoutEffect(() => { camera.updateMatrixWorld(); ref.current!.position.copy(camera.position); ref.current!.quaternion.copy(camera.quaternion); });
-  return (
-    <group ref={ref}>
-      <group position={[0.02, -0.07, z]} rotation={[-0.22, -0.08, 0.06]}>
-        <Phone screen={screen} />
-        <T g={rbox(0.08, 0.1, 0.034, 0.015)} p={[0.006, -0.048, -0.024]} color={K.kulit} outline={0.003} />
-        {[0, 1, 2, 3].map((i) => <Limb key={i} a={[-0.042, -0.012 - i * 0.021, -0.014]} b={[-0.047, -0.012 - i * 0.021, 0.004]} r={0.0085} color={K.kulit} outline={0.002} />)}
-        <Limb a={[0.044, -0.075, -0.01]} b={[0.043, -0.03, 0.009]} r={0.0105} color={K.kulit} outline={0.002} />
-        <Limb a={[0.02, -0.095, -0.03]} b={[0.1, -0.33, 0.12]} r={0.042} color={K.kulit} outline={0.003} />
-        <Limb a={[0.075, -0.25, 0.06]} b={[0.13, -0.42, 0.18]} r={0.05} color={K.seragam} outline={0.003} />
-      </group>
-      <pointLight position={[0.02, -0.03, z + 0.08]} color="#b39dff" intensity={0.12} distance={0.4} />
-    </group>
-  );
+  useLayoutEffect(() => { ref.current!.position.copy(camera.position); ref.current!.quaternion.copy(camera.quaternion); });
+  return <group ref={ref}>{children}</group>;
 };
 
-const Headlamp: React.FC<{ on: boolean; strength?: number }> = ({ on, strength = 80 }) => {
-  const target = useMemo(() => new THREE.Object3D(), []);
-  if (!on) return null;
-  return (<>
-    <primitive object={target} position={[8, 0, 0]} />
-    <spotLight position={[0.7, 1.1, 0]} target={target} color="#fff1cf" intensity={strength} angle={0.45} penumbra={0.6} distance={40} decay={1.1}
-      castShadow={false} />
-    <Beam p={[2.6, 0.9, 0]} r={[0, 0, -Math.PI / 2 - 0.05]} len={4} w={1.8} color="#fff1cf" opacity={0.14} />
-  </>);
-};
+const aspect = (t: THREE.Texture) => { const im: any = t.image; return im.width / im.height; };
+
+// ---------- riders ----------
+const SideRiders: React.FC<{ t: Tex; A: V3; driverOnly?: boolean; spin: number; bob: number; cone?: boolean; warm?: boolean }> = ({ t, A, driverOnly, spin, bob, cone, warm }) => (
+  <group position={[A[0], bob, A[2]]}>
+    <mesh position={[0, 0.0, 0.02]} rotation={[-Math.PI / 2, 0, 0]} renderOrder={6}><planeGeometry args={[2.6, 0.8]} /><meshBasicMaterial map={t.blob} transparent opacity={0.75} depthWrite={false} /></mesh>
+    {[-0.671, 0.614].map((x) => (
+      <mesh key={x} position={[x, 0.244, -0.003]} rotation={[0, 0, -spin]} renderOrder={7}>
+        <planeGeometry args={[0.514, 0.514]} /><meshBasicMaterial map={t.wheel} transparent alphaTest={0.02} toneMapped={false} />
+      </mesh>
+    ))}
+    <Sprite tex={driverOnly ? t.sideDriver : t.side} p={[0, -0.057, 0]} h={2.0} order={8} color={warm ? '#fff4ea' : '#ffffff'} />
+    <Add tex={t.glow} p={[0.73, 0.99, 0.05]} s={[0.9, 0.9]} color="#fff3d0" opacity={0.95} />
+    <Add tex={t.glow} p={[-0.87, 0.6, 0.05]} s={[0.6, 0.6]} color="#ff2a2a" opacity={0.8} />
+    {cone && <group position={[0.75, 0.98, 0.02]} rotation={[0, 0, -Math.PI / 2 - 0.16]}><Add tex={t.cone} p={[0, 2.1, 0]} s={[2.0, 4.2]} color="#fff1cf" opacity={0.26} /></group>}
+    {cone && <Add tex={t.glow} p={[3.2, 0.02, 0.3]} s={[4.5, 2.2]} color="#fff1cf" opacity={0.45} r={[-Math.PI / 2, 0, 0]} />}
+  </group>
+);
+
+const BackRiders: React.FC<{ t: Tex; A: V3; turned: boolean; bob: number }> = ({ t, A, turned, bob }) => (
+  <group position={[A[0], bob, A[2]]}>
+    <mesh position={[0, 0.01, -0.2]} rotation={[-Math.PI / 2, 0, 0]} renderOrder={6}><planeGeometry args={[1.3, 2.6]} /><meshBasicMaterial map={t.blob} transparent opacity={0.7} depthWrite={false} /></mesh>
+    <Sprite tex={turned ? t.backT : t.back} p={[0, -0.023, 0]} h={2.0} order={8} />
+    <Add tex={t.glow} p={[0, 0.6, 0.06]} s={[1.0, 0.6]} color="#ff2a2a" opacity={0.6} />
+  </group>
+);
+
+const FrontRiders: React.FC<{ t: Tex; A: V3; lit: boolean }> = ({ t, A, lit }) => (
+  <group position={A}>
+    <mesh position={[0, 0.01, 0]} rotation={[-Math.PI / 2, 0, 0]} renderOrder={6}><planeGeometry args={[1.4, 2.4]} /><meshBasicMaterial map={t.blob} transparent opacity={0.7} depthWrite={false} /></mesh>
+    <Sprite tex={lit ? t.frontLit : t.front} p={[0, -0.026, 0]} h={2.0} ry={Math.PI} order={8} />
+    {lit && <Add tex={t.glow} p={[0, 0.81, -0.08]} s={[1.6, 1.6]} color="#fff3d0" opacity={0.95} />}
+    {lit && <Add tex={t.glow} p={[0, 0.02, -3]} s={[4, 6]} color="#fff1cf" opacity={0.5} r={[-Math.PI / 2, 0, 0]} />}
+  </group>
+);
 
 // ---------- captions ----------
 const KEYS = new Set(['ojol', 'aplikasi', 'jemput', 'boncengannya', 'minimarket', 'ungu', 'juned', 'cocok', 'peta', 'diem', 'pundak', 'pintas', 'lampu', 'mati', 'bukan', 'spion', 'sama', 'belakang', 'foto', 'punggungmu', 'ngadep', 'arahmu', 'percaya', 'lompat', 'pegangan', 'dua']);
@@ -137,7 +153,7 @@ const PAGES = (() => {
     ws.push(x);
   }
   const pages: { words: W[]; s: number; e: number }[] = []; let cur: W[] = [];
-  ws.forEach((w, i) => {
+  ws.forEach((w) => {
     if (cur.length && (cur[0].who !== w.who || cur.length >= 6)) { pages.push({ words: cur, s: cur[0].s, e: 0 }); cur = []; }
     cur.push(w);
     if (/[.?]$/.test(w.w) || (/,$/.test(w.w) && cur.length >= 3)) { pages.push({ words: cur, s: cur[0].s, e: 0 }); cur = []; }
@@ -156,11 +172,13 @@ const Captions: React.FC<{ gt: number; top: number }> = ({ gt, top }) => {
   return <Caption words={words} active={active} keyword={kIdx >= 0 ? kIdx : undefined} top={top} />;
 };
 
-// ---------- choice labels (projected onto 3D points) ----------
-const project = (cam: { p: V3; t: V3; fov: number }, pt: V3, w: number, h: number) => {
+// ---------- choice labels ----------
+const project = (cam: Cam, pt: V3, w: number, h: number) => {
   const c = new THREE.PerspectiveCamera(cam.fov, w / h, 0.02, 400); c.position.set(...cam.p); c.lookAt(...cam.t); c.updateMatrixWorld(); c.updateProjectionMatrix();
   const v = new THREE.Vector3(...pt).project(c); return [(v.x + 1) / 2 * w, (1 - v.y) / 2 * h];
 };
+const clampX = (x: number, w: number) => Math.max(40, Math.min(1080 - 40 - w, x));
+const clampY = (y: number) => Math.max(560, Math.min(1700, y));
 const Label: React.FC<{ n: number; text: string; at: number[]; box: [number, number]; color: string; pop: number }> = ({ n, text, at, box, color, pop }) => {
   const sc = Math.min(1, pop * 4); const s = 0.6 + 0.4 * (1 - Math.pow(1 - sc, 3));
   return (
@@ -178,102 +196,129 @@ const Label: React.FC<{ n: number; text: string; at: number[]; box: [number, num
   );
 };
 
-const clampX = (x: number, w: number) => Math.max(40, Math.min(1080 - 40 - w, x));
-const clampY = (y: number) => Math.max(560, Math.min(1700, y));
+const Grade: React.FC<{ kind: string; lt: number; noise: string; flash?: number }> = ({ kind, lt, noise, flash = 0 }) => (
+  <AbsoluteFill style={{ pointerEvents: 'none' }}>
+    {kind === 'toko' && <AbsoluteFill style={{ background: 'radial-gradient(ellipse 70% 40% at 50% 55%, rgba(255,140,60,.10), rgba(0,0,0,0) 70%)', mixBlendMode: 'screen' }} />}
+    {(kind === 'rel' || kind === 'twist') && <AbsoluteFill style={{ background: 'rgba(255,60,60,.10)', mixBlendMode: 'soft-light' }} />}
+    {kind === 'photo' && <AbsoluteFill style={{ boxShadow: 'inset 0 0 0 18px rgba(240,240,240,.9)', background: 'rgba(255,230,210,.05)' }} />}
+    {kind === 'twist' && lt < 0.18 && <AbsoluteFill style={{ background: `rgba(255,255,255,${0.7 * (1 - lt / 0.18)})` }} />}
+    {flash > 0 && <AbsoluteFill style={{ background: `rgba(255,255,255,${flash})` }} />}
+    <AbsoluteFill style={{ background: `radial-gradient(ellipse 78% 62% at 50% 50%, rgba(0,0,0,0) 42%, rgba(5,3,12,${kind === 'rel' || kind === 'twist' ? 0.7 : 0.6}) 100%)` }} />
+    <AbsoluteFill style={{ opacity: 0.08, mixBlendMode: 'overlay', backgroundImage: `url(${noise})` }} />
+  </AbsoluteFill>
+);
 
-const mirrorTex = () => canvasTex(256, 256, (g) => {
-  g.fillStyle = '#12060a'; g.fillRect(0, 0, 256, 256);
-  const gr = g.createLinearGradient(0, 0, 0, 256); gr.addColorStop(0, '#2a0a10'); gr.addColorStop(1, '#4a1a1a'); g.fillStyle = gr; g.fillRect(0, 0, 256, 256);
-  g.fillStyle = '#1a0c0c'; g.beginPath(); g.moveTo(40, 256); g.lineTo(118, 120); g.lineTo(138, 120); g.lineTo(216, 256); g.fill();
-  const lg = g.createRadialGradient(128, 128, 0, 128, 128, 60); lg.addColorStop(0, 'rgba(255,250,235,1)'); lg.addColorStop(0.15, 'rgba(255,240,210,.8)'); lg.addColorStop(1, 'rgba(255,240,210,0)');
-  g.fillStyle = lg; g.fillRect(60, 60, 140, 140);
-});
+const useAssets = () => {
+  const [h] = useState(() => delayRender('ep01 assets'));
+  const [tex, setTex] = useState<Tex | null>(null);
+  const [noise, setNoise] = useState('');
+  useLayoutEffect(() => {
+    (async () => {
+      await Promise.all(['500 34px Inter', '700 26px Inter', '800 44px Inter', '900 140px Inter'].map((f) => document.fonts.load(f)));
+      const L = async (s: string, k: number) => svgTex(s, k);
+      const [side, sideDriver, back, backT, front, frontLit, driverBack, hand, whl, stand, faceW, faceS, helm, jacket, tap, mirror, plate, follower] = await Promise.all([
+        L(ridersSide({ wheels: false }), 1.4), L(ridersSide({ wheels: false, passenger: false }), 1.4), L(ridersBack({ turned: false }), 1.4), L(ridersBack({ turned: true }), 1.4),
+        L(ridersFront({ headlight: false }), 1.6), L(ridersFront({ headlight: true }), 1.4), L(driverBackPov(), 1), L(handPhone(), 1.2), L(wheel(), 1),
+        L(kamuStand(), 1.5), L(faceCU('worried'), 1.3), L(faceCU('scared'), 1.3), L(helmetCU(), 1.3), L(jacketCU(), 1.3), L(tapHand(), 1), L(mirrorCU(), 1.3), L(plateCU(), 1.3), L(followerFront(), 1)]);
+      const m1 = { text: 'Kak, saya udah di titik jemput. Kakaknya di mana?', time: '00.14' };
+      const m2 = { text: 'Kak, saya liat tadi Kakak naik motor orang. Itu bukan saya.', time: '00.17' };
+      const m3 = { text: 'Kak, saya ngikutin dari belakang. Liat foto ini.', time: '00.18' };
+      const kerb = paint(512, 64, (g) => { g.fillStyle = '#5a5e70'; g.fillRect(0, 0, 512, 64); g.fillStyle = '#8a8ea2'; g.fillRect(0, 0, 512, 10); for (let x = 0; x < 512; x += 128) { g.fillStyle = '#3a3d4a'; g.fillRect(x, 0, 4, 64); } });
+      kerb.wrapS = THREE.RepeatWrapping;
+      const nc = document.createElement('canvas'); nc.width = nc.height = 256; const ng = nc.getContext('2d')!; const id = ng.createImageData(256, 256);
+      for (let i = 0; i < id.data.length; i += 4) { const v = Math.random() * 255; id.data[i] = id.data[i + 1] = id.data[i + 2] = v; id.data[i + 3] = 255; }
+      ng.putImageData(id, 0, 0); setNoise(nc.toDataURL());
+      const tx: Tex = {
+        side, sideDriver, back, backT, front, frontLit, driverBack, hand, wheel: whl, stand, faceW, faceS, helm, jacket, tap, mirror, plate, follower, kerb,
+        chat1: chatScreen2([m1]), chat2: chatScreen2([m1, m2]), photo: chatScreen2([m3, { photo: true, time: '00.18' }]), map: mapScreen(), info: infoScreen(),
+        sky: skyTex('#0a0c2a', '#2a2160', '#5a3a7a'), skyFar: skylineTex(4, '#0e1024', '#ffcf7a', 0.28), skyNear: skylineTex(9, '#141634', '#ffd28a', 0.2),
+        trees: treesTex(5, '#0b0e1c'), trees2: treesTex(8, '#0d1020'), trees3: treesTex(12, '#120607'), skyRed: skyTex('#120406', '#4a1014', '#7a2020', false, 7),
+        asphalt: asphaltTex(1, true), asphalt2: asphaltTex(2, false), dirt: asphaltTex(9, false), paving: asphaltTex(3, false),
+        toko: tokoTex(), pole: poleTex(), signal: signalTex(), rail: railTex(), wallL: wallTex(3, '#4a5070'), wallR: wallTex(5, '#545a7c'),
+        glow: glowTex(), blob: blobTex(), cone: coneTex(), fog: fogTex('150,60,60'),
+      };
+      // repeating ground/wall textures are seen at grazing angles: keep mipmaps there (cheap, few pixels), everything else is unmipped.
+      for (const k of ['asphalt', 'asphalt2', 'dirt', 'paving', 'rail', 'wallL', 'wallR', 'kerb']) { const x = tx[k]; x.generateMipmaps = true; x.minFilter = THREE.LinearMipmapLinearFilter; x.needsUpdate = true; }
+      setTex(tx);
+      continueRender(h);
+    })();
+  }, []);
+  return { tex, noise };
+};
 
 export const EP01: React.FC = () => {
   const frame = useCurrentFrame(); const { width, height } = useVideoConfig();
   const gt = frame / FPS;
-  const [h] = useState(() => delayRender('fonts')); const [ok, setOk] = useState(false);
-  useLayoutEffect(() => { Promise.all(['500 34px Inter', '700 26px Inter', '800 44px Inter', '900 140px Inter'].map((f) => document.fonts.load(f))).then(() => { setOk(true); continueRender(h); }); }, []);
-  const tex = useMemo<Tex | null>(() => {
-    if (!ok) return null;
-    const fog = canvasTex(512, 128, (g) => { const gr = g.createRadialGradient(256, 64, 0, 256, 64, 256); gr.addColorStop(0, 'rgba(150,60,60,.55)'); gr.addColorStop(1, 'rgba(150,60,60,0)'); g.save(); g.scale(1, 0.25); g.fillStyle = gr; g.fillRect(0, 0, 512, 512); g.restore(); });
-    const paving = canvasTex(512, 256, (g) => { g.fillStyle = '#5a5f70'; g.fillRect(0, 0, 512, 256); g.strokeStyle = '#3d4150'; g.lineWidth = 4; for (let x = 0; x < 512; x += 64) { g.beginPath(); g.moveTo(x, 0); g.lineTo(x, 256); g.stroke(); } for (let y = 0; y < 256; y += 64) { g.beginPath(); g.moveTo(0, y); g.lineTo(512, y); g.stroke(); } });
-    paving.wrapS = paving.wrapT = THREE.RepeatWrapping;
-    const dirt = canvasTex(512, 512, (g) => { const r = rng(11); g.fillStyle = '#3a3532'; g.fillRect(0, 0, 512, 512); for (let i = 0; i < 4000; i++) { const v = 40 + r() * 40; g.fillStyle = `rgb(${v + 6},${v},${v - 4})`; g.fillRect(r() * 512, r() * 512, 3, 3); } });
-    dirt.wrapS = dirt.wrapT = THREE.RepeatWrapping;
-    const m1 = { text: 'Kak, saya udah di titik jemput. Kakaknya di mana?', time: '00.14' };
-    const m2 = { text: 'Kak, saya liat tadi Kakak naik motor orang. Itu bukan saya.', time: '00.17' };
-    const m3 = { text: 'Kak, saya ngikutin dari belakang. Liat foto ini.', time: '00.18' };
-    return {
-      sky: skyTex('#0a0c2a', '#2a2160', '#5a3a7a'), sky1: skylineTex(4, '#0e1024', '#ffcf7a', 0.28), sky2: skylineTex(9, '#1b1a3e', '#d9b070', 0.12, false),
-      trees: treesTex(5, '#0b0e1c'), trees2: treesTex(8, '#0d1020'), trees3: treesTex(12, '#120607'), skyRed: skyTex('#120406', '#4a1014', '#7a2020', false, 7), fog,
-      asphalt: asphaltTex(1, true), asphalt2: asphaltTex(2, false), paving, dirt,
-      plate: plateTex(), badge: badgeTex(), face: faceTex('worried'), faceScared: faceTex('scared'), mirror: mirrorTex(),
-      chat1: chatScreen2([m1]), chat2: chatScreen2([m1, m2]), photo: chatScreen2([m3, { photo: true, time: '00.18' }]), map: mapScreen(), info: infoScreen(), order: orderScreen(),
-    };
-  }, [ok]);
-  if (!tex) return null;
+  const { tex: t, noise } = useAssets();
+  if (!t) return null;
   if (gt >= END) return <AbsoluteFill style={{ background: '#000' }} />;
 
   const shots = shotsJson.shots; const shot = shots.find((s) => gt >= s.start && gt < s.end) ?? shots[shots.length - 1];
-  const spec = SPECS[shot.id]; const d = shot.end - shot.start; const lt = gt - shot.start; const u = Math.min(1, lt / d);
-  const sx = spec.x ? spec.x(lt, d) : (spec.move ?? 0) * lt;
-  const moving = !!spec.move || !!spec.x;
-  const base: V3 = [sx, 0, 0];
-  const cam = camAt(spec, u, base, gt);
-  const r = spec.ride;
-  const headlight = spec.headlight ? spec.headlight(lt) : true;
-  const headTurn = spec.headTurn ? spec.headTurn(gt, lt) : (r?.headTurn ?? 0);
-  const face = r?.face === 'scared' ? tex.faceScared : tex.face;
+  const s = SPECS[shot.id]; const d = shot.end - shot.start; const lt = gt - shot.start; const u = Math.min(1, lt / d);
+  const dist = s.x ? s.x(lt, d) : (s.move ?? 0) * lt;
+  const axis = isAxis(s);
+  const A: V3 = axis ? [0, 0, -dist] : [dist, 0, 0];
+  const cam = camAt(s, u, A, gt);
+  const moving = !!s.move || !!s.x;
   const bob = moving ? Math.sin(gt * 40) * 0.004 : 0;
-  const grade = spec.grade ?? (spec.set === 'rel' ? 'rel' : spec.set === 'toko' ? 'toko' : 'jalan');
+  const spin = dist / 0.245;
+  const hl = s.hl ? s.hl(lt) : true;
+  const grade = s.grade ?? (s.scene.startsWith('rel') ? 'rel' : s.scene.startsWith('toko') ? 'toko' : 'jalan');
+  const turnedNow = s.rider === 'backT' || (s.swapAt !== undefined && gt >= s.swapAt);
+  const swapFlash = s.swapAt !== undefined && gt >= s.swapAt && gt < s.swapAt + 0.12 ? 0.5 * (1 - (gt - s.swapAt) / 0.12) : 0;
 
-  // label anchor points (world)
-  const lab1 = spec.labels ? project(cam, [sx + (spec.follower ?? -13) + 0.7, 1.1, 0], width, height) : null;
-  const lab2 = spec.labels && spec.labels >= 2 ? project(cam, [sx - 0.05, 1.55, 0], width, height) : null;
-  const pop1 = spec.labels ? (shot.id === 'S33' ? Math.max(0, gt - 68.27) : 1) : 0;
-  const pop2 = shot.id === 'S34' ? Math.max(0, gt - 71.95) : 1;
+  const lab1 = s.labels ? project(cam, [A[0], 1.07, A[2] + (s.follower ?? 13)], width, height) : null;
+  const lab2 = s.labels && s.labels >= 2 ? project(cam, [A[0], 1.4, A[2]], width, height) : null;
+  const fadeOut = shot.id === 'S35' ? Math.max(0, 0.25 * (1 - u * 2)) : 1; // labels fade while the camera pushes in to the face
+  const pop1 = s.labels ? (shot.id === 'S33' ? Math.max(0, gt - 68.27) : fadeOut) : 0;
+  const pop2 = shot.id === 'S34' ? Math.max(0, gt - 71.95) : fadeOut;
+  const cu = s.cu ? t[s.cu[0]] : null;
+  const povZ = s.povZ ? lerp(s.povZ[0], s.povZ[1], ease(u, 'io')) : -0.3;
+  const scale = 0.24 / 1100;
 
   return (
     <AbsoluteFill style={{ background: '#000' }}>
-      <ThreeCanvas width={width} height={height} shadows={SHADOWS.has(shot.id)} linear={false} gl={{ antialias: false, powerPreference: 'high-performance' }}
-        onCreated={({ gl }) => { gl.toneMapping = THREE.ACESFilmicToneMapping; gl.toneMappingExposure = 1.15; gl.shadowMap.type = THREE.PCFShadowMap; }}>
-        <CamRig p={cam.p} t={cam.t} fov={cam.fov} />
-        {spec.set === 'jalan' && <JalanSet tex={tex} />}
-        {spec.set === 'toko' && <TokoSet tex={tex} />}
-        {spec.set === 'rel' && <RelSet tex={tex} />}
-        {r && (
-          <group position={[sx, bob, 0]}>
-            <Ride plate={tex.plate} face={face} screen={spec.set === 'toko' ? tex.order : spec.set === 'rel' ? tex.chat2 : tex.chat1} headTurn={headTurn} passenger={r.passenger !== false} headDown={r.headDown}
-              headlight={headlight} pTurn={r.pTurn} badge={tex.badge} mirrorTex={r.mirror ? tex.mirror : undefined} spin={sx / 0.245} tap={r.tap !== undefined ? Math.abs(Math.sin(lt * 9)) : undefined} />
-            <Headlamp on={headlight} />
-          </group>
+      <ThreeCanvas width={width} height={height} linear={false} gl={{ antialias: false, powerPreference: 'high-performance' }} onCreated={({ gl }) => { gl.toneMapping = THREE.NoToneMapping; }}>
+        <CamRig c={cam} />
+        {s.scene === 'jalanSide' && <JalanSide t={t} x0={A[0]} />}
+        {s.scene === 'tokoSide' && <TokoSide t={t} />}
+        {s.scene === 'relSide' && <RelSide t={t} x0={A[0]} />}
+        {s.scene === 'jalanAxis' && <JalanAxis t={t} z0={A[2]} dark={s.dark} />}
+        {s.scene === 'relAxis' && <RelAxis t={t} z0={A[2]} />}
+
+        {(s.rider === 'side' || s.rider === 'sideDriver') && <SideRiders t={t} A={A} driverOnly={s.rider === 'sideDriver'} spin={spin} bob={bob} cone={s.cone} warm={grade === 'toko'} />}
+        {(s.rider === 'back' || s.rider === 'backT') && <BackRiders t={t} A={A} turned={turnedNow} bob={bob} />}
+        {(s.rider === 'front' || s.rider === 'frontLit') && <FrontRiders t={t} A={A} lit={s.rider === 'frontLit' || (s.hl ? hl : false)} />}
+        {s.stand && <Sprite tex={t.stand} p={[0.3, 0, -6]} h={2.0} order={8} color="#fff6ee" />}
+        {s.stand && <Add tex={t.glow} p={[0.36, 1.66, -5.95]} s={[0.9, 0.9]} color="#a57bff" opacity={0.35} />}
+        {cu && <Sprite tex={cu} p={[A[0], 0, A[2]]} h={s.cu![1]} color={s.cu![2] ?? '#ffffff'} order={8} />}
+        {/* follower behind the riders (front views) */}
+        {s.follower !== undefined && <>
+          <Sprite tex={t.follower} p={[A[0] + 0.2, -0.03, A[2] + s.follower]} h={2.0} ry={Math.PI} order={7} />
+          <Add tex={t.glow} p={[A[0] + 0.2, 1.07, A[2] + s.follower - 0.1]} s={[3.2, 3.2]} color="#fff6e0" opacity={0.95} />
+          <Add tex={t.glow} p={[A[0] + 0.2, 0.02, A[2] + s.follower - 4]} s={[4, 9]} color="#fff1cf" opacity={0.4} r={[-Math.PI / 2, 0, 0]} />
+        </>}
+        {/* the follower's / camera's own headlight on the road ahead (back views) */}
+        {axis && s.cone && (s.rider === 'back' || s.rider === 'backT') && <Add tex={t.glow} p={[A[0] + 0.1, 0.02, A[2] + 1.6]} s={[4.5, 6]} color="#fff2e0" opacity={0.5} r={[-Math.PI / 2, 0, 0]} />}
+        {/* POV: the driver's back ahead, the hand with the phone on the camera */}
+        {s.pov && <>
+          <Sprite tex={t.driverBack} p={[A[0] - 0.2, 0.75, A[2] - 1.05]} h={1.05} order={10} />
+          <Add tex={t.glow} p={[A[0] + 0.1, 0.02, A[2] - 5]} s={[5, 10]} color="#fff0cc" opacity={0.75} r={[-Math.PI / 2, 0, 0]} />
+        </>}
+        {s.tap && <Sprite tex={t.tap} p={[A[0] - 0.47, 1.14 + 0.02 * Math.abs(Math.sin(lt * 9)), A[2] - 1.0]} h={0.35} order={12} />}
+        {s.pov && s.pov !== 'none' && (
+          <OnCamera>
+            <group position={[0.02, -0.08, povZ]} rotation={[-0.15, -0.06, 0.05]}>
+              <mesh renderOrder={40}><planeGeometry args={[0.24 * aspect(t.hand), 0.24]} /><meshBasicMaterial map={t.hand} transparent alphaTest={0.02} toneMapped={false} fog={false} depthTest={false} /></mesh>
+              <mesh position={[0, 60 * scale, 0.0006]} renderOrder={41}><planeGeometry args={[380 * scale, 820 * scale]} /><meshBasicMaterial map={t[s.pov]} transparent toneMapped={false} fog={false} depthTest={false} /></mesh>
+            </group>
+          </OnCamera>
         )}
-        {spec.stand && <group position={[0.3, 0.16, -4.6]} rotation={[0, -Math.PI / 2 + 0.25, 0]}><PenumpangBerdiri face={tex.face} screen={tex.order} headDown={0.4} /></group>}
-        {spec.follower !== undefined && (
-          <group position={[sx + spec.follower, 0, 0.3]}>
-            <Ride plate={tex.plate} face={tex.face} passenger={false} dark headlight spin={sx / 0.245} />
-            <Headlamp on strength={55} />
-            <Glow p={[0.75, 1.1, 0]} color="#fff6e0" size={2.4} opacity={0.9} />
-          </group>
-        )}
-        {spec.pov && <PovHand screen={tex[spec.pov]} z={lerp(spec.povZ![0], spec.povZ![1], ease(u, 'io'))} />}
       </ThreeCanvas>
-      <Grade kind={grade} lt={lt} />
+      <Grade kind={grade} lt={lt} noise={noise} flash={swapFlash} />
       {lab1 && <Label n={1} text="LOMPAT TURUN" at={lab1} box={[clampX(lab1[0] - 170, 470), clampY(lab1[1] - 230)]} color="#FFD23F" pop={pop1} />}
       {lab2 && <Label n={2} text="TETAP PEGANGAN" at={lab2} box={[clampX(lab2[0] - 260, 560), clampY(lab2[1] + 260)]} color="#B48CFF" pop={pop2} />}
-      <Captions gt={gt} top={spec.pov ? 250 : 330} />
+      <Captions gt={gt} top={s.pov && s.pov !== 'none' ? 250 : 330} />
     </AbsoluteFill>
   );
 };
-
-const Grade: React.FC<{ kind: string; lt: number }> = ({ kind, lt }) => (
-  <AbsoluteFill style={{ pointerEvents: 'none' }}>
-    {kind === 'toko' && <AbsoluteFill style={{ background: 'radial-gradient(ellipse 70% 40% at 50% 55%, rgba(255,140,60,.10), rgba(0,0,0,0) 70%)', mixBlendMode: 'screen' }} />}
-    {(kind === 'rel' || kind === 'twist') && <AbsoluteFill style={{ background: 'rgba(255,60,60,.12)', mixBlendMode: 'soft-light' }} />}
-    {kind === 'photo' && <AbsoluteFill style={{ boxShadow: 'inset 0 0 0 18px rgba(240,240,240,.9)', background: 'rgba(255,230,210,.06)' }} />}
-    {kind === 'twist' && lt < 0.18 && <AbsoluteFill style={{ background: `rgba(255,255,255,${0.7 * (1 - lt / 0.18)})` }} />}
-    <AbsoluteFill style={{ background: `radial-gradient(ellipse 75% 60% at 50% 52%, rgba(0,0,0,0) 40%, rgba(5,3,12,${kind === 'rel' || kind === 'twist' ? 0.72 : 0.6}) 100%)` }} />
-    <AbsoluteFill style={{ opacity: 0.09, mixBlendMode: 'overlay', backgroundImage: "url(\"data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='300' height='300'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2'/></filter><rect width='300' height='300' filter='url(%23n)'/></svg>\")" }} />
-  </AbsoluteFill>
-);

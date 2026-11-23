@@ -5,3 +5,4 @@ ep*/frames/
 *.blend1
 ep*/mix.wav
 ep*/render.log
+ep*/render-*.log

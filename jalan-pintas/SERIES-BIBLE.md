@@ -37,16 +37,28 @@ Suara (EP01, ganti di sini kalau adrian minta):
 
 Tambahkan tempat baru di sini begitu dipakai.
 
-## Look (Remotion + Three.js)
-- **Look v2 (dikunci 23 Nov):** campuran 2D/3D. Tokoh, motor, properti = 3D cel shading 4 tingkat + garis tinta `#120d1d` (`remotion/src/look2/toon.tsx`). Wajah digambar 2D di kepala 3D. Latar = lapisan lukis 2D (langit, siluet kampung + jendela menyala, tiang + kabel, pohon pisang). Glow, sorot lampu, kabut = kartu 2D additive. Grain + vignette di atas.
-- Lighting selalu punya sumber: lampu jalan / toko / lampu motor / sinyal merah / bulan sebagai rim. Acuan: `remotion/out/v2-s1..3.png`.
-- Warna per babak: oranye TOKO 24 (awal) → biru jalan gelap (tengah) → merah rel mati (bahaya/pilihan).
-- Shot POV: tangan memegang HP yang menempel ke kamera; layar HP (aplikasi JALANIN) harus terbaca.
-- Look test: `remotion/out/sheet.png` (`npx remotion still src/index.ts LookTest out/sN.png --props='{"shot":N}'`).
+## Look (2.5D, dikunci adrian 23 Nov)
+- **2.5D:** semua tokoh, motor, dan properti = gambar vektor DATAR (SVG di kode) dengan shading, rim light, dan kilau yang dilukis langsung. Gambar-gambar itu ditaruh sebagai lapisan di ruang 3D (Three.js lewat Remotion). Kamera 3D bergerak di antara lapisan → parallax. Material unlit, tanpa lampu/bayangan 3D. Acuan: `remotion/out/v3-s1..3.png` dan `remotion/out/contact-sheet.jpg`.
+- Cahaya = dilukis di gambar + glow additive (lampu, sorot lampu motor, genangan cahaya di aspal) + kabut warna. Grain + vignette di atas (CSS).
+- Warna per babak: oranye TOKO 24 (flashback) → biru jalan gelap (sekarang) → merah rel mati (bahaya/pilihan).
 - Palet: navy malam `#0B1030`, ungu JALANIN `#7B3FE4`, oranye TOKO 24 `#FF7A1A`, merah lampu belakang `#E0262B`.
-- Malam tetap terbaca: wajah dan tangan selalu dapat rim light.
-- Kamera: handheld shake di setiap shot, low angle di aspal saat motor lewat, push-in pelan ke kaca helm, whip-pan cepat ke spion/ke belakang, POV ke layar HP.
-- Motor: skuter matic dari kotak dan silinder ber-bevel, tanpa merek. Roda berputar, badan motor goyang kecil.
+- Gerak: kamera (push, tilt, whip, handheld), latar parallax, roda berputar (sprite roda terpisah), motor goyang kecil, lampu berkedip, dan GANTI GAMBAR (mis. helm biasa → helm menghadap belakang). Tanpa animasi anggota badan.
+
+**Daftar gambar (sprite)** — `remotion/src/look3/svg.ts` + `svg2.ts`, skala 700 px = 1 m:
+| Sprite | Dipakai untuk |
+|---|---|
+| `ridersSide` (opsi: tanpa penumpang, tanpa roda, lampu mati) + `wheel` | berdua/driver dari samping (jalan, toko, rel) |
+| `ridersBack({turned})` | dari belakang; `turned` = helm driver menghadap kamera (twist) |
+| `ridersFront({headlight})` | dari depan saat berhenti: kaca helm menatap kamera, Kamu mengintip |
+| `driverBackPov` + `handPhone` | POV penumpang + tangan memegang HP (layar dari `ui/screens2.ts`) |
+| `kamuStand` | Kamu berdiri di depan TOKO 24 |
+| `faceCU('worried'/'scared')` | close-up wajah Kamu (bisa diwarnai merah) |
+| `helmetCU`, `jacketCU` (badge JUNED + garis reflektif), `plateCU` (B 4217 KZ), `mirrorCU` (satu lampu jauh), `tapHand`, `followerFront` | close-up dan motor pengikut |
+| `paint.ts` | fasad TOKO 24, tiang listrik, sinyal rel, rel, tembok kampung, glow, kerucut cahaya, kabut |
+
+**Menambah sudut/gambar baru:** gambar SVG baru di `svg2.ts` dengan `defs` yang sama (gradien `purple`, `helm`, `orange`, `skin`, `visor`, rim light), tentukan titik pijak (bawah tengah) dan tinggi dalam meter, cek di sheet sprite, lalu tempatkan di shot lewat `SPECS` di `remotion/src/ep/EP01.tsx` (`rider`, `cu`, `stand`, dll). Kanvas digambar seukuran tampilannya di layar (tekstur tanpa mipmap supaya render cepat; terlalu besar = berkedip).
+- Set: `remotion/src/ep/sets25.tsx` — `*Side` (jalan di sumbu x, kamera dari samping) dan `*Axis` (jalan di sumbu z, kamera dari belakang/depan/POV), untuk jalan kampung, TOKO 24, dan rel mati.
+- Kamera dipilih sesuai gambar yang ada (tidak ada sudut atas/bawah aspal kecuali digambar dulu).
 
 ## Bentuk episode (60–90 dtk, ±160–190 kata)
 | Waktu | Fungsi |

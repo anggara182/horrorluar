@@ -19,10 +19,10 @@ const defs = `
 <radialGradient id="glowP"><stop offset="0" stop-color="#c9a6ff" stop-opacity="1"/><stop offset=".3" stop-color="#8a4dff" stop-opacity=".6"/><stop offset="1" stop-color="#8a4dff" stop-opacity="0"/></radialGradient>
 `;
 
-const svg = (w: number, h: number, body: string, extraDefs = '') =>
+export const svg = (w: number, h: number, body: string, extraDefs = '') =>
   `<svg xmlns="http://www.w3.org/2000/svg" width="${w}" height="${h}" viewBox="0 0 ${w} ${h}"><defs>${defs}${extraDefs}</defs>${body}</svg>`;
 
-const wheelSide = (cx: number, cy: number) => `
+export const wheelSide = (cx: number, cy: number) => `
   <circle cx="${cx}" cy="${cy}" r="171" fill="#15161b"/>
   <circle cx="${cx}" cy="${cy}" r="171" fill="none" stroke="#33363f" stroke-width="6"/>
   <path d="M ${cx - 150} ${cy - 60} A 160 160 0 0 1 ${cx + 40} ${cy - 160}" fill="none" stroke="#4a4e5c" stroke-width="7" stroke-linecap="round" opacity=".8"/>
@@ -32,13 +32,13 @@ const wheelSide = (cx: number, cy: number) => `
   <circle cx="${cx}" cy="${cy}" r="34" fill="#c9cfdb"/><circle cx="${cx}" cy="${cy}" r="14" fill="#4a4f5e"/>`;
 
 /** Two riders on the white matic, side view, heading right. Warm rim light from the shop behind. 1600x1400. */
-export const ridersSide = () => svg(1600, 1400, `
+export type SideOpts = { wheels?: boolean; passenger?: boolean; headlight?: boolean };
+export const ridersSide = ({ wheels = true, passenger = true, headlight = true }: SideOpts = {}) => svg(1600, 1400, `
   <linearGradient id="rim" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffe3b8" stop-opacity=".95"/><stop offset=".35" stop-color="#ffe3b8" stop-opacity="0"/></linearGradient>
   <!-- engine, swingarm, muffler -->
   <path d="M300 1060 L650 1040 L670 1150 L360 1205 Z" fill="#2f333e"/>
   <rect x="330" y="1050" width="300" height="105" rx="44" fill="#4a4f5e"/><rect x="350" y="1062" width="250" height="20" rx="10" fill="#6a7083" opacity=".6"/>
-  ${wheelSide(330, 1189)}
-  ${wheelSide(1230, 1189)}
+  ${wheels ? wheelSide(330, 1189) + wheelSide(1230, 1189) : ''}
   <rect x="150" y="1108" width="370" height="58" rx="29" fill="url(#chrome)" transform="rotate(-4 330 1137)"/>
   <rect x="300" y="1112" width="150" height="50" rx="20" fill="#3a3e4a" opacity=".85" transform="rotate(-4 330 1137)"/>
   <!-- fork -->
@@ -63,11 +63,11 @@ export const ridersSide = () => svg(1600, 1400, `
   <path d="M1095 1062 C1150 985 1310 985 1378 1060 L1362 1076 C1300 1012 1160 1010 1108 1076 Z" fill="url(#white)"/>
   <path d="M1110 692 C1120 642 1170 610 1230 612 C1282 614 1312 640 1314 675 C1302 702 1252 714 1190 714 C1150 714 1115 706 1110 692 Z" fill="url(#white)"/>
   <path d="M1110 692 C1120 642 1170 610 1230 612" fill="none" stroke="url(#rim)" stroke-width="9"/>
-  <ellipse cx="1300" cy="664" rx="22" ry="32" fill="#fffbe6"/>
+  <ellipse cx="1300" cy="664" rx="22" ry="32" fill="${headlight ? '#fffbe6' : '#5a5e6a'}"/>
   <path d="M1160 632 L1130 512" stroke="#2a2d36" stroke-width="9" stroke-linecap="round"/>
   <ellipse cx="1126" cy="498" rx="27" ry="42" fill="#262932"/><ellipse cx="1130" cy="498" rx="17" ry="31" fill="#9fb6e0"/>
   <path d="M1155 640 L1060 624" stroke="#15161b" stroke-width="28" stroke-linecap="round"/>
-  <!-- ===== passenger (behind) ===== -->
+  ${passenger ? `  <!-- ===== passenger (behind) ===== -->
   <rect x="252" y="598" width="124" height="236" rx="34" fill="url(#grey)"/>
   <rect x="268" y="700" width="70" height="100" rx="16" fill="#3f4454"/>
   <path d="M256 640 C262 610 300 600 330 602" stroke="url(#rim)" stroke-width="8" fill="none"/>
@@ -98,6 +98,7 @@ export const ridersSide = () => svg(1600, 1400, `
   <path d="M370 474 C362 388 420 350 482 352 C542 354 578 392 580 432" fill="none" stroke="url(#rim)" stroke-width="8"/>
   <path d="M560 424 C584 426 606 436 612 448 L566 444 Z" fill="#2b3348"/>
   <path d="M410 500 C430 540 470 562 500 566" stroke="#22283a" stroke-width="6" fill="none"/>
+` : ''}
   <!-- ===== driver ===== -->
   <path d="M640 880 C700 850 860 845 905 860 C932 880 926 922 900 932 C840 942 720 946 650 936 Z" fill="url(#pants)"/>
   <path d="M858 880 C900 868 936 884 936 910 L952 1070 L890 1076 L864 920 Z" fill="url(#pants)"/>
@@ -124,21 +125,22 @@ export const ridersSide = () => svg(1600, 1400, `
 `);
 
 /** From behind (the follower's view): passenger's back + backpack, driver's helmet TURNED to face the camera. 1000x1400. */
-export const ridersBack = () => svg(1000, 1400, `
+export const ridersBack = ({ turned = true }: { turned?: boolean } = {}) => svg(1000, 1400, `
   <linearGradient id="rimR" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ff5a4a" stop-opacity=".95"/><stop offset=".4" stop-color="#ff5a4a" stop-opacity="0"/></linearGradient>
   <linearGradient id="lit" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff6ea"/><stop offset="1" stop-color="#c9b8b0"/></linearGradient>
   <!-- driver's arms + handlebar + mirrors (behind everything) -->
   <path d="M170 712 L830 712" stroke="#15161b" stroke-width="22" stroke-linecap="round"/>
   <path d="M210 700 L186 560" stroke="#2a2d36" stroke-width="9"/><ellipse cx="184" cy="548" rx="34" ry="24" fill="#262932"/>
   <path d="M790 700 L814 560" stroke="#2a2d36" stroke-width="9"/><ellipse cx="816" cy="548" rx="34" ry="24" fill="#262932"/>
-  <path d="M330 600 C300 640 270 680 250 712 L290 735 C312 700 340 660 370 630 Z" fill="url(#purple)"/>
-  <path d="M670 600 C700 640 730 680 750 712 L710 735 C688 700 660 660 630 630 Z" fill="url(#purple)"/>
+  <path d="M352 606 C300 602 236 612 214 646 C204 672 222 700 244 712" fill="none" stroke="url(#purple)" stroke-width="64" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M648 606 C700 602 764 612 786 646 C796 672 778 700 756 712" fill="none" stroke="url(#purple)" stroke-width="64" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M232 628 L262 662" stroke="#e3e7f0" stroke-width="16"/><path d="M768 628 L738 662" stroke="#e3e7f0" stroke-width="16"/>
   <ellipse cx="248" cy="716" rx="32" ry="26" fill="#17171e"/><ellipse cx="752" cy="716" rx="32" ry="26" fill="#17171e"/>
   <!-- driver's back/shoulders -->
   <path d="M318 640 C326 560 398 520 500 516 C602 520 674 560 682 640 L686 760 L314 760 Z" fill="url(#purple)"/>
   <path d="M318 640 C326 560 398 520 500 516 C602 520 674 560 682 640" fill="none" stroke="url(#rimR)" stroke-width="12"/>
   <path d="M314 700 L686 700 L686 726 L314 726 Z" fill="#e3e7f0" opacity=".9"/>
-  <!-- the helmet, turned around: visor faces us -->
+  ${turned ? `<!-- the helmet, turned around: visor faces us -->
   <g transform="translate(598 352)">
     <path d="M-132 4 C-136 -92 -70 -142 4 -142 C80 -142 136 -92 132 4 C130 70 100 116 52 128 L-50 128 C-100 116 -130 70 -132 4 Z" fill="url(#helm)"/>
     <path d="M-132 4 C-136 -92 -70 -142 4 -142 C80 -142 136 -92 132 4" fill="none" stroke="url(#rimR)" stroke-width="12"/>
@@ -148,16 +150,28 @@ export const ridersBack = () => svg(1000, 1400, `
     <circle cx="36" cy="-6" r="46" fill="url(#glowP)"/><circle cx="36" cy="-6" r="9" fill="#f1e6ff"/>
     <path d="M-60 64 C-30 82 30 82 60 64 L56 96 C30 110 -30 110 -56 96 Z" fill="#3a1a90" opacity=".9"/>
     <rect x="-26" y="-140" width="52" height="16" rx="8" fill="#4b26ad"/>
-  </g>
+  </g>` : `<!-- the helmet seen from behind (normal) -->
+  <g transform="translate(590 356)">
+    <path d="M-130 0 C-134 -92 -70 -140 0 -140 C70 -140 134 -92 130 0 C128 66 100 112 56 126 L-56 126 C-100 112 -128 66 -130 0 Z" fill="url(#helm)"/>
+    <path d="M-130 0 C-134 -92 -70 -140 0 -140 C70 -140 134 -92 130 0" fill="none" stroke="url(#rimR)" stroke-width="12"/>
+    <ellipse cx="-40" cy="-76" rx="56" ry="26" fill="#fff" opacity=".2" transform="rotate(-20 -40 -76)"/>
+    <path d="M-110 40 C-60 70 60 70 110 40" stroke="#dfe3ec" stroke-width="14" fill="none" opacity=".85"/>
+    <rect x="-24" y="-138" width="48" height="16" rx="8" fill="#4b26ad"/>
+    <path d="M-60 96 C-30 112 30 112 60 96 L56 124 L-56 124 Z" fill="#3a1a90"/>
+  </g>`}
   <!-- scooter rear -->
-  <rect x="440" y="1120" width="120" height="236" rx="46" fill="#141519"/><rect x="452" y="1300" width="96" height="40" rx="16" fill="#2a2c34"/>
+  <ellipse cx="500" cy="1384" rx="190" ry="26" fill="#000" opacity=".55"/>
+  <rect x="444" y="1100" width="112" height="284" rx="50" fill="#26272e"/>
+  ${[0,1,2,3,4,5].map((k) => `<rect x="456" y="${1150 + k * 38}" width="88" height="12" rx="6" fill="#4a4c56"/>`).join('')}
+  <rect x="444" y="1100" width="20" height="284" rx="10" fill="#5a5c68" opacity=".6"/>
+  <path d="M426 1112 L574 1112 L566 1196 L434 1196 Z" fill="#17181d"/>
   <path d="M330 1000 C330 930 380 900 500 900 C620 900 670 930 670 1000 L642 1112 C600 1144 400 1144 358 1112 Z" fill="url(#lit)"/>
   <path d="M330 1000 C330 930 380 900 500 900 C620 900 670 930 670 1000" fill="none" stroke="url(#rimR)" stroke-width="9"/>
   <rect x="404" y="956" width="192" height="42" rx="18" fill="#ff2a2a"/><rect x="420" y="962" width="160" height="10" rx="5" fill="#ff9a9a"/>
   <ellipse cx="500" cy="977" rx="210" ry="90" fill="url(#glowR)" opacity=".8"/>
   <ellipse cx="348" cy="988" rx="16" ry="12" fill="#ffae3a"/><ellipse cx="652" cy="988" rx="16" ry="12" fill="#ffae3a"/>
   <rect x="398" y="1036" width="204" height="66" rx="6" fill="#0d0d10" stroke="#e6e6e6" stroke-width="5"/>
-  <text x="500" y="1083" font-family="Inter, Arial, sans-serif" font-weight="800" font-size="44" fill="#f4f4f4" text-anchor="middle">B 4217 KZ</text>
+  <text x="500" y="1082" font-family="Inter, Arial, sans-serif" font-weight="800" font-size="40" fill="#f4f4f4" text-anchor="middle" textLength="176" lengthAdjust="spacingAndGlyphs">B 4217 KZ</text>
   <!-- passenger legs + shoes on pegs -->
   <path d="M352 900 C330 940 310 990 300 1060 L350 1064 C356 1000 372 950 392 920 Z" fill="url(#jeans)"/>
   <path d="M648 900 C670 940 690 990 700 1060 L650 1064 C644 1000 628 950 608 920 Z" fill="url(#jeans)"/>
@@ -183,7 +197,7 @@ export const ridersBack = () => svg(1000, 1400, `
 `);
 
 /** Driver seen from the passenger's eyes: helmet back, jacket back with JALANIN, arms to the bars. 1400x1200. */
-export const driverBackPov = () => svg(1400, 1200, `
+export const driverBackPov = () => svg(1400, 1500, `
   <linearGradient id="rimC" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#b9c8ff" stop-opacity=".9"/><stop offset=".3" stop-color="#b9c8ff" stop-opacity="0"/></linearGradient>
   <path d="M40 1010 L1360 1000" stroke="#15161b" stroke-width="30" stroke-linecap="round"/>
   <path d="M120 990 L80 790" stroke="#2a2d36" stroke-width="12"/><ellipse cx="78" cy="770" rx="58" ry="38" fill="#262932"/>
@@ -193,7 +207,8 @@ export const driverBackPov = () => svg(1400, 1200, `
   <path d="M1100 760 C1170 830 1230 900 1270 960 L1200 1010 C1150 950 1090 880 1030 830 Z" fill="url(#purple)"/>
   <path d="M170 920 L210 960" stroke="#e3e7f0" stroke-width="22"/><path d="M1230 920 L1190 960" stroke="#e3e7f0" stroke-width="22"/>
   <ellipse cx="140" cy="990" rx="54" ry="40" fill="#17171e"/><ellipse cx="1260" cy="990" rx="54" ry="40" fill="#17171e"/>
-  <path d="M250 1200 C250 950 320 760 470 680 C560 640 840 640 930 680 C1080 760 1150 950 1150 1200 Z" fill="url(#purple)"/>
+  <path d="M250 1500 L250 1200 C250 950 320 760 470 680 C560 640 840 640 930 680 C1080 760 1150 950 1150 1200 L1150 1500 Z" fill="url(#purple)"/>
+  <linearGradient id="fadeB" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0a0b18" stop-opacity="0"/><stop offset="1" stop-color="#0a0b18" stop-opacity=".95"/></linearGradient>
   <path d="M250 1200 C250 950 320 760 470 680 C560 640 840 640 930 680 C1080 760 1150 950 1150 1200" fill="none" stroke="url(#rimC)" stroke-width="14"/>
   <path d="M262 1010 C540 990 860 990 1138 1010 L1142 1050 C860 1030 540 1030 258 1050 Z" fill="#dfe3ec"/>
   <path d="M256 1100 C540 1080 860 1080 1144 1100 L1146 1140 C860 1120 540 1120 254 1140 Z" fill="#dfe3ec"/>
@@ -204,6 +219,7 @@ export const driverBackPov = () => svg(1400, 1200, `
   <ellipse cx="610" cy="280" rx="120" ry="50" fill="#fff" opacity=".18" transform="rotate(-25 610 280)"/>
   <path d="M560 560 C640 590 760 590 840 560" stroke="#d9dff0" stroke-width="16" fill="none" opacity=".8"/>
   <path d="M520 600 C600 650 800 650 880 600" stroke="#3a1a90" stroke-width="14" fill="none" opacity=".7"/>
+  <rect x="200" y="1180" width="1000" height="320" fill="url(#fadeB)"/>
 `);
 
 /** Hand holding the phone (POV). The screen area (x210..590, y80..900) is covered by a separate screen plane. 800x1100. */

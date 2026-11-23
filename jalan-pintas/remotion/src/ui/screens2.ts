@@ -18,7 +18,7 @@ const make = (draw: (g: CanvasRenderingContext2D) => void) => {
   g.fillStyle = '#cfd2e6'; g.font = '600 28px Inter'; g.fillText('00.14', 40, 52); g.fillText('▮▮▮  62%', 540, 52);
   g.fillStyle = UNGU; g.fillRect(0, 80, W, 130); g.fillStyle = '#fff'; g.font = '800 46px Inter'; g.fillText('JALANIN', 40, 162);
   draw(g);
-  const t = new THREE.CanvasTexture(c); t.colorSpace = THREE.SRGBColorSpace; t.anisotropy = 8; return t;
+  const t = new THREE.CanvasTexture(c); t.colorSpace = THREE.SRGBColorSpace; t.anisotropy = 1; t.generateMipmaps = false; t.minFilter = THREE.LinearFilter; return t;
 };
 
 const miniMap = (g: CanvasRenderingContext2D, x: number, y: number, w: number, h: number, big = false) => {

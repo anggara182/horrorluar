@@ -2,7 +2,7 @@
 // usage: node scripts/render_shots.mjs ep01 [--force] [--only S05,S06]   env: CONC (default 2), SCALE (default 1)
 // Output: ../<ep>/render/shots/<id>.mp4 + manifest.json. Concat + audio happens in tools/render.sh.
 import { bundle } from '@remotion/bundler';
-import { renderMedia, selectComposition } from '@remotion/renderer';
+import { openBrowser, renderMedia, selectComposition } from '@remotion/renderer';
 import crypto from 'node:crypto'; import fs from 'node:fs'; import path from 'node:path';
 
 const ep = process.argv[2] || 'ep01';
@@ -26,6 +26,9 @@ const man = fs.existsSync(manPath) ? JSON.parse(fs.readFileSync(manPath, 'utf8')
 const serveUrl = await bundle({ entryPoint: path.resolve('src/index.ts') });
 const shell = '/opt/pw-browsers/chromium_headless_shell';
 const opts = { serveUrl, chromiumOptions: { gl: 'swangle' }, browserExecutable: fs.existsSync(shell) ? shell : undefined };
+// one browser for all shots (saves the per-shot browser start)
+const browser = await openBrowser('chrome', { browserExecutable: opts.browserExecutable, chromiumOptions: opts.chromiumOptions });
+opts.puppeteerInstance = browser;
 const comp = await selectComposition({ ...opts, id: ep.toUpperCase() });
 const fps = comp.fps; const shots = shotsData.shots;
 const f0 = (s) => Math.ceil(s.start * fps - 1e-6);
@@ -44,4 +47,5 @@ for (let i = 0; i < shots.length; i++) {
   console.log(`${s.id} frames ${a}-${b} (${b - a + 1}) ${sec.toFixed(1)}s  ${(sec / (b - a + 1)).toFixed(2)} s/frame`);
 }
 console.log(`rendered ${n} shots, ${frames} frames in ${((Date.now() - t0) / 1000).toFixed(0)}s`);
+await browser.close({ silent: true });
 fs.writeFileSync(path.join(outDir, 'list.txt'), shots.map((s) => `file '${s.id}.mp4'`).join('\n') + '\n');

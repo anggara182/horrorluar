@@ -108,7 +108,7 @@ export const Blob: React.FC<{ p: V3; s: [number, number]; opacity?: number }> = 
 /** Canvas → texture helper. */
 export const canvasTex = (w: number, h: number, draw: (g: CanvasRenderingContext2D) => void) => {
   const c = document.createElement('canvas'); c.width = w; c.height = h; draw(c.getContext('2d')!);
-  const t = new THREE.CanvasTexture(c); t.colorSpace = THREE.SRGBColorSpace; t.anisotropy = 8; return t;
+  const t = new THREE.CanvasTexture(c); t.colorSpace = THREE.SRGBColorSpace; t.anisotropy = 1; t.generateMipmaps = false; t.minFilter = THREE.LinearFilter; return t;
 };
 
 /** Additive light beam (visible headlight cone in haze). */
