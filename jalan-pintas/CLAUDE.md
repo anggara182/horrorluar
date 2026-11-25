@@ -1,9 +1,9 @@
 # CLAUDE.md - JALAN PINTAS
 
-Serial horor interaktif 3D, bahasa Indonesia. Tiap episode ditutup pilihan 1/2, dan episode berikutnya mengikuti suara terbanyak.
+Serial horor interaktif 2.5D, bahasa Indonesia. Tiap episode ditutup pilihan 1/2. Kanon ditentukan kita (bukan vote): episode berikutnya memainkan opsi SALAH dulu → GAGAL → rewind → opsi BENAR (bible §Bentuk episode).
 Baca `SERIES-BIBLE.md` dan `EPISODES.md` dulu, dan jangan pernah bertentangan dengan keduanya. Lalu baca `PROGRESS.md` dan kerjakan HANYA langkah berikutnya.
 
-Folder ini terpisah dari seri legenda Inggris di repo `horrorluar` (`../docs`, `../pipeline`). Jangan menyentuh file di luar `jalan-pintas/`.
+Panduan umum pipeline ada di repo choicesfate (`docs/`; salinan sementara: `choicesfate.bundle` di root repo ini). Jangan menyentuh file di luar `jalan-pintas/` kecuali diminta.
 
 ## Batas keras
 - Satu video maksimal 4 jam: build + render + edit. Kalau sesuatu makan waktu terlalu lama, sederhanakan.
@@ -21,7 +21,7 @@ Folder ini terpisah dari seri legenda Inggris di repo `horrorluar` (`../docs`, `
 
 ## Aturan video
 - 9:16, 1080x1920, 24 fps. Panjang video = panjang VO.
-- Tanpa teks judul atau hook di layar. Yang boleh: caption, layar HP (peta + chat), dan 2 label pilihan di akhir.
+- Tanpa teks judul atau hook di layar. Yang boleh: caption, layar HP (peta + chat), 2 label pilihan di akhir, dan stempel GAGAL + ikon ◀◀ saat rewind.
 - Jangan merapatkan jeda VO. Hanya potong hening di atas 1,2 dtk.
 - Satu cut atau gerak kamera tiap 2–4 dtk, dan tiap 1 dtk di 5 dtk pertama.
 - Suara mulai di frame pertama, dan gambar sudah bergerak.
@@ -46,7 +46,7 @@ Folder ini terpisah dari seri legenda Inggris di repo `horrorluar` (`../docs`, `
 4. Hal baru (tokoh, tempat, benda, aturan) langsung dicatat ke `SERIES-BIBLE.md` dan `EPISODES.md` di sesi yang sama.
 
 ## Biaya dan layanan luar
-- Key ai33 dipakai bersama akun studio lain (batas efektif ±5 task). Sebelum submit VO, minta izin adrian dulu dan ikuti aturan antrean studio (`_shared/ATURAN-PARALEL.md` §3: tunggu kalau ≥4 task belum done, jarak submit ≥15 dtk + jitter, backoff kalau kena 429). Jangan submit SFX lewat ai33.
+- Key ai33 dipakai bersama akun studio lain (batas efektif ±5 task). Sebelum submit VO, minta izin adrian dulu dan ikuti aturan antrean studio (tunggu kalau ≥4 task belum done, jarak submit ≥15 dtk + jitter, backoff kalau kena 429/5xx; sudah ada di `tools/vo.py`). Jangan submit SFX lewat ai33.
 - Sebelum memakai apa pun yang berbayar, sebutkan harganya dulu.
 - Tanpa gambar AI untuk tokoh, cover, atau logo. Semuanya dirender dari scene Three.js.
 - Jangan posting atau menjadwalkan tanpa izin eksplisit adrian.
