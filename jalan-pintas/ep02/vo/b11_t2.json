@@ -1,0 +1,221 @@
+[
+  {
+    "language_code": "",
+    "language_probability": 1,
+    "text": "Satu, terima orderannya, biar tahu siapa yang pesen. Dua, tolak, terus pulang lewat jalan biasa. Satu, atau dua.",
+    "words": [
+      {
+        "text": "Satu,",
+        "start": 0.28,
+        "end": 0.952,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 0.952,
+        "end": 0.994,
+        "type": "spacing"
+      },
+      {
+        "text": "terima",
+        "start": 0.994,
+        "end": 1.402,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 1.402,
+        "end": 1.42,
+        "type": "spacing"
+      },
+      {
+        "text": "orderannya,",
+        "start": 1.42,
+        "end": 2.366,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 2.366,
+        "end": 2.43,
+        "type": "spacing"
+      },
+      {
+        "text": "biar",
+        "start": 2.43,
+        "end": 2.711,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 2.711,
+        "end": 2.743,
+        "type": "spacing"
+      },
+      {
+        "text": "tahu",
+        "start": 2.743,
+        "end": 3.029,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 3.029,
+        "end": 3.061,
+        "type": "spacing"
+      },
+      {
+        "text": "siapa",
+        "start": 3.061,
+        "end": 3.385,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 3.385,
+        "end": 3.385,
+        "type": "spacing"
+      },
+      {
+        "text": "yang",
+        "start": 3.385,
+        "end": 3.599,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 3.599,
+        "end": 3.62,
+        "type": "spacing"
+      },
+      {
+        "text": "pesen.",
+        "start": 3.62,
+        "end": 4.408,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 4.408,
+        "end": 4.492,
+        "type": "spacing"
+      },
+      {
+        "text": "Dua,",
+        "start": 4.492,
+        "end": 5.147,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 5.147,
+        "end": 5.21,
+        "type": "spacing"
+      },
+      {
+        "text": "tolak,",
+        "start": 5.21,
+        "end": 5.882,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 5.882,
+        "end": 5.924,
+        "type": "spacing"
+      },
+      {
+        "text": "terus",
+        "start": 5.924,
+        "end": 6.29,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 6.29,
+        "end": 6.321,
+        "type": "spacing"
+      },
+      {
+        "text": "pulang",
+        "start": 6.321,
+        "end": 6.63,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 6.63,
+        "end": 6.64,
+        "type": "spacing"
+      },
+      {
+        "text": "lewat",
+        "start": 6.64,
+        "end": 6.928,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 6.928,
+        "end": 6.96,
+        "type": "spacing"
+      },
+      {
+        "text": "jalan",
+        "start": 6.96,
+        "end": 7.189,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 7.189,
+        "end": 7.2,
+        "type": "spacing"
+      },
+      {
+        "text": "biasa.",
+        "start": 7.2,
+        "end": 8.074,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 8.074,
+        "end": 8.16,
+        "type": "spacing"
+      },
+      {
+        "text": "Satu,",
+        "start": 8.16,
+        "end": 8.827,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 8.827,
+        "end": 8.87,
+        "type": "spacing"
+      },
+      {
+        "text": "atau",
+        "start": 8.87,
+        "end": 9.153,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 9.153,
+        "end": 9.184,
+        "type": "spacing"
+      },
+      {
+        "text": "dua.",
+        "start": 9.184,
+        "end": 9.82,
+        "type": "word"
+      }
+    ],
+    "transcription_id": "1f6f4f3638a5ab9a4372",
+    "audio_duration_secs": 10.03102
+  }
+]

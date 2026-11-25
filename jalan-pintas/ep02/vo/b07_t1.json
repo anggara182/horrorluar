@@ -1,0 +1,53 @@
+[
+  {
+    "language_code": "",
+    "language_probability": 1,
+    "text": "Kak, Naik, chớp mắt.",
+    "words": [
+      {
+        "text": "Kak,",
+        "start": 0.51,
+        "end": 1.047,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 1.047,
+        "end": 1.1,
+        "type": "spacing"
+      },
+      {
+        "text": "Naik,",
+        "start": 1.1,
+        "end": 1.6,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 1.6,
+        "end": 1.6,
+        "type": "spacing"
+      },
+      {
+        "text": "chớp",
+        "start": 1.6,
+        "end": 1.831,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 1.831,
+        "end": 1.832,
+        "type": "spacing"
+      },
+      {
+        "text": "mắt.",
+        "start": 1.832,
+        "end": 2.168,
+        "type": "word"
+      }
+    ],
+    "transcription_id": "1c70a51bb508c5ecf9fb",
+    "audio_duration_secs": 2.429388
+  }
+]

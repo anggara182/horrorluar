@@ -1,0 +1,305 @@
+[
+  {
+    "language_code": "",
+    "language_probability": 1,
+    "text": "Tapi kamu lompat turun, Drivernya nggak ngejar, Dia cuma diem, Helmnya masih ngadep ke kamu, Lampu di belakang makin deket, Motornya berhenti, Kaca helmnya kebuka.",
+    "words": [
+      {
+        "text": "Tapi",
+        "start": 0.08,
+        "end": 0.429,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 0.429,
+        "end": 0.44,
+        "type": "spacing"
+      },
+      {
+        "text": "kamu",
+        "start": 0.44,
+        "end": 0.669,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 0.669,
+        "end": 0.68,
+        "type": "spacing"
+      },
+      {
+        "text": "lompat",
+        "start": 0.68,
+        "end": 0.968,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 0.968,
+        "end": 1,
+        "type": "spacing"
+      },
+      {
+        "text": "turun,",
+        "start": 1,
+        "end": 1.728,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 1.728,
+        "end": 1.792,
+        "type": "spacing"
+      },
+      {
+        "text": "Drivernya",
+        "start": 1.792,
+        "end": 2.304,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 2.304,
+        "end": 2.32,
+        "type": "spacing"
+      },
+      {
+        "text": "nggak",
+        "start": 2.32,
+        "end": 2.462,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 2.462,
+        "end": 2.462,
+        "type": "spacing"
+      },
+      {
+        "text": "ngejar,",
+        "start": 2.462,
+        "end": 3.183,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 3.183,
+        "end": 3.225,
+        "type": "spacing"
+      },
+      {
+        "text": "Dia",
+        "start": 3.225,
+        "end": 3.431,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 3.431,
+        "end": 3.464,
+        "type": "spacing"
+      },
+      {
+        "text": "cuma",
+        "start": 3.464,
+        "end": 3.712,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 3.712,
+        "end": 3.73,
+        "type": "spacing"
+      },
+      {
+        "text": "diem,",
+        "start": 3.73,
+        "end": 4.437,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 4.437,
+        "end": 4.5,
+        "type": "spacing"
+      },
+      {
+        "text": "Helmnya",
+        "start": 4.5,
+        "end": 4.889,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 4.889,
+        "end": 4.9,
+        "type": "spacing"
+      },
+      {
+        "text": "masih",
+        "start": 4.9,
+        "end": 5.092,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 5.092,
+        "end": 5.092,
+        "type": "spacing"
+      },
+      {
+        "text": "ngadep",
+        "start": 5.092,
+        "end": 5.383,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 5.383,
+        "end": 5.4,
+        "type": "spacing"
+      },
+      {
+        "text": "ke",
+        "start": 5.4,
+        "end": 5.527,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 5.527,
+        "end": 5.54,
+        "type": "spacing"
+      },
+      {
+        "text": "kamu,",
+        "start": 5.54,
+        "end": 6.188,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 6.188,
+        "end": 6.251,
+        "type": "spacing"
+      },
+      {
+        "text": "Lampu",
+        "start": 6.251,
+        "end": 6.537,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 6.537,
+        "end": 6.54,
+        "type": "spacing"
+      },
+      {
+        "text": "di",
+        "start": 6.54,
+        "end": 6.61,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 6.61,
+        "end": 6.61,
+        "type": "spacing"
+      },
+      {
+        "text": "belakang",
+        "start": 6.61,
+        "end": 6.959,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 6.959,
+        "end": 6.97,
+        "type": "spacing"
+      },
+      {
+        "text": "makin",
+        "start": 6.97,
+        "end": 7.206,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 7.206,
+        "end": 7.22,
+        "type": "spacing"
+      },
+      {
+        "text": "deket,",
+        "start": 7.22,
+        "end": 7.939,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 7.939,
+        "end": 8.003,
+        "type": "spacing"
+      },
+      {
+        "text": "Motornya",
+        "start": 8.003,
+        "end": 8.367,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 8.367,
+        "end": 8.37,
+        "type": "spacing"
+      },
+      {
+        "text": "berhenti,",
+        "start": 8.37,
+        "end": 9.158,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 9.158,
+        "end": 9.2,
+        "type": "spacing"
+      },
+      {
+        "text": "Kaca",
+        "start": 9.2,
+        "end": 9.516,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 9.516,
+        "end": 9.53,
+        "type": "spacing"
+      },
+      {
+        "text": "helmnya",
+        "start": 9.53,
+        "end": 9.87,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 9.87,
+        "end": 9.87,
+        "type": "spacing"
+      },
+      {
+        "text": "kebuka.",
+        "start": 9.87,
+        "end": 10.725,
+        "type": "word"
+      }
+    ],
+    "transcription_id": "0f4428a4805a3dd467ae",
+    "audio_duration_secs": 10.762449
+  }
+]

@@ -42,3 +42,30 @@ Traceback (most recent call last):
     raise RuntimeError(f"{method} {path} -> {e.code}: {msg}")
 RuntimeError: POST /v3/text-to-speech -> 502: 
 EXIT 1
+b04_t1 NARATOR ok 142
+b04_t2 NARATOR ok 142
+b06_t1 NARATOR ok 240
+b06_t2 NARATOR ok 240
+b07_t1 JUNED_LIVE ok 33
+b07_t2 JUNED_LIVE ok 33
+b08_t1 NARATOR ok 209
+b08_t2 NARATOR ok 209
+b09_t1 JUNED_LIVE ok 47
+b09_t2 JUNED_LIVE ok 47
+b10_t1 NARATOR ok 103
+b10_t2 NARATOR ok 103
+b11_t1 NARATOR ok 177
+b11_t2 NARATOR ok 177
+{'block': 1, 'who': 'NARATOR', 'take': 'b01_t1', 'score': 1.0, 'start': 0.0, 'dur': 4.095}
+{'block': 2, 'who': 'NARATOR', 'take': 'b02_t1', 'score': 1.0, 'start': 4.395, 'dur': 11.299}
+{'block': 3, 'who': 'PENGENDARA', 'take': 'b03_t1', 'score': 1.0, 'start': 15.994, 'dur': 1.206}
+{'block': 4, 'who': 'NARATOR', 'take': 'b04_t1', 'score': 1.0, 'start': 17.5, 'dur': 6.537}
+{'block': 5, 'who': 'PAUSE', 'start': 24.337, 'dur': 2.8}
+{'block': 6, 'who': 'NARATOR', 'take': 'b06_t1', 'score': 1.0, 'start': 27.437, 'dur': 10.348}
+{'block': 7, 'who': 'JUNED_LIVE', 'take': 'b07_t2', 'score': 0.667, 'start': 38.085, 'dur': 1.462}
+{'block': 8, 'who': 'NARATOR', 'take': 'b08_t1', 'score': 1.0, 'start': 39.847, 'dur': 8.542}
+{'block': 9, 'who': 'JUNED_LIVE', 'take': 'b09_t1', 'score': 1.0, 'start': 48.689, 'dur': 1.634}
+{'block': 10, 'who': 'NARATOR', 'take': 'b10_t1', 'score': 0.9, 'start': 50.623, 'dur': 6.028}
+{'block': 11, 'who': 'NARATOR', 'take': 'b11_t1', 'score': 0.944, 'start': 56.951, 'dur': 9.246}
+duration 66.2 s
+EXIT 0

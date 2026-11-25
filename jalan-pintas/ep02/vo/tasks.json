@@ -38,6 +38,85 @@
  "b04_t1": {
   "task_id": "7d5fe97d-cadc-4f84-aa1a-d21f2cba88b8",
   "who": "NARATOR",
-  "text": "[tense] Kamu turun. Di depan Toko Dua Puluh Empat. [creepy] Dan di depan pintunya... ada kamu. Lagi pesen ojol."
+  "text": "[tense] Kamu turun. Di depan Toko Dua Puluh Empat. [creepy] Dan di depan pintunya... ada kamu. Lagi pesen ojol.",
+  "credit": 142
+ },
+ "b04_t2": {
+  "task_id": "fb06e85b-d8fc-4072-b357-418167710002",
+  "who": "NARATOR",
+  "text": "[tense] Kamu turun. Di depan Toko Dua Puluh Empat. [creepy] Dan di depan pintunya... ada kamu. Lagi pesen ojol.",
+  "credit": 142
+ },
+ "b06_t1": {
+  "task_id": "dc83d703-ff12-4f88-8be6-0ac9baf354c9",
+  "who": "NARATOR",
+  "text": "[fast] Tapi kamu lompat turun. [tense] Drivernya nggak ngejar. Dia cuma diem. Helmnya masih ngadep ke kamu. [urgent] Lampu di belakang makin deket. Motornya berhenti. Kaca helmnya kebuka.",
+  "credit": 240
+ },
+ "b06_t2": {
+  "task_id": "b3bc5aaa-ca62-4241-81f8-8e520df4a4d5",
+  "who": "NARATOR",
+  "text": "[fast] Tapi kamu lompat turun. [tense] Drivernya nggak ngejar. Dia cuma diem. Helmnya masih ngadep ke kamu. [urgent] Lampu di belakang makin deket. Motornya berhenti. Kaca helmnya kebuka.",
+  "credit": 240
+ },
+ "b07_t1": {
+  "task_id": "77d802c7-f25e-4af2-94bd-b5b05b371910",
+  "who": "JUNED_LIVE",
+  "text": "[scared] Kak! Naik, cepet!",
+  "credit": 33
+ },
+ "b07_t2": {
+  "task_id": "a0249a3e-56bc-4e7e-a7fa-a98759dac462",
+  "who": "JUNED_LIVE",
+  "text": "[scared] Kak! Naik, cepet!",
+  "credit": 33
+ },
+ "b08_t1": {
+  "task_id": "5f6f28a9-21a7-4ff8-9dde-769fce4ddeb5",
+  "who": "NARATOR",
+  "text": "[fast] Kamu naik. Kamu nengok ke belakang. [creepy] Motor tadi udah nggak ada. Cuma bekas ban... yang berhenti di tengah rel. [tense] HP Juned bunyi. Orderan baru.",
+  "credit": 209
+ },
+ "b08_t2": {
+  "task_id": "c8295ca1-a501-4510-b353-f3137d685a8d",
+  "who": "NARATOR",
+  "text": "[fast] Kamu naik. Kamu nengok ke belakang. [creepy] Motor tadi udah nggak ada. Cuma bekas ban... yang berhenti di tengah rel. [tense] HP Juned bunyi. Orderan baru.",
+  "credit": 209
+ },
+ "b09_t1": {
+  "task_id": "31a16320-dd44-41e3-a522-4f0a6775a417",
+  "who": "JUNED_LIVE",
+  "text": "[nervous] Kak... ini nama Kakak, kan?",
+  "credit": 47
+ },
+ "b09_t2": {
+  "task_id": "536f3769-b0da-4319-84eb-cf84606943ca",
+  "who": "JUNED_LIVE",
+  "text": "[nervous] Kak... ini nama Kakak, kan?",
+  "credit": 47
+ },
+ "b10_t1": {
+  "task_id": "e908362c-5ac7-4b40-8126-7cac7e96e159",
+  "who": "NARATOR",
+  "text": "[creepy] Penjemputan: rel mati. Penumpang: kamu. Dipesen... satu menit yang lalu.",
+  "credit": 103
+ },
+ "b10_t2": {
+  "task_id": "07a58299-c472-4c63-a21a-8bcb1130275c",
+  "who": "NARATOR",
+  "text": "[creepy] Penjemputan: rel mati. Penumpang: kamu. Dipesen... satu menit yang lalu.",
+  "credit": 103
+ },
+ "b11_t1": {
+  "task_id": "1ff0fae5-6c3e-4967-93e3-e052db8c1d55",
+  "who": "NARATOR",
+  "text": "[intense] Satu: terima orderannya, biar tau siapa yang pesen. [fast] Dua: tolak, terus pulang lewat jalan biasa. [sharp] Satu... atau dua?",
+  "credit": 177
+ },
+ "b11_t2": {
+  "task_id": "f02432c1-e098-40fc-b2cc-2482a5734f88",
+  "who": "NARATOR",
+  "text": "[intense] Satu: terima orderannya, biar tau siapa yang pesen. [fast] Dua: tolak, terus pulang lewat jalan biasa. [sharp] Satu... atau dua?",
+  "credit": 177
  }
 }

@@ -1,0 +1,125 @@
+[
+  {
+    "language_code": "",
+    "language_probability": 1,
+    "text": "Penjemputan real mati penumpang kamu Dipesen satu menit yang lalu.",
+    "words": [
+      {
+        "text": "Penjemputan",
+        "start": 0.12,
+        "end": 1.122,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 1.122,
+        "end": 1.24,
+        "type": "spacing"
+      },
+      {
+        "text": "real",
+        "start": 1.24,
+        "end": 1.524,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 1.524,
+        "end": 1.544,
+        "type": "spacing"
+      },
+      {
+        "text": "mati",
+        "start": 1.544,
+        "end": 2.204,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 2.204,
+        "end": 2.34,
+        "type": "spacing"
+      },
+      {
+        "text": "penumpang",
+        "start": 2.34,
+        "end": 3.046,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 3.046,
+        "end": 3.13,
+        "type": "spacing"
+      },
+      {
+        "text": "kamu",
+        "start": 3.13,
+        "end": 3.734,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 3.734,
+        "end": 3.85,
+        "type": "spacing"
+      },
+      {
+        "text": "Dipesen",
+        "start": 3.85,
+        "end": 4.671,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 4.671,
+        "end": 4.81,
+        "type": "spacing"
+      },
+      {
+        "text": "satu",
+        "start": 4.81,
+        "end": 5.048,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 5.048,
+        "end": 5.048,
+        "type": "spacing"
+      },
+      {
+        "text": "menit",
+        "start": 5.048,
+        "end": 5.318,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 5.318,
+        "end": 5.35,
+        "type": "spacing"
+      },
+      {
+        "text": "yang",
+        "start": 5.35,
+        "end": 5.539,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 5.539,
+        "end": 5.55,
+        "type": "spacing"
+      },
+      {
+        "text": "lalu.",
+        "start": 5.55,
+        "end": 6.003,
+        "type": "word"
+      }
+    ],
+    "transcription_id": "e9519d63d066c97c303a",
+    "audio_duration_secs": 6.19102
+  }
+]

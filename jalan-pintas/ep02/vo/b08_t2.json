@@ -1,0 +1,293 @@
+[
+  {
+    "language_code": "",
+    "language_probability": 1,
+    "text": "Kamu naik, kamu naik oke belakang. Motor tadi udah enggak ada, cuma bekas ban yang berhenti di tengah rel. HP Juned bunyi, orderan baru.",
+    "words": [
+      {
+        "text": "Kamu",
+        "start": 0.15,
+        "end": 0.451,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 0.451,
+        "end": 0.47,
+        "type": "spacing"
+      },
+      {
+        "text": "naik,",
+        "start": 0.47,
+        "end": 1.091,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 1.091,
+        "end": 1.154,
+        "type": "spacing"
+      },
+      {
+        "text": "kamu",
+        "start": 1.154,
+        "end": 1.365,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 1.365,
+        "end": 1.37,
+        "type": "spacing"
+      },
+      {
+        "text": "naik",
+        "start": 1.37,
+        "end": 1.562,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 1.562,
+        "end": 1.562,
+        "type": "spacing"
+      },
+      {
+        "text": "oke",
+        "start": 1.562,
+        "end": 1.677,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 1.677,
+        "end": 1.68,
+        "type": "spacing"
+      },
+      {
+        "text": "belakang.",
+        "start": 1.68,
+        "end": 2.447,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 2.447,
+        "end": 2.51,
+        "type": "spacing"
+      },
+      {
+        "text": "Motor",
+        "start": 2.51,
+        "end": 2.746,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 2.746,
+        "end": 2.76,
+        "type": "spacing"
+      },
+      {
+        "text": "tadi",
+        "start": 2.76,
+        "end": 2.94,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 2.94,
+        "end": 2.94,
+        "type": "spacing"
+      },
+      {
+        "text": "udah",
+        "start": 2.94,
+        "end": 3.115,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 3.115,
+        "end": 3.12,
+        "type": "spacing"
+      },
+      {
+        "text": "enggak",
+        "start": 3.12,
+        "end": 3.35,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 3.35,
+        "end": 3.382,
+        "type": "spacing"
+      },
+      {
+        "text": "ada,",
+        "start": 3.382,
+        "end": 3.877,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 3.877,
+        "end": 3.94,
+        "type": "spacing"
+      },
+      {
+        "text": "cuma",
+        "start": 3.94,
+        "end": 4.169,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 4.169,
+        "end": 4.18,
+        "type": "spacing"
+      },
+      {
+        "text": "bekas",
+        "start": 4.18,
+        "end": 4.468,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 4.468,
+        "end": 4.5,
+        "type": "spacing"
+      },
+      {
+        "text": "ban",
+        "start": 4.5,
+        "end": 5.233,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 5.233,
+        "end": 5.451,
+        "type": "spacing"
+      },
+      {
+        "text": "yang",
+        "start": 5.451,
+        "end": 5.632,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 5.632,
+        "end": 5.64,
+        "type": "spacing"
+      },
+      {
+        "text": "berhenti",
+        "start": 5.64,
+        "end": 6.007,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 6.007,
+        "end": 6.02,
+        "type": "spacing"
+      },
+      {
+        "text": "di",
+        "start": 6.02,
+        "end": 6.115,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 6.115,
+        "end": 6.115,
+        "type": "spacing"
+      },
+      {
+        "text": "tengah",
+        "start": 6.115,
+        "end": 6.388,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 6.388,
+        "end": 6.41,
+        "type": "spacing"
+      },
+      {
+        "text": "rel.",
+        "start": 6.41,
+        "end": 6.979,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 6.979,
+        "end": 7.043,
+        "type": "spacing"
+      },
+      {
+        "text": "HP",
+        "start": 7.043,
+        "end": 7.309,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 7.309,
+        "end": 7.361,
+        "type": "spacing"
+      },
+      {
+        "text": "Juned",
+        "start": 7.361,
+        "end": 7.59,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 7.59,
+        "end": 7.6,
+        "type": "spacing"
+      },
+      {
+        "text": "bunyi,",
+        "start": 7.6,
+        "end": 8.205,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 8.205,
+        "end": 8.25,
+        "type": "spacing"
+      },
+      {
+        "text": "orderan",
+        "start": 8.25,
+        "end": 8.707,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 8.707,
+        "end": 8.72,
+        "type": "spacing"
+      },
+      {
+        "text": "baru.",
+        "start": 8.72,
+        "end": 9.263,
+        "type": "word"
+      }
+    ],
+    "transcription_id": "6e56994a13612f75c813",
+    "audio_duration_secs": 9.482449
+  }
+]

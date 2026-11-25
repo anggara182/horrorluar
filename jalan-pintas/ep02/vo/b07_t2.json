@@ -1,0 +1,41 @@
+[
+  {
+    "language_code": "",
+    "language_probability": 1,
+    "text": "Kak, Naik, chapter",
+    "words": [
+      {
+        "text": "Kak,",
+        "start": 0.19,
+        "end": 0.548,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 0.548,
+        "end": 0.71,
+        "type": "spacing"
+      },
+      {
+        "text": "Naik,",
+        "start": 0.71,
+        "end": 1.22,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 1.22,
+        "end": 1.242,
+        "type": "spacing"
+      },
+      {
+        "text": "chapter",
+        "start": 1.242,
+        "end": 1.536,
+        "type": "word"
+      }
+    ],
+    "transcription_id": "84f5cdc20fe1625e0a11",
+    "audio_duration_secs": 1.854694
+  }
+]

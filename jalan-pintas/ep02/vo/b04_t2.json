@@ -1,0 +1,209 @@
+[
+  {
+    "language_code": "",
+    "language_probability": 1,
+    "text": "Kamu turun di depan Toko Dua Puluh Empat, dan di depan pintunya ada kamu lagi pesen ojol.",
+    "words": [
+      {
+        "text": "Kamu",
+        "start": 0.2,
+        "end": 0.43,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 0.43,
+        "end": 0.44,
+        "type": "spacing"
+      },
+      {
+        "text": "turun",
+        "start": 0.44,
+        "end": 1.098,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 1.098,
+        "end": 1.26,
+        "type": "spacing"
+      },
+      {
+        "text": "di",
+        "start": 1.26,
+        "end": 1.353,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 1.353,
+        "end": 1.353,
+        "type": "spacing"
+      },
+      {
+        "text": "depan",
+        "start": 1.353,
+        "end": 1.637,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 1.637,
+        "end": 1.65,
+        "type": "spacing"
+      },
+      {
+        "text": "Toko",
+        "start": 1.65,
+        "end": 1.898,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 1.898,
+        "end": 1.898,
+        "type": "spacing"
+      },
+      {
+        "text": "Dua",
+        "start": 1.898,
+        "end": 2.121,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 2.121,
+        "end": 2.122,
+        "type": "spacing"
+      },
+      {
+        "text": "Puluh",
+        "start": 2.122,
+        "end": 2.351,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 2.351,
+        "end": 2.362,
+        "type": "spacing"
+      },
+      {
+        "text": "Empat,",
+        "start": 2.362,
+        "end": 3.053,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 3.053,
+        "end": 3.1,
+        "type": "spacing"
+      },
+      {
+        "text": "dan",
+        "start": 3.1,
+        "end": 3.259,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 3.259,
+        "end": 3.28,
+        "type": "spacing"
+      },
+      {
+        "text": "di",
+        "start": 3.28,
+        "end": 3.353,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 3.353,
+        "end": 3.353,
+        "type": "spacing"
+      },
+      {
+        "text": "depan",
+        "start": 3.353,
+        "end": 3.611,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 3.611,
+        "end": 3.643,
+        "type": "spacing"
+      },
+      {
+        "text": "pintunya",
+        "start": 3.643,
+        "end": 4.467,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 4.467,
+        "end": 4.604,
+        "type": "spacing"
+      },
+      {
+        "text": "ada",
+        "start": 4.604,
+        "end": 4.812,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 4.812,
+        "end": 4.844,
+        "type": "spacing"
+      },
+      {
+        "text": "kamu",
+        "start": 4.844,
+        "end": 5.428,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 5.428,
+        "end": 5.565,
+        "type": "spacing"
+      },
+      {
+        "text": "lagi",
+        "start": 5.565,
+        "end": 5.806,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 5.806,
+        "end": 5.82,
+        "type": "spacing"
+      },
+      {
+        "text": "pesen",
+        "start": 5.82,
+        "end": 6.053,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 6.053,
+        "end": 6.07,
+        "type": "spacing"
+      },
+      {
+        "text": "ojol.",
+        "start": 6.07,
+        "end": 6.802,
+        "type": "word"
+      }
+    ],
+    "transcription_id": "d5d6c767263d09d960f8",
+    "audio_duration_secs": 6.817959
+  }
+]

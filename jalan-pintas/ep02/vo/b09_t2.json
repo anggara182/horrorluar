@@ -1,0 +1,65 @@
+[
+  {
+    "language_code": "",
+    "language_probability": 1,
+    "text": "Kak, ini nama Kakak, kan?",
+    "words": [
+      {
+        "text": "Kak,",
+        "start": 0.12,
+        "end": 0.695,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 0.695,
+        "end": 0.76,
+        "type": "spacing"
+      },
+      {
+        "text": "ini",
+        "start": 0.76,
+        "end": 0.994,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 0.994,
+        "end": 1.01,
+        "type": "spacing"
+      },
+      {
+        "text": "nama",
+        "start": 1.01,
+        "end": 1.165,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 1.165,
+        "end": 1.165,
+        "type": "spacing"
+      },
+      {
+        "text": "Kakak,",
+        "start": 1.165,
+        "end": 1.619,
+        "type": "word"
+      },
+      {
+        "text": " ",
+        "start": 1.619,
+        "end": 1.62,
+        "type": "spacing"
+      },
+      {
+        "text": "kan?",
+        "start": 1.62,
+        "end": 1.966,
+        "type": "word"
+      }
+    ],
+    "transcription_id": "c01d5351b2af3c550326",
+    "audio_duration_secs": 2.220408
+  }
+]
